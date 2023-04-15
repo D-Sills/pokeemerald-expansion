@@ -536,8 +536,8 @@ void FillDialogFramePlate()
 {
     int i;
     for (i = 0; i < DLW_WIN_PLATE_SIZE; i++) {
-        CopyToWindowPixelBuffer(1, &gMessageBox_Gfx[8*5], TILE_SIZE_4BPP, i);
-        CopyToWindowPixelBuffer(1, &gMessageBox_Gfx[8*12], TILE_SIZE_4BPP, i+DLW_WIN_PLATE_SIZE);
+        CopyToWindowPixelBuffer(1, &gMessageBox_Gfx[8*20], TILE_SIZE_4BPP, i);
+        CopyToWindowPixelBuffer(1, &gMessageBox_Gfx[8*48], TILE_SIZE_4BPP, i+DLW_WIN_PLATE_SIZE);
     }
 }
 

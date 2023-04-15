@@ -148,7 +148,7 @@ static void ExpandStringAndStartDrawFieldMessage(const u8 *str, bool32 allowSkip
             StringExpandPlaceholders(&gNamePlateBuffer[0], gSpeakerName);
         }
         FillDialogFramePlate();
-        FillWindowPixelBuffer(1, PIXEL_FILL(TEXT_COLOR_DARK_GRAY));
+        //FillWindowPixelBuffer(1, PIXEL_FILL(TEXT_COLOR_DARK_GRAY));
         AddTextPrinterParameterized2(1, FONT_SMALL, gNamePlateBuffer, 0, NULL, TEXT_COLOR_WHITE,  0, TEXT_COLOR_LIGHT_GRAY);
         PutWindowTilemap(1);
         CopyWindowToVram(1, COPYWIN_FULL);
