@@ -11,8 +11,6 @@ enum
 
 extern const u8* gSpeakerName;
 
-extern const u8* gSpeakerName;
-
 bool8 ShowFieldMessage(const u8 *str);
 bool8 ShowPokenavFieldMessage(const u8 *str);
 bool8 ShowFieldMessageFromBuffer(void);
