@@ -81,6 +81,12 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_TracksSpot                @ FLDEFF_TRACKS_SPOT
 	.4byte gFieldEffectScript_CaveDust                  @ FLDEFF_CAVE_DUST
 	.4byte gFieldEffectScript_Defog                     @ FLDEFF_DEFOG
+@ Start qol_field_moves
+    .4byte gFieldEffectScript_UseSurfTool               @ FLDEFF_USE_SURF_TOOL
+    .4byte gFieldEffectScript_UseWaterfallTool          @ FLDEFF_USE_WATERFALL_TOOL 
+    .4byte gFieldEffectScript_UseDiveTool               @ FLDEFF_USE_DIVE_TOOL
+    .4byte gFieldEffectScript_UseTeleportTool           @ FLDEFF_USE_TELEPORT_TOOL
+@ End qol_field_moves
 
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon
@@ -384,3 +390,23 @@ gFieldEffectScript_CaveDust::
 gFieldEffectScript_Defog::
     field_eff_callnative FldEff_Defog
     field_eff_end
+
+@ Start qol_field_moves
+
+gFieldEffectScript_UseSurfTool::
+	field_eff_callnative FldEff_UseSurfTool
+	field_eff_end
+
+gFieldEffectScript_UseWaterfallTool::
+    field_eff_callnative FldEff_UseWaterfallTool
+	field_eff_end
+
+gFieldEffectScript_UseDiveTool::
+    field_eff_callnative FldEff_UseDiveTool
+	field_eff_end
+
+gFieldEffectScript_UseTeleportTool::
+    field_eff_callnative FldEff_UseTeleportTool
+	field_eff_end
+
+@ End qol_field_moves
