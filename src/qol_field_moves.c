@@ -52,8 +52,7 @@ static bool8 IsPlayerFacingWaterfall(void);
 
 static void Task_UseDiveTool(u8);
 
-static bool32 PartyCanLearnMoveLevelUp(u16, u16);
-static bool32 SetMonResultVariables(u32 partyIndex, u32 species);
+//static bool32 SetMonResultVariables(u32 partyIndex, u32 species);
 
 #define tState      data[0]
 #define tFallOffset data[1]
@@ -666,52 +665,34 @@ void ClearFieldMoveFlags(void)
     FlagClear(FLAG_SYS_USE_WATERFALL);
 }
 
-static bool32 PartyCanLearnMoveLevelUp(u16 species, u16 moveId)
-{
-    u32 i = 0;
-    for (i = 0; gLevelUpLearnsets[species][i] != LEVEL_UP_END; i++)
-    {
-        if ((gLevelUpLearnsets[species][i] & LEVEL_UP_MOVE_ID) == moveId)
-            return TRUE;
-    }
-    return FALSE;
-}
-
 bool32 PartyHasMonLearnsKnowsFieldMove(u16 itemId)
 {
-    struct Pokemon *mon;
-    u32 species, i, monCanLearnTM, monCanLearnTutor;
+    /* struct Pokemon *mon;
     u16 moveId = ItemIdToBattleMoveId(itemId);
+    u32 i;
+
     gSpecialVar_Result = PARTY_SIZE;
     gSpecialVar_0x8004 = 0;
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
         mon = &gPlayerParty[i];
-        species = GetMonData(mon,MON_DATA_SPECIES,NULL);
+        u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, NULL);
 
         if (species == SPECIES_NONE)
-            break;
+            continue;
 
-        monCanLearnTM = CanMonLearnTMTutor(mon,itemId,0);
-        if ((PartyCanLearnMoveLevelUp(species, moveId)
-                || (monCanLearnTM) == ALREADY_KNOWS_MOVE)
-                || (monCanLearnTM) == CAN_LEARN_MOVE)
-            return SetMonResultVariables(i,species);
+        u8 result = CanTeachMove(mon, moveId);
+        if (result == ALREADY_KNOWS_MOVE || result == CAN_LEARN_MOVE)
+            return SetMonResultVariables(i, species);
+    } */
 
-        for (i = 0; i < TUTOR_MOVE_COUNT; i++)
-        {
-            monCanLearnTutor = CanMonLearnTMTutor(mon, 0, i);
-            if (monCanLearnTutor == ALREADY_KNOWS_MOVE || monCanLearnTutor == CAN_LEARN_MOVE)
-                return SetMonResultVariables(i,species);
-        }
-    }
     return FALSE;
 }
 
-static bool32 SetMonResultVariables(u32 partyIndex, u32 species)
-{
-    gSpecialVar_Result = partyIndex;
-    gSpecialVar_0x8004 = species;
-    return TRUE;
-}
+//static bool32 SetMonResultVariables(u32 partyIndex, u32 species)
+//{
+ //   gSpecialVar_Result = partyIndex;
+ //   gSpecialVar_0x8004 = species;
+ //   return TRUE;
+//}

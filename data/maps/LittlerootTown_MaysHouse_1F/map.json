@@ -184,5 +184,14 @@
       "script": "LittlerootTown_MaysHouse_1F_EventScript_MeetRival2"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "item": "ITEM_FLY_TOOL",
+      "flag": "FLAG_TEMP_1"
+    }
+  ]
 }

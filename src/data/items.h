@@ -14149,10 +14149,12 @@ const struct Item gItemsInfo[] =
     [ITEM_CUT_TOOL] =
     {
         .name = _("Cut Tool"),
-        .itemId = ITEM_CUT_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sCutToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CutTool,
@@ -14163,10 +14165,12 @@ const struct Item gItemsInfo[] =
     [ITEM_FLY_TOOL] =
     {
         .name = _("Fly Tool"),
-        .itemId = ITEM_FLY_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sFlyToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlyTool,
@@ -14177,10 +14181,12 @@ const struct Item gItemsInfo[] =
     [ITEM_SURF_TOOL] =
     {
         .name = _("Surf Tool"),
-        .itemId = ITEM_SURF_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sSurfToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SurfTool,
@@ -14191,10 +14197,12 @@ const struct Item gItemsInfo[] =
     [ITEM_STRENGTH_TOOL] =
     {
         .name = _("Strength Tool"),
-        .itemId = ITEM_STRENGTH_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sStrengthToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_StrengthTool,
@@ -14205,10 +14213,12 @@ const struct Item gItemsInfo[] =
     [ITEM_FLASH_TOOL] =
     {
         .name = _("Flash Tool"),
-        .itemId = ITEM_FLASH_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sFlashToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlashTool,
@@ -14219,10 +14229,12 @@ const struct Item gItemsInfo[] =
     [ITEM_ROCKSMASH_TOOL] =
     {
         .name = _("RockSmashTool"),
-        .itemId = ITEM_ROCKSMASH_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sRockSmashToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_RockSmashTool,
@@ -14233,10 +14245,12 @@ const struct Item gItemsInfo[] =
     [ITEM_WATERFALL_TOOL] =
     {
         .name = _("WaterfallTool"),
-        .itemId = ITEM_WATERFALL_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sWaterfallToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_WaterfallTool,
@@ -14247,10 +14261,12 @@ const struct Item gItemsInfo[] =
     [ITEM_DIVE_TOOL] =
     {
         .name = _("Dive Tool"),
-        .itemId = ITEM_DIVE_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sDiveToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_DiveTool,
@@ -14261,10 +14277,12 @@ const struct Item gItemsInfo[] =
     [ITEM_TELEPORT_TOOL] =
     {
         .name = _("Teleport Tool"),
-        .itemId = ITEM_TELEPORT_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sTeleportToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_TeleportTool,
@@ -14275,10 +14293,12 @@ const struct Item gItemsInfo[] =
     [ITEM_SWEETSCENT_TOOL] =
     {
         .name = _("SweetScntTool"),
-        .itemId = ITEM_SWEETSCENT_TOOL,
-        .price = 0,
         .importance = 1,
-        .description = sSweetScentToolDesc,
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Lets a Pokémon use\n"
+            "Cut in the field.\n"
+            "A handy tool."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SweetScentTool,
