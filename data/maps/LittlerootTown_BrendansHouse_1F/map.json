@@ -169,6 +169,15 @@
       "var": "VAR_LITTLEROOT_RIVAL_STATE",
       "var_value": "2",
       "script": "LittlerootTown_BrendansHouse_1F_EventScript_MeetRival2"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "LittlerootTown_BrendansHouse_1F_MapScripts"
     }
   ],
   "bg_events": []
