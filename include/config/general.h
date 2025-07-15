@@ -86,6 +86,10 @@
 
 #define SAVE_TYPE_ERROR_SCREEN              FALSE   // When enabled, this shows an error message when the game is loaded on a cart without a flash chip or on an emulator with the wrong save type setting instead of crashing.
 
+// Config to toggle using the new shop menu.
+#define MUDSKIP_SHOP_UI
+
+
 #define MUDSKIP_OUTFIT_SYSTEM
 
 #endif // GUARD_CONFIG_GENERAL_H
