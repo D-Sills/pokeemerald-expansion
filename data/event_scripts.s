@@ -61,6 +61,7 @@
 #include "constants/union_room.h"
 #include "constants/vars.h"
 #include "constants/weather.h"
+#include "constants/field_mugshots.h"
 #include "constants/outfits.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"

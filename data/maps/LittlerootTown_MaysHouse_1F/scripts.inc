@@ -813,18 +813,20 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 
 MyScript::
 # 410 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	speakername MyScript_Text_0
+	createfieldmugshot MUGSHOT_TEST, EMOTE_NORMAL
 # 411 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	msgbox MyScript_Text_1
+	speakername MyScript_Text_0
 # 412 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
+	msgbox MyScript_Text_1
+# 413 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	closemessage
 	return
 
 
 MyScript_Text_0:
-# 410 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
+# 411 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	.string "Big sis$"
 
 MyScript_Text_1:
-# 411 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
+# 412 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	.string "Oh, you're up! Ready for the big event?$"
