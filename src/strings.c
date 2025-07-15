@@ -987,6 +987,9 @@ const u8 gText_MoveCloserToLinkPartner[] = _("Move closer to your link partner(s
 const u8 gText_ABtnRegistrationCounter[] = _("A Button: Registration Counter");
 const u8 gText_ABtnTitleScreen[] = _("A Button: Title Screen");
 const u8 gText_Option[] = _("OPTION");
+const u8 gText_SmallDot[] = _("·");
+const u8 gText_LargeDot[] = _("{EMOJI_CIRCLE}");
+const u8 gText_PageNav[] = _("{L_BUTTON}{R_BUTTON} PAGE");
 const u8 gText_TextSpeed[] = _("TEXT SPEED");
 const u8 gText_BattleScene[] = _("BATTLE SCENE");
 const u8 gText_BattleStyle[] = _("BATTLE STYLE");
@@ -994,6 +997,15 @@ const u8 gText_Sound[] = _("SOUND");
 const u8 gText_Frame[] = _("FRAME");
 const u8 gText_OptionMenuCancel[] = _("CANCEL");
 const u8 gText_ButtonMode[] = _("BUTTON MODE");
+// new options
+const u8 gText_Follower[] = _("FOLLOWERS");
+const u8 gText_Difficulty[] = _("DIFFICULTY");
+const u8 gText_FollowerOff[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}HIDE");
+const u8 gText_FollowerOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SHOW");
+const u8 gText_DifficultyEasy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}EASY");
+const u8 gText_DifficultyNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL");
+const u8 gText_DifficultyHard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}HARD");
+// end new options
 const u8 gText_TextSpeedSlow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW");
 const u8 gText_TextSpeedMid[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}MID");
 const u8 gText_TextSpeedFast[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}FAST");

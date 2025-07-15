@@ -261,6 +261,18 @@ extern const u8 gText_FrameType[];
 extern const u8 gText_ButtonTypeNormal[];
 extern const u8 gText_ButtonTypeLR[];
 extern const u8 gText_ButtonTypeLEqualsA[];
+// new option texts
+extern const u8 gText_SmallDot[];
+extern const u8 gText_LargeDot[];
+extern const u8 gText_PageNav[];
+extern const u8 gText_FollowerOff[];
+extern const u8 gText_FollowerOn[];
+extern const u8 gText_DifficultyEasy[];
+extern const u8 gText_DifficultyNormal[];
+extern const u8 gText_DifficultyHard[];
+extern const u8 gText_Follower[];
+extern const u8 gText_Difficulty[];
+//
 extern const u8 gText_Option[];
 extern const u8 gText_OptionMenu[];
 extern const u8 gText_TextSpeed[];
