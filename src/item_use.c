@@ -1644,6 +1644,7 @@ void ItemUseOutOfBattle_TownMap(u8 taskId)
     }
 }
 
+// start outfit box
 void ItemUseOutOfBattle_OutfitBox(u8 taskId)
 {
     if (MenuHelpers_IsLinkActive() == TRUE)
@@ -1677,40 +1678,7 @@ static void Task_OpenRegisteredOutfitBox(u8 taskId)
         DestroyTask(taskId);
     }
 }
-
-void ItemUseOutOfBattle_OutfitBox(u8 taskId)
-{
-    if (MenuHelpers_IsLinkActive() == TRUE)
-    {
-        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
-    }
-    else if (gTasks[taskId].tUsingRegisteredKeyItem != TRUE)
-    {
-        gBagMenu->newScreenCallback = CB2_OpenOutfitBoxFromBag;
-        Task_FadeAndCloseBagMenu(taskId);
-    }
-    else
-    {
-        gFieldCallback = FieldCB_ReturnToFieldNoScript;
-        FadeScreen(FADE_TO_BLACK, 0);
-        gTasks[taskId].func = Task_OpenRegisteredOutfitBox;
-    }
-}
-
-static void CB2_OpenOutfitBoxFromBag(void)
-{
-    OpenOutfitMenu(CB2_ReturnToBagMenuPocket);
-}
-
-static void Task_OpenRegisteredOutfitBox(u8 taskId)
-{
-    if (!gPaletteFade.active)
-    {
-        CleanupOverworldWindowsAndTilemaps();
-        OpenOutfitMenu(CB2_ReturnToField);
-        DestroyTask(taskId);
-    }
-}
+// end outfit box
 
 // Start qol_field_moves
 void ItemUseOutOfBattle_CutTool(u8 taskId)

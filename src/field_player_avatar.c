@@ -107,9 +107,8 @@ static void CheckAcroBikeCollision(s16, s16, u8, u8 *);
 static void DoPlayerAvatarTransition(void);
 static void PlayerAvatarTransition_Dummy(struct ObjectEvent *);
 static void PlayerAvatarTransition_Normal(struct ObjectEvent *);
-static void PlayerAvatarTransition_MachBike(struct ObjectEvent *);
-static void PlayerAvatarTransition_AcroBike(struct ObjectEvent *);
 //static void PlayerAvatarTransition_Surfing(struct ObjectEvent *); // qol_field_moves
+static void PlayerAvatarTransition_Bike(struct ObjectEvent *);
 static void PlayerAvatarTransition_Underwater(struct ObjectEvent *);
 static void PlayerAvatarTransition_ReturnToField(struct ObjectEvent *);
 

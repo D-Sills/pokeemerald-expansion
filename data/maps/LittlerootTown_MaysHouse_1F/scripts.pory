@@ -407,6 +407,7 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 `
 
 script MyScript {
+	
 	speakername("Big sis")
 	msgbox("Oh, you're up! Ready for the big event?")
 	closemessage
