@@ -1690,6 +1690,7 @@ const u32 gMoveTypes_Pal_New[] = INCBIN_U32("graphics/types_new/move_types_new.g
 #else
 const u32 gMoveTypes_Gfx[] = INCBIN_U32("graphics/types/move_types.4bpp.lz");
 const u16 gMoveTypes_Pal[] = INCBIN_U16("graphics/types/move_types.gbapal");
+#endif // P_SUMMARY_SCREEN_NEW_TYPE_ICONS
 
 const u32 gSummaryMoveSelect_Gfx[] = INCBIN_U32("graphics/summary_screen/move_select.4bpp.lz");
 const u16 gSummaryMoveSelect_Pal[] = INCBIN_U16("graphics/summary_screen/move_select.gbapal");

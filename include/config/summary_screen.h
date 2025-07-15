@@ -42,8 +42,8 @@ Info taken from https://bulbapedia.bulbagarden.net/wiki/Stats_judge.
 #define MON_SHADOWS_Y 2 //The Y position of the shadow sprite.
 
 //Ability Settings Settings
-#define P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION FALSE //If TRUE, the ability description will be expanded to show the full description of the ability instead of just one line.
-#define P_SUMMARY_SCREEN_EXPAND_MOVE_DESCRIPTION FALSE //If TRUE, the ability description will be expanded to show the full description of the move instead of just one line.
+#define P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION TRUE //If TRUE, the ability description will be expanded to show the full description of the ability instead of just one line.
+#define P_SUMMARY_SCREEN_EXPAND_MOVE_DESCRIPTION TRUE //If TRUE, the ability description will be expanded to show the full description of the move instead of just one line.
 #define P_SUMMARY_SCREEN_ABILITY_DESCRIPTION_FONT_CHANGE FALSE //If TRUE && P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION = FALSE, the ability desc font will change to make one line desc somewhat longer.
 #define DESCRIPTION_FONT_CHANGE_VALUE 7 //7 By Default.
 
@@ -67,18 +67,18 @@ Info taken from https://bulbapedia.bulbagarden.net/wiki/Stats_judge.
 #define BACKGROUND_COLOR_VALUE            2 //The color of the background. Defaults to Gold.
 
 //Item Settings
-#define P_SUMMARY_SCREEN_ITEM_ICON         FALSE //If TRUE, the item icon will be shown in the summary screen, next to the name.
+#define P_SUMMARY_SCREEN_ITEM_ICON         TRUE //If TRUE, the item icon will be shown in the summary screen, next to the name.
 
 //Page Settings
-#define P_SUMMARY_SCREEN_SHOW_CONTEST_MOVES  TRUE //If FALSE, the contest moves page will be hidden in the summary screen.
+#define P_SUMMARY_SCREEN_SHOW_CONTEST_MOVES  FALSE //If FALSE, the contest moves page will be hidden in the summary screen.
 
 //Mon Settings
-#define P_SUMMARY_SCREEN_MON_IDLE_ANIMS         FALSE //If TRUE, the mons animations regularly as an "idle" anim.
+#define P_SUMMARY_SCREEN_MON_IDLE_ANIMS         TRUE //If TRUE, the mons animations regularly as an "idle" anim.
 #define P_SUMMARY_SCREEN_MON_IDLE_ANIMS_FRAMES  300 // number of frames between each idle anim IF P_SUMMARY_SCREEN_MON_IDLE_ANIMS is true.
                                                     // for reference, Emerald runs at 60FPS by default, 300 is the default number.
  
 //Type Icons Settings
-#define P_SUMMARY_SCREEN_NEW_TYPE_ICONS TRUE //If TRUE, the new type icons will be used in the summary screen, TRUE by default.
-#define P_SUMMARY_SCREEN_NEW_TERA_TYPE_ICONS TRUE //If TRUE, the new tera type icons will be used in the summary screen.
+#define P_SUMMARY_SCREEN_NEW_TYPE_ICONS FALSE //If TRUE, the new type icons will be used in the summary screen, TRUE by default.
+#define P_SUMMARY_SCREEN_NEW_TERA_TYPE_ICONS FALSE //If TRUE, the new tera type icons will be used in the summary screen.
 
 #endif // GUARD_CONFIG_SUMMARY_SCREEN_H
