@@ -38,7 +38,6 @@
 	.4byte \script
 	.2byte \event_flag
 	.2byte \quest_id
-	.space 2  @ Padding
 	inc _num_npcs
 	.endm
 
