@@ -90,6 +90,7 @@ Underwater_SeafloorCavern_Text_SubExplorer1:
 	.string "“SUBMARINE EXPLORER 1” is painted\n"
 # 46 "data/maps/Underwater_SeafloorCavern/scripts.pory"
 	.string "on the hull.\p"
+<<<<<<< HEAD
 # 47 "data/maps/Underwater_SeafloorCavern/scripts.pory"
 	.string "This is the submarine TEAM AQUA\n"
 # 48 "data/maps/Underwater_SeafloorCavern/scripts.pory"
@@ -97,4 +98,9 @@ Underwater_SeafloorCavern_Text_SubExplorer1:
 # 49 "data/maps/Underwater_SeafloorCavern/scripts.pory"
 	.string "TEAM AQUA must have gone\n"
 # 50 "data/maps/Underwater_SeafloorCavern/scripts.pory"
+=======
+	.string "This is the submarine Team Aqua\n"
+	.string "stole in Slateport!\p"
+	.string "Team Aqua must have gone\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "ashore here.$"

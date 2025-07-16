@@ -424,15 +424,23 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 
 # 213 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
+<<<<<<< HEAD
 # 214 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Well, hello and welcome!\n"
 # 215 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Well, hello and welcome!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Heheh… Sorry about the cramped space.\p"
 # 216 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Anyway, {PLAYER}{KUN}, let me formally\n"
+<<<<<<< HEAD
 # 217 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "welcome you to the BATTLE FRONTIER.\p"
 # 218 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "welcome you to the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This is my dream come true.\n"
 # 219 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "It took me years and years, but I've\l"
@@ -448,9 +456,13 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
 	.string "journey…\p"
 # 225 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "I left home alone on a quest to find\n"
+<<<<<<< HEAD
 # 226 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "strong TRAINERS.\p"
 # 227 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "strong Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No one can imagine how much effort\n"
 # 228 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "or time it took to make this real.$"
@@ -484,6 +496,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 
 # 243 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
+<<<<<<< HEAD
 # 244 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: You can check your Battle\n"
 # 245 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
@@ -493,6 +506,12 @@ BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
 # 247 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "the BATTLE FRONTIER, the more Battle\l"
 # 248 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: You can check your Battle\n"
+	.string "Points on your Frontier Pass.\p"
+	.string "The more success you have here at\n"
+	.string "the Battle Frontier, the more Battle\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Points you will collect.\p"
 # 249 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Use your Battle Points the way you\n"
@@ -508,9 +527,13 @@ BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
 
 # 255 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
+<<<<<<< HEAD
 # 256 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Every TRAINER is an individual.\n"
 # 257 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Every Trainer is an individual.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They all lead lives of their own.\p"
 # 258 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "But when they're in a battle,\n"
@@ -524,27 +547,41 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 	.string "where everyone is equal.\p"
 # 263 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "That's why I go everywhere seeking\n"
+<<<<<<< HEAD
 # 264 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "TRAINERS who are serious about\l"
 # 265 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Trainers who are serious about\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "battling, and invite them here.$"
 # 266 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 
 # 267 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
+<<<<<<< HEAD
 # 268 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Have you met any of\n"
 # 269 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "the FRONTIER BRAINS?\p"
 # 270 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Have you met any of\n"
+	.string "the Frontier Brains?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Better yet, have you obtained any\n"
 # 271 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "symbols from them?\p"
+<<<<<<< HEAD
 # 272 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "I handpicked the FRONTIER BRAINS\n"
 # 273 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "as the toughest TRAINERS anywhere.\p"
 # 274 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "I handpicked the Frontier Brains\n"
+	.string "as the toughest Trainers anywhere.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But I'm sure that seeing how tough\n"
 # 275 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "you are will startle even them!$"
@@ -552,12 +589,17 @@ BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
 
 # 277 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
+<<<<<<< HEAD
 # 278 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: You don't just train for battle,\n"
 # 279 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: You don't just train for battle,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "right?\p"
 # 280 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "I think I remember you working on\n"
+<<<<<<< HEAD
 # 281 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "a POKéDEX as well.\p"
 # 282 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
@@ -567,22 +609,37 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 # 284 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "the BATTLE FRONTIER somewhere…\l"
 # 285 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "a Pokédex as well.\p"
+	.string "Well, guess what?\p"
+	.string "You may run into wild Pokémon in\n"
+	.string "the Battle Frontier somewhere…\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Fufufu!$"
 # 286 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 
 # 287 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
+<<<<<<< HEAD
 # 288 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Are you enjoying things in\n"
 # 289 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "the BATTLE FRONTIER?\p"
 # 290 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Are you enjoying things in\n"
+	.string "the Battle Frontier?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "…Wait a second…\n"
 # 291 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Oh!\p"
+<<<<<<< HEAD
 # 292 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Your FRONTIER PASS!\n"
 # 293 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Your Frontier Pass!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You've collected the full set\l"
 # 294 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "of silver symbols!\p"
@@ -602,17 +659,26 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 
 # 302 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
+<<<<<<< HEAD
 # 303 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: I hope you're enjoying\n"
 # 304 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "everything in the BATTLE FRONTIER.\p"
 # 305 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: I hope you're enjoying\n"
+	.string "everything in the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "…Wait a second…\n"
 # 306 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Oh, my disbelieving eyes!\p"
+<<<<<<< HEAD
 # 307 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Your FRONTIER PASS!\n"
 # 308 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Your Frontier Pass!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You've gathered up the full set\l"
 # 309 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "of gold symbols!\p"
@@ -634,9 +700,13 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 # 318 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "I must say I have the gift of knowing\n"
+<<<<<<< HEAD
 # 319 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "a good TRAINER when I see one.\p"
 # 320 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "a good Trainer when I see one.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm so glad I had the foresight to\n"
 # 321 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "bring you here!$"
@@ -644,14 +714,19 @@ BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 
 # 323 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
+<<<<<<< HEAD
 # 324 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "Your BERRY POCKET seems to\n"
 # 325 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Your Berry Pocket seems to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "be stuffed.$"
 # 326 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 
 # 327 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
+<<<<<<< HEAD
 # 328 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Oh, I heard about you!\n"
 # 329 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
@@ -659,6 +734,11 @@ BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
 # 330 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "You beat over 50 TRAINERS in a row?\p"
 # 331 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Oh, I heard about you!\n"
+	.string "How you ruled the Battle Tower!\l"
+	.string "You beat over 50 Trainers in a row?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's fantastic!\n"
 # 332 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "I want you to have this!$"
@@ -666,6 +746,7 @@ BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
 
 # 334 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
+<<<<<<< HEAD
 # 335 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "SCOTT: Oh, my! I heard about you!\n"
 # 336 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
@@ -673,6 +754,11 @@ BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
 # 337 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "You beat over 100 TRAINERS in a row?\p"
 # 338 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
+=======
+	.string "Scott: Oh, my! I heard about you!\n"
+	.string "How you overwhelmed the Battle Tower!\l"
+	.string "You beat over 100 Trainers in a row?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's ridiculously spectacular!\n"
 # 339 "data/maps/BattleFrontier_ScottsHouse/scripts.pory"
 	.string "You've got to have this!$"

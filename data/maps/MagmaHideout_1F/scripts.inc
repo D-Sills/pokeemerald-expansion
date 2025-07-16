@@ -38,9 +38,13 @@ MagmaHideout_1F_EventScript_Grunt2::
 
 # 20 "data/maps/MagmaHideout_1F/scripts.pory"
 MagmaHideout_1F_Text_Grunt1Intro:
+<<<<<<< HEAD
 # 21 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "When TEAM MAGMA has roll call, we get\n"
 # 22 "data/maps/MagmaHideout_1F/scripts.pory"
+=======
+	.string "When Team Magma has roll call, we get\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "important guarding assignments in\l"
 # 23 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "the order that we line up.\p"
@@ -72,9 +76,13 @@ MagmaHideout_1F_Text_Grunt1PostBattle:
 MagmaHideout_1F_Text_Grunt2Intro:
 # 37 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "Our leader told us to dig into\n"
+<<<<<<< HEAD
 # 38 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "MT. CHIMNEY, so we dug and dug.\p"
 # 39 "data/maps/MagmaHideout_1F/scripts.pory"
+=======
+	.string "Mt. Chimney, so we dug and dug.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And in the course of digging, we came\n"
 # 40 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "across something that blew our minds!\p"

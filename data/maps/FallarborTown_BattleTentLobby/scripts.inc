@@ -620,6 +620,7 @@ FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid:
 
 # 311 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
+<<<<<<< HEAD
 # 312 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "You know how BATTLE TENTS offer\n"
 # 313 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
@@ -635,6 +636,15 @@ FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
 # 318 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "their POKéMON.$"
 # 319 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
+=======
+	.string "You know how Battle Tents offer\n"
+	.string "different events in different towns?\p"
+	.string "My favorite is definitely the Battle\n"
+	.string "Tent in Fallarbor Town.\p"
+	.string "I think it's fantastic how Trainers\n"
+	.string "try to win with all their faith in\l"
+	.string "their Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 320 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 FallarborTown_BattleTentLobby_Text_CameToCampOut:
@@ -654,11 +664,16 @@ FallarborTown_BattleTentLobby_Text_CameToCampOut:
 
 # 328 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
+<<<<<<< HEAD
 # 329 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
 # 330 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "So you came out to this BATTLE TENT!\p"
 # 331 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
+=======
+	.string "Scott: Hi, {PLAYER}{KUN}!\n"
+	.string "So you came out to this Battle Tent!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The people in these parts tend to be\n"
 # 332 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "easygoing and laid-back.\p"
@@ -672,9 +687,13 @@ FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
 	.string "Someone bursting with the desire\n"
 # 337 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "and the drive to win.\p"
+<<<<<<< HEAD
 # 338 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "If there were a TRAINER like that,\n"
 # 339 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
+=======
+	.string "If there were a Trainer like that,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd immediately…\p"
 # 340 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "Whoops! Never mind!\n"
@@ -684,9 +703,13 @@ FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
 
 # 343 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
+<<<<<<< HEAD
 # 344 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "SCOTT: Instead of wasting your\n"
 # 345 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
+=======
+	.string "Scott: Instead of wasting your\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "time with the likes of me, why not\l"
 # 346 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	.string "make a challenge?$"

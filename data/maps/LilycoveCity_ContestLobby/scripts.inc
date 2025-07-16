@@ -1962,12 +1962,17 @@ LilycoveCity_ContestLobby_Text_LadyGaveMePokeblockCase:
 	.string "Yippee!\p"
 # 982 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "The lady at the reception counter\n"
+<<<<<<< HEAD
 # 983 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "gave me a case for {POKEBLOCK}S!$"
 # 984 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "gave me a case for {POKEBLOCK}s!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 985 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
+<<<<<<< HEAD
 # 986 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Make {POKEBLOCK}S and put them in there.\p"
 # 987 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -1975,11 +1980,17 @@ LilycoveCity_ContestLobby_Text_MakePokeblocksDifferentBerries:
 # 988 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "has to put in a different BERRY.$"
 # 989 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Make {POKEBLOCK}s and put them in there.\p"
+	.string "When you make a {POKEBLOCK}, everyone\n"
+	.string "has to put in a different Berry.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 990 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 # 991 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Congratulations!\p"
+<<<<<<< HEAD
 # 992 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "I did a painting of your POKéMON to\n"
 # 993 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -1987,6 +1998,11 @@ LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint:
 # 994 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Well, your POKéMON's appeals were\n"
 # 995 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "I did a painting of your Pokémon to\n"
+	.string "commemorate its victory…\p"
+	.string "Well, your Pokémon's appeals were\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so fantastic, it spurred me into\l"
 # 996 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "painting better than I usually do.\l"
@@ -2036,21 +2052,33 @@ LilycoveCity_ContestLobby_Text_TakeMementoOfPainting:
 	.string "Oh, that's right!\p"
 # 1019 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "As a memento of me painting your\n"
+<<<<<<< HEAD
 # 1020 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "POKéMON, please take this.$"
 # 1021 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Pokémon, please take this.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1022 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_ReceivedARibbon:
+<<<<<<< HEAD
 # 1023 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "{PLAYER} received a RIBBON.$"
 # 1024 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "{PLAYER} received a Ribbon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1025 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon:
+<<<<<<< HEAD
 # 1026 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "{PLAYER} put the RIBBON on\n"
 # 1027 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "{PLAYER} put the Ribbon on\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_1}.$"
 # 1028 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -2086,15 +2114,23 @@ LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs:
 
 # 1044 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_MasterRankHereICome:
+<<<<<<< HEAD
 # 1045 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Hoo, boy… Master Rank CONTESTS,\n"
 # 1046 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Hoo, boy… Master Rank Contests,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "here I come.\p"
 # 1047 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "The world will know that my dearest\n"
+<<<<<<< HEAD
 # 1048 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "POKéMON is the cutest being in all\l"
 # 1049 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Pokémon is the cutest being in all\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "existence. The time has come!\l"
 # 1050 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Uheheheh.$"
@@ -2104,9 +2140,13 @@ LilycoveCity_ContestLobby_Text_MasterRankHereICome:
 LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
 # 1053 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "You can see a whole variety of\n"
+<<<<<<< HEAD
 # 1054 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "POKéMON here.\p"
 # 1055 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Pokémon here.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's why I make this place a regular\n"
 # 1056 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "part of my daily stroll.$"
@@ -2114,6 +2154,7 @@ LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
 
 # 1058 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
+<<<<<<< HEAD
 # 1059 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Wow, coming out to a CONTEST is\n"
 # 1060 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -2121,14 +2162,23 @@ LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
 # 1061 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Would you look at all the POKéMON\n"
 # 1062 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "Wow, coming out to a Contest is\n"
+	.string "a feast for these eyes!\p"
+	.string "Would you look at all the Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that just scream to be painted?$"
 # 1063 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
 # 1064 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
+<<<<<<< HEAD
 # 1065 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "The TOUGHNESS CONTEST is like\n"
 # 1066 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "The Toughness Contest is like\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "extreme, man!\p"
 # 1067 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Those muscular appeals…\n"
@@ -2140,9 +2190,13 @@ LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
 LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 # 1071 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Day in and day out, I lavished my care\n"
+<<<<<<< HEAD
 # 1072 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "on this POKéMON.\p"
 # 1073 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "on this Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Its condition is peaking.\n"
 # 1074 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "Today, victory is mine!$"
@@ -2150,11 +2204,20 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 
 # 1076 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
+<<<<<<< HEAD
 # 1077 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "I made {POKEBLOCK}S with Mom, Dad, and\n"
 # 1078 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	.string "I made {POKEBLOCK}s with Mom, Dad, and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Big Sister. They turned out great!\p"
 # 1079 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "I bet you can make smoother, better\n"
+<<<<<<< HEAD
 # 1080 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	.string "{POKEBLOCK}S if you have more people.$"
+=======
+	.string "{POKEBLOCK}s if you have more people.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

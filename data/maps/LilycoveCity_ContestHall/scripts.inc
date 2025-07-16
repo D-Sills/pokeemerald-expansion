@@ -626,20 +626,29 @@ LilycoveCity_ContestHall_EventScript_SmartStageSign::
 
 # 314 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
+<<<<<<< HEAD
 # 315 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "This POKéMON won the BEAUTY CONTEST\n"
 # 316 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "This Pokémon won the Beauty Contest\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "here before.\p"
 # 317 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Well, guess what? Today, I made it\n"
+<<<<<<< HEAD
 # 318 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "win a SMARTNESS CONTEST!\p"
 # 319 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "win a Smartness Contest!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My abilities scare even me…$"
 # 320 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 321 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
+<<<<<<< HEAD
 # 322 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I've entered a bunch of CONTESTS,\n"
 # 323 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -647,6 +656,11 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 # 324 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "If you're in a COOLNESS CONTEST,\n"
 # 325 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "I've entered a bunch of Contests,\n"
+	.string "so I'm seeing how things work.\p"
+	.string "If you're in a Coolness Contest,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "cool moves go over as appeals.\p"
 # 326 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "But smart moves and cute moves\n"
@@ -658,9 +672,13 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
 # 330 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "That young man who won earlier had\n"
+<<<<<<< HEAD
 # 331 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "a whole bunch of different {POKEBLOCK}S.\p"
 # 332 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "a whole bunch of different {POKEBLOCK}s.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Can you win if you had that many\n"
 # 333 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "of those things?$"
@@ -672,17 +690,26 @@ LilycoveCity_ContestHall_Text_IsntThisPlaceHumongous:
 	.string "Whoa, isn't this place humongous!\p"
 # 337 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "The tension in the air… It's not\n"
+<<<<<<< HEAD
 # 338 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "like a CONTEST hall in the sticks.$"
 # 339 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "like a Contest hall in the sticks.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 340 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
+<<<<<<< HEAD
 # 341 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "MC: Okay, SMART POKéMON and their\n"
 # 342 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "TRAINERS, are you ready?!\p"
 # 343 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "MC: Okay, Smart Pokémon and their\n"
+	.string "Trainers, are you ready?!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Give it your best showing!\n"
 # 344 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Let's appeal!$"
@@ -690,6 +717,7 @@ LilycoveCity_ContestHall_Text_GiveItBestSmartAppeal:
 
 # 346 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
+<<<<<<< HEAD
 # 347 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "JUDGE: Are you enjoying this CONTEST?\p"
 # 348 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -697,11 +725,17 @@ LilycoveCity_ContestHall_Text_AreYouEnjoyingThisContest:
 # 349 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "all of you may enter a CONTEST!$"
 # 350 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Judge: Are you enjoying this Contest?\p"
+	.string "Come back with three friends, and\n"
+	.string "all of you may enter a Contest!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 351 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_EnteredWrongContest:
 # 352 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Ayayayay…\n"
+<<<<<<< HEAD
 # 353 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I entered the wrong CONTEST.\p"
 # 354 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -713,20 +747,35 @@ LilycoveCity_ContestHall_Text_EnteredWrongContest:
 # 357 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "ROCK SMASH.$"
 # 358 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "I entered the wrong Contest.\p"
+	.string "I entered this tough Pokémon in\n"
+	.string "the Smartness Contest…\p"
+	.string "Come on, wow them with a smart-looking\n"
+	.string "Rock Smash.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 359 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 # 360 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I've spent many a year, and all my\n"
+<<<<<<< HEAD
 # 361 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "wisdom besides, raising this POKéMON\l"
 # 362 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "wisdom besides, raising this Pokémon\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to be smart.\p"
 # 363 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "It won't be easily bested by some\n"
+<<<<<<< HEAD
 # 364 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "young pup's POKéMON.\p"
 # 365 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "young pup's Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My dear wife, are you seeing this?$"
 # 366 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
@@ -734,9 +783,13 @@ LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
 # 368 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "There it is!\p"
+<<<<<<< HEAD
 # 369 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "If my POKéMON pulls a smart move next,\n"
 # 370 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "If my Pokémon pulls a smart move next,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the audience's excitement will peak!$"
 # 371 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
@@ -744,9 +797,13 @@ LilycoveCity_ContestHall_Text_IfMonPullsSmartMoveNext:
 LilycoveCity_ContestHall_Text_DontAppreciateCuteLeechLife:
 # 373 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Oh, dear, no!\p"
+<<<<<<< HEAD
 # 374 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "My darling ZUBAT's LEECH LIFE is so\n"
 # 375 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "My darling Zubat's Leech Life is so\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "cute I kept using it over and over!\p"
 # 376 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "But these mean people don't appreciate\n"
@@ -762,11 +819,16 @@ LilycoveCity_ContestHall_Text_YoureBeautifulGrandpa:
 
 # 382 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
+<<<<<<< HEAD
 # 383 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Even when TRAINERS enter the same\n"
 # 384 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "kind of POKéMON, they all seem to use\l"
 # 385 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Even when Trainers enter the same\n"
+	.string "kind of Pokémon, they all seem to use\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "different moves for appeals.\p"
 # 386 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "It's just like the way people have\n"
@@ -776,19 +838,28 @@ LilycoveCity_ContestHall_Text_AllSeemToUseDifferentMoves:
 
 # 389 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
+<<<<<<< HEAD
 # 390 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I think the POKéMON look smarter\n"
 # 391 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "than their TRAINERS. By a lot.$"
 # 392 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "I think the Pokémon look smarter\n"
+	.string "than their Trainers. By a lot.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 393 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
 # 394 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "When all's said and done, I still love\n"
+<<<<<<< HEAD
 # 395 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "SMARTNESS CONTESTS.\p"
 # 396 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Smartness Contests.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That intellectual green color…\n"
 # 397 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "It's so… So… Cool.$"
@@ -796,17 +867,26 @@ LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
 
 # 399 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_AreYouEnteringBeautyContest:
+<<<<<<< HEAD
 # 400 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "MC: Are you entering the BEAUTY\n"
 # 401 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "CONTEST, too? Good luck!$"
 # 402 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "MC: Are you entering the Beauty\n"
+	.string "Contest, too? Good luck!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 403 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
+<<<<<<< HEAD
 # 404 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "JUDGE: Ah, every POKéMON here is\n"
 # 405 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Judge: Ah, every Pokémon here is\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a model of pristine beauty!\p"
 # 406 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Why, I almost forgot to score them!$"
@@ -814,9 +894,13 @@ LilycoveCity_ContestHall_Text_EveryPokemonPristineBeauty:
 
 # 408 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
+<<<<<<< HEAD
 # 409 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "A POKéMON this beautiful…\n"
 # 410 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "A Pokémon this beautiful…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There isn't another one like it.\p"
 # 411 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Everyone's eyes will be glued to\n"
@@ -828,6 +912,7 @@ LilycoveCity_ContestHall_Text_EyesWillBeGluedToMyBeauty:
 LilycoveCity_ContestHall_Text_OverdidGrooming:
 # 415 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Waaaah!\p"
+<<<<<<< HEAD
 # 416 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I brushed and groomed my POKéMON\n"
 # 417 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -837,16 +922,27 @@ LilycoveCity_ContestHall_Text_OverdidGrooming:
 # 419 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "My POKéMON's coat turned all scraggly…\p"
 # 420 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "I brushed and groomed my Pokémon\n"
+	.string "carefully for this Contest…\p"
+	.string "But I overdid it…\n"
+	.string "My Pokémon's coat turned all scraggly…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What should I do?$"
 # 421 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 422 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
+<<<<<<< HEAD
 # 423 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "This AURORA BEAM is so dazzling,\n"
 # 424 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "the JUDGE won't be able to see it.\p"
 # 425 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "This Aurora Beam is so dazzling,\n"
+	.string "the Judge won't be able to see it.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Uh, wait a second…\n"
 # 426 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "That'll be meaningless, then!$"
@@ -854,9 +950,13 @@ LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
 
 # 428 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
+<<<<<<< HEAD
 # 429 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "This pretty POKéMON looks just like\n"
 # 430 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "This pretty Pokémon looks just like\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "me when I was younger.\p"
 # 431 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Right when I said that, my husband\n"
@@ -868,11 +968,16 @@ LilycoveCity_ContestHall_Text_PokemonLooksLikeYoungerMe:
 
 # 435 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
+<<<<<<< HEAD
 # 436 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "You know, if I win at a BEAUTY\n"
 # 437 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "CONTEST, sure it makes me\l"
 # 438 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "You know, if I win at a Beauty\n"
+	.string "Contest, sure it makes me\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "happy. More than usual, anyway.$"
 # 439 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
@@ -882,9 +987,13 @@ LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
 	.string "Wahahahah!\p"
 # 442 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Will you take a gander at all those\n"
+<<<<<<< HEAD
 # 443 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "pretty POKéMON!\l"
 # 444 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "pretty Pokémon!\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I just love this sort of glitz!$"
 # 445 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
@@ -894,9 +1003,13 @@ LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
 	.string "You can't always win on just beauty\n"
 # 448 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "alone.\p"
+<<<<<<< HEAD
 # 449 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "You have to groom your POKéMON so\n"
 # 450 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "You have to groom your Pokémon so\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it's nice and glossy like mine.$"
 # 451 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
@@ -904,9 +1017,13 @@ LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
 LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
 # 453 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "MC: Uh-oh! Hello!\n"
+<<<<<<< HEAD
 # 454 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "We're in the middle of a CONTEST!\p"
 # 455 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "We're in the middle of a Contest!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please enter at our registration\n"
 # 456 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "counter and come out, okay?$"
@@ -914,37 +1031,59 @@ LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
 
 # 458 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
+<<<<<<< HEAD
 # 459 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "JUDGE: Oh, such charming and cute\n"
 # 460 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Judge: Oh, such charming and cute\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "appeals!\p"
 # 461 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Oh, my goodness! What a perfectly\n"
+<<<<<<< HEAD
 # 462 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "adorable WATER SPORT appeal!$"
 # 463 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "adorable Water Sport appeal!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 464 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
+<<<<<<< HEAD
 # 465 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Oh, no… My sweet AZURILL was\n"
 # 466 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "distracted by another POKéMON.$"
 # 467 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Oh, no… My sweet Azurill was\n"
+	.string "distracted by another Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 468 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
+<<<<<<< HEAD
 # 469 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "My POKéMON has never won in a battle,\n"
 # 470 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "but put it in a CONTEST and look out!$"
 # 471 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "My Pokémon has never won in a battle,\n"
+	.string "but put it in a Contest and look out!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 472 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
+<<<<<<< HEAD
 # 473 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "My POKéMON's PETAL DANCE is a marvel\n"
 # 474 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "My Pokémon's Petal Dance is a marvel\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of elegance.\p"
 # 475 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I won't let anyone disturb its\n"
@@ -954,11 +1093,16 @@ LilycoveCity_ContestHall_Text_PetalDanceIsMarvel:
 
 # 478 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
+<<<<<<< HEAD
 # 479 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Everyone's POKéMON are very cute.\p"
 # 480 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "However, if my POKéMON were to make\n"
 # 481 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Everyone's Pokémon are very cute.\p"
+	.string "However, if my Pokémon were to make\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a cute appeal…\p"
 # 482 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I'm sure that it would be so much \n"
@@ -968,17 +1112,25 @@ LilycoveCity_ContestHall_Text_MyMonAppealSoMuchCuter:
 
 # 485 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_MyChildIsInContest:
+<<<<<<< HEAD
 # 486 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "My child is in this CONTEST.$"
 # 487 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "My child is in this Contest.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 488 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_ComeOnDear:
 # 489 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Come on, dear. Go for it!\n"
+<<<<<<< HEAD
 # 490 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Your POKéMON is the best!$"
 # 491 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Your Pokémon is the best!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 492 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
@@ -988,15 +1140,23 @@ LilycoveCity_ContestHall_Text_ThatGirlThereIsCutest:
 	.string "the cutest of the lot.\p"
 # 495 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "What's that? They're judging\n"
+<<<<<<< HEAD
 # 496 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "POKéMON by their looks?$"
 # 497 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Pokémon by their looks?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 498 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
+<<<<<<< HEAD
 # 499 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "Ohh, seeing all these cute POKéMON,\n"
 # 500 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Ohh, seeing all these cute Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "they make we want to get my own!\p"
 # 501 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "I'm going to go catch some!$"
@@ -1004,23 +1164,39 @@ LilycoveCity_ContestHall_Text_WantCuteMonOfMyOwn:
 
 # 503 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_BeautyContestStage:
+<<<<<<< HEAD
 # 504 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "BEAUTY CONTEST STAGE\n"
 # 505 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "BE ALLURED BY BEAUTIFUL POKéMON!$"
 # 506 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Beauty Contest Stage\n"
+	.string "Be Allured by Beautiful Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 507 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_CuteContestStage:
+<<<<<<< HEAD
 # 508 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "CUTENESS CONTEST STAGE\n"
 # 509 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "BE CHARMED BY CUTE POKéMON!$"
 # 510 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+	.string "Cuteness Contest Stage\n"
+	.string "Be Charmed by Cute Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 511 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 LilycoveCity_ContestHall_Text_SmartContestStage:
+<<<<<<< HEAD
 # 512 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "SMARTNESS CONTEST STAGE\n"
 # 513 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.string "BE IMPRESSED BY SMART POKéMON!$"
+=======
+	.string "Smartness Contest Stage\n"
+	.string "Be Impressed by Smart Pokémon!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

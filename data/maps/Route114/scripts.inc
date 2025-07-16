@@ -358,9 +358,13 @@ Route114_EventScript_Kai::
 
 # 180 "data/maps/Route114/scripts.pory"
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
+<<<<<<< HEAD
 # 181 "data/maps/Route114/scripts.pory"
 	.string "All my POKéMON does is ROAR…\n"
 # 182 "data/maps/Route114/scripts.pory"
+=======
+	.string "All my Pokémon does is Roar…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No one dares to come near me…\p"
 # 183 "data/maps/Route114/scripts.pory"
 	.string "Sigh… If you would, please take\n"
@@ -370,35 +374,58 @@ Route114_Text_AllMyMonDoesIsRoarTakeThis:
 
 # 186 "data/maps/Route114/scripts.pory"
 Route114_Text_ExplainRoar:
+<<<<<<< HEAD
 # 187 "data/maps/Route114/scripts.pory"
 	.string "TM05 contains ROAR.\n"
 # 188 "data/maps/Route114/scripts.pory"
 	.string "A ROAR sends POKéMON scurrying.$"
 # 189 "data/maps/Route114/scripts.pory"
+=======
+	.string "TM05 contains Roar.\n"
+	.string "A Roar sends Pokémon scurrying.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 190 "data/maps/Route114/scripts.pory"
 Route114_Text_Poochyena:
+<<<<<<< HEAD
 # 191 "data/maps/Route114/scripts.pory"
 	.string "Bow! Bowwow!$"
 # 192 "data/maps/Route114/scripts.pory"
+=======
+	.string "Awoooo!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 193 "data/maps/Route114/scripts.pory"
 Route114_Text_MeteorFallsSign:
+<<<<<<< HEAD
 # 194 "data/maps/Route114/scripts.pory"
 	.string "METEOR FALLS\n"
 # 195 "data/maps/Route114/scripts.pory"
 	.string "RUSTBORO CITY THROUGH HERE$"
 # 196 "data/maps/Route114/scripts.pory"
+=======
+	.string "Meteor Falls\n"
+	.string "Rustboro City Through Here$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 197 "data/maps/Route114/scripts.pory"
 Route114_Text_FossilManiacsHouseSign:
+<<<<<<< HEAD
 # 198 "data/maps/Route114/scripts.pory"
 	.string "FOSSIL MANIAC'S HOUSE\n"
 # 199 "data/maps/Route114/scripts.pory"
+=======
+	.string "Fossil Maniac's House\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Fossils gratefully accepted!”$"
 # 200 "data/maps/Route114/scripts.pory"
 
 # 201 "data/maps/Route114/scripts.pory"
 Route114_Text_LanettesHouse:
+<<<<<<< HEAD
 # 202 "data/maps/Route114/scripts.pory"
 	.string "LANETTE'S HOUSE$"
+=======
+	.string "Lanette's House$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

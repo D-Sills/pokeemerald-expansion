@@ -412,9 +412,13 @@ BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 # 207 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "…Huh?\n"
+<<<<<<< HEAD
 # 208 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "You look to me like a tough TRAINER.\p"
 # 209 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "You look to me like a tough Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Heheh…\n"
 # 210 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Listen, I have this proposition.\p"
@@ -422,23 +426,36 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 	.string "We have a little group going here,\n"
 # 212 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "and we play a little game with what\l"
+<<<<<<< HEAD
 # 213 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "goes on in the BATTLE FRONTIER.\p"
 # 214 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "goes on in the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The rules are really simple.\p"
 # 215 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "First, we pick one of the facilities\n"
+<<<<<<< HEAD
 # 216 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "in the BATTLE FRONTIER.\p"
 # 217 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Then, we each pick a different TRAINER\n"
 # 218 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "in the Battle Frontier.\p"
+	.string "Then, we each pick a different Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who's taking that facility's challenge,\l"
 # 219 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "and bet with our Battle Points.\p"
+<<<<<<< HEAD
 # 220 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "The guy who bet on the TRAINER with\n"
 # 221 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "The guy who bet on the Trainer with\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the best record takes all the Battle\l"
 # 222 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Points in the pool.\p"
@@ -450,6 +467,7 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 
 # 226 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
+<<<<<<< HEAD
 # 227 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 228 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -459,11 +477,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
 # 230 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 231 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be challenging the Battle\l"
+	.string "Tower's Single Battle Rooms.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 232 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 233 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
+<<<<<<< HEAD
 # 234 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 235 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -473,11 +498,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
 # 237 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 238 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be challenging the Battle\l"
+	.string "Tower's Double Battle Rooms.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 239 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 240 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
+<<<<<<< HEAD
 # 241 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 242 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -487,11 +519,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
 # 244 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 245 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be challenging the Battle\l"
+	.string "Tower's Multi Battle Rooms.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 246 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 247 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
+<<<<<<< HEAD
 # 248 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 249 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -501,11 +540,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
 # 251 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 252 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Dome's Single Battle Tourney.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 253 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 254 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
+<<<<<<< HEAD
 # 255 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 256 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -515,11 +561,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
 # 258 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 259 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Dome's Double Battle Tourney.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 260 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 261 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
+<<<<<<< HEAD
 # 262 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 263 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -529,11 +582,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
 # 265 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 266 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Factory's Battle Swap Single Tourney.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 267 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 268 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
+<<<<<<< HEAD
 # 269 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 270 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -543,11 +603,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
 # 272 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 273 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Factory's Battle Swap Double Tourney.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 274 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 275 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
+<<<<<<< HEAD
 # 276 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 277 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -557,11 +624,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
 # 279 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 280 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be challenging the Battle\l"
+	.string "Palace's Single Battle Halls.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 281 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 282 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
+<<<<<<< HEAD
 # 283 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 284 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -571,11 +645,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
 # 286 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 287 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be challenging the Battle\l"
+	.string "Palace's Double Battle Halls.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 288 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 289 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattleArena::
+<<<<<<< HEAD
 # 290 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 291 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -585,11 +666,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattleArena::
 # 293 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 294 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Arena's Set KO Tourney.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 295 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 296 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
+<<<<<<< HEAD
 # 297 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 298 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -599,11 +687,18 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePike::
 # 300 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 301 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle Pike's\l"
+	.string "Battle Choice.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 302 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
 # 303 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
+<<<<<<< HEAD
 # 304 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "What I'm looking for is a TRAINER who's\n"
 # 305 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -613,6 +708,12 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
 # 307 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "But so far, I haven't seen a TRAINER\n"
 # 308 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "What I'm looking for is a Trainer who's\n"
+	.string "going to be entering the Battle\l"
+	.string "Pyramid's Battle Quest.\p"
+	.string "But so far, I haven't seen a Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that has that winning quality.$"
 # 309 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 
@@ -670,11 +771,16 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo::
 
 # 336 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
+<<<<<<< HEAD
 # 337 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE TOWER's\n"
 # 338 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "SINGLE BATTLE ROOMS pronto!\p"
 # 339 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Tower's\n"
+	.string "Single Battle Rooms pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 340 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -684,11 +790,16 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
 
 # 343 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
+<<<<<<< HEAD
 # 344 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE TOWER's\n"
 # 345 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "DOUBLE BATTLE ROOMS pronto!\p"
 # 346 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Tower's\n"
+	.string "Double Battle Rooms pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 347 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -698,11 +809,16 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
 
 # 350 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
+<<<<<<< HEAD
 # 351 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE TOWER's\n"
 # 352 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "MULTI BATTLE ROOMS pronto!\p"
 # 353 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Tower's\n"
+	.string "Multi Battle Rooms pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 354 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -712,11 +828,16 @@ BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
 
 # 357 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
+<<<<<<< HEAD
 # 358 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE DOME's\n"
 # 359 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "SINGLE BATTLE Tourney pronto!\p"
 # 360 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Dome's\n"
+	.string "Single Battle Tourney pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 361 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -726,11 +847,16 @@ BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
 
 # 364 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
+<<<<<<< HEAD
 # 365 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE DOME's\n"
 # 366 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "DOUBLE BATTLE Tourney pronto!\p"
 # 367 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Dome's\n"
+	.string "Double Battle Tourney pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 368 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -740,9 +866,13 @@ BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
 
 # 371 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
+<<<<<<< HEAD
 # 372 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE FACTORY's\n"
 # 373 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Factory's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Battle Swap Single Tourney pronto!\p"
 # 374 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "It's a must-win situation!\n"
@@ -754,9 +884,13 @@ BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
 
 # 378 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
+<<<<<<< HEAD
 # 379 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE FACTORY's\n"
 # 380 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Factory's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Battle Swap Double Tourney pronto!\p"
 # 381 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "It's a must-win situation!\n"
@@ -768,11 +902,16 @@ BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
 
 # 385 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
+<<<<<<< HEAD
 # 386 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE PALACE's\n"
 # 387 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "SINGLE BATTLE HALLS pronto!\p"
 # 388 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Palace's\n"
+	.string "Single Battle Halls pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 389 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -782,11 +921,16 @@ BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
 
 # 392 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
+<<<<<<< HEAD
 # 393 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE PALACE's\n"
 # 394 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "DOUBLE BATTLE HALLS pronto!\p"
 # 395 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Palace's\n"
+	.string "Double Battle Halls pronto!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a must-win situation!\n"
 # 396 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Don't blow your chance!\l"
@@ -796,9 +940,13 @@ BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
 
 # 399 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattleArena::
+<<<<<<< HEAD
 # 400 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE ARENA's\n"
 # 401 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Arena's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Set KO Tourney pronto!\p"
 # 402 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "It's a must-win situation!\n"
@@ -810,9 +958,13 @@ BattleFrontier_Lounge3_Text_GetToBattleArena::
 
 # 406 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattlePike::
+<<<<<<< HEAD
 # 407 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE PIKE's\n"
 # 408 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Pike's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Battle Choice pronto!\p"
 # 409 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "It's a must-win situation!\n"
@@ -824,9 +976,13 @@ BattleFrontier_Lounge3_Text_GetToBattlePike::
 
 # 413 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
+<<<<<<< HEAD
 # 414 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Get to the BATTLE PYRAMID's\n"
 # 415 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Get to the Battle Pyramid's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Battle Quest pronto!\p"
 # 416 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "It's a must-win situation!\n"
@@ -902,9 +1058,13 @@ BattleFrontier_Lounge3_Text_Oh::
 
 # 452 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_BackedWrongTrainer::
+<<<<<<< HEAD
 # 453 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "I backed the wrong TRAINER again!\p"
 # 454 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "I backed the wrong Trainer again!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Maybe I should be battling normally\n"
 # 455 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "like everyone else…$"
@@ -912,6 +1072,7 @@ BattleFrontier_Lounge3_Text_BackedWrongTrainer::
 
 # 457 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
+<<<<<<< HEAD
 # 458 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "That TRAINER…\p"
 # 459 "data/maps/BattleFrontier_Lounge3/scripts.pory"
@@ -919,6 +1080,11 @@ BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
 # 460 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "easily to survive the BATTLE DOME…$"
 # 461 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "That Trainer…\p"
+	.string "He's good, but he gets rattled too\n"
+	.string "easily to survive the Battle Dome…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 462 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
@@ -930,9 +1096,13 @@ BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
 
 # 466 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::
+<<<<<<< HEAD
 # 467 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "Those TRAINERS…\n"
 # 468 "data/maps/BattleFrontier_Lounge3/scripts.pory"
+=======
+	.string "Those Trainers…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What are they doing?\l"
 # 469 "data/maps/BattleFrontier_Lounge3/scripts.pory"
 	.string "They should be taking challenges.$"

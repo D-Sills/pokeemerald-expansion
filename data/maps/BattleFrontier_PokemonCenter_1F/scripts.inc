@@ -82,6 +82,7 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 # 42 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "There was someone here using a \n"
+<<<<<<< HEAD
 # 43 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON I've never seen before.\p"
 # 44 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
@@ -91,16 +92,27 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 # 46 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "I wonder where you can catch POKéMON\n"
 # 47 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pokémon I've never seen before.\p"
+	.string "I never learned about it at\n"
+	.string "Trainer's School at least.\p"
+	.string "I wonder where you can catch Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "like that.$"
 # 48 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 
 # 49 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
+<<<<<<< HEAD
 # 50 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "Okay! Next stop, the BATTLE ARENA!\n"
 # 51 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "I'd better get the right POKéMON from\l"
 # 52 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Okay! Next stop, the Battle Arena!\n"
+	.string "I'd better get the right Pokémon from\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the PC Storage System.$"
 # 53 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 
@@ -114,5 +126,10 @@ BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
 
 # 58 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 BattleFrontier_PokemonCenter_1F_Text_Skitty:
+<<<<<<< HEAD
 # 59 "data/maps/BattleFrontier_PokemonCenter_1F/scripts.pory"
 	.string "SKITTY: Mya myaaah!$"
+=======
+	.string "Skitty: Mya myaaah!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -78,6 +78,7 @@ MossdeepCity_Mart_EventScript_Sailor::
 
 # 40 "data/maps/MossdeepCity_Mart/scripts.pory"
 MossdeepCity_Mart_Text_ReviveIsFantastic:
+<<<<<<< HEAD
 # 41 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "REVIVE is fantastic!\p"
 # 42 "data/maps/MossdeepCity_Mart/scripts.pory"
@@ -87,21 +88,33 @@ MossdeepCity_Mart_Text_ReviveIsFantastic:
 # 44 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "But be careful, REVIVE doesn't restore\n"
 # 45 "data/maps/MossdeepCity_Mart/scripts.pory"
+=======
+	.string "Revive is fantastic!\p"
+	.string "Give it to a fainted Pokémon,\n"
+	.string "and the Pokémon will arise.\p"
+	.string "But be careful, Revive doesn't restore\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the used-up PP of moves.$"
 # 46 "data/maps/MossdeepCity_Mart/scripts.pory"
 
 # 47 "data/maps/MossdeepCity_Mart/scripts.pory"
 MossdeepCity_Mart_Text_MaxRepelLastsLongest:
+<<<<<<< HEAD
 # 48 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "MAX REPEL keeps all weak POKéMON away.\p"
 # 49 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "Out of all the REPEL sprays, it lasts\n"
 # 50 "data/maps/MossdeepCity_Mart/scripts.pory"
+=======
+	.string "Max Repel keeps all weak Pokémon away.\p"
+	.string "Out of all the Repel sprays, it lasts\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the longest.$"
 # 51 "data/maps/MossdeepCity_Mart/scripts.pory"
 
 # 52 "data/maps/MossdeepCity_Mart/scripts.pory"
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
+<<<<<<< HEAD
 # 53 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "The NET and DIVE BALLS are rare POKé\n"
 # 54 "data/maps/MossdeepCity_Mart/scripts.pory"
@@ -113,4 +126,11 @@ MossdeepCity_Mart_Text_NetAndDiveBallsRare:
 # 57 "data/maps/MossdeepCity_Mart/scripts.pory"
 	.string "A DIVE BALL works best on POKéMON\n"
 # 58 "data/maps/MossdeepCity_Mart/scripts.pory"
+=======
+	.string "The Net and Dive Balls are rare Poké\n"
+	.string "Balls that are only made in Mossdeep.\p"
+	.string "A Net Ball is effective against\n"
+	.string "Bug-type and Water-type Pokémon.\p"
+	.string "A Dive Ball works best on Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "at the bottom of the sea.$"

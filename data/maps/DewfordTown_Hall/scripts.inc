@@ -538,9 +538,13 @@ DewfordTown_Hall_Text_GettingBoredOfTrend:
 
 # 270 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_TeachingMonAboutTrend:
+<<<<<<< HEAD
 # 271 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "I'm teaching my POKéMON about\n"
 # 272 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "I'm teaching my Pokémon about\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“{STR_VAR_1},”\l"
 # 273 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "but it's not going well.\p"
@@ -616,9 +620,13 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "licensed merchandise.\p"
 # 309 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "I have official\n"
+<<<<<<< HEAD
 # 310 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "“{STR_VAR_1}” DOLLS…\p"
 # 311 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "“{STR_VAR_1}” Dolls…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Official “{STR_VAR_1}”\n"
 # 312 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "brand clothing…\p"
@@ -636,6 +644,7 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 
 # 319 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_BooksAboutTrend:
+<<<<<<< HEAD
 # 320 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "IDENTIFYING GOOD\n"
 # 321 "data/maps/DewfordTown_Hall/scripts.pory"
@@ -651,6 +660,15 @@ DewfordTown_Hall_Text_BooksAboutTrend:
 # 326 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "USEFUL\n"
 # 327 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "Identifying Good\n"
+	.string "“{STR_VAR_1}” &\l"
+	.string "Bad “{STR_VAR_1}”…\p"
+	.string "The Link Between\n"
+	.string "“{STR_VAR_1}” And\l"
+	.string "Pokémon…\p"
+	.string "Useful\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“{STR_VAR_1}”…\p"
 # 328 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "It's neatly jammed with books about\n"
@@ -660,33 +678,51 @@ DewfordTown_Hall_Text_BooksAboutTrend:
 
 # 331 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_TrendsScream:
+<<<<<<< HEAD
 # 332 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "“{STR_VAR_1}'S\n"
 # 333 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "SCREAM” is the title.$"
 # 334 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "“{STR_VAR_1}'s\n"
+	.string "Scream” is the title.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 335 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_TrendsSmile:
+<<<<<<< HEAD
 # 336 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "“{STR_VAR_1}'S\n"
 # 337 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "SMILE” is the title.$"
 # 338 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "“{STR_VAR_1}'s\n"
+	.string "Smile” is the title.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 339 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_LastTrend:
+<<<<<<< HEAD
 # 340 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "It's titled “THE LAST\n"
 # 341 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "It's titled “The Last\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_1}”.$"
 # 342 "data/maps/DewfordTown_Hall/scripts.pory"
 
 # 343 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_BirthOfTrend:
+<<<<<<< HEAD
 # 344 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "It's titled “THE BIRTH OF\n"
 # 345 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "It's titled “The Birth of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_1}”.$"
 # 346 "data/maps/DewfordTown_Hall/scripts.pory"
 
@@ -824,9 +860,13 @@ DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
 	.string "Absolutely, you're the\n"
 # 413 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "“{STR_VAR_1}”\l"
+<<<<<<< HEAD
 # 414 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "PROFESSOR, old sport!$"
 # 415 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "Professor, old sport!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 416 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
@@ -844,9 +884,13 @@ DewfordTown_Hall_Text_WellBeTrendDuo:
 	.string "Spot on, my friend!\p"
 # 423 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "We shall be the\n"
+<<<<<<< HEAD
 # 424 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "“{STR_VAR_1}” DUO!\p"
 # 425 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "“{STR_VAR_1}” Duo!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Isn't that a ripe image?\n"
 # 426 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "Hahahah!$"
@@ -854,15 +898,23 @@ DewfordTown_Hall_Text_WellBeTrendDuo:
 
 # 428 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_GiveYouSludgeBomb:
+<<<<<<< HEAD
 # 429 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "For me, SLUDGE BOMB is at the peak\n"
 # 430 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "For me, Sludge Bomb is at the peak\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of popularity. It's the one.\p"
 # 431 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "Hunh? You're telling me that you don't\n"
+<<<<<<< HEAD
 # 432 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "know about SLUDGE BOMB?\p"
 # 433 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "know about Sludge Bomb?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's outright pitiful.\n"
 # 434 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "I'll give you one.$"
@@ -870,11 +922,16 @@ DewfordTown_Hall_Text_GiveYouSludgeBomb:
 
 # 436 "data/maps/DewfordTown_Hall/scripts.pory"
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
+<<<<<<< HEAD
 # 437 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "I love SLUDGE BOMB.\p"
 # 438 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "But POKéMON with the move\n"
 # 439 "data/maps/DewfordTown_Hall/scripts.pory"
+=======
+	.string "I love Sludge Bomb.\p"
+	.string "But Pokémon with the move\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“{STR_VAR_1}”\l"
 # 440 "data/maps/DewfordTown_Hall/scripts.pory"
 	.string "are in, too.$"

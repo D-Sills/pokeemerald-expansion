@@ -892,9 +892,13 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
 # 447 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Excellent…\n"
+<<<<<<< HEAD
 # 448 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Let me restore your POKéMON.$"
 # 449 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Let me restore your Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 450 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
@@ -970,9 +974,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
 # 486 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Do you wish to record your latest\n"
+<<<<<<< HEAD
 # 487 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "match on your FRONTIER PASS?$"
 # 488 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "match on your Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 489 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
@@ -982,15 +990,23 @@ BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
 	.string "By winning consistently, you have\n"
 # 492 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "earned the privilege of challenging\l"
+<<<<<<< HEAD
 # 493 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "our master, the PALACE MAVEN…$"
 # 494 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "our master, the Palace Maven…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 495 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
+<<<<<<< HEAD
 # 496 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "I shall send for the PALACE MAVEN.\n"
 # 497 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "I shall send for the Palace Maven.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 498 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 
@@ -998,12 +1014,17 @@ BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
 # 500 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Let great fanfare announce the arrival\n"
+<<<<<<< HEAD
 # 501 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "of the PALACE MAVEN, SPENSER!$"
 # 502 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "of the Palace Maven, Spenser!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 503 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
+<<<<<<< HEAD
 # 504 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: My physical being is with\n"
 # 505 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
@@ -1017,6 +1038,14 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
 # 509 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Do you believe in your POKéMON?\p"
 # 510 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: My physical being is with\n"
+	.string "Pokémon always!\p"
+	.string "My heart beats as one with\n"
+	.string "Pokémon always!\p"
+	.string "Young one of a Trainer!\n"
+	.string "Do you believe in your Pokémon?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Can you believe them through\n"
 # 511 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "and through?\p"
@@ -1028,17 +1057,25 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
 
 # 515 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
+<<<<<<< HEAD
 # 516 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "The bond you share with your POKéMON!\n"
 # 517 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "The bond you share with your Pokémon!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Prove it to me here!$"
 # 518 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 
 # 519 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
+<<<<<<< HEAD
 # 520 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: Gwahahah!\p"
 # 521 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: Gwahahah!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Hah, you never fell for my bluster!\n"
 # 522 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Sorry for trying that stunt!\p"
@@ -1056,23 +1093,35 @@ BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
 	.string "facade of distinguished authority…\p"
 # 529 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Here!\n"
+<<<<<<< HEAD
 # 530 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Let's see your FRONTIER PASS!$"
 # 531 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Let's see your Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 532 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
 # 533 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "The Spirits Symbol was embossed on\n"
+<<<<<<< HEAD
 # 534 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "the FRONTIER PASS!$"
 # 535 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "the Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 536 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
+<<<<<<< HEAD
 # 537 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: Your POKéMON's eyes are \n"
 # 538 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: Your Pokémon's eyes are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "truly clear and unclouded.\p"
 # 539 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "I will eagerly await the next\n"
@@ -1082,15 +1131,23 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
 
 # 542 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
+<<<<<<< HEAD
 # 543 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: Gwahahah!\n"
 # 544 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: Gwahahah!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You've battled your way up again?\p"
 # 545 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "You must have developed a truly\n"
+<<<<<<< HEAD
 # 546 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "formidable bond with your POKéMON.\p"
 # 547 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "formidable bond with your Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So be it!\p"
 # 548 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "This time, I won't bluster or hold back.\n"
@@ -1110,9 +1167,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
 
 # 556 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
+<<<<<<< HEAD
 # 557 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: Well, that was some display!\n"
 # 558 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: Well, that was some display!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Even fully unleashed, my brethren\l"
 # 559 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "could not overpower you.\p"
@@ -1132,9 +1193,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
 	.string "a certain level of decorum…\p"
 # 567 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Gaaah, here!\n"
+<<<<<<< HEAD
 # 568 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "Hurry with that FRONTIER PASS, you!$"
 # 569 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Hurry with that Frontier Pass, you!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 570 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
@@ -1146,9 +1211,13 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
 
 # 574 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
+<<<<<<< HEAD
 # 575 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "SPENSER: Gwahahah!\p"
 # 576 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
+=======
+	.string "Spenser: Gwahahah!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Come see me time and again!\n"
 # 577 "data/maps/BattleFrontier_BattlePalaceBattleRoom/scripts.pory"
 	.string "My brethren and I will be waiting!$"

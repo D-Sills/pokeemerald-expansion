@@ -78,9 +78,13 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 
 # 40 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
+<<<<<<< HEAD
 # 41 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 	.string "On CYCLING ROAD, you can go all out\n"
 # 42 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
+=======
+	.string "On Cycling Road, you can go all out\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and cycle as fast as you'd like.\p"
 # 43 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 	.string "It feels great to go that fast, but try\n"
@@ -90,9 +94,16 @@ Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
 
 # 46 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk:
+<<<<<<< HEAD
 # 47 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 	.string "Sorry, you can't walk on CYCLING\n"
 # 48 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 	.string "ROAD. It's too dangerous.\p"
 # 49 "data/maps/Route110_SeasideCyclingRoadSouthEntrance/scripts.pory"
 	.string "Please come back with a BIKE.$"
+=======
+	.string "Sorry, you can't walk on Cycling\n"
+	.string "Road. It's too dangerous.\p"
+	.string "Please come back with a bike.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

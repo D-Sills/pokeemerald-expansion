@@ -1484,6 +1484,7 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "Behold!\p"
 # 743 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "For I am the greatest living mystery\n"
+<<<<<<< HEAD
 # 744 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "of a man in all of HOENN!\l"
 # 745 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
@@ -1491,6 +1492,11 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 # 746 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "The TRICK MASTER!\n"
 # 747 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+=======
+	.string "of a man in all of Hoenn!\l"
+	.string "They call me…\p"
+	.string "The Trick Master!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wahahaha! Glad to meet you!$"
 # 748 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 
@@ -1498,9 +1504,13 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 # 750 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "You, you've come to challenge\n"
+<<<<<<< HEAD
 # 751 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "my TRICK HOUSE, haven't you?\p"
 # 752 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+=======
+	.string "my Trick House, haven't you?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's why you're here, isn't it?\n"
 # 753 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "Yes, it is!\p"
@@ -1534,9 +1544,13 @@ Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
 	.string "There is a note affixed to the scroll…\p"
 # 768 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "“I am leaving on a journey.\n"
+<<<<<<< HEAD
 # 769 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	.string "Don't look for me. TRICK MASTER”$"
 # 770 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
+=======
+	.string "Don't look for me. Trick Master”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 771 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:

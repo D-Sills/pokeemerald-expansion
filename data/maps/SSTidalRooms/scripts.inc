@@ -138,11 +138,16 @@ SSTidalRooms_Text_TakeRestOnBed:
 
 # 70 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_ColtonIntro:
+<<<<<<< HEAD
 # 71 "data/maps/SSTidalRooms/scripts.pory"
 	.string "I often sail to LILYCOVE CITY.\p"
 # 72 "data/maps/SSTidalRooms/scripts.pory"
 	.string "I enjoy attending CONTESTS,\n"
 # 73 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "I often sail to Lilycove City.\p"
+	.string "I enjoy attending Contests,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "you see.$"
 # 74 "data/maps/SSTidalRooms/scripts.pory"
 
@@ -156,11 +161,16 @@ SSTidalRooms_Text_ColtonDefeat:
 SSTidalRooms_Text_ColtonPostBattle:
 # 79 "data/maps/SSTidalRooms/scripts.pory"
 	.string "I get so excited imagining what kinds\n"
+<<<<<<< HEAD
 # 80 "data/maps/SSTidalRooms/scripts.pory"
 	.string "of POKéMON I'll get to see in the next\l"
 # 81 "data/maps/SSTidalRooms/scripts.pory"
 	.string "CONTEST. The anticipation of it thrills!$"
 # 82 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "of Pokémon I'll get to see in the next\l"
+	.string "Contest. The anticipation of it thrills!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 83 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_MicahIntro:
@@ -178,9 +188,13 @@ SSTidalRooms_Text_MicahDefeat:
 SSTidalRooms_Text_MicahPostBattle:
 # 90 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Friends need not be human.\n"
+<<<<<<< HEAD
 # 91 "data/maps/SSTidalRooms/scripts.pory"
 	.string "For me, POKéMON are treasured friends!$"
 # 92 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "For me, Pokémon are treasured friends!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 93 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_ThomasIntro:
@@ -202,26 +216,39 @@ SSTidalRooms_Text_ThomasDefeat:
 SSTidalRooms_Text_ThomasPostBattle:
 # 102 "data/maps/SSTidalRooms/scripts.pory"
 	.string "To be never ruffled in any situation is\n"
+<<<<<<< HEAD
 # 103 "data/maps/SSTidalRooms/scripts.pory"
 	.string "the GENTLEMAN's code of conduct.$"
 # 104 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "the Gentleman's code of conduct.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 105 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_JedIntro:
+<<<<<<< HEAD
 # 106 "data/maps/SSTidalRooms/scripts.pory"
 	.string "JED: I feel a little shy about this, but…\n"
 # 107 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Jed: I feel a little shy about this, but…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We'll show you our lovey-dovey power!$"
 # 108 "data/maps/SSTidalRooms/scripts.pory"
 
 # 109 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_JedDefeat:
+<<<<<<< HEAD
 # 110 "data/maps/SSTidalRooms/scripts.pory"
 	.string "JED: Sigh…$"
 # 111 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Jed: Sigh…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 112 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_JedPostBattle:
+<<<<<<< HEAD
 # 113 "data/maps/SSTidalRooms/scripts.pory"
 	.string "JED: It's the first time that our lovey-\n"
 # 114 "data/maps/SSTidalRooms/scripts.pory"
@@ -229,31 +256,49 @@ SSTidalRooms_Text_JedPostBattle:
 # 115 "data/maps/SSTidalRooms/scripts.pory"
 	.string "You must be an awesome TRAINER!$"
 # 116 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Jed: It's the first time that our lovey-\n"
+	.string "dovey power couldn't prevail!\l"
+	.string "You must be an awesome Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 117 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_JedNotEnoughMons:
+<<<<<<< HEAD
 # 118 "data/maps/SSTidalRooms/scripts.pory"
 	.string "JED: You only have one POKéMON?\n"
 # 119 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Jed: You only have one Pokémon?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Isn't that just too lonesome?$"
 # 120 "data/maps/SSTidalRooms/scripts.pory"
 
 # 121 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_LeaIntro:
+<<<<<<< HEAD
 # 122 "data/maps/SSTidalRooms/scripts.pory"
 	.string "LEA: I feel a little silly, but…\n"
 # 123 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Lea: I feel a little silly, but…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We'll show you our lovey-dovey power!$"
 # 124 "data/maps/SSTidalRooms/scripts.pory"
 
 # 125 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_LeaDefeat:
+<<<<<<< HEAD
 # 126 "data/maps/SSTidalRooms/scripts.pory"
 	.string "LEA: Oh, boo!$"
 # 127 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Lea: Oh, boo!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 128 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_LeaPostBattle:
+<<<<<<< HEAD
 # 129 "data/maps/SSTidalRooms/scripts.pory"
 	.string "LEA: I can't believe it!\n"
 # 130 "data/maps/SSTidalRooms/scripts.pory"
@@ -261,14 +306,24 @@ SSTidalRooms_Text_LeaPostBattle:
 # 131 "data/maps/SSTidalRooms/scripts.pory"
 	.string "You must be an awesome TRAINER!$"
 # 132 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Lea: I can't believe it!\n"
+	.string "Our lovey-dovey power failed…\l"
+	.string "You must be an awesome Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 133 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_LeaNotEnoughMons:
+<<<<<<< HEAD
 # 134 "data/maps/SSTidalRooms/scripts.pory"
 	.string "LEA: I wanted to battle…\n"
 # 135 "data/maps/SSTidalRooms/scripts.pory"
 	.string "But you don't even have two POKéMON…$"
 # 136 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Lea: I wanted to battle…\n"
+	.string "But you don't even have two Pokémon…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 137 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_GarretIntro:
@@ -292,15 +347,23 @@ SSTidalRooms_Text_GarretPostBattle:
 	.string "Perhaps I shall get Father to acquire\n"
 # 147 "data/maps/SSTidalRooms/scripts.pory"
 	.string "a yacht for me.\l"
+<<<<<<< HEAD
 # 148 "data/maps/SSTidalRooms/scripts.pory"
 	.string "A yacht for me and POKéMON!$"
 # 149 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "A yacht for me and Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 150 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_NaomiIntro:
+<<<<<<< HEAD
 # 151 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Oh, you're such an adorable TRAINER.\n"
 # 152 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Oh, you're such an adorable Trainer.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like to have tea?\l"
 # 153 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Or would you rather battle?$"
@@ -322,9 +385,13 @@ SSTidalRooms_Text_NaomiPostBattle:
 	.string "charms, I must say…\p"
 # 162 "data/maps/SSTidalRooms/scripts.pory"
 	.string "But, I will admit there is an appealing\n"
+<<<<<<< HEAD
 # 163 "data/maps/SSTidalRooms/scripts.pory"
 	.string "side to touring HOENN by ferry.$"
 # 164 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "side to touring Hoenn by ferry.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 165 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_NotSuspiciousTakeThis:
@@ -332,9 +399,13 @@ SSTidalRooms_Text_NotSuspiciousTakeThis:
 	.string "Uh… Hi! I… I'm not acting suspicious!\n"
 # 167 "data/maps/SSTidalRooms/scripts.pory"
 	.string "Uh… You can have this! For free!\p"
+<<<<<<< HEAD
 # 168 "data/maps/SSTidalRooms/scripts.pory"
 	.string "It… Honestly, I didn't SNATCH it from\n"
 # 169 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "It… Honestly, I didn't Snatch it from\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "someone! I'd never do such a thing!\l"
 # 170 "data/maps/SSTidalRooms/scripts.pory"
 	.string "It's clean! You can use it!$"
@@ -342,9 +413,13 @@ SSTidalRooms_Text_NotSuspiciousTakeThis:
 
 # 172 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_Text_ExplainSnatch:
+<<<<<<< HEAD
 # 173 "data/maps/SSTidalRooms/scripts.pory"
 	.string "SNATCH steals the beneficial effects\n"
 # 174 "data/maps/SSTidalRooms/scripts.pory"
+=======
+	.string "Snatch steals the beneficial effects\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of certain moves before they can be\l"
 # 175 "data/maps/SSTidalRooms/scripts.pory"
 	.string "used by a foe or ally.$"

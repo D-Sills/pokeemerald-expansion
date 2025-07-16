@@ -440,17 +440,26 @@ BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 	.string "It is a delight to see you here!\n"
 # 221 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "You have reached the summit of\l"
+<<<<<<< HEAD
 # 222 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "the BATTLE PYRAMID!\p"
 # 223 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Above here is the PYRAMID's\n"
 # 224 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "the Battle Pyramid!\p"
+	.string "Above here is the Pyramid's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "lookout point.\p"
 # 225 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "It is a place open only to those\n"
+<<<<<<< HEAD
 # 226 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "who have conquered the PYRAMID.\p"
 # 227 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "who have conquered the Pyramid.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now, please!\n"
 # 228 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Up you go!$"
@@ -458,9 +467,13 @@ BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 
 # 230 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
+<<<<<<< HEAD
 # 231 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "The PYRAMID's new conqueror!\n"
 # 232 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "The Pyramid's new conqueror!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Let the name {PLAYER} be known!$"
 # 233 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 
@@ -474,6 +487,7 @@ BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
 	.string "a mere fraction of time!\p"
 # 238 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Our chief has already conquered\n"
+<<<<<<< HEAD
 # 239 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "the PYRAMID ahead of you.\p"
 # 240 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
@@ -481,6 +495,11 @@ BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
 # 241 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "You are a TRAINER!\p"
 # 242 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "the Pyramid ahead of you.\p"
+	.string "However, my young explorer…\n"
+	.string "You are a Trainer!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Assert your power and take the glory\n"
 # 243 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "of the pinnacle from our chief!\p"
@@ -502,9 +521,13 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 	.string "Your own wits!\p"
 # 252 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Your own strength!\p"
+<<<<<<< HEAD
 # 253 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Your own POKéMON!\p"
 # 254 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "Your own Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And, above all, only your own courage\n"
 # 255 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "to lead you through unknown worlds…$"
@@ -516,11 +539,16 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Aah, yes, indeed this life is grand!\n"
 # 259 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Grand, it is! Eh?\p"
+<<<<<<< HEAD
 # 260 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "I'm BRANDON!\p"
 # 261 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "I'm the PYRAMID KING, which means\n"
 # 262 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "I'm Brandon!\p"
+	.string "I'm the Pyramid King, which means\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm in charge here.\p"
 # 263 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Most people call me the chief!\p"
@@ -546,23 +574,35 @@ BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
 
 # 274 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
+<<<<<<< HEAD
 # 275 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "BRANDON: Hahahah! Grand it was!\n"
 # 276 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "Brandon: Hahahah! Grand it was!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Grand, yes, indeed!\p"
 # 277 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Well done! You've earned recognition!\n"
+<<<<<<< HEAD
 # 278 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Your FRONTIER PASS, please!$"
 # 279 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "Your Frontier Pass, please!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 280 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
 # 281 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "The Brave Symbol was embossed on\n"
+<<<<<<< HEAD
 # 282 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "the FRONTIER PASS!$"
 # 283 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "the Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 284 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
@@ -574,9 +614,13 @@ BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
 
 # 288 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
+<<<<<<< HEAD
 # 289 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "BRANDON: …You've finally returned,\n"
 # 290 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "Brandon: …You've finally returned,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "young explorer…\p"
 # 291 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Your love of adventure seems to come\n"
@@ -620,9 +664,13 @@ BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
 
 # 311 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
+<<<<<<< HEAD
 # 312 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "BRANDON: Hahahah!\n"
 # 313 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	.string "Brandon: Hahahah!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Remarkable!\l"
 # 314 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	.string "Yes, it's grand, indeed!\p"

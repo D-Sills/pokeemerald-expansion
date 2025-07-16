@@ -128,14 +128,19 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 	.string "you're about to mess with us again!\p"
 # 65 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "A punk like you, do you really think\n"
+<<<<<<< HEAD
 # 66 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "you can take on TEAM AQUA?\p"
 # 67 "data/maps/SeafloorCavern_Entrance/scripts.pory"
+=======
+	.string "you can take on Team Aqua?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd say you're too early by about\n"
 # 68 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "a trillion years!\p"
 # 69 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "You're a perfect fit for the likes of\n"
+<<<<<<< HEAD
 # 70 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "TEAM MAGMA!\p"
 # 71 "data/maps/SeafloorCavern_Entrance/scripts.pory"
@@ -143,6 +148,11 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 # 72 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "were spotted near MOSSDEEP.\p"
 # 73 "data/maps/SeafloorCavern_Entrance/scripts.pory"
+=======
+	.string "Team Magma!\p"
+	.string "Speaking of Team Magma, I hear they\n"
+	.string "were spotted near Mossdeep.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That bunch of goons, they sure don't\n"
 # 74 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "look good near the sea!$"
@@ -152,14 +162,19 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
 # 77 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "A punk like you, do you really think\n"
+<<<<<<< HEAD
 # 78 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "you can take on TEAM AQUA?\p"
 # 79 "data/maps/SeafloorCavern_Entrance/scripts.pory"
+=======
+	.string "you can take on Team Aqua?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd say you're too early by about\n"
 # 80 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "a trillion years!\p"
 # 81 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "You're a perfect fit for the likes of\n"
+<<<<<<< HEAD
 # 82 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "TEAM MAGMA!\p"
 # 83 "data/maps/SeafloorCavern_Entrance/scripts.pory"
@@ -167,6 +182,11 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
 # 84 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "were spotted near MOSSDEEP.\p"
 # 85 "data/maps/SeafloorCavern_Entrance/scripts.pory"
+=======
+	.string "Team Magma!\p"
+	.string "Speaking of Team Magma, I hear they\n"
+	.string "were spotted near Mossdeep.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That bunch of goons, they sure don't\n"
 # 86 "data/maps/SeafloorCavern_Entrance/scripts.pory"
 	.string "look good near the sea!$"

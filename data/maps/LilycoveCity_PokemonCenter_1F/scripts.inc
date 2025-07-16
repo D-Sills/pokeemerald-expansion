@@ -102,31 +102,48 @@ LilycoveCity_PokemonCenter_1F_EventScript_ManiacBadTeamGone::
 
 # 52 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon:
+<<<<<<< HEAD
 # 53 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "I wonder how many kinds of POKéMON\n"
 # 54 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I wonder how many kinds of Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "there are in the world.\p"
 # 55 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "It'd be great to cross seas and\n"
+<<<<<<< HEAD
 # 56 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "trade POKéMON with people far away.$"
 # 57 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "trade Pokémon with people far away.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 58 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels:
 # 59 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "I've been hearing about some rotten\n"
+<<<<<<< HEAD
 # 60 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "scoundrels who steal POKéMON and rip\l"
 # 61 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "off METEORITES.$"
 # 62 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "scoundrels who steal Pokémon and rip\l"
+	.string "off meteorites.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 63 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
 # 64 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "Those rotten scoundrels who steal\n"
+<<<<<<< HEAD
 # 65 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON and rip off METEORITES…\p"
 # 66 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pokémon and rip off meteorites…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I haven't seen them around recently.$"

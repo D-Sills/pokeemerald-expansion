@@ -306,6 +306,7 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 
 # 154 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
+<<<<<<< HEAD
 # 155 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "For 70 years I have raised POKéMON!\n"
 # 156 "data/maps/BattleFrontier_Lounge1/scripts.pory"
@@ -323,12 +324,26 @@ BattleFrontier_Lounge1_Text_PokemonBreederIntro:
 # 162 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "you to know your own POKéMON's\l"
 # 163 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "For 70 years I have raised Pokémon!\n"
+	.string "I am the man they revere as\l"
+	.string "the legendary top Pokémon Breeder!\p"
+	.string "If you ever become as seasoned as me,\n"
+	.string "you'll see the abilities of Pokémon\l"
+	.string "at a glance.\p"
+	.string "You're a Trainer. Doesn't it interest\n"
+	.string "you to know your own Pokémon's\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "abilities?\p"
 # 164 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Here!\n"
+<<<<<<< HEAD
 # 165 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Let's have a look at your POKéMON!$"
 # 166 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "Let's have a look at your Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 167 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_AverageAbility:
@@ -382,41 +397,61 @@ BattleFrontier_Lounge1_Text_BestAspectHP:
 BattleFrontier_Lounge1_Text_BestAspectAtk:
 # 192 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Incidentally, the best aspect of it,\n"
+<<<<<<< HEAD
 # 193 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "I would say, is its ATTACK…$"
 # 194 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "I would say, is its Attack…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 195 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_BestAspectDef:
 # 196 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Incidentally, the best aspect of it,\n"
+<<<<<<< HEAD
 # 197 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "I would say, is its DEFENSE…$"
 # 198 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "I would say, is its Defense…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 199 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_BestAspectSpAtk:
 # 200 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Incidentally, the best aspect of it,\n"
+<<<<<<< HEAD
 # 201 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "I would say, is its SPECIAL ATTACK…$"
 # 202 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "I would say, is its Special Attack…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 203 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_BestAspectSpDef:
 # 204 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Incidentally, the best aspect of it,\n"
+<<<<<<< HEAD
 # 205 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "I would say, is its SPECIAL DEFENSE…$"
 # 206 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "I would say, is its Special Defense…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 207 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_BestAspectSpeed:
 # 208 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Incidentally, the best aspect of it,\n"
+<<<<<<< HEAD
 # 209 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "I would say, is its SPEED…$"
 # 210 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "I would say, is its Speed…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 211 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_StatRelativelyGood:
@@ -476,20 +511,29 @@ BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
 
 # 239 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
+<<<<<<< HEAD
 # 240 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Ah, youngster! Do your POKéMON's\n"
 # 241 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "Ah, youngster! Do your Pokémon's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "abilities intrigue you?\p"
 # 242 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Here, here!\n"
+<<<<<<< HEAD
 # 243 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "Let's have a look at your POKéMON!$"
 # 244 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "Let's have a look at your Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 245 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_EvenICantTell:
 # 246 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "An expert I am, but even I can't tell\n"
+<<<<<<< HEAD
 # 247 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "anything about an unhatched POKéMON!\p"
 # 248 "data/maps/BattleFrontier_Lounge1/scripts.pory"
@@ -497,20 +541,33 @@ BattleFrontier_Lounge1_Text_EvenICantTell:
 # 249 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "A POKéMON is what I need to see!$"
 # 250 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "anything about an unhatched Pokémon!\p"
+	.string "Show me a Pokémon!\n"
+	.string "A Pokémon is what I need to see!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 251 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
+<<<<<<< HEAD
 # 252 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "He said my POKéMON is outstanding!\n"
 # 253 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "He said my Pokémon is outstanding!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm glad I raised it carefully!$"
 # 254 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 
 # 255 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
+<<<<<<< HEAD
 # 256 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "He said my POKéMON is outstanding!\n"
 # 257 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+=======
+	.string "He said my Pokémon is outstanding!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But I didn't do anything special\l"
 # 258 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	.string "raising it…$"

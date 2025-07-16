@@ -124,6 +124,7 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 
 # 63 "data/maps/MirageTower_4F/scripts.pory"
 MirageTower_4F_Text_TakeRootFossil:
+<<<<<<< HEAD
 # 64 "data/maps/MirageTower_4F/scripts.pory"
 	.string "You found the ROOT FOSSIL.\p"
 # 65 "data/maps/MirageTower_4F/scripts.pory"
@@ -133,15 +134,26 @@ MirageTower_4F_Text_TakeRootFossil:
 # 67 "data/maps/MirageTower_4F/scripts.pory"
 	.string "Take the ROOT FOSSIL anyway?$"
 # 68 "data/maps/MirageTower_4F/scripts.pory"
+=======
+	.string "You found the Root Fossil.\p"
+	.string "If this Fossil is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the Root Fossil anyway?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 69 "data/maps/MirageTower_4F/scripts.pory"
 MirageTower_4F_Text_LeftRootFossilAlone:
+<<<<<<< HEAD
 # 70 "data/maps/MirageTower_4F/scripts.pory"
 	.string "{PLAYER} left the ROOT FOSSIL alone.$"
 # 71 "data/maps/MirageTower_4F/scripts.pory"
+=======
+	.string "{PLAYER} left the Root Fossil alone.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 72 "data/maps/MirageTower_4F/scripts.pory"
 MirageTower_4F_Text_TakeClawFossil:
+<<<<<<< HEAD
 # 73 "data/maps/MirageTower_4F/scripts.pory"
 	.string "You found the CLAW FOSSIL.\p"
 # 74 "data/maps/MirageTower_4F/scripts.pory"
@@ -151,8 +163,19 @@ MirageTower_4F_Text_TakeClawFossil:
 # 76 "data/maps/MirageTower_4F/scripts.pory"
 	.string "Take the CLAW FOSSIL anyway?$"
 # 77 "data/maps/MirageTower_4F/scripts.pory"
+=======
+	.string "You found the Claw Fossil.\p"
+	.string "If this Fossil is taken, the ground\n"
+	.string "around it will likely crumble away…\p"
+	.string "Take the Claw Fossil anyway?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 78 "data/maps/MirageTower_4F/scripts.pory"
 MirageTower_4F_Text_LeaveClawFossilAlone:
+<<<<<<< HEAD
 # 79 "data/maps/MirageTower_4F/scripts.pory"
 	.string "{PLAYER} left the CLAW FOSSIL alone.$"
+=======
+	.string "{PLAYER} left the Claw Fossil alone.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

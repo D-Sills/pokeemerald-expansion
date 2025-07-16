@@ -544,17 +544,25 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 
 # 273 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
+<<<<<<< HEAD
 # 274 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Your 1st-round match is next.\n"
 # 275 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "Your first-round match is next.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 276 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 277 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
+<<<<<<< HEAD
 # 278 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Your 2nd-round match is next.\n"
 # 279 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "Your second-round match is next.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 280 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -576,9 +584,13 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
 
 # 289 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
+<<<<<<< HEAD
 # 290 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Please choose the two POKéMON\n"
 # 291 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "Please choose the two Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that are to appear in battle.$"
 # 292 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -592,17 +604,25 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
 # 297 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Thank you for competing!\p"
+<<<<<<< HEAD
 # 298 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "I'll restore your POKéMON to\n"
 # 299 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "I'll restore your Pokémon to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "full health.$"
 # 300 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 301 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
+<<<<<<< HEAD
 # 302 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "All 1st-round matches have been\n"
 # 303 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "All first-round matches have been\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "completed.\p"
 # 304 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "These are the teams that advanced!$"
@@ -610,9 +630,13 @@ BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
 
 # 306 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
+<<<<<<< HEAD
 # 307 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "All 2nd-round matches have been\n"
 # 308 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "All second-round matches have been\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "completed.\p"
 # 309 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "These are the teams that advanced!$"
@@ -634,11 +658,16 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
 # 318 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Congratulations for getting through\n"
+<<<<<<< HEAD
 # 319 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "the 1st round.\p"
 # 320 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "The 2nd round is next.\n"
 # 321 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "the first round.\p"
+	.string "The second round is next.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 322 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -674,21 +703,33 @@ BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
 # 338 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "{PLAYER}'s next opponent\n"
+<<<<<<< HEAD
 # 339 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "is this TRAINER.$"
 # 340 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "is this Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 341 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
+<<<<<<< HEAD
 # 342 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "The tournament is in the 1st round.$"
 # 343 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "The tournament is in the first round.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 344 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
+<<<<<<< HEAD
 # 345 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "The tournament is in the 2nd round.$"
 # 346 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "The tournament is in the second round.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 347 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
@@ -730,9 +771,13 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
 # 366 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Should I record your last match\n"
+<<<<<<< HEAD
 # 367 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "on your FRONTIER PASS?$"
 # 368 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "on your Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 369 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
@@ -742,9 +787,13 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
 	.string "to the final match.\p"
 # 372 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "For the final match, you will challenge\n"
+<<<<<<< HEAD
 # 373 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "the DOME ACE TUCKER.\p"
 # 374 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "the Dome Ace Tucker.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 375 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -758,17 +807,25 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
 	.string "to the final match.\p"
 # 380 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "For the final match, you will challenge\n"
+<<<<<<< HEAD
 # 381 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "the DOME ACE TUCKER.\p"
 # 382 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "the Dome Ace Tucker.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you ready?$"
 # 383 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 384 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
+<<<<<<< HEAD
 # 385 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Your final battle against TUCKER is\n"
 # 386 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "Your final battle against Tucker is\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "next. Are you ready?$"
 # 387 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -776,7 +833,11 @@ BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
 @ Identical again
 # 389 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
+<<<<<<< HEAD
 # 390 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	.string "Your final battle against TUCKER is\n"
 # 391 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	.string "Your final battle against Tucker is\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "next. Are you ready?$"

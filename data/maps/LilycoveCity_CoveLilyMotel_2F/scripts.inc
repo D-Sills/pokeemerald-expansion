@@ -138,6 +138,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 
 # 70 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
+<<<<<<< HEAD
 # 71 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I'm the GAME DESIGNER.\p"
 # 72 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
@@ -145,6 +146,11 @@ LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
 # 73 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "You're working on a POKéDEX?\p"
 # 74 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "I'm the Game Designer.\p"
+	.string "Oh, is that right?\n"
+	.string "You're working on a Pokédex?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's tough trying to complete it,\n"
 # 75 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "but don't give up.\p"
@@ -160,11 +166,16 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 	.string "Wow! That's awesome!\n"
 # 81 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Yep, it's totally awesome!\p"
+<<<<<<< HEAD
 # 82 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "This POKéDEX is completely filled!\n"
 # 83 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "You really must love POKéMON!\p"
 # 84 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "This Pokédex is completely filled!\n"
+	.string "You really must love Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm so impressed!\p"
 # 85 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Let me give you something in\n"
@@ -176,24 +187,35 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 # 89 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Me? You're talking to me?\n"
+<<<<<<< HEAD
 # 90 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I'm the PROGRAMMER.\p"
 # 91 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I wonder what the SLOTS are\n"
 # 92 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "I'm the Programmer.\p"
+	.string "I wonder what the Slots are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "like here.$"
 # 93 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 
 # 94 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
+<<<<<<< HEAD
 # 95 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
 # 96 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "POKéMON of HOENN interesting?$"
 # 97 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "I'm the Graphic Artist! Aren't the\n"
+	.string "Pokémon of Hoenn interesting?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 98 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
+<<<<<<< HEAD
 # 99 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "The girl TUBERS, they're cute, hey?\n"
 # 100 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
@@ -205,6 +227,13 @@ LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 # 103 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "A 2-on-2 battle with TWINS…\p"
 # 104 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "The girl Tubers, they're cute, hey?\n"
+	.string "To battle against a cute Tuber…\p"
+	.string "Whoop, it's so awesome!\p"
+	.string "And the Twins! Aren't they cute?\n"
+	.string "A 2-on-2 battle with Twins…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Whoop, it's unbearably fun!$"
 # 105 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 
@@ -224,44 +253,66 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
 	.string "people will challenge you.\p"
 # 113 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "That's why I never leave home without\n"
+<<<<<<< HEAD
 # 114 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "my GAME BOY ADVANCE.$"
 # 115 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "my Game Boy Advance.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 116 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
+<<<<<<< HEAD
 # 117 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "SCOTT: … … … … …\n"
 # 118 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "Scott: … … … … …\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … Zzz…\p"
 # 119 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "… … … … … Huh?!\n"
 # 120 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Oh, sorry, sorry! I was snoozing!\p"
+<<<<<<< HEAD
 # 121 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "I came to check out this POKéMON\n"
 # 122 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "CONTEST thing.\p"
 # 123 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "I came to check out this Pokémon\n"
+	.string "Contest thing.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I have to admit, it does look quite\n"
 # 124 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "entertaining, but…\p"
 # 125 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "Consider me a purist--I prefer\n"
+<<<<<<< HEAD
 # 126 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "battles and tough TRAINERS.\p"
 # 127 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "battles and tough Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But that's just me.\p"
 # 128 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "{PLAYER}{KUN}, I hope you'll enjoy everything\n"
+<<<<<<< HEAD
 # 129 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "like the GYMS, CONTESTS, BATTLE TENT,\l"
 # 130 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+=======
+	.string "like the Gyms, Contests, Battle Tent,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the whole works!$"
 # 131 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 
 # 132 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
+<<<<<<< HEAD
 # 133 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "SCOTT: I think it does take strategy\n"
 # 134 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
@@ -270,3 +321,10 @@ LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
 	.string "Devising CONTEST strategies is one way\n"
 # 136 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	.string "of becoming a better TRAINER, I'd say.$"
+=======
+	.string "Scott: I think it does take strategy\n"
+	.string "to win a Contest.\p"
+	.string "Devising Contest strategies is one way\n"
+	.string "of becoming a better Trainer, I'd say.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

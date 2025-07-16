@@ -322,27 +322,43 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 
 # 162 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
+<<<<<<< HEAD
 # 163 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "Welcome to LILYCOVE MUSEUM.\p"
 # 164 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "Welcome to Lilycove Museum.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please take the time to enjoy our\n"
 # 165 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "collection of fantastic artwork\l"
+<<<<<<< HEAD
 # 166 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "featuring POKéMON.$"
 # 167 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "featuring Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 168 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
+<<<<<<< HEAD
 # 169 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "I'm the CURATOR of this MUSEUM of\n"
 # 170 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "I'm the Curator of this Museum of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "fine arts.\p"
 # 171 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's heartening to see someone so\n"
+<<<<<<< HEAD
 # 172 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "young as you in our MUSEUM.\p"
 # 173 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "young as you in our Museum.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Have you viewed our collection of\n"
 # 174 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "paintings already?$"
@@ -360,9 +376,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime:
 LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings:
 # 181 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "Oh? I do believe that you seem to\n"
+<<<<<<< HEAD
 # 182 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "be a POKéMON TRAINER.\p"
 # 183 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "be a Pokémon Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Have you an interest in paintings,\n"
 # 184 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "too?$"
@@ -408,15 +428,23 @@ LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery:
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman:
 # 205 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a painting of a beautiful, smiling\n"
+<<<<<<< HEAD
 # 206 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "woman with a POKéMON on her lap.$"
 # 207 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "woman with a Pokémon on her lap.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 208 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
+<<<<<<< HEAD
 # 209 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a painting of a legendary POKéMON\n"
 # 210 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "It's a painting of a legendary Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from long ago.\p"
 # 211 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "The artist painted this from\n"
@@ -426,9 +454,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon:
 
 # 214 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
+<<<<<<< HEAD
 # 215 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a painting of GRASS POKéMON\n"
 # 216 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "It's a painting of Grass Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "swaying in a breeze.\p"
 # 217 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "They appear to be enjoying the wind's\n"
@@ -440,9 +472,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
 # 221 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a delicious-looking painting\n"
+<<<<<<< HEAD
 # 222 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "of BERRIES.\p"
 # 223 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "of Berries.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This painting could make you hungry!$"
 # 224 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 
@@ -450,15 +486,23 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:
 # 226 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a replica of a famous sculpture.\p"
+<<<<<<< HEAD
 # 227 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It depicts an ancient BIRD POKéMON.$"
 # 228 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "It depicts an ancient Bird Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 229 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
+<<<<<<< HEAD
 # 230 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a big POKé BALL carved from\n"
 # 231 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "It's a big Poké Ball carved from\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a black stone.\p"
 # 232 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It was apparently used in festivals\n"
@@ -470,9 +514,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone:
 LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText:
 # 236 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "It's a huge stone tablet inscribed\n"
+<<<<<<< HEAD
 # 237 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "with POKéMON and dense text in the\l"
 # 238 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "with Pokémon and dense text in the\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "small characters of an ancient,\l"
 # 239 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "unreadable language.$"
@@ -488,9 +536,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_WorksOfMagnificence:
 
 # 245 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
+<<<<<<< HEAD
 # 246 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "Battling with POKéMON is fun,\n"
 # 247 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "Battling with Pokémon is fun,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll grant you that.\p"
 # 248 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "But one mustn't forget our love for\n"
@@ -500,6 +552,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 
 # 251 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
+<<<<<<< HEAD
 # 252 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "This ART MUSEUM… Well, you could\n"
 # 253 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
@@ -509,6 +562,12 @@ LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
 # 255 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "Among artists like myself, this MUSEUM\n"
 # 256 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "This Art Museum… Well, you could\n"
+	.string "see many fantastic paintings.\p"
+	.string "And the Curator is a wonderful person.\p"
+	.string "Among artists like myself, this Museum\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is an inspiration.$"
 # 257 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 
@@ -522,17 +581,25 @@ LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
 
 # 262 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
+<<<<<<< HEAD
 # 263 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "This POKéMON is adorable!\n"
 # 264 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "This Pokémon is adorable!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Just like our little boy!$"
 # 265 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 
 # 266 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
+<<<<<<< HEAD
 # 267 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "I'd heard that this ART MUSEUM got\n"
 # 268 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "I'd heard that this Art Museum got\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in some new paintings.\p"
 # 269 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "So, naturally I hurried over.\p"
@@ -544,9 +611,13 @@ LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
 
 # 273 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
+<<<<<<< HEAD
 # 274 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "Lately, the CURATOR has been\n"
 # 275 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "Lately, the Curator has been\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "unusually cheerful.\p"
 # 276 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "I bet something good happened for him.\n"
@@ -568,6 +639,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
 
 # 285 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
+<<<<<<< HEAD
 # 286 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "The ART MUSEUM has become a favorite\n"
 # 287 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
@@ -579,4 +651,11 @@ LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
 # 290 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
 	.string "This is what I've heard--a lone TRAINER\n"
 # 291 "data/maps/LilycoveCity_LilycoveMuseum_1F/scripts.pory"
+=======
+	.string "The Art Museum has become a favorite\n"
+	.string "tourist destination.\p"
+	.string "It's great for Lilycove…\n"
+	.string "No, great for the Hoenn region!\p"
+	.string "This is what I've heard--a lone Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "procured all the paintings upstairs.$"

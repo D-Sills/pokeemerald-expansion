@@ -70,18 +70,27 @@ SlateportCity_Mart_EventScript_Man::
 
 # 36 "data/maps/SlateportCity_Mart/scripts.pory"
 SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
+<<<<<<< HEAD
 # 37 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "The MARKET does have some interesting\n"
 # 38 "data/maps/SlateportCity_Mart/scripts.pory"
+=======
+	.string "The Market does have some interesting\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "merchandise.\p"
 # 39 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "But there are some items you can only\n"
+<<<<<<< HEAD
 # 40 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "get at a POKéMON MART.$"
 # 41 "data/maps/SlateportCity_Mart/scripts.pory"
+=======
+	.string "get at a Poké Mart.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 42 "data/maps/SlateportCity_Mart/scripts.pory"
 SlateportCity_Mart_Text_GreatBallIsBetter:
+<<<<<<< HEAD
 # 43 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "A GREAT BALL is better than a POKé BALL\n"
 # 44 "data/maps/SlateportCity_Mart/scripts.pory"
@@ -90,3 +99,10 @@ SlateportCity_Mart_Text_GreatBallIsBetter:
 	.string "With this, I should be able to get that\n"
 # 46 "data/maps/SlateportCity_Mart/scripts.pory"
 	.string "elusive POKéMON…$"
+=======
+	.string "A Great Ball is better than a Poké Ball\n"
+	.string "at catching Pokémon.\p"
+	.string "With this, I should be able to get that\n"
+	.string "elusive Pokémon…$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

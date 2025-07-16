@@ -60,19 +60,28 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 
 # 31 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
+<<<<<<< HEAD
 # 32 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "What color is your TRAINER CARD?\n"
 # 33 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "What color is your Trainer Card?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Mine's copper!$"
 # 34 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 
 # 35 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
+<<<<<<< HEAD
 # 36 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "PACIFIDLOG TOWN floats on top of\n"
 # 37 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "a colony of CORSOLA.\p"
 # 38 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pacifidlog Town floats on top of\n"
+	.string "a colony of Corsola.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If I told you that, would you believe\n"
 # 39 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "me?$"
@@ -82,9 +91,13 @@ PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
 # 42 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "The ancestors of the people in\n"
+<<<<<<< HEAD
 # 43 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "PACIFIDLOG were said to have been\l"
 # 44 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pacifidlog were said to have been\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "born on boats and then lived and died \l"
 # 45 "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.pory"
 	.string "aboard them.\p"

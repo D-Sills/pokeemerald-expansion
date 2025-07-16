@@ -90,35 +90,23 @@ VerdanturfTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Unused
 # 46 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 VerdanturfTown_ContestHall_Text_WhichContestYouEntering:
-# 47 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "Which CONTEST are you entering?\n"
-# 48 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "Want a piece of advice?\p"
-# 49 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "In any CONTEST, for example, a CUTE\n"
-# 50 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "CONTEST, I don't think they judge you\l"
-# 51 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "only on cuteness in the first round.\p"
 # 52 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "You need to work out ways for raising\n"
-# 53 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "POKéMON better.$"
-# 54 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 
 # 55 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 @ Unused
 # 56 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
-# 57 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "I raised my POKéMON to be cute.\p"
-# 58 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "I found out you can put POKéMON in\n"
-# 59 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "a CONTEST for cuteness!\p"
-# 60 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "I'm so glad I raised my POKéMON with\n"
-# 61 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "loving care…$"
 # 62 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 
@@ -126,23 +114,18 @@ VerdanturfTown_ContestHall_Text_RaisedMonToBeCute:
 @ Unused
 # 64 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 VerdanturfTown_ContestHall_Text_MyMonRules:
-# 65 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "My POKéMON rules!\p"
-# 66 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "It's cool, tough yet beautiful, cute,\n"
 # 67 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "and smart. It's complete!\p"
 # 68 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "I may as well go for wins in every\n"
-# 69 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "single CONTEST.$"
-# 70 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 
 # 71 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 @ Unused
 # 72 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 VerdanturfTown_ContestHall_Text_NormalRankStage:
-# 73 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "POKéMON CONTESTS\n"
-# 74 "data/maps/VerdanturfTown_BattleTentCorridor/scripts.pory"
 	.string "NORMAL RANK STAGE!$"
+

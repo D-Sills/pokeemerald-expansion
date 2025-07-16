@@ -282,17 +282,26 @@ LilycoveCity_DepartmentStore_1F_EventScript_FloorNamesSign::
 
 # 142 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore:
+<<<<<<< HEAD
 # 143 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "Welcome to LILYCOVE DEPARTMENT STORE.$"
 # 144 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
+=======
+	.string "Welcome to Lilycove Department Store.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 145 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings:
+<<<<<<< HEAD
 # 146 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "Whenever I come to the DEPARTMENT\n"
 # 147 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "STORE, I always end up buying all sorts\l"
 # 148 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
+=======
+	.string "Whenever I come to the Department\n"
+	.string "Store, I always end up buying all sorts\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of things because it's so fun.$"
 # 149 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 
@@ -306,20 +315,30 @@ LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 
 # 154 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
+<<<<<<< HEAD
 # 155 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "I'm buying something for my AZUMARILL\n"
 # 156 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "as a reward for winning a CONTEST.$"
 # 157 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
+=======
+	.string "I'm buying something for my Azumarill\n"
+	.string "as a reward for winning a Contest.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 158 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
+<<<<<<< HEAD
 # 159 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "AZUMARILL: Maririroo!$"
 # 160 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
+=======
+	.string "Azumarill: Maririroo!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 161 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
+<<<<<<< HEAD
 # 162 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "1F: SERVICE COUNTER\n"
 # 163 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
@@ -335,6 +354,15 @@ LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign:
 # 168 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "ROOFTOP: ROOFTOP PLAZA$"
 # 169 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
+=======
+	.string "1F: Service Counter\n"
+	.string "    Lottery Corner\p"
+	.string "2F: Trainer's Zone\p"
+	.string "3F: Battle Collection\p"
+	.string "4F: TM Corner\p"
+	.string "5F: Poké Doll Floor\p"
+	.string "Rooftop: Rooftop Plaza$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 170 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 @ Unused

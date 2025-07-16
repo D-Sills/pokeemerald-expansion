@@ -62,11 +62,16 @@ LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman::
 
 # 32 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
+<<<<<<< HEAD
 # 33 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "I think POKéMON get closer to their\n"
 # 34 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "TRAINERS if they spend time together.\p"
 # 35 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I think Pokémon get closer to their\n"
+	.string "Trainers if they spend time together.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The longer the better.\n"
 # 36 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "That's what I think.$"
@@ -78,9 +83,13 @@ LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
 	.string "It's sort of magical how just sitting\n"
 # 40 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "in a hot-spring pool can invigorate.\p"
+<<<<<<< HEAD
 # 41 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "I wish I could let my POKéMON\n"
 # 42 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I wish I could let my Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "soak, too.$"
 # 43 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 
@@ -90,7 +99,13 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string "Hohoho! Hey, kid, you can reach\n"
 # 46 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "the hot springs from here.\p"
+<<<<<<< HEAD
 # 47 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "If POKéMON are getting rest, so too\n"
 # 48 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "should their TRAINERS.$"
+=======
+	.string "If Pokémon are getting rest, so too\n"
+	.string "should their Trainers.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

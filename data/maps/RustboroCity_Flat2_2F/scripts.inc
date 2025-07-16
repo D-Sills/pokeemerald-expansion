@@ -48,17 +48,25 @@ RustboroCity_Flat2_2F_EventScript_GavePremierBall::
 
 # 25 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays:
+<<<<<<< HEAD
 # 26 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "Way back in the old days, DEVON was just\n"
 # 27 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
+=======
+	.string "Way back in the old days, Devon was just\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a teeny, tiny company.$"
 # 28 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 
 # 29 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
+<<<<<<< HEAD
 # 30 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "My daddy's working at the CORPORATION.\p"
 # 31 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
+=======
+	.string "My daddy's working at the Corporation.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My daddy made this!\n"
 # 32 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "But I can't use it, so you can have it.$"
@@ -66,9 +74,16 @@ RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
 
 # 34 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo:
+<<<<<<< HEAD
 # 35 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "My daddy's working at the CORPORATION.\p"
 # 36 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "When I grow up, I'm going to work for\n"
 # 37 "data/maps/RustboroCity_Flat2_2F/scripts.pory"
 	.string "DEVON, too.$"
+=======
+	.string "My daddy's working at the Corporation.\p"
+	.string "When I grow up, I'm going to work for\n"
+	.string "Devon, too.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

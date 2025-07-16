@@ -64,9 +64,13 @@ SootopolisCity_House1_EventScript_Kecleon::
 SootopolisCity_House1_Text_DevelopedThisTM:
 # 33 "data/maps/SootopolisCity_House1/scripts.pory"
 	.string "For thirty years I've remained in\n"
+<<<<<<< HEAD
 # 34 "data/maps/SootopolisCity_House1/scripts.pory"
 	.string "SOOTOPOLIS honing my skills.\p"
 # 35 "data/maps/SootopolisCity_House1/scripts.pory"
+=======
+	.string "Sootopolis honing my skills.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I developed a shattering TM.\n"
 # 36 "data/maps/SootopolisCity_House1/scripts.pory"
 	.string "I bequeath it to you!$"
@@ -74,13 +78,22 @@ SootopolisCity_House1_Text_DevelopedThisTM:
 
 # 38 "data/maps/SootopolisCity_House1/scripts.pory"
 SootopolisCity_House1_Text_ExplainBrickBreak:
+<<<<<<< HEAD
 # 39 "data/maps/SootopolisCity_House1/scripts.pory"
 	.string "TM31 contains BRICK BREAK! It's a move\n"
 # 40 "data/maps/SootopolisCity_House1/scripts.pory"
+=======
+	.string "TM31 contains Brick Break! It's a move\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so horrible that I can't describe it.$"
 # 41 "data/maps/SootopolisCity_House1/scripts.pory"
 
 # 42 "data/maps/SootopolisCity_House1/scripts.pory"
 SootopolisCity_House1_Text_Kecleon:
+<<<<<<< HEAD
 # 43 "data/maps/SootopolisCity_House1/scripts.pory"
 	.string "KECLEON: Puu puhyaah.$"
+=======
+	.string "Kecleon: Puu puhyaah.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

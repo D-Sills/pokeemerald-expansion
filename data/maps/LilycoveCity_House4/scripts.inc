@@ -36,7 +36,11 @@ LilycoveCity_House4_Text_MysteriesAtBottomOfSea:
 LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis:
 # 19 "data/maps/LilycoveCity_House4/scripts.pory"
 	.string "There's a deep underwater trench\n"
+<<<<<<< HEAD
 # 20 "data/maps/LilycoveCity_House4/scripts.pory"
 	.string "between MOSSDEEP and SOOTOPOLIS.\p"
 # 21 "data/maps/LilycoveCity_House4/scripts.pory"
+=======
+	.string "between Mossdeep and Sootopolis.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's what someone told me, anyway.$"

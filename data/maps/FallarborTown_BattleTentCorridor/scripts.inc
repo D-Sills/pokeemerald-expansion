@@ -104,6 +104,7 @@ FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 # 53 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "See!\n"
+<<<<<<< HEAD
 # 54 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "My POKéMON won all these RIBBONS!\p"
 # 55 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
@@ -111,16 +112,26 @@ FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 # 56 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "You can check them on your POKéNAV.$"
 # 57 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
+=======
+	.string "My Pokémon won all these Ribbons!\p"
+	.string "Have your Pokémon earned any Ribbons?\n"
+	.string "You can check them on your PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 58 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 @ Unused
 # 59 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 FallarborTown_ContestHall_Text_CantWinEverywhere:
+<<<<<<< HEAD
 # 60 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "I can't beat GYM LEADERS…\p"
 # 61 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "I can't win any CONTESTS…\p"
 # 62 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
+=======
+	.string "I can't beat Gym Leaders…\p"
+	.string "I can't win any Contests…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've been here, there, and everywhere,\n"
 # 63 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "and it's all for naught…$"
@@ -130,7 +141,13 @@ FallarborTown_ContestHall_Text_CantWinEverywhere:
 @ Unused
 # 66 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 FallarborTown_ContestHall_Text_SuperRankStage:
+<<<<<<< HEAD
 # 67 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "POKéMON CONTESTS\n"
 # 68 "data/maps/FallarborTown_BattleTentCorridor/scripts.pory"
 	.string "SUPER RANK STAGE!$"
+=======
+	.string "Pokémon Contests\n"
+	.string "Super Rank Stage!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

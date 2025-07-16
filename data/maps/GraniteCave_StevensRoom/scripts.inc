@@ -164,23 +164,35 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 
 # 83 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
+<<<<<<< HEAD
 # 84 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "My name is STEVEN.\p"
 # 85 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "My name is Steven.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm interested in rare stones,\n"
 # 86 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "so I travel here and there.\p"
 # 87 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "Oh?\n"
+<<<<<<< HEAD
 # 88 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "A LETTER for me?$"
 # 89 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "A Letter for me?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 90 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
+<<<<<<< HEAD
 # 91 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "STEVEN: Okay, thank you.\p"
 # 92 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "Steven: Oh, thank you.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You went through all this trouble to\n"
 # 93 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "deliver that. I need to thank you.\p"
@@ -190,39 +202,61 @@ GraniteCave_StevensRoom_Text_ThankYouTakeThis:
 	.string "I'll give you this TM.\p"
 # 96 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "It contains my favorite move,\n"
+<<<<<<< HEAD
 # 97 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "STEEL WING.$"
 # 98 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "Steel Wing.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 99 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
+<<<<<<< HEAD
 # 100 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "STEVEN: Your POKéMON appear quite\n"
 # 101 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "Steven: Your Pokémon appear quite\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "capable.\p"
 # 102 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "If you keep training, you could even\n"
+<<<<<<< HEAD
 # 103 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "become the CHAMPION of the POKéMON\l"
 # 104 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "LEAGUE one day. That's what I think.\p"
 # 105 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "become the Champion of the Pokémon\l"
+	.string "League one day. That's what I think.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I know, since we've gotten to know each\n"
 # 106 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "other, let's register one another in\l"
+<<<<<<< HEAD
 # 107 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "our POKéNAVS.\p"
 # 108 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "our PokéNavs.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …$"
 # 109 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 
 # 110 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_RegisteredSteven:
+<<<<<<< HEAD
 # 111 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "Registered STEVEN\n"
 # 112 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "in the POKéNAV.$"
 # 113 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "Registered Steven\n"
+	.string "in the PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 114 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
@@ -232,7 +266,11 @@ GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 
 # 117 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_Text_OhBagIsFull:
+<<<<<<< HEAD
 # 118 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.string "Oh, your BAG is full…\n"
 # 119 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	.string "Oh, your Bag is full…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's too bad, then.$"

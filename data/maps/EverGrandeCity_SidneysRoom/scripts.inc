@@ -136,9 +136,13 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 # 69 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	.string "Welcome, challenger!\n"
+<<<<<<< HEAD
 # 70 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	.string "I'm SIDNEY of the ELITE FOUR.\p"
 # 71 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
+=======
+	.string "I'm Sidney of the Elite Four.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I like that look you're giving me.\n"
 # 72 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	.string "I guess you'll give me a good match.\l"
@@ -148,9 +152,13 @@ EverGrandeCity_SidneysRoom_Text_IntroSpeech:
 	.string "All right! You and me, let's enjoy\n"
 # 75 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	.string "a battle that can only be staged\l"
+<<<<<<< HEAD
 # 76 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	.string "here in the POKéMON LEAGUE!$"
 # 77 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
+=======
+	.string "here in the Pokémon League!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 78 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 EverGrandeCity_SidneysRoom_Text_Defeat:

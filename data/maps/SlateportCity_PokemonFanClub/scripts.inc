@@ -510,6 +510,7 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 
 # 256 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_MeetChairman:
+<<<<<<< HEAD
 # 257 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Er-hem! I am the CHAIRMAN of the\n"
 # 258 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -517,9 +518,15 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 # 259 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Being the CHAIRMAN, I am naturally\n"
 # 260 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Er-hem! I am the Chairman of the\n"
+	.string "Pokémon Fan Club!\p"
+	.string "Being the Chairman, I am naturally\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the most important!\p"
 # 261 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "No one can best me when it comes\n"
+<<<<<<< HEAD
 # 262 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "to raising POKéMON. No one!\p"
 # 263 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -531,24 +538,40 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 # 266 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "POKéMON for the world to see!\p"
 # 267 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "to raising Pokémon. No one!\p"
+	.string "Well, let me tell you about\n"
+	.string "Pokémon Contests.\p"
+	.string "They're events where one can show off\n"
+	.string "Pokémon for the world to see!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "However, they're held in far-off towns,\n"
 # 268 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "so I cannot participate often enough.\p"
 # 269 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "That is why we gather here to show\n"
+<<<<<<< HEAD
 # 270 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "off our POKéMON, and have others\l"
 # 271 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "off our Pokémon, and have others\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "show us theirs.$"
 # 272 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
 # 273 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
+<<<<<<< HEAD
 # 274 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "The POKéMON of a TRAINER who has\n"
 # 275 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "entered a POKéMON CONTEST…\l"
 # 276 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "The Pokémon of a Trainer who has\n"
+	.string "entered a Pokémon Contest…\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That, I would like to see.$"
 # 277 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
@@ -556,6 +579,7 @@ SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 # 279 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Er-hem! I see you've participated in\n"
+<<<<<<< HEAD
 # 280 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "a POKéMON CONTEST!\p"
 # 281 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -575,6 +599,17 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 # 288 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "nurtured and raised the POKéMON…\p"
 # 289 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "a Pokémon Contest!\p"
+	.string "Please! Allow me to examine how you\n"
+	.string "have raised your Pokémon.\p"
+	.string "It delights me no end to see Pokémon\n"
+	.string "raised by other Trainers.\p"
+	.string "The happy expressions of Pokémon\n"
+	.string "raised with proper care…\p"
+	.string "The kindly eyes of the Trainer that\n"
+	.string "nurtured and raised the Pokémon…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The very thought fills my heart to\n"
 # 290 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "overwhelming with joy.\p"
@@ -584,15 +619,23 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string "Forgive me for prattling on so!\p"
 # 293 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Please! Allow me to examine how much\n"
+<<<<<<< HEAD
 # 294 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "your POKéMON has grown!$"
 # 295 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "your Pokémon has grown!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 296 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
+<<<<<<< HEAD
 # 297 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "How is your POKéMON growing?\n"
 # 298 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "How is your Pokémon growing?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Allow me to examine it.$"
 # 299 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
@@ -610,6 +653,7 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 	.string "Hmmm… It's not bad, but it's not\n"
 # 306 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "good, either…\p"
+<<<<<<< HEAD
 # 307 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "You, the TRAINER, must put more\n"
 # 308 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -619,20 +663,34 @@ SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
 # 310 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "you give it more {POKEBLOCK}S?$"
 # 311 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "You, the Trainer, must put more\n"
+	.string "effort into raising this Pokémon!\p"
+	.string "For instance, may I suggest that\n"
+	.string "you give it more {POKEBLOCK}s?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 312 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
 # 313 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Oh, my…\p"
+<<<<<<< HEAD
 # 314 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Your POKéMON is growing quite well,\n"
 # 315 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Your Pokémon is growing quite well,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so you deserve a reward.\p"
 # 316 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Unfortunately, you have no space for\n"
+<<<<<<< HEAD
 # 317 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "this in your BAG.$"
 # 318 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "this in your Bag.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 319 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
@@ -650,6 +708,7 @@ SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
 
 # 326 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
+<<<<<<< HEAD
 # 327 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Let a POKéMON hold that RED SCARF.\p"
 # 328 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -657,12 +716,21 @@ SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
 # 329 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "of that POKéMON!$"
 # 330 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Let a Pokémon hold that Red Scarf.\p"
+	.string "Everyone will recognize the coolness\n"
+	.string "of that Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 331 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
+<<<<<<< HEAD
 # 332 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Let a POKéMON hold that BLUE SCARF.\p"
 # 333 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Let a Pokémon hold that Blue Scarf.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Its beauty will be accentuated much\n"
 # 334 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "more than now!$"
@@ -670,6 +738,7 @@ SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
 
 # 336 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
+<<<<<<< HEAD
 # 337 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Let a POKéMON hold that PINK SCARF.\p"
 # 338 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -677,9 +746,15 @@ SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
 # 339 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "the POKéMON some more!$"
 # 340 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Let a Pokémon hold that Pink Scarf.\p"
+	.string "It will draw out the cuteness of\n"
+	.string "the Pokémon some more!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 341 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
+<<<<<<< HEAD
 # 342 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Let a POKéMON hold that GREEN SCARF.\p"
 # 343 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -687,14 +762,24 @@ SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
 # 344 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "smartness of POKéMON!$"
 # 345 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Let a Pokémon hold that Green Scarf.\p"
+	.string "That will enhance the\n"
+	.string "smartness of Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 346 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
+<<<<<<< HEAD
 # 347 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Let a POKéMON hold that YELLOW SCARF.\p"
 # 348 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "It will bolster your POKéMON's\n"
 # 349 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Let a Pokémon hold that Yellow Scarf.\p"
+	.string "It will bolster your Pokémon's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "toughness so much more!$"
 # 350 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
@@ -706,14 +791,19 @@ SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
 	.string "give you! None at all!\p"
 # 354 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "After all, you're blessed with the gift\n"
+<<<<<<< HEAD
 # 355 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "of raising POKéMON without resorting\l"
 # 356 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "of raising Pokémon without resorting\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to any items!$"
 # 357 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
 # 358 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
+<<<<<<< HEAD
 # 359 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "I love seeing POKéMON that love\n"
 # 360 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -729,11 +819,21 @@ SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
 # 365 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "When your POKéMON grow to love you,\n"
 # 366 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "I love seeing Pokémon that love\n"
+	.string "their Trainers.\p"
+	.string "Pokémon are very sensitive to\n"
+	.string "the feelings of their Trainers.\p"
+	.string "If you treat your Pokémon with love\n"
+	.string "and care, they'll love you back.\p"
+	.string "When your Pokémon grow to love you,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "please come show me.$"
 # 367 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
 # 368 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
+<<<<<<< HEAD
 # 369 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Your POKéMON really adores you.\p"
 # 370 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -741,9 +841,15 @@ SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
 # 371 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "TRAINER, a gift from the FAN CLUB!$"
 # 372 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Your Pokémon really adores you.\p"
+	.string "For you, a most compassionate\n"
+	.string "Trainer, a gift from the Fan Club!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 373 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
+<<<<<<< HEAD
 # 374 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "POKéMON are very sensitive to\n"
 # 375 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -751,20 +857,33 @@ SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
 # 376 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "If you treat your POKéMON with love\n"
 # 377 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Pokémon are very sensitive to\n"
+	.string "the feelings of their Trainers.\p"
+	.string "If you treat your Pokémon with love\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and care, they'll love you back.$"
 # 378 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
 # 379 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
+<<<<<<< HEAD
 # 380 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "If you keep letting a POKéMON faint\n"
 # 381 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "If you keep letting a Pokémon faint\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in battle, it'll come to resent it.\p"
 # 382 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Soon, it will become less trusting\n"
+<<<<<<< HEAD
 # 383 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "of the TRAINER.\p"
 # 384 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "of the Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "In other words, it certainly won't\n"
 # 385 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "like you very much.$"
@@ -772,29 +891,50 @@ SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
 
 # 387 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
+<<<<<<< HEAD
 # 388 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Do POKéMON enjoy having items used\n"
 # 389 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Do Pokémon enjoy having items used\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on them?\p"
 # 390 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "Mine acted really happy when I gave\n"
+<<<<<<< HEAD
 # 391 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "it some PROTEIN.$"
 # 392 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "it some Protein.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 393 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_Skitty:
+<<<<<<< HEAD
 # 394 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "SKITTY: Fffnyaaaah…$"
 # 395 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Skitty: Fffnyaaaah…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 396 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_Zigzagoon:
+<<<<<<< HEAD
 # 397 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "ZIGZAGOON: Kyuuu…$"
 # 398 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
+=======
+	.string "Zigzagoon: Kyuuu…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 399 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_Azumarill:
+<<<<<<< HEAD
 # 400 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	.string "AZUMARILL: Marimari?$"
+=======
+	.string "Azumarill: Marimari?$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

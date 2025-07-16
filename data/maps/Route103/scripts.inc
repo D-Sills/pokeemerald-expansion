@@ -578,11 +578,16 @@ Route103_EventScript_Isabelle::
 
 # 290 "data/maps/Route103/scripts.pory"
 Route103_Text_MayRoute103Pokemon:
+<<<<<<< HEAD
 # 291 "data/maps/Route103/scripts.pory"
 	.string "MAY: Let's see… The POKéMON found\n"
 # 292 "data/maps/Route103/scripts.pory"
 	.string "on ROUTE 103 include…$"
 # 293 "data/maps/Route103/scripts.pory"
+=======
+	.string "May: Let's see… The Pokémon found\n"
+	.string "on Route 103 include…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 294 "data/maps/Route103/scripts.pory"
 Route103_Text_MayLetsBattle:
@@ -590,17 +595,25 @@ Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
 # 296 "data/maps/Route103/scripts.pory"
 	.string "…Oh, I see, my dad gave you\n"
+<<<<<<< HEAD
 # 297 "data/maps/Route103/scripts.pory"
 	.string "a POKéMON as a gift.\p"
 # 298 "data/maps/Route103/scripts.pory"
+=======
+	.string "a Pokémon as a gift.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Since we're here, let's have a quick\n"
 # 299 "data/maps/Route103/scripts.pory"
 	.string "battle!\p"
 # 300 "data/maps/Route103/scripts.pory"
 	.string "I'll give you a taste of what being\n"
+<<<<<<< HEAD
 # 301 "data/maps/Route103/scripts.pory"
 	.string "a TRAINER is like.$"
 # 302 "data/maps/Route103/scripts.pory"
+=======
+	.string "a Trainer is like.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 303 "data/maps/Route103/scripts.pory"
 Route103_Text_MayDefeated:
@@ -612,6 +625,7 @@ Route103_Text_MayDefeated:
 
 # 307 "data/maps/Route103/scripts.pory"
 Route103_Text_MayTimeToHeadBack:
+<<<<<<< HEAD
 # 308 "data/maps/Route103/scripts.pory"
 	.string "MAY: I think I know why my dad has\n"
 # 309 "data/maps/Route103/scripts.pory"
@@ -619,9 +633,15 @@ Route103_Text_MayTimeToHeadBack:
 # 310 "data/maps/Route103/scripts.pory"
 	.string "I mean, you just got that POKéMON,\n"
 # 311 "data/maps/Route103/scripts.pory"
+=======
+	.string "May: I think I know why my dad has\n"
+	.string "an eye out for you now.\p"
+	.string "I mean, you just got that Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but it already likes you.\p"
 # 312 "data/maps/Route103/scripts.pory"
 	.string "You might be able to befriend any\n"
+<<<<<<< HEAD
 # 313 "data/maps/Route103/scripts.pory"
 	.string "kind of POKéMON easily.\p"
 # 314 "data/maps/Route103/scripts.pory"
@@ -629,28 +649,46 @@ Route103_Text_MayTimeToHeadBack:
 # 315 "data/maps/Route103/scripts.pory"
 	.string "the LAB.$"
 # 316 "data/maps/Route103/scripts.pory"
+=======
+	.string "kind of Pokémon easily.\p"
+	.string "Well, it's time to head back to\n"
+	.string "the Lab.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 317 "data/maps/Route103/scripts.pory"
 Route103_Text_BrendanRoute103Pokemon:
+<<<<<<< HEAD
 # 318 "data/maps/Route103/scripts.pory"
 	.string "BRENDAN: Okay, so it's this one and\n"
 # 319 "data/maps/Route103/scripts.pory"
 	.string "that one that live on ROUTE 103…$"
 # 320 "data/maps/Route103/scripts.pory"
+=======
+	.string "Brendan: Okay, so it's this one and\n"
+	.string "that one that live on Route 103…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 321 "data/maps/Route103/scripts.pory"
 Route103_Text_BrendanLetsBattle:
 # 322 "data/maps/Route103/scripts.pory"
 	.string "Hey, it's {PLAYER}!\p"
+<<<<<<< HEAD
 # 323 "data/maps/Route103/scripts.pory"
 	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
 # 324 "data/maps/Route103/scripts.pory"
+=======
+	.string "…Oh, yeah, Dad gave you a Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Since we're here, how about a little\n"
 # 325 "data/maps/Route103/scripts.pory"
 	.string "battle?\p"
+<<<<<<< HEAD
 # 326 "data/maps/Route103/scripts.pory"
 	.string "I'll teach you what being a TRAINER's\n"
 # 327 "data/maps/Route103/scripts.pory"
+=======
+	.string "I'll teach you what being a Trainer's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "about!$"
 # 328 "data/maps/Route103/scripts.pory"
 
@@ -662,45 +700,73 @@ Route103_Text_BrendanDefeated:
 
 # 332 "data/maps/Route103/scripts.pory"
 Route103_Text_BrendanTimeToHeadBack:
+<<<<<<< HEAD
 # 333 "data/maps/Route103/scripts.pory"
 	.string "BRENDAN: I think I get it.\n"
 # 334 "data/maps/Route103/scripts.pory"
+=======
+	.string "Brendan: I think I get it.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I think I know why my dad has his eye\l"
 # 335 "data/maps/Route103/scripts.pory"
 	.string "out for you now.\p"
+<<<<<<< HEAD
 # 336 "data/maps/Route103/scripts.pory"
 	.string "Look, your POKéMON already likes you,\n"
 # 337 "data/maps/Route103/scripts.pory"
+=======
+	.string "Look, your Pokémon already likes you,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "even though you just got it.\p"
 # 338 "data/maps/Route103/scripts.pory"
 	.string "{PLAYER}, I get the feeling that you\n"
+<<<<<<< HEAD
 # 339 "data/maps/Route103/scripts.pory"
 	.string "could befriend any POKéMON with ease.\p"
 # 340 "data/maps/Route103/scripts.pory"
 	.string "We should head back to the LAB.$"
 # 341 "data/maps/Route103/scripts.pory"
+=======
+	.string "could befriend any Pokémon with ease.\p"
+	.string "We should head back to the Lab.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 342 "data/maps/Route103/scripts.pory"
 Route103_Text_ShouldHaveBroughtPotion:
+<<<<<<< HEAD
 # 343 "data/maps/Route103/scripts.pory"
 	.string "My POKéMON is staggeringly tired…\n"
 # 344 "data/maps/Route103/scripts.pory"
 	.string "I should have brought a POTION…$"
 # 345 "data/maps/Route103/scripts.pory"
+=======
+	.string "My Pokémon is staggeringly tired…\n"
+	.string "I should have brought a Potion…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 346 "data/maps/Route103/scripts.pory"
 Route103_Text_ShortcutToOldale:
 # 347 "data/maps/Route103/scripts.pory"
 	.string "If you cross the sea from here,\n"
+<<<<<<< HEAD
 # 348 "data/maps/Route103/scripts.pory"
 	.string "it'll be a shortcut to OLDALE TOWN.\p"
 # 349 "data/maps/Route103/scripts.pory"
+=======
+	.string "it'll be a shortcut to Oldale Town.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Fufufu, that's useful, isn't it?$"
 # 350 "data/maps/Route103/scripts.pory"
 
 # 351 "data/maps/Route103/scripts.pory"
 Route103_Text_RouteSign:
+<<<<<<< HEAD
 # 352 "data/maps/Route103/scripts.pory"
 	.string "ROUTE 103\n"
 # 353 "data/maps/Route103/scripts.pory"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
+=======
+	.string "Route 103\n"
+	.string "{DOWN_ARROW} Oldale Town$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

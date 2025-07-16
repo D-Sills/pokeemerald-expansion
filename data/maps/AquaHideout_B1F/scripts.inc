@@ -220,9 +220,13 @@ AquaHideout_B1F_EventScript_Grunt7::
 AquaHideout_B1F_Text_Grunt2Intro:
 # 111 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "If you want to know the secret about\n"
+<<<<<<< HEAD
 # 112 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "our HIDEOUT, you have me to beat!$"
 # 113 "data/maps/AquaHideout_B1F/scripts.pory"
+=======
+	.string "our Hideout, you have me to beat!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 114 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt2Defeat:
@@ -232,9 +236,13 @@ AquaHideout_B1F_Text_Grunt2Defeat:
 
 # 117 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt2PostBattle:
+<<<<<<< HEAD
 # 118 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "Our HIDEOUT's secret?\p"
 # 119 "data/maps/AquaHideout_B1F/scripts.pory"
+=======
+	.string "Our Hideout's secret?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Well, let's just say…\n"
 # 120 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "There's a submarine at the far end!\p"
@@ -276,9 +284,13 @@ AquaHideout_B1F_Text_Grunt3PostBattle:
 AquaHideout_B1F_Text_Grunt5Intro:
 # 139 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "Yawn… Keeping watch over the\n"
+<<<<<<< HEAD
 # 140 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "HIDEOUT bores me. I'll take you on.$"
 # 141 "data/maps/AquaHideout_B1F/scripts.pory"
+=======
+	.string "Hideout bores me. I'll take you on.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 142 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt5Defeat:
@@ -290,11 +302,16 @@ AquaHideout_B1F_Text_Grunt5Defeat:
 
 # 146 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt5PostBattle:
+<<<<<<< HEAD
 # 147 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "If you scurry too much, other TEAM\n"
 # 148 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "AQUA members might get you.$"
 # 149 "data/maps/AquaHideout_B1F/scripts.pory"
+=======
+	.string "If you scurry too much, other Team\n"
+	.string "Aqua members might get you.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 150 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt7Intro:
@@ -304,9 +321,13 @@ AquaHideout_B1F_Text_Grunt7Intro:
 	.string "You there!\p"
 # 153 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "Which do you think is cooler?\n"
+<<<<<<< HEAD
 # 154 "data/maps/AquaHideout_B1F/scripts.pory"
 	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
 # 155 "data/maps/AquaHideout_B1F/scripts.pory"
+=======
+	.string "Team Aqua's uniform or Team Magma's?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 156 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_Text_Grunt7Defeat:

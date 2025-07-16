@@ -24,6 +24,7 @@ VerdanturfTown_House_EventScript_Woman2::
 
 # 13 "data/maps/VerdanturfTown_House/scripts.pory"
 VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
+<<<<<<< HEAD
 # 14 "data/maps/VerdanturfTown_House/scripts.pory"
 	.string "Far away, deep in EVER GRANDE CITY,\n"
 # 15 "data/maps/VerdanturfTown_House/scripts.pory"
@@ -31,11 +32,17 @@ VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague:
 # 16 "data/maps/VerdanturfTown_House/scripts.pory"
 	.string "The TRAINERS who gather there are\n"
 # 17 "data/maps/VerdanturfTown_House/scripts.pory"
+=======
+	.string "Far away, deep in Ever Grande City,\n"
+	.string "is the Pokémon League.\p"
+	.string "The Trainers who gather there are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "all frighteningly well skilled.$"
 # 18 "data/maps/VerdanturfTown_House/scripts.pory"
 
 # 19 "data/maps/VerdanturfTown_House/scripts.pory"
 VerdanturfTown_House_Text_DefeatEliteFourInARow:
+<<<<<<< HEAD
 # 20 "data/maps/VerdanturfTown_House/scripts.pory"
 	.string "In the POKéMON LEAGUE, I think the\n"
 # 21 "data/maps/VerdanturfTown_House/scripts.pory"
@@ -43,6 +50,11 @@ VerdanturfTown_House_Text_DefeatEliteFourInARow:
 # 22 "data/maps/VerdanturfTown_House/scripts.pory"
 	.string "ELITE FOUR all in a row.\p"
 # 23 "data/maps/VerdanturfTown_House/scripts.pory"
+=======
+	.string "In the Pokémon League, I think the\n"
+	.string "rules say that you have to battle the\l"
+	.string "Elite Four all in a row.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If you lose to any of them, you have\n"
 # 24 "data/maps/VerdanturfTown_House/scripts.pory"
 	.string "to begin your challenge again from the\l"

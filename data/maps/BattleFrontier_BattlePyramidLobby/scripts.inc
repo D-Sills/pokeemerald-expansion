@@ -1056,6 +1056,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_ExitRules::
 
 # 529 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
+<<<<<<< HEAD
 # 530 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Where the courage of TRAINERS\n"
 # 531 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1063,6 +1064,11 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
 # 532 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Welcome to the BATTLE PYRAMID!\p"
 # 533 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Where the courage of Trainers\n"
+	.string "is put to the test!\p"
+	.string "Welcome to the Battle Pyramid!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I am your guide to\n"
 # 534 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the Battle Quest.$"
@@ -1088,6 +1094,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 	.string "The Battle Quest is a battling\n"
 # 545 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "event in which you must explore\l"
+<<<<<<< HEAD
 # 546 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the PYRAMID and try to reach the top.\p"
 # 547 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1099,9 +1106,17 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 # 550 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You must enter with three POKéMON,\n"
 # 551 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Pyramid and try to reach the top.\p"
+	.string "In the Pyramid are seven floors of\n"
+	.string "mazes, all of them filled with not only\l"
+	.string "skilled Trainers but also wild Pokémon.\p"
+	.string "You must enter with three Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "none of them holding an item.\p"
 # 552 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "On your ascent, you will be provided\n"
+<<<<<<< HEAD
 # 553 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "with a BATTLE BAG for items.\p"
 # 554 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1113,6 +1128,13 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 # 557 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "challenge, you must select “REST”\l"
 # 558 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "with a Battle Bag for items.\p"
+	.string "If you fail in your challenge, any item\n"
+	.string "placed in the Battle Bag disappears.\p"
+	.string "If you want to interrupt your\n"
+	.string "challenge, you must select “Rest”\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and save the game.\p"
 # 559 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "If you don't save before interrupting,\n"
@@ -1122,9 +1144,13 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 
 # 562 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
+<<<<<<< HEAD
 # 563 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The PYRAMID offers two courses,\n"
 # 564 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The Pyramid offers two courses,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Level 50 and Open Level.\l"
 # 565 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Which will you enter?$"
@@ -1134,9 +1160,13 @@ BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
 # 568 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Very good. Now, please select the three\n"
+<<<<<<< HEAD
 # 569 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "POKéMON you wish to accompany you.$"
 # 570 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Pokémon you wish to accompany you.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 571 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
@@ -1144,6 +1174,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "A slight problem, adventurer!\p"
 # 573 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You seem to not have the three\n"
+<<<<<<< HEAD
 # 574 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "POKéMON qualified for the challenge.\p"
 # 575 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1153,6 +1184,12 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
 # 577 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 578 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Pokémon qualified for the challenge.\p"
+	.string "Please also remember to take all\n"
+	.string "items from your Pokémon.\p"
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "When you are ready, please have\n"
 # 579 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "a word with me.$"
@@ -1164,19 +1201,29 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
 	.string "A slight problem, adventurer!\p"
 # 583 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You seem to not have the three\n"
+<<<<<<< HEAD
 # 584 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "POKéMON qualified for the challenge.\p"
 # 585 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The three POKéMON must be different\n"
 # 586 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Pokémon qualified for the challenge.\p"
+	.string "The three Pokémon must be different\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and each no higher than Level 50.\p"
 # 587 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Please also remember to take all\n"
+<<<<<<< HEAD
 # 588 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "items from your POKéMON.\p"
 # 589 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 590 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "items from your Pokémon.\p"
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "When you are ready, please have\n"
 # 591 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "a word with me.$"
@@ -1184,9 +1231,13 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
 
 # 593 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
+<<<<<<< HEAD
 # 594 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Before you enter the BATTLE PYRAMID,\n"
 # 595 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Before you enter the Battle Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the game must be saved. Is that okay?$"
 # 596 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1194,41 +1245,63 @@ BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
 BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
 # 598 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Very good. I will now show you into\n"
+<<<<<<< HEAD
 # 599 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the BATTLE PYRAMID.$"
 # 600 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Battle Pyramid.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 601 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
+<<<<<<< HEAD
 # 602 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "We will hold your BAG for safekeeping,\n"
 # 603 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "We will hold your Bag for safekeeping,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}, while you are exploring.$"
 # 604 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 605 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
+<<<<<<< HEAD
 # 606 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "In exchange, please take this BATTLE\n"
 # 607 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "BAG, the one you used previously.$"
 # 608 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "In exchange, please take this Battle\n"
+	.string "Bag, the one you used previously.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 609 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
 # 610 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "In exchange, please take this\n"
+<<<<<<< HEAD
 # 611 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "BATTLE BAG.$"
 # 612 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Battle Bag.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 613 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
+<<<<<<< HEAD
 # 614 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "{PLAYER} exchanged the BAG for\n"
 # 615 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the BATTLE BAG.$"
 # 616 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "{PLAYER} exchanged the Bag for\n"
+	.string "the Battle Bag.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 617 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
@@ -1236,9 +1309,13 @@ BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
 	.string "When you step on this floor panel,\n"
 # 619 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "you will be transported to a higher\l"
+<<<<<<< HEAD
 # 620 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "floor in the PYRAMID.\p"
 # 621 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "floor in the Pyramid.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hope for your sake that your\n"
 # 622 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "quest goes safely!$"
@@ -1256,6 +1333,7 @@ BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
 	.string "Consequently, your challenge has\n"
 # 629 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "been disqualified, I'm sorry to say.\p"
+<<<<<<< HEAD
 # 630 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Here is the BAG we've been holding\n"
 # 631 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1263,14 +1341,23 @@ BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
 # 632 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "{PLAYER} got the BAG back.$"
 # 633 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Here is the Bag we've been holding\n"
+	.string "for you.\p"
+	.string "{PLAYER} got the Bag back.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 634 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
 # 635 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Excellent to see you back!\p"
+<<<<<<< HEAD
 # 636 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You've conquered the PYRAMID!\n"
 # 637 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "You've conquered the Pyramid!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How splendid!$"
 # 638 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1278,41 +1365,66 @@ BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
 BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
 # 640 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Ah, a slight problem.\p"
+<<<<<<< HEAD
 # 641 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "At least one POKéMON is holding\n"
 # 642 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "At least one Pokémon is holding\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "an item.\p"
 # 643 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I'm sorry to say, items obtained in\n"
+<<<<<<< HEAD
 # 644 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the PYRAMID cannot be taken away.$"
 # 645 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Pyramid cannot be taken away.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 646 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
+<<<<<<< HEAD
 # 647 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "All items held by your POKéMON will be\n"
 # 648 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "moved to your BATTLE BAG, {PLAYER}.$"
 # 649 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "All items held by your Pokémon will be\n"
+	.string "moved to your Battle Bag, {PLAYER}.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 650 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
+<<<<<<< HEAD
 # 651 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The BATTLE BAG cannot hold all your\n"
 # 652 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The Battle Bag cannot hold all your\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "items, I'm sorry to say.\p"
 # 653 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Please pick the items you'll keep in the\n"
+<<<<<<< HEAD
 # 654 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "BATTLE BAG, and with your POKéMON.$"
 # 655 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Battle Bag, and with your Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 656 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
+<<<<<<< HEAD
 # 657 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "At least one POKéMON is still\n"
 # 658 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "At least one Pokémon is still\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "holding an item.$"
 # 659 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1320,9 +1432,13 @@ BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
 # 661 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Please pick the items you'll keep in the\n"
+<<<<<<< HEAD
 # 662 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "BATTLE BAG, and with your POKéMON.$"
 # 663 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Battle Bag, and with your Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 664 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 @ Unused
@@ -1330,12 +1446,17 @@ BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
 # 666 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "{PLAYER} returned everything that\n"
+<<<<<<< HEAD
 # 667 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the POKéMON held.$"
 # 668 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Pokémon held.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 669 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
+<<<<<<< HEAD
 # 670 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The BATTLE BAG you used will be kept\n"
 # 671 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1345,6 +1466,12 @@ BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
 # 673 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "for the BAG's return.$"
 # 674 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The Battle Bag you used will be kept\n"
+	.string "in readiness for your next challenge.\p"
+	.string "{PLAYER} turned the Battle Bag over\n"
+	.string "for the Bag's return.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 675 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
@@ -1360,9 +1487,13 @@ BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
 # 681 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "As a memento for conquering\n"
+<<<<<<< HEAD
 # 682 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the BATTLE PYRAMID, please take this.$"
 # 683 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Battle Pyramid, please take this.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 684 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 @ Unused
@@ -1380,6 +1511,7 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 # 691 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…Ah…\n"
+<<<<<<< HEAD
 # 692 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Your BAG appears to be filled.\p"
 # 693 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1387,11 +1519,17 @@ BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 # 694 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "your BAG's contents.$"
 # 695 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Your Bag appears to be filled.\p"
+	.string "Please return after you've organized\n"
+	.string "your Bag's contents.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 696 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 # 697 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "How disappointing for you…\p"
+<<<<<<< HEAD
 # 698 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Here is the BAG we've been holding\n"
 # 699 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1399,6 +1537,11 @@ BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 # 700 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "{PLAYER} got the BAG back.$"
 # 701 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Here is the Bag we've been holding\n"
+	.string "for you.\p"
+	.string "{PLAYER} got the Bag back.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 702 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
@@ -1418,9 +1561,13 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 	.string "your arrival!\p"
 # 710 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Here is your prize for conquering\n"
+<<<<<<< HEAD
 # 711 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the PYRAMID.$"
 # 712 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "the Pyramid.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 713 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
@@ -1428,9 +1575,13 @@ BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait:
 	.string "Welcome…\p"
 # 715 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I shall be pleased to tell you what\n"
+<<<<<<< HEAD
 # 716 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "misfortunes await in the PYRAMID…$"
 # 717 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "misfortunes await in the Pyramid…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 718 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_Aah:
@@ -1448,9 +1599,13 @@ BattleFrontier_BattlePyramidLobby_Text_Aah:
 BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
 # 725 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see a shower of sparks…\p"
+<<<<<<< HEAD
 # 726 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And in it, I see your POKéMON\n"
 # 727 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And in it, I see your Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "struggling with paralysis…$"
 # 728 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1458,9 +1613,13 @@ BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
 # 730 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see poison…\p"
+<<<<<<< HEAD
 # 731 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 732 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from the effects of poison…$"
 # 733 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1468,9 +1627,13 @@ BattleFrontier_BattlePyramidLobby_Text_HintPoison:
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
 # 735 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see bright red flames…\p"
+<<<<<<< HEAD
 # 736 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 737 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from burns…$"
 # 738 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1482,6 +1645,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 	.string "unrequited anger…\p"
 # 742 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "It is a curse…\p"
+<<<<<<< HEAD
 # 743 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON drained of\n"
 # 744 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1489,9 +1653,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 # 745 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "but to use STRUGGLE…$"
 # 746 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon drained of\n"
+	.string "Power Points and having no recourse\l"
+	.string "but to use Struggle…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 747 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
+<<<<<<< HEAD
 # 748 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see POKéMON loftily airborne…\p"
 # 749 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1499,6 +1669,11 @@ BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 # 750 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "by powerless GROUND-type moves…$"
 # 751 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Pokémon loftily airborne…\p"
+	.string "…And, I see your Pokémon frustrated\n"
+	.string "by powerless Ground-type moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 752 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
@@ -1506,19 +1681,28 @@ BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
 	.string "I sense terrific energy rising from\n"
 # 754 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the ground below…\p"
+<<<<<<< HEAD
 # 755 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON unable to\n"
 # 756 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon unable to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "escape the power's clutches…$"
 # 757 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 758 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintIce:
+<<<<<<< HEAD
 # 759 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see ICE-type POKéMON…\p"
 # 760 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON fighting\n"
 # 761 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Ice-type Pokémon…\p"
+	.string "…And, I see your Pokémon fighting\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the freezing effects of ice…$"
 # 762 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1528,14 +1712,19 @@ BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
 	.string "I see a flurry of moves that imperil\n"
 # 765 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the user…\p"
+<<<<<<< HEAD
 # 766 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON falling\n"
 # 767 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon falling\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to them…$"
 # 768 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 769 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
+<<<<<<< HEAD
 # 770 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see PSYCHIC-type POKéMON…\p"
 # 771 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1543,9 +1732,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
 # 772 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "from PSYCHIC moves…$"
 # 773 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Psychic-type Pokémon…\p"
+	.string "…And, I see your Pokémon in torment\n"
+	.string "from Psychic moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 774 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
+<<<<<<< HEAD
 # 775 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see ROCK-type POKéMON…\p"
 # 776 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1553,9 +1748,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintRock:
 # 777 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "from ROCK moves…$"
 # 778 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Rock-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+	.string "from Rock moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 779 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
+<<<<<<< HEAD
 # 780 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see FIGHTING-type POKéMON…\p"
 # 781 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1563,9 +1764,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting:
 # 782 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "by FIGHTING moves…$"
 # 783 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Fighting-type Pokémon…\p"
+	.string "…And, I see your Pokémon pummeled\n"
+	.string "by Fighting moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 784 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
+<<<<<<< HEAD
 # 785 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "RAIN DANCE… SUNNY DAY…\n"
 # 786 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1577,21 +1784,34 @@ BattleFrontier_BattlePyramidLobby_Text_HintWeather:
 # 789 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON confounded\n"
 # 790 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Rain Dance… Sunny Day…\n"
+	.string "Sandstorm… Hail…\p"
+	.string "I see Pokémon that become stronger\n"
+	.string "with the weather…\p"
+	.string "…And, I see your Pokémon confounded\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "by different types of moves…$"
 # 791 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 792 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintBug:
+<<<<<<< HEAD
 # 793 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see BUG-type POKéMON…\p"
 # 794 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 795 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Bug-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from different kinds of attacks…$"
 # 796 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 797 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintDark:
+<<<<<<< HEAD
 # 798 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see DARK-type POKéMON…\p"
 # 799 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1599,9 +1819,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintDark:
 # 800 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "from DARK-type moves…$"
 # 801 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Dark-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+	.string "from Dark-type moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 802 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintWater:
+<<<<<<< HEAD
 # 803 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see WATER-type POKéMON…\p"
 # 804 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1609,9 +1835,15 @@ BattleFrontier_BattlePyramidLobby_Text_HintWater:
 # 805 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "from WATER-type moves…$"
 # 806 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Water-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+	.string "from Water-type moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 807 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintGhost:
+<<<<<<< HEAD
 # 808 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see GHOST-type POKéMON…\p"
 # 809 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1619,24 +1851,39 @@ BattleFrontier_BattlePyramidLobby_Text_HintGhost:
 # 810 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "from GHOST-type moves…$"
 # 811 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Ghost-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+	.string "from Ghost-type moves…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 812 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintSteel:
+<<<<<<< HEAD
 # 813 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see STEEL-type POKéMON…\p"
 # 814 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 815 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Steel-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from enormously powerful moves…$"
 # 816 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 817 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintFlyingDragon:
+<<<<<<< HEAD
 # 818 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see flying POKéMON…\p"
 # 819 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 820 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see flying Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from enormously powerful moves…$"
 # 821 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1650,19 +1897,28 @@ BattleFrontier_BattlePyramidLobby_Text_HintStoneEvolve:
 	.string "I also sense fire, water,\n"
 # 826 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "and electricity…\p"
+<<<<<<< HEAD
 # 827 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 828 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from those three powers…$"
 # 829 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 830 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_HintNormal:
+<<<<<<< HEAD
 # 831 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "I see NORMAL-type POKéMON…\p"
 # 832 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "…And, I see your POKéMON suffering\n"
 # 833 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "I see Normal-type Pokémon…\p"
+	.string "…And, I see your Pokémon suffering\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from enormously powerful moves…$"
 # 834 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -1682,6 +1938,7 @@ BattleFrontier_BattlePyramidLobby_Text_BelieveMyFortunesOrNot:
 BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 # 842 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Did you know?\p"
+<<<<<<< HEAD
 # 843 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "If you run fast, TRAINERS may notice\n"
 # 844 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1689,6 +1946,11 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 # 845 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "So, if you want to avoid TRAINERS,\n"
 # 846 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "If you run fast, Trainers may notice\n"
+	.string "and come after you for a battle.\p"
+	.string "So, if you want to avoid Trainers,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "don't catch their eyes, but sneak\l"
 # 847 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "cautiously and quietly past them.$"
@@ -1712,11 +1974,16 @@ BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
 	.string "Welcome back!\n"
 # 857 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You've done the unthinkable!\p"
+<<<<<<< HEAD
 # 858 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "You've defeated the PYRAMID KING\n"
 # 859 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "and conquered the BATTLE PYRAMID!$"
 # 860 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "You've defeated the Pyramid King\n"
+	.string "and conquered the Battle Pyramid!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 861 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
@@ -1742,20 +2009,30 @@ BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
 
 # 872 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
+<<<<<<< HEAD
 # 873 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "When the PYRAMID is conquered,\n"
 # 874 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "the wild POKéMON that appear in it\l"
 # 875 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "When the Pyramid is conquered,\n"
+	.string "the wild Pokémon that appear in it\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are replaced by different kinds.\p"
 # 876 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Explore, observe, and learn what kinds\n"
+<<<<<<< HEAD
 # 877 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "of wild POKéMON you may encounter.$"
 # 878 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "of wild Pokémon you may encounter.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 879 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
+<<<<<<< HEAD
 # 880 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "TRAINERS are lying in wait for you\n"
 # 881 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1767,14 +2044,25 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
 # 884 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "When you defeat a TRAINER, you will\n"
 # 885 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "Trainers are lying in wait for you\n"
+	.string "inside the Pyramid.\p"
+	.string "On each floor, there are up to\n"
+	.string "eight Trainers.\p"
+	.string "When you defeat a Trainer, you will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "get a helpful hint for your adventure.$"
 # 886 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 887 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
+<<<<<<< HEAD
 # 888 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The mazes in the PYRAMID rearrange\n"
 # 889 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The mazes in the Pyramid rearrange\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "themselves every time you enter it.\p"
 # 890 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The mazes are poorly lit.\n"
@@ -1782,12 +2070,17 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 	.string "You must advance with caution.\p"
 # 892 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The light grows brighter whenever you\n"
+<<<<<<< HEAD
 # 893 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "defeat a wild POKéMON or a TRAINER.$"
 # 894 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "defeat a wild Pokémon or a Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 895 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
+<<<<<<< HEAD
 # 896 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The BATTLE BAG serves as your BAG\n"
 # 897 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -1795,6 +2088,11 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 # 898 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "There are two separate BATTLE BAGS--\n"
 # 899 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The Battle Bag serves as your Bag\n"
+	.string "while in the Pyramid.\p"
+	.string "There are two separate Battle Bags--\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one each for the Level 50 and\l"
 # 900 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "Open Level adventures.\p"
@@ -1802,7 +2100,11 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 	.string "They each can hold up to 99 pieces\n"
 # 902 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "of ten kinds of items.\p"
+<<<<<<< HEAD
 # 903 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	.string "The contents of the BATTLE BAG are\n"
 # 904 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	.string "The contents of the Battle Bag are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "lost if you fail in your quest.$"

@@ -122,6 +122,7 @@ EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 
 # 62 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
+<<<<<<< HEAD
 # 63 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "Welcome, my name is GLACIA\n"
 # 64 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
@@ -129,12 +130,21 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 # 65 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "I've traveled from afar to HOENN\n"
 # 66 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
+=======
+	.string "Welcome, my name is Glacia\n"
+	.string "of the Elite Four.\p"
+	.string "I've traveled from afar to Hoenn\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so that I may hone my ice skills.\p"
 # 67 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "But all I have seen are challenges by\n"
+<<<<<<< HEAD
 # 68 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "weak TRAINERS and their POKéMON.\p"
 # 69 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
+=======
+	.string "weak Trainers and their Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What about you?\p"
 # 70 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "It would please me to no end if I could\n"
@@ -144,9 +154,13 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 
 # 73 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 EverGrandeCity_GlaciasRoom_Text_Defeat:
+<<<<<<< HEAD
 # 74 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "You and your POKéMON…\n"
 # 75 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
+=======
+	.string "You and your Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How hot your spirits burn!\p"
 # 76 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "The all-consuming heat overwhelms.\p"
@@ -162,5 +176,10 @@ EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
 	.string "Advance to the next room.\p"
 # 82 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "And there, confirm the truly fearsome\n"
+<<<<<<< HEAD
 # 83 "data/maps/EverGrandeCity_GlaciasRoom/scripts.pory"
 	.string "side of the POKéMON LEAGUE.$"
+=======
+	.string "side of the Pokémon League.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -492,6 +492,7 @@ Route118_EventScript_Deandre::
 
 # 247 "data/maps/Route118/scripts.pory"
 Route118_Text_StevenQuestions:
+<<<<<<< HEAD
 # 248 "data/maps/Route118/scripts.pory"
 	.string "STEVEN: Hi, {PLAYER}{KUN}!\p"
 # 249 "data/maps/Route118/scripts.pory"
@@ -505,6 +506,14 @@ Route118_Text_StevenQuestions:
 # 253 "data/maps/Route118/scripts.pory"
 	.string "There are many, many kinds of POKéMON\n"
 # 254 "data/maps/Route118/scripts.pory"
+=======
+	.string "Steven: Hi, {PLAYER}{KUN}!\p"
+	.string "It's me, Steven!\n"
+	.string "We met in the cave near Dewford.\p"
+	.string "Have you met many kinds of Pokémon\n"
+	.string "since I last saw you?\p"
+	.string "There are many, many kinds of Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in this wide world of ours.\p"
 # 255 "data/maps/Route118/scripts.pory"
 	.string "If you wanted to raise only your\n"
@@ -512,11 +521,16 @@ Route118_Text_StevenQuestions:
 	.string "favorites, that's fine.\p"
 # 257 "data/maps/Route118/scripts.pory"
 	.string "Perhaps you find it more fun to raise\n"
+<<<<<<< HEAD
 # 258 "data/maps/Route118/scripts.pory"
 	.string "all sorts of POKéMON.\p"
 # 259 "data/maps/Route118/scripts.pory"
 	.string "As a TRAINER of POKéMON,\n"
 # 260 "data/maps/Route118/scripts.pory"
+=======
+	.string "all sorts of Pokémon.\p"
+	.string "As a Trainer of Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "what do you think?\p"
 # 261 "data/maps/Route118/scripts.pory"
 	.string "Of course, it's not any of my business.\p"
@@ -530,9 +544,13 @@ Route118_Text_StevenQuestions:
 Route118_Text_YouAgreeGoodRodIsGood:
 # 266 "data/maps/Route118/scripts.pory"
 	.string "Hmm!\n"
+<<<<<<< HEAD
 # 267 "data/maps/Route118/scripts.pory"
 	.string "A GOOD ROD is really good!\p"
 # 268 "data/maps/Route118/scripts.pory"
+=======
+	.string "A Good Rod is really good!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wouldn't you agree?$"
 # 269 "data/maps/Route118/scripts.pory"
 
@@ -544,9 +562,13 @@ Route118_Text_IdenticalMindsTakeThis:
 	.string "We're of identical minds!\p"
 # 273 "data/maps/Route118/scripts.pory"
 	.string "Hmm!\n"
+<<<<<<< HEAD
 # 274 "data/maps/Route118/scripts.pory"
 	.string "Take this GOOD ROD!$"
 # 275 "data/maps/Route118/scripts.pory"
+=======
+	.string "Take this Good Rod!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 276 "data/maps/Route118/scripts.pory"
 Route118_Text_TryYourLuckFishing:
@@ -564,11 +586,16 @@ Route118_Text_DontYouLikeToFish:
 
 # 283 "data/maps/Route118/scripts.pory"
 Route118_Text_TryCatchingMonWithGoodRod:
+<<<<<<< HEAD
 # 284 "data/maps/Route118/scripts.pory"
 	.string "Try catching all sorts of POKéMON\n"
 # 285 "data/maps/Route118/scripts.pory"
 	.string "with your GOOD ROD.$"
 # 286 "data/maps/Route118/scripts.pory"
+=======
+	.string "Try catching all sorts of Pokémon\n"
+	.string "with your Good Rod.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 287 "data/maps/Route118/scripts.pory"
 Route118_Text_CanCrossRiversWithSurf:
@@ -576,25 +603,41 @@ Route118_Text_CanCrossRiversWithSurf:
 	.string "Even if there isn't a boat, you can\n"
 # 289 "data/maps/Route118/scripts.pory"
 	.string "cross rivers and the sea if you have\l"
+<<<<<<< HEAD
 # 290 "data/maps/Route118/scripts.pory"
 	.string "a POKéMON that knows SURF.\p"
 # 291 "data/maps/Route118/scripts.pory"
 	.string "POKéMON can be counted on to do so\n"
 # 292 "data/maps/Route118/scripts.pory"
+=======
+	.string "a Pokémon that knows Surf.\p"
+	.string "Pokémon can be counted on to do so\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "much!$"
 # 293 "data/maps/Route118/scripts.pory"
 
 # 294 "data/maps/Route118/scripts.pory"
 Route118_Text_RouteSignMauville:
+<<<<<<< HEAD
 # 295 "data/maps/Route118/scripts.pory"
 	.string "ROUTE 118\n"
 # 296 "data/maps/Route118/scripts.pory"
 	.string "{LEFT_ARROW} MAUVILLE CITY$"
 # 297 "data/maps/Route118/scripts.pory"
+=======
+	.string "Route 118\n"
+	.string "{LEFT_ARROW} Mauville City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 298 "data/maps/Route118/scripts.pory"
 Route118_Text_RouteSign119:
+<<<<<<< HEAD
 # 299 "data/maps/Route118/scripts.pory"
 	.string "ROUTE 118\n"
 # 300 "data/maps/Route118/scripts.pory"
 	.string "{UP_ARROW} ROUTE 119$"
+=======
+	.string "Route 118\n"
+	.string "{UP_ARROW} Route 119$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

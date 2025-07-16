@@ -114,6 +114,7 @@ LilycoveCity_DepartmentStore_3F_EventScript_Woman::
 
 # 58 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon:
+<<<<<<< HEAD
 # 59 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "For quickly toughening up POKéMON,\n"
 # 60 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
@@ -123,22 +124,42 @@ LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon:
 # 62 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "and CALCIUM raises SP. ATK.$"
 # 63 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
+=======
+	.string "For quickly toughening up Pokémon,\n"
+	.string "items are the best.\p"
+	.string "Protein boosts Attack,\n"
+	.string "and Calcium raises Sp. Atk.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 64 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance:
+<<<<<<< HEAD
 # 65 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "I want my POKéMON to have more\n"
 # 66 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
+=======
+	.string "I want my Pokémon to have more\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "endurance.\p"
 # 67 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "I'm trying to decide whether to raise\n"
+<<<<<<< HEAD
 # 68 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "DEFENSE with IRON, or SP. DEF with ZINC.$"
 # 69 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
+=======
+	.string "Defense with Iron, or Sp. Def with Zinc.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 70 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon:
+<<<<<<< HEAD
 # 71 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "I gave a CARBOS to my POKéMON,\n"
 # 72 "data/maps/LilycoveCity_DepartmentStore_3F/scripts.pory"
 	.string "and its SPEED went up.$"
+=======
+	.string "I gave a Carbos to my Pokémon,\n"
+	.string "and its Speed went up.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

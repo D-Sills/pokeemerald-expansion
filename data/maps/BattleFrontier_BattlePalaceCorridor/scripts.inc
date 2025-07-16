@@ -244,9 +244,13 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 
 # 123 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
+<<<<<<< HEAD
 # 124 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "People and POKéMON, they are but\n"
 # 125 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
+=======
+	.string "People and Pokémon, they are but\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the same…\p"
 # 126 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Their individual nature makes them\n"
@@ -258,20 +262,29 @@ BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
 
 # 130 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
+<<<<<<< HEAD
 # 131 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Rather than trying to make a POKéMON\n"
 # 132 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
+=======
+	.string "Rather than trying to make a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "do what it dislikes, try to let it do\l"
 # 133 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "what it likes and is good at doing.\p"
+<<<<<<< HEAD
 # 134 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Put yourself in the POKéMON's position\n"
 # 135 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
+=======
+	.string "Put yourself in the Pokémon's position\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and consider what moves it would like.$"
 # 136 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 
 # 137 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
+<<<<<<< HEAD
 # 138 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "A POKéMON's nature is a remarkable\n"
 # 139 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
@@ -279,6 +292,11 @@ BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
 # 140 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Some POKéMON behave in a completely\n"
 # 141 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
+=======
+	.string "A Pokémon's nature is a remarkable\n"
+	.string "thing…\p"
+	.string "Some Pokémon behave in a completely\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "different way when they are cornered.$"
 # 142 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 
@@ -286,13 +304,22 @@ BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
 # 144 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Are you beginning to understand how\n"
+<<<<<<< HEAD
 # 145 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "a POKéMON's nature makes it behave?$"
 # 146 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
+=======
+	.string "a Pokémon's nature makes it behave?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 147 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
 # 148 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "Ah… I see a strong, heartfelt bond\n"
+<<<<<<< HEAD
 # 149 "data/maps/BattleFrontier_BattlePalaceCorridor/scripts.pory"
 	.string "between you and your POKéMON…$"
+=======
+	.string "between you and your Pokémon…$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

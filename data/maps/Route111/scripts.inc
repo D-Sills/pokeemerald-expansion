@@ -1142,9 +1142,13 @@ Route111_Text_BattleOurFamily:
 	.string "How's this? What do you say to taking\n"
 # 572 "data/maps/Route111/scripts.pory"
 	.string "on our family of four in a series of\l"
+<<<<<<< HEAD
 # 573 "data/maps/Route111/scripts.pory"
 	.string "POKéMON battles?$"
 # 574 "data/maps/Route111/scripts.pory"
+=======
+	.string "Pokémon battles?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 575 "data/maps/Route111/scripts.pory"
 Route111_Text_IsThatSo:
@@ -1172,17 +1176,25 @@ Route111_Text_VictorDefeat:
 Route111_Text_VictorPostBattle:
 # 587 "data/maps/Route111/scripts.pory"
 	.string "Hey, all!\n"
+<<<<<<< HEAD
 # 588 "data/maps/Route111/scripts.pory"
 	.string "I've found a pretty strong TRAINER!$"
 # 589 "data/maps/Route111/scripts.pory"
+=======
+	.string "I've found a pretty strong Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 590 "data/maps/Route111/scripts.pory"
 Route111_Text_VictoriaIntro:
 # 591 "data/maps/Route111/scripts.pory"
 	.string "Oh, my goodness! Aren't you young?\p"
+<<<<<<< HEAD
 # 592 "data/maps/Route111/scripts.pory"
 	.string "You must be quite the TRAINER to beat\n"
 # 593 "data/maps/Route111/scripts.pory"
+=======
+	.string "You must be quite the Trainer to beat\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "my husband, though.\p"
 # 594 "data/maps/Route111/scripts.pory"
 	.string "It's my turn to battle now!$"
@@ -1198,9 +1210,13 @@ Route111_Text_VictoriaDefeat:
 
 # 600 "data/maps/Route111/scripts.pory"
 Route111_Text_VictoriaPostBattle:
+<<<<<<< HEAD
 # 601 "data/maps/Route111/scripts.pory"
 	.string "There's a strong TRAINER here!\n"
 # 602 "data/maps/Route111/scripts.pory"
+=======
+	.string "There's a strong Trainer here!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This one's really strong!$"
 # 603 "data/maps/Route111/scripts.pory"
 
@@ -1258,12 +1274,17 @@ Route111_Text_VickyPostBattle:
 
 # 630 "data/maps/Route111/scripts.pory"
 Route111_Text_ToughToKeepWinningUpTheRanks:
+<<<<<<< HEAD
 # 631 "data/maps/Route111/scripts.pory"
 	.string "If you don't raise your POKéMON some\n"
 # 632 "data/maps/Route111/scripts.pory"
+=======
+	.string "If you don't raise your Pokémon some\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "more, it could be tough to keep winning\l"
 # 633 "data/maps/Route111/scripts.pory"
 	.string "up through the ranks.\p"
+<<<<<<< HEAD
 # 634 "data/maps/Route111/scripts.pory"
 	.string "I've heard the POKéMON LEAGUE's\n"
 # 635 "data/maps/Route111/scripts.pory"
@@ -1271,12 +1292,21 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
 # 636 "data/maps/Route111/scripts.pory"
 	.string "any GYM LEADER.$"
 # 637 "data/maps/Route111/scripts.pory"
+=======
+	.string "I've heard the Pokémon League's\n"
+	.string "Elite Four are far stronger than\l"
+	.string "any Gym Leader.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 638 "data/maps/Route111/scripts.pory"
 Route111_Text_WinstrateFamilyDestroyedMe:
+<<<<<<< HEAD
 # 639 "data/maps/Route111/scripts.pory"
 	.string "I challenged the WINSTRATE family,\n"
 # 640 "data/maps/Route111/scripts.pory"
+=======
+	.string "I challenged the Winstrate family,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but four matches in a row is tough\l"
 # 641 "data/maps/Route111/scripts.pory"
 	.string "going… They destroyed me.$"
@@ -1284,46 +1314,70 @@ Route111_Text_WinstrateFamilyDestroyedMe:
 
 # 643 "data/maps/Route111/scripts.pory"
 Route111_Text_RouteSignMauville:
+<<<<<<< HEAD
 # 644 "data/maps/Route111/scripts.pory"
 	.string "ROUTE 111\n"
 # 645 "data/maps/Route111/scripts.pory"
 	.string "{DOWN_ARROW} MAUVILLE CITY$"
 # 646 "data/maps/Route111/scripts.pory"
+=======
+	.string "Route 111\n"
+	.string "{DOWN_ARROW} Mauville City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 647 "data/maps/Route111/scripts.pory"
 Route111_Text_WinstrateHouseSign:
 # 648 "data/maps/Route111/scripts.pory"
 	.string "“Our family's hearts beat as one!”\n"
+<<<<<<< HEAD
 # 649 "data/maps/Route111/scripts.pory"
 	.string "THE WINSTRATE'S HOUSE$"
 # 650 "data/maps/Route111/scripts.pory"
+=======
+	.string "The Winstrate's House$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 651 "data/maps/Route111/scripts.pory"
 Route111_Text_RouteSign112:
+<<<<<<< HEAD
 # 652 "data/maps/Route111/scripts.pory"
 	.string "ROUTE 111\n"
 # 653 "data/maps/Route111/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 112$"
 # 654 "data/maps/Route111/scripts.pory"
+=======
+	.string "Route 111\n"
+	.string "{LEFT_ARROW} Route 112$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 655 "data/maps/Route111/scripts.pory"
 Route111_Text_RouteSign113:
+<<<<<<< HEAD
 # 656 "data/maps/Route111/scripts.pory"
 	.string "ROUTE 111\n"
 # 657 "data/maps/Route111/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 113$"
 # 658 "data/maps/Route111/scripts.pory"
+=======
+	.string "Route 111\n"
+	.string "{LEFT_ARROW} Route 113$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 659 "data/maps/Route111/scripts.pory"
 Route111_Text_OldLadysRestStopSign:
+<<<<<<< HEAD
 # 660 "data/maps/Route111/scripts.pory"
 	.string "OLD LADY'S REST STOP\n"
 # 661 "data/maps/Route111/scripts.pory"
+=======
+	.string "Old Lady's Rest Stop\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Come in and rest your tired bones.”$"
 # 662 "data/maps/Route111/scripts.pory"
 
 # 663 "data/maps/Route111/scripts.pory"
 Route111_Text_TrainerTipsSpAtkSpDef:
+<<<<<<< HEAD
 # 664 "data/maps/Route111/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 665 "data/maps/Route111/scripts.pory"
@@ -1337,6 +1391,14 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 # 669 "data/maps/Route111/scripts.pory"
 	.string "DEFENSE.”$"
 # 670 "data/maps/Route111/scripts.pory"
+=======
+	.string "Trainer Tips\p"
+	.string "One of the indicators of a Pokémon's\n"
+	.string "powerfulness is Sp. Atk. It stands for\l"
+	.string "“Special Attack.”\p"
+	.string "Likewise, Sp. Def stands for “Special\n"
+	.string "Defense.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 671 "data/maps/Route111/scripts.pory"
 Route111_Text_ShouldBeMirageTowerAroundHere:
@@ -1348,9 +1410,13 @@ Route111_Text_ShouldBeMirageTowerAroundHere:
 	.string "But for some reason, it can be seen\n"
 # 675 "data/maps/Route111/scripts.pory"
 	.string "sometimes, and sometimes not.\p"
+<<<<<<< HEAD
 # 676 "data/maps/Route111/scripts.pory"
 	.string "That's why I call it the MIRAGE TOWER.$"
 # 677 "data/maps/Route111/scripts.pory"
+=======
+	.string "That's why I call it the Mirage Tower.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 678 "data/maps/Route111/scripts.pory"
 Route111_Text_MirageTowerClearlyVisible:
@@ -1396,23 +1462,35 @@ Route111_Text_MirageTowerHasntBeenSeenSince:
 	.string "hasn't been seen.\p"
 # 699 "data/maps/Route111/scripts.pory"
 	.string "Perhaps it really was\n"
+<<<<<<< HEAD
 # 700 "data/maps/Route111/scripts.pory"
 	.string "the MIRAGE TOWER…$"
 # 701 "data/maps/Route111/scripts.pory"
+=======
+	.string "the Mirage Tower…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 702 "data/maps/Route111/scripts.pory"
 Route111_Text_ClawFossilDisappeared:
+<<<<<<< HEAD
 # 703 "data/maps/Route111/scripts.pory"
 	.string "The CLAW FOSSIL disappeared into\n"
 # 704 "data/maps/Route111/scripts.pory"
+=======
+	.string "The Claw Fossil disappeared into\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the sand…$"
 # 705 "data/maps/Route111/scripts.pory"
 
 # 706 "data/maps/Route111/scripts.pory"
 Route111_Text_RootFossilDisappeared:
+<<<<<<< HEAD
 # 707 "data/maps/Route111/scripts.pory"
 	.string "The ROOT FOSSIL disappeared into\n"
 # 708 "data/maps/Route111/scripts.pory"
+=======
+	.string "The Root Fossil disappeared into\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the sand…$"
 # 709 "data/maps/Route111/scripts.pory"
 
@@ -1420,6 +1498,7 @@ Route111_Text_RootFossilDisappeared:
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 # 711 "data/maps/Route111/scripts.pory"
 	.string "Oh, no!\p"
+<<<<<<< HEAD
 # 712 "data/maps/Route111/scripts.pory"
 	.string "My uncle in MAUVILLE told me to take\n"
 # 713 "data/maps/Route111/scripts.pory"
@@ -1431,12 +1510,26 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 # 716 "data/maps/Route111/scripts.pory"
 	.string "the bike shop in MAUVILLE.$"
 # 717 "data/maps/Route111/scripts.pory"
+=======
+	.string "My uncle in Mauville told me to take\n"
+	.string "Rock Smash with me if I was going to\l"
+	.string "Route 111!\p"
+	.string "My uncle? He lives across from\n"
+	.string "the bike shop in Mauville.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 718 "data/maps/Route111/scripts.pory"
 Route111_Text_TrainerHillSign:
+<<<<<<< HEAD
 # 719 "data/maps/Route111/scripts.pory"
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
 # 720 "data/maps/Route111/scripts.pory"
 	.string "“Scale the heights, you hot-blooded\n"
 # 721 "data/maps/Route111/scripts.pory"
 	.string "TRAINERS!”$"
+=======
+	.string "{RIGHT_ARROW} Trainer Hill Entrance\p"
+	.string "“Scale the heights, you hot-blooded\n"
+	.string "Trainers!”$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

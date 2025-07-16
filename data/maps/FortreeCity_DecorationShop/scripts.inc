@@ -126,6 +126,7 @@ FortreeCity_DecorationShop_Text_MerchandiseSentToPC:
 FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
 # 64 "data/maps/FortreeCity_DecorationShop/scripts.pory"
 	.string "I'm buying a pretty desk and I'm\n"
+<<<<<<< HEAD
 # 65 "data/maps/FortreeCity_DecorationShop/scripts.pory"
 	.string "putting my cute DOLLS on it.\p"
 # 66 "data/maps/FortreeCity_DecorationShop/scripts.pory"
@@ -133,4 +134,9 @@ FortreeCity_DecorationShop_Text_BuyingDeskForDolls:
 # 67 "data/maps/FortreeCity_DecorationShop/scripts.pory"
 	.string "SECRET BASE, my DOLLS will get\l"
 # 68 "data/maps/FortreeCity_DecorationShop/scripts.pory"
+=======
+	.string "putting my cute Dolls on it.\p"
+	.string "If I don't, when I decorate my\n"
+	.string "Secret Base, my Dolls will get\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "dirty or poked with splinters.$"

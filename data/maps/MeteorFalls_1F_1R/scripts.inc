@@ -470,11 +470,16 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
 # 236 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "Hehehe!\p"
+<<<<<<< HEAD
 # 237 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "With this METEORITE, that thing in\n"
 # 238 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "MT. CHIMNEY will…$"
 # 239 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "With this Meteorite, that thing in\n"
+	.string "Mt. Chimney will…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 240 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
@@ -482,17 +487,25 @@ MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 	.string "Heh?\p"
 # 242 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "I don't know who you are, but if you get\n"
+<<<<<<< HEAD
 # 243 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "in the way of TEAM MAGMA, don't\l"
 # 244 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "in the way of Team Magma, don't\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "expect any mercy!$"
 # 245 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 
 # 246 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
+<<<<<<< HEAD
 # 247 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "Hold it right there, TEAM MAGMA!\p"
 # 248 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Hold it right there, Team Magma!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You're badly mistaken if you think you\n"
 # 249 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "can have your way with the world!$"
@@ -502,14 +515,19 @@ MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 # 252 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "Hehehe!\n"
+<<<<<<< HEAD
 # 253 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "Even TEAM AQUA joins us!\p"
 # 254 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Even Team Aqua joins us!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But it's too much trouble to deal with\n"
 # 255 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "you all…\p"
 # 256 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "Heh, it doesn't matter!\p"
+<<<<<<< HEAD
 # 257 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "We've got the METEORITE, so off to\n"
 # 258 "data/maps/MeteorFalls_1F_1R/scripts.pory"
@@ -519,26 +537,45 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 # 260 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "AQUA dingbats!$"
 # 261 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "We've got the Meteorite, so off to\n"
+	.string "Mt. Chimney we go!\p"
+	.string "Hehehe! Be seeing you, you Team\n"
+	.string "Aqua dingbats!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 262 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
+<<<<<<< HEAD
 # 263 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "ARCHIE: Didn't I see you before?\n"
 # 264 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "At SLATEPORT's MUSEUM?\p"
 # 265 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Archie: Didn't I see you before?\n"
+	.string "At Slateport's Museum?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Ah, so your name is {PLAYER}.\p"
 # 266 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "At the time, I thought you were one\n"
+<<<<<<< HEAD
 # 267 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "of TEAM MAGMA's goons.\p"
 # 268 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "of Team Magma's goons.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Humph…\n"
 # 269 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "You're one odd kid.\p"
+<<<<<<< HEAD
 # 270 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "TEAM MAGMA is a dangerous group of\n"
 # 271 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Team Magma is a dangerous group of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "total fanatics.\p"
 # 272 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "They engage in destruction, claiming\n"
@@ -546,20 +583,30 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "to expand the land mass.\p"
 # 274 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "They are the rivals to us,\n"
+<<<<<<< HEAD
 # 275 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "the sea-loving TEAM AQUA!$"
 # 276 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "the sea-loving Team Aqua!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 277 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
+<<<<<<< HEAD
 # 278 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "BOSS, we should give chase to\n"
 # 279 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "TEAM MAGMA…$"
 # 280 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Boss, we should give chase to\n"
+	.string "Team Magma…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 281 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
+<<<<<<< HEAD
 # 282 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "ARCHIE: Yes, yes, we must!\n"
 # 283 "data/maps/MeteorFalls_1F_1R/scripts.pory"
@@ -569,19 +616,31 @@ MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
 # 285 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "will do at MT. CHIMNEY!$"
 # 286 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Archie: Yes, yes, we must!\n"
+	.string "We've got to hurry.\p"
+	.string "There's no telling what Team Magma\n"
+	.string "will do at Mt. Chimney!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 287 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_ArchieFarewell:
+<<<<<<< HEAD
 # 288 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "ARCHIE: {PLAYER}, you should keep\n"
 # 289 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "an eye out for TEAM MAGMA, too.\p"
 # 290 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "Archie: {PLAYER}, you should keep\n"
+	.string "an eye out for Team Magma, too.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Farewell!$"
 # 291 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 
 # 292 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
+<<<<<<< HEAD
 # 293 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "I… I'm COZMO…\n"
 # 294 "data/maps/MeteorFalls_1F_1R/scripts.pory"
@@ -599,9 +658,20 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 # 300 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "TEAM AQUA showed up.\p"
 # 301 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "I… I'm Cozmo…\n"
+	.string "I'm a Professor…\p"
+	.string "Team Magma asked me to guide them\n"
+	.string "to Meteor Falls…\p"
+	.string "But they tricked me.\n"
+	.string "They even took my Meteorite away…\p"
+	.string "And then another similar bunch,\n"
+	.string "Team Aqua showed up.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "After that…\n"
 # 302 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "I don't understand any of it.\p"
+<<<<<<< HEAD
 # 303 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "But that TEAM MAGMA…\p"
 # 304 "data/maps/MeteorFalls_1F_1R/scripts.pory"
@@ -609,12 +679,23 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 # 305 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "METEORITE at MT. CHIMNEY?$"
 # 306 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+=======
+	.string "But that Team Magma…\p"
+	.string "What are they going to do with that\n"
+	.string "Meteorite at Mt. Chimney?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 307 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
+<<<<<<< HEAD
 # 308 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "PROF. COZMO: But that TEAM MAGMA…\p"
 # 309 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "What are they going to do with that\n"
 # 310 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "METEORITE at MT. CHIMNEY?$"
+=======
+	.string "Prof Cozmo: But that Team Magma…\p"
+	.string "What are they going to do with that\n"
+	.string "Meteorite at Mt. Chimney?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

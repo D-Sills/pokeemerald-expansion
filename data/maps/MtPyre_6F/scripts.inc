@@ -76,9 +76,13 @@ MtPyre_6F_Text_ValerieDefeat:
 MtPyre_6F_Text_ValeriePostBattle:
 # 39 "data/maps/MtPyre_6F/scripts.pory"
 	.string "Perhaps the power is from the spirits\n"
+<<<<<<< HEAD
 # 40 "data/maps/MtPyre_6F/scripts.pory"
 	.string "of POKéMON in fitful sleep here…$"
 # 41 "data/maps/MtPyre_6F/scripts.pory"
+=======
+	.string "of Pokémon in fitful sleep here…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 42 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_ValerieRegister:
@@ -88,9 +92,13 @@ MtPyre_6F_Text_ValerieRegister:
 	.string "I have this little ability…\p"
 # 45 "data/maps/MtPyre_6F/scripts.pory"
 	.string "Without ever laying my hands on\n"
+<<<<<<< HEAD
 # 46 "data/maps/MtPyre_6F/scripts.pory"
 	.string "your POKéNAV… Hiyah!$"
 # 47 "data/maps/MtPyre_6F/scripts.pory"
+=======
+	.string "your PokéNav… Hiyah!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 48 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_ValerieRematchIntro:
@@ -108,9 +116,13 @@ MtPyre_6F_Text_ValerieRematchDefeat:
 
 # 55 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_ValeriePostRematch:
+<<<<<<< HEAD
 # 56 "data/maps/MtPyre_6F/scripts.pory"
 	.string "The POKéMON at rest here…\n"
 # 57 "data/maps/MtPyre_6F/scripts.pory"
+=======
+	.string "The Pokémon at rest here…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Sometimes, they play…$"
 # 58 "data/maps/MtPyre_6F/scripts.pory"
 
@@ -118,9 +130,13 @@ MtPyre_6F_Text_ValeriePostRematch:
 MtPyre_6F_Text_CedricIntro:
 # 60 "data/maps/MtPyre_6F/scripts.pory"
 	.string "Have you lost your bearings?\n"
+<<<<<<< HEAD
 # 61 "data/maps/MtPyre_6F/scripts.pory"
 	.string "Have no fear for I am here!$"
 # 62 "data/maps/MtPyre_6F/scripts.pory"
+=======
+	.string "Have no fear, for I am here!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 63 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_CedricDefeat:
@@ -130,9 +146,13 @@ MtPyre_6F_Text_CedricDefeat:
 
 # 66 "data/maps/MtPyre_6F/scripts.pory"
 MtPyre_6F_Text_CedricPostBattle:
+<<<<<<< HEAD
 # 67 "data/maps/MtPyre_6F/scripts.pory"
 	.string "I had this feeling that a lost TRAINER\n"
 # 68 "data/maps/MtPyre_6F/scripts.pory"
+=======
+	.string "I had this feeling that a lost Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "would be panicked and easy to beat.\p"
 # 69 "data/maps/MtPyre_6F/scripts.pory"
 	.string "It's dirty and I won't try it again…$"

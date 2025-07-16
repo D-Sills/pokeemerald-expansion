@@ -262,9 +262,13 @@ BattleFacility_TrainerBattle_PlaceholderText:
 
 # 132 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 gText_BattlePyramidConfirmRest::
+<<<<<<< HEAD
 # 133 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Your BATTLE PYRAMID quest will be\n"
 # 134 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Your Battle Pyramid quest will be\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "saved so that you may quit for now.\l"
 # 135 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Is that okay?$"
@@ -274,9 +278,13 @@ gText_BattlePyramidConfirmRest::
 gText_BattlePyramidConfirmRetire::
 # 138 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Are you sure you want to quit your\n"
+<<<<<<< HEAD
 # 139 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "PYRAMID quest?$"
 # 140 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Pyramid quest?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 141 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ExitHintUp1::
@@ -870,73 +878,109 @@ BattlePyramid_Text_ZeroItemsRemaining4::
 
 # 436 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_EightItemsRemaining5::
+<<<<<<< HEAD
 # 437 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 438 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are eight items…$"
 # 439 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 440 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SevenItemsRemaining5::
+<<<<<<< HEAD
 # 441 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 442 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are seven items…$"
 # 443 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 444 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixItemsRemaining5::
+<<<<<<< HEAD
 # 445 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 446 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are six items…$"
 # 447 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 448 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveItemsRemaining5::
+<<<<<<< HEAD
 # 449 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 450 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are five items…$"
 # 451 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 452 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourItemsRemaining5::
+<<<<<<< HEAD
 # 453 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 454 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are four items…$"
 # 455 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 456 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeItemsRemaining5::
+<<<<<<< HEAD
 # 457 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 458 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are three items…$"
 # 459 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 460 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoItemsRemaining5::
+<<<<<<< HEAD
 # 461 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 462 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are two items…$"
 # 463 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 464 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneItemRemaining5::
+<<<<<<< HEAD
 # 465 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 466 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there is one item…$"
 # 467 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 468 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroItemsRemaining5::
+<<<<<<< HEAD
 # 469 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "On this floor of the PYRAMID,\n"
 # 470 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "On this floor of the Pyramid,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hear there are no items…$"
 # 471 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1036,9 +1080,13 @@ BattlePyramid_Text_SevenTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 519 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still seven tough\n"
+<<<<<<< HEAD
 # 520 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 521 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 522 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining1::
@@ -1046,9 +1094,13 @@ BattlePyramid_Text_SixTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 524 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still six tough\n"
+<<<<<<< HEAD
 # 525 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 526 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 527 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining1::
@@ -1056,9 +1108,13 @@ BattlePyramid_Text_FiveTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 529 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still five tough\n"
+<<<<<<< HEAD
 # 530 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 531 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 532 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining1::
@@ -1066,9 +1122,13 @@ BattlePyramid_Text_FourTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 534 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still four tough\n"
+<<<<<<< HEAD
 # 535 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 536 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 537 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining1::
@@ -1076,9 +1136,13 @@ BattlePyramid_Text_ThreeTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 539 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still three tough\n"
+<<<<<<< HEAD
 # 540 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 541 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 542 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoTrainersRemaining1::
@@ -1086,9 +1150,13 @@ BattlePyramid_Text_TwoTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 544 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are still two tough\n"
+<<<<<<< HEAD
 # 545 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINERS other than me!$"
 # 546 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainers other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 547 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining1::
@@ -1096,9 +1164,13 @@ BattlePyramid_Text_OneTrainersRemaining1::
 	.string "You were really awesome!\p"
 # 549 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there's still one tough\n"
+<<<<<<< HEAD
 # 550 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "TRAINER other than me!$"
 # 551 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "Trainer other than me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 552 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining1::
@@ -1114,9 +1186,13 @@ BattlePyramid_Text_ZeroTrainersRemaining1::
 BattlePyramid_Text_SevenTrainersRemaining2::
 # 558 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 559 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are seven TRAINERS left!\n"
 # 560 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are seven Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 561 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1124,9 +1200,13 @@ BattlePyramid_Text_SevenTrainersRemaining2::
 BattlePyramid_Text_SixTrainersRemaining2::
 # 563 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 564 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are six TRAINERS left!\n"
 # 565 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are six Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 566 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1134,9 +1214,13 @@ BattlePyramid_Text_SixTrainersRemaining2::
 BattlePyramid_Text_FiveTrainersRemaining2::
 # 568 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 569 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are five TRAINERS left!\n"
 # 570 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are five Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 571 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1144,9 +1228,13 @@ BattlePyramid_Text_FiveTrainersRemaining2::
 BattlePyramid_Text_FourTrainersRemaining2::
 # 573 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 574 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are four TRAINERS left!\n"
 # 575 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are four Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 576 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1154,9 +1242,13 @@ BattlePyramid_Text_FourTrainersRemaining2::
 BattlePyramid_Text_ThreeTrainersRemaining2::
 # 578 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 579 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are three TRAINERS left!\n"
 # 580 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are three Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 581 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1164,9 +1256,13 @@ BattlePyramid_Text_ThreeTrainersRemaining2::
 BattlePyramid_Text_TwoTrainersRemaining2::
 # 583 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 584 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are two TRAINERS left!\n"
 # 585 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are two Trainers left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone will humble you!$"
 # 586 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1174,9 +1270,13 @@ BattlePyramid_Text_TwoTrainersRemaining2::
 BattlePyramid_Text_OneTrainersRemaining2::
 # 588 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 589 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there's one TRAINER left!\n"
 # 590 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there's one Trainer left!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm sure you will be humbled!$"
 # 591 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1184,9 +1284,13 @@ BattlePyramid_Text_OneTrainersRemaining2::
 BattlePyramid_Text_ZeroTrainersRemaining2::
 # 593 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "This is so upsetting!\p"
+<<<<<<< HEAD
 # 594 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are no more TRAINERS\n"
 # 595 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are no more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who can engage you!$"
 # 596 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1194,9 +1298,13 @@ BattlePyramid_Text_ZeroTrainersRemaining2::
 BattlePyramid_Text_SevenTrainersRemaining3::
 # 598 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 599 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are seven more TRAINERS\n"
 # 600 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are seven more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them all?$"
 # 601 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1204,9 +1312,13 @@ BattlePyramid_Text_SevenTrainersRemaining3::
 BattlePyramid_Text_SixTrainersRemaining3::
 # 603 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 604 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are six more TRAINERS\n"
 # 605 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are six more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them all?$"
 # 606 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1214,9 +1326,13 @@ BattlePyramid_Text_SixTrainersRemaining3::
 BattlePyramid_Text_FiveTrainersRemaining3::
 # 608 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 609 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are five more TRAINERS\n"
 # 610 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are five more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them all?$"
 # 611 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1224,9 +1340,13 @@ BattlePyramid_Text_FiveTrainersRemaining3::
 BattlePyramid_Text_FourTrainersRemaining3::
 # 613 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 614 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are four more TRAINERS\n"
 # 615 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are four more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them all?$"
 # 616 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1234,9 +1354,13 @@ BattlePyramid_Text_FourTrainersRemaining3::
 BattlePyramid_Text_ThreeTrainersRemaining3::
 # 618 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 619 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are three more TRAINERS\n"
 # 620 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are three more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them all?$"
 # 621 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1244,9 +1368,13 @@ BattlePyramid_Text_ThreeTrainersRemaining3::
 BattlePyramid_Text_TwoTrainersRemaining3::
 # 623 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 624 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there are two more TRAINERS\n"
 # 625 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there are two more Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you beat them both?$"
 # 626 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1254,9 +1382,13 @@ BattlePyramid_Text_TwoTrainersRemaining3::
 BattlePyramid_Text_OneTrainersRemaining3::
 # 628 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 629 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "But there's still one more TRAINER\n"
 # 630 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "But there's still one more Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor. Can you prevail?$"
 # 631 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1264,9 +1396,13 @@ BattlePyramid_Text_OneTrainersRemaining3::
 BattlePyramid_Text_ZeroTrainersRemaining3::
 # 633 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "That's pretty impressive!\p"
+<<<<<<< HEAD
 # 634 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You've gone through all the TRAINERS\n"
 # 635 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "You've gone through all the Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on this floor.$"
 # 636 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1274,57 +1410,85 @@ BattlePyramid_Text_ZeroTrainersRemaining3::
 BattlePyramid_Text_SevenTrainersRemaining4::
 # 638 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 639 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the seven TRAINERS left on this floor.$"
 # 640 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the seven Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 641 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining4::
 # 642 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 643 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the six TRAINERS left on this floor.$"
 # 644 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the six Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 645 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining4::
 # 646 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 647 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the five TRAINERS left on this floor.$"
 # 648 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the five Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 649 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining4::
 # 650 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 651 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the four TRAINERS left on this floor.$"
 # 652 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the four Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 653 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining4::
 # 654 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 655 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the three TRAINERS left on this floor.$"
 # 656 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the three Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 657 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoTrainersRemaining4::
 # 658 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could sweep through\n"
+<<<<<<< HEAD
 # 659 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the two TRAINERS left on this floor.$"
 # 660 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the two Trainers left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 661 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining4::
 # 662 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Maybe you could complete your sweep\n"
+<<<<<<< HEAD
 # 663 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "with the one TRAINER left on this floor.$"
 # 664 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "with the one Trainer left on this floor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 665 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining4::
@@ -1338,65 +1502,97 @@ BattlePyramid_Text_ZeroTrainersRemaining4::
 BattlePyramid_Text_SevenTrainersRemaining5::
 # 670 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 671 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the seven expert TRAINERS who remain.$"
 # 672 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the seven expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 673 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining5::
 # 674 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 675 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the six expert TRAINERS who remain.$"
 # 676 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the six expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 677 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining5::
 # 678 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 679 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the five expert TRAINERS who remain.$"
 # 680 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the five expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 681 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining5::
 # 682 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 683 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the four expert TRAINERS who remain.$"
 # 684 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the four expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 685 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining5::
 # 686 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 687 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the three expert TRAINERS who remain.$"
 # 688 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the three expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 689 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoTrainersRemaining5::
 # 690 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 691 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the two expert TRAINERS who remain.$"
 # 692 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the two expert Trainers who remain.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 693 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining5::
 # 694 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "You may have what it takes to beat\n"
+<<<<<<< HEAD
 # 695 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the one expert TRAINER who remains.$"
 # 696 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the one expert Trainer who remains.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 697 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining5::
 # 698 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Your skills are beyond reproach.\p"
+<<<<<<< HEAD
 # 699 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "There are no more TRAINERS here\n"
 # 700 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "There are no more Trainers here\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who have any chance of beating you.$"
 # 701 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
@@ -1404,61 +1600,93 @@ BattlePyramid_Text_ZeroTrainersRemaining5::
 BattlePyramid_Text_SevenTrainersRemaining6::
 # 703 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 704 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the seven remaining TRAINERS?$"
 # 705 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the seven remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 706 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_SixTrainersRemaining6::
 # 707 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 708 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the six remaining TRAINERS?$"
 # 709 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the six remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 710 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FiveTrainersRemaining6::
 # 711 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 712 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the five remaining TRAINERS?$"
 # 713 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the five remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 714 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_FourTrainersRemaining6::
 # 715 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 716 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the four remaining TRAINERS?$"
 # 717 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the four remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 718 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ThreeTrainersRemaining6::
 # 719 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 720 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the three remaining TRAINERS?$"
 # 721 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the three remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 722 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_TwoTrainersRemaining6::
 # 723 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 724 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the two remaining TRAINERS?$"
 # 725 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the two remaining Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 726 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_OneTrainersRemaining6::
 # 727 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "Can you keep winning against\n"
+<<<<<<< HEAD
 # 728 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "the last remaining TRAINER?$"
 # 729 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "the last remaining Trainer?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 730 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_Text_ZeroTrainersRemaining6::
+<<<<<<< HEAD
 # 731 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	.string "There aren't any TRAINERS left that\n"
 # 732 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
+=======
+	.string "There aren't any Trainers left that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "can take you on now…$"

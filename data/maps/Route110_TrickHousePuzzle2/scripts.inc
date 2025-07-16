@@ -208,9 +208,13 @@ Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 # 105 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 106 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "“TRICK MASTER is smart.”\n"
 # 107 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+=======
+	.string "“Trick Master is smart.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 108 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "The lock clicked open!$"
@@ -240,9 +244,13 @@ Route110_TrickHousePuzzle2_Text_TedPostBattle:
 
 # 121 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_PaulIntro:
+<<<<<<< HEAD
 # 122 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "Oh! You're on your second TRICK HOUSE\n"
 # 123 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+=======
+	.string "Oh! You're on your second Trick House\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenge!$"
 # 124 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
@@ -254,17 +262,25 @@ Route110_TrickHousePuzzle2_Text_PaulDefeat:
 
 # 128 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
+<<<<<<< HEAD
 # 129 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "The TRICK MASTER rigged all the tricks\n"
 # 130 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+=======
+	.string "The Trick Master rigged all the tricks\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in this house all by himself.$"
 # 131 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
 # 132 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
+<<<<<<< HEAD
 # 133 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "I want to make my own GYM one day.\n"
 # 134 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
+=======
+	.string "I want to make my own Gym one day.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So, I'm studying how to set traps.$"
 # 135 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 
@@ -278,5 +294,10 @@ Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
 # 140 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "You're strong, aren't you?\n"
+<<<<<<< HEAD
 # 141 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	.string "Maybe even enough to be a GYM LEADER!$"
+=======
+	.string "Maybe even enough to be a Gym Leader!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

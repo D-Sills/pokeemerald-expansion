@@ -56,6 +56,7 @@ MossdeepCity_House3_EventScript_DeclineSuperRod::
 
 # 29 "data/maps/MossdeepCity_House3/scripts.pory"
 MossdeepCity_House3_Text_YouWantSuperRod:
+<<<<<<< HEAD
 # 30 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "Hey there, TRAINER!\n"
 # 31 "data/maps/MossdeepCity_House3/scripts.pory"
@@ -65,6 +66,12 @@ MossdeepCity_House3_Text_YouWantSuperRod:
 # 33 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "catch POKéMON off the seafloor!\p"
 # 34 "data/maps/MossdeepCity_House3/scripts.pory"
+=======
+	.string "Hey there, Trainer!\n"
+	.string "A Super Rod really is super!\p"
+	.string "Say all you want, but this baby can\n"
+	.string "catch Pokémon off the seafloor!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What do you think?\n"
 # 35 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "You want it, don't you?$"
@@ -74,17 +81,25 @@ MossdeepCity_House3_Text_YouWantSuperRod:
 MossdeepCity_House3_Text_SuperRodIsSuper:
 # 38 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "You bet, you bet!\n"
+<<<<<<< HEAD
 # 39 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "After all, a SUPER ROD is really super!$"
 # 40 "data/maps/MossdeepCity_House3/scripts.pory"
+=======
+	.string "After all, a Super Rod is really super!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 41 "data/maps/MossdeepCity_House3/scripts.pory"
 MossdeepCity_House3_Text_TryDroppingRodInWater:
 # 42 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "If there's any water, try dropping in\n"
+<<<<<<< HEAD
 # 43 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "your ROD and see what bites!$"
 # 44 "data/maps/MossdeepCity_House3/scripts.pory"
+=======
+	.string "your Rod and see what bites!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 45 "data/maps/MossdeepCity_House3/scripts.pory"
 MossdeepCity_House3_Text_DontYouLikeToFish:
@@ -96,7 +111,13 @@ MossdeepCity_House3_Text_DontYouLikeToFish:
 
 # 49 "data/maps/MossdeepCity_House3/scripts.pory"
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon:
+<<<<<<< HEAD
 # 50 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "Go after the seafloor POKéMON with\n"
 # 51 "data/maps/MossdeepCity_House3/scripts.pory"
 	.string "your SUPER ROD.$"
+=======
+	.string "Go after the seafloor Pokémon with\n"
+	.string "your Super Rod.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

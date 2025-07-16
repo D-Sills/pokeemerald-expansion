@@ -64,13 +64,22 @@ DesertUnderpass_EventScript_GiveRootFossil::
 @ Unused
 # 33 "data/maps/DesertUnderpass/scripts.pory"
 DesertUnderpass_Text_FoundRootFossil::
+<<<<<<< HEAD
 # 34 "data/maps/DesertUnderpass/scripts.pory"
 	.string "{PLAYER} found the ROOT FOSSIL.$"
 # 35 "data/maps/DesertUnderpass/scripts.pory"
+=======
+	.string "{PLAYER} found the Root Fossil.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 36 "data/maps/DesertUnderpass/scripts.pory"
 @ Unused
 # 37 "data/maps/DesertUnderpass/scripts.pory"
 DesertUnderpass_Text_FoundClawFossil::
+<<<<<<< HEAD
 # 38 "data/maps/DesertUnderpass/scripts.pory"
 	.string "{PLAYER} found the CLAW FOSSIL.$"
+=======
+	.string "{PLAYER} found the Claw Fossil.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

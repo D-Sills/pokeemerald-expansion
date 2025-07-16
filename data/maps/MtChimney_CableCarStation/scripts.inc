@@ -172,9 +172,13 @@ MtChimney_CableCarStation_Movement_ExitCableCar:
 
 # 87 "data/maps/MtChimney_CableCarStation/scripts.pory"
 MtChimney_CableCarStation_Text_CableCarReadyGetOn:
+<<<<<<< HEAD
 # 88 "data/maps/MtChimney_CableCarStation/scripts.pory"
 	.string "The CABLE CAR is ready to go down.\n"
 # 89 "data/maps/MtChimney_CableCarStation/scripts.pory"
+=======
+	.string "The Cable Car is ready to go down.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like to be on it?$"
 # 90 "data/maps/MtChimney_CableCarStation/scripts.pory"
 

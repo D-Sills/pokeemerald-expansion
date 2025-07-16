@@ -86,37 +86,59 @@ MossdeepCity_House4_EventScript_Skitty::
 MossdeepCity_House4_Text_BrotherLikesToFindBases:
 # 44 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "My little brother says he likes to go\n"
+<<<<<<< HEAD
 # 45 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "find people's SECRET BASES.$"
 # 46 "data/maps/MossdeepCity_House4/scripts.pory"
+=======
+	.string "find people's Secret Bases.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 47 "data/maps/MossdeepCity_House4/scripts.pory"
 MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle:
 # 48 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "My little brother says he likes to\n"
+<<<<<<< HEAD
 # 49 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "visit people's SECRET BASES and have\l"
 # 50 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "POKéMON battles.$"
 # 51 "data/maps/MossdeepCity_House4/scripts.pory"
+=======
+	.string "visit people's Secret Bases and have\l"
+	.string "Pokémon battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 52 "data/maps/MossdeepCity_House4/scripts.pory"
 MossdeepCity_House4_Text_YouMadeSecretBaseNearX:
+<<<<<<< HEAD
 # 53 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "Was it you who made a SECRET BASE\n"
 # 54 "data/maps/MossdeepCity_House4/scripts.pory"
+=======
+	.string "Was it you who made a Secret Base\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "near {STR_VAR_1}?$"
 # 55 "data/maps/MossdeepCity_House4/scripts.pory"
 
 # 56 "data/maps/MossdeepCity_House4/scripts.pory"
 MossdeepCity_House4_Text_MakeSecretBase:
+<<<<<<< HEAD
 # 57 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "You should make a SECRET BASE\n"
 # 58 "data/maps/MossdeepCity_House4/scripts.pory"
+=======
+	.string "You should make a Secret Base\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "somewhere. I'll go find it!$"
 # 59 "data/maps/MossdeepCity_House4/scripts.pory"
 
 # 60 "data/maps/MossdeepCity_House4/scripts.pory"
 MossdeepCity_House4_Text_Skitty:
+<<<<<<< HEAD
 # 61 "data/maps/MossdeepCity_House4/scripts.pory"
 	.string "SKITTY: Miyaan?$"
+=======
+	.string "Skitty: Miyaan?$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

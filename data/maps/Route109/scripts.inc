@@ -958,6 +958,7 @@ Route109_EventScript_Elijah::
 
 # 480 "data/maps/Route109/scripts.pory"
 DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
+<<<<<<< HEAD
 # 481 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 482 "data/maps/Route109/scripts.pory"
@@ -967,9 +968,16 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 # 484 "data/maps/Route109/scripts.pory"
 	.string "STERN and deliver the DEVON GOODS?$"
 # 485 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+	.string "We've made land in Slateport!\p"
+	.string "I suppose you're going to visit Capt.\n"
+	.string "Stern and deliver the Devon Goods?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 486 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineySailToDewfordQuestion:
+<<<<<<< HEAD
 # 487 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: I thought you're supposed\n"
 # 488 "data/maps/Route109/scripts.pory"
@@ -979,9 +987,16 @@ Route109_Text_BrineySailToDewfordQuestion:
 # 490 "data/maps/Route109/scripts.pory"
 	.string "DEWFORD, then?$"
 # 491 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: I thought you're supposed\n"
+	.string "to deliver the Devon Goods.\p"
+	.string "Would you like to sail back to\n"
+	.string "Dewford, then?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 492 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineyDewfordItIs:
+<<<<<<< HEAD
 # 493 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 # 494 "data/maps/Route109/scripts.pory"
@@ -989,22 +1004,37 @@ Route109_Text_BrineyDewfordItIs:
 # 495 "data/maps/Route109/scripts.pory"
 	.string "PEEKO, we're setting sail, my darling!$"
 # 496 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: Dewford it is, then!\p"
+	.string "Anchors aweigh!\n"
+	.string "Peeko, we're setting sail, my darling!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 497 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineyDeliverDevonGoods:
+<<<<<<< HEAD
 # 498 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: Then you go on and deliver\n"
 # 499 "data/maps/Route109/scripts.pory"
 	.string "the DEVON GOODS. I'll be waiting.$"
 # 500 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: Then you go on and deliver\n"
+	.string "the Devon Goods. I'll be waiting.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 501 "data/maps/Route109/scripts.pory"
 DewfordTown_Text_BrineyLandedInSlateport:
+<<<<<<< HEAD
 # 502 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: Ahoy! We've made land in\n"
 # 503 "data/maps/Route109/scripts.pory"
 	.string "SLATEPORT!\p"
 # 504 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy! We've made land in\n"
+	.string "Slateport!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You just go on and tell me whenever\n"
 # 505 "data/maps/Route109/scripts.pory"
 	.string "you want to set sail again!$"
@@ -1012,9 +1042,13 @@ DewfordTown_Text_BrineyLandedInSlateport:
 
 # 507 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineyWhereAreWeBound:
+<<<<<<< HEAD
 # 508 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 509 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "For you, I'll go out to sea anytime!\p"
 # 510 "data/maps/Route109/scripts.pory"
 	.string "Now, my friend, where are we bound?$"
@@ -1022,17 +1056,25 @@ Route109_Text_BrineyWhereAreWeBound:
 
 # 512 "data/maps/Route109/scripts.pory"
 Route109_Text_BrineyTellMeWhenYouNeedToSail:
+<<<<<<< HEAD
 # 513 "data/maps/Route109/scripts.pory"
 	.string "MR. BRINEY: You just tell me whenever\n"
 # 514 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mr. Briney: You just tell me whenever\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "you need to set sail again!$"
 # 515 "data/maps/Route109/scripts.pory"
 
 # 516 "data/maps/Route109/scripts.pory"
 Route109_Text_ChillAtMyPapasSpot:
+<<<<<<< HEAD
 # 517 "data/maps/Route109/scripts.pory"
 	.string "Yo, TRAINERS!\n"
 # 518 "data/maps/Route109/scripts.pory"
+=======
+	.string "Yo, Trainers!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Whether you're hot to trot,\l"
 # 519 "data/maps/Route109/scripts.pory"
 	.string "or cool cat not,\l"
@@ -1048,9 +1090,13 @@ Route109_Text_LittleKidsDartAround:
 	.string "You don't dare take your eyes off them\n"
 # 525 "data/maps/Route109/scripts.pory"
 	.string "for an instant. It's very taxing.\p"
+<<<<<<< HEAD
 # 526 "data/maps/Route109/scripts.pory"
 	.string "Mine are with my POKéMON, so they\n"
 # 527 "data/maps/Route109/scripts.pory"
+=======
+	.string "Mine are with my Pokémon, so they\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "should be okay, but…$"
 # 528 "data/maps/Route109/scripts.pory"
 
@@ -1086,9 +1132,13 @@ Route109_Text_WereGoingToMakeBigCastle:
 Route109_Text_ZigzagoonPicksUpLitter:
 # 544 "data/maps/Route109/scripts.pory"
 	.string "The water around these parts is clean.\p"
+<<<<<<< HEAD
 # 545 "data/maps/Route109/scripts.pory"
 	.string "But, I get my ZIGZAGOON to pick up\n"
 # 546 "data/maps/Route109/scripts.pory"
+=======
+	.string "But, I get my Zigzagoon to pick up\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "litter from the shoreline at times.\p"
 # 547 "data/maps/Route109/scripts.pory"
 	.string "Dirty water becomes rain and joins our\n"
@@ -1102,12 +1152,17 @@ Route109_Text_ZigzagoonPicksUpLitter:
 
 # 552 "data/maps/Route109/scripts.pory"
 Route109_Text_ZigzagoonCry:
+<<<<<<< HEAD
 # 553 "data/maps/Route109/scripts.pory"
 	.string "ZIGZAGOON: Guguu?$"
 # 554 "data/maps/Route109/scripts.pory"
+=======
+	.string "Zigzagoon: Guguu?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 555 "data/maps/Route109/scripts.pory"
 Route109_Text_SeashoreHouseSign:
+<<<<<<< HEAD
 # 556 "data/maps/Route109/scripts.pory"
 	.string "SEASHORE HOUSE\p"
 # 557 "data/maps/Route109/scripts.pory"
@@ -1115,9 +1170,15 @@ Route109_Text_SeashoreHouseSign:
 # 558 "data/maps/Route109/scripts.pory"
 	.string "The place for hot TRAINERS!”$"
 # 559 "data/maps/Route109/scripts.pory"
+=======
+	.string "Seashore House\p"
+	.string "“May hot battles rage on hot sands!\n"
+	.string "The place for hot Trainers!”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 560 "data/maps/Route109/scripts.pory"
 Route109_Text_TrainerTipsSign:
+<<<<<<< HEAD
 # 561 "data/maps/Route109/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 562 "data/maps/Route109/scripts.pory"
@@ -1128,3 +1189,10 @@ Route109_Text_TrainerTipsSign:
 	.string "POKéMON raised by TRAINERS are said\n"
 # 565 "data/maps/Route109/scripts.pory"
 	.string "to grow stronger than wild POKéMON.$"
+=======
+	.string "Trainer Tips\p"
+	.string "Pokémon at the same level may not\n"
+	.string "always have identical stats.\p"
+	.string "Pokémon raised by Trainers are said\n"
+	.string "to grow stronger than wild Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

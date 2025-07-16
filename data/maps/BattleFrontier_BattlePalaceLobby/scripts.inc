@@ -754,6 +754,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 
 # 378 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
+<<<<<<< HEAD
 # 379 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Where the hearts of TRAINERS\n"
 # 380 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -765,17 +766,29 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
 # 383 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "BATTLE HALLS.$"
 # 384 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Where the hearts of Trainers\n"
+	.string "are put to the test.\p"
+	.string "I welcome you to the Battle Palace.\p"
+	.string "I accept challenges to the Single\n"
+	.string "Battle Halls.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 385 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 # 386 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Do you wish to take\n"
+<<<<<<< HEAD
 # 387 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the SINGLE BATTLE HALL challenge?$"
 # 388 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "the Single Battle Hall challenge?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 389 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
+<<<<<<< HEAD
 # 390 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "In the BATTLE PALACE, there are\n"
 # 391 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -785,9 +798,16 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 # 393 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The SINGLE BATTLES are conducted in\n"
 # 394 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "In the Battle Palace, there are\n"
+	.string "several auditoriums for Single Battles\l"
+	.string "that are named Single Battle Halls.\p"
+	.string "The Single Battles are conducted in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the usual way, except with one crucial\l"
 # 395 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "rule that must be obeyed.\p"
+<<<<<<< HEAD
 # 396 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "TRAINERS are permitted only to switch\n"
 # 397 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -799,9 +819,17 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 # 400 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The POKéMON are to behave according\n"
 # 401 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Trainers are permitted only to switch\n"
+	.string "their Pokémon in and out.\p"
+	.string "Trainers are otherwise forbidden to\n"
+	.string "command their Pokémon.\p"
+	.string "The Pokémon are to behave according\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to their nature and battle on their own.\p"
 # 402 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "You must put your trust in your\n"
+<<<<<<< HEAD
 # 403 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "POKéMON and watch over them.\p"
 # 404 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -809,6 +837,11 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 # 405 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "seven TRAINERS in succession,\l"
 # 406 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Pokémon and watch over them.\p"
+	.string "If you achieve the honor of beating\n"
+	.string "seven Trainers in succession,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we will present you with Battle Points.\p"
 # 407 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "If you want to interrupt your\n"
@@ -824,15 +857,23 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
 # 413 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "When you have fortified your heart\n"
+<<<<<<< HEAD
 # 414 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "and POKéMON, you must return.$"
 # 415 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "and Pokémon, you must return.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 416 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
+<<<<<<< HEAD
 # 417 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "There are two BATTLE HALLS,\n"
 # 418 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "There are two Battle Halls,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Level 50 and Open Level.\l"
 # 419 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Which is your choice of a challenge?$"
@@ -842,25 +883,38 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
 # 422 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Sigh…\p"
+<<<<<<< HEAD
 # 423 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "You do not have the three POKéMON\n"
 # 424 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "You do not have the three Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "required for the challenge.\p"
 # 425 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "To enter, you must provide three\n"
+<<<<<<< HEAD
 # 426 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "different kinds of POKéMON.\p"
 # 427 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "These POKéMON must all be of\n"
 # 428 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "different kinds of Pokémon.\p"
+	.string "These Pokémon must all be of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Level 50 or lower.\p"
 # 429 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "They also must not be holding\n"
 # 430 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the same kinds of items.\p"
+<<<<<<< HEAD
 # 431 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 432 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Come back when you have made\n"
 # 433 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your preparations.$"
@@ -870,21 +924,33 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
 # 436 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Sigh…\p"
+<<<<<<< HEAD
 # 437 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "You do not have the three POKéMON\n"
 # 438 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "You do not have the three Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "required for the challenge.\p"
 # 439 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "To enter, you must provide three\n"
+<<<<<<< HEAD
 # 440 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "different kinds of POKéMON.\p"
 # 441 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "different kinds of Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They also must not be holding\n"
 # 442 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the same kinds of items.\p"
+<<<<<<< HEAD
 # 443 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 444 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Come back when you have made\n"
 # 445 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your preparations.$"
@@ -894,17 +960,25 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
 # 448 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Good. Now, you must select your\n"
+<<<<<<< HEAD
 # 449 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "three POKéMON.$"
 # 450 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "three Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 451 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2:
 # 452 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I must save before I show you to\n"
+<<<<<<< HEAD
 # 453 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the BATTLE HALL. Is that okay?$"
 # 454 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "the Battle Hall. Is that okay?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 455 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_FollowMe:
@@ -918,9 +992,13 @@ BattleFrontier_BattlePalaceLobby_Text_FollowMe:
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
 # 460 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I feel privileged for having seen\n"
+<<<<<<< HEAD
 # 461 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your POKéMON's exploits.\p"
 # 462 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "your Pokémon's exploits.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The results will be recorded.\n"
 # 463 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I must ask you to briefly wait.$"
@@ -932,9 +1010,13 @@ BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
 	.string "To achieve a 7-win streak…\p"
 # 467 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The bonds that bind your heart with\n"
+<<<<<<< HEAD
 # 468 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your POKéMON seem firm and true.$"
 # 469 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "your Pokémon seem firm and true.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 470 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
@@ -962,9 +1044,13 @@ BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "our prize.\p"
 # 482 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "You should return when you have\n"
+<<<<<<< HEAD
 # 483 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "organized your BAG.$"
 # 484 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "organized your Bag.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 485 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
@@ -976,9 +1062,13 @@ BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
 BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge:
 # 489 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I must save before I show you to\n"
+<<<<<<< HEAD
 # 490 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the BATTLE HALL. Is that okay?$"
 # 491 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "the Battle Hall. Is that okay?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 492 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
@@ -1008,9 +1098,13 @@ BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 # 505 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "For a hardy fellow like me,\n"
+<<<<<<< HEAD
 # 506 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "hardy POKéMON are the best.\p"
 # 507 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "hardy Pokémon are the best.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Offense is the best defense!\n"
 # 508 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "A relentless attack is the ultimate!\p"
@@ -1024,9 +1118,13 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 	.string "swings by here.\p"
 # 513 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "She says that she can tell what\n"
+<<<<<<< HEAD
 # 514 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "POKéMON are thinking.\p"
 # 515 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Pokémon are thinking.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I don't know about that part,\n"
 # 516 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "but she is really cute.\p"
@@ -1040,9 +1138,13 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 # 521 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Hmm…\p"
+<<<<<<< HEAD
 # 522 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "It appears that the nature of POKéMON\n"
 # 523 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "It appears that the nature of Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and the moves that they have been\l"
 # 524 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "taught are the keys to battle here.\p"
@@ -1050,11 +1152,16 @@ BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 	.string "To be more precise, it's how well\n"
 # 526 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the moves match the nature of\l"
+<<<<<<< HEAD
 # 527 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the POKéMON.\p"
 # 528 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "If your POKéMON is in trouble and\n"
 # 529 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "the Pokémon.\p"
+	.string "If your Pokémon is in trouble and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "unable to live up to its potential,\l"
 # 530 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "you may need to examine how well\l"
@@ -1064,11 +1171,16 @@ BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 
 # 533 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
+<<<<<<< HEAD
 # 534 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "My POKéMON is usually very docile.\p"
 # 535 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "But when it's in a BATTLE HALL,\n"
 # 536 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "My Pokémon is usually very docile.\p"
+	.string "But when it's in a Battle Hall,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it sometimes seems to become\l"
 # 537 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "transformed into something wicked!\p"
@@ -1080,20 +1192,29 @@ BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
 
 # 541 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
+<<<<<<< HEAD
 # 542 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I wonder what sort of nature a POKéMON\n"
 # 543 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "I wonder what sort of nature a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "would have if it favored enfeebling its\l"
 # 544 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "opponents and chipping away slowly.\p"
+<<<<<<< HEAD
 # 545 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "I'd be surprised if it was a LAX nature.\p"
 # 546 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "I'd be surprised if it was a Lax nature.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, nah, that can't be right.$"
 # 547 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
 # 548 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
+<<<<<<< HEAD
 # 549 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Where the hearts of TRAINERS\n"
 # 550 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1105,17 +1226,29 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
 # 553 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "BATTLE HALLS.$"
 # 554 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Where the hearts of Trainers\n"
+	.string "are put to the test.\p"
+	.string "I welcome you to the Battle Palace.\p"
+	.string "I accept challenges to the Double\n"
+	.string "Battle Halls.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 555 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 # 556 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Do you wish to take\n"
+<<<<<<< HEAD
 # 557 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the DOUBLE BATTLE HALL challenge?$"
 # 558 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "the Double Battle Hall challenge?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 559 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
+<<<<<<< HEAD
 # 560 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "In the BATTLE PALACE, there are\n"
 # 561 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1125,9 +1258,16 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 # 563 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The DOUBLE BATTLES are conducted in\n"
 # 564 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "In the Battle Palace, there are\n"
+	.string "several auditoriums for Double Battles\l"
+	.string "that are named Double Battle Halls.\p"
+	.string "The Double Battles are conducted in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the usual way, except with one crucial\l"
 # 565 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "rule that must be obeyed.\p"
+<<<<<<< HEAD
 # 566 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "TRAINERS are permitted only to switch\n"
 # 567 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1139,9 +1279,17 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 # 570 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The POKéMON are to behave according\n"
 # 571 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Trainers are permitted only to switch\n"
+	.string "their Pokémon in and out.\p"
+	.string "Trainers are otherwise forbidden to\n"
+	.string "command their Pokémon.\p"
+	.string "The Pokémon are to behave according\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to their nature and battle on their own.\p"
 # 572 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "You must put your trust in your\n"
+<<<<<<< HEAD
 # 573 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "POKéMON and watch over them.\p"
 # 574 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1149,6 +1297,11 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 # 575 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "seven TRAINERS in succession,\l"
 # 576 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Pokémon and watch over them.\p"
+	.string "If you achieve the honor of beating\n"
+	.string "seven Trainers in succession,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we will present you with Battle Points.\p"
 # 577 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "If you want to interrupt your\n"
@@ -1162,19 +1315,28 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 
 # 582 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
+<<<<<<< HEAD
 # 583 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "To defeat the PALACE MAVEN\n"
 # 584 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "and seven TRAINERS in a row…$"
 # 585 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "To defeat the Palace Maven\n"
+	.string "and seven Trainers in a row…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 586 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 # 587 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "In honor of the bond you share with\n"
+<<<<<<< HEAD
 # 588 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your POKéMON, we present you with\l"
 # 589 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "your Pokémon, we present you with\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "these Battle Point(s).$"
 # 590 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
@@ -1182,17 +1344,26 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 # 592 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Would you like to record your latest\n"
+<<<<<<< HEAD
 # 593 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "BATTLE PALACE match on your\l"
 # 594 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "FRONTIER PASS?$"
 # 595 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Battle Palace match on your\l"
+	.string "Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 596 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
+<<<<<<< HEAD
 # 597 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "The BATTLE HALL rules are listed.$"
 # 598 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "The Battle Hall rules are listed.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 599 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
@@ -1202,6 +1373,7 @@ BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
 
 # 602 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
+<<<<<<< HEAD
 # 603 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Here, POKéMON are required to think\n"
 # 604 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1209,6 +1381,11 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
 # 605 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Unlike in the wild, POKéMON that live\n"
 # 606 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Here, Pokémon are required to think\n"
+	.string "and battle by themselves.\p"
+	.string "Unlike in the wild, Pokémon that live\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "with people behave differently\l"
 # 607 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "depending on their nature.$"
@@ -1216,6 +1393,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
 
 # 609 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
+<<<<<<< HEAD
 # 610 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Depending on its nature, a POKéMON\n"
 # 611 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1223,14 +1401,23 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
 # 612 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Another POKéMON may prefer to protect\n"
 # 613 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Depending on its nature, a Pokémon\n"
+	.string "may prefer to attack no matter what.\p"
+	.string "Another Pokémon may prefer to protect\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "itself from any harm.\p"
 # 614 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Yet another may enjoy vexing or\n"
 # 615 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "confounding its foes.\p"
+<<<<<<< HEAD
 # 616 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Due to its nature, a POKéMON\n"
 # 617 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Due to its nature, a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "will have favorite moves that it is good\l"
 # 618 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "at using.\p"
@@ -1260,14 +1447,19 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
 	.string "stat problems including poison and \l"
 # 631 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "paralysis.\p"
+<<<<<<< HEAD
 # 632 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "POKéMON will consider using moves in\n"
 # 633 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Pokémon will consider using moves in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "these three categories.$"
 # 634 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
 # 635 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
+<<<<<<< HEAD
 # 636 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "When not under command by its TRAINER,\n"
 # 637 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -1281,6 +1473,14 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 # 641 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "If a POKéMON only knows moves that\n"
 # 642 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "When not under command by its Trainer,\n"
+	.string "a Pokémon may be unable to effectively\l"
+	.string "use certain moves.\p"
+	.string "A Pokémon is not good at using any\n"
+	.string "move that it dislikes.\p"
+	.string "If a Pokémon only knows moves that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "do not match its nature, it will often\l"
 # 643 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "be unable to live up to its potential.$"
@@ -1288,13 +1488,21 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 
 # 645 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
+<<<<<<< HEAD
 # 646 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "Depending on its nature, a POKéMON may\n"
 # 647 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "Depending on its nature, a Pokémon may\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "start using moves that don't match its\l"
 # 648 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "nature when it is in trouble.\p"
+<<<<<<< HEAD
 # 649 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "If a POKéMON begins behaving oddly\n"
 # 650 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	.string "If a Pokémon begins behaving oddly\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in a pinch, watch it carefully.$"

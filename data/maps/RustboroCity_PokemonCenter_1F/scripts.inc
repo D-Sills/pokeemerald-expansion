@@ -62,6 +62,7 @@ RustboroCity_PokemonCenter_1F_EventScript_Girl::
 
 # 32 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
+<<<<<<< HEAD
 # 33 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "My POKéMON has a NAIVE nature, and my\n"
 # 34 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
@@ -69,6 +70,11 @@ RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
 # 35 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "It's fascinating how POKéMON have\n"
 # 36 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "My Pokémon has a Naive nature, and my\n"
+	.string "friend's has a Jolly nature.\p"
+	.string "It's fascinating how Pokémon have\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "personalities!$"
 # 37 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 
@@ -76,9 +82,13 @@ RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities:
 RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
 # 39 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "Just like people, there are male and\n"
+<<<<<<< HEAD
 # 40 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "female POKéMON.\p"
 # 41 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "female Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But no one seems to have any idea how\n"
 # 42 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "they're different.$"
@@ -88,7 +98,13 @@ RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon:
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 # 45 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "The man next door gave me an HM!\p"
+<<<<<<< HEAD
 # 46 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "I used it to teach my POKéMON how to\n"
 # 47 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "CUT down skinny trees.$"
+=======
+	.string "I used it to teach my Pokémon how to\n"
+	.string "Cut down skinny trees.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

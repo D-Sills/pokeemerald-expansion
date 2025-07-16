@@ -44,6 +44,7 @@ FortreeCity_House5_EventScript_Zigzagoon::
 
 # 23 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_TreeHousesAreGreat:
+<<<<<<< HEAD
 # 24 "data/maps/FortreeCity_House5/scripts.pory"
 	.string "The tree houses of FORTREE are great!\p"
 # 25 "data/maps/FortreeCity_House5/scripts.pory"
@@ -51,12 +52,21 @@ FortreeCity_House5_Text_TreeHousesAreGreat:
 # 26 "data/maps/FortreeCity_House5/scripts.pory"
 	.string "living together with POKéMON.$"
 # 27 "data/maps/FortreeCity_House5/scripts.pory"
+=======
+	.string "The tree houses of Fortree are great!\p"
+	.string "I think it's the number one town for\n"
+	.string "living together with Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 28 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_AdaptedToNature:
+<<<<<<< HEAD
 # 29 "data/maps/FortreeCity_House5/scripts.pory"
 	.string "POKéMON and people have adapted to\n"
 # 30 "data/maps/FortreeCity_House5/scripts.pory"
+=======
+	.string "Pokémon and people have adapted to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "nature for survival.\p"
 # 31 "data/maps/FortreeCity_House5/scripts.pory"
 	.string "There's no need to make nature\n"
@@ -66,5 +76,10 @@ FortreeCity_House5_Text_AdaptedToNature:
 
 # 34 "data/maps/FortreeCity_House5/scripts.pory"
 FortreeCity_House5_Text_Zigzagoon:
+<<<<<<< HEAD
 # 35 "data/maps/FortreeCity_House5/scripts.pory"
 	.string "ZIGZAGOON: Bufuu!$"
+=======
+	.string "Zigzagoon: Bufuu!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

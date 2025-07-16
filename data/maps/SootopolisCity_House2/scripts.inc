@@ -42,9 +42,13 @@ SootopolisCity_House2_EventScript_DontKnowAboutOrbs::
 
 # 22 "data/maps/SootopolisCity_House2/scripts.pory"
 SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
+<<<<<<< HEAD
 # 23 "data/maps/SootopolisCity_House2/scripts.pory"
 	.string "MT. PYRE…\p"
 # 24 "data/maps/SootopolisCity_House2/scripts.pory"
+=======
+	.string "Mt. Pyre…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "At its peak are two orbs placed side\n"
 # 25 "data/maps/SootopolisCity_House2/scripts.pory"
 	.string "by side. Did you know?$"

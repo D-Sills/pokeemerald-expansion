@@ -344,12 +344,17 @@ Route121_EventScript_RematchCristin::
 Route121_Text_OkayMoveOutToMtPyre:
 # 173 "data/maps/Route121/scripts.pory"
 	.string "Okay!\n"
+<<<<<<< HEAD
 # 174 "data/maps/Route121/scripts.pory"
 	.string "We're to move out to MT. PYRE!$"
 # 175 "data/maps/Route121/scripts.pory"
+=======
+	.string "We're to move out to Mt. Pyre!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 176 "data/maps/Route121/scripts.pory"
 Route121_Text_AheadLoomsMtPyre:
+<<<<<<< HEAD
 # 177 "data/maps/Route121/scripts.pory"
 	.string "Ahead looms MT. PYRE…\p"
 # 178 "data/maps/Route121/scripts.pory"
@@ -357,12 +362,21 @@ Route121_Text_AheadLoomsMtPyre:
 # 179 "data/maps/Route121/scripts.pory"
 	.string "of departed POKéMON…$"
 # 180 "data/maps/Route121/scripts.pory"
+=======
+	.string "Ahead looms Mt. Pyre…\p"
+	.string "It is a natural monument to the spirits \n"
+	.string "of departed Pokémon…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 181 "data/maps/Route121/scripts.pory"
 Route121_Text_MtPyrePierSign:
+<<<<<<< HEAD
 # 182 "data/maps/Route121/scripts.pory"
 	.string "MT. PYRE PIER\p"
 # 183 "data/maps/Route121/scripts.pory"
+=======
+	.string "Mt. Pyre Pier\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "…The sign is old and worn out.\n"
 # 184 "data/maps/Route121/scripts.pory"
 	.string "The words are barely legible…$"
@@ -370,7 +384,13 @@ Route121_Text_MtPyrePierSign:
 
 # 186 "data/maps/Route121/scripts.pory"
 Route121_Text_SafariZoneSign:
+<<<<<<< HEAD
 # 187 "data/maps/Route121/scripts.pory"
 	.string "“Filled with rare POKéMON!”\n"
 # 188 "data/maps/Route121/scripts.pory"
 	.string "SAFARI ZONE$"
+=======
+	.string "“Filled with rare Pokémon!”\n"
+	.string "Safari Zone$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

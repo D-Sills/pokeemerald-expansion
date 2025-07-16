@@ -334,15 +334,23 @@ SootopolisCity_MysteryEventsHouse_1F_Movement_OldManMoveAsideRight:
 SootopolisCity_MysteryEventsHouse_1F_Text_OnlyAmusementWatchingBattles:
 # 168 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "When I was young, I traveled the world\n"
+<<<<<<< HEAD
 # 169 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "as a POKéMON TRAINER.\p"
 # 170 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+=======
+	.string "as a Pokémon Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now that I've become an old buzzard,\n"
 # 171 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "my only amusement is watching young\l"
+<<<<<<< HEAD
 # 172 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "TRAINERS battle.$"
 # 173 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+=======
+	.string "Trainers battle.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 174 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
@@ -352,9 +360,13 @@ SootopolisCity_MysteryEventsHouse_1F_Text_DoorAppearsToBeLocked:
 
 # 177 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 SootopolisCity_MysteryEventsHouse_1F_Text_ChallengeVisitingTrainer:
+<<<<<<< HEAD
 # 178 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "A TRAINER named {STR_VAR_1}\n"
 # 179 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
+=======
+	.string "A Trainer named {STR_VAR_1}\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is visiting my home.\p"
 # 180 "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.pory"
 	.string "Would you like to challenge\n"

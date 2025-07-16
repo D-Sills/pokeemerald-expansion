@@ -16,6 +16,7 @@ OldaleTown_House1_EventScript_Woman::
 
 # 9 "data/maps/OldaleTown_House1/scripts.pory"
 OldaleTown_House1_Text_LeftPokemonGoesOutFirst:
+<<<<<<< HEAD
 # 10 "data/maps/OldaleTown_House1/scripts.pory"
 	.string "When a POKéMON battle starts, the one\n"
 # 11 "data/maps/OldaleTown_House1/scripts.pory"
@@ -27,4 +28,11 @@ OldaleTown_House1_Text_LeftPokemonGoesOutFirst:
 # 14 "data/maps/OldaleTown_House1/scripts.pory"
 	.string "of your POKéMON.\p"
 # 15 "data/maps/OldaleTown_House1/scripts.pory"
+=======
+	.string "When a Pokémon battle starts, the one\n"
+	.string "at the left of the list goes out first.\p"
+	.string "So, when you get more Pokémon in your\n"
+	.string "party, try switching around the order\l"
+	.string "of your Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It could give you an advantage.$"

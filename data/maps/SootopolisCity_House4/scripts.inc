@@ -68,11 +68,20 @@ SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
 	.string "even if they didn't, it would be so\l"
 # 35 "data/maps/SootopolisCity_House4/scripts.pory"
 	.string "beautiful to take an underwater\l"
+<<<<<<< HEAD
 # 36 "data/maps/SootopolisCity_House4/scripts.pory"
 	.string "stroll with my POKéMON.$"
 # 37 "data/maps/SootopolisCity_House4/scripts.pory"
+=======
+	.string "stroll with my Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 38 "data/maps/SootopolisCity_House4/scripts.pory"
 SootopolisCity_House4_Text_Azumarill:
+<<<<<<< HEAD
 # 39 "data/maps/SootopolisCity_House4/scripts.pory"
 	.string "AZUMARILL: Marurii.$"
+=======
+	.string "Azumarill: Marurii.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

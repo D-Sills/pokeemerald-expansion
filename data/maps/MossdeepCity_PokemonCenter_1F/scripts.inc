@@ -52,9 +52,13 @@ MossdeepCity_PokemonCenter_1F_EventScript_Girl::
 
 # 27 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
+<<<<<<< HEAD
 # 28 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 	.string "The GYM LEADERS in this town are\n"
 # 29 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "The Gym Leaders in this town are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a formidable duo.\p"
 # 30 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 	.string "Their combination attacks are, like,\n"
@@ -66,7 +70,11 @@ MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable:
 MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves:
 # 34 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 	.string "Depending on the special abilities of\n"
+<<<<<<< HEAD
 # 35 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON, some moves might change\l"
 # 36 "data/maps/MossdeepCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pokémon, some moves might change\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "or not work at all.$"

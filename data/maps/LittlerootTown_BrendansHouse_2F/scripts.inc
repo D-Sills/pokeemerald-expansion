@@ -554,9 +554,13 @@ PlayersHouse_2F_Text_ClockIsStopped:
 
 # 278 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
+<<<<<<< HEAD
 # 279 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "MOM: {PLAYER}, how do you like your\n"
 # 280 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+=======
+	.string "Mom: {PLAYER}, how do you like your\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "new room?\p"
 # 281 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Good! Everything's put away neatly!\p"
@@ -564,9 +568,13 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "They finished moving everything in\n"
 # 283 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "downstairs, too.\p"
+<<<<<<< HEAD
 # 284 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "POKéMON movers are so convenient!\p"
 # 285 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+=======
+	.string "Pokémon movers are so convenient!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Oh, you should make sure that\n"
 # 286 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "everything's all there on your desk.$"
@@ -576,6 +584,7 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 PlayersHouse_2F_Text_Notebook:
 # 289 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "{PLAYER} flipped open the notebook.\p"
+<<<<<<< HEAD
 # 290 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "ADVENTURE RULE NO. 1\n"
 # 291 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -585,6 +594,12 @@ PlayersHouse_2F_Text_Notebook:
 # 293 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Record your progress with SAVE.\p"
 # 294 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+=======
+	.string "Adventure Rule No. 1\n"
+	.string "Open the Menu with Start.\p"
+	.string "Adventure Rule No. 2\n"
+	.string "Record your progress with Save.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The remaining pages are blank…$"
 # 295 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
@@ -592,9 +607,13 @@ PlayersHouse_2F_Text_Notebook:
 Common_Text_LookCloserAtMap:
 # 297 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "{PLAYER} took a closer look at the\n"
+<<<<<<< HEAD
 # 298 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "HOENN region map.$"
 # 299 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+=======
+	.string "Hoenn region map.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 300 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 PlayersHouse_2F_Text_ItsAGameCube:

@@ -58,6 +58,7 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 
 # 30 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
+<<<<<<< HEAD
 # 31 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "STEVEN: Oh, wow, {PLAYER}{KUN}.\n"
 # 32 "data/maps/MeteorFalls_StevensCave/scripts.pory"
@@ -65,14 +66,23 @@ MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 # 33 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "Do you, uh…maybe think of me as\n"
 # 34 "data/maps/MeteorFalls_StevensCave/scripts.pory"
+=======
+	.string "Steven: Oh, wow, {PLAYER}{KUN}.\n"
+	.string "I'm amazed you knew where to find me.\p"
+	.string "Do you, uh… maybe think of me as\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "just a rock maniac?\p"
 # 35 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "No, that can't be right.\p"
 # 36 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "We battled alongside each other at\n"
+<<<<<<< HEAD
 # 37 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "the SOOTOPOLIS SPACE CENTER.\p"
 # 38 "data/maps/MeteorFalls_StevensCave/scripts.pory"
+=======
+	.string "the Sootopolis Space Center.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You should have a very good idea\n"
 # 39 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "about how good I am.\p"
@@ -92,6 +102,7 @@ MeteorFalls_StevensCave_Text_StevenDefeat:
 
 # 47 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
+<<<<<<< HEAD
 # 48 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "STEVEN: Come to think of it, ever since\n"
 # 49 "data/maps/MeteorFalls_StevensCave/scripts.pory"
@@ -103,6 +114,13 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 # 52 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "become the CHAMPION.\p"
 # 53 "data/maps/MeteorFalls_StevensCave/scripts.pory"
+=======
+	.string "Steven: Come to think of it, ever since\n"
+	.string "our paths first crossed in Granite\l"
+	.string "Cave in Dewford, I had this feeling.\p"
+	.string "I thought that you would eventually\n"
+	.string "become the Champion.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My predictions usually come true.\p"
 # 54 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	.string "And where will you go from here?\p"

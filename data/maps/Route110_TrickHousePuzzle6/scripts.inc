@@ -94,9 +94,13 @@ Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 # 48 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 49 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "“TRICK MASTER is my life.”\n"
 # 50 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
+=======
+	.string "“Trick Master is my life.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 51 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "The lock clicked open!$"
@@ -112,9 +116,13 @@ Route110_TrickHousePuzzle6_Text_SophiaIntro:
 
 # 57 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
+<<<<<<< HEAD
 # 58 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "I've discovered a tough TRAINER!$"
 # 59 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
+=======
+	.string "I've discovered a tough Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 60 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
@@ -130,9 +138,13 @@ Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
 
 # 66 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_Text_BennyIntro:
+<<<<<<< HEAD
 # 67 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	.string "Maybe I could get my BIRD POKéMON\n"
 # 68 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
+=======
+	.string "Maybe I could get my Bird Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to fly over the wall…$"
 # 69 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 

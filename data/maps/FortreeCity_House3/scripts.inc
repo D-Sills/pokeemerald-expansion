@@ -24,6 +24,7 @@ FortreeCity_House3_EventScript_SchoolKidM::
 
 # 13 "data/maps/FortreeCity_House3/scripts.pory"
 FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
+<<<<<<< HEAD
 # 14 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "While speaking about POKéDEXES,\n"
 # 15 "data/maps/FortreeCity_House3/scripts.pory"
@@ -35,6 +36,13 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 # 18 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "Hoo, boy, he had some amazing POKéMON\n"
 # 19 "data/maps/FortreeCity_House3/scripts.pory"
+=======
+	.string "While speaking about Pokédexes,\n"
+	.string "I remembered something.\p"
+	.string "I met this Trainer, Steven, when\n"
+	.string "I was searching for rare stones.\p"
+	.string "Hoo, boy, he had some amazing Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "with him.\p"
 # 20 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "They weren't just rare, they were\n"
@@ -42,9 +50,13 @@ FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
 	.string "trained to terrifying extremes!\p"
 # 22 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "He might even be stronger than the\n"
+<<<<<<< HEAD
 # 23 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "GYM LEADER in this town…$"
 # 24 "data/maps/FortreeCity_House3/scripts.pory"
+=======
+	.string "Gym Leader in this town…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 25 "data/maps/FortreeCity_House3/scripts.pory"
 FortreeCity_House3_Text_OhYouHavePokedex:
@@ -52,7 +64,11 @@ FortreeCity_House3_Text_OhYouHavePokedex:
 	.string "What's that thing you have there?\p"
 # 27 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "… … … … … …\p"
+<<<<<<< HEAD
 # 28 "data/maps/FortreeCity_House3/scripts.pory"
 	.string "Oh, it's called a POKéDEX?\n"
 # 29 "data/maps/FortreeCity_House3/scripts.pory"
+=======
+	.string "Oh, it's called a Pokédex?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's really awesome!$"

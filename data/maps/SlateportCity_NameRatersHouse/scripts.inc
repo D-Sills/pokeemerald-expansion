@@ -128,21 +128,33 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 
 # 65 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
+<<<<<<< HEAD
 # 66 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "Hi, hi! I'm the NAME RATER!\n"
 # 67 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+=======
+	.string "Hi, hi! I'm the Name Rater!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm the fortune-teller of names!\p"
 # 68 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "I shall be pleased to rate your\n"
+<<<<<<< HEAD
 # 69 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "POKéMON's nickname.$"
 # 70 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+=======
+	.string "Pokémon's nickname.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 71 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
+<<<<<<< HEAD
 # 72 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "Which POKéMON's nickname should\n"
 # 73 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+=======
+	.string "Which Pokémon's nickname should\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I critique?$"
 # 74 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 
@@ -168,9 +180,13 @@ SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
 
 # 85 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
+<<<<<<< HEAD
 # 86 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "Done! From now on, this POKéMON\n"
 # 87 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+=======
+	.string "Done! From now on, this Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "shall be known as {STR_VAR_1}!\p"
 # 88 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "It is a better name than before!\n"
@@ -188,9 +204,13 @@ SlateportCity_NameRatersHouse_Text_DoVisitAgain:
 
 # 95 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
+<<<<<<< HEAD
 # 96 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "Done! From now on, this POKéMON\n"
 # 97 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
+=======
+	.string "Done! From now on, this Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "shall be known as {STR_VAR_1}!\p"
 # 98 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "It looks no different from before,\n"
@@ -218,5 +238,10 @@ SlateportCity_NameRatersHouse_Text_MagnificentName:
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 # 110 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "Now, now.\n"
+<<<<<<< HEAD
 # 111 "data/maps/SlateportCity_NameRatersHouse/scripts.pory"
 	.string "That is merely an EGG!$"
+=======
+	.string "That is merely an egg!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

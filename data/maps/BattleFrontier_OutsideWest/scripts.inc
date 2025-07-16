@@ -602,30 +602,44 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 
 # 302 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
+<<<<<<< HEAD
 # 303 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "This is the BATTLE DOME!\n"
 # 304 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "This is the Battle Dome!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Your path to the invincible superstar!$"
 # 305 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 306 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
+<<<<<<< HEAD
 # 307 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "This is the BATTLE FACTORY!\n"
 # 308 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Seek out the toughest POKéMON!$"
 # 309 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "This is the Battle Factory!\n"
+	.string "Seek out the toughest Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 310 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
+<<<<<<< HEAD
 # 311 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "This is the BATTLE PIKE!\n"
 # 312 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "This is the Battle Pike!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Choose one of three paths!$"
 # 313 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 314 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
+<<<<<<< HEAD
 # 315 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "This is the BATTLE TOWER.\p"
 # 316 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -633,17 +647,27 @@ BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 # 317 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "POKéMON for elimination-style matches.$"
 # 318 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "This is the Battle Tower.\p"
+	.string "Trainers bring their best-raised\n"
+	.string "Pokémon for elimination-style matches.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 319 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
 # 320 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Hello, are you here for the ferry?\n"
+<<<<<<< HEAD
 # 321 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "May I see your TICKET?$"
 # 322 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "May I see your Ticket?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 323 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
+<<<<<<< HEAD
 # 324 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "{PLAYER} doesn't have the TICKET…\p"
 # 325 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -651,14 +675,23 @@ BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
 # 326 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "You must have a TICKET to board\n"
 # 327 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "{PLAYER} doesn't have the Ticket…\p"
+	.string "I'm terribly sorry.\p"
+	.string "You must have a Ticket to board\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the ferry.$"
 # 328 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 329 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
+<<<<<<< HEAD
 # 330 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "{PLAYER} flashed the TICKET.\p"
 # 331 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "{PLAYER} flashed the Ticket.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Perfect! That's all you need!\p"
 # 332 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "And where would you like to go?$"
@@ -666,15 +699,23 @@ BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
 
 # 334 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_SlateportItIs:
+<<<<<<< HEAD
 # 335 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "SLATEPORT CITY it is, then!$"
 # 336 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "Slateport City it is, then!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 337 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
+<<<<<<< HEAD
 # 338 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "LILYCOVE CITY it is, then!$"
 # 339 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "Lilycove City it is, then!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 340 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
@@ -708,6 +749,7 @@ BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
 
 # 355 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
+<<<<<<< HEAD
 # 356 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I want to go to the BATTLE TOWER,\n"
 # 357 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -715,6 +757,11 @@ BattleFrontier_OutsideWest_Text_CantFindBattleTower:
 # 358 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "a map of the BATTLE FRONTIER.\p"
 # 359 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "I want to go to the Battle Tower,\n"
+	.string "but I can't find it even though I have\l"
+	.string "a map of the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This place is just too big!$"
 # 360 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
@@ -736,6 +783,7 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "It's not as if just anyone can come\n"
 # 369 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "here, you know?\p"
+<<<<<<< HEAD
 # 370 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Only those TRAINERS who've been\n"
 # 371 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -745,6 +793,12 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 # 373 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "know about the BATTLE FRONTIER.$"
 # 374 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "Only those Trainers who've been\n"
+	.string "recognized as tough are brought here.\p"
+	.string "That's why many Trainers don't even\n"
+	.string "know about the Battle Frontier.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 375 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
@@ -752,9 +806,13 @@ BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
 	.string "Hey, bro…\p"
 # 377 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Are you sure we can make challenges\n"
+<<<<<<< HEAD
 # 378 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "even if we don't have any POKéMON?$"
 # 379 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "even if we don't have any Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 380 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
@@ -766,12 +824,17 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "I think…\p"
 # 384 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "But remember that big scary guy?\n"
+<<<<<<< HEAD
 # 385 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "He said, “I'll lend you POKéMON!”$"
 # 386 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "He said, “I'll lend you Pokémon!”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 387 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
+<<<<<<< HEAD
 # 388 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "That's the BATTLE FACTORY.\n"
 # 389 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -781,14 +844,25 @@ BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 # 391 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Who's raising those rental POKéMON?$"
 # 392 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "That's the Battle Factory.\n"
+	.string "You can rent strong Pokémon there.\p"
+	.string "But it makes me wonder.\n"
+	.string "Who's raising those rental Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 393 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
+<<<<<<< HEAD
 # 394 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I'm scared of going into the BATTLE\n"
 # 395 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "PIKE because of SEVIPER…\p"
 # 396 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "I'm scared of going into the Battle\n"
+	.string "Pike because of Seviper…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "B-but I came all the way here, so I will\n"
 # 397 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "try to conquer everything!\l"
@@ -810,9 +884,13 @@ BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 # 406 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Yay! I won!\n"
+<<<<<<< HEAD
 # 407 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I will take the BATTLE PIKE challenge!$"
 # 408 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "I will take the Battle Pike challenge!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 409 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
@@ -822,9 +900,13 @@ BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
 	.string "I lost.\p"
 # 412 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I guess I'm not very lucky today.\n"
+<<<<<<< HEAD
 # 413 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I'll put off my BATTLE PIKE challenge\l"
 # 414 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "I'll put off my Battle Pike challenge\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "until tomorrow.$"
 # 415 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
@@ -854,9 +936,13 @@ BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 # 428 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Oh? You're off to challenge\n"
+<<<<<<< HEAD
 # 429 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "the BATTLE DOME?\p"
 # 430 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "the Battle Dome?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll wish you the best of luck.\n"
 # 431 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Let us both win our way up and meet\l"
@@ -868,19 +954,28 @@ BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
 # 435 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Grandpa, over here!\n"
+<<<<<<< HEAD
 # 436 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "The BATTLE DOME is here!\l"
 # 437 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "The Battle Dome is here!\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Go get 'em, Grandpa!$"
 # 438 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 439 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
+<<<<<<< HEAD
 # 440 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Ah, so this here is the BATTLE DOME?\n"
 # 441 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I won't let GENTLEMEN beat me!\p"
 # 442 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "Ah, so this here is the Battle Dome?\n"
+	.string "I won't let Gentlemen beat me!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But where is the entrance?$"
 # 443 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
@@ -898,11 +993,16 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 
 # 450 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
+<<<<<<< HEAD
 # 451 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I've finally arrived at the BATTLE\n"
 # 452 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "FRONTIER!\p"
 # 453 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "I've finally arrived at the Battle\n"
+	.string "Frontier!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm sure to grab attention with\n"
 # 454 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "my looks and ability!$"
@@ -926,9 +1026,13 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "Crunch, munch…\p"
 # 464 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "A while back, I met this older girl\n"
+<<<<<<< HEAD
 # 465 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "at the BATTLE PIKE.\p"
 # 466 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "at the Battle Pike.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "She had these eyes that were scary\n"
 # 467 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "in a real ornery way.\p"
@@ -968,9 +1072,13 @@ BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
 	.string "That only happened because\n"
 # 485 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I happened to be sitting next to you!\p"
+<<<<<<< HEAD
 # 486 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "The DOME ACE only looked our way\n"
 # 487 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "The Dome Ace only looked our way\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "because my cheering was so loud!$"
 # 488 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
@@ -982,11 +1090,16 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine:
 	.string "Keep that racket down!\p"
 # 492 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "You fair-weather fans should stick\n"
+<<<<<<< HEAD
 # 493 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "to cheering for some GYM LEADER!\p"
 # 494 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "The DOME ACE is mine!\n"
 # 495 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "to cheering for some Gym Leader!\p"
+	.string "The Dome Ace is mine!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The only idol for me!$"
 # 496 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
@@ -996,14 +1109,19 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "Those people squabbling over there…\p"
 # 499 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "It's hard to believe, but they once\n"
+<<<<<<< HEAD
 # 500 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "were TRAINERS, and good ones, too.\p"
 # 501 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "were Trainers, and good ones, too.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They used to be incredibly tough,\n"
 # 502 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "and they were famous, too.\p"
 # 503 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "But they were obliterated by this\n"
+<<<<<<< HEAD
 # 504 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "certain TRAINER at a tournament.\p"
 # 505 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -1017,16 +1135,29 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 # 509 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "BATTLE DOME every day now.$"
 # 510 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "certain Trainer at a tournament.\p"
+	.string "They were so thoroughly whipped,\n"
+	.string "they became smitten by the Trainer.\p"
+	.string "Now they're just fans of the Trainer.\n"
+	.string "They go cheer for their idol at the\l"
+	.string "Battle Dome every day now.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 511 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 # 512 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "I heard a rumor that someone saw\n"
+<<<<<<< HEAD
 # 513 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "a POKéMON with an unusually long tail\l"
 # 514 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "somewhere in the BATTLE FRONTIER.\p"
 # 515 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	.string "a Pokémon with an unusually long tail\l"
+	.string "somewhere in the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It must be adorable. I'm sure of it…\p"
 # 516 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	.string "Oh, challenges can wait. I feel driven\n"

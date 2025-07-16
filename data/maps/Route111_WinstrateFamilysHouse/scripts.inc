@@ -118,41 +118,63 @@ Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection::
 
 # 60 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou:
+<<<<<<< HEAD
 # 61 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "You're the first TRAINER I've seen who\n"
 # 62 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "deploys POKéMON so masterfully.\p"
 # 63 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "You're the first Trainer I've seen who\n"
+	.string "deploys Pokémon so masterfully.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, I should tell you--my son is\n"
 # 64 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "stronger than you.\p"
+<<<<<<< HEAD
 # 65 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "He even took the POKéMON LEAGUE\n"
 # 66 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "He even took the Pokémon League\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenge, I'll have you know.$"
 # 67 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 
 # 68 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
+<<<<<<< HEAD
 # 69 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "We use this MACHO BRACE to more\n"
 # 70 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "effectively strengthen our POKéMON\l"
 # 71 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "We use this Macho Brace to more\n"
+	.string "effectively strengthen our Pokémon\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in training.\p"
 # 72 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "Since you've beaten all of us here,\n"
 # 73 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "I don't know if you need it, but we\l"
+<<<<<<< HEAD
 # 74 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "would like you to have our MACHO BRACE.$"
 # 75 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "would like you to have our Macho Brace.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 76 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:
+<<<<<<< HEAD
 # 77 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "When it comes to POKéMON battles,\n"
 # 78 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "When it comes to Pokémon battles,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we tend to be pretty passionate.$"
 # 79 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 
@@ -178,6 +200,7 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 	.string "But if you were to battle my grandson,\n"
 # 90 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "you'd end up crying in frustration.\p"
+<<<<<<< HEAD
 # 91 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "He's much stronger than any TRAINER\n"
 # 92 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
@@ -191,14 +214,29 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrong:
 # 96 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "CHAMPION already!$"
 # 97 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	.string "He's much stronger than any Trainer\n"
+	.string "our family knows.\p"
+	.string "He must be challenging the Pokémon\n"
+	.string "League Champion by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "Champion already!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 98 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
 # 99 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "My grandson must be challenging the\n"
+<<<<<<< HEAD
 # 100 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "POKéMON LEAGUE CHAMPION by now.\p"
 # 101 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "Knowing my grandson, he could be the\n"
 # 102 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.string "CHAMPION already!$"
+=======
+	.string "Pokémon League Champion by now.\p"
+	.string "Knowing my grandson, he could be the\n"
+	.string "Champion already!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

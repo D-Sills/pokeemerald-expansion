@@ -128,6 +128,7 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "Ah, so you are {PLAYER}{KUN}?\n"
 # 65 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "I've heard tales of your exploits.\p"
+<<<<<<< HEAD
 # 66 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "My name is WALLACE.\p"
 # 67 "data/maps/CaveOfOrigin_B1F/scripts.pory"
@@ -139,9 +140,17 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 # 70 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "with the GYM's operation.\p"
 # 71 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "My name is Wallace.\p"
+	.string "I was once the Gym Leader of\n"
+	.string "Sootopolis, but something came up.\p"
+	.string "So now, I've entrusted my mentor Juan\n"
+	.string "with the Gym's operation.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\n"
 # 72 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "… … … … … …\p"
+<<<<<<< HEAD
 # 73 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "GROUDON and KYOGRE, the two POKéMON\n"
 # 74 "data/maps/CaveOfOrigin_B1F/scripts.pory"
@@ -153,52 +162,85 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 # 77 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "ancient POKéMON.\p"
 # 78 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Groudon and Kyogre, the two Pokémon\n"
+	.string "wreaking havoc here, are considered\l"
+	.string "to be super-ancient Pokémon.\p"
+	.string "But there aren't just two super-\n"
+	.string "ancient Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There is one more somewhere.\p"
 # 79 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "Somewhere, there is a super-\n"
+<<<<<<< HEAD
 # 80 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "ancient POKéMON named RAYQUAZA.\p"
 # 81 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "It's said that it was RAYQUAZA that\n"
 # 82 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "ancient Pokémon named Rayquaza.\p"
+	.string "It's said that it was Rayquaza that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "becalmed the two combatants in\l"
 # 83 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "the distant past.\p"
 # 84 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "But even I have no clue as to\n"
+<<<<<<< HEAD
 # 85 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "RAYQUAZA's whereabouts…$"
 # 86 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Rayquaza's whereabouts…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 87 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
+<<<<<<< HEAD
 # 88 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
 # 89 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "know where RAYQUAZA is now?\p"
 # 90 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Wallace: {PLAYER}{KUN}, do you perhaps\n"
+	.string "know where Rayquaza is now?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If you do, please tell me.$"
 # 91 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 
 # 92 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
+<<<<<<< HEAD
 # 93 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "WALLACE: The CAVE OF ORIGIN?\p"
 # 94 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Wallace: The Cave Of Origin?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But that's right here!\n"
 # 95 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "I need you to do better than that!\p"
 # 96 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "Please, I need you to think about\n"
+<<<<<<< HEAD
 # 97 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "where RAYQUAZA might be right now.$"
 # 98 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "where Rayquaza might be right now.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 99 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
+<<<<<<< HEAD
 # 100 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "WALLACE: MT. PYRE?\p"
 # 101 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Wallace: Mt. Pyre?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But when I met the old lady there\n"
 # 102 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "earlier, she made no mention of it.\p"
@@ -214,9 +256,13 @@ CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
 
 # 108 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
+<<<<<<< HEAD
 # 109 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "WALLACE: Huh? You don't remember?\n"
 # 110 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	.string "Wallace: Huh? You don't remember?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Hmm… That's a problem…\p"
 # 111 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "Can't you remember somehow?$"
@@ -224,6 +270,7 @@ CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
 
 # 113 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
+<<<<<<< HEAD
 # 114 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "WALLACE: The SKY PILLAR?\p"
 # 115 "data/maps/CaveOfOrigin_B1F/scripts.pory"
@@ -234,3 +281,11 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
 # 118 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.string "We'll head to the SKY PILLAR right away!$"
+=======
+	.string "Wallace: The Sky Pillar?\p"
+	.string "That's it!\n"
+	.string "It must be the Sky Pillar!\p"
+	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
+	.string "We'll head to the Sky Pillar right away!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

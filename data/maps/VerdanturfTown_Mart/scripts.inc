@@ -82,9 +82,13 @@ VerdanturfTown_Mart_EventScript_Lass::
 
 # 42 "data/maps/VerdanturfTown_Mart/scripts.pory"
 VerdanturfTown_Mart_Text_XSpecialIsCrucial:
+<<<<<<< HEAD
 # 43 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "For any POKéMON match, X SPECIAL\n"
 # 44 "data/maps/VerdanturfTown_Mart/scripts.pory"
+=======
+	.string "For any Pokémon match, X Special\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is crucial.\p"
 # 45 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "It jacks up the power of some moves\n"
@@ -96,9 +100,13 @@ VerdanturfTown_Mart_Text_XSpecialIsCrucial:
 VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 # 49 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "They don't seem to sell any winning\n"
+<<<<<<< HEAD
 # 50 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "strategy guides for the BATTLE TENT…\p"
 # 51 "data/maps/VerdanturfTown_Mart/scripts.pory"
+=======
+	.string "strategy guides for the Battle Tent…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It seems one must rely on one's\n"
 # 52 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "own wits after all…$"
@@ -106,6 +114,7 @@ VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent:
 
 # 54 "data/maps/VerdanturfTown_Mart/scripts.pory"
 VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
+<<<<<<< HEAD
 # 55 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "The NEST BALL works better on\n"
 # 56 "data/maps/VerdanturfTown_Mart/scripts.pory"
@@ -113,4 +122,9 @@ VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon:
 # 57 "data/maps/VerdanturfTown_Mart/scripts.pory"
 	.string "VERDANTURF is the only place you can\n"
 # 58 "data/maps/VerdanturfTown_Mart/scripts.pory"
+=======
+	.string "The Nest Ball works better on\n"
+	.string "weakened Pokémon.\p"
+	.string "Verdanturf is the only place you can\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "buy it.$"

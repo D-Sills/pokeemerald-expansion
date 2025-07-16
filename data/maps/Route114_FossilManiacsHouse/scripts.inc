@@ -66,25 +66,38 @@ Route114_FossilManiacsHouse_EventScript_Bookshelf::
 
 # 34 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother:
+<<<<<<< HEAD
 # 35 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "My big brother's the FOSSIL MANIAC…\n"
 # 36 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "He's a nice guy who loves FOSSILS…\p"
 # 37 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
+=======
+	.string "My big brother's the Fossil Maniac…\n"
+	.string "He's a nice guy who loves Fossils…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He loves digging holes, too…\n"
 # 38 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "He dug this hole by himself…\p"
+<<<<<<< HEAD
 # 39 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "You can have this, so you can DIG\n"
 # 40 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
+=======
+	.string "You can have this, so you can Dig\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "holes just like my big brother…$"
 # 41 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 
 # 42 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance:
+<<<<<<< HEAD
 # 43 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "If you make a POKéMON DIG inside a\n"
 # 44 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
+=======
+	.string "If you make a Pokémon Dig inside a\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "cave, you're returned to the entrance…$"
 # 45 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 
@@ -98,6 +111,7 @@ Route114_FossilManiacsHouse_Text_RocksFillDisplayCase:
 
 # 50 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 Route114_FossilManiacsHouse_Text_CrammedWithBooks:
+<<<<<<< HEAD
 # 51 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "THE COMPOSITION OF STRATA…\n"
 # 52 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
@@ -105,4 +119,9 @@ Route114_FossilManiacsHouse_Text_CrammedWithBooks:
 # 53 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
 	.string "STONES, SOIL, AND ROCK…\p"
 # 54 "data/maps/Route114_FossilManiacsHouse/scripts.pory"
+=======
+	.string "The Composition of Strata…\n"
+	.string "How Rain Shapes The Land…\l"
+	.string "Stones, Soil, And Rock…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's crammed with books.$"

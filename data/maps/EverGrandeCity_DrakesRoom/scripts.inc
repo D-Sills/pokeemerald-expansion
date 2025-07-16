@@ -128,6 +128,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 
 # 65 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
+<<<<<<< HEAD
 # 66 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "I am the last of the POKéMON LEAGUE\n"
 # 67 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
@@ -135,14 +136,23 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 # 68 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "In their natural state, POKéMON are\n"
 # 69 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
+=======
+	.string "I am the last of the Pokémon League\n"
+	.string "Elite Four, Drake the Dragon master!\p"
+	.string "In their natural state, Pokémon are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "wild living things. They are free.\p"
 # 70 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "At times, they hinder us.\n"
 # 71 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "At times, they help us.\p"
+<<<<<<< HEAD
 # 72 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "For us to battle with POKéMON as\n"
 # 73 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
+=======
+	.string "For us to battle with Pokémon as\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "partners, do you know what it takes?\p"
 # 74 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "Do you know what is needed?\p"
@@ -162,6 +172,7 @@ EverGrandeCity_DrakesRoom_Text_Defeat:
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 # 82 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "You deserve every credit for coming\n"
+<<<<<<< HEAD
 # 83 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "this far as a TRAINER of POKéMON.\p"
 # 84 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
@@ -182,3 +193,16 @@ EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "Go! Go onwards!\n"
 # 92 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	.string "The CHAMPION is waiting!$"
+=======
+	.string "this far as a Trainer of Pokémon.\p"
+	.string "You do seem to know what is needed.\p"
+	.string "Yes, what a Trainer needs is a\n"
+	.string "virtuous heart.\p"
+	.string "Pokémon touch the good hearts of\n"
+	.string "Trainers and learn good from wrong.\p"
+	.string "They touch the good hearts of\n"
+	.string "Trainers and grow strong.\p"
+	.string "Go! Go onwards!\n"
+	.string "The Champion is waiting!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

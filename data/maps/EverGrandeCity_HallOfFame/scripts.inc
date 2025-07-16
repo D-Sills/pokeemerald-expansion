@@ -168,6 +168,7 @@ EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2:
 
 # 85 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
+<<<<<<< HEAD
 # 86 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	.string "WALLACE: This room…\p"
 # 87 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
@@ -179,11 +180,19 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 # 90 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	.string "It is here that the LEAGUE CHAMPIONS\n"
 # 91 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	.string "Wallace: This room…\p"
+	.string "This is where we keep records of\n"
+	.string "Pokémon that prevailed through\l"
+	.string "harsh battles.\p"
+	.string "It is here that the League ChampionS\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are honored.$"
 # 92 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 
 # 93 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
+<<<<<<< HEAD
 # 94 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	.string "WALLACE: Come on, let's record your\n"
 # 95 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
@@ -191,4 +200,9 @@ EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
 # 96 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	.string "the POKéMON LEAGUE, and the names of\l"
 # 97 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	.string "Wallace: Come on, let's record your\n"
+	.string "name as a Trainer who triumphed over\l"
+	.string "the Pokémon League, and the names of\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the partners who battled with you.$"

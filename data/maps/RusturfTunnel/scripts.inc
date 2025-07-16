@@ -850,17 +850,25 @@ RusturfTunnel_Text_ComeAndGetSome:
 
 # 426 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_Peeko:
+<<<<<<< HEAD
 # 427 "data/maps/RusturfTunnel/scripts.pory"
 	.string "PEEKO: Pii pihyoh!$"
 # 428 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "Peeko: Pii pihyoh!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 429 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_GruntIntro:
 # 430 "data/maps/RusturfTunnel/scripts.pory"
 	.string "Grah, keelhaul it all!\p"
+<<<<<<< HEAD
 # 431 "data/maps/RusturfTunnel/scripts.pory"
 	.string "That hostage POKéMON turned out to\n"
 # 432 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "That hostage Pokémon turned out to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "be worthless!\p"
 # 433 "data/maps/RusturfTunnel/scripts.pory"
 	.string "And to think I made a getaway…\n"
@@ -884,15 +892,23 @@ RusturfTunnel_Text_GruntDefeat:
 RusturfTunnel_Text_GruntTakePackage:
 # 443 "data/maps/RusturfTunnel/scripts.pory"
 	.string "This is plain not right…\p"
+<<<<<<< HEAD
 # 444 "data/maps/RusturfTunnel/scripts.pory"
 	.string "The BOSS told me this would be a\n"
 # 445 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "The boss told me this would be a\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "slick-and-easy job to pull.\p"
 # 446 "data/maps/RusturfTunnel/scripts.pory"
 	.string "All I had to do was steal some package\n"
+<<<<<<< HEAD
 # 447 "data/maps/RusturfTunnel/scripts.pory"
 	.string "from DEVON.\p"
 # 448 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "from Devon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Tch!\n"
 # 449 "data/maps/RusturfTunnel/scripts.pory"
 	.string "You want it back that badly, take it!$"
@@ -900,19 +916,28 @@ RusturfTunnel_Text_GruntTakePackage:
 
 # 451 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
+<<<<<<< HEAD
 # 452 "data/maps/RusturfTunnel/scripts.pory"
 	.string "PEEKO!\n"
 # 453 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "Peeko!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Am I glad to see you're safe!$"
 # 454 "data/maps/RusturfTunnel/scripts.pory"
 
 # 455 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
+<<<<<<< HEAD
 # 456 "data/maps/RusturfTunnel/scripts.pory"
 	.string "PEEKO owes her life to you!\p"
 # 457 "data/maps/RusturfTunnel/scripts.pory"
 	.string "They call me MR. BRINEY.\n"
 # 458 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "Peeko owes her life to you!\p"
+	.string "They call me Mr. Briney.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And, you are?\p"
 # 459 "data/maps/RusturfTunnel/scripts.pory"
 	.string "… … … … … … … …\n"
@@ -928,6 +953,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "you, don't hesitate to tell me!\p"
 # 465 "data/maps/RusturfTunnel/scripts.pory"
 	.string "You can usually find me in my cottage\n"
+<<<<<<< HEAD
 # 466 "data/maps/RusturfTunnel/scripts.pory"
 	.string "by the sea near PETALBURG WOODS.\p"
 # 467 "data/maps/RusturfTunnel/scripts.pory"
@@ -937,6 +963,12 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 # 469 "data/maps/RusturfTunnel/scripts.pory"
 	.string "PEEKO: Pihyoh!$"
 # 470 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "by the sea near Petalburg Woods.\p"
+	.string "Come, Peeko, we should make our way\n"
+	.string "home.\p"
+	.string "Peeko: Pihyoh!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 471 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
@@ -946,6 +978,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "Why can't they keep digging?\n"
 # 474 "data/maps/RusturfTunnel/scripts.pory"
 	.string "Is the bedrock too hard?\p"
+<<<<<<< HEAD
 # 475 "data/maps/RusturfTunnel/scripts.pory"
 	.string "My beloved awaits me in VERDANTURF\n"
 # 476 "data/maps/RusturfTunnel/scripts.pory"
@@ -953,6 +986,11 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 # 477 "data/maps/RusturfTunnel/scripts.pory"
 	.string "If RUSTBORO and VERDANTURF were\n"
 # 478 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "My beloved awaits me in Verdanturf\n"
+	.string "Town just beyond here…\p"
+	.string "If Rustboro and Verdanturf were\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "joined by this tunnel, I could visit\l"
 # 479 "data/maps/RusturfTunnel/scripts.pory"
 	.string "her every day…\p"
@@ -964,6 +1002,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 
 # 483 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_ToGetToVerdanturf:
+<<<<<<< HEAD
 # 484 "data/maps/RusturfTunnel/scripts.pory"
 	.string "To get from RUSTBORO to VERDANTURF,\n"
 # 485 "data/maps/RusturfTunnel/scripts.pory"
@@ -971,6 +1010,11 @@ RusturfTunnel_Text_ToGetToVerdanturf:
 # 486 "data/maps/RusturfTunnel/scripts.pory"
 	.string "through SLATEPORT and MAUVILLE…$"
 # 487 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "To get from Rustboro to Verdanturf,\n"
+	.string "you need to go to Dewford, then pass\l"
+	.string "through Slateport and Mauville…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 488 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
@@ -986,11 +1030,16 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 
 # 494 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_ExplainStrength:
+<<<<<<< HEAD
 # 495 "data/maps/RusturfTunnel/scripts.pory"
 	.string "That HM contains STRENGTH.\p"
 # 496 "data/maps/RusturfTunnel/scripts.pory"
 	.string "If a muscular POKéMON were to learn\n"
 # 497 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "That HM contains Strength.\p"
+	.string "If a muscular Pokémon were to learn\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that, it would be able to move even\l"
 # 498 "data/maps/RusturfTunnel/scripts.pory"
 	.string "large boulders.$"
@@ -998,6 +1047,7 @@ RusturfTunnel_Text_ExplainStrength:
 
 # 500 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_WandaReunion:
+<<<<<<< HEAD
 # 501 "data/maps/RusturfTunnel/scripts.pory"
 	.string "WANDA!\n"
 # 502 "data/maps/RusturfTunnel/scripts.pory"
@@ -1005,6 +1055,11 @@ RusturfTunnel_Text_WandaReunion:
 # 503 "data/maps/RusturfTunnel/scripts.pory"
 	.string "WANDA: That's…wonderful.\p"
 # 504 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "Wanda!\n"
+	.string "Now I can see you anytime!\p"
+	.string "Wanda: That's… wonderful.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please, take some rest at my home.$"
 # 505 "data/maps/RusturfTunnel/scripts.pory"
 
@@ -1030,17 +1085,26 @@ RusturfTunnel_Text_MikeIntro:
 	.string "What do you call a wild man up in the\n"
 # 516 "data/maps/RusturfTunnel/scripts.pory"
 	.string "mountains? A mountain man, right?\p"
+<<<<<<< HEAD
 # 517 "data/maps/RusturfTunnel/scripts.pory"
 	.string "So why don't they call a POKéMON in\n"
 # 518 "data/maps/RusturfTunnel/scripts.pory"
 	.string "the mountains a mountain POKéMON?$"
 # 519 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "So why don't they call a Pokémon in\n"
+	.string "the mountains a mountain Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 520 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_Text_MikeDefeat:
+<<<<<<< HEAD
 # 521 "data/maps/RusturfTunnel/scripts.pory"
 	.string "My POKéMON…\n"
 # 522 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "My Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Ran out of power…$"
 # 523 "data/maps/RusturfTunnel/scripts.pory"
 
@@ -1048,7 +1112,11 @@ RusturfTunnel_Text_MikeDefeat:
 RusturfTunnel_Text_MikePostBattle:
 # 525 "data/maps/RusturfTunnel/scripts.pory"
 	.string "They halted development here to\n"
+<<<<<<< HEAD
 # 526 "data/maps/RusturfTunnel/scripts.pory"
 	.string "protect POKéMON, right?\l"
 # 527 "data/maps/RusturfTunnel/scripts.pory"
+=======
+	.string "protect Pokémon, right?\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There's a feel-good story!$"

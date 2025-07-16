@@ -178,9 +178,13 @@ RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 # 90 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Oh, hello!\n"
+<<<<<<< HEAD
 # 91 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Welcome to the PEPPER household.\p"
 # 92 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "Welcome to the Pepper household.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I have a question for you.\n"
 # 93 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Have you ever baby-sat?\p"
@@ -190,9 +194,13 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "a child is all new to me.\p"
 # 96 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "And I have a problem. My daughter\n"
+<<<<<<< HEAD
 # 97 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "WALDA doesn't laugh enough.\p"
 # 98 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "Walda doesn't laugh enough.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I think she'd laugh for me if I told\n"
 # 99 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "her something funny.\p"
@@ -268,9 +276,13 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
 	.string "{STR_VAR_1}.\p"
 # 135 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Hmmm… She's not smiling at all.\n"
+<<<<<<< HEAD
 # 136 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Maybe WALDA is one serious child…$"
 # 137 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "Maybe Walda is one serious child…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 138 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
@@ -294,9 +306,13 @@ RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
 	.string "{STR_VAR_1}.\p"
 # 148 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Hmmm… She's not smiling at all.\n"
+<<<<<<< HEAD
 # 149 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Maybe WALDA is one serious child…$"
 # 150 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "Maybe Walda is one serious child…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 151 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
@@ -316,22 +332,32 @@ RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
 RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 # 159 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Thank you!\p"
+<<<<<<< HEAD
 # 160 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Thanks to you, my darling WALDA\n"
 # 161 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "Thanks to you, my darling Walda\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "laughed for me!\p"
 # 162 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "Actually, I may not look all that\n"
+<<<<<<< HEAD
 # 163 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "special, but I'm one of DEVON\l"
 # 164 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "CORPORATION's top researchers.\p"
 # 165 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "special, but I'm one of Devon\l"
+	.string "Corporation's top researchers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So, how about I do something in return\n"
 # 166 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "for you?\p"
 # 167 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "I know, I'll add some new wallpaper\n"
+<<<<<<< HEAD
 # 168 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "patterns for the BOXES in the PC\l"
 # 169 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
@@ -341,6 +367,12 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 # 171 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "select “FRIENDS.”\p"
 # 172 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
+=======
+	.string "patterns for the Boxes in the PC\l"
+	.string "Pokémon Storage System.\p"
+	.string "In the wallpaper pattern menu,\n"
+	.string "select “Friends.”\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That will give you access to the new\n"
 # 173 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "wallpaper patterns.$"
@@ -348,5 +380,10 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 
 # 175 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
+<<<<<<< HEAD
 # 176 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	.string "It's a POKéMON plush DOLL!$"
+=======
+	.string "It's a plush Pokémon Doll!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

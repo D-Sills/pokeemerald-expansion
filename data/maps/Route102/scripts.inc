@@ -152,11 +152,16 @@ Route102_EventScript_Allen::
 
 # 77 "data/maps/Route102/scripts.pory"
 Route102_Text_WatchMeCatchPokemon:
+<<<<<<< HEAD
 # 78 "data/maps/Route102/scripts.pory"
 	.string "WALLY: {PLAYER}…\n"
 # 79 "data/maps/Route102/scripts.pory"
 	.string "POKéMON hide in tall grass like this,\l"
 # 80 "data/maps/Route102/scripts.pory"
+=======
+	.string "Wally: {PLAYER}…\n"
+	.string "Pokémon hide in tall grass like this,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "don't they?\p"
 # 81 "data/maps/Route102/scripts.pory"
 	.string "Please watch me and see if I can\n"
@@ -168,19 +173,28 @@ Route102_Text_WatchMeCatchPokemon:
 
 # 85 "data/maps/Route102/scripts.pory"
 Route102_Text_WallyIDidIt:
+<<<<<<< HEAD
 # 86 "data/maps/Route102/scripts.pory"
 	.string "WALLY: I did it… It's my…\n"
 # 87 "data/maps/Route102/scripts.pory"
 	.string "My POKéMON!$"
 # 88 "data/maps/Route102/scripts.pory"
+=======
+	.string "Wally: I did it… It's my…\n"
+	.string "My Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 89 "data/maps/Route102/scripts.pory"
 Route102_Text_LetsGoBack:
 # 90 "data/maps/Route102/scripts.pory"
 	.string "{PLAYER}, thank you!\n"
+<<<<<<< HEAD
 # 91 "data/maps/Route102/scripts.pory"
 	.string "Let's go back to the GYM!$"
 # 92 "data/maps/Route102/scripts.pory"
+=======
+	.string "Let's go back to the Gym!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 93 "data/maps/Route102/scripts.pory"
 Route102_Text_ImNotVeryTall:
@@ -200,21 +214,35 @@ Route102_Text_ImNotVeryTall:
 Route102_Text_CatchWholeBunchOfPokemon:
 # 101 "data/maps/Route102/scripts.pory"
 	.string "I'm going to catch a whole bunch of\n"
+<<<<<<< HEAD
 # 102 "data/maps/Route102/scripts.pory"
 	.string "POKéMON!$"
 # 103 "data/maps/Route102/scripts.pory"
+=======
+	.string "Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 104 "data/maps/Route102/scripts.pory"
 Route102_Text_RouteSignOldale:
+<<<<<<< HEAD
 # 105 "data/maps/Route102/scripts.pory"
 	.string "ROUTE 102\n"
 # 106 "data/maps/Route102/scripts.pory"
 	.string "{RIGHT_ARROW} OLDALE TOWN$"
 # 107 "data/maps/Route102/scripts.pory"
+=======
+	.string "Route 102\n"
+	.string "{RIGHT_ARROW} Oldale Town$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 108 "data/maps/Route102/scripts.pory"
 Route102_Text_RouteSignPetalburg:
+<<<<<<< HEAD
 # 109 "data/maps/Route102/scripts.pory"
 	.string "ROUTE 102\n"
 # 110 "data/maps/Route102/scripts.pory"
 	.string "{LEFT_ARROW} PETALBURG CITY$"
+=======
+	.string "Route 102\n"
+	.string "{LEFT_ARROW} Petalburg City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

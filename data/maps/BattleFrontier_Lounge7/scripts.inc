@@ -616,6 +616,7 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "Buhahaha!\p"
 # 309 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "You couldn't tell it from looking now,\n"
+<<<<<<< HEAD
 # 310 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "but I used to be one tough TRAINER.\p"
 # 311 "data/maps/BattleFrontier_Lounge7/scripts.pory"
@@ -623,6 +624,11 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 # 312 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "BEAUTY around, I tell you!\p"
 # 313 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "but I used to be one tough Trainer.\p"
+	.string "I had a reputation as the toughest\n"
+	.string "Beauty around, I tell you!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\p"
 # 314 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "What is it now?\n"
@@ -634,9 +640,13 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "there. I'm actually talented!\p"
 # 318 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "Let me prove it to you.\n"
+<<<<<<< HEAD
 # 319 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "I can teach your POKéMON special and\l"
 # 320 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "I can teach your Pokémon special and\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "yet cute moves.\p"
 # 321 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "But my lessons don't come free.\n"
@@ -652,9 +662,13 @@ BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "Buhahaha!\p"
 # 327 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "Are you back to learn special and\n"
+<<<<<<< HEAD
 # 328 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "yet cute POKéMON moves?$"
 # 329 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "yet cute Pokémon moves?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 330 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_TeachWhichMove:
@@ -674,9 +688,13 @@ BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 
 # 338 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
+<<<<<<< HEAD
 # 339 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "Fine, fine, now pick the POKéMON\n"
 # 340 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "Fine, fine, now pick the Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I should teach the move to.$"
 # 341 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 
@@ -714,6 +732,7 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "Ihihihi!\p"
 # 358 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "I know it's hard to see now, but I used\n"
+<<<<<<< HEAD
 # 359 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "to be one fantastic TRAINER.\p"
 # 360 "data/maps/BattleFrontier_Lounge7/scripts.pory"
@@ -721,6 +740,11 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 # 361 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "invincible SWIMMER around, I tell you!\p"
 # 362 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "to be one fantastic Trainer.\p"
+	.string "I had a reputation as the most\n"
+	.string "invincible Swimmer around, I tell you!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\p"
 # 363 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "What's wrong?\n"
@@ -732,9 +756,13 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "there. I'm actually experienced!\p"
 # 367 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "I can prove it to you.\n"
+<<<<<<< HEAD
 # 368 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "I can teach your POKéMON hard and\l"
 # 369 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "I can teach your Pokémon hard and\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "yet pretty moves.\p"
 # 370 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "But my lessons don't come free.\n"
@@ -750,9 +778,13 @@ BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "Ihihihi!\p"
 # 376 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "Have you come to learn hard and\n"
+<<<<<<< HEAD
 # 377 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "yet pretty POKéMON moves?$"
 # 378 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "yet pretty Pokémon moves?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 379 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
@@ -770,6 +802,7 @@ BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
 
 # 386 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
+<<<<<<< HEAD
 # 387 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "When I was just a wee YOUNGSTER,\n"
 # 388 "data/maps/BattleFrontier_Lounge7/scripts.pory"
@@ -777,12 +810,21 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 # 389 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "They were idols among us TRAINERS.\p"
 # 390 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "When I was just a wee Youngster,\n"
+	.string "those ladies were strong and beautiful.\p"
+	.string "They were idols among us Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Even now, age hasn't dulled their\n"
 # 391 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "abilities.\p"
+<<<<<<< HEAD
 # 392 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "In fact, their POKéMON moves have\n"
 # 393 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "In fact, their Pokémon moves have\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "grown even more polished.\p"
 # 394 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "But… For some reason, I can't help\n"
@@ -888,9 +930,13 @@ BattleFrontier_Lounge7_Text_SwordsDanceDesc::
 	.string "A fighting dance\n"
 # 445 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "that sharply\n"
+<<<<<<< HEAD
 # 446 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "raises ATTACK.$"
 # 447 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "raises Attack.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 448 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
@@ -898,9 +944,13 @@ BattleFrontier_Lounge7_Text_DefenseCurlDesc::
 	.string "Curls up to con-\n"
 # 450 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "ceal weak spots\n"
+<<<<<<< HEAD
 # 451 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "and raise DEFENSE.$"
 # 452 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "and raise Defense.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 453 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_SnoreDesc::
@@ -938,9 +988,13 @@ BattleFrontier_Lounge7_Text_IcyWindDesc::
 	.string "A chilling attack\n"
 # 470 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "that lowers the\n"
+<<<<<<< HEAD
 # 471 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "foe's SPEED.$"
 # 472 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "foe's Speed.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 473 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_EndureDesc::
@@ -948,9 +1002,13 @@ BattleFrontier_Lounge7_Text_EndureDesc::
 	.string "Endures any at-\n"
 # 475 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "tack for 1 turn,\n"
+<<<<<<< HEAD
 # 476 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	.string "leaving 1HP.$"
 # 477 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+=======
+	.string "leaving 1 HP.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 478 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_Text_PsychUpDesc::

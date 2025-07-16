@@ -910,23 +910,35 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
 
 # 456 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
+<<<<<<< HEAD
 # 457 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "First, we will hold your POKéMON for\n"
 # 458 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "First, we will hold your Pokémon for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "safekeeping.\p"
 # 459 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "You may then choose from our\n"
+<<<<<<< HEAD
 # 460 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "selection of POKéMON.$"
 # 461 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "selection of Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 462 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
 # 463 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Thank you for competing!\n"
+<<<<<<< HEAD
 # 464 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Let us restore your POKéMON!$"
 # 465 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "Let us restore your Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 466 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
@@ -1002,153 +1014,247 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
 
 # 502 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
+<<<<<<< HEAD
 # 503 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 504 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the NORMAL type.$"
 # 505 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Normal type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 506 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
+<<<<<<< HEAD
 # 507 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 508 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FIRE type.$"
 # 509 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Fire type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 510 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
+<<<<<<< HEAD
 # 511 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 512 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the WATER type.$"
 # 513 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Water type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 514 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
+<<<<<<< HEAD
 # 515 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 516 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ELECTRIC type.$"
 # 517 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Electric type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 518 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
+<<<<<<< HEAD
 # 519 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 520 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GRASS type.$"
 # 521 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Grass type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 522 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
+<<<<<<< HEAD
 # 523 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 524 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ICE type.$"
 # 525 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Ice type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 526 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
+<<<<<<< HEAD
 # 527 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 528 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FIGHTING type.$"
 # 529 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Fighting type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 530 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
+<<<<<<< HEAD
 # 531 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 532 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the POISON type.$"
 # 533 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Poison type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 534 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
+<<<<<<< HEAD
 # 535 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 536 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GROUND type.$"
 # 537 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Ground type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 538 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
+<<<<<<< HEAD
 # 539 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 540 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FLYING type.$"
 # 541 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Flying type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 542 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
+<<<<<<< HEAD
 # 543 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 544 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the PSYCHIC type.$"
 # 545 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Psychic type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 546 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
+<<<<<<< HEAD
 # 547 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 548 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the BUG type.$"
 # 549 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Bug type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 550 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
+<<<<<<< HEAD
 # 551 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 552 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the ROCK type.$"
 # 553 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Rock type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 554 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
+<<<<<<< HEAD
 # 555 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 556 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the GHOST type.$"
 # 557 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Ghost type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 558 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
+<<<<<<< HEAD
 # 559 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 560 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the DRAGON type.$"
 # 561 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Dragon type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 562 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
+<<<<<<< HEAD
 # 563 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 564 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the DARK type.$"
 # 565 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Dark type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 566 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
+<<<<<<< HEAD
 # 567 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 568 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the FAIRY type.$"
 # 569 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Fairy type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 570 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
+<<<<<<< HEAD
 # 571 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER is apparently skilled\n"
 # 572 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "in the handling of the STEEL type.$"
 # 573 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is apparently skilled\n"
+	.string "in the handling of the Steel type.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 574 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
+<<<<<<< HEAD
 # 575 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The TRAINER appears to have no clear\n"
 # 576 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Trainer appears to have no clear\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "favorites when it comes to type.$"
 # 577 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 
@@ -1228,17 +1334,25 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleUnrestrained:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_LikeToSwapMon:
 # 615 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Before starting the battle, would you\n"
+<<<<<<< HEAD
 # 616 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "like to swap a POKéMON?$"
 # 617 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "like to swap a Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 618 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
 # 619 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Thank you!\n"
+<<<<<<< HEAD
 # 620 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Your POKéMON swap is complete.$"
 # 621 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "Your Pokémon swap is complete.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 622 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RightThisWay:
@@ -1258,9 +1372,13 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
 # 630 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Would you like to record your latest\n"
+<<<<<<< HEAD
 # 631 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "battle on your FRONTIER PASS?$"
 # 632 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "battle on your Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 633 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
@@ -1286,9 +1404,13 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "Sorry to keep you waiting!\p"
 # 644 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "I have a message from this facility's\n"
+<<<<<<< HEAD
 # 645 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "boss, the FACTORY HEAD.\p"
 # 646 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "boss, the Factory Head.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He says, “We're going to do it!\n"
 # 647 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "Come here right now!”$"
@@ -1296,9 +1418,13 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 
 # 649 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
+<<<<<<< HEAD
 # 650 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "The FACTORY HEAD is demanding you.\n"
 # 651 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
+=======
+	.string "The Factory Head is demanding you.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you prepared to face him?$"
 # 652 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 
@@ -1306,5 +1432,9 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
 BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 # 654 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "I'm terribly sorry, but I can't tell you\n"
+<<<<<<< HEAD
 # 655 "data/maps/BattleFrontier_BattleFactoryPreBattleRoom/scripts.pory"
 	.string "anything about the FACTORY HEAD.$"
+=======
+	.string "anything about the Factory Head.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

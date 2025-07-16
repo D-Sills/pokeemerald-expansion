@@ -436,9 +436,13 @@ Route117_EventScript_Aisha::
 
 # 219 "data/maps/Route117/scripts.pory"
 Route117_Text_DayCarePokemonHadNewMove:
+<<<<<<< HEAD
 # 220 "data/maps/Route117/scripts.pory"
 	.string "I left my POKéMON at the DAY CARE.\p"
 # 221 "data/maps/Route117/scripts.pory"
+=======
+	.string "I left my Pokémon at the Day Care.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "When I got it back, it had a new move\n"
 # 222 "data/maps/Route117/scripts.pory"
 	.string "that I didn't teach it.\l"
@@ -464,23 +468,38 @@ Route117_Text_AirIsTastyHere:
 
 # 233 "data/maps/Route117/scripts.pory"
 Route117_Text_RouteSignVerdanturf:
+<<<<<<< HEAD
 # 234 "data/maps/Route117/scripts.pory"
 	.string "ROUTE 117\n"
 # 235 "data/maps/Route117/scripts.pory"
 	.string "{LEFT_ARROW} VERDANTURF TOWN$"
 # 236 "data/maps/Route117/scripts.pory"
+=======
+	.string "Route 117\n"
+	.string "{LEFT_ARROW} Verdanturf Town$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 237 "data/maps/Route117/scripts.pory"
 Route117_Text_RouteSignMauville:
+<<<<<<< HEAD
 # 238 "data/maps/Route117/scripts.pory"
 	.string "ROUTE 117\n"
 # 239 "data/maps/Route117/scripts.pory"
 	.string "{RIGHT_ARROW} MAUVILLE CITY$"
 # 240 "data/maps/Route117/scripts.pory"
+=======
+	.string "Route 117\n"
+	.string "{RIGHT_ARROW} Mauville City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 241 "data/maps/Route117/scripts.pory"
 Route117_Text_DayCareSign:
+<<<<<<< HEAD
 # 242 "data/maps/Route117/scripts.pory"
 	.string "POKéMON DAY CARE\n"
 # 243 "data/maps/Route117/scripts.pory"
 	.string "“Let us raise your POKéMON.”$"
+=======
+	.string "Pokémon Day Care\n"
+	.string "“Let us raise your Pokémon.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

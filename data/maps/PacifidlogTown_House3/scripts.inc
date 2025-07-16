@@ -88,7 +88,11 @@ PacifidlogTown_House3_EventScript_NotRequestedMon::
 
 # 45 "data/maps/PacifidlogTown_House3/scripts.pory"
 PacifidlogTown_House3_EventScript_TradeCompleted::
+<<<<<<< HEAD
 # 46 "data/maps/PacifidlogTown_House3/scripts.pory"
+=======
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	msgbox PacifidlogTown_House3_Text_ReallyWantedToGetBagon, MSGBOX_DEFAULT
 # 47 "data/maps/PacifidlogTown_House3/scripts.pory"
 	release
@@ -160,14 +164,20 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 	.string "I know I could go looking for one\n"
 # 81 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "on my own, but…\p"
+<<<<<<< HEAD
 # 82 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "But I really wanted to get a BAGON\n"
 # 83 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "that another TRAINER caught…$"
 # 84 "data/maps/PacifidlogTown_House3/scripts.pory"
+=======
+	.string "But I really wanted to get a {STR_VAR_1}\n"
+	.string "that another Trainer caught…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 85 "data/maps/PacifidlogTown_House3/scripts.pory"
 PacifidlogTown_House3_Text_IsThatAPokedex:
+<<<<<<< HEAD
 # 86 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "Is that a POKéDEX?\p"
 # 87 "data/maps/PacifidlogTown_House3/scripts.pory"
@@ -175,4 +185,9 @@ PacifidlogTown_House3_Text_IsThatAPokedex:
 # 88 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "POKéMON?\p"
 # 89 "data/maps/PacifidlogTown_House3/scripts.pory"
+=======
+	.string "Is that a Pokédex?\p"
+	.string "Did you get to meet a lot of different\n"
+	.string "Pokémon?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I wish I was like you.$"

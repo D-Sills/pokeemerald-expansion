@@ -290,9 +290,13 @@ LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl::
 
 # 146 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
+<<<<<<< HEAD
 # 147 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "This place is full of cute DOLLS.\p"
 # 148 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+=======
+	.string "This place is full of cute Dolls.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I should buy some for me, instead of\n"
 # 149 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "just for my children.$"
@@ -300,17 +304,26 @@ LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
 
 # 151 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
+<<<<<<< HEAD
 # 152 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "I'm not big enough to raise POKéMON,\n"
 # 153 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "so I'm getting a cute DOLL instead.$"
 # 154 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+=======
+	.string "I'm not big enough to raise Pokémon,\n"
+	.string "so I'm getting a cute Doll instead.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 155 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
+<<<<<<< HEAD
 # 156 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "They sell many cute MATS here.\p"
 # 157 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+=======
+	.string "They sell many cute Mats here.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I wonder which one I should get?\n"
 # 158 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "Maybe I'll buy them all…$"

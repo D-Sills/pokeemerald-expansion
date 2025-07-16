@@ -44,23 +44,35 @@ PacifidlogTown_House5_EventScript_Gentleman::
 
 # 23 "data/maps/PacifidlogTown_House5/scripts.pory"
 PacifidlogTown_House5_Text_CantSeeMirageIslandToday:
+<<<<<<< HEAD
 # 24 "data/maps/PacifidlogTown_House5/scripts.pory"
 	.string "I can't see MIRAGE ISLAND today…$"
 # 25 "data/maps/PacifidlogTown_House5/scripts.pory"
+=======
+	.string "I can't see Mirage Island today…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 26 "data/maps/PacifidlogTown_House5/scripts.pory"
 PacifidlogTown_House5_Text_CanSeeMirageIslandToday:
 # 27 "data/maps/PacifidlogTown_House5/scripts.pory"
 	.string "Oh! Oh my!\n"
+<<<<<<< HEAD
 # 28 "data/maps/PacifidlogTown_House5/scripts.pory"
 	.string "I can see MIRAGE ISLAND today!$"
 # 29 "data/maps/PacifidlogTown_House5/scripts.pory"
+=======
+	.string "I can see Mirage Island today!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 30 "data/maps/PacifidlogTown_House5/scripts.pory"
 PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather:
+<<<<<<< HEAD
 # 31 "data/maps/PacifidlogTown_House5/scripts.pory"
 	.string "MIRAGE ISLAND…\p"
 # 32 "data/maps/PacifidlogTown_House5/scripts.pory"
+=======
+	.string "Mirage Island…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It must become visible and invisible\n"
 # 33 "data/maps/PacifidlogTown_House5/scripts.pory"
 	.string "depending on the weather conditions\l"

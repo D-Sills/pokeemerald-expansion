@@ -130,9 +130,13 @@ FortreeCity_House4_EventScript_Wingull::
 
 # 66 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_BringsWorldCloserTogether:
+<<<<<<< HEAD
 # 67 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "By being together with POKéMON,\n"
 # 68 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "By being together with Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "people make more and more friends.\p"
 # 69 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "And that brings the world closer\n"
@@ -144,15 +148,23 @@ FortreeCity_House4_Text_BringsWorldCloserTogether:
 FortreeCity_House4_Text_GoBirdPokemon:
 # 73 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "There!\n"
+<<<<<<< HEAD
 # 74 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Go, BIRD POKéMON!$"
 # 75 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "Go, Bird Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 76 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_AskedWingullToRunErrand:
+<<<<<<< HEAD
 # 77 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Heheh, I asked my WINGULL to run\n"
 # 78 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "Heheh, I asked my Wingull to run\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "an errand for me.$"
 # 79 "data/maps/FortreeCity_House4/scripts.pory"
 
@@ -160,12 +172,17 @@ FortreeCity_House4_Text_AskedWingullToRunErrand:
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 # 81 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Good!\n"
+<<<<<<< HEAD
 # 82 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Welcome back, WINGULL!\p"
 # 83 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "Welcome back, Wingull!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Huh? What is this?\n"
 # 84 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "What is it holding?\p"
+<<<<<<< HEAD
 # 85 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "A MENTAL HERB?\n"
 # 86 "data/maps/FortreeCity_House4/scripts.pory"
@@ -173,18 +190,32 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 # 87 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "But I'm not a TRAINER, so you can\n"
 # 88 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "A Mental Herb?\n"
+	.string "It must have picked it up somewhere.\p"
+	.string "But I'm not a Trainer, so you can\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "have it.$"
 # 89 "data/maps/FortreeCity_House4/scripts.pory"
 
 # 90 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
+<<<<<<< HEAD
 # 91 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Thanks to my WINGULL, I have friends\n"
 # 92 "data/maps/FortreeCity_House4/scripts.pory"
+=======
+	.string "Thanks to my Wingull, I have friends\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who live far away.$"
 # 93 "data/maps/FortreeCity_House4/scripts.pory"
 
 # 94 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_Wingull:
+<<<<<<< HEAD
 # 95 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "WINGULL: Pihyoh!$"
+=======
+	.string "Wingull: Pihyoh!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

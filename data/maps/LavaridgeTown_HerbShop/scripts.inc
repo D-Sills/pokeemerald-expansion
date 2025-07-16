@@ -84,9 +84,13 @@ LavaridgeTown_HerbShop_EventScript_ExplainCharcoal::
 
 # 43 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 LavaridgeTown_HerbShop_Text_WelcomeToHerbShop:
+<<<<<<< HEAD
 # 44 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "Welcome to the HERB SHOP, home of\n"
 # 45 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+=======
+	.string "Welcome to the Herb Shop, home of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "effective and inexpensive medicine!$"
 # 46 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 
@@ -94,9 +98,13 @@ LavaridgeTown_HerbShop_Text_WelcomeToHerbShop:
 LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine:
 # 48 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "You've come to look at herbal medicine\n"
+<<<<<<< HEAD
 # 49 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "in LAVARIDGE?\p"
 # 50 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+=======
+	.string "in Lavaridge?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's rather commendable.\p"
 # 51 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "I like you! Take this!$"
@@ -104,17 +112,26 @@ LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine:
 
 # 53 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 LavaridgeTown_HerbShop_Text_ExplainCharcoal:
+<<<<<<< HEAD
 # 54 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "That CHARCOAL I gave you, it's used\n"
 # 55 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+=======
+	.string "That Charcoal I gave you, it's used\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "for making herbal medicine.\p"
 # 56 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "It also does wonders when held by\n"
+<<<<<<< HEAD
 # 57 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "a POKéMON.\p"
 # 58 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "It intensifies the power of FIRE-type\n"
 # 59 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+=======
+	.string "a Pokémon.\p"
+	.string "It intensifies the power of Fire-type\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "moves.$"
 # 60 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 
@@ -122,7 +139,11 @@ LavaridgeTown_HerbShop_Text_ExplainCharcoal:
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:
 # 62 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "Herbal medicine works impressively well.\n"
+<<<<<<< HEAD
 # 63 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
 	.string "But your POKéMON will dislike you for it.\l"
 # 64 "data/maps/LavaridgeTown_HerbShop/scripts.pory"
+=======
+	.string "But your Pokémon will dislike you for it.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It must be horribly bitter!$"

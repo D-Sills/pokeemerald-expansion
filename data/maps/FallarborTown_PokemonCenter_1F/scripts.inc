@@ -174,11 +174,16 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "You are?\p"
 # 88 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "Okay, your name's {PLAYER}{KUN}.\n"
+<<<<<<< HEAD
 # 89 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "I can see that you're a TRAINER.\p"
 # 90 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "So that means you use the POKéMON\n"
 # 91 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I can see that you're a Trainer.\p"
+	.string "So that means you use the Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Storage System I developed.\p"
 # 92 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "How I arrived at that conclusion is\n"
@@ -188,20 +193,29 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "You spoke to me because you wanted\n"
 # 95 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "to access something on this PC.\p"
+<<<<<<< HEAD
 # 96 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "Oh, I'm sorry. I'm LANETTE.\p"
 # 97 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Oh, I'm sorry. I'm Lanette.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Honestly, I'm glad to meet you--it's\n"
 # 98 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "great you're using the Storage System.\p"
 # 99 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "If you could, please visit me at home.\n"
+<<<<<<< HEAD
 # 100 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "My house is on ROUTE 114.$"
 # 101 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "My house is on Route 114.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 102 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
+<<<<<<< HEAD
 # 103 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "I wonder what POKéMON looked like\n"
 # 104 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
@@ -209,14 +223,23 @@ FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
 # 105 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "Maybe the FOSSIL MANIAC at the edge\n"
 # 106 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I wonder what Pokémon looked like\n"
+	.string "long, long ago?\p"
+	.string "Maybe the Fossil Maniac at the edge\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of town will know.$"
 # 107 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 
 # 108 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
+<<<<<<< HEAD
 # 109 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "In the fields of FALLARBOR, we plant\n"
 # 110 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "In the fields of Fallarbor, we plant\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "seedlings of hardy trees that thrive\l"
 # 111 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "even in volcanic ash.$"

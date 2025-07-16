@@ -62,11 +62,16 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 # 32 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "Listen, kid, are you working\n"
+<<<<<<< HEAD
 # 33 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "on a POKéDEX?\p"
 # 34 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "Hmm… Go to the SAFARI ZONE.\n"
 # 35 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "on a Pokédex?\p"
+	.string "Hmm… Go to the Safari Zone.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's my suggestion.$"
 # 36 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 
@@ -74,6 +79,7 @@ FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 # 38 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "Have you done anything at\n"
+<<<<<<< HEAD
 # 39 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "the RECORD CORNER?\p"
 # 40 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
@@ -81,6 +87,11 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 # 41 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "the records of TRAINERS.\p"
 # 42 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "the Record Corner?\p"
+	.string "It's pretty neat. It mixes and matches\n"
+	.string "the records of Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I don't know quite how it works,\n"
 # 43 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "but it's cool. It's exciting, even!$"
@@ -88,6 +99,7 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 
 # 45 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
+<<<<<<< HEAD
 # 46 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "Oh, wow, you have a POKéNAV!\n"
 # 47 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
@@ -107,4 +119,15 @@ FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 # 54 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "It's really nifty! Those DEVON guys\n"
 # 55 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Oh, wow, you have a PokéNav!\n"
+	.string "And it's just like mine!\p"
+	.string "Do you know about PokéNav's\n"
+	.string "Match Call system?\p"
+	.string "Access it, and you can chat with\n"
+	.string "registered Trainers anytime.\p"
+	.string "It also shows you which Trainers\n"
+	.string "want a rematch with you.\p"
+	.string "It's really nifty! Those Devon guys\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "sure know what they're doing!$"

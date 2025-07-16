@@ -32,17 +32,25 @@ SootopolisCity_House7_Text_CityFromEruptedVolcano:
 	.string "Its crater emerged from the sea and\n"
 # 17 "data/maps/SootopolisCity_House7/scripts.pory"
 	.string "became filled with rainwater.\p"
+<<<<<<< HEAD
 # 18 "data/maps/SootopolisCity_House7/scripts.pory"
 	.string "That's how SOOTOPOLIS CITY came into\n"
 # 19 "data/maps/SootopolisCity_House7/scripts.pory"
+=======
+	.string "That's how Sootopolis City came into\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "being.$"
 # 20 "data/maps/SootopolisCity_House7/scripts.pory"
 
 # 21 "data/maps/SootopolisCity_House7/scripts.pory"
 SootopolisCity_House7_Text_CaveMadeToKeepSomething:
+<<<<<<< HEAD
 # 22 "data/maps/SootopolisCity_House7/scripts.pory"
 	.string "The cave that links SOOTOPOLIS and\n"
 # 23 "data/maps/SootopolisCity_House7/scripts.pory"
+=======
+	.string "The cave that links Sootopolis and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the outside world…\p"
 # 24 "data/maps/SootopolisCity_House7/scripts.pory"
 	.string "It seems as if the cave was made to\n"

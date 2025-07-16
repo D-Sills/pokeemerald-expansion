@@ -602,16 +602,22 @@ BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
 
 # 302 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
+<<<<<<< HEAD
 # 303 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The front lines of POKéMON battling!\n"
 # 304 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Welcome to the BATTLE FRONTIER!$"
 # 305 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The front lines of Pokémon battling!\n"
+	.string "Welcome to the Battle Frontier!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 306 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 # 307 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "For a first-time visitor, we issue\n"
+<<<<<<< HEAD
 # 308 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the FRONTIER PASS.\p"
 # 309 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -619,6 +625,11 @@ BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 # 310 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "in the BATTLE FRONTIER.\p"
 # 311 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "the Frontier Pass.\p"
+	.string "It's for use at all the facilities\n"
+	.string "in the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Here you are!$"
 # 312 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 
@@ -626,25 +637,39 @@ BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 # 314 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "{PLAYER} obtained\n"
+<<<<<<< HEAD
 # 315 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the FRONTIER PASS.$"
 # 316 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "the Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 317 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
+<<<<<<< HEAD
 # 318 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "{PLAYER} placed the TRAINER CARD\n"
 # 319 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "in the FRONTIER PASS.$"
 # 320 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "{PLAYER} placed the Trainer Card\n"
+	.string "in the Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 321 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
+<<<<<<< HEAD
 # 322 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "We hope you enjoy all that the BATTLE\n"
 # 323 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "FRONTIER has to offer!$"
 # 324 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "We hope you enjoy all that the Battle\n"
+	.string "Frontier has to offer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 325 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
@@ -656,17 +681,25 @@ BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 
 # 329 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
+<<<<<<< HEAD
 # 330 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "GUIDE: Oh! MR. SCOTT, sir!\n"
 # 331 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "Guide: Oh! Mr. Scott, sir!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Good day to you, sir!$"
 # 332 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 
 # 333 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
+<<<<<<< HEAD
 # 334 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "SCOTT: It's great to see you here,\n"
 # 335 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "Scott: It's great to see you here,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it really is!\p"
 # 336 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "I hope you'll take your time and\n"
@@ -686,9 +719,13 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
 # 344 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "I'm your guide to the various facilities\n"
+<<<<<<< HEAD
 # 345 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "here in the BATTLE FRONTIER.$"
 # 346 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "here in the Battle Frontier.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 347 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
@@ -700,6 +737,7 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 # 351 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "It is the gigantic tower considered\n"
+<<<<<<< HEAD
 # 352 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "to be the BATTLE FRONTIER's symbol.\p"
 # 353 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -709,12 +747,22 @@ BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 # 355 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "and LINK MULTI BATTLES.$"
 # 356 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "to be the Battle Frontier's symbol.\p"
+	.string "There are four kinds of Battle Rooms\n"
+	.string "in the tower for Single, Double, Multi,\l"
+	.string "and Link Multi Battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 357 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
+<<<<<<< HEAD
 # 358 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE DOME is the large building\n"
 # 359 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Dome is the large building\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "shaped like a huge egg.\p"
 # 360 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Events named Battle Tourneys are held\n"
@@ -722,14 +770,20 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "in this facility.\p"
 # 362 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The Battle Tourneys are offered in\n"
+<<<<<<< HEAD
 # 363 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "two courses--for SINGLE and DOUBLE\l"
 # 364 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "BATTLES.$"
 # 365 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "two courses--for Single and Double\l"
+	.string "Battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 366 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
+<<<<<<< HEAD
 # 367 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE PALACE is the red building\n"
 # 368 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -739,9 +793,16 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 # 370 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "for SINGLE and DOUBLE BATTLES.$"
 # 371 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Palace is the red building\n"
+	.string "on the right of the Battle Frontier.\p"
+	.string "There are two kinds of Battle Halls\n"
+	.string "for Single and Double Battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 372 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
+<<<<<<< HEAD
 # 373 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE ARENA is the dojo-like\n"
 # 374 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -753,12 +814,23 @@ BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 # 377 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "takes place at the BATTLE ARENA.$"
 # 378 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Arena is the dojo-like\n"
+	.string "building at the center-right of\l"
+	.string "the Battle Frontier.\p"
+	.string "An event called the Set KO Tourney\n"
+	.string "takes place at the Battle Arena.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 379 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
+<<<<<<< HEAD
 # 380 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE FACTORY is the large\n"
 # 381 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Factory is the large\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "building that is the closest to us.\p"
 # 382 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "An event called the Battle Swap\n"
@@ -766,14 +838,20 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
 	.string "is conducted there.\p"
 # 384 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The Battle Swap event is offered in\n"
+<<<<<<< HEAD
 # 385 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "two courses for SINGLE and DOUBLE\l"
 # 386 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "BATTLES.$"
 # 387 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "two courses for Single and Double\l"
+	.string "Battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 388 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
+<<<<<<< HEAD
 # 389 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE PIKE is the building shaped\n"
 # 390 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -781,6 +859,11 @@ BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
 # 391 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the BATTLE FRONTIER.\p"
 # 392 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Pike is the building shaped\n"
+	.string "like a Pokémon at the center-left of\l"
+	.string "the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "An event called the Battle Choice\n"
 # 393 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "is conducted there.$"
@@ -788,9 +871,13 @@ BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
 
 # 395 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
+<<<<<<< HEAD
 # 396 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The BATTLE PYRAMID is the enormous\n"
 # 397 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Battle Pyramid is the enormous\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "pyramid.\p"
 # 398 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "An event called the Battle Quest\n"
@@ -800,6 +887,7 @@ BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
 
 # 401 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
+<<<<<<< HEAD
 # 402 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The RANKING HALL is located near\n"
 # 403 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -813,9 +901,18 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 # 407 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the BATTLE FRONTIER.$"
 # 408 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Ranking Hall is located near\n"
+	.string "the Battle Tower.\p"
+	.string "There, you may see the most fantastic\n"
+	.string "records left by the Trainers that\l"
+	.string "took on the many challenges of\l"
+	.string "the Battle Frontier.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 409 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
+<<<<<<< HEAD
 # 410 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The EXCHANGE SERVICE CORNER is near\n"
 # 411 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -825,6 +922,12 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 # 413 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the BATTLE FRONTIER may be exchanged\l"
 # 414 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Exchange Service Corner is near\n"
+	.string "the Battle Tower.\p"
+	.string "The Battle Points you have earned in\n"
+	.string "the Battle Frontier may be exchanged\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "for fabulous prizes there.$"
 # 415 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 
@@ -834,11 +937,16 @@ BattleFrontier_ReceptionGate_Text_YourGuideToRules:
 	.string "I'm your guide to the basic rules that\n"
 # 418 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "are common to all the challenges\l"
+<<<<<<< HEAD
 # 419 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "offered by the facilities in the BATTLE\l"
 # 420 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "FRONTIER.$"
 # 421 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "offered by the facilities in the Battle\l"
+	.string "Frontier.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 422 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
@@ -848,22 +956,32 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
 
 # 425 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
+<<<<<<< HEAD
 # 426 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "All the challenges at the BATTLE\n"
 # 427 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "FRONTIER's facilities come in\l"
 # 428 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "All the challenges at the Battle\n"
+	.string "Frontier's facilities come in\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "two courses--Level 50 and Open Level.$"
 # 429 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 
 # 430 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_Level50Info:
+<<<<<<< HEAD
 # 431 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The Level 50 course is open to POKéMON\n"
 # 432 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "The Level 50 course is open to Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "up to and including Level 50.\p"
 # 433 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Please keep in mind, however, that\n"
+<<<<<<< HEAD
 # 434 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "no TRAINER you face will have any\l"
 # 435 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -873,6 +991,12 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 # 437 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "battles at the BATTLE FRONTIER.\p"
 # 438 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "no Trainer you face will have any\l"
+	.string "Pokémon below Level 50.\p"
+	.string "This course is the entry level for\n"
+	.string "battles at the Battle Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "To begin, we hope you will challenge\n"
 # 439 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "this course.$"
@@ -882,14 +1006,19 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
 # 442 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The Open Level course places no limit\n"
+<<<<<<< HEAD
 # 443 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "on the levels of POKéMON entering\l"
 # 444 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "on the levels of Pokémon entering\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenges.\p"
 # 445 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The levels of your opponents will\n"
 # 446 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "be adjusted to match the levels of\l"
+<<<<<<< HEAD
 # 447 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "your POKéMON.\p"
 # 448 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -897,9 +1026,15 @@ BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
 # 449 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "have any POKéMON below Level 60.$"
 # 450 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "your Pokémon.\p"
+	.string "However, no Trainer you face will\n"
+	.string "have any Pokémon below Level 60.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 451 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
+<<<<<<< HEAD
 # 452 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Virtually any kind of POKéMON may take\n"
 # 453 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -911,17 +1046,29 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 # 456 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "The numbers of POKéMON required for\n"
 # 457 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "Virtually any kind of Pokémon may take\n"
+	.string "on the challenges at all facilities.\p"
+	.string "Eggs and certain kinds of Pokémon,\n"
+	.string "however, are not permitted.\p"
+	.string "The numbers of Pokémon required for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenges will depend on the facility.\p"
 # 458 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "At all facilities, however, two or more\n"
+<<<<<<< HEAD
 # 459 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "of the same kind of POKéMON are not\l"
 # 460 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "of the same kind of Pokémon are not\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "permitted.$"
 # 461 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 
 # 462 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
+<<<<<<< HEAD
 # 463 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "When entering a challenge at a BATTLE\n"
 # 464 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -931,6 +1078,12 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 # 466 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Please make sure that all POKéMON\n"
 # 467 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "When entering a challenge at a Battle\n"
+	.string "Frontier facility, Pokémon may not\l"
+	.string "be holding the same kind of item.\p"
+	.string "Please make sure that all Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "entering a challenge are holding\l"
 # 468 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "different items.$"
@@ -938,9 +1091,13 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 
 # 470 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
+<<<<<<< HEAD
 # 471 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "I'm your guide to the FRONTIER PASS.$"
 # 472 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "I'm your guide to the Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 473 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
@@ -952,19 +1109,29 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 # 477 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "There are seven facilities at\n"
+<<<<<<< HEAD
 # 478 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the BATTLE FRONTIER.\p"
 # 479 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "TRAINERS who gain recognition for\n"
 # 480 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "the Battle Frontier.\p"
+	.string "Trainers who gain recognition for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "their abilities may be rewarded with\l"
 # 481 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "symbols from each of the facilities.\p"
+<<<<<<< HEAD
 # 482 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "To earn a symbol, TRAINERS may need\n"
 # 483 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "to defeat other TRAINERS in a row,\l"
 # 484 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "To earn a symbol, Trainers may need\n"
+	.string "to defeat other Trainers in a row,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and may need to win events repeatedly.\p"
 # 485 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "It's certainly not easy to win symbols.\n"
@@ -976,14 +1143,19 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 # 489 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "It is possible to record one battle\n"
+<<<<<<< HEAD
 # 490 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "on your FRONTIER PASS.\p"
 # 491 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "on your Frontier Pass.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You may record a battle you had with\n"
 # 492 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "a friend or friends.\p"
 # 493 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Or you may record a battle conducted\n"
+<<<<<<< HEAD
 # 494 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "at the BATTLE FRONTIER excluding\l"
 # 495 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -991,6 +1163,11 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 # 496 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "the BATTLE PYRAMID.\p"
 # 497 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+=======
+	.string "at the Battle Frontier excluding\l"
+	.string "matches at the Battle Pike or\l"
+	.string "the Battle Pyramid.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You may choose to record your match\n"
 # 498 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "at the end of a battle.$"
@@ -1000,6 +1177,7 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 # 501 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "Battle Points are rewards given to\n"
+<<<<<<< HEAD
 # 502 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "TRAINERS who battled outstandingly\l"
 # 503 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
@@ -1010,3 +1188,11 @@ BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "for prizes at the EXCHANGE SERVICE\l"
 # 506 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	.string "CORNER.$"
+=======
+	.string "Trainers who battled outstandingly\l"
+	.string "at the Battle Frontier.\p"
+	.string "You may trade in your Battle Points\n"
+	.string "for prizes at the Exchange Service\l"
+	.string "Corner.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

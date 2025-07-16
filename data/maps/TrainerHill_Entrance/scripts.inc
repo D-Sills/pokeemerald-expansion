@@ -578,6 +578,7 @@ TrainerHill_Entrance_Pokemart_Expanded:
 
 # 290 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_StillGettingReady:
+<<<<<<< HEAD
 # 291 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "This is the TRAINER HILL where\n"
 # 292 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -585,6 +586,11 @@ TrainerHill_Entrance_Text_StillGettingReady:
 # 293 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "TRAINERS.\p"
 # 294 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "This is the Trainer Hill where\n"
+	.string "you may enjoy tag battles with many\l"
+	.string "Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Unfortunately, we're still getting\n"
 # 295 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "things ready. Please come back later!$"
@@ -594,6 +600,7 @@ TrainerHill_Entrance_Text_StillGettingReady:
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
 # 298 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Welcome!\p"
+<<<<<<< HEAD
 # 299 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "This is the TRAINER HILL where\n"
 # 300 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -601,6 +608,11 @@ TrainerHill_Entrance_Text_WelcomeToTrainerHill:
 # 301 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "TRAINERS!$"
 # 302 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "This is the Trainer Hill where\n"
+	.string "you may enjoy tag battles with many\l"
+	.string "Trainers!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 303 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
@@ -616,9 +628,13 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
 # 309 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Let's see…\n"
+<<<<<<< HEAD
 # 310 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "The TRAINERS here now are…\p"
 # 311 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "The Trainers here now are…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Up to floor no. {STR_VAR_1}.$"
 # 312 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -626,11 +642,16 @@ TrainerHill_Entrance_Text_TrainersUpToFloorX:
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
 # 314 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Let's see…\n"
+<<<<<<< HEAD
 # 315 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "The TRAINERS here now are…\p"
 # 316 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "There appear to be TRAINERS gathered\n"
 # 317 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "The Trainers here now are…\p"
+	.string "There appear to be Trainers gathered\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in every room.$"
 # 318 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -638,9 +659,13 @@ TrainerHill_Entrance_Text_TrainersInEveryRoom:
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
 # 320 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Would you like to challenge the\n"
+<<<<<<< HEAD
 # 321 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "waiting TRAINERS?$"
 # 322 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "waiting Trainers?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 323 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
@@ -682,9 +707,13 @@ TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
 
 # 342 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
+<<<<<<< HEAD
 # 343 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "When the TRAINERS switch places,\n"
 # 344 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "When the Trainers switch places,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the movement can be hectic.\p"
 # 345 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "To avoid the stampede, we moved\n"
@@ -702,9 +731,13 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
 
 # 352 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_ExplainTrainerHill:
+<<<<<<< HEAD
 # 353 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Here at the TRAINER HILL, we conduct\n"
 # 354 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "Here at the Trainer Hill, we conduct\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "an event called the Time Attack.\p"
 # 355 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "It is a race that measures how long\n"
@@ -718,9 +751,13 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "the Time Board--try competing with\l"
 # 360 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "your friends.\p"
+<<<<<<< HEAD
 # 361 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "In TRAINER battles along the way,\n"
 # 362 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "In Trainer battles along the way,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "neither Exp. Points nor money will\l"
 # 363 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "be awarded.$"
@@ -732,11 +769,16 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
 # 367 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Oh, I'm sorry, but you appear to have\n"
+<<<<<<< HEAD
 # 368 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "only one POKéMON with you.\p"
 # 369 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "You will need at least two POKéMON\n"
 # 370 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "only one Pokémon with you.\p"
+	.string "You will need at least two Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to enter this event.$"
 # 371 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -756,9 +798,13 @@ TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "here by yourself!\p"
 # 379 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "You wanted to see me, the owner\n"
+<<<<<<< HEAD
 # 380 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "of the TRAINER HILL, because…\p"
 # 381 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "of the Trainer Hill, because…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You want to form a tag team with me!\n"
 # 382 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Wa-hoo!\p"
@@ -830,9 +876,13 @@ TrainerHill_Roof_Text_ArriveZippierNextTime:
 @ Unused
 # 416 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
+<<<<<<< HEAD
 # 417 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "I had the TRAINER HILL built for but\n"
 # 418 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "I had the Trainer Hill built for but\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one reason and one only!\p"
 # 419 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "To find the most suitable partner\n"
@@ -848,11 +898,16 @@ TrainerHill_Entrance_Text_ChallengeTime:
 
 # 425 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
+<<<<<<< HEAD
 # 426 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "Who knows what sort of TRAINERS\n"
 # 427 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "and POKéMON combos are ahead?\p"
 # 428 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "Who knows what sort of Trainers\n"
+	.string "and Pokémon combos are ahead?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "All I know is that I'll knock aside\n"
 # 429 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "anyone that stands in my way!$"
@@ -860,11 +915,16 @@ TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
 
 # 431 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
+<<<<<<< HEAD
 # 432 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "I heard tough TRAINERS come to this\n"
 # 433 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "TRAINER HILL from all over.\p"
 # 434 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	.string "I heard tough Trainers come to this\n"
+	.string "Trainer Hill from all over.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I can't wait to test the waters!\p"
 # 435 "data/maps/TrainerHill_Entrance/scripts.pory"
 	.string "I'll knock aside anyone that stands\n"

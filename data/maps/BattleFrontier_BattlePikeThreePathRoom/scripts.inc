@@ -686,15 +686,23 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
 # 344 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	.string "It seems to have the distinct aroma\n"
+<<<<<<< HEAD
 # 345 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	.string "of POKéMON wafting around it…$"
 # 346 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+	.string "of Pokémon wafting around it…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 347 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
+<<<<<<< HEAD
 # 348 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	.string "Is it… A TRAINER?\n"
 # 349 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+	.string "Is it… A Trainer?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I sense the presence of people…$"
 # 350 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 

@@ -1258,12 +1258,17 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase::
 
 # 630 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
+<<<<<<< HEAD
 # 631 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "This is MAUVILLE GAME CORNER.$"
 # 632 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "This is Mauville Game Corner.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 633 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
+<<<<<<< HEAD
 # 634 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Okay, you wanted some COINS for\n"
 # 635 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1273,14 +1278,25 @@ MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
 # 637 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "stowing the COINS.$"
 # 638 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Okay, you wanted some Coins for\n"
+	.string "the games?\p"
+	.string "But you don't have a Coin Case for\n"
+	.string "stowing the Coins.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 639 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
+<<<<<<< HEAD
 # 640 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Were you looking for COINS?\p"
 # 641 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "It's ¥1000 for 50 COINS.\n"
 # 642 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Were you looking for Coins?\p"
+	.string "It's ¥1000 for 50 Coins.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like some?$"
 # 643 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1288,9 +1304,13 @@ MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
 # 645 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Thank you very much!\n"
+<<<<<<< HEAD
 # 646 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Here are your COINS!$"
 # 647 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Here are your Coins!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 648 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
@@ -1304,15 +1324,23 @@ MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
 MauvilleCity_GameCorner_Text_CoinCaseIsFull:
 # 653 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Oh?\n"
+<<<<<<< HEAD
 # 654 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Your COIN CASE is full.$"
 # 655 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Your Coin Case is full.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 656 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
+<<<<<<< HEAD
 # 657 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Oh… You don't need COINS, then?\n"
 # 658 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Oh… You don't need Coins, then?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Good luck on your adventure!$"
 # 659 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1320,9 +1348,13 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
 # 661 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Welcome.\p"
+<<<<<<< HEAD
 # 662 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "You can exchange your COINS for\n"
 # 663 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "You can exchange your Coins for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "prizes here.$"
 # 664 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1350,9 +1382,13 @@ MauvilleCity_GameCorner_Text_SendToYourHomePC:
 
 # 676 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
+<<<<<<< HEAD
 # 677 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "You don't have enough COINS.$"
 # 678 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "You don't have enough Coins.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 679 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 @ Unused
@@ -1368,9 +1404,13 @@ MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor:
 MauvilleCity_GameCorner_Text_OhIsThatSo:
 # 685 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Oh, is that so? \n"
+<<<<<<< HEAD
 # 686 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "You need to save some COINS before\l"
 # 687 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "You need to save some Coins before\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "coming back here.$"
 # 688 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1398,9 +1438,13 @@ MauvilleCity_GameCorner_Text_CantCarryAnyMore:
 MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne:
 # 700 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "I made a mistake and got two of\n"
+<<<<<<< HEAD
 # 701 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "the same DOLLS.\p"
 # 702 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "the same Dolls.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like one of them?$"
 # 703 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1438,9 +1482,13 @@ MauvilleCity_GameCorner_Text_CantWinJackpot:
 MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor:
 # 720 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Hey, kid, if you want to play here,\n"
+<<<<<<< HEAD
 # 721 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "you need a COIN CASE.\p"
 # 722 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "you need a Coin Case.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I think the young lady next door\n"
 # 723 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "had one. Go see her!$"
@@ -1452,12 +1500,17 @@ MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins:
 	.string "My luck can only last so long.\n"
 # 727 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "This is too much for me.\l"
+<<<<<<< HEAD
 # 728 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Here, take some COINS!$"
 # 729 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Here, take some Coins!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 730 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
+<<<<<<< HEAD
 # 731 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "MAUVILLE has something for\n"
 # 732 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1465,9 +1518,15 @@ MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
 # 733 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "For me, it's the GAME CORNER.$"
 # 734 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Mauville has something for\n"
+	.string "everyone.\p"
+	.string "For me, it's the Game Corner.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 735 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
+<<<<<<< HEAD
 # 736 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "The ROULETTE tables have different\n"
 # 737 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1475,6 +1534,11 @@ MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
 # 738 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Check your COINS if you're going to\n"
 # 739 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "The Roulette tables have different\n"
+	.string "rates.\p"
+	.string "Check your Coins if you're going to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "pick a table.$"
 # 740 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1488,17 +1552,26 @@ MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
 
 # 745 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
+<<<<<<< HEAD
 # 746 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "COINS are needed to play here\n"
 # 747 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "in the GAME CORNER.$"
 # 748 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Coins are needed to play here\n"
+	.string "in the Game Corner.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 749 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
+<<<<<<< HEAD
 # 750 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "This ROULETTE thing…\n"
 # 751 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "This Roulette thing…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's rather demanding.\p"
 # 752 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Win or lose, it's only by luck.$"
@@ -1506,11 +1579,16 @@ MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
 
 # 754 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
+<<<<<<< HEAD
 # 755 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Up to three COINS can be used to play\n"
 # 756 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "the SLOTS.$"
 # 757 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "Up to three Coins can be used to play\n"
+	.string "the Slots.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 758 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_DifficultToStopOn7:
@@ -1518,16 +1596,22 @@ MauvilleCity_GameCorner_Text_DifficultToStopOn7:
 	.string "It's very difficult to make it stop\n"
 # 760 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "right on “7.”\p"
+<<<<<<< HEAD
 # 761 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "If it stops on “7” during the REEL TIME\n"
 # 762 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "bonus game, you'll receive extra COINS.$"
 # 763 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "If it stops on “7” during the Reel Time\n"
+	.string "bonus game, you'll receive extra Coins.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 764 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 # 765 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "Here's some information for you\n"
+<<<<<<< HEAD
 # 766 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "about the SLOTS.\p"
 # 767 "data/maps/MauvilleCity_GameCorner/scripts.pory"
@@ -1539,12 +1623,23 @@ MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 # 770 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "REEL TIME chances…\p"
 # 771 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "about the Slots.\p"
+	.string "The more lightning bolts you stock,\n"
+	.string "the more Reel Time chances you get.\p"
+	.string "In a game with the maximum five\n"
+	.string "Reel Time chances…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It is possible to receive four regular\n"
 # 772 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "bonuses, then a big bonus.\p"
+<<<<<<< HEAD
 # 773 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "That would total 660 COINS, but it's\n"
 # 774 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+=======
+	.string "That would total 660 Coins, but it's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "very difficult to get.$"
 # 775 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
@@ -1552,5 +1647,10 @@ MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 # 777 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "You can't play if you don't have\n"
+<<<<<<< HEAD
 # 778 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.string "a COIN CASE.$"
+=======
+	.string "a Coin Case.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

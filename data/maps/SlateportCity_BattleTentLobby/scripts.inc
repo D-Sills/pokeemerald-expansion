@@ -552,9 +552,13 @@ SlateportCity_BattleTentLobby_EventScript_ExitRules::
 SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
 # 277 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "So, like, I couldn't find myself any\n"
+<<<<<<< HEAD
 # 278 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "POKéMON that were, like, for me.\p"
 # 279 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+=======
+	.string "Pokémon that were, like, for me.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So, I figured, like, hey, I should file\n"
 # 280 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "a complaint to the guy there?\p"
@@ -572,9 +576,13 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
 # 287 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "That's, like, TM41, you know?\n"
+<<<<<<< HEAD
 # 288 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "Hey, it's TORMENT, you hearing me?\p"
 # 289 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+=======
+	.string "Hey, it's Torment, you hearing me?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Like, it won't let the other guy\n"
 # 290 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "use the same move twice in a row, see?\p"
@@ -586,9 +594,13 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
 
 # 294 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
+<<<<<<< HEAD
 # 295 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "I don't really like BUG POKéMON,\n"
 # 296 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+=======
+	.string "I don't really like Bug Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but maybe I'll try using some for\l"
 # 297 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "a change of pace.\p"
@@ -602,9 +614,13 @@ SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
 # 302 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "You can battle all you want here even\n"
+<<<<<<< HEAD
 # 303 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	.string "if you don't have any tough POKéMON.$"
 # 304 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
+=======
+	.string "if you don't have any tough Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 305 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:

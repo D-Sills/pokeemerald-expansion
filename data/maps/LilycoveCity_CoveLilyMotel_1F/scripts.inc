@@ -154,6 +154,7 @@ LilycoveCity_CoveLilyMotel_1F_Movement_OwnerReturn:
 LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 # 78 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "Hm, so they doubled the guests by\n"
+<<<<<<< HEAD
 # 79 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "using POKéMON as attractions?\p"
 # 80 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
@@ -161,6 +162,11 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 # 81 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "POKéMON our inn's mascot.\p"
 # 82 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "using Pokémon as attractions?\p"
+	.string "Hm, well, maybe I should make a cute\n"
+	.string "Pokémon our inn's mascot.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I wonder if that will attract more\n"
 # 83 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "guests to stay with us?$"
@@ -172,9 +178,13 @@ LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
 	.string "Oh, sorry, sorry!\n"
 # 87 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "I was too involved in watching TV!\p"
+<<<<<<< HEAD
 # 88 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "Since that TEAM AQUA came to town,\n"
 # 89 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Since that Team Aqua came to town,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the tourists have been staying away.$"
 # 90 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 
@@ -188,15 +198,23 @@ LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:
 
 # 95 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem:
+<<<<<<< HEAD
 # 96 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "Amazing! You're telling me a POKéMON\n"
 # 97 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Amazing! You're telling me a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "found someone's lost item?\p"
 # 98 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "That's something. If we had some smart\n"
+<<<<<<< HEAD
 # 99 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "POKéMON like that…\p"
 # 100 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Pokémon like that…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We could recover anything that our\n"
 # 101 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "guests mislaid…$"
@@ -210,29 +228,45 @@ LilycoveCity_CoveLilyMotel_1F_Text_HeardAquaHideoutBusted:
 	.string "I was too involved in watching TV!\p"
 # 106 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "I heard that someone busted\n"
+<<<<<<< HEAD
 # 107 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "the TEAM AQUA HIDEOUT.\p"
 # 108 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "the Team Aqua Hideout.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Thanks to that, we just booked\n"
 # 109 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "a reservation from a big group.\p"
 # 110 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "It was a company called… Uh…\n"
+<<<<<<< HEAD
 # 111 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "GAME something…$"
 # 112 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Game something…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 113 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar:
+<<<<<<< HEAD
 # 114 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "Amazing! A house-sitting POKéMON\n"
 # 115 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Amazing! A house-sitting Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "caught a burglar?\p"
 # 116 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "That's something. If we had a tough\n"
+<<<<<<< HEAD
 # 117 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "POKéMON as a security guard…\p"
 # 118 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "Pokémon as a security guard…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We would be able to provide our guests\n"
 # 119 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "with greater safety.$"
@@ -248,9 +282,13 @@ LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner:
 	.string "Oh, yes. A big group of guests arrived\n"
 # 125 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "a little while ago.\p"
+<<<<<<< HEAD
 # 126 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "They booked in as GAME FREAK,\n"
 # 127 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
+=======
+	.string "They booked in as Game Freak,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so I guess they must make games.\p"
 # 128 "data/maps/LilycoveCity_CoveLilyMotel_1F/scripts.pory"
 	.string "Uh-oh, I'd better get working on\n"

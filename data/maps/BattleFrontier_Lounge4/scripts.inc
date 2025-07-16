@@ -34,9 +34,13 @@ BattleFrontier_Lounge4_EventScript_Man::
 BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
 # 18 "data/maps/BattleFrontier_Lounge4/scripts.pory"
 	.string "I wonder if they'll be airing interviews\n"
+<<<<<<< HEAD
 # 19 "data/maps/BattleFrontier_Lounge4/scripts.pory"
 	.string "with tough TRAINERS today?$"
 # 20 "data/maps/BattleFrontier_Lounge4/scripts.pory"
+=======
+	.string "with tough Trainers today?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 21 "data/maps/BattleFrontier_Lounge4/scripts.pory"
 BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere:

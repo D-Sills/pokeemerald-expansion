@@ -162,11 +162,16 @@ RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay::
 
 # 82 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
+<<<<<<< HEAD
 # 83 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "Hello and welcome to the DEVON\n"
 # 84 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "CORPORATION.\p"
 # 85 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
+=======
+	.string "Hello and welcome to the Devon\n"
+	.string "Corporation.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We're proud producers of items and\n"
 # 86 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "medicine that enhance your life.$"
@@ -182,9 +187,13 @@ RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
 
 # 92 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
+<<<<<<< HEAD
 # 93 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "Hey, those RUNNING SHOES!\n"
 # 94 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
+=======
+	.string "Hey, those Running Shoes!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They're one of our products!\p"
 # 95 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "It makes me happy when I see someone\n"
@@ -210,9 +219,13 @@ RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 # 106 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "It sounds like they've recovered\n"
+<<<<<<< HEAD
 # 107 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "the ripped-off DEVON GOODS.$"
 # 108 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
+=======
+	.string "the ripped-off Devon Goods.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 109 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
@@ -248,9 +261,13 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "There's a panel with some writing\n"
 # 125 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "on it…\p"
+<<<<<<< HEAD
 # 126 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "“DEVON CORPORATION got its start as\n"
 # 127 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
+=======
+	.string "“Devon Corporation got its start as\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a producer of stones from quarries.\p"
 # 128 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "“The company also produced iron from\n"
@@ -258,11 +275,16 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "filings in the sand.\p"
 # 130 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "“From that humble start as a producer\n"
+<<<<<<< HEAD
 # 131 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "of raw materials, DEVON developed.\p"
 # 132 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "“DEVON is now a manufacturer of a wide\n"
 # 133 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
+=======
+	.string "of raw materials, Devon developed.\p"
+	.string "“Devon is now a manufacturer of a wide\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "range of industrial products.”$"
 # 134 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 
@@ -276,6 +298,7 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "There's a panel with a description…\p"
 # 139 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "“In addition to industrial products,\n"
+<<<<<<< HEAD
 # 140 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "DEVON now markets sundries and\l"
 # 141 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
@@ -286,3 +309,11 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "tools for POKéMON TRAINERS, including\l"
 # 144 "data/maps/RustboroCity_DevonCorp_1F/scripts.pory"
 	.string "POKé BALLS and POKéNAV systems.”$"
+=======
+	.string "Devon now markets sundries and\l"
+	.string "pharmaceuticals for better lifestyles.\p"
+	.string "“Recently, Devon has begun marketing\n"
+	.string "tools for Pokémon Trainers, including\l"
+	.string "Poké Balls and PokéNav systems.”$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

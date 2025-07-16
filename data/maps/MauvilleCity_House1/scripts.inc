@@ -44,6 +44,7 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
 # 23 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "Woohoo!\p"
+<<<<<<< HEAD
 # 24 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "I hear people call me the ROCK SMASH\n"
 # 25 "data/maps/MauvilleCity_House1/scripts.pory"
@@ -57,18 +58,34 @@ MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
 # 29 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "Anyways, your POKéMON look pretty\n"
 # 30 "data/maps/MauvilleCity_House1/scripts.pory"
+=======
+	.string "I hear people call me the Rock Smash\n"
+	.string "Guy, but I find that sort of degrading.\p"
+	.string "I think I deserve a bit more respect,\n"
+	.string "like maybe the Rock Smash Dude.\p"
+	.string "Woohoo!\p"
+	.string "Anyways, your Pokémon look pretty\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "strong.\p"
 # 31 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "I like that!\n"
+<<<<<<< HEAD
 # 32 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "Here, take this HIDDEN MACHINE!$"
 # 33 "data/maps/MauvilleCity_House1/scripts.pory"
+=======
+	.string "Here, take this Hidden Machine!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 34 "data/maps/MauvilleCity_House1/scripts.pory"
 MauvilleCity_House1_Text_ExplainRockSmash:
+<<<<<<< HEAD
 # 35 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "That HM contains ROCK SMASH.\p"
 # 36 "data/maps/MauvilleCity_House1/scripts.pory"
+=======
+	.string "That HM contains Rock Smash.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If you come across large boulders\n"
 # 37 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "that block your path…\p"
@@ -84,9 +101,13 @@ MauvilleCity_House1_Text_ExplainRockSmash:
 
 # 43 "data/maps/MauvilleCity_House1/scripts.pory"
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
+<<<<<<< HEAD
 # 44 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "Oh, yes, if you smash a rock, a POKéMON\n"
 # 45 "data/maps/MauvilleCity_House1/scripts.pory"
+=======
+	.string "Oh, yes, if you smash a rock, a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "could come flying out of hiding.\p"
 # 46 "data/maps/MauvilleCity_House1/scripts.pory"
 	.string "Woohoo!$"

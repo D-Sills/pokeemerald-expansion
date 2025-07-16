@@ -286,25 +286,37 @@ SkyPillar_Outside_Text_DoorIsClosed:
 
 # 144 "data/maps/SkyPillar_Outside/scripts.pory"
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
+<<<<<<< HEAD
 # 145 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
 # 146 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "Wallace: Oh, my, I'm terribly sorry!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "In my haste, I didn't notice that\n"
 # 147 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "I'd left you behind!\p"
 # 148 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "I've opened the locked door of\n"
+<<<<<<< HEAD
 # 149 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "the SKY PILLAR.\p"
 # 150 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "the Sky Pillar.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}{KUN}, let's be on our way!$"
 # 151 "data/maps/SkyPillar_Outside/scripts.pory"
 
 # 152 "data/maps/SkyPillar_Outside/scripts.pory"
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
+<<<<<<< HEAD
 # 153 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "WALLACE: It's an earthquake!\p"
 # 154 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "Wallace: It's an earthquake!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There's not a moment to waste!\n"
 # 155 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "We've got to hurry!$"
@@ -312,22 +324,31 @@ SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
 
 # 157 "data/maps/SkyPillar_Outside/scripts.pory"
 SkyPillar_Outside_Text_SituationGettingWorse:
+<<<<<<< HEAD
 # 158 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "WALLACE: Hmm…\n"
 # 159 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "Wallace: Hmm…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The situation is getting worse…$"
 # 160 "data/maps/SkyPillar_Outside/scripts.pory"
 
 # 161 "data/maps/SkyPillar_Outside/scripts.pory"
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
+<<<<<<< HEAD
 # 162 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "WALLACE: This isn't good…\p"
 # 163 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "Wallace: This isn't good…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The weather distortion is spreading\n"
 # 164 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "even here…\p"
 # 165 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "{PLAYER}{KUN}.\p"
+<<<<<<< HEAD
 # 166 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "RAYQUAZA should be farther up\n"
 # 167 "data/maps/SkyPillar_Outside/scripts.pory"
@@ -335,6 +356,11 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis:
 # 168 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "I'm worried about SOOTOPOLIS.\n"
 # 169 "data/maps/SkyPillar_Outside/scripts.pory"
+=======
+	.string "Rayquaza should be farther up\n"
+	.string "from here.\p"
+	.string "I'm worried about Sootopolis.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've got to go back.\p"
 # 170 "data/maps/SkyPillar_Outside/scripts.pory"
 	.string "Everything is in your hands now.\n"

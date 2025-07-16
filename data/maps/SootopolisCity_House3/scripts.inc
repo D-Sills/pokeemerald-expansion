@@ -44,6 +44,7 @@ SootopolisCity_House3_EventScript_Girl::
 
 # 23 "data/maps/SootopolisCity_House3/scripts.pory"
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
+<<<<<<< HEAD
 # 24 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "You're a POKéMON TRAINER, aren't you?\p"
 # 25 "data/maps/SootopolisCity_House3/scripts.pory"
@@ -51,6 +52,11 @@ SootopolisCity_House3_Text_JuanHasManyFansDoYou:
 # 26 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "Even more than his student WALLACE!\p"
 # 27 "data/maps/SootopolisCity_House3/scripts.pory"
+=======
+	.string "You're a Pokémon Trainer, aren't you?\p"
+	.string "Sootopolis's Juan has many fans.\n"
+	.string "Even more than his student Wallace!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Do you have any?$"
 # 28 "data/maps/SootopolisCity_House3/scripts.pory"
 
@@ -76,9 +82,16 @@ SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
 SootopolisCity_House3_Text_TrainerFanClubWasWild:
 # 39 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "Dedicated fans come over from even\n"
+<<<<<<< HEAD
 # 40 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "outside of HOENN.\p"
 # 41 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "It was really wild when I went to the\n"
 # 42 "data/maps/SootopolisCity_House3/scripts.pory"
 	.string "TRAINER FAN CLUB in LILYCOVE.$"
+=======
+	.string "outside of Hoenn.\p"
+	.string "It was really wild when I went to the\n"
+	.string "Trainer Fan Club in Lilycove.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

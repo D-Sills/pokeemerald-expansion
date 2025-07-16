@@ -1800,9 +1800,13 @@ Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 # 901 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 902 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "“TRICK MASTER is a genius.”\n"
 # 903 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "“Trick Master is a genius.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 904 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "The lock clicked open!$"
@@ -1818,12 +1822,17 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
 # 910 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
+<<<<<<< HEAD
 # 911 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
 # 912 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "THEN YOU CAN OBTAIN The SECRET CODE.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 913 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
+<<<<<<< HEAD
 # 914 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 1 QUIZ.\p"
 # 915 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1831,9 +1840,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 # 916 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "on ROUTE 110. Which one is it?$"
 # 917 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 1 QUIZ.\n"
+	.string "QUESTION 1:\p"
+	.string "One of these Pokémon is not found\n"
+	.string "on Route 110. Which one is it?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 918 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
+<<<<<<< HEAD
 # 919 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 1 QUIZ.\p"
 # 920 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1841,9 +1857,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 # 921 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "WATER type. Which one is it?$"
 # 922 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 1 QUIZ.\n"
+	.string "QUESTION 2:\p"
+	.string "One of these Pokémon is not of the\n"
+	.string "Water type. Which one is it?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 923 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
+<<<<<<< HEAD
 # 924 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 1 QUIZ.\p"
 # 925 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1851,6 +1874,12 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
 # 926 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "LEECH LIFE. Which one is it?$"
 # 927 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 1 QUIZ.\n"
+	.string "QUESTION 3:\p"
+	.string "One of these Pokémon does not use\n"
+	.string "Leech Life. Which one is it?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 928 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
@@ -1878,9 +1907,13 @@ Route110_TrickHousePuzzle5_Text_Wahahahaha:
 
 # 940 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
+<<<<<<< HEAD
 # 941 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
 # 942 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "YOUR NEXT CHALLENGE WE AWAIT.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 943 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
@@ -1896,16 +1929,23 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
 
 # 949 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
+<<<<<<< HEAD
 # 950 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 2 QUIZ.\p"
 # 951 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "Which of these POKéMON did WALLY\n"
 # 952 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 2 QUIZ.\n"
+	.string "QUESTION 1:\p"
+	.string "Which of these Pokémon did Wally\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "borrow from your father?$"
 # 953 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 954 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
+<<<<<<< HEAD
 # 955 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 2 QUIZ.\p"
 # 956 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1913,9 +1953,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 # 957 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "PROF. BIRCH?$"
 # 958 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 2 QUIZ.\n"
+	.string "QUESTION 2:\p"
+	.string "Which of these Pokémon was chasing\n"
+	.string "Prof. Birch?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 959 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
+<<<<<<< HEAD
 # 960 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 2 QUIZ.\p"
 # 961 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1923,6 +1970,12 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 # 962 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "use in PETALBURG FOREST?$"
 # 963 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 2 QUIZ.\n"
+	.string "QUESTION 3:\p"
+	.string "Which of these Pokémon did Team Aqua\n"
+	.string "use in Petalburg Forest?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 964 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
@@ -1936,6 +1989,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
 
 # 969 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
+<<<<<<< HEAD
 # 970 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 3 QUIZ.\p"
 # 971 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1943,9 +1997,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
 # 972 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "Three HARBOR MAILS or one BURN HEAL?$"
 # 973 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 3 QUIZ.\n"
+	.string "QUESTION 1:\p"
+	.string "Which costs more?\n"
+	.string "Three Harbor Mails or one Burn Heal?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 974 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
+<<<<<<< HEAD
 # 975 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 3 QUIZ.\p"
 # 976 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1953,9 +2014,16 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
 # 977 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "one POTION. How much money remains?$"
 # 978 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 3 QUIZ.\n"
+	.string "QUESTION 2:\p"
+	.string "Sell one Great Ball and buy\n"
+	.string "one Potion. How much money remains?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 979 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
+<<<<<<< HEAD
 # 980 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 3 QUIZ.\p"
 # 981 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -1963,6 +2031,12 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
 # 982 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "more than one SUPER POTION?$"
 # 983 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 3 QUIZ.\n"
+	.string "QUESTION 3:\p"
+	.string "Do one Repel and Soda Pop cost\n"
+	.string "more than one Super Potion?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 984 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
@@ -1976,31 +2050,49 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
 
 # 989 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
+<<<<<<< HEAD
 # 990 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 4 QUIZ.\p"
 # 991 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "In SEASHORE HOUSE, were there more men\n"
 # 992 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 4 QUIZ.\n"
+	.string "QUESTION 1:\p"
+	.string "In Seashore House, were there more men\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "or women?$"
 # 993 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 994 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
+<<<<<<< HEAD
 # 995 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 4 QUIZ.\p"
 # 996 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "In LAVARIDGE TOWN, were there more\n"
 # 997 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 4 QUIZ.\n"
+	.string "QUESTION 2:\p"
+	.string "In Lavaridge Town, were there more\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "elderly men or elderly women?$"
 # 998 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 999 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
+<<<<<<< HEAD
 # 1000 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 4 QUIZ.\p"
 # 1001 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "In the TRAINER'S SCHOOL, how many\n"
 # 1002 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 4 QUIZ.\n"
+	.string "QUESTION 3:\p"
+	.string "In the Trainer's School, how many\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "girl students were there?$"
 # 1003 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
@@ -2010,14 +2102,19 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 	.string "CLICKETY-CLACK…\n"
 # 1006 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 5 AM I!\p"
+<<<<<<< HEAD
 # 1007 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "THE MASTER'S BEST AND PROUDEST\n"
 # 1008 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "The MASTER'S BEST AND PROUDEST\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "ACHIEVEMENT AM I.$"
 # 1009 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 1010 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
+<<<<<<< HEAD
 # 1011 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 5 QUIZ.\p"
 # 1012 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -2025,22 +2122,41 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 # 1013 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "how many POKéMON were there?$"
 # 1014 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 5 QUIZ.\n"
+	.string "QUESTION 1:\p"
+	.string "In Slateport's Pokémon Fan Club,\n"
+	.string "how many Pokémon were there?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1015 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
+<<<<<<< HEAD
 # 1016 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 5 QUIZ.\p"
 # 1017 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "In FORTREE CITY, how many\n"
 # 1018 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+	.string "MECHADOLL 5 QUIZ.\n"
+	.string "QUESTION 2:\p"
+	.string "In Fortree City, how many\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "tree houses were there?$"
 # 1019 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 1020 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
+<<<<<<< HEAD
 # 1021 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "MECHADOLL 5 QUIZ.\p"
 # 1022 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "On the CYCLING ROAD, how many\n"
 # 1023 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	.string "TRIATHLETES were there?$"
+=======
+	.string "MECHADOLL 5 QUIZ.\n"
+	.string "QUESTION 3:\p"
+	.string "On the Cycling Road, how many\n"
+	.string "Triathletes were there?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

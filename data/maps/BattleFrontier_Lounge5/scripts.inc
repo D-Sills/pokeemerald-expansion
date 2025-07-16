@@ -90,6 +90,7 @@ BattleFrontier_Lounge5_EventScript_LittleBoy::
 BattleFrontier_Lounge5_Text_NatureGirlGreeting::
 # 46 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "Ehehe!\n"
+<<<<<<< HEAD
 # 47 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "I can tell what POKéMON are thinking!\p"
 # 48 "data/maps/BattleFrontier_Lounge5/scripts.pory"
@@ -97,6 +98,11 @@ BattleFrontier_Lounge5_Text_NatureGirlGreeting::
 # 49 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "Can I see your POKéMON?$"
 # 50 "data/maps/BattleFrontier_Lounge5/scripts.pory"
+=======
+	.string "I can tell what Pokémon are thinking!\p"
+	.string "Please!\n"
+	.string "Can I see your Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 51 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
@@ -216,9 +222,13 @@ BattleFrontier_Lounge5_Text_NatureGirlSupportHighSupportLow::
 
 # 109 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
+<<<<<<< HEAD
 # 110 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "That's silly! An EGG is asleep!\n"
 # 111 "data/maps/BattleFrontier_Lounge5/scripts.pory"
+=======
+	.string "That's silly! An egg is asleep!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I can't talk to it!$"
 # 112 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 
@@ -228,9 +238,13 @@ BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
 	.string "How charming!\n"
 # 115 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "That little lady claims she can\l"
+<<<<<<< HEAD
 # 116 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 	.string "understand POKéMON!$"
 # 117 "data/maps/BattleFrontier_Lounge5/scripts.pory"
+=======
+	.string "understand Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 118 "data/maps/BattleFrontier_Lounge5/scripts.pory"
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::

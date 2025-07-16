@@ -64,9 +64,13 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 # 33 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 34 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "“TRICK MASTER I love.”\n"
 # 35 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
+=======
+	.string "“Trick Master I love.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 36 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "The lock clicked open!$"
@@ -74,9 +78,13 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 
 # 38 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentIntro:
+<<<<<<< HEAD
 # 39 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "Not many TRAINERS have made it\n"
 # 40 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
+=======
+	.string "Not many Trainers have made it\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "this far.$"
 # 41 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 
@@ -88,11 +96,16 @@ Route110_TrickHousePuzzle8_Text_VincentDefeat:
 
 # 45 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
+<<<<<<< HEAD
 # 46 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "You've beaten the POKéMON LEAGUE\n"
 # 47 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "CHAMPION? That's too much!$"
 # 48 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
+=======
+	.string "You've beaten the Pokémon League\n"
+	.string "Champion? That's too much!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 49 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
@@ -120,11 +133,16 @@ Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
 
 # 61 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
+<<<<<<< HEAD
 # 62 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "You've been slugging through the TRICK\n"
 # 63 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "HOUSE challenge, too.$"
 # 64 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
+=======
+	.string "You've been slugging through the Trick\n"
+	.string "House challenge, too.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 65 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
@@ -138,5 +156,10 @@ Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
 # 70 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "Seeing someone like you should please\n"
+<<<<<<< HEAD
 # 71 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	.string "the TRICK MASTER.$"
+=======
+	.string "the Trick Master.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

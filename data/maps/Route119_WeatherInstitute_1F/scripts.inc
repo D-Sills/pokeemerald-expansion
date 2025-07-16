@@ -142,9 +142,13 @@ Route119_WeatherInstitute_1F_EventScript_Grunt4::
 
 # 72 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
+<<<<<<< HEAD
 # 73 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "The BOSS got interested in\n"
 # 74 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "The boss got interested in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the research they have going here,\l"
 # 75 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "so he sent us out.\p"
@@ -162,11 +166,16 @@ Route119_WeatherInstitute_1F_Text_Grunt1Defeat:
 
 # 82 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 Route119_WeatherInstitute_1F_Text_Grunt1PostBattle:
+<<<<<<< HEAD
 # 83 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "Our BOSS knows everything.\p"
 # 84 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "But I'm just a GRUNT. What would I know\n"
 # 85 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "Our boss knows everything.\p"
+	.string "But I'm just a Grunt. What would I know\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "about what he's thinking?$"
 # 86 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 
@@ -208,30 +217,43 @@ Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
 # 105 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "Wow, you're really strong!\p"
+<<<<<<< HEAD
 # 106 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "I wish I could be a POKéMON TRAINER\n"
 # 107 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "I wish I could be a Pokémon Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "like you!$"
 # 108 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 
 # 109 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
+<<<<<<< HEAD
 # 110 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "The PROFESSOR loves rain.\n"
 # 111 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "The Professor loves rain.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's a fact.\p"
 # 112 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "But if it keeps raining, people will be in\n"
 # 113 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "trouble. That's another fact.\p"
+<<<<<<< HEAD
 # 114 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "And thus, the PROFESSOR is studying\n"
 # 115 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "And thus, the Professor is studying\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "if the rain can be put to good use.$"
 # 116 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 
 # 117 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
+<<<<<<< HEAD
 # 118 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "On the 2nd floor of the INSTITUTE,\n"
 # 119 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
@@ -239,6 +261,11 @@ Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
 # 120 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "the HOENN region.\p"
 # 121 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "On the 2nd floor of the Institute,\n"
+	.string "we study the weather patterns over\l"
+	.string "the Hoenn region.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We've been noticing temporary and\n"
 # 122 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "isolated cases of droughts and\l"
@@ -254,9 +281,13 @@ Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "We've been saved by your actions!\p"
 # 128 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "What I don't understand is what on\n"
+<<<<<<< HEAD
 # 129 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 	.string "earth the AQUAS were up to.$"
 # 130 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
+=======
+	.string "earth the Aquas were up to.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 131 "data/maps/Route119_WeatherInstitute_1F/scripts.pory"
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:

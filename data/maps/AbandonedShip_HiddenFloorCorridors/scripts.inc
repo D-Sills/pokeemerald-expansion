@@ -302,9 +302,14 @@ AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
 # 152 "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.pory"
 	.string "{PLAYER} inserted and turned the\n"
+<<<<<<< HEAD
 # 153 "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.pory"
 	.string "KEY.\p"
 # 154 "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.pory"
 	.string "The inserted KEY stuck fast,\n"
 # 155 "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.pory"
+=======
+	.string "key.\p"
+	.string "The inserted key stuck fast,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but the door opened.$"

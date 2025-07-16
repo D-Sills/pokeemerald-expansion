@@ -96,9 +96,13 @@ Route114_LanettesHouse_EventScript_PC::
 
 # 49 "data/maps/Route114_LanettesHouse/scripts.pory"
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
+<<<<<<< HEAD
 # 50 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "LANETTE: Oh! {PLAYER}{KUN}!\p"
 # 51 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "Lanette: Oh! {PLAYER}{KUN}!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm sorry everything is so cluttered…\n"
 # 52 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "When I get engrossed in research,\l"
@@ -112,6 +116,7 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 
 # 57 "data/maps/Route114_LanettesHouse/scripts.pory"
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
+<<<<<<< HEAD
 # 58 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "May I offer advice about my POKéMON\n"
 # 59 "data/maps/Route114_LanettesHouse/scripts.pory"
@@ -121,9 +126,16 @@ Route114_LanettesHouse_Text_OrganizeYourBoxes:
 # 61 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "can tell which POKéMON are in them.$"
 # 62 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "May I offer advice about my Pokémon\n"
+	.string "Storage System?\p"
+	.string "You should organize your Boxes so you\n"
+	.string "can tell which Pokémon are in them.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 63 "data/maps/Route114_LanettesHouse/scripts.pory"
 Route114_LanettesHouse_Text_ResearchNotesPage1:
+<<<<<<< HEAD
 # 64 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "It's LANETTE's research notes.\n"
 # 65 "data/maps/Route114_LanettesHouse/scripts.pory"
@@ -135,6 +147,13 @@ Route114_LanettesHouse_Text_ResearchNotesPage1:
 # 68 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "420 POKéMON on the PC system.\p"
 # 69 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "It's Lanette's research notes.\n"
+	.string "There's information about Boxes.\p"
+	.string "Design Boxes to hold 30 Pokémon each.\p"
+	.string "Each Trainer should be able to store\n"
+	.string "420 Pokémon on the PC system.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Keep reading?$"
 # 70 "data/maps/Route114_LanettesHouse/scripts.pory"
 
@@ -142,6 +161,7 @@ Route114_LanettesHouse_Text_ResearchNotesPage1:
 Route114_LanettesHouse_Text_ResearchNotesPage2:
 # 72 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "A marking system should be added to\n"
+<<<<<<< HEAD
 # 73 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "make POKéMON easier to organize.\p"
 # 74 "data/maps/Route114_LanettesHouse/scripts.pory"
@@ -151,11 +171,18 @@ Route114_LanettesHouse_Text_ResearchNotesPage2:
 # 76 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "the stored POKéMON.\p"
 # 77 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "make Pokémon easier to organize.\p"
+	.string "The name and wallpaper design of each\n"
+	.string "Box will be made changeable to please\l"
+	.string "the stored Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Keep reading?$"
 # 78 "data/maps/Route114_LanettesHouse/scripts.pory"
 
 # 79 "data/maps/Route114_LanettesHouse/scripts.pory"
 Route114_LanettesHouse_Text_ResearchNotesPage3:
+<<<<<<< HEAD
 # 80 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "When storing a POKéMON, it should be\n"
 # 81 "data/maps/Route114_LanettesHouse/scripts.pory"
@@ -171,6 +198,15 @@ Route114_LanettesHouse_Text_ResearchNotesPage3:
 # 86 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "to which POKéMON are sent.$"
 # 87 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "When storing a Pokémon, it should be\n"
+	.string "sent to the Box inspected last.\p"
+	.string "If that Box is full, the received\n"
+	.string "Pokémon is stored in the next Box.\p"
+	.string "In other words, when a Box is examined,\n"
+	.string "it is automatically selected as the Box\l"
+	.string "to which Pokémon are sent.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 88 "data/maps/Route114_LanettesHouse/scripts.pory"
 Route114_LanettesHouse_Text_ClosedTheNotebook:
@@ -202,7 +238,11 @@ Route114_LanettesHouse_Text_EmailFromBill:
 	.string "“Here's hoping that you'll continue\n"
 # 102 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "research in Storage Systems.\p"
+<<<<<<< HEAD
 # 103 "data/maps/Route114_LanettesHouse/scripts.pory"
 	.string "“From BILL\n"
 # 104 "data/maps/Route114_LanettesHouse/scripts.pory"
+=======
+	.string "“-Bill\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …”$"

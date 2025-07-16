@@ -228,17 +228,25 @@ Route112_Text_LeaderGoingToAwakenThing:
 Route112_Text_YeahWeNeedMeteorite:
 # 115 "data/maps/Route112/scripts.pory"
 	.string "Sounds like it, yeah. But I heard\n"
+<<<<<<< HEAD
 # 116 "data/maps/Route112/scripts.pory"
 	.string "we need a METEORITE to do it.$"
 # 117 "data/maps/Route112/scripts.pory"
+=======
+	.string "we need a Meteorite to do it.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 118 "data/maps/Route112/scripts.pory"
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
 # 119 "data/maps/Route112/scripts.pory"
 	.string "Oh, I get it now. That's why the rest\n"
+<<<<<<< HEAD
 # 120 "data/maps/Route112/scripts.pory"
 	.string "of the crew went out to FALLARBOR.$"
 # 121 "data/maps/Route112/scripts.pory"
+=======
+	.string "of the crew went out to Fallarbor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 122 "data/maps/Route112/scripts.pory"
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
@@ -250,6 +258,7 @@ Route112_Text_CantLetAnyonePassUntilTheyreBack:
 
 # 126 "data/maps/Route112/scripts.pory"
 Route112_Text_NotEasyToGetBackToLavaridge:
+<<<<<<< HEAD
 # 127 "data/maps/Route112/scripts.pory"
 	.string "Eh, I'd like to get to MAUVILLE, but if\n"
 # 128 "data/maps/Route112/scripts.pory"
@@ -257,17 +266,27 @@ Route112_Text_NotEasyToGetBackToLavaridge:
 # 129 "data/maps/Route112/scripts.pory"
 	.string "easy matter to get back to LAVARIDGE.$"
 # 130 "data/maps/Route112/scripts.pory"
+=======
+	.string "Eh, I'd like to get to Mauville, but if\n"
+	.string "I went down these ledges, it'd be no\l"
+	.string "easy matter to get back to Lavaridge.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 131 "data/maps/Route112/scripts.pory"
 Route112_Text_MtChimneyCableCarSign:
+<<<<<<< HEAD
 # 132 "data/maps/Route112/scripts.pory"
 	.string "MT. CHIMNEY CABLE CAR\n"
 # 133 "data/maps/Route112/scripts.pory"
+=======
+	.string "Mt. Chimney Cable Car\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“A short walk {UP_ARROW} way!”$"
 # 134 "data/maps/Route112/scripts.pory"
 
 # 135 "data/maps/Route112/scripts.pory"
 Route112_Text_MtChimneySign:
+<<<<<<< HEAD
 # 136 "data/maps/Route112/scripts.pory"
 	.string "MT. CHIMNEY\p"
 # 137 "data/maps/Route112/scripts.pory"
@@ -275,10 +294,21 @@ Route112_Text_MtChimneySign:
 # 138 "data/maps/Route112/scripts.pory"
 	.string "please take the CABLE CAR.”$"
 # 139 "data/maps/Route112/scripts.pory"
+=======
+	.string "Mt. Chimney\p"
+	.string "“For Lavaridge Town or the summit,\n"
+	.string "please take the Cable Car.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 140 "data/maps/Route112/scripts.pory"
 Route112_Text_RouteSignLavaridge:
+<<<<<<< HEAD
 # 141 "data/maps/Route112/scripts.pory"
 	.string "ROUTE 112\n"
 # 142 "data/maps/Route112/scripts.pory"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+=======
+	.string "Route 112\n"
+	.string "{LEFT_ARROW} Lavaridge Town$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

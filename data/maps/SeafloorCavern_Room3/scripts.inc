@@ -42,9 +42,13 @@ SeafloorCavern_Room3_Text_ShellyIntro:
 	.string "meddling about here.\p"
 # 22 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "And, I do want payback for what\n"
+<<<<<<< HEAD
 # 23 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "happened at the WEATHER INSTITUTE…\p"
 # 24 "data/maps/SeafloorCavern_Room3/scripts.pory"
+=======
+	.string "happened at the Weather Institute…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm going to give you a little taste\n"
 # 25 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "of pain! Resign yourself to it!$"
@@ -66,6 +70,7 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 	.string "You're so darn strong.\p"
 # 34 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "It's terribly disappointing that you're\n"
+<<<<<<< HEAD
 # 35 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "not a TEAM AQUA member.\p"
 # 36 "data/maps/SeafloorCavern_Room3/scripts.pory"
@@ -73,6 +78,11 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 # 37 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "world our BOSS has promised as\l"
 # 38 "data/maps/SeafloorCavern_Room3/scripts.pory"
+=======
+	.string "not a Team Aqua member.\p"
+	.string "You could have enjoyed the fabulous\n"
+	.string "world our boss has promised as\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one of us…$"
 # 39 "data/maps/SeafloorCavern_Room3/scripts.pory"
 
@@ -80,6 +90,7 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 SeafloorCavern_Room3_Text_Grunt5Intro:
 # 41 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "For our dream to become real, we need\n"
+<<<<<<< HEAD
 # 42 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "the power of POKéMON.\p"
 # 43 "data/maps/SeafloorCavern_Room3/scripts.pory"
@@ -87,6 +98,11 @@ SeafloorCavern_Room3_Text_Grunt5Intro:
 # 44 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "POKéMON to mess with us even at\l"
 # 45 "data/maps/SeafloorCavern_Room3/scripts.pory"
+=======
+	.string "the power of Pokémon.\p"
+	.string "But meddlers like you use the power of\n"
+	.string "Pokémon to mess with us even at\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a place like this!\p"
 # 46 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "Life just doesn't work the way we\n"
@@ -108,9 +124,13 @@ SeafloorCavern_Room3_Text_Grunt5PostBattle:
 	.string "the motives of our leader.\p"
 # 55 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "But here you are, just some punk,\n"
+<<<<<<< HEAD
 # 56 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "going up against our BOSS.\p"
 # 57 "data/maps/SeafloorCavern_Room3/scripts.pory"
+=======
+	.string "going up against our boss.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Maybe…\n"
 # 58 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	.string "You must be something…$"

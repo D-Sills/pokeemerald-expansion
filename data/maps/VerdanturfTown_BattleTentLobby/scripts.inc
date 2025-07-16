@@ -658,15 +658,23 @@ VerdanturfTown_BattleTentLobby_EventScript_ExitRules::
 VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves:
 # 330 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "If it doesn't like a certain move,\n"
+<<<<<<< HEAD
 # 331 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "a POKéMON will be reluctant to use it.\p"
 # 332 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "a Pokémon will be reluctant to use it.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It doesn't matter how strong it is,\n"
 # 333 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "either.\p"
+<<<<<<< HEAD
 # 334 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "For example, a POKéMON with a GENTLE\n"
 # 335 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "For example, a Pokémon with a Gentle\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "nature probably won't enjoy hurting\l"
 # 336 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "its opponents.\p"
@@ -686,17 +694,25 @@ VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry:
 	.string "But when she gets angry,\l"
 # 344 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "she's really, really scary!\p"
+<<<<<<< HEAD
 # 345 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "I bet a gentle POKéMON will be scary\n"
 # 346 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "I bet a gentle Pokémon will be scary\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "if it gets angry!$"
 # 347 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 
 # 348 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
+<<<<<<< HEAD
 # 349 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "My feelings toward my POKéMON…\n"
 # 350 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "My feelings toward my Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The attraction runs deep…\p"
 # 351 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "Oh, hi, you didn't see that, did you?\n"
@@ -704,15 +720,23 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
 	.string "Well, it doesn't matter.\p"
 # 353 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "How would you like this TM for\n"
+<<<<<<< HEAD
 # 354 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "your POKéMON?$"
 # 355 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "your Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 356 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
+<<<<<<< HEAD
 # 357 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "My feelings toward my POKéMON…\n"
 # 358 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "My feelings toward my Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm sure the attraction is mutual!\p"
 # 359 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "They battle exactly the way I want\n"
@@ -724,9 +748,13 @@ VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
 VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 # 363 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "What kind of moves have you taught\n"
+<<<<<<< HEAD
 # 364 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "your POKéMON?\p"
 # 365 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "your Pokémon?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I think you would give yourself\n"
 # 366 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "an advantage if they knew how to\l"
@@ -736,6 +764,7 @@ VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 
 # 369 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
+<<<<<<< HEAD
 # 370 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "SCOTT: Hey there, {PLAYER}{KUN}!\n"
 # 371 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
@@ -745,6 +774,12 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 # 373 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "you can meet tough TRAINERS.\p"
 # 374 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "Scott: Hey there, {PLAYER}{KUN}!\n"
+	.string "I thought I might see you here.\p"
+	.string "A Battle Tent's a place where\n"
+	.string "you can meet tough Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It doesn't matter what the rules are,\n"
 # 375 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "or how battles are waged, either.\p"
@@ -756,9 +791,14 @@ VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers:
 
 # 379 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly:
+<<<<<<< HEAD
 # 380 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "SCOTT: I visit here regularly in hopes\n"
 # 381 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
 	.string "of seeing tough TRAINERS in action\l"
 # 382 "data/maps/VerdanturfTown_BattleTentLobby/scripts.pory"
+=======
+	.string "Scott: I visit here regularly in hopes\n"
+	.string "of seeing tough Trainers in action\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in whatever the situation.$"

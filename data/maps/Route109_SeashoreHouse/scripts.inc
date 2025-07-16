@@ -208,6 +208,7 @@ Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
 
 # 105 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
+<<<<<<< HEAD
 # 106 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "I'm the owner of the SEASHORE HOUSE.\n"
 # 107 "data/maps/Route109_SeashoreHouse/scripts.pory"
@@ -221,6 +222,14 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 # 111 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "If you can defeat all the TRAINERS\n"
 # 112 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "I'm the owner of the Seashore House.\n"
+	.string "But you can call me Mr. Sea!\p"
+	.string "What I love above all is to see hot\n"
+	.string "Pokémon battles.\p"
+	.string "Let me see that your heart burns hot!\p"
+	.string "If you can defeat all the Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "here, I'll reward your efforts.$"
 # 113 "data/maps/Route109_SeashoreHouse/scripts.pory"
 
@@ -228,9 +237,13 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
 # 115 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Show me some hot matches!\p"
+<<<<<<< HEAD
 # 116 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "I run this SEASHORE HOUSE just for\n"
 # 117 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "I run this Seashore House just for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that reason alone!$"
 # 118 "data/maps/Route109_SeashoreHouse/scripts.pory"
 
@@ -246,25 +259,38 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
 	.string "As thanks for showing me your hot\n"
 # 124 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "streak, I want you to take these.\p"
+<<<<<<< HEAD
 # 125 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "It's half a dozen bottles of SODA POP!$"
 # 126 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "It's half a dozen bottles of Soda Pop!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 127 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_BagFull:
+<<<<<<< HEAD
 # 128 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Oh, but hey, your BAG's jammed full.\n"
 # 129 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Oh, but hey, your Bag's jammed full.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll hang on to these for you.$"
 # 130 "data/maps/Route109_SeashoreHouse/scripts.pory"
 
 # 131 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_WantToBuySodaPop:
+<<<<<<< HEAD
 # 132 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Want to buy some SODA POP?\n"
 # 133 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "POKéMON love it!\p"
 # 134 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Want to buy some Soda Pop?\n"
+	.string "Pokémon love it!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Just ¥300 a bottle!\n"
 # 135 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Buy some!$"
@@ -294,11 +320,16 @@ Route109_SeashoreHouse_Text_ThatsTooBad:
 Route109_SeashoreHouse_Text_DwayneIntro:
 # 148 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "If you're looking for a battle in the\n"
+<<<<<<< HEAD
 # 149 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "SEASHORE HOUSE, you'll find no\l"
 # 150 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "hotter TRAINER than me, matey!$"
 # 151 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Seashore House, you'll find no\l"
+	.string "hotter Trainer than me, matey!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 152 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_DwayneDefeated:
@@ -310,11 +341,16 @@ Route109_SeashoreHouse_Text_DwayneDefeated:
 
 # 156 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_DwaynePostBattle:
+<<<<<<< HEAD
 # 157 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Whenever I'm in SLATEPORT, I enjoy\n"
 # 158 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "hot battles and ice-cold SODA POP!$"
 # 159 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Whenever I'm in Slateport, I enjoy\n"
+	.string "hot battles and ice-cold Soda Pop!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 160 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_JohannaIntro:
@@ -322,9 +358,13 @@ Route109_SeashoreHouse_Text_JohannaIntro:
 	.string "Boring battles aren't worth the effort.\p"
 # 162 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Fiery hot battles are what toughen up\n"
+<<<<<<< HEAD
 # 163 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "TRAINERS and POKéMON!$"
 # 164 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Trainers and Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 165 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_JohannaDefeated:
@@ -336,17 +376,25 @@ Route109_SeashoreHouse_Text_JohannaDefeated:
 Route109_SeashoreHouse_Text_JohannaPostBattle:
 # 169 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Whew, I'm all thirsty.\n"
+<<<<<<< HEAD
 # 170 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "Maybe I'll have a SODA POP.$"
 # 171 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "Maybe I'll have a Soda Pop.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 172 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_SimonIntro:
 # 173 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "I'm going to show you how great\n"
+<<<<<<< HEAD
 # 174 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "my POKéMON are, but don't cry!$"
 # 175 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "my Pokémon are, but don't cry!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 176 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_SimonDefeated:
@@ -356,9 +404,13 @@ Route109_SeashoreHouse_Text_SimonDefeated:
 
 # 179 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_Text_SimonPostBattle:
+<<<<<<< HEAD
 # 180 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "If one of my POKéMON knew the move\n"
 # 181 "data/maps/Route109_SeashoreHouse/scripts.pory"
+=======
+	.string "If one of my Pokémon knew the move\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "for carrying me across water on its\l"
 # 182 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	.string "back, I could get rid of this inner tube.$"

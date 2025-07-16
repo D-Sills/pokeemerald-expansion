@@ -56,9 +56,13 @@ MagmaHideout_3F_1R_Text_Grunt16Intro:
 	.string "We joined so we can help our leader\n"
 # 29 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "achieve his fantastic vision.\p"
+<<<<<<< HEAD
 # 30 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "I don't care if you're with TEAM AQUA\n"
 # 31 "data/maps/MagmaHideout_3F_1R/scripts.pory"
+=======
+	.string "I don't care if you're with Team Aqua\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "or if you're just some kid passing by.\p"
 # 32 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "No one interferes with us and gets\n"
@@ -78,9 +82,14 @@ MagmaHideout_3F_1R_Text_Grunt16Defeat:
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
 # 40 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "Listen to me.\n"
+<<<<<<< HEAD
 # 41 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "TEAM MAGMA is right!\p"
 # 42 "data/maps/MagmaHideout_3F_1R/scripts.pory"
 	.string "Don't listen to TEAM AQUA.\n"
 # 43 "data/maps/MagmaHideout_3F_1R/scripts.pory"
+=======
+	.string "Team Magma is right!\p"
+	.string "Don't listen to Team Aqua.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Don't believe their lies!$"

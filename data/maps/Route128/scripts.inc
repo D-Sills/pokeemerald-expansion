@@ -488,6 +488,7 @@ Route128_EventScript_Carlee::
 
 # 245 "data/maps/Route128/scripts.pory"
 Route128_Text_ArchieWhatHappened:
+<<<<<<< HEAD
 # 246 "data/maps/Route128/scripts.pory"
 	.string "ARCHIE: What happened…\n"
 # 247 "data/maps/Route128/scripts.pory"
@@ -495,6 +496,11 @@ Route128_Text_ArchieWhatHappened:
 # 248 "data/maps/Route128/scripts.pory"
 	.string "Did I…make a horrible mistake?$"
 # 249 "data/maps/Route128/scripts.pory"
+=======
+	.string "Archie: What happened…\n"
+	.string "What is this wretched scene…\p"
+	.string "Did I… make a horrible mistake?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 250 "data/maps/Route128/scripts.pory"
 Route128_Text_ArchieIOnlyWanted:
@@ -506,11 +512,16 @@ Route128_Text_ArchieIOnlyWanted:
 
 # 254 "data/maps/Route128/scripts.pory"
 Route128_Text_MaxieDoYouUnderstandNow:
+<<<<<<< HEAD
 # 255 "data/maps/Route128/scripts.pory"
 	.string "MAXIE: Do you understand now,\n"
 # 256 "data/maps/Route128/scripts.pory"
 	.string "ARCHIE?\p"
 # 257 "data/maps/Route128/scripts.pory"
+=======
+	.string "Maxie: Do you understand now,\n"
+	.string "Archie?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Do you finally see how disastrous\n"
 # 258 "data/maps/Route128/scripts.pory"
 	.string "your dream turned out to be?\p"
@@ -524,6 +535,7 @@ Route128_Text_MaxieDoYouUnderstandNow:
 
 # 263 "data/maps/Route128/scripts.pory"
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
+<<<<<<< HEAD
 # 264 "data/maps/Route128/scripts.pory"
 	.string "MAXIE: {PLAYER}, don't say anything.\p"
 # 265 "data/maps/Route128/scripts.pory"
@@ -531,6 +543,11 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 # 266 "data/maps/Route128/scripts.pory"
 	.string "critical of ARCHIE…\p"
 # 267 "data/maps/Route128/scripts.pory"
+=======
+	.string "Maxie: {PLAYER}, don't say anything.\p"
+	.string "I know that I have no right to be\n"
+	.string "critical of Archie…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But the way things are now, I doubt\n"
 # 268 "data/maps/Route128/scripts.pory"
 	.string "that we humans will be capable of\l"
@@ -542,17 +559,26 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "just watch helplessly.\p"
 # 272 "data/maps/Route128/scripts.pory"
 	.string "The responsibility for putting an end\n"
+<<<<<<< HEAD
 # 273 "data/maps/Route128/scripts.pory"
 	.string "to this falls to ARCHIE and me…$"
 # 274 "data/maps/Route128/scripts.pory"
+=======
+	.string "to this falls to Archie and me…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 275 "data/maps/Route128/scripts.pory"
 Route128_Text_MaxieThisDefiesBelief:
+<<<<<<< HEAD
 # 276 "data/maps/Route128/scripts.pory"
 	.string "MAXIE: This defies belief…\p"
 # 277 "data/maps/Route128/scripts.pory"
 	.string "Those super-ancient POKéMON…\p"
 # 278 "data/maps/Route128/scripts.pory"
+=======
+	.string "Maxie: This defies belief…\p"
+	.string "Those super-ancient Pokémon…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Their power is unbelievable.\n"
 # 279 "data/maps/Route128/scripts.pory"
 	.string "They've upset the balance of nature…$"
@@ -560,9 +586,13 @@ Route128_Text_MaxieThisDefiesBelief:
 
 # 281 "data/maps/Route128/scripts.pory"
 Route128_Text_StevenWhatIsHappening:
+<<<<<<< HEAD
 # 282 "data/maps/Route128/scripts.pory"
 	.string "STEVEN: {PLAYER}{KUN}!\n"
 # 283 "data/maps/Route128/scripts.pory"
+=======
+	.string "Steven: {PLAYER}{KUN}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What is happening?$"
 # 284 "data/maps/Route128/scripts.pory"
 
@@ -574,21 +604,33 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "After the scorching heat wave ended,\n"
 # 288 "data/maps/Route128/scripts.pory"
 	.string "this deluge began.\p"
+<<<<<<< HEAD
 # 289 "data/maps/Route128/scripts.pory"
 	.string "If this doesn't stop, all of HOENN…\n"
 # 290 "data/maps/Route128/scripts.pory"
+=======
+	.string "If this doesn't stop, all of Hoenn…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No, the whole world will drown.\p"
 # 291 "data/maps/Route128/scripts.pory"
 	.string "This huge rain cloud is spreading\n"
+<<<<<<< HEAD
 # 292 "data/maps/Route128/scripts.pory"
 	.string "from above SOOTOPOLIS…\p"
 # 293 "data/maps/Route128/scripts.pory"
+=======
+	.string "from above Sootopolis…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What in the world is taking place there?\p"
 # 294 "data/maps/Route128/scripts.pory"
 	.string "There's no point arguing here…\n"
+<<<<<<< HEAD
 # 295 "data/maps/Route128/scripts.pory"
 	.string "SOOTOPOLIS might provide answers…$"
 # 296 "data/maps/Route128/scripts.pory"
+=======
+	.string "Sootopolis might provide answers…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 297 "data/maps/Route128/scripts.pory"
 Route128_Text_StevenImGoingToSootopolis:
@@ -600,5 +642,10 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "but don't do anything reckless.\p"
 # 301 "data/maps/Route128/scripts.pory"
 	.string "Okay.\n"
+<<<<<<< HEAD
 # 302 "data/maps/Route128/scripts.pory"
 	.string "I'm going to SOOTOPOLIS.$"
+=======
+	.string "I'm going to Sootopolis.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

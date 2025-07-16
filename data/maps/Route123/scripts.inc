@@ -346,19 +346,28 @@ Route123_EventScript_RematchFernando::
 
 # 174 "data/maps/Route123/scripts.pory"
 Route123_Text_LoveGrassMonsHaveAny:
+<<<<<<< HEAD
 # 175 "data/maps/Route123/scripts.pory"
 	.string "I love GRASS-type POKéMON!\p"
 # 176 "data/maps/Route123/scripts.pory"
 	.string "Do you have any GRASS-type POKéMON?$"
 # 177 "data/maps/Route123/scripts.pory"
+=======
+	.string "I love Grass-type Pokémon!\p"
+	.string "Do you have any Grass-type Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 178 "data/maps/Route123/scripts.pory"
 Route123_Text_YouLikeGrassMonsTooHaveThis:
 # 179 "data/maps/Route123/scripts.pory"
 	.string "Oh?\p"
+<<<<<<< HEAD
 # 180 "data/maps/Route123/scripts.pory"
 	.string "You like GRASS-type POKéMON, too,\n"
 # 181 "data/maps/Route123/scripts.pory"
+=======
+	.string "You like Grass-type Pokémon, too,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "don't you?\p"
 # 182 "data/maps/Route123/scripts.pory"
 	.string "I'm so happy, you can have this!\n"
@@ -368,29 +377,48 @@ Route123_Text_YouLikeGrassMonsTooHaveThis:
 
 # 185 "data/maps/Route123/scripts.pory"
 Route123_Text_CheckTreesWithMyGrassMon:
+<<<<<<< HEAD
 # 186 "data/maps/Route123/scripts.pory"
 	.string "I check trees with my GRASS-type\n"
 # 187 "data/maps/Route123/scripts.pory"
 	.string "POKéMON. I'm like a tree doctor.$"
 # 188 "data/maps/Route123/scripts.pory"
+=======
+	.string "I check trees with my Grass-type\n"
+	.string "Pokémon. I'm like a tree doctor.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 189 "data/maps/Route123/scripts.pory"
 Route123_Text_RouteSign:
+<<<<<<< HEAD
 # 190 "data/maps/Route123/scripts.pory"
 	.string "{RIGHT_ARROW} ROUTE 123\n"
 # 191 "data/maps/Route123/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 118$"
 # 192 "data/maps/Route123/scripts.pory"
+=======
+	.string "{RIGHT_ARROW} Route 123\n"
+	.string "{LEFT_ARROW} Route 118$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 193 "data/maps/Route123/scripts.pory"
 Route123_Text_RouteSignMtPyre:
+<<<<<<< HEAD
 # 194 "data/maps/Route123/scripts.pory"
 	.string "{UP_ARROW} MT. PYRE\n"
 # 195 "data/maps/Route123/scripts.pory"
+=======
+	.string "{UP_ARROW} Mt. Pyre\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Forbidden to the faint of heart.”$"
 # 196 "data/maps/Route123/scripts.pory"
 
 # 197 "data/maps/Route123/scripts.pory"
 Route123_Text_BerryMastersHouse:
+<<<<<<< HEAD
 # 198 "data/maps/Route123/scripts.pory"
 	.string "BERRY MASTER'S HOUSE$"
+=======
+	.string "Berry Master's House$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

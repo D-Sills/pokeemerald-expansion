@@ -544,6 +544,7 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 
 # 273 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
+<<<<<<< HEAD
 # 274 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "Where the luck of TRAINERS\n"
 # 275 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
@@ -553,6 +554,12 @@ BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
 # 277 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "I am your guide to the BATTLE PIKE…$"
 # 278 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Where the luck of Trainers\n"
+	.string "is put to the test…\p"
+	.string "Welcome to the Battle Pike…\p"
+	.string "I am your guide to the Battle Pike…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 279 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
@@ -576,9 +583,13 @@ BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
 	.string "Choose one of three paths and make\n"
 # 289 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "your way to the goal room at the end\l"
+<<<<<<< HEAD
 # 290 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "of the BATTLE PIKE. It's that simple.\p"
 # 291 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "of the Battle Pike. It's that simple.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "However, what happens on the chosen\n"
 # 292 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "path depends entirely on the luck\l"
@@ -624,19 +635,28 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
 	.string "I beg your pardon, but…\p"
 # 313 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "You do not have three eligible\n"
+<<<<<<< HEAD
 # 314 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "POKéMON for the Battle Choice event.\p"
 # 315 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "You must have three different POKéMON\n"
 # 316 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Pokémon for the Battle Choice event.\p"
+	.string "You must have three different Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of Level 50 or less to enter.\p"
 # 317 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "They also must be holding different\n"
 # 318 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "kinds of items.\p"
+<<<<<<< HEAD
 # 319 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 320 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please come see me when\n"
 # 321 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "you are ready…$"
@@ -648,6 +668,7 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "I beg your pardon, but…\p"
 # 325 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "You do not have three eligible\n"
+<<<<<<< HEAD
 # 326 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "POKéMON for the Battle Choice event.\p"
 # 327 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
@@ -655,12 +676,21 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 # 328 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "POKéMON to enter.\p"
 # 329 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Pokémon for the Battle Choice event.\p"
+	.string "You must have three different\n"
+	.string "Pokémon to enter.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They also must be holding different\n"
 # 330 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "kinds of items.\p"
+<<<<<<< HEAD
 # 331 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 332 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please come see me when\n"
 # 333 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "you are ready…$"
@@ -668,9 +698,13 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 
 # 335 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
+<<<<<<< HEAD
 # 336 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "Please choose the three POKéMON\n"
 # 337 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Please choose the three Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "you wish to enter in the challenge…$"
 # 338 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
@@ -764,9 +798,13 @@ BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
 	.string "Congratulations…\p"
 # 383 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "You have snatched victory from the\n"
+<<<<<<< HEAD
 # 384 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "PIKE QUEEN and cleared the event…$"
 # 385 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Pike Queen and cleared the event…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 386 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
@@ -794,9 +832,13 @@ BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
 	.string "I've completed the challenge 10 times\n"
 # 398 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "now, but I've never had to battle\l"
+<<<<<<< HEAD
 # 399 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "a TRAINER once.$"
 # 400 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "a Trainer once.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 401 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
@@ -804,9 +846,13 @@ BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
 	.string "Listen! Listen!\p"
 # 403 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "Don't you think that the special\n"
+<<<<<<< HEAD
 # 404 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "abilities of POKéMON will be useful\l"
 # 405 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "abilities of Pokémon will be useful\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "here?$"
 # 406 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
@@ -822,9 +868,13 @@ BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
 	.string "I've taken the challenge a bunch\n"
 # 412 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "of times, but all I ever do is run into\l"
+<<<<<<< HEAD
 # 413 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "TRAINERS whichever path I choose.$"
 # 414 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "Trainers whichever path I choose.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 415 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
@@ -840,9 +890,13 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
 
 # 421 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
+<<<<<<< HEAD
 # 422 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "The BAG and POKéNAV may not be used\n"
 # 423 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "The Bag and PokéNav may not be used\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "during a Battle Choice challenge.$"
 # 424 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
@@ -850,9 +904,13 @@ BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 # 426 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "During a Battle Choice challenge,\n"
+<<<<<<< HEAD
 # 427 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "any BERRY or HERB held by POKéMON\l"
 # 428 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "any Berry or Herb held by Pokémon\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "will be effective only once.$"
 # 429 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 
@@ -860,9 +918,13 @@ BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
 # 431 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "During a Battle Choice challenge,\n"
+<<<<<<< HEAD
 # 432 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "the sequence of POKéMON cannot be\l"
 # 433 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
+=======
+	.string "the sequence of Pokémon cannot be\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "changed.\p"
 # 434 "data/maps/BattleFrontier_BattlePikeLobby/scripts.pory"
 	.string "The sequence must be set before\n"

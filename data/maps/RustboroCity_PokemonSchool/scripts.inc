@@ -406,9 +406,13 @@ RustboroCity_PokemonSchool_EventScript_ScottWatchStudents::
 RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges:
 # 204 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "The blackboard lists status changes\n"
+<<<<<<< HEAD
 # 205 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "that may affect POKéMON in battle.$"
 # 206 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "that may affect Pokémon in battle.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 207 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ReadWhichTopic:
@@ -418,14 +422,19 @@ RustboroCity_PokemonSchool_Text_ReadWhichTopic:
 
 # 210 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainPoison:
+<<<<<<< HEAD
 # 211 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "If a POKéMON is poisoned, it will\n"
 # 212 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "If a Pokémon is poisoned, it will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "steadily lose HP.\p"
 # 213 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "The effects of poison remain after\n"
 # 214 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "a battle.\p"
+<<<<<<< HEAD
 # 215 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A poisoned POKéMON's HP will drop\n"
 # 216 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -433,25 +442,40 @@ RustboroCity_PokemonSchool_Text_ExplainPoison:
 # 217 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Heal a poisoning using an ANTIDOTE.$"
 # 218 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "A poisoned Pokémon's HP will drop\n"
+	.string "while it is traveling.\p"
+	.string "Heal a poisoning using an Antidote.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 219 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
+<<<<<<< HEAD
 # 220 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "If a POKéMON becomes paralyzed,\n"
 # 221 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "its SPEED drops.\p"
 # 222 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "If a Pokémon becomes paralyzed,\n"
+	.string "its Speed drops.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It may also not be able to move while\n"
 # 223 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "it is in battle.\p"
 # 224 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Paralysis remains after battle.\n"
+<<<<<<< HEAD
 # 225 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Cure it using a PARLYZ HEAL.$"
 # 226 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Cure it using a Paralyze Heal.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 227 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainSleep:
+<<<<<<< HEAD
 # 228 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "If a POKéMON falls asleep, it will be\n"
 # 229 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -459,44 +483,73 @@ RustboroCity_PokemonSchool_Text_ExplainSleep:
 # 230 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A POKéMON may wake up on its own,\n"
 # 231 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "If a Pokémon falls asleep, it will be\n"
+	.string "unable to attack.\p"
+	.string "A Pokémon may wake up on its own,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but if a battle ends while it is\l"
 # 232 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "sleeping, it will stay asleep.\p"
+<<<<<<< HEAD
 # 233 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Wake it up using an AWAKENING.$"
 # 234 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Wake it up using an Awakening.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 235 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainBurn:
+<<<<<<< HEAD
 # 236 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A burn reduces ATTACK power, and it\n"
 # 237 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "A burn reduces Attack power, and it\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "steadily reduces the victim's HP.\p"
 # 238 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A burn lingers after battle.\n"
+<<<<<<< HEAD
 # 239 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Cure a burn using a BURN HEAL.$"
 # 240 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Cure a burn using a Burn Heal.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 241 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainFreeze:
+<<<<<<< HEAD
 # 242 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "If a POKéMON is frozen, it becomes\n"
 # 243 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "If a Pokémon is frozen, it becomes\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "completely helpless.\p"
 # 244 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "It will remain frozen after battle.\n"
+<<<<<<< HEAD
 # 245 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Thaw it out using an ICE HEAL.$"
 # 246 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Thaw it out using an Ice Heal.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 247 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 # 248 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Students who don't study get a little\n"
+<<<<<<< HEAD
 # 249 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "taste of my QUICK CLAW.\p"
 # 250 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "taste of my Quick Claw.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Whether or not you are a good student \n"
 # 251 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "will be evident from the way you use\l"
@@ -506,17 +559,25 @@ RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
 
 # 254 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
+<<<<<<< HEAD
 # 255 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A POKéMON holding the QUICK CLAW will\n"
 # 256 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "A Pokémon holding the Quick Claw will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "occasionally speed up and get to move\l"
 # 257 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "before its opponent.\p"
 # 258 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "There are many other items that are\n"
+<<<<<<< HEAD
 # 259 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "meant to be held by POKéMON.\p"
 # 260 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "meant to be held by Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Just those alone will give you many\n"
 # 261 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "topics to study!$"
@@ -524,22 +585,31 @@ RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
 
 # 263 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_TradingRightNow:
+<<<<<<< HEAD
 # 264 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "I'm trading POKéMON with my friend\n"
 # 265 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "I'm trading Pokémon with my friend\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "right now.$"
 # 266 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 
 # 267 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
+<<<<<<< HEAD
 # 268 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "I always wanted a SEEDOT, and\n"
 # 269 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "I always wanted a Seedot, and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm finally getting one!$"
 # 270 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 
 # 271 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
+<<<<<<< HEAD
 # 272 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "POKéMON can hold items, but they\n"
 # 273 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -547,9 +617,15 @@ RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
 # 274 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "items like POTION and ANTIDOTE.$"
 # 275 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Pokémon can hold items, but they\n"
+	.string "don't know what to do with man-made\l"
+	.string "items like Potion and Antidote.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 276 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
+<<<<<<< HEAD
 # 277 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "You know how some POKéMON moves can\n"
 # 278 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -557,6 +633,11 @@ RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
 # 279 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A confused POKéMON will sometimes\n"
 # 280 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "You know how some Pokémon moves can\n"
+	.string "confuse a Pokémon?\p"
+	.string "A confused Pokémon will sometimes\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "attack itself without meaning to.\p"
 # 281 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "But once it leaves battle, it will\n"
@@ -566,15 +647,23 @@ RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
 
 # 284 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
+<<<<<<< HEAD
 # 285 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "A POKéMON holding a BERRY will heal\n"
 # 286 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "A Pokémon holding a Berry will heal\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "itself…\p"
 # 287 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "There are many kinds of items that\n"
+<<<<<<< HEAD
 # 288 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "POKéMON can hold…\p"
 # 289 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Pokémon can hold…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Boy, it sure is hard taking notes\n"
 # 290 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "down…$"
@@ -584,6 +673,7 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 RustboroCity_PokemonSchool_Text_StudentsNotes:
 # 293 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "It's this student's notebook…\p"
+<<<<<<< HEAD
 # 294 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "POKéMON are to be caught using\n"
 # 295 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -605,11 +695,24 @@ RustboroCity_PokemonSchool_Text_StudentsNotes:
 # 303 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "challengers in POKéMON GYMS.$"
 # 304 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Pokémon are to be caught using\n"
+	.string "Poké Balls.\p"
+	.string "Up to six Pokémon can accompany\n"
+	.string "a Trainer.\p"
+	.string "A Trainer is someone who catches\n"
+	.string "Pokémon, raises them, and battles\l"
+	.string "with them.\p"
+	.string "A Trainer's mission is to defeat\n"
+	.string "the strong Trainers who await\l"
+	.string "challengers in Pokémon Gyms.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 305 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 # 306 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Hello? Didn't we meet before?\n"
+<<<<<<< HEAD
 # 307 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "I think back in PETALBURG CITY.\p"
 # 308 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -637,12 +740,31 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 # 319 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "this town has CUT.$"
 # 320 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "I think back in Petalburg City.\p"
+	.string "Let me introduce myself.\n"
+	.string "My name's Scott.\p"
+	.string "I've been traveling everywhere in\n"
+	.string "search of outstanding Trainers.\p"
+	.string "More specifically, I'm looking for\n"
+	.string "Pokémon battle experts.\p"
+	.string "So, what brings you to this School?\n"
+	.string "Are you a Trainer, too?\p"
+	.string "The first thing you should do is to\n"
+	.string "have a Pokémon learn the move Cut.\p"
+	.string "If I remember correctly, someone in\n"
+	.string "this town has Cut.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 321 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
+<<<<<<< HEAD
 # 322 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "SCOTT: Hmm…\p"
 # 323 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Scott: Hmm…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The talent levels of the students here\n"
 # 324 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "are unknown. The potential's there.$"
@@ -650,11 +772,16 @@ RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
 
 # 326 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
+<<<<<<< HEAD
 # 327 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "SCOTT: Oh, what's that?\p"
 # 328 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "It's a STONE BADGE, isn't it?\n"
 # 329 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "Scott: Oh, what's that?\p"
+	.string "It's a Stone Badge, isn't it?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That's pretty impressive, I'd say.\p"
 # 330 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "But, you know, I would've loved to see\n"
@@ -662,14 +789,19 @@ RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 	.string "you in battle.\p"
 # 332 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "It's hard to tell what you're like as\n"
+<<<<<<< HEAD
 # 333 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "a TRAINER from a LEAGUE BADGE.$"
 # 334 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "a Trainer from a League Badge.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 335 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 # 336 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "Hello? Didn't we meet before?\n"
+<<<<<<< HEAD
 # 337 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "I think back in PETALBURG CITY.\p"
 # 338 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
@@ -693,10 +825,28 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 # 347 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "a starting TRAINER like yourself.\p"
 # 348 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
+=======
+	.string "I think back in Petalburg City.\p"
+	.string "Let me introduce myself.\n"
+	.string "My name's Scott.\p"
+	.string "I've been traveling everywhere in\n"
+	.string "search of outstanding Trainers.\p"
+	.string "More specifically, I'm looking for\n"
+	.string "Pokémon battle experts.\p"
+	.string "Oh, what's that?\n"
+	.string "It's a Stone Badge, isn't it?\p"
+	.string "That's pretty impressive, I'd say, for\n"
+	.string "a starting Trainer like yourself.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, you know, I would've loved to see\n"
 # 349 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "you in battle.\p"
 # 350 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "It's hard to tell what you're like as\n"
+<<<<<<< HEAD
 # 351 "data/maps/RustboroCity_PokemonSchool/scripts.pory"
 	.string "a TRAINER from a LEAGUE BADGE.$"
+=======
+	.string "a Trainer from a League Badge.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

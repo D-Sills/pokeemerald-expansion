@@ -212,6 +212,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord::
 
 # 107 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
+<<<<<<< HEAD
 # 108 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Do you know the POKéMON SEEDOT?\n"
 # 109 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -219,9 +220,15 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
 # 110 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Anyway, I love big SEEDOT.\n"
 # 111 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Do you know the Pokémon Seedot?\n"
+	.string "It's hardly ever seen in Sootopolis.\p"
+	.string "Anyway, I love big Seedot.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The bigger the better.\p"
 # 112 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "But my younger brother, he says that\n"
+<<<<<<< HEAD
 # 113 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "LOTAD is bigger.\p"
 # 114 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -231,6 +238,12 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
 # 116 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Huh? Do you have a SEEDOT with you?\n"
 # 117 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Lotad is bigger.\p"
+	.string "That's silly.\n"
+	.string "Seedot has to be bigger than that!\p"
+	.string "Huh? Do you have a Seedot with you?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "P-p-please, show me!$"
 # 118 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
@@ -240,9 +253,13 @@ SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 	.string "{STR_VAR_2}!\n"
 # 121 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Oh, my gosh, this is a big one!\p"
+<<<<<<< HEAD
 # 122 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "It might even beat the big LOTAD\n"
 # 123 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "It might even beat the big Lotad\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "my younger brother saw!\p"
 # 124 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Thanks for showing me.\n"
@@ -254,25 +271,37 @@ SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad:
 @ Unused
 # 128 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1:
+<<<<<<< HEAD
 # 129 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "{PLAYER} received a POTION.$"
 # 130 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "{PLAYER} received a Potion.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 131 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1:
 # 132 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Hunh?\n"
+<<<<<<< HEAD
 # 133 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Your BAG is crammed full.$"
 # 134 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Your Bag is crammed full.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 135 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
 # 136 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "{STR_VAR_2}, is it?\p"
+<<<<<<< HEAD
 # 137 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Hmm… I've seen a bigger SEEDOT\n"
 # 138 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Hmm… I've seen a bigger Seedot\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "than this one.$"
 # 139 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
@@ -280,12 +309,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot:
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot:
 # 141 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Oh, now this is quite something…\n"
+<<<<<<< HEAD
 # 142 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "But it's not a SEEDOT!$"
 # 143 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "But it's not a Seedot!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 144 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
+<<<<<<< HEAD
 # 145 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "You don't have a big SEEDOT?\n"
 # 146 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -293,11 +327,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 # 147 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "If you get a big SEEDOT, please\n"
 # 148 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "You don't have a big Seedot?\n"
+	.string "That's too bad…\p"
+	.string "If you get a big Seedot, please\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "come show me.$"
 # 149 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 150 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
+<<<<<<< HEAD
 # 151 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "The biggest SEEDOT in history!\n"
 # 152 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -305,11 +345,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
 # 153 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "A SEEDOT bigger than a LOTAD\n"
 # 154 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "The biggest Seedot in history!\n"
+	.string "{STR_VAR_2}'s {STR_VAR_3} giant!\p"
+	.string "A Seedot bigger than a Lotad\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "always wanted!$"
 # 155 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 156 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
+<<<<<<< HEAD
 # 157 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Do you know the POKéMON LOTAD?\n"
 # 158 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -319,14 +365,25 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
 # 160 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "My big brother says that SEEDOT is\n"
 # 161 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Do you know the Pokémon Lotad?\n"
+	.string "It's rarely seen in Sootopolis.\p"
+	.string "I love, I mean love, big Lotad!\p"
+	.string "My big brother says that Seedot is\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "bigger.\p"
 # 162 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "But that's wrong! Everyone knows that\n"
+<<<<<<< HEAD
 # 163 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "LOTAD is a lot bigger.\p"
 # 164 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Hunh? Do you have a LOTAD?\n"
 # 165 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Lotad is a lot bigger.\p"
+	.string "Hunh? Do you have a Lotad?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "P-p-please show me!$"
 # 166 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
@@ -338,9 +395,13 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 	.string "Wow, that is big!\p"
 # 170 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "It might be even bigger than the huge\n"
+<<<<<<< HEAD
 # 171 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "SEEDOT my big brother saw.\p"
 # 172 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Seedot my big brother saw.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Thanks for showing me!\n"
 # 173 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "This is my thanks!$"
@@ -350,25 +411,37 @@ SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot:
 @ Unused
 # 176 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2:
+<<<<<<< HEAD
 # 177 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "{PLAYER} received a POTION.$"
 # 178 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "{PLAYER} received a Potion.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 179 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2:
 # 180 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Hunh?\n"
+<<<<<<< HEAD
 # 181 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Your BAG is crammed full.$"
 # 182 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Your Bag is crammed full.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 183 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
 # 184 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "{STR_VAR_2}?\p"
+<<<<<<< HEAD
 # 185 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Hmm… I've seen a bigger LOTAD\n"
 # 186 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Hmm… I've seen a bigger Lotad\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "than this one here.$"
 # 187 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
@@ -376,12 +449,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad:
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad:
 # 189 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Well, isn't this something!\n"
+<<<<<<< HEAD
 # 190 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "But it's no LOTAD!$"
 # 191 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "But it's no Lotad!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 192 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
+<<<<<<< HEAD
 # 193 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "Don't you have a big LOTAD?\n"
 # 194 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -389,11 +467,17 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
 # 195 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "If you get a big LOTAD, please\n"
 # 196 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "Don't you have a big Lotad?\n"
+	.string "How disappointing…\p"
+	.string "If you get a big Lotad, please\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "come show me!$"
 # 197 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 
 # 198 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
+<<<<<<< HEAD
 # 199 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "The biggest LOTAD in history!\n"
 # 200 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
@@ -401,4 +485,9 @@ SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
 # 201 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
 	.string "A LOTAD bigger than a SEEDOT\n"
 # 202 "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.pory"
+=======
+	.string "The biggest Lotad in history!\n"
+	.string "{STR_VAR_2}'s {STR_VAR_3} colossus!\p"
+	.string "A Lotad bigger than a Seedot\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "always wanted!$"

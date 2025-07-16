@@ -60,6 +60,7 @@ PacifidlogTown_EventScript_TownSign::
 
 # 31 "data/maps/PacifidlogTown/scripts.pory"
 PacifidlogTown_Text_FastRunningCurrent:
+<<<<<<< HEAD
 # 32 "data/maps/PacifidlogTown/scripts.pory"
 	.string "The sea between PACIFIDLOG and\n"
 # 33 "data/maps/PacifidlogTown/scripts.pory"
@@ -67,6 +68,11 @@ PacifidlogTown_Text_FastRunningCurrent:
 # 34 "data/maps/PacifidlogTown/scripts.pory"
 	.string "If you decide to SURF, you could end\n"
 # 35 "data/maps/PacifidlogTown/scripts.pory"
+=======
+	.string "The sea between Pacifidlog and\n"
+	.string "Slateport has a fast-running tide.\p"
+	.string "If you decide to Surf, you could end\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "up swept away somewhere else.$"
 # 36 "data/maps/PacifidlogTown/scripts.pory"
 
@@ -82,9 +88,13 @@ PacifidlogTown_Text_NeatHousesOnWater:
 
 # 42 "data/maps/PacifidlogTown/scripts.pory"
 PacifidlogTown_Text_SkyPillarTooScary:
+<<<<<<< HEAD
 # 43 "data/maps/PacifidlogTown/scripts.pory"
 	.string "The SKY PILLAR?\p"
 # 44 "data/maps/PacifidlogTown/scripts.pory"
+=======
+	.string "The Sky Pillar?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "…Oh, you must mean that tall, tall\n"
 # 45 "data/maps/PacifidlogTown/scripts.pory"
 	.string "tower a little further out.\p"
@@ -92,17 +102,25 @@ PacifidlogTown_Text_SkyPillarTooScary:
 	.string "If you asked me, I wouldn't climb it.\n"
 # 47 "data/maps/PacifidlogTown/scripts.pory"
 	.string "It's too scary to get up that high.\p"
+<<<<<<< HEAD
 # 48 "data/maps/PacifidlogTown/scripts.pory"
 	.string "Life at sea level in PACIFIDLOG,\n"
 # 49 "data/maps/PacifidlogTown/scripts.pory"
+=======
+	.string "Life at sea level in Pacifidlog,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that suits me fine.$"
 # 50 "data/maps/PacifidlogTown/scripts.pory"
 
 # 51 "data/maps/PacifidlogTown/scripts.pory"
 PacifidlogTown_Text_TownSign:
+<<<<<<< HEAD
 # 52 "data/maps/PacifidlogTown/scripts.pory"
 	.string "PACIFIDLOG TOWN\p"
 # 53 "data/maps/PacifidlogTown/scripts.pory"
+=======
+	.string "Pacifidlog Town\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Where the morning sun smiles upon\n"
 # 54 "data/maps/PacifidlogTown/scripts.pory"
 	.string "the waters.”$"

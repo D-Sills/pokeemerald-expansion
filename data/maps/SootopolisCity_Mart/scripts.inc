@@ -110,6 +110,7 @@ SootopolisCity_Mart_EventScript_GentlemanNoLegendaries::
 
 # 56 "data/maps/SootopolisCity_Mart/scripts.pory"
 SootopolisCity_Mart_Text_PPUpIsGreat:
+<<<<<<< HEAD
 # 57 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "PP UP is great!\p"
 # 58 "data/maps/SootopolisCity_Mart/scripts.pory"
@@ -117,6 +118,11 @@ SootopolisCity_Mart_Text_PPUpIsGreat:
 # 59 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "of a POKéMON move.$"
 # 60 "data/maps/SootopolisCity_Mart/scripts.pory"
+=======
+	.string "PP Up is great!\p"
+	.string "It raises the Power Points, the PP,\n"
+	.string "of a Pokémon move.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 61 "data/maps/SootopolisCity_Mart/scripts.pory"
 SootopolisCity_Mart_Text_TooScaryOutside:
@@ -132,9 +138,13 @@ SootopolisCity_Mart_Text_TooScaryOutside:
 
 # 67 "data/maps/SootopolisCity_Mart/scripts.pory"
 SootopolisCity_Mart_Text_FullRestoreItemOfDreams:
+<<<<<<< HEAD
 # 68 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Do you know FULL RESTORE?\p"
 # 69 "data/maps/SootopolisCity_Mart/scripts.pory"
+=======
+	.string "Do you know Full Restore?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Full restoration of HP!\n"
 # 70 "data/maps/SootopolisCity_Mart/scripts.pory"
 	.string "Eradication of all status problems!\p"

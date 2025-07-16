@@ -49,3 +49,7 @@ tools/compresSmol/compresSmolTilemap
 *.smolTM
 __pycache__
 /tools/poryscript/poryscript
+/.vs
+*.xlsx
+*.bak
+*.xcf

@@ -24,11 +24,16 @@ MagmaHideout_3F_2R_Text_Grunt10Intro:
 	.string "says. But you know what?\p"
 # 13 "data/maps/MagmaHideout_3F_2R/scripts.pory"
 	.string "Doing stuff like digging up a super-\n"
+<<<<<<< HEAD
 # 14 "data/maps/MagmaHideout_3F_2R/scripts.pory"
 	.string "ancient POKéMON and ripping off\l"
 # 15 "data/maps/MagmaHideout_3F_2R/scripts.pory"
 	.string "someone's METEORITE…\p"
 # 16 "data/maps/MagmaHideout_3F_2R/scripts.pory"
+=======
+	.string "ancient Pokémon and ripping off\l"
+	.string "someone's Meteorite…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I think we're going a little too far.\n"
 # 17 "data/maps/MagmaHideout_3F_2R/scripts.pory"
 	.string "What do you think?$"

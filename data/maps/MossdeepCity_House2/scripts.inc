@@ -108,11 +108,16 @@ MossdeepCity_House2_Movement_WingullExitEast:
 
 # 55 "data/maps/MossdeepCity_House2/scripts.pory"
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree:
+<<<<<<< HEAD
 # 56 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "My little sister exchanges MAIL with\n"
 # 57 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "her boyfriend in FORTREE.\p"
 # 58 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+	.string "My little sister exchanges Mail with\n"
+	.string "her boyfriend in Fortree.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I don't envy her one bit at all.$"
 # 59 "data/maps/MossdeepCity_House2/scripts.pory"
 
@@ -120,9 +125,13 @@ MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree:
 MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
 # 61 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "Even though I can't see my friend in\n"
+<<<<<<< HEAD
 # 62 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "FORTREE, my POKéMON carries MAIL\l"
 # 63 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+	.string "Fortree, my Pokémon carries Mail\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "back and forth for us.\p"
 # 64 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "I'm not lonesome, even though we're\n"
@@ -132,5 +141,10 @@ MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth:
 
 # 67 "data/maps/MossdeepCity_House2/scripts.pory"
 MossdeepCity_House2_Text_Wingull:
+<<<<<<< HEAD
 # 68 "data/maps/MossdeepCity_House2/scripts.pory"
 	.string "WINGULL: Pihyoh!$"
+=======
+	.string "Wingull: Pihyoh!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

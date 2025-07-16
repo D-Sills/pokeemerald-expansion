@@ -268,23 +268,38 @@ Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "Exploring a cave isn't like walking\n"
 # 135 "data/maps/Route115/scripts.pory"
 	.string "on a road.\p"
+<<<<<<< HEAD
 # 136 "data/maps/Route115/scripts.pory"
 	.string "You never know when wild POKéMON will\n"
 # 137 "data/maps/Route115/scripts.pory"
+=======
+	.string "You never know when wild Pokémon will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "appear. It's full of suspense.$"
 # 138 "data/maps/Route115/scripts.pory"
 
 # 139 "data/maps/Route115/scripts.pory"
 Route115_Text_RouteSignRustboro:
+<<<<<<< HEAD
 # 140 "data/maps/Route115/scripts.pory"
 	.string "ROUTE 115\n"
 # 141 "data/maps/Route115/scripts.pory"
 	.string "{DOWN_ARROW} RUSTBORO CITY$"
 # 142 "data/maps/Route115/scripts.pory"
+=======
+	.string "Route 115\n"
+	.string "{DOWN_ARROW} Rustboro City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 143 "data/maps/Route115/scripts.pory"
 Route115_Text_MeteorFallsSign:
+<<<<<<< HEAD
 # 144 "data/maps/Route115/scripts.pory"
 	.string "METEOR FALLS\n"
 # 145 "data/maps/Route115/scripts.pory"
 	.string "FALLARBOR TOWN THROUGH HERE$"
+=======
+	.string "Meteor Falls\n"
+	.string "Fallarbor Town Through Here$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

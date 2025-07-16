@@ -712,6 +712,7 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 
 # 357 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
+<<<<<<< HEAD
 # 358 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Where the battling spirit of TRAINERS\n"
 # 359 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -719,6 +720,11 @@ BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 # 360 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "I welcome you to the BATTLE ARENA!\p"
 # 361 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Where the battling spirit of Trainers\n"
+	.string "is put to the test!\p"
+	.string "I welcome you to the Battle Arena!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I am your guide to the Set KO Tourney!$"
 # 362 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
@@ -726,9 +732,13 @@ BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 # 364 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Now, do you wish to take\n"
+<<<<<<< HEAD
 # 365 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "the BATTLE ARENA challenge?$"
 # 366 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "the Battle Arena challenge?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 367 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
@@ -740,12 +750,17 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 
 # 371 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
+<<<<<<< HEAD
 # 372 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "In the BATTLE ARENA, we undertake\n"
 # 373 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "In the Battle Arena, we undertake\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the Set KO Tourney.\p"
 # 374 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "All participants enter with a team of\n"
+<<<<<<< HEAD
 # 375 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "three POKéMON.\p"
 # 376 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -759,6 +774,14 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 # 380 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Once a POKéMON enters battle, it must\n"
 # 381 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "three Pokémon.\p"
+	.string "The three Pokémon must be lined up in\n"
+	.string "the order in which they are to appear.\p"
+	.string "During battle, the Pokémon will appear\n"
+	.string "one at a time in the preset order.\p"
+	.string "Once a Pokémon enters battle, it must\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "remain out until the match is decided.\p"
 # 382 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "If a match remains undecided in\n"
@@ -774,25 +797,38 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "to continue with your challenge.\p"
 # 388 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "If you pull off the feat of beating\n"
+<<<<<<< HEAD
 # 389 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "seven TRAINERS in succession,\l"
 # 390 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "seven Trainers in succession,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we will present you with Battle Points.$"
 # 391 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 392 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
+<<<<<<< HEAD
 # 393 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Before showing you to the BATTLE\n"
 # 394 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "ARENA, you must save. Is that okay?$"
 # 395 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Before showing you to the Battle\n"
+	.string "Arena, you must save. Is that okay?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 396 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
+<<<<<<< HEAD
 # 397 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The BATTLE ARENA offers two levels\n"
 # 398 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "The Battle Arena offers two levels\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of challenge, Level 50 and Open Level.\l"
 # 399 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Which is your choice?$"
@@ -802,29 +838,45 @@ BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
 # 402 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Very well, now select your\n"
+<<<<<<< HEAD
 # 403 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "three POKéMON, please.$"
 # 404 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "three Pokémon, please.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 405 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 # 406 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "My dear challenger!\p"
+<<<<<<< HEAD
 # 407 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "You do not have the three POKéMON\n"
 # 408 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "You do not have the three Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "required for entry.\p"
 # 409 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "To qualify, you must bring three\n"
+<<<<<<< HEAD
 # 410 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "different kinds of POKéMON.\p"
 # 411 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "different kinds of Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They also must not hold the same\n"
 # 412 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "kinds of items.\p"
+<<<<<<< HEAD
 # 413 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 414 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "When you have made your preparations,\n"
 # 415 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "please do return.$"
@@ -834,25 +886,38 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 # 418 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "My dear challenger!\p"
+<<<<<<< HEAD
 # 419 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "You do not have the three POKéMON\n"
 # 420 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "You do not have the three Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "required for entry.\p"
 # 421 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "To qualify, you must bring three\n"
+<<<<<<< HEAD
 # 422 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "different kinds of POKéMON.\p"
 # 423 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The three different POKéMON\n"
 # 424 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "different kinds of Pokémon.\p"
+	.string "The three different Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "must all be Level 50 or lower.\p"
 # 425 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "They also must not hold the same\n"
 # 426 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "kinds of items.\p"
+<<<<<<< HEAD
 # 427 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "EGGS{STR_VAR_1} ineligible.\p"
 # 428 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Eggs{STR_VAR_1} ineligible.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "When you have made your preparations,\n"
 # 429 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "please do return.$"
@@ -862,9 +927,13 @@ BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
 # 432 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "I shall now guide you to\n"
+<<<<<<< HEAD
 # 433 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "the BATTLE ARENA.$"
 # 434 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "the Battle Arena.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 435 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
@@ -890,9 +959,13 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
 # 446 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "We congratulate you for your splendid\n"
+<<<<<<< HEAD
 # 447 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "string of wins over seven TRAINERS!$"
 # 448 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "string of wins over seven Trainers!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 449 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
@@ -928,9 +1001,13 @@ BattleFrontier_BattleArenaLobby_Text_ReceivedPrize:
 BattleFrontier_BattleArenaLobby_Text_BagFullReturnForPrize:
 # 465 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Oh?\n"
+<<<<<<< HEAD
 # 466 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Your BAG seems to be full.\p"
 # 467 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Your Bag seems to be full.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I urge you to clear space and\n"
 # 468 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "return for your prize.$"
@@ -958,27 +1035,41 @@ BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 	.string "We have been looking forward to\n"
 # 480 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "your arrival.\p"
+<<<<<<< HEAD
 # 481 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Before I show you to the BATTLE\n"
 # 482 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "ARENA, I must save the game.\l"
 # 483 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Before I show you to the Battle\n"
+	.string "Arena, I must save the game.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please wait.$"
 # 484 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 485 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
+<<<<<<< HEAD
 # 486 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Shall I record your last BATTLE ARENA\n"
 # 487 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "match on your FRONTIER PASS?$"
 # 488 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Shall I record your last Battle Arena\n"
+	.string "match on your Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 489 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
+<<<<<<< HEAD
 # 490 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "I lost on the REFEREE's decision…\p"
 # 491 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "I lost on the Referee's decision…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I don't think it was a good idea to only\n"
 # 492 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "use defensive moves and not attack…$"
@@ -990,9 +1081,13 @@ BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
 	.string "I won in judging!\p"
 # 496 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Landing hits consistently on\n"
+<<<<<<< HEAD
 # 497 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "the opponent's POKéMON worked!$"
 # 498 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "the opponent's Pokémon worked!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 499 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
@@ -1000,14 +1095,19 @@ BattleFrontier_BattleArenaLobby_Text_MatchWasDeclaredDraw:
 	.string "Our match was declared a draw.\p"
 # 501 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "When we ran out of time, both my\n"
+<<<<<<< HEAD
 # 502 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "POKéMON and the opponent's had about\l"
 # 503 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Pokémon and the opponent's had about\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the same amount of HP left.$"
 # 504 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 505 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
+<<<<<<< HEAD
 # 506 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "In the BATTLE ARENA, the order of\n"
 # 507 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -1019,6 +1119,13 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 # 510 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "try making your second POKéMON one\l"
 # 511 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "In the Battle Arena, the order of\n"
+	.string "Pokémon is totally important.\p"
+	.string "For example, if your first Pokémon\n"
+	.string "has certain type disadvantages,\l"
+	.string "try making your second Pokémon one\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "with moves that are super effective\l"
 # 512 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "against the first one.\p"
@@ -1054,6 +1161,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "If the outcome is not decided after\n"
 # 528 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "three turns, it goes to judging.\p"
+<<<<<<< HEAD
 # 529 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The REFEREE will choose the winner\n"
 # 530 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -1061,6 +1169,11 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 # 531 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "Also, a POKéMON cannot be switched out\n"
 # 532 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "The Referee will choose the winner\n"
+	.string "based on how the Pokémon battled.\p"
+	.string "Also, a Pokémon cannot be switched out\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "until its battle's outcome is decided.$"
 # 533 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
@@ -1074,9 +1187,13 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "the battlers were.\p"
 # 538 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The judging is based on how often\n"
+<<<<<<< HEAD
 # 539 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "the TRAINERS ordered the use of\l"
 # 540 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "the Trainers ordered the use of\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "offensive moves.$"
 # 541 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
@@ -1086,9 +1203,13 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "The second judging factor is “Skill.”\n"
 # 544 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "This factor evaluates how effectively\l"
+<<<<<<< HEAD
 # 545 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "POKéMON moves were used.\p"
 # 546 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "Pokémon moves were used.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If a move worked successfully,\n"
 # 547 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "the Skill rating goes up.\p"
@@ -1106,6 +1227,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 	.string "“not very effective.”\p"
 # 554 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The Skill rating will not go up for\n"
+<<<<<<< HEAD
 # 555 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "moves such as PROTECT and DETECT.\p"
 # 556 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -1113,6 +1235,11 @@ BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
 # 557 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "DETECT, and your POKéMON failed to\l"
 # 558 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "moves such as Protect and Detect.\p"
+	.string "If the opponent used Protect or\n"
+	.string "Detect, and your Pokémon failed to\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "hit with a move, its Skill rating will not\l"
 # 559 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "go down.$"
@@ -1128,19 +1255,28 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
 	.string "remained at the end of a battle.\p"
 # 565 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "The rating takes into account how much\n"
+<<<<<<< HEAD
 # 566 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "HP a POKéMON had at the start of\l"
 # 567 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "HP a Pokémon had at the start of\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "battle, and what remained at the end.$"
 # 568 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 569 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
+<<<<<<< HEAD
 # 570 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "A victory snatched from the ARENA\n"
 # 571 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "TYCOON, and a seven-TRAINER sweep!\p"
 # 572 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	.string "A victory snatched from the Arena\n"
+	.string "Tycoon, and a seven-Trainer sweep!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We congratulate you on your most\n"
 # 573 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	.string "splendid challenge!$"

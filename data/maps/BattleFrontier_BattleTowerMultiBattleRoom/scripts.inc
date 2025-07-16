@@ -1000,7 +1000,11 @@ gText_LinkStandby3::
 gText_YourPartnerHasRetired::
 # 501 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	.string "Your partner has retired.\p"
+<<<<<<< HEAD
 # 502 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	.string "Your BATTLE ROOM challenge\n"
 # 503 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	.string "Your Battle Room challenge\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "will be canceled.$"

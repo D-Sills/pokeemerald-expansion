@@ -82,9 +82,13 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 # 42 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 43 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "“TRICK MASTER is fabulous.”\n"
 # 44 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+=======
+	.string "“Trick Master is fabulous.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 45 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "The lock clicked open!$"
@@ -94,9 +98,13 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 Route110_TrickHousePuzzle1_Text_SallyIntro:
 # 48 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "I'll hack and slash my way to victory\n"
+<<<<<<< HEAD
 # 49 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "with the CUT we just learned!$"
 # 50 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+=======
+	.string "with the Cut we just learned!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 51 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_SallyDefeat:
@@ -136,9 +144,13 @@ Route110_TrickHousePuzzle1_Text_EddiePostBattle:
 
 # 69 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_RobinIntro:
+<<<<<<< HEAD
 # 70 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	.string "Just who is the TRICK MASTER?$"
 # 71 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
+=======
+	.string "Just who is the Trick Master?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 72 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_Text_RobinDefeat:

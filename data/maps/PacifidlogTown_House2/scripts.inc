@@ -188,33 +188,50 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
 # 95 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "Er-hem!\p"
+<<<<<<< HEAD
 # 96 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "I am the POKéMON FAN CLUB's most\n"
 # 97 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "important person, the CHAIRMAN's\l"
 # 98 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "I am the Pokémon Fan Club's most\n"
+	.string "important person, the Chairman's\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "younger brother.\p"
 # 99 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "I'm here enjoying my vacation with\n"
+<<<<<<< HEAD
 # 100 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "POKéMON, yes, indeed.$"
 # 101 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "Pokémon, yes, indeed.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 102 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_AhYourPokemon:
 # 103 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "Ah!\n"
+<<<<<<< HEAD
 # 104 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "Your POKéMON…$"
 # 105 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "Your Pokémon…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 106 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_AdoringPokemonTakeThis:
 # 107 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It clearly likes you very much.\p"
+<<<<<<< HEAD
 # 108 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "A POKéMON that adoring and adorable\n"
 # 109 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "A Pokémon that adoring and adorable\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "deserves a TM like this, no?$"
 # 110 "data/maps/PacifidlogTown_House2/scripts.pory"
 
@@ -224,9 +241,13 @@ PacifidlogTown_House2_Text_PutInSomeMoreEffort:
 	.string "Hmm…\n"
 # 113 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It's not bad, but it's also not good.\p"
+<<<<<<< HEAD
 # 114 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "You, as the TRAINER, need to put in\n"
 # 115 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "You, as the Trainer, need to put in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "some more effort.$"
 # 116 "data/maps/PacifidlogTown_House2/scripts.pory"
 
@@ -234,14 +255,19 @@ PacifidlogTown_House2_Text_PutInSomeMoreEffort:
 PacifidlogTown_House2_Text_ViciousPokemonTakeThis:
 # 118 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It has a vicious look to it.\p"
+<<<<<<< HEAD
 # 119 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "A frightening POKéMON like that\n"
 # 120 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "A frightening Pokémon like that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "deserves a TM like this.$"
 # 121 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 122 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_ExplainReturnFrustration:
+<<<<<<< HEAD
 # 123 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "If a POKéMON likes you a lot, RETURN's\n"
 # 124 "data/maps/PacifidlogTown_House2/scripts.pory"
@@ -249,6 +275,11 @@ PacifidlogTown_House2_Text_ExplainReturnFrustration:
 # 125 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "If it doesn't like you, FRUSTRATION's\n"
 # 126 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "If a Pokémon likes you a lot, Return's\n"
+	.string "power is enhanced.\p"
+	.string "If it doesn't like you, Frustration's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "power goes up.$"
 # 127 "data/maps/PacifidlogTown_House2/scripts.pory"
 
@@ -262,33 +293,53 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 	.string "You should come see me then.\n"
 # 132 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "I'll give you a TM that's suitable for\l"
+<<<<<<< HEAD
 # 133 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "your POKéMON.$"
 # 134 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "your Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 135 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rurii:
+<<<<<<< HEAD
 # 136 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "AZURILL: Rurii.$"
 # 137 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "Azurill: Rurii.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 138 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 # 139 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It appears to be very friendly with the\n"
+<<<<<<< HEAD
 # 140 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "TRAINER.$"
 # 141 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 142 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rururi:
+<<<<<<< HEAD
 # 143 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "AZURILL: Rururi!$"
 # 144 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "Azurill: Rururi!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 145 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch:
+<<<<<<< HEAD
 # 146 "data/maps/PacifidlogTown_House2/scripts.pory"
 	.string "It doesn't appear to like the TRAINER\n"
 # 147 "data/maps/PacifidlogTown_House2/scripts.pory"
+=======
+	.string "It doesn't appear to like the Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "very much.$"

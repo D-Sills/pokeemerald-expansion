@@ -152,11 +152,16 @@ EverGrandeCity_PokemonCenter_1F_Movement_ScottExit:
 
 # 77 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
+<<<<<<< HEAD
 # 78 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "The POKéMON LEAGUE is only a short\n"
 # 79 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "distance after the VICTORY ROAD.\p"
 # 80 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "The Pokémon League is only a short\n"
+	.string "distance after the Victory Road.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If you've come this far, what choice\n"
 # 81 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "do you have but to keep going?$"
@@ -164,33 +169,50 @@ EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad:
 
 # 83 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon:
+<<<<<<< HEAD
 # 84 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "The long and harrowing VICTORY ROAD…\p"
 # 85 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "The long and harrowing Victory Road…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's like reliving the path one has\n"
 # 86 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "traveled in life…\p"
+<<<<<<< HEAD
 # 87 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "Believe in your POKéMON and give it\n"
 # 88 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Believe in your Pokémon and give it\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "your very best!$"
 # 89 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 
 # 90 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
+<<<<<<< HEAD
 # 91 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "SCOTT: {PLAYER}{KUN}, you've clawed your\n"
 # 92 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "way up to face the POKéMON LEAGUE!\p"
 # 93 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Scott: {PLAYER}{KUN}, you've clawed your\n"
+	.string "way up to face the Pokémon League!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm happy for you!\n"
 # 94 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "You made my cheering worthwhile!\p"
 # 95 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "{PLAYER}{KUN}, if you were to become\n"
+<<<<<<< HEAD
 # 96 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "the POKéMON LEAGUE CHAMPION…\p"
 # 97 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "the Pokémon League Champion…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll get in touch with you then.\p"
 # 98 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "Okay, {PLAYER}{KUN}.\n"

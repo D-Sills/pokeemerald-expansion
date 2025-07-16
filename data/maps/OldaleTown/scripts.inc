@@ -694,23 +694,35 @@ OldaleTown_Text_SavingMyProgress:
 OldaleTown_Text_IWorkAtPokemonMart:
 # 348 "data/maps/OldaleTown/scripts.pory"
 	.string "Hi!\n"
+<<<<<<< HEAD
 # 349 "data/maps/OldaleTown/scripts.pory"
 	.string "I work at a POKéMON MART.\p"
 # 350 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "I work at a Poké Mart.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Can I get you to come with me?$"
 # 351 "data/maps/OldaleTown/scripts.pory"
 
 # 352 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_ThisIsAPokemonMart:
+<<<<<<< HEAD
 # 353 "data/maps/OldaleTown/scripts.pory"
 	.string "This is a POKéMON MART.\n"
 # 354 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "This is a Poké Mart.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Just look for our blue roof.\p"
 # 355 "data/maps/OldaleTown/scripts.pory"
 	.string "We sell a variety of goods including\n"
+<<<<<<< HEAD
 # 356 "data/maps/OldaleTown/scripts.pory"
 	.string "POKé BALLS for catching POKéMON.\p"
 # 357 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "Poké Balls for catching Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Here, I'd like you to have this as\n"
 # 358 "data/maps/OldaleTown/scripts.pory"
 	.string "a promotional item.$"
@@ -718,11 +730,16 @@ OldaleTown_Text_ThisIsAPokemonMart:
 
 # 360 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_PotionExplanation:
+<<<<<<< HEAD
 # 361 "data/maps/OldaleTown/scripts.pory"
 	.string "A POTION can be used anytime, so it's\n"
 # 362 "data/maps/OldaleTown/scripts.pory"
 	.string "even more useful than a POKéMON CENTER\l"
 # 363 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "A Potion can be used anytime, so it's\n"
+	.string "even more useful than a Pokémon Center\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in certain situations.$"
 # 364 "data/maps/OldaleTown/scripts.pory"
 
@@ -734,9 +751,13 @@ OldaleTown_Text_WaitDontComeInHere:
 	.string "Please don't come in here.\p"
 # 368 "data/maps/OldaleTown/scripts.pory"
 	.string "I just discovered the footprints of\n"
+<<<<<<< HEAD
 # 369 "data/maps/OldaleTown/scripts.pory"
 	.string "a rare POKéMON!\p"
 # 370 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "a rare Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wait until I finish sketching\n"
 # 371 "data/maps/OldaleTown/scripts.pory"
 	.string "them, okay?$"
@@ -746,9 +767,13 @@ OldaleTown_Text_WaitDontComeInHere:
 OldaleTown_Text_DiscoveredFootprints:
 # 374 "data/maps/OldaleTown/scripts.pory"
 	.string "I just discovered the footprints of\n"
+<<<<<<< HEAD
 # 375 "data/maps/OldaleTown/scripts.pory"
 	.string "a rare POKéMON!\p"
 # 376 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "a rare Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wait until I finish sketching\n"
 # 377 "data/maps/OldaleTown/scripts.pory"
 	.string "them, okay?$"
@@ -758,9 +783,13 @@ OldaleTown_Text_DiscoveredFootprints:
 OldaleTown_Text_FinishedSketchingFootprints:
 # 380 "data/maps/OldaleTown/scripts.pory"
 	.string "I finished sketching the footprints of\n"
+<<<<<<< HEAD
 # 381 "data/maps/OldaleTown/scripts.pory"
 	.string "a rare POKéMON.\p"
 # 382 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "a rare Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But it turns out they were only my\n"
 # 383 "data/maps/OldaleTown/scripts.pory"
 	.string "own footprints…$"
@@ -768,9 +797,13 @@ OldaleTown_Text_FinishedSketchingFootprints:
 
 # 385 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_MayLetsGoBack:
+<<<<<<< HEAD
 # 386 "data/maps/OldaleTown/scripts.pory"
 	.string "MAY: {PLAYER}{KUN}!\n"
 # 387 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "May: {PLAYER}{KUN}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Over here!\l"
 # 388 "data/maps/OldaleTown/scripts.pory"
 	.string "Let's hurry home!$"
@@ -778,17 +811,26 @@ OldaleTown_Text_MayLetsGoBack:
 
 # 390 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_BrendanLetsGoBack:
+<<<<<<< HEAD
 # 391 "data/maps/OldaleTown/scripts.pory"
 	.string "BRENDAN: I'm heading back to my dad's\n"
 # 392 "data/maps/OldaleTown/scripts.pory"
 	.string "LAB now.\l"
 # 393 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "Brendan: I'm heading back to my dad's\n"
+	.string "Lab now.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}, you should hustle back, too.$"
 # 394 "data/maps/OldaleTown/scripts.pory"
 
 # 395 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_Text_TownSign:
+<<<<<<< HEAD
 # 396 "data/maps/OldaleTown/scripts.pory"
 	.string "OLDALE TOWN\n"
 # 397 "data/maps/OldaleTown/scripts.pory"
+=======
+	.string "Oldale Town\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Where things start off scarce.”$"

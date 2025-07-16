@@ -148,20 +148,30 @@ SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails:
 SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
 # 75 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Hm?\n"
+<<<<<<< HEAD
 # 76 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Hi, I'm DOCK.\p"
 # 77 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "CAPT. STERN commissioned me to\n"
 # 78 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Hi, I'm Dock.\p"
+	.string "Capt. Stern commissioned me to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "design a ferry.\p"
 # 79 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Oh! That there…\n"
+<<<<<<< HEAD
 # 80 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Are they DEVON GOODS?\p"
 # 81 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Are they Devon Goods?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, hmm…\n"
 # 82 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "This won't do…\p"
+<<<<<<< HEAD
 # 83 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "CAPT. STERN went off somewhere.\n"
 # 84 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
@@ -171,9 +181,16 @@ SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
 # 86 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "STERN and deliver that to him?$"
 # 87 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Capt. Stern went off somewhere.\n"
+	.string "He said he had some work to do.\p"
+	.string "Could I get you to go find Capt.\n"
+	.string "Stern and deliver that to him?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 88 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
+<<<<<<< HEAD
 # 89 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "DOCK: Where could CAPT. STERN have\n"
 # 90 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
@@ -181,14 +198,23 @@ SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
 # 91 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Could you go find CAPT. STERN and\n"
 # 92 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Dock: Where could Capt. Stern have\n"
+	.string "gone off to?\p"
+	.string "Could you go find Capt. Stern and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "deliver that parcel to him?$"
 # 93 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 
 # 94 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
+<<<<<<< HEAD
 # 95 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "DOCK: Shipbuilding is an art.\p"
 # 96 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Dock: Shipbuilding is an art.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "A lot of things can't be figured out\n"
 # 97 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "just by calculating.\p"
@@ -200,6 +226,7 @@ SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
 
 # 101 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
+<<<<<<< HEAD
 # 102 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "DOCK: Hi! MR. BRINEY's joined us to\n"
 # 103 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
@@ -207,16 +234,26 @@ SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
 # 104 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Thanks to the veteran sailor, the\n"
 # 105 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Dock: Hi! Mr. Briney's joined us to\n"
+	.string "lend us his help.\p"
+	.string "Thanks to the veteran Sailor, the\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "ferry is steadily coming together.$"
 # 106 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 
 # 107 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
+<<<<<<< HEAD
 # 108 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "DOCK: The ferry is finally ready!\p"
 # 109 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "The new S.S. TIDAL is truly a marvel\n"
 # 110 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Dock: The ferry is finally ready!\p"
+	.string "The new S.S. Tidal is truly a marvel\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "of technology!\p"
 # 111 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "But, I get the feeling that we can\n"
@@ -230,25 +267,37 @@ SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
 
 # 116 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:
+<<<<<<< HEAD
 # 117 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "MR. BRINEY: Ah, {PLAYER}{KUN}!\n"
 # 118 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "Mr. Briney: Ah, {PLAYER}{KUN}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's been too long!\p"
 # 119 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Aye, since I met you, this old sea dog's\n"
 # 120 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "been feeling frisky!\p"
+<<<<<<< HEAD
 # 121 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "So I've decided to help DOCK make\n"
 # 122 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "So I've decided to help Dock make\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a ferry.\p"
 # 123 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "Aye, after all, a ferry would be able\n"
 # 124 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "to carry a lot of people.\p"
+<<<<<<< HEAD
 # 125 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "But, you know, that DOCK is really\n"
 # 126 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
+=======
+	.string "But, you know, that Dock is really\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "something special.\p"
 # 127 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	.string "With his knack for technology and\n"

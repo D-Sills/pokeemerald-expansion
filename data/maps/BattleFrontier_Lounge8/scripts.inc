@@ -32,9 +32,13 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy::
 
 # 17 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
+<<<<<<< HEAD
 # 18 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "What a TRAINER needs…\p"
 # 19 "data/maps/BattleFrontier_Lounge8/scripts.pory"
+=======
+	.string "What a Trainer needs…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Knowledge…\n"
 # 20 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "Strategy…\l"
@@ -52,14 +56,19 @@ BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
 	.string "Well, I'm all set in every way!\n"
 # 27 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "I'll be unstoppable at every building!\p"
+<<<<<<< HEAD
 # 28 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "Huh? POKéMON?\n"
 # 29 "data/maps/BattleFrontier_Lounge8/scripts.pory"
+=======
+	.string "Huh? Pokémon?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What's that?$"
 # 30 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 
 # 31 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
+<<<<<<< HEAD
 # 32 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "Do you know about the FRONTIER\n"
 # 33 "data/maps/BattleFrontier_Lounge8/scripts.pory"
@@ -71,20 +80,36 @@ BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
 # 36 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "facilities in the BATTLE FRONTIER.$"
 # 37 "data/maps/BattleFrontier_Lounge8/scripts.pory"
+=======
+	.string "Do you know about the Frontier\n"
+	.string "Brains?\p"
+	.string "That's what Scott calls the seven\n"
+	.string "special Trainers that run the seven\l"
+	.string "facilities in the Battle Frontier.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 38 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
+<<<<<<< HEAD
 # 39 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "At the BATTLE TOWER, an older girl\n"
 # 40 "data/maps/BattleFrontier_Lounge8/scripts.pory"
+=======
+	.string "At the Battle Tower, an older girl\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "told me that I have a lot of talent\l"
 # 41 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "for battling!\p"
+<<<<<<< HEAD
 # 42 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "I like POKéMON CONTESTS more!\p"
 # 43 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "But I'm no good at CONTESTS!\p"
 # 44 "data/maps/BattleFrontier_Lounge8/scripts.pory"
+=======
+	.string "I like Pokémon Contests more!\p"
+	.string "But I'm no good at Contests!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I guess having talent and liking\n"
 # 45 "data/maps/BattleFrontier_Lounge8/scripts.pory"
 	.string "something aren't the same.$"

@@ -1856,9 +1856,13 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
 
 # 929 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
+<<<<<<< HEAD
 # 930 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "{PLAYER} has entered the BATTLE DOME!$"
 # 931 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "{PLAYER} has entered the Battle Dome!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 932 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
@@ -1916,9 +1920,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "We have a double knockout!\p"
 # 959 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "In this event, the Battle Tournament\n"
+<<<<<<< HEAD
 # 960 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "rules call for a REFEREE'S decision.\p"
 # 961 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "rules call for a Referee's decision.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please wait while the judging\n"
 # 962 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "is under way.$"
@@ -1926,9 +1934,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 
 # 964 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
+<<<<<<< HEAD
 # 965 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The REFEREES have reached\n"
 # 966 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The Referees have reached\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a decision!\p"
 # 967 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The winner is…\n"
@@ -1942,9 +1954,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
 
 # 972 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
+<<<<<<< HEAD
 # 973 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The REFEREES have reached\n"
 # 974 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The Referees have reached\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a decision!\p"
 # 975 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The winner is…\n"
@@ -1974,9 +1990,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 
 # 988 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
+<<<<<<< HEAD
 # 989 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Will this TRAINER race to\n"
 # 990 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Will this Trainer race to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the championship?\p"
 # 991 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
@@ -2004,9 +2024,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 
 # 1003 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
+<<<<<<< HEAD
 # 1004 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The TRAINER is on fire for\n"
 # 1005 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The Trainer is on fire for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the first championship try!\p"
 # 1006 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
@@ -2014,9 +2038,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 
 # 1008 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
+<<<<<<< HEAD
 # 1009 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "A win here means this TRAINER\n"
 # 1010 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "A win here means this Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "advances to the final!\p"
 # 1011 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
@@ -2044,9 +2072,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 # 1023 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Can anyone hope to beat this\n"
+<<<<<<< HEAD
 # 1024 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TRAINER?\p"
 # 1025 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Trainer?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "$"
 # 1026 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 
@@ -2054,9 +2086,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 # 1028 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Do battles exist solely for\n"
+<<<<<<< HEAD
 # 1029 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "this TRAINER?\p"
 # 1030 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "this Trainer?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "$"
 # 1031 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 
@@ -2088,9 +2124,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
 
 # 1045 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
+<<<<<<< HEAD
 # 1046 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Will this TRAINER do as expected\n"
 # 1047 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Will this Trainer do as expected\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and advance to the finals?\p"
 # 1048 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "$"
@@ -2114,12 +2154,17 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 
 # 1058 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
+<<<<<<< HEAD
 # 1059 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "And now… The TRAINER standing in\n"
 # 1060 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "And now… The Trainer standing in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}'s record-setting path…\p"
 # 1061 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Yes! The one and only!\n"
+<<<<<<< HEAD
 # 1062 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The BATTLE DOME COMMISSIONER!\l"
 # 1063 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2127,20 +2172,34 @@ BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 # 1064 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Make way for TUCKER!$"
 # 1065 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The Battle Dome Commissioner!\l"
+	.string "Our very own Dome Ace!\l"
+	.string "Make way for Tucker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1066 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
+<<<<<<< HEAD
 # 1067 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Spectators: TUCKER! TUCKER!\n"
 # 1068 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TUCKER! TUCKER! TUCKER!$"
 # 1069 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Spectators: Tucker! Tucker!\n"
+	.string "Tucker! Tucker! Tucker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1070 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
+<<<<<<< HEAD
 # 1071 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TUCKER: Ahahah!\p"
 # 1072 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Tucker: Ahahah!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Do you hear it? This crowd!\n"
 # 1073 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "They're all itching to see our match!\p"
@@ -2152,11 +2211,16 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "the tension of getting to battle me!\p"
 # 1077 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "But don't you worry about a thing!\p"
+<<<<<<< HEAD
 # 1078 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "I'm the no. 1 star of the BATTLE DOME!\n"
 # 1079 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "I, TUCKER the DOME ACE, will bathe you\l"
 # 1080 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "I'm the no. 1 star of the Battle Dome!\n"
+	.string "I, Tucker the Dome Ace, will bathe you\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in my brilliant glow!$"
 # 1081 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 
@@ -2178,6 +2242,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
 
 # 1090 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
+<<<<<<< HEAD
 # 1091 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The winner is TUCKER!\n"
 # 1092 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2185,22 +2250,36 @@ BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
 # 1093 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Congratulations, TUCKER!$"
 # 1094 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The winner is Tucker!\n"
+	.string "The Dome Ace has prevailed!\p"
+	.string "Congratulations, Tucker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1095 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
+<<<<<<< HEAD
 # 1096 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TUCKER: Rules are rules!\n"
 # 1097 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Let me see your FRONTIER PASS.$"
 # 1098 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Tucker: Rules are rules!\n"
+	.string "Let me see your Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1099 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
 # 1100 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The Tactics Symbol was embossed on\n"
+<<<<<<< HEAD
 # 1101 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "the FRONTIER PASS!$"
 # 1102 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "the Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1103 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
@@ -2224,33 +2303,50 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 # 1113 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Ladies and gentlemen!\n"
+<<<<<<< HEAD
 # 1114 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Boys, girls, and POKéMON!\p"
 # 1115 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Boys, girls, and Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Finally!\n"
 # 1116 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Finally, the legend has returned!\p"
 # 1117 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Yes, the name of that legend!\n"
+<<<<<<< HEAD
 # 1118 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Our very own DOME ACE!\l"
 # 1119 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "It's none other than TUCKER!$"
 # 1120 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Our very own Dome Ace!\l"
+	.string "It's none other than Tucker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1121 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
+<<<<<<< HEAD
 # 1122 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TUCKER: Ah…\n"
 # 1123 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Tucker: Ah…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The pummeling roar of the crowd…\l"
 # 1124 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Their furnace-like heat of excitement…\l"
 # 1125 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "This is a wonderful place…\p"
+<<<<<<< HEAD
 # 1126 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "To the crowd, I am the DOME ACE…\n"
 # 1127 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "To the crowd, I am the Dome Ace…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I represent their hopes and dreams…\l"
 # 1128 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "I must never fade from their sight…\p"
@@ -2272,17 +2368,25 @@ BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
 
 # 1137 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
+<<<<<<< HEAD
 # 1138 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "TUCKER: You're genuinely fantastic!\p"
 # 1139 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Tucker: You're genuinely fantastic!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Never before! I haven't ever lost in the\n"
 # 1140 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "times I've had to unleash my power.\p"
 # 1141 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Yes, quite fantastic!\n"
+<<<<<<< HEAD
 # 1142 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Your FRONTIER PASS, please?$"
 # 1143 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "Your Frontier Pass, please?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1144 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
@@ -2336,22 +2440,31 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 # 1169 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The final match!\p"
+<<<<<<< HEAD
 # 1170 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "{PLAYER} versus the DOME ACE, TUCKER!\p"
 # 1171 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "{PLAYER} versus the Dome Ace, Tucker!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Let the battle begin!$"
 # 1172 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 
 # 1173 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
+<<<<<<< HEAD
 # 1174 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The REFEREES have reached\n"
 # 1175 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
+=======
+	.string "The Referees have reached\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a decision!\p"
 # 1176 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The winner is…\n"
 # 1177 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Oh, my goodness!\l"
+<<<<<<< HEAD
 # 1178 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "The winner is our very own DOME ACE!\l"
 # 1179 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
@@ -2360,3 +2473,9 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 	.string "Congratulations! And thank you!\n"
 # 1181 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	.string "Let's hear it for the DOME ACE, TUCKER!$"
+=======
+	.string "The winner is our very own Dome Ace!\l"
+	.string "It's Tucker!\p"
+	.string "Congratulations! And thank you!\n"
+	.string "Let's hear it for the Dome Ace, Tucker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

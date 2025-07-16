@@ -88,6 +88,7 @@ MauvilleCity_House2_EventScript_DeclineTrade::
 
 # 45 "data/maps/MauvilleCity_House2/scripts.pory"
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
+<<<<<<< HEAD
 # 46 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "If I had a BIKE, it'd be easy to cycle to\n"
 # 47 "data/maps/MauvilleCity_House2/scripts.pory"
@@ -97,36 +98,62 @@ MauvilleCity_House2_Text_BuyHarborMailAtSlateport:
 # 49 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "POKéMON MART in SLATEPORT…$"
 # 50 "data/maps/MauvilleCity_House2/scripts.pory"
+=======
+	.string "If I had a bike, it'd be easy to cycle to\n"
+	.string "Slateport for some shopping.\p"
+	.string "I'd be able to buy Harbor Mail at the\n"
+	.string "Poké Mart in Slateport…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 51 "data/maps/MauvilleCity_House2/scripts.pory"
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase:
+<<<<<<< HEAD
 # 52 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "Oh! You have HARBOR MAIL?\n"
 # 53 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "Will you trade it for a COIN CASE?$"
 # 54 "data/maps/MauvilleCity_House2/scripts.pory"
+=======
+	.string "Oh! You have Harbor Mail?\n"
+	.string "Will you trade it for a Coin Case?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 55 "data/maps/MauvilleCity_House2/scripts.pory"
 MauvilleCity_House2_Text_IllTradeYouCoinCase:
 # 56 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "Oh, I'm so happy!\n"
+<<<<<<< HEAD
 # 57 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "Okay, I'll trade you a COIN CASE!$"
 # 58 "data/maps/MauvilleCity_House2/scripts.pory"
+=======
+	.string "Okay, I'll trade you a Coin Case!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 59 "data/maps/MauvilleCity_House2/scripts.pory"
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
+<<<<<<< HEAD
 # 60 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "That COIN CASE can be used\n"
 # 61 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "at the GAME CORNER.$"
 # 62 "data/maps/MauvilleCity_House2/scripts.pory"
+=======
+	.string "That Coin Case can be used\n"
+	.string "at the Game Corner.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 63 "data/maps/MauvilleCity_House2/scripts.pory"
 MauvilleCity_House2_Text_ThatsDisappointing:
 # 64 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "Oh, that's disappointing.\p"
+<<<<<<< HEAD
 # 65 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "A COIN CASE is needed for the\n"
 # 66 "data/maps/MauvilleCity_House2/scripts.pory"
 	.string "GAME CORNER.$"
+=======
+	.string "A Coin Case is needed for the\n"
+	.string "Game Corner.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -84,11 +84,16 @@ MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
 
 # 43 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
+<<<<<<< HEAD
 # 44 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "When I accessed the RECORD CORNER,\n"
 # 45 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "the data for what's hot in DEWFORD\l"
 # 46 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "When I accessed the Record Corner,\n"
+	.string "the data for what's hot in Dewford\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "got updated.\p"
 # 47 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Now that bit of data is the same\n"
@@ -98,11 +103,16 @@ MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
 
 # 50 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
+<<<<<<< HEAD
 # 51 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "A RECORD CORNER opened upstairs in\n"
 # 52 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "the POKéMON CENTER.\p"
 # 53 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "A Record Corner opened upstairs in\n"
+	.string "the Pokémon Center.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I don't know what it's about, but it\n"
 # 54 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "sounds fun. I'll go check it out!$"

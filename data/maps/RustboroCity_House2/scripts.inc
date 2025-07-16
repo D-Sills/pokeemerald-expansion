@@ -24,6 +24,7 @@ RustboroCity_House2_EventScript_LittleGirl::
 
 # 13 "data/maps/RustboroCity_House2/scripts.pory"
 RustboroCity_House2_Text_TrainerSchoolExcellent:
+<<<<<<< HEAD
 # 14 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "The TRAINER'S SCHOOL is excellent.\p"
 # 15 "data/maps/RustboroCity_House2/scripts.pory"
@@ -31,12 +32,22 @@ RustboroCity_House2_Text_TrainerSchoolExcellent:
 # 16 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "become a GYM LEADER.$"
 # 17 "data/maps/RustboroCity_House2/scripts.pory"
+=======
+	.string "The Trainer's School is excellent.\p"
+	.string "If you study there, you could even\n"
+	.string "become a Gym Leader.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 18 "data/maps/RustboroCity_House2/scripts.pory"
 RustboroCity_House2_Text_RoxanneKnowsALot:
+<<<<<<< HEAD
 # 19 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "ROXANNE, the GYM LEADER, really knows\n"
 # 20 "data/maps/RustboroCity_House2/scripts.pory"
 	.string "a lot about POKéMON.\p"
 # 21 "data/maps/RustboroCity_House2/scripts.pory"
+=======
+	.string "Roxanne, the Gym Leader, really knows\n"
+	.string "a lot about Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "She's really strong, too!$"

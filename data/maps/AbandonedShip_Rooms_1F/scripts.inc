@@ -104,9 +104,13 @@ AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
 
 # 53 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
+<<<<<<< HEAD
 # 54 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	.string "You're such a tough TRAINER!\n"
 # 55 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
+=======
+	.string "You're such a tough Trainer!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Let me register you as a memento!$"
 # 56 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 

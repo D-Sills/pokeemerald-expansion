@@ -88,9 +88,13 @@ Route105_EventScript_Dominik::
 Route105_EventScript_Beverly::
 # 45 "data/maps/Route105/scripts.pory"
 	trainerbattle_single TRAINER_BEVERLY, Route105_Text_BeverlyIntro, Route105_Text_BeverlyDefeated
+<<<<<<< HEAD
 # 46 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_PostBattle, MSGBOX_AUTOCLOSE
 # 47 "data/maps/Route105/scripts.pory"
+=======
+	msgbox Route105_Text_BeverlyPostBattle, MSGBOX_AUTOCLOSE
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	end
 # 48 "data/maps/Route105/scripts.pory"
 
@@ -162,19 +166,28 @@ Route104_Text_DadPokenavCall:
 	.string "… … … … … …\n"
 # 82 "data/maps/Route105/scripts.pory"
 	.string "… … … … … Beep!\p"
+<<<<<<< HEAD
 # 83 "data/maps/Route105/scripts.pory"
 	.string "DAD: Oh, {PLAYER}?\p"
 # 84 "data/maps/Route105/scripts.pory"
+=======
+	.string "Dad: Oh, {PLAYER}?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\n"
 # 85 "data/maps/Route105/scripts.pory"
 	.string "Where are you now?\l"
 # 86 "data/maps/Route105/scripts.pory"
 	.string "It sounds windy wherever you are.\p"
+<<<<<<< HEAD
 # 87 "data/maps/Route105/scripts.pory"
 	.string "I just heard from DEVON's MR. STONE\n"
 # 88 "data/maps/Route105/scripts.pory"
 	.string "about your POKéNAV, so I decided\l"
 # 89 "data/maps/Route105/scripts.pory"
+=======
+	.string "I just heard from Devon's Mr. Stone\n"
+	.string "about your PokéNav, so I decided\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to give you a call.\p"
 # 90 "data/maps/Route105/scripts.pory"
 	.string "It sounds like you're doing fine,\n"
@@ -190,7 +203,12 @@ Route104_Text_DadPokenavCall:
 
 # 96 "data/maps/Route105/scripts.pory"
 Route104_Text_RegisteredDadInPokenav:
+<<<<<<< HEAD
 # 97 "data/maps/Route105/scripts.pory"
 	.string "Registered DAD NORMAN\n"
 # 98 "data/maps/Route105/scripts.pory"
 	.string "in the POKéNAV.$"
+=======
+	.string "Registered Dad\n"
+	.string "in the PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

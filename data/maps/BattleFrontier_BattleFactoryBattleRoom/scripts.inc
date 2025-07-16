@@ -500,6 +500,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
 
 # 251 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
+<<<<<<< HEAD
 # 252 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "Hey, my name's NOLAND!\n"
 # 253 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -507,6 +508,11 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 # 254 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "which is why I'm the FACTORY HEAD!\p"
 # 255 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "Hey, my name's Noland!\n"
+	.string "I'm basically in charge of this place,\l"
+	.string "which is why I'm the Factory Head!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I had a look at your Battle Swap data.\p"
 # 256 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "You seem to have the right idea,\n"
@@ -528,9 +534,13 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "I'll take you on under the same\n"
 # 265 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "conditions as you.\p"
+<<<<<<< HEAD
 # 266 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "I'll be using rental POKéMON, too!$"
 # 267 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "I'll be using rental Pokémon, too!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 268 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
@@ -542,19 +552,28 @@ BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
 
 # 272 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
+<<<<<<< HEAD
 # 273 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "NOLAND: Smart going!\n"
 # 274 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "Let's see your FRONTIER PASS.$"
 # 275 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "Noland: Smart going!\n"
+	.string "Let's see your Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 276 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
 # 277 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "The Knowledge Symbol was embossed\n"
+<<<<<<< HEAD
 # 278 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "on the FRONTIER PASS!$"
 # 279 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "on the Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 280 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
@@ -572,9 +591,13 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
 
 # 287 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
+<<<<<<< HEAD
 # 288 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "NOLAND: Hey, hey! How's it going?\n"
 # 289 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "Noland: Hey, hey! How's it going?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You keeping up with your studies?\p"
 # 290 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "…Oh?\p"
@@ -598,15 +621,23 @@ BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
 
 # 300 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
+<<<<<<< HEAD
 # 301 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "NOLAND: What the…\n"
 # 302 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "Noland: What the…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You're getting out of my league!\p"
 # 303 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "Sheesh!\n"
+<<<<<<< HEAD
 # 304 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	.string "Let's see that FRONTIER PASS!$"
 # 305 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	.string "Let's see that Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 306 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:

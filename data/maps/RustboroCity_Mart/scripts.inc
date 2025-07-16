@@ -134,6 +134,7 @@ RustboroCity_Mart_EventScript_BugCatcher::
 
 # 68 "data/maps/RustboroCity_Mart/scripts.pory"
 RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
+<<<<<<< HEAD
 # 69 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "I'm buying some PARLYZ HEALS and\n"
 # 70 "data/maps/RustboroCity_Mart/scripts.pory"
@@ -143,9 +144,16 @@ RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish:
 # 72 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "in PETALBURG WOODS.$"
 # 73 "data/maps/RustboroCity_Mart/scripts.pory"
+=======
+	.string "I'm buying some Paralyze Heals and\n"
+	.string "Antidotes.\p"
+	.string "Just in case I run into Shroomish\n"
+	.string "in Petalburg Woods.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 74 "data/maps/RustboroCity_Mart/scripts.pory"
 RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
+<<<<<<< HEAD
 # 75 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "My POKéMON evolved.\n"
 # 76 "data/maps/RustboroCity_Mart/scripts.pory"
@@ -155,12 +163,22 @@ RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead:
 # 78 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "instead of ordinary POTIONS.$"
 # 79 "data/maps/RustboroCity_Mart/scripts.pory"
+=======
+	.string "My Pokémon evolved.\n"
+	.string "It has a lot of HP now.\p"
+	.string "I should buy Super Potions for it\n"
+	.string "instead of ordinary Potions.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 80 "data/maps/RustboroCity_Mart/scripts.pory"
 RustboroCity_Mart_Text_GettingEscapeRopeJustInCase:
+<<<<<<< HEAD
 # 81 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "I'm getting an ESCAPE ROPE just in\n"
 # 82 "data/maps/RustboroCity_Mart/scripts.pory"
+=======
+	.string "I'm getting an Escape Rope just in\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "case I get lost in a cave.\p"
 # 83 "data/maps/RustboroCity_Mart/scripts.pory"
 	.string "I just need to use it to get back to\n"

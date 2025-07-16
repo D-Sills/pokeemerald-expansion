@@ -70,11 +70,16 @@ LavaridgeTown_Mart_EventScript_OldWoman::
 
 # 36 "data/maps/LavaridgeTown_Mart/scripts.pory"
 LavaridgeTown_Mart_Text_XSpeedFirstStrike:
+<<<<<<< HEAD
 # 37 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "Use X SPEED to add to a POKéMON's\n"
 # 38 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "SPEED in battle.\p"
 # 39 "data/maps/LavaridgeTown_Mart/scripts.pory"
+=======
+	.string "Use X Speed to add to a Pokémon's\n"
+	.string "Speed in battle.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That will help it get in the first\n"
 # 40 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "strike--a decided advantage!$"
@@ -82,9 +87,16 @@ LavaridgeTown_Mart_Text_XSpeedFirstStrike:
 
 # 42 "data/maps/LavaridgeTown_Mart/scripts.pory"
 LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney:
+<<<<<<< HEAD
 # 43 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "On MT. CHIMNEY's peak, there's a local\n"
 # 44 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "specialty that you can buy only there.\p"
 # 45 "data/maps/LavaridgeTown_Mart/scripts.pory"
 	.string "Give it to a POKéMON--it will be elated.$"
+=======
+	.string "On Mt. Chimney's peak, there's a local\n"
+	.string "specialty that you can buy only there.\p"
+	.string "Give it to a Pokémon--it will be elated.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

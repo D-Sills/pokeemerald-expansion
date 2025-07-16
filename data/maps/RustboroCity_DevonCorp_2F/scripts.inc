@@ -544,9 +544,13 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 # 273 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "We're developing a device for talking\n"
+<<<<<<< HEAD
 # 274 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "with POKéMON.\p"
 # 275 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "with Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But we haven't had much success…$"
 # 276 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -554,16 +558,22 @@ RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
 # 278 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "I'm developing new kinds of\n"
+<<<<<<< HEAD
 # 279 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "POKé BALLS…\p"
 # 280 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "But I haven't made much headway…$"
 # 281 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Poké Balls…\p"
+	.string "But I've only made a little headway…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 282 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 # 283 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "We finally made new kinds of\n"
+<<<<<<< HEAD
 # 284 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "POKé BALLS!\p"
 # 285 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
@@ -579,14 +589,27 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 # 290 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "the DEVON CORPORATION.\p"
 # 291 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Poké Balls!\p"
+	.string "The Repeat Ball makes it easier to\n"
+	.string "catch Pokémon you've caught before.\p"
+	.string "The Timer Ball gets better at catching\n"
+	.string "Pokémon the longer a battle runs.\p"
+	.string "Both are proudly developed by\n"
+	.string "the Devon Corporation.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please give them a try!$"
 # 292 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
 # 293 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
+<<<<<<< HEAD
 # 294 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "I made the POKéNAV!\p"
 # 295 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "I made the PokéNav!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "As an engineer, I feel blessed to have\n"
 # 296 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "made something so great!$"
@@ -596,6 +619,7 @@ RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 # 299 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Oh, wow!\n"
+<<<<<<< HEAD
 # 300 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "That's a POKéNAV!\p"
 # 301 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
@@ -605,14 +629,24 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 # 303 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "the feelings of POKéMON.\p"
 # 304 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "That's a PokéNav!\p"
+	.string "It came about as a result of our\n"
+	.string "President's desire to learn about\l"
+	.string "the feelings of Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like me to describe its\n"
 # 305 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "features in detail?\p"
 # 306 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "No, no. I think you'll find out just by\n"
+<<<<<<< HEAD
 # 307 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "trying the POKéNAV out.$"
 # 308 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "trying the PokéNav out.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 309 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
@@ -620,9 +654,13 @@ RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string "I'm trying to develop a device that\n"
 # 311 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "visually reproduces the dreams of\l"
+<<<<<<< HEAD
 # 312 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "POKéMON…\p"
 # 313 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Pokémon…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But it's not going well.$"
 # 314 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -630,9 +668,13 @@ RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 # 316 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "I've been trying to develop a device\n"
+<<<<<<< HEAD
 # 317 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "that resurrects POKéMON from fossils…\p"
 # 318 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "that resurrects Pokémon from fossils…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And, it's working!$"
 # 319 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -640,25 +682,38 @@ RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 # 321 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Wait! That thing you have there…\n"
+<<<<<<< HEAD
 # 322 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Is that a POKéMON fossil?\p"
 # 323 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Would you like to bring that POKéMON\n"
 # 324 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Is that a Pokémon fossil?\p"
+	.string "Would you like to bring that Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "back to life?\p"
 # 325 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "I can with my newly developed\n"
+<<<<<<< HEAD
 # 326 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "FOSSIL REGENERATOR.$"
 # 327 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Fossil Regenerator.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 328 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 # 329 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Oh, is that so?\p"
+<<<<<<< HEAD
 # 330 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "DEVON's technological expertise\n"
 # 331 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Devon's technological expertise\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is outstanding, I tell you.$"
 # 332 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -670,9 +725,13 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "You have not one, but two, fossils?\p"
 # 336 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Unfortunately, my machine can only\n"
+<<<<<<< HEAD
 # 337 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "regenerate one POKéMON at a time.\p"
 # 338 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "regenerate one Pokémon at a time.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like to pick one of your\n"
 # 339 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "fossils for regeneration?$"
@@ -686,15 +745,23 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 	.string "Let's do this right away.\p"
 # 344 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "{PLAYER} handed the {STR_VAR_1} to\n"
+<<<<<<< HEAD
 # 345 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "the DEVON RESEARCHER.$"
 # 346 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "the Devon Researcher.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 347 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
+<<<<<<< HEAD
 # 348 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "The FOSSIL REGENERATOR, which I made,\n"
 # 349 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "The Fossil Regenerator, which I made,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is incredible.\p"
 # 350 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "But it has one drawback--it takes\n"
@@ -710,6 +777,7 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 # 356 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Thanks for waiting!\p"
+<<<<<<< HEAD
 # 357 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Your fossilized POKéMON has been\n"
 # 358 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
@@ -717,6 +785,11 @@ RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 # 359 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "The fossil was an ancient POKéMON.\n"
 # 360 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Your fossilized Pokémon has been\n"
+	.string "brought back to life!\p"
+	.string "The fossil was an ancient Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_2}, it was!$"
 # 361 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -724,17 +797,25 @@ RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 # 363 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "{PLAYER} received {STR_VAR_2} from\n"
+<<<<<<< HEAD
 # 364 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "the DEVON RESEARCHER.$"
 # 365 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "the Devon Researcher.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 366 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 @ Unused
 # 367 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
+<<<<<<< HEAD
 # 368 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "Uh-oh, you've got too many POKéMON.\n"
 # 369 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "Uh-oh, you've got too many Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You have no room for this one.$"
 # 370 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 
@@ -742,9 +823,13 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 # 372 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "I'm trying to develop a new feature\n"
+<<<<<<< HEAD
 # 373 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 	.string "for the POKéNAV…\p"
 # 374 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
+=======
+	.string "for the PokéNav…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But it's not going well.$"
 # 375 "data/maps/RustboroCity_DevonCorp_2F/scripts.pory"
 

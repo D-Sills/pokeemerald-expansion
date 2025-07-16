@@ -194,19 +194,28 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 
 # 98 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
+<<<<<<< HEAD
 # 99 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Hold on, lass!\n"
 # 100 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "Wait up, PEEKO!$"
 # 101 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Hold on, lass!\n"
+	.string "Wait up, Peeko!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 102 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 # 103 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "Hm? You're {PLAYER}{KUN}!\n"
+<<<<<<< HEAD
 # 104 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "You saved my darling PEEKO!\l"
 # 105 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "You saved my darling Peeko!\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We owe so much to you!\p"
 # 106 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "What's that?\n"
@@ -214,11 +223,16 @@ Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 	.string "You want to sail with me?\p"
 # 108 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "Hmhm…\p"
+<<<<<<< HEAD
 # 109 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "You have a LETTER bound for DEWFORD\n"
 # 110 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "and a package for SLATEPORT, then?\p"
 # 111 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "You have a Letter bound for Dewford\n"
+	.string "and a package for Slateport, then?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Quite the busy life you must lead!\p"
 # 112 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "But, certainly, what you're asking is\n"
@@ -226,12 +240,17 @@ Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 	.string "no problem at all.\p"
 # 114 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "You've come to the right man!\n"
+<<<<<<< HEAD
 # 115 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "We'll set sail for DEWFORD.$"
 # 116 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "We'll set sail for Dewford.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 117 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_SetSailForDewford:
+<<<<<<< HEAD
 # 118 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: DEWFORD it is, then!\p"
 # 119 "data/maps/Route104_MrBrineysHouse/scripts.pory"
@@ -239,12 +258,21 @@ Route104_MrBrineysHouse_Text_SetSailForDewford:
 # 120 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "PEEKO, we're setting sail, my darling!$"
 # 121 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Dewford it is, then!\p"
+	.string "Anchors aweigh!\n"
+	.string "Peeko, we're setting sail, my darling!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 122 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
+<<<<<<< HEAD
 # 123 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Is that so?\n"
 # 124 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Is that so?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Your deliveries can wait?\p"
 # 125 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "You just go on and tell me whenever\n"
@@ -254,6 +282,7 @@ Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 
 # 128 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
+<<<<<<< HEAD
 # 129 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 130 "data/maps/Route104_MrBrineysHouse/scripts.pory"
@@ -263,36 +292,62 @@ Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
 # 132 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "and a package to SLATEPORT.\p"
 # 133 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+	.string "I know exactly what you want to say!\p"
+	.string "You're to deliver a Letter to Dewford\n"
+	.string "and a package to Slateport.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What you need me to do is no problem\n"
 # 134 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "at all--I'm the man for the job!\p"
+<<<<<<< HEAD
 # 135 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "First, we'll set sail for DEWFORD.$"
 # 136 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "First, we'll set sail for Dewford.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 137 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
+<<<<<<< HEAD
 # 138 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 139 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I know exactly what you want to say!\p"
 # 140 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "You're to deliver a package to\n"
+<<<<<<< HEAD
 # 141 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "CAPT. STERN in SLATEPORT.\p"
 # 142 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Capt. Stern in Slateport.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What you need me to do is no problem\n"
 # 143 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "at all--I'm the man for the job!\p"
+<<<<<<< HEAD
 # 144 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "First, we'll set sail for DEWFORD.$"
 # 145 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "First, we'll set sail for Dewford.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 146 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
+<<<<<<< HEAD
 # 147 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 148 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "For you, I'll go out to sea anytime!\p"
 # 149 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "Now, my friend, where are we bound?$"
@@ -300,11 +355,16 @@ Route104_MrBrineysHouse_Text_WhereAreWeBound:
 
 # 151 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
+<<<<<<< HEAD
 # 152 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "MR. BRINEY: Is that so?\n"
 # 153 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "Well, PEEKO owes her life to you.\p"
 # 154 "data/maps/Route104_MrBrineysHouse/scripts.pory"
+=======
+	.string "Mr. Briney: Is that so?\n"
+	.string "Well, Peeko owes her life to you.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You just go on and tell me whenever\n"
 # 155 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "you want to set sail!$"
@@ -312,5 +372,10 @@ Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 
 # 157 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_Text_Peeko:
+<<<<<<< HEAD
 # 158 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	.string "PEEKO: Pii piihyoro!$"
+=======
+	.string "Peeko: Pii piihyoro!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

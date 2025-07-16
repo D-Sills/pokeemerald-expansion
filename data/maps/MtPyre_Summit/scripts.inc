@@ -848,9 +848,13 @@ MtPyre_Summit_EventScript_Grunt4::
 
 # 425 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_Grunt1Intro:
+<<<<<<< HEAD
 # 426 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "No! Those TEAM MAGMA goons got\n"
 # 427 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "No! Those Team Magma goons got\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "here ahead of us!\p"
 # 428 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "We can't fall behind!$"
@@ -858,9 +862,13 @@ MtPyre_Summit_Text_Grunt1Intro:
 
 # 430 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_Grunt1Defeat:
+<<<<<<< HEAD
 # 431 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "I thought you were one of the MAGMAS\n"
 # 432 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "I thought you were one of the Magmas\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who happened to come back…$"
 # 433 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -880,9 +888,13 @@ MtPyre_Summit_Text_Grunt2Intro:
 	.string "Too bad for you!\p"
 # 441 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "If you came earlier, you only would've\n"
+<<<<<<< HEAD
 # 442 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "had to battle the wimpy TEAM MAGMA.\p"
 # 443 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "had to battle the wimpy Team Magma.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But since you arrived now, you have\n"
 # 444 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "to take on us toughies!$"
@@ -892,9 +904,13 @@ MtPyre_Summit_Text_Grunt2Intro:
 MtPyre_Summit_Text_Grunt2Defeat:
 # 447 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Urgh… I should've let you take on\n"
+<<<<<<< HEAD
 # 448 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "TEAM MAGMA first…$"
 # 449 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Team Magma first…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 450 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_Grunt2PostBattle:
@@ -908,11 +924,16 @@ MtPyre_Summit_Text_Grunt2PostBattle:
 MtPyre_Summit_Text_Grunt3Intro:
 # 455 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "You…\n"
+<<<<<<< HEAD
 # 456 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "We saw you at MT. CHIMNEY.\p"
 # 457 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "You don't belong to either TEAM,\n"
 # 458 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "We saw you at Mt. Chimney.\p"
+	.string "You don't belong to either team,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so why would you be here?$"
 # 459 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -920,9 +941,13 @@ MtPyre_Summit_Text_Grunt3Intro:
 MtPyre_Summit_Text_Grunt3Defeat:
 # 461 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "If you're going to mess with anyone,\n"
+<<<<<<< HEAD
 # 462 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "let it be TEAM MAGMA…$"
 # 463 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "let it be Team Magma…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 464 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_Grunt3PostBattle:
@@ -930,9 +955,13 @@ MtPyre_Summit_Text_Grunt3PostBattle:
 	.string "Heh, it doesn't matter!\n"
 # 466 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "We bought ourselves some time!\p"
+<<<<<<< HEAD
 # 467 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The BOSS should have snatched what\n"
 # 468 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "The boss should have snatched what\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "he was after!$"
 # 469 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -940,21 +969,33 @@ MtPyre_Summit_Text_Grunt3PostBattle:
 MtPyre_Summit_Text_Grunt4Intro:
 # 471 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Oh, I know!\n"
+<<<<<<< HEAD
 # 472 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "You tried to join TEAM MAGMA,\l"
 # 473 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "You tried to join Team Magma,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but they wouldn't have you!\p"
 # 474 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Well, don't think that we'll let you\n"
+<<<<<<< HEAD
 # 475 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "join our TEAM AQUA!$"
 # 476 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "join our Team Aqua!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 477 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_Grunt4Defeat:
+<<<<<<< HEAD
 # 478 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "If you want to join TEAM AQUA that\n"
 # 479 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "If you want to join Team Aqua that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "badly, we can consider it…$"
 # 480 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -968,6 +1009,7 @@ MtPyre_Summit_Text_Grunt4PostBattle:
 
 # 485 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
+<<<<<<< HEAD
 # 486 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "ARCHIE: TEAM MAGMA's MAXIE got ahead\n"
 # 487 "data/maps/MtPyre_Summit/scripts.pory"
@@ -977,12 +1019,22 @@ MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo:
 # 489 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "I, ARCHIE, now have it in my possession!\p"
 # 490 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Archie: Team Magma's Maxie got ahead\n"
+	.string "of us, but we also got what we wanted.\p"
+	.string "The Red Orb preserved at Mt. Pyre…\n"
+	.string "I, Archie, now have it in my possession!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Fufufu… Now we can bring our ultimate\n"
 # 491 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "objective to fruition!\p"
+<<<<<<< HEAD
 # 492 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Okay, TEAM!\n"
 # 493 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Okay, Team Aqua!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We're pulling out!$"
 # 494 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -992,6 +1044,7 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 	.string "Oh, no…\n"
 # 497 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "This cannot happen…\p"
+<<<<<<< HEAD
 # 498 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Not only the BLUE ORB, but even\n"
 # 499 "data/maps/MtPyre_Summit/scripts.pory"
@@ -999,20 +1052,34 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 # 500 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The BLUE ORB and RED ORB must never\n"
 # 501 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Not only the Blue Orb, but even\n"
+	.string "the Red Orb has been taken…\p"
+	.string "The Blue Orb and Red Orb must never\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "be separated. They belong together.\p"
 # 502 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "What are those men trying to do with\n"
+<<<<<<< HEAD
 # 503 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "the two ORBS?\p"
 # 504 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "the two Orbs?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\n"
 # 505 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "… … … … … …\p"
+<<<<<<< HEAD
 # 506 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Oh, yes. Was it TEAM MAGMA who came\n"
 # 507 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "and took the BLUE ORB first?\p"
 # 508 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Oh, yes. Was it Team Magma who came\n"
+	.string "and took the Blue Orb first?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Well, in their haste, they left this\n"
 # 509 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "behind.\p"
@@ -1028,9 +1095,13 @@ MtPyre_Summit_Text_BothOrbsTakenMagmaLeftThis:
 
 # 515 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_OrbsHaveBeenTaken:
+<<<<<<< HEAD
 # 516 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The BLUE ORB and RED ORB taken by\n"
 # 517 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "The Blue Orb and Red Orb taken by\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "those sinister men…\p"
 # 518 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "They must never be apart…\n"
@@ -1042,6 +1113,7 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 # 522 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Oh, my goodness…\p"
+<<<<<<< HEAD
 # 523 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "You say that both GROUDON and KYOGRE\n"
 # 524 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1065,12 +1137,29 @@ MtPyre_Summit_Text_GroudonKyogreAwakened:
 # 533 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "a POKéMON, but no one knows.$"
 # 534 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "You say that both Groudon and Kyogre\n"
+	.string "have been awakened?\p"
+	.string "It is said that the Blue Orb and\n"
+	.string "the Red Orb quelled the rage of\l"
+	.string "the two Pokémon…\p"
+	.string "It is also said that the true owner\n"
+	.string "of the Orbs still exists.\p"
+	.string "However, no one knows who, or what\n"
+	.string "exactly, the Orbs belong to.\p"
+	.string "It could be a human, or perhaps\n"
+	.string "a Pokémon, but no one knows.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 535 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_ThoseTwoMenReturnedOrbs:
+<<<<<<< HEAD
 # 536 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The two men who took the ORBS came\n"
 # 537 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "The two men who took the Orbs came\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "back to return them on their own.\p"
 # 538 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Those men…\n"
@@ -1086,6 +1175,7 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 	.string "and the sky…\p"
 # 544 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "That is said to be the identities of\n"
+<<<<<<< HEAD
 # 545 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "the super-ancient POKéMON…\p"
 # 546 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1097,11 +1187,19 @@ MtPyre_Summit_Text_SuperAncientPokemonTaughtUs:
 # 549 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The super-ancient POKéMON have\n"
 # 550 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "the super-ancient Pokémon…\p"
+	.string "In the same way that we humans and\n"
+	.string "Pokémon have life, our world, too,\l"
+	.string "is alive…\p"
+	.string "The super-ancient Pokémon have\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "taught us that…$"
 # 551 "data/maps/MtPyre_Summit/scripts.pory"
 
 # 552 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_WillYouHearOutMyTale:
+<<<<<<< HEAD
 # 553 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "MT. PYRE is where we calm the spirits\n"
 # 554 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1113,14 +1211,25 @@ MtPyre_Summit_Text_WillYouHearOutMyTale:
 # 557 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The disembodied spirits of POKéMON\n"
 # 558 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Mt. Pyre is where we calm the spirits\n"
+	.string "of Pokémon that have passed on…\p"
+	.string "This is a high place where one can\n"
+	.string "see all of Hoenn…\p"
+	.string "The disembodied spirits of Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "must find solace here…\p"
 # 559 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Is it coincidence that you are here…\p"
 # 560 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Will you hear out my tale? A tale long\n"
+<<<<<<< HEAD
 # 561 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "told in the HOENN region?$"
 # 562 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "told in the Hoenn region?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 563 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_GroudonKyogreTale:
@@ -1128,6 +1237,7 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "It happened long, long ago…\p"
 # 565 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The world was wracked by a ferocious\n"
+<<<<<<< HEAD
 # 566 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "clash between the POKéMON of the land\l"
 # 567 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1139,6 +1249,13 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 # 570 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The POKéMON of the sea raised huge\n"
 # 571 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "clash between the Pokémon of the land\l"
+	.string "and the Pokémon of the sea…\p"
+	.string "The Pokémon of the land raised\n"
+	.string "mountains and created continents…\p"
+	.string "The Pokémon of the sea raised huge\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "waves and carved out oceans…\p"
 # 572 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Their fierce duel raged without end.\p"
@@ -1146,6 +1263,7 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "The world was engulfed in massive\n"
 # 574 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "infernos and vicious storms.\p"
+<<<<<<< HEAD
 # 575 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The BLUE ORB and the RED ORB brought\n"
 # 576 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1153,6 +1271,11 @@ MtPyre_Summit_Text_GroudonKyogreTale:
 # 577 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Light poured from the two ORBS and\n"
 # 578 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "The Blue Orb and the Red Orb brought\n"
+	.string "an end to the calamity.\p"
+	.string "Light poured from the two Orbs and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "becalmed the enraged adversaries.\p"
 # 579 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The pair, made docile, dove deep into\n"
@@ -1172,9 +1295,13 @@ MtPyre_Summit_Text_WellThatTooIsFine:
 
 # 587 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_MaxieSilence:
+<<<<<<< HEAD
 # 588 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "MAXIE: {PLAYER}…\p"
 # 589 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "Maxie: {PLAYER}…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\n"
 # 590 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "… … … … … …$"
@@ -1184,6 +1311,7 @@ MtPyre_Summit_Text_MaxieSilence:
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 # 593 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "It is my role to pass on the legends\n"
+<<<<<<< HEAD
 # 594 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "of HOENN to future generations.\p"
 # 595 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1195,6 +1323,13 @@ MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 # 598 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "legend of HOENN?$"
 # 599 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "of Hoenn to future generations.\p"
+	.string "And the crisis that just ended in\n"
+	.string "Sootopolis rewrote a legend…\p"
+	.string "Have you the time to hear the new\n"
+	.string "legend of Hoenn?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 600 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_Text_HoennTrioTale:
@@ -1202,6 +1337,7 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "It happened long, long ago…\p"
 # 602 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The world was wracked by a ferocious\n"
+<<<<<<< HEAD
 # 603 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "clash between the POKéMON of the land\l"
 # 604 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1213,6 +1349,13 @@ MtPyre_Summit_Text_HoennTrioTale:
 # 607 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "The POKéMON of the sea raised huge\n"
 # 608 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "clash between the Pokémon of the land\l"
+	.string "and the Pokémon of the sea…\p"
+	.string "The Pokémon of the land raised\n"
+	.string "mountains and created continents…\p"
+	.string "The Pokémon of the sea raised huge\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "waves and carved out oceans…\p"
 # 609 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Their fierce duel raged without end.\p"
@@ -1220,6 +1363,7 @@ MtPyre_Summit_Text_HoennTrioTale:
 	.string "The world was engulfed in massive\n"
 # 611 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "fires and vicious storms.\p"
+<<<<<<< HEAD
 # 612 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "It was then that the POKéMON of\n"
 # 613 "data/maps/MtPyre_Summit/scripts.pory"
@@ -1231,4 +1375,11 @@ MtPyre_Summit_Text_HoennTrioTale:
 # 616 "data/maps/MtPyre_Summit/scripts.pory"
 	.string "Then, its duty done, the green POKéMON\n"
 # 617 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	.string "It was then that the Pokémon of\n"
+	.string "the sky descended from a storm.\p"
+	.string "The Pokémon, shining a vivid green,\n"
+	.string "becalmed the two enraged Pokémon.\p"
+	.string "Then, its duty done, the green Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "flew off into the wild blue yonder…$"

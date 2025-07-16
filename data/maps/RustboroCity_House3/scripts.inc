@@ -46,9 +46,13 @@ RustboroCity_House3_EventScript_Pekachu::
 
 # 24 "data/maps/RustboroCity_House3/scripts.pory"
 RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
+<<<<<<< HEAD
 # 25 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "For my own POKéMON, I give them\n"
 # 26 "data/maps/RustboroCity_House3/scripts.pory"
+=======
+	.string "For my own Pokémon, I give them\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "perfectly suited nicknames!\p"
 # 27 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "It's my expression of, uh…\n"
@@ -58,11 +62,16 @@ RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
 
 # 30 "data/maps/RustboroCity_House3/scripts.pory"
 RustboroCity_House3_Text_NamingPikachuPekachu:
+<<<<<<< HEAD
 # 31 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "But giving the name PEKACHU to\n"
 # 32 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "a PIKACHU? It seems pointless.\p"
 # 33 "data/maps/RustboroCity_House3/scripts.pory"
+=======
+	.string "But giving the name Pekachu to\n"
+	.string "a Pikachu? It seems pointless.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I suppose it is good to use a name\n"
 # 34 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "that's easy to understand, but…$"
@@ -70,5 +79,10 @@ RustboroCity_House3_Text_NamingPikachuPekachu:
 
 # 36 "data/maps/RustboroCity_House3/scripts.pory"
 RustboroCity_House3_Text_Pekachu:
+<<<<<<< HEAD
 # 37 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "PEKACHU: Peka!$"
+=======
+	.string "Pekachu: Peka!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

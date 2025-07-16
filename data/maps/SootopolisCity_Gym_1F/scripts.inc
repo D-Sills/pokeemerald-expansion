@@ -356,6 +356,7 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 
 # 179 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
+<<<<<<< HEAD
 # 180 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Yo! How's it going, CHAMPION-\n"
 # 181 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -367,6 +368,13 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 # 184 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "And, to get to JUAN, an icy floor\n"
 # 185 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Yo! How's it going, Champion-\n"
+	.string "bound {PLAYER}?\p"
+	.string "Sootopolis's Gym Leader Juan is\n"
+	.string "a master of Water-type Pokémon.\p"
+	.string "And, to get to Juan, an icy floor\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "will hamper your progress…\p"
 # 186 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Listen, I'm sorry, but that's all the\n"
@@ -380,6 +388,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 
 # 191 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
+<<<<<<< HEAD
 # 192 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Yow! You've beaten even JUAN, who\n"
 # 193 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -391,6 +400,13 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 # 196 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "set for the POKéMON LEAGUE challenge!$"
 # 197 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Yow! You've beaten even Juan, who\n"
+	.string "was supposedly the best in all Hoenn!\p"
+	.string "Okay! Check out your Trainer Card.\p"
+	.string "If you've gotten all the Badges, you're\n"
+	.string "set for the Pokémon League challenge!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 198 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_JuanIntro:
@@ -400,6 +416,7 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Did you know?\l"
 # 201 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Ah, I should not be so coy.\p"
+<<<<<<< HEAD
 # 202 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "It was I who taught WALLACE everything\n"
 # 203 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -413,6 +430,14 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 # 207 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "with the GYM.\p"
 # 208 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "It was I who taught Wallace everything\n"
+	.string "there is to know about Pokémon.\p"
+	.string "Once, I had given up my position as\n"
+	.string "the Gym Leader.\p"
+	.string "In my place, I had entrusted Wallace\n"
+	.string "with the Gym.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "However, a compelling reason arose for\n"
 # 209 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "me to make a comeback.\p"
@@ -426,9 +451,13 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "our artistry.\p"
 # 214 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "A grand illusion of water sculpted\n"
+<<<<<<< HEAD
 # 215 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "by POKéMON and myself!$"
 # 216 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "by Pokémon and myself!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 217 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
@@ -450,9 +479,13 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "of skill that will overcome all.\p"
 # 226 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "However, compared with me or even\n"
+<<<<<<< HEAD
 # 227 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "WALLACE, you are lacking in elegance.\p"
 # 228 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Wallace, you are lacking in elegance.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Perhaps I should make you a loan\n"
 # 229 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "of my outfit?\p"
@@ -464,20 +497,30 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "Hahaha, I merely jest!\p"
 # 233 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Rather than my clothes, I shall reward\n"
+<<<<<<< HEAD
 # 234 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "you with this, the RAIN BADGE!$"
 # 235 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "you with this, the Rain Badge!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 236 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
+<<<<<<< HEAD
 # 237 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "{PLAYER} received the RAIN BADGE\n"
 # 238 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "from JUAN.$"
 # 239 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "{PLAYER} received the Rain Badge\n"
+	.string "from Juan.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 240 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
+<<<<<<< HEAD
 # 241 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Having the RAIN BADGE shall assure you\n"
 # 242 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -489,6 +532,13 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 # 245 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "of the HM move WATERFALL to scale\l"
 # 246 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Having the Rain Badge shall assure you\n"
+	.string "the full obedience of all your Pokémon\l"
+	.string "to your every command.\p"
+	.string "The Rain Badge also allows the use\n"
+	.string "of the HM move Waterfall to scale\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "walls of cascading water.\p"
 # 247 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "And, so that you never forget the\n"
@@ -498,11 +548,16 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 
 # 250 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
+<<<<<<< HEAD
 # 251 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "The TECHNICAL MACHINE I handed you\n"
 # 252 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "contains WATER PULSE.\p"
 # 253 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "The Technical Machine I handed you\n"
+	.string "contains Water Pulse.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "In use, it will occasionally confuse\n"
 # 254 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "the target with ultrasonic waves.\p"
@@ -512,14 +567,20 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 
 # 257 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
+<<<<<<< HEAD
 # 258 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Registered GYM LEADER JUAN\n"
 # 259 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "in the POKéNAV.$"
 # 260 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Registered Gym Leader Juan\n"
+	.string "in the PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 261 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
+<<<<<<< HEAD
 # 262 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "The TRAINERS who have gathered all\n"
 # 263 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -537,9 +598,20 @@ SootopolisCity_Gym_1F_Text_JuanPostBattle:
 # 269 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "LEAGUE.$"
 # 270 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "The Trainers who have gathered all\n"
+	.string "the Gym Badges of Hoenn should make\l"
+	.string "way to the ultimate destination.\p"
+	.string "The Pokémon League.\p"
+	.string "Travel to the easternmost reaches\n"
+	.string "of Hoenn, to the island Ever Grande.\p"
+	.string "There, you shall find the Pokémon\n"
+	.string "League.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 271 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
+<<<<<<< HEAD
 # 272 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "There remains but one BADGE to\n"
 # 273 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
@@ -551,28 +623,48 @@ SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 # 276 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "BADGE from the GYM in FORTREE.$"
 # 277 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "There remains but one Badge to\n"
+	.string "obtain in Hoenn.\p"
+	.string "If you wish to challenge the Pokémon\n"
+	.string "League, you must obtain the last\l"
+	.string "Badge from the Gym in Fortree.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 278 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_GymStatue:
+<<<<<<< HEAD
 # 279 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "SOOTOPOLIS CITY POKéMON GYM$"
 # 280 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Sootopolis City Pokémon Gym$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 281 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
+<<<<<<< HEAD
 # 282 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "SOOTOPOLIS CITY POKéMON GYM\p"
 # 283 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "JUAN'S CERTIFIED TRAINERS:\n"
 # 284 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Sootopolis City Pokémon Gym\p"
+	.string "Juan's Certified Trainers:\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}$"
 # 285 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 
 # 286 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
+<<<<<<< HEAD
 # 287 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "JUAN: Ah, this GYM had returned to its\n"
 # 288 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Juan: Ah, this Gym had returned to its\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "usual state of serenity…\p"
 # 289 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "But our young typhoon has returned\n"
@@ -596,9 +688,13 @@ SootopolisCity_Gym_1F_Text_JuanRematchDefeat:
 
 # 299 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_JuanPostRematch:
+<<<<<<< HEAD
 # 300 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "JUAN: If I told you to become my\n"
 # 301 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Juan: If I told you to become my\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "apprentice, you will refuse, I am sure.\p"
 # 302 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "I would like to make a gift of my coat\n"
@@ -616,9 +712,13 @@ SootopolisCity_Gym_1F_Text_JuanPostRematch:
 
 # 309 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
+<<<<<<< HEAD
 # 310 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "JUAN: Ah, this GYM had returned to its\n"
 # 311 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	.string "Juan: Ah, this Gym had returned to its\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "usual state of serenity…\p"
 # 312 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "But our young typhoon has returned\n"
@@ -630,9 +730,16 @@ SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
 	.string "I shall be delighted to dance with you…\p"
 # 316 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "Ah, no, no, no.\n"
+<<<<<<< HEAD
 # 317 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "You have with you but one POKéMON.\p"
 # 318 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "I wish that you would return with\n"
 # 319 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "two, perhaps more, POKéMON, please.$"
+=======
+	.string "You have with you but one Pokémon.\p"
+	.string "I wish that you would return with\n"
+	.string "two, perhaps more, Pokémon, please.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

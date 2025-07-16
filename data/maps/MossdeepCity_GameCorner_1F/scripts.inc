@@ -84,15 +84,23 @@ RS_MysteryEventsHouse_EventScript_Door::
 RS_MysteryEventsHouse_Text_OldManGreeting:
 # 43 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "When I was young, I traveled the world\n"
+<<<<<<< HEAD
 # 44 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "as a POKéMON TRAINER.\p"
 # 45 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
+=======
+	.string "as a Pokémon Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now that I've become an old buzzard,\n"
 # 46 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "my only amusement is watching young\l"
+<<<<<<< HEAD
 # 47 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "TRAINERS battle.$"
 # 48 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
+=======
+	.string "Trainers battle.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 49 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 RS_MysteryEventsHouse_Text_DoorIsLocked:
@@ -102,9 +110,13 @@ RS_MysteryEventsHouse_Text_DoorIsLocked:
 
 # 52 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
+<<<<<<< HEAD
 # 53 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "A TRAINER named {STR_VAR_1} is\n"
 # 54 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
+=======
+	.string "A Trainer named {STR_VAR_1} is\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "visiting my home.\p"
 # 55 "data/maps/MossdeepCity_GameCorner_1F/scripts.pory"
 	.string "Would you like to challenge\n"

@@ -124,6 +124,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 # 63 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "Ahahaha!\p"
+<<<<<<< HEAD
 # 64 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "I'm PHOEBE of the ELITE FOUR.\n"
 # 65 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
@@ -135,12 +136,23 @@ EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
 # 68 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "Yes, the bond I developed with POKéMON\n"
 # 69 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
+=======
+	.string "I'm Phoebe of the Elite Four.\n"
+	.string "I did my training on Mt. Pyre.\p"
+	.string "While I trained, I gained the ability\n"
+	.string "to commune with Ghost-type Pokémon.\p"
+	.string "Yes, the bond I developed with Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is extremely tight.\p"
 # 70 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "So, come on, just try and see if you can\n"
+<<<<<<< HEAD
 # 71 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "even inflict damage on my POKéMON!$"
 # 72 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
+=======
+	.string "even inflict damage on my Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 73 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 EverGrandeCity_PhoebesRoom_Text_Defeat:
@@ -154,9 +166,13 @@ EverGrandeCity_PhoebesRoom_Text_Defeat:
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
 # 78 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "There's a definite bond between you\n"
+<<<<<<< HEAD
 # 79 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "and your POKéMON, too.\p"
 # 80 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
+=======
+	.string "and your Pokémon, too.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I didn't recognize it, so it's only\n"
 # 81 "data/maps/EverGrandeCity_PhoebesRoom/scripts.pory"
 	.string "natural that I lost.\p"

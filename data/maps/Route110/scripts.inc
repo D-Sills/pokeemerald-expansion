@@ -1482,17 +1482,25 @@ Route110_Movement_BirchExit4:
 
 # 742 "data/maps/Route110/scripts.pory"
 Route110_Text_WeCantTalkAboutAquaActivities:
+<<<<<<< HEAD
 # 743 "data/maps/Route110/scripts.pory"
 	.string "TEAM AQUA's activities…\n"
 # 744 "data/maps/Route110/scripts.pory"
+=======
+	.string "Team Aqua's activities…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We can't talk about them yet.$"
 # 745 "data/maps/Route110/scripts.pory"
 
 # 746 "data/maps/Route110/scripts.pory"
 Route110_Text_KickUpARuckus:
+<<<<<<< HEAD
 # 747 "data/maps/Route110/scripts.pory"
 	.string "I want to get going to SLATEPORT and\n"
 # 748 "data/maps/Route110/scripts.pory"
+=======
+	.string "I want to get going to Slateport and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "kick up a ruckus!$"
 # 749 "data/maps/Route110/scripts.pory"
 
@@ -1500,20 +1508,29 @@ Route110_Text_KickUpARuckus:
 Route110_Text_MyFirstJobInAqua:
 # 751 "data/maps/Route110/scripts.pory"
 	.string "This is my first job after joining\n"
+<<<<<<< HEAD
 # 752 "data/maps/Route110/scripts.pory"
 	.string "TEAM AQUA. It's a little scary.$"
 # 753 "data/maps/Route110/scripts.pory"
+=======
+	.string "Team Aqua. It's a little scary.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 754 "data/maps/Route110/scripts.pory"
 Route110_Text_AquaActionsBringSmiles:
+<<<<<<< HEAD
 # 755 "data/maps/Route110/scripts.pory"
 	.string "TEAM AQUA's actions should bring\n"
 # 756 "data/maps/Route110/scripts.pory"
+=======
+	.string "Team Aqua's actions should bring\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "smiles to people's faces!$"
 # 757 "data/maps/Route110/scripts.pory"
 
 # 758 "data/maps/Route110/scripts.pory"
 Route110_Text_MayLetsBattle:
+<<<<<<< HEAD
 # 759 "data/maps/Route110/scripts.pory"
 	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
 # 760 "data/maps/Route110/scripts.pory"
@@ -1521,6 +1538,11 @@ Route110_Text_MayLetsBattle:
 # 761 "data/maps/Route110/scripts.pory"
 	.string "POKéMON, my POKéMON grew stronger.\p"
 # 762 "data/maps/Route110/scripts.pory"
+=======
+	.string "May: Hi, {PLAYER}{KUN}, long time no see!\p"
+	.string "While I was searching for other\n"
+	.string "Pokémon, my Pokémon grew stronger.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So…\n"
 # 763 "data/maps/Route110/scripts.pory"
 	.string "How about a little battle?$"
@@ -1536,9 +1558,13 @@ Route110_Text_MayDefeated:
 
 # 769 "data/maps/Route110/scripts.pory"
 Route110_Text_MayTakeThis:
+<<<<<<< HEAD
 # 770 "data/maps/Route110/scripts.pory"
 	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
 # 771 "data/maps/Route110/scripts.pory"
+=======
+	.string "May: {PLAYER}{KUN}, you've been busy\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "training, too, haven't you?\p"
 # 772 "data/maps/Route110/scripts.pory"
 	.string "I think you deserve a reward!\n"
@@ -1548,9 +1574,13 @@ Route110_Text_MayTakeThis:
 
 # 775 "data/maps/Route110/scripts.pory"
 Route110_Text_MayExplainItemfinder:
+<<<<<<< HEAD
 # 776 "data/maps/Route110/scripts.pory"
 	.string "MAY: That's an ITEMFINDER.\p"
 # 777 "data/maps/Route110/scripts.pory"
+=======
+	.string "May: That's an Itemfinder.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Try it out. If there is an item that's\n"
 # 778 "data/maps/Route110/scripts.pory"
 	.string "not visible, it emits a sound.\p"
@@ -1566,15 +1596,23 @@ Route110_Text_MayExplainItemfinder:
 
 # 784 "data/maps/Route110/scripts.pory"
 Route110_Text_BrendanLetsBattle:
+<<<<<<< HEAD
 # 785 "data/maps/Route110/scripts.pory"
 	.string "BRENDAN: Hey, {PLAYER}.\n"
 # 786 "data/maps/Route110/scripts.pory"
+=======
+	.string "Brendan: Hey, {PLAYER}.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So this is where you were.\l"
 # 787 "data/maps/Route110/scripts.pory"
 	.string "How's it going?\p"
+<<<<<<< HEAD
 # 788 "data/maps/Route110/scripts.pory"
 	.string "Have you been raising your POKéMON?\n"
 # 789 "data/maps/Route110/scripts.pory"
+=======
+	.string "Have you been raising your Pokémon?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll check for you.$"
 # 790 "data/maps/Route110/scripts.pory"
 
@@ -1588,9 +1626,13 @@ Route110_Text_BrendanDefeated:
 
 # 795 "data/maps/Route110/scripts.pory"
 Route110_Text_BrendanTakeThis:
+<<<<<<< HEAD
 # 796 "data/maps/Route110/scripts.pory"
 	.string "BRENDAN: {PLAYER}, you've trained\n"
 # 797 "data/maps/Route110/scripts.pory"
+=======
+	.string "Brendan: {PLAYER}, you've trained\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "without me noticing…\p"
 # 798 "data/maps/Route110/scripts.pory"
 	.string "Good enough!\n"
@@ -1600,9 +1642,13 @@ Route110_Text_BrendanTakeThis:
 
 # 801 "data/maps/Route110/scripts.pory"
 Route110_Text_BrendanExplainItemfinder:
+<<<<<<< HEAD
 # 802 "data/maps/Route110/scripts.pory"
 	.string "BRENDAN: That's an ITEMFINDER.\p"
 # 803 "data/maps/Route110/scripts.pory"
+=======
+	.string "Brendan: That's an Itemfinder.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Use it to root around for items that\n"
 # 804 "data/maps/Route110/scripts.pory"
 	.string "aren't visible.\p"
@@ -1612,17 +1658,26 @@ Route110_Text_BrendanExplainItemfinder:
 	.string "a sound.\p"
 # 807 "data/maps/Route110/scripts.pory"
 	.string "Anyway, I'm off to look for new\n"
+<<<<<<< HEAD
 # 808 "data/maps/Route110/scripts.pory"
 	.string "POKéMON.$"
 # 809 "data/maps/Route110/scripts.pory"
+=======
+	.string "Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 810 "data/maps/Route110/scripts.pory"
 Route110_Text_RideBikeAtFullSpeed:
+<<<<<<< HEAD
 # 811 "data/maps/Route110/scripts.pory"
 	.string "Wouldn't it be great to ride a BIKE\n"
 # 812 "data/maps/Route110/scripts.pory"
 	.string "at full speed on CYCLING ROAD?$"
 # 813 "data/maps/Route110/scripts.pory"
+=======
+	.string "Wouldn't it be great to ride a bike\n"
+	.string "at full speed on Cycling Road?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 814 "data/maps/Route110/scripts.pory"
 Route110_Text_HairStreamsBehindMe:
@@ -1636,15 +1691,23 @@ Route110_Text_HairStreamsBehindMe:
 
 # 819 "data/maps/Route110/scripts.pory"
 Route110_Text_YouGotBikeFromRydel:
+<<<<<<< HEAD
 # 820 "data/maps/Route110/scripts.pory"
 	.string "Oh, hey, you got that BIKE from RYDEL!\p"
 # 821 "data/maps/Route110/scripts.pory"
+=======
+	.string "Oh, hey, you got that bike from Rydel!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Oh, it's glaringly obvious.\n"
 # 822 "data/maps/Route110/scripts.pory"
 	.string "It says right on your bike…\p"
+<<<<<<< HEAD
 # 823 "data/maps/Route110/scripts.pory"
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
 # 824 "data/maps/Route110/scripts.pory"
+=======
+	.string "“RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
 # 825 "data/maps/Route110/scripts.pory"
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
@@ -1658,9 +1721,13 @@ Route110_Text_YouGotBikeFromRydel:
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\n"
 # 830 "data/maps/Route110/scripts.pory"
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL,\p"
+<<<<<<< HEAD
 # 831 "data/maps/Route110/scripts.pory"
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
 # 832 "data/maps/Route110/scripts.pory"
+=======
+	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL”…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That name's everywhere.\p"
 # 833 "data/maps/Route110/scripts.pory"
 	.string "You should ride it around all over\n"
@@ -1672,36 +1739,53 @@ Route110_Text_YouGotBikeFromRydel:
 Route110_Text_TwoRoads:
 # 837 "data/maps/Route110/scripts.pory"
 	.string "The two roads, one above, one below…\p"
+<<<<<<< HEAD
 # 838 "data/maps/Route110/scripts.pory"
 	.string "A road each for people and POKéMON.\n"
 # 839 "data/maps/Route110/scripts.pory"
+=======
+	.string "A road each for people and Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Perhaps that is right and fair.$"
 # 840 "data/maps/Route110/scripts.pory"
 
 # 841 "data/maps/Route110/scripts.pory"
 Route110_Text_WalkOnTheLowRoad:
+<<<<<<< HEAD
 # 842 "data/maps/Route110/scripts.pory"
 	.string "I don't have a BIKE, so I'll take\n"
 # 843 "data/maps/Route110/scripts.pory"
+=======
+	.string "I don't have a bike, so I'll take\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a leisurely walk on the low road.$"
 # 844 "data/maps/Route110/scripts.pory"
 
 # 845 "data/maps/Route110/scripts.pory"
 Route110_Text_BikeTechniques:
+<<<<<<< HEAD
 # 846 "data/maps/Route110/scripts.pory"
 	.string "Learning techniques will make BIKE\n"
 # 847 "data/maps/Route110/scripts.pory"
+=======
+	.string "Learning techniques will make bike\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "riding even more fun.\p"
 # 848 "data/maps/Route110/scripts.pory"
 	.string "There are some places that you can\n"
+<<<<<<< HEAD
 # 849 "data/maps/Route110/scripts.pory"
 	.string "reach only by using a BIKE technique.$"
 # 850 "data/maps/Route110/scripts.pory"
+=======
+	.string "reach only by using a bike technique.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 851 "data/maps/Route110/scripts.pory"
 Route110_Text_WhichShouldIChoose:
 # 852 "data/maps/Route110/scripts.pory"
 	.string "Which should I choose?\p"
+<<<<<<< HEAD
 # 853 "data/maps/Route110/scripts.pory"
 	.string "Make a beeline for MAUVILLE on\n"
 # 854 "data/maps/Route110/scripts.pory"
@@ -1709,9 +1793,15 @@ Route110_Text_WhichShouldIChoose:
 # 855 "data/maps/Route110/scripts.pory"
 	.string "and look for POKéMON?$"
 # 856 "data/maps/Route110/scripts.pory"
+=======
+	.string "Make a beeline for Mauville on\n"
+	.string "Cycling Road, or take the low road\l"
+	.string "and look for Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 857 "data/maps/Route110/scripts.pory"
 Route110_Text_CyclingChallengeResultSummary:
+<<<<<<< HEAD
 # 858 "data/maps/Route110/scripts.pory"
 	.string "Number of collisions:\n"
 # 859 "data/maps/Route110/scripts.pory"
@@ -1719,6 +1809,11 @@ Route110_Text_CyclingChallengeResultSummary:
 # 860 "data/maps/Route110/scripts.pory"
 	.string "Total time:\n"
 # 861 "data/maps/Route110/scripts.pory"
+=======
+	.string "Collisions:\n"
+	.string "… … {STR_VAR_1}!\p"
+	.string "Time:\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … {STR_VAR_2}!$"
 # 862 "data/maps/Route110/scripts.pory"
 
@@ -1778,12 +1873,17 @@ Route110_Text_ChallengeReactionWorst:
 	.string "unfortunate cycling business.\p"
 # 890 "data/maps/Route110/scripts.pory"
 	.string "You ought to give serious thought to\n"
+<<<<<<< HEAD
 # 891 "data/maps/Route110/scripts.pory"
 	.string "returning that BIKE to RYDEL.$"
 # 892 "data/maps/Route110/scripts.pory"
+=======
+	.string "returning that bike to Rydel.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 893 "data/maps/Route110/scripts.pory"
 Route110_Text_RatedForNumberOfCollisions:
+<<<<<<< HEAD
 # 894 "data/maps/Route110/scripts.pory"
 	.string "This is CYCLING ROAD.\p"
 # 895 "data/maps/Route110/scripts.pory"
@@ -1791,6 +1891,11 @@ Route110_Text_RatedForNumberOfCollisions:
 # 896 "data/maps/Route110/scripts.pory"
 	.string "SLATEPORT on a MACH BIKE, you would\l"
 # 897 "data/maps/Route110/scripts.pory"
+=======
+	.string "This is Cycling Road.\p"
+	.string "If you were to ride from Mauville to\n"
+	.string "Slateport on a Mach Bike, you would\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "be rated for the number of collisions\l"
 # 898 "data/maps/Route110/scripts.pory"
 	.string "and your total time.$"
@@ -1808,6 +1913,7 @@ Route110_Text_AlwaysAimHigher:
 
 # 905 "data/maps/Route110/scripts.pory"
 Route110_Text_AcroBikesDoNotQualify:
+<<<<<<< HEAD
 # 906 "data/maps/Route110/scripts.pory"
 	.string "On this CYCLING ROAD, those riding\n"
 # 907 "data/maps/Route110/scripts.pory"
@@ -1817,75 +1923,121 @@ Route110_Text_AcroBikesDoNotQualify:
 # 909 "data/maps/Route110/scripts.pory"
 	.string "ACRO BIKES do not qualify for rating.\n"
 # 910 "data/maps/Route110/scripts.pory"
+=======
+	.string "On this Cycling Road, those riding\n"
+	.string "Mach Bikes are rated for their number\l"
+	.string "of collisions and their total times.\p"
+	.string "Acro Bikes do not qualify for rating.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They are easy to turn, so it's not fair.$"
 # 911 "data/maps/Route110/scripts.pory"
 
 # 912 "data/maps/Route110/scripts.pory"
 Route110_Text_SlateportCitySign:
+<<<<<<< HEAD
 # 913 "data/maps/Route110/scripts.pory"
 	.string "ROUTE 110\n"
 # 914 "data/maps/Route110/scripts.pory"
 	.string "{DOWN_ARROW} SLATEPORT CITY$"
 # 915 "data/maps/Route110/scripts.pory"
+=======
+	.string "Route 110\n"
+	.string "{DOWN_ARROW} Slateport City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 916 "data/maps/Route110/scripts.pory"
 Route110_Text_CyclingRoadSign:
+<<<<<<< HEAD
 # 917 "data/maps/Route110/scripts.pory"
 	.string "SEASIDE CYCLING ROAD$"
 # 918 "data/maps/Route110/scripts.pory"
+=======
+	.string "Seaside Cycling Road$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 919 "data/maps/Route110/scripts.pory"
 Route110_Text_AquaWasHere:
+<<<<<<< HEAD
 # 920 "data/maps/Route110/scripts.pory"
 	.string "“TEAM AQUA was here!”\p"
 # 921 "data/maps/Route110/scripts.pory"
+=======
+	.string "“Team Aqua was here!”\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Someone painted that onto this sign,\n"
 # 922 "data/maps/Route110/scripts.pory"
 	.string "but then someone else painted over it.\p"
+<<<<<<< HEAD
 # 923 "data/maps/Route110/scripts.pory"
 	.string "“TEAM MAGMA rules!” is what it\n"
 # 924 "data/maps/Route110/scripts.pory"
+=======
+	.string "“Team Magma rules!” is what it\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "says now.$"
 # 925 "data/maps/Route110/scripts.pory"
 
 # 926 "data/maps/Route110/scripts.pory"
 Route110_Text_Route103Sign:
+<<<<<<< HEAD
 # 927 "data/maps/Route110/scripts.pory"
 	.string "ROUTE 110\n"
 # 928 "data/maps/Route110/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 103$"
 # 929 "data/maps/Route110/scripts.pory"
+=======
+	.string "Route 110\n"
+	.string "{LEFT_ARROW} Route 103$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 930 "data/maps/Route110/scripts.pory"
 Route110_Text_SeasideParkingSign:
+<<<<<<< HEAD
 # 931 "data/maps/Route110/scripts.pory"
 	.string "SEASIDE PARKING$"
 # 932 "data/maps/Route110/scripts.pory"
+=======
+	.string "Seaside Parking$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 933 "data/maps/Route110/scripts.pory"
 Route110_Text_MauvilleCitySign:
+<<<<<<< HEAD
 # 934 "data/maps/Route110/scripts.pory"
 	.string "ROUTE 110\n"
 # 935 "data/maps/Route110/scripts.pory"
 	.string "{UP_ARROW} MAUVILLE CITY$"
 # 936 "data/maps/Route110/scripts.pory"
+=======
+	.string "Route 110\n"
+	.string "{UP_ARROW} Mauville City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 937 "data/maps/Route110/scripts.pory"
 Route110_Text_TrainerTipsPrlzSleep:
+<<<<<<< HEAD
 # 938 "data/maps/Route110/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 939 "data/maps/Route110/scripts.pory"
+=======
+	.string "Trainer Tips\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The foe can be made helpless by\n"
 # 940 "data/maps/Route110/scripts.pory"
 	.string "paralyzing it or causing it to sleep.\p"
 # 941 "data/maps/Route110/scripts.pory"
 	.string "It is an important technique for\n"
+<<<<<<< HEAD
 # 942 "data/maps/Route110/scripts.pory"
 	.string "POKéMON battles.$"
 # 943 "data/maps/Route110/scripts.pory"
+=======
+	.string "Pokémon battles.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 944 "data/maps/Route110/scripts.pory"
 Route110_Text_TrainerTipsRegisterItems:
+<<<<<<< HEAD
 # 945 "data/maps/Route110/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 946 "data/maps/Route110/scripts.pory"
@@ -1893,17 +2045,27 @@ Route110_Text_TrainerTipsRegisterItems:
 # 947 "data/maps/Route110/scripts.pory"
 	.string "by pressing SELECT.$"
 # 948 "data/maps/Route110/scripts.pory"
+=======
+	.string "Trainer Tips\p"
+	.string "The items in the Bag can be reorganized\n"
+	.string "by pressing Select.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 949 "data/maps/Route110/scripts.pory"
 Route110_Text_TrickHouseSign:
 # 950 "data/maps/Route110/scripts.pory"
 	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
+<<<<<<< HEAD
 # 951 "data/maps/Route110/scripts.pory"
 	.string "to reach the wondrous TRICK HOUSE.”$"
 # 952 "data/maps/Route110/scripts.pory"
+=======
+	.string "to reach the wondrous Trick House.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 953 "data/maps/Route110/scripts.pory"
 Route110_Text_BestRecord:
+<<<<<<< HEAD
 # 954 "data/maps/Route110/scripts.pory"
 	.string "THE BEST RECORD TO DATE…\p"
 # 955 "data/maps/Route110/scripts.pory"
@@ -1911,12 +2073,21 @@ Route110_Text_BestRecord:
 # 956 "data/maps/Route110/scripts.pory"
 	.string "Elapsed time: {STR_VAR_2}$"
 # 957 "data/maps/Route110/scripts.pory"
+=======
+	.string "The best record to date…\p"
+	.string "Collisions: {STR_VAR_1}\p"
+	.string "Elapsed Time: {STR_VAR_2}$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 958 "data/maps/Route110/scripts.pory"
 Route110_Text_ThereIsNoRecord:
+<<<<<<< HEAD
 # 959 "data/maps/Route110/scripts.pory"
 	.string "THE BEST RECORD TO DATE…\p"
 # 960 "data/maps/Route110/scripts.pory"
+=======
+	.string "The best record to date…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No one seems to have taken the\n"
 # 961 "data/maps/Route110/scripts.pory"
 	.string "challenge. There is no record…$"
@@ -1924,9 +2095,13 @@ Route110_Text_ThereIsNoRecord:
 
 # 963 "data/maps/Route110/scripts.pory"
 Route110_Text_ImagineSeeingYouHere:
+<<<<<<< HEAD
 # 964 "data/maps/Route110/scripts.pory"
 	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
 # 965 "data/maps/Route110/scripts.pory"
+=======
+	.string "Prof. Birch: Oh, {PLAYER}{KUN}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Imagine seeing you here!\p"
 # 966 "data/maps/Route110/scripts.pory"
 	.string "And where might my {RIVAL} be?$"
@@ -1940,6 +2115,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "You two are running separately.\l"
 # 971 "data/maps/Route110/scripts.pory"
 	.string "Well, that's fine.\p"
+<<<<<<< HEAD
 # 972 "data/maps/Route110/scripts.pory"
 	.string "Oh, yes, I heard that your POKéNAV\n"
 # 973 "data/maps/Route110/scripts.pory"
@@ -1953,22 +2129,39 @@ Route110_Text_HeardYouInstallMatchCall:
 # 977 "data/maps/Route110/scripts.pory"
 	.string "I can rate your POKéDEX anytime.\p"
 # 978 "data/maps/Route110/scripts.pory"
+=======
+	.string "Oh, yes, I heard that your PokéNav\n"
+	.string "had the Match Call system installed.\p"
+	.string "Well, then, I should register you in\n"
+	.string "my PokéNav as well.\p"
+	.string "That way, even when we're apart,\n"
+	.string "I can rate your Pokédex anytime.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …$"
 # 979 "data/maps/Route110/scripts.pory"
 
 # 980 "data/maps/Route110/scripts.pory"
 Route110_Text_RegisteredBirchInPokenav:
+<<<<<<< HEAD
 # 981 "data/maps/Route110/scripts.pory"
 	.string "Registered PROF. BIRCH\n"
 # 982 "data/maps/Route110/scripts.pory"
 	.string "in the POKéNAV.$"
 # 983 "data/maps/Route110/scripts.pory"
+=======
+	.string "Registered Prof. Birch\n"
+	.string "in the PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 984 "data/maps/Route110/scripts.pory"
 Route110_Text_KeepAnEyeOutForRival:
+<<<<<<< HEAD
 # 985 "data/maps/Route110/scripts.pory"
 	.string "PROF. BIRCH: {PLAYER}{KUN}…\p"
 # 986 "data/maps/Route110/scripts.pory"
+=======
+	.string "Prof. Birch: {PLAYER}{KUN}…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please keep an eye out for my {RIVAL}.\n"
 # 987 "data/maps/Route110/scripts.pory"
 	.string "… … … … … …\p"

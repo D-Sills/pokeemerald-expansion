@@ -556,9 +556,13 @@ Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
 
 # 279 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
+<<<<<<< HEAD
 # 280 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	.string "It took me all night to make MECHADOLLS\n"
 # 281 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	.string "It took me all night to make Mechadolls\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and another to think up the quiz…\p"
 # 282 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	.string "You're almost my equal in greatness by\n"
@@ -634,9 +638,13 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "this keepsake!\p"
 # 318 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	.string "Actually there are two--\n"
+<<<<<<< HEAD
 # 319 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	.string "a RED TENT and a BLUE TENT.\l"
 # 320 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	.string "a Red Tent and a Blue Tent.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Which do you prefer?$"
 # 321 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 

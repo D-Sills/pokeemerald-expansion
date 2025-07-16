@@ -64,9 +64,13 @@ Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 # 33 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 34 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "“TRICK MASTER is cool.”\n"
 # 35 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
+=======
+	.string "“Trick Master is cool.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 36 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "The lock clicked open!$"
@@ -92,9 +96,13 @@ Route110_TrickHousePuzzle4_Text_CoraDefeat:
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
 # 47 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "Wouldn't you agree? You would go\n"
+<<<<<<< HEAD
 # 48 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "anywhere if TRAINERS were there.$"
 # 49 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
+=======
+	.string "anywhere if Trainers were there.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 50 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_YujiIntro:
@@ -122,9 +130,13 @@ Route110_TrickHousePuzzle4_Text_YujiPostBattle:
 
 # 62 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
+<<<<<<< HEAD
 # 63 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	.string "The TRICK HOUSE is getting trickier,\n"
 # 64 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
+=======
+	.string "The Trick House is getting trickier,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "isn't it?$"
 # 65 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 

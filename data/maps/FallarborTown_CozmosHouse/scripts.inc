@@ -134,6 +134,7 @@ FallarborTown_CozmosHouse_EventScript_CozmoIsHappy::
 
 # 68 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
+<<<<<<< HEAD
 # 69 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO: Oh…\n"
 # 70 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
@@ -145,6 +146,13 @@ FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
 # 73 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "That METEORITE from METEOR FALLS…\n"
 # 74 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo: Oh…\n"
+	.string "I never should have let myself be\l"
+	.string "conned into telling Team Magma where\l"
+	.string "you can find meteorites…\p"
+	.string "That Meteorite from Meteor Falls…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's never going to be mine now…$"
 # 75 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
@@ -158,11 +166,16 @@ FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
 	.string "That item…\p"
 # 80 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "Could it be?\p"
+<<<<<<< HEAD
 # 81 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "Is it the METEORITE that TEAM MAGMA\n"
 # 82 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "took from METEOR FALLS?\p"
 # 83 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Is it the Meteorite that Team Magma\n"
+	.string "took from Meteor Falls?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please, may I have it?\p"
 # 84 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "I'm not asking for it for free.\n"
@@ -172,9 +185,13 @@ FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
 
 # 87 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
+<<<<<<< HEAD
 # 88 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO: This TM, it represents\n"
 # 89 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo: This TM, it represents\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "my feeling of gratitude.\l"
 # 90 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "Please use it!$"
@@ -182,9 +199,13 @@ FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
 
 # 92 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
+<<<<<<< HEAD
 # 93 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO: Oh, I can't believe it.\n"
 # 94 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo: Oh, I can't believe it.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This is really, really great!\p"
 # 95 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "This is really going to help my research!$"
@@ -192,19 +213,28 @@ FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
 
 # 97 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
+<<<<<<< HEAD
 # 98 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO: Oh, but…\n"
 # 99 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo: Oh, but…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm crushed with disappointment…$"
 # 100 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
 # 101 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
+<<<<<<< HEAD
 # 102 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO: Please, may I have that\n"
 # 103 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "METEORITE?\p"
 # 104 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo: Please, may I have that\n"
+	.string "Meteorite?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm not asking for it for free.\n"
 # 105 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "How about in exchange for this TM?$"
@@ -212,6 +242,7 @@ FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 
 # 107 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
+<<<<<<< HEAD
 # 108 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "PROF. COZMO went off to METEOR FALLS\n"
 # 109 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
@@ -219,18 +250,31 @@ FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
 # 110 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "TEAM MAGMA.$"
 # 111 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Prof Cozmo went off to Meteor Falls\n"
+	.string "on Route 114 with some people from\l"
+	.string "Team Magma.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 112 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
+<<<<<<< HEAD
 # 113 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "Poor PROF. COZMO…\n"
 # 114 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Poor Prof Cozmo…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He's so depressed… I feel sorry for him.$"
 # 115 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 
 # 116 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
+<<<<<<< HEAD
 # 117 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
 	.string "Look at PROF. COZMO…\n"
 # 118 "data/maps/FallarborTown_CozmosHouse/scripts.pory"
+=======
+	.string "Look at Prof Cozmo…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He's so happy! I think it's cute.$"

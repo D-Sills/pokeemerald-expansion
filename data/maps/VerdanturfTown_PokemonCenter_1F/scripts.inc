@@ -56,6 +56,7 @@ VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
 VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 # 29 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "You can't consider yourself a real\n"
+<<<<<<< HEAD
 # 30 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "TRAINER if you don't have faith\l"
 # 31 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
@@ -65,6 +66,12 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 # 33 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "in their battling POKéMON can win\l"
 # 34 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Trainer if you don't have faith\l"
+	.string "in your Pokémon.\p"
+	.string "Only those people who can believe\n"
+	.string "in their battling Pokémon can win\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "through to the very end.$"
 # 35 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 
@@ -72,11 +79,16 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
 # 37 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "The reason why anyone would visit\n"
+<<<<<<< HEAD
 # 38 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "VERDANTURF…\p"
 # 39 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "It's the BATTLE TENT. It goes without\n"
 # 40 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Verdanturf…\p"
+	.string "It's the Battle Tent. It goes without\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "saying.\p"
 # 41 "data/maps/VerdanturfTown_PokemonCenter_1F/scripts.pory"
 	.string "Or is there somebody here that you\n"

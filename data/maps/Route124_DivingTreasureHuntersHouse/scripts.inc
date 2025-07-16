@@ -572,9 +572,13 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 
 # 287 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
+<<<<<<< HEAD
 # 288 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "I'm the DIVING TREASURE HUNTER!\p"
 # 289 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+=======
+	.string "I'm the Diving Treasure Hunter!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm the awesome dude who makes\n"
 # 290 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "deep-sea dives to gather treasures\l"
@@ -584,9 +588,13 @@ Route124_DivingTreasureHuntersHouse_Text_Greeting:
 
 # 293 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
+<<<<<<< HEAD
 # 294 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "Tell me, have you seen any SHARDS of\n"
 # 295 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+=======
+	.string "Tell me, have you seen any Shards of\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "tools made in ancient times?$"
 # 296 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
@@ -596,19 +604,28 @@ Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
 	.string "You haven't got any treasures\n"
 # 299 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "for me…\p"
+<<<<<<< HEAD
 # 300 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "If you see any SHARDS, like the RED\n"
 # 301 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "SHARD, you've got to trade it with me!$"
 # 302 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+=======
+	.string "If you see any Shards, like the Red\n"
+	.string "Shard, you've got to trade it with me!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 303 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
 # 304 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "Oh, hey! That…\n"
+<<<<<<< HEAD
 # 305 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "That's a SHARD! I'm looking for those!\p"
 # 306 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+=======
+	.string "That's a Shard! I'm looking for those!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Oh, man, you've got to trade that\n"
 # 307 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "with me! I'll give you something good!$"
@@ -644,9 +661,13 @@ Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
 
 # 323 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
+<<<<<<< HEAD
 # 324 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "Whoops, your BAG's full.\n"
 # 325 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
+=======
+	.string "Whoops, your Bag's full.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Get rid of some items, friend!$"
 # 326 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 
@@ -662,6 +683,7 @@ Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
 # 332 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+<<<<<<< HEAD
 # 333 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "{CLEAR_TO 0x0f}RED SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}FIRE STONE{CLEAR_TO 0xc8}\p"
 # 334 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
@@ -676,3 +698,12 @@ Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
 	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
 # 339 "data/maps/Route124_DivingTreasureHuntersHouse/scripts.pory"
 	.string "{CLEAR_TO 0x08}GREEN SHARD{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}LEAF STONE$"
+=======
+	.string "{CLEAR_TO 0x0f}Red Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}Fire Stone{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x06}Yellow Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}Thunder Stone{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x0c}Blue Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}Water Stone{CLEAR_TO 0xc8}\p"
+	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
+	.string "{CLEAR_TO 0x08}Green Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}Leaf Stone$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

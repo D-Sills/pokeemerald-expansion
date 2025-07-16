@@ -314,9 +314,13 @@ SlateportCity_BattleTentCorridor_Movement_AttendantExit:
 SlateportCity_ContestHall_Text_AdviceForContests:
 # 158 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Want a tasty little bit of advice\n"
+<<<<<<< HEAD
 # 159 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "for CONTESTS?\p"
 # 160 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "for Contests?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Using a certain move after another\n"
 # 161 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "certain kind of move sometimes gets\l"
@@ -328,14 +332,19 @@ SlateportCity_ContestHall_Text_AdviceForContests:
 	.string "you can score big in appeal.\p"
 # 165 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Of course, your opponents might try\n"
+<<<<<<< HEAD
 # 166 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "disrupting your POKéMON's showing.$"
 # 167 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "disrupting your Pokémon's showing.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 168 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 @ Unused
 # 169 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
+<<<<<<< HEAD
 # 170 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "My papa, he's a CONTEST JUDGE.\p"
 # 171 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -343,6 +352,11 @@ SlateportCity_ContestHall_Text_MyPapaIsContestJudge:
 # 172 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "grow up, a JUDGE or a GYM LEADER?$"
 # 173 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "My papa, he's a Contest Judge.\p"
+	.string "I wonder what I should be when I\n"
+	.string "grow up, a Judge or a Gym Leader?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 174 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 @ Unused
@@ -352,6 +366,7 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 	.string "Hey, man, I'm like majorly cheesed,\n"
 # 177 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "you know. Like, you know, I just\l"
+<<<<<<< HEAD
 # 178 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "wanted to know why my POKéMON\l"
 # 179 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -359,6 +374,11 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 # 180 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "So, like, I gave the JUDGE my two\n"
 # 181 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "wanted to know why my Pokémon\l"
+	.string "never won, you know, like, hey?\p"
+	.string "So, like, I gave the Judge my two\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "cents, you know, they're free.\p"
 # 182 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "And he wouldn't hear me out, like, hey!\n"
@@ -376,9 +396,13 @@ SlateportCity_ContestHall_Text_ImLikeMajorlyCheesed:
 SlateportCity_ContestHall_Text_ExplainTorment:
 # 189 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "That's, like, TM41, you know?\n"
+<<<<<<< HEAD
 # 190 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Hey, it's TORMENT, you hearing me?\p"
 # 191 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "Hey, it's Torment, you hearing me?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Like, it won't let the other guy\n"
 # 192 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "use the same move twice in a row, see?\p"
@@ -394,6 +418,7 @@ SlateportCity_ContestHall_Text_ExplainTorment:
 SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
 # 198 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "MC: Oh, my, my!\n"
+<<<<<<< HEAD
 # 199 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Now isn't that a dandy of a POKéMON?\p"
 # 200 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -401,6 +426,11 @@ SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
 # 201 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "part in our splendid CONTESTS!\p"
 # 202 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "Now isn't that a dandy of a Pokémon?\p"
+	.string "Please! Do step right up and take\n"
+	.string "part in our splendid Contests!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You'll do well! I'm sure of it!\n"
 # 203 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "My eyes have never failed me!$"
@@ -410,6 +440,7 @@ SlateportCity_ContestHall_Text_MCStepUpTakePartInContest:
 @ Unused
 # 206 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
+<<<<<<< HEAD
 # 207 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "JUDGE: Well, hello there!\n"
 # 208 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -423,6 +454,14 @@ SlateportCity_ContestHall_Text_JudgeWouldntDoToMissContest:
 # 212 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "CITY and enter anytime!$"
 # 213 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "Judge: Well, hello there!\n"
+	.string "I see that you're a Trainer!\p"
+	.string "Then, it just wouldn't do for you\n"
+	.string "to miss a Pokémon Contest!\p"
+	.string "Get a Contest Pass in Verdanturf\n"
+	.string "City and enter anytime!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 214 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 @ Unused
@@ -440,11 +479,16 @@ SlateportCity_ContestHall_Text_ItsAppealTime:
 SlateportCity_ContestHall_Text_DidntPayAttentionToAppeal:
 # 221 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "They didn't pay much attention to\n"
+<<<<<<< HEAD
 # 222 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "my POKéMON's appeal…\p"
 # 223 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Humph, that JUDGE, he doesn't know\n"
 # 224 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "my Pokémon's appeal…\p"
+	.string "Humph, that Judge, he doesn't know\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a good thing when he sees it.$"
 # 225 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
@@ -464,9 +508,13 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice:
 	.string "If a move goes over really well,\n"
 # 233 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "the audience will get excited.\p"
+<<<<<<< HEAD
 # 234 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "The POKéMON that makes its appeal\n"
 # 235 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "The Pokémon that makes its appeal\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "right when everyone's excited…\p"
 # 236 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Well, you'd think something good has\n"
@@ -480,9 +528,13 @@ SlateportCity_ContestHall_Text_RewardWithSageAdvice:
 SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
 # 241 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "I can't do this! I'm more freaked out\n"
+<<<<<<< HEAD
 # 242 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "than my POKéMON.\p"
 # 243 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "than my Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm shivering and my heart is racing!$"
 # 244 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
@@ -490,20 +542,29 @@ SlateportCity_ContestHall_Text_MoreFreakedOutThanMon:
 @ Unused
 # 246 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_BattleAndContestAlike:
+<<<<<<< HEAD
 # 247 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "A battle and a CONTEST aren't the\n"
 # 248 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "A battle and a Contest aren't the\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "same, but they are alike, too.\p"
 # 249 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "You need to work hard and believe\n"
+<<<<<<< HEAD
 # 250 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "in the POKéMON you've raised.$"
 # 251 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "in the Pokémon you've raised.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 252 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 @ Unused
 # 253 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
+<<<<<<< HEAD
 # 254 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "That POKéMON looks like it's on top\n"
 # 255 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
@@ -511,6 +572,11 @@ SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
 # 256 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "A POKéMON that does good in the\n"
 # 257 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "That Pokémon looks like it's on top\n"
+	.string "of its game, huh?\p"
+	.string "A Pokémon that does good in the\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "secondary judging seems to be more\l"
 # 258 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "relaxed when it's doing appeals.$"
@@ -522,9 +588,13 @@ SlateportCity_ContestHall_Text_MonLooksOnTopOfGame:
 SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
 # 262 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Will you look at that sorry sight?\p"
+<<<<<<< HEAD
 # 263 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Heh, my POKéMON's absolutely better\n"
 # 264 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "Heh, my Pokémon's absolutely better\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "than that lot!$"
 # 265 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
@@ -534,9 +604,13 @@ SlateportCity_ContestHall_Text_MyMonBetterThanThatLot:
 SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
 # 268 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "Don't you get the urge to move with\n"
+<<<<<<< HEAD
 # 269 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "POKéMON if they're putting on an\l"
 # 270 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
+=======
+	.string "Pokémon if they're putting on an\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "energetic appeal?$"
 # 271 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 
@@ -544,7 +618,13 @@ SlateportCity_ContestHall_Text_GetUrgeToMoveWithMon:
 @ Unused
 # 273 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 SlateportCity_ContestHall_Text_HyperRankStage:
+<<<<<<< HEAD
 # 274 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "POKéMON CONTESTS\n"
 # 275 "data/maps/SlateportCity_BattleTentCorridor/scripts.pory"
 	.string "HYPER RANK STAGE!$"
+=======
+	.string "Pokémon Contests\n"
+	.string "Hyper Rank Stage!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

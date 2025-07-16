@@ -36,6 +36,7 @@ Route119_House_EventScript_Wingull::
 
 # 19 "data/maps/Route119_House/scripts.pory"
 Route119_House_Text_RumorAboutCaveOfOrigin:
+<<<<<<< HEAD
 # 20 "data/maps/Route119_House/scripts.pory"
 	.string "I heard about a cave called the CAVE\n"
 # 21 "data/maps/Route119_House/scripts.pory"
@@ -45,10 +46,21 @@ Route119_House_Text_RumorAboutCaveOfOrigin:
 # 23 "data/maps/Route119_House/scripts.pory"
 	.string "POKéMON are revived there. Could\l"
 # 24 "data/maps/Route119_House/scripts.pory"
+=======
+	.string "I heard about a cave called the Cave\n"
+	.string "Of Origin.\p"
+	.string "People rumor that the spirits of\n"
+	.string "Pokémon are revived there. Could\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "something like that really happen?$"
 # 25 "data/maps/Route119_House/scripts.pory"
 
 # 26 "data/maps/Route119_House/scripts.pory"
 Route119_House_Text_Wingull:
+<<<<<<< HEAD
 # 27 "data/maps/Route119_House/scripts.pory"
 	.string "WINGULL: Pihyoh!$"
+=======
+	.string "Wingull: Pihyoh!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

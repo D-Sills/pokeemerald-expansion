@@ -50,6 +50,7 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 MagmaHideout_2F_1R_Text_Grunt14Intro:
 # 26 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "What, what, what?\p"
+<<<<<<< HEAD
 # 27 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "Only TEAM MAGMA members are supposed\n"
 # 28 "data/maps/MagmaHideout_2F_1R/scripts.pory"
@@ -57,6 +58,11 @@ MagmaHideout_2F_1R_Text_Grunt14Intro:
 # 29 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "But you're not dressed in TEAM MAGMA's\n"
 # 30 "data/maps/MagmaHideout_2F_1R/scripts.pory"
+=======
+	.string "Only Team Magma members are supposed\n"
+	.string "to be in here!\p"
+	.string "But you're not dressed in Team Magma's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "uniform…\p"
 # 31 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "You rouse my suspicion!\n"
@@ -68,17 +74,25 @@ MagmaHideout_2F_1R_Text_Grunt14Intro:
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
 # 35 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "Aiyiyi…\n"
+<<<<<<< HEAD
 # 36 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "My pride as a TEAM MAGMA member…$"
 # 37 "data/maps/MagmaHideout_2F_1R/scripts.pory"
+=======
+	.string "My pride as a Team Magma member…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 38 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
 # 39 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "If you suffer from chills, you should\n"
+<<<<<<< HEAD
 # 40 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 	.string "join TEAM MAGMA.$"
 # 41 "data/maps/MagmaHideout_2F_1R/scripts.pory"
+=======
+	.string "join Team Magma.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 42 "data/maps/MagmaHideout_2F_1R/scripts.pory"
 MagmaHideout_2F_1R_Text_Grunt3Intro:

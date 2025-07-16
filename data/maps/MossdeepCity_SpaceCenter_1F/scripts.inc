@@ -608,11 +608,16 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 
 # 305 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
+<<<<<<< HEAD
 # 306 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "Those MAGMA thugs have their sights\n"
 # 307 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "set on our SPACE CENTER.\p"
 # 308 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "Those Magma thugs have their sights\n"
+	.string "set on our Space Center.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But we can't allow anything that minor\n"
 # 309 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "to interfere with our rocket launch!$"
@@ -632,17 +637,25 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 
 # 317 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
+<<<<<<< HEAD
 # 318 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "The HOENN region has been famous for \n"
 # 319 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "The Hoenn region has been famous for \n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "its meteor showers for a long time.$"
 # 320 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 321 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
+<<<<<<< HEAD
 # 322 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "TEAM MAGMA can't be allowed to steal\n"
 # 323 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "Team Magma can't be allowed to steal\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the rocket fuel.\p"
 # 324 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "Oh, by the way, you can have this stone\n"
@@ -652,22 +665,31 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
 
 # 327 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
+<<<<<<< HEAD
 # 328 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "With TEAM MAGMA around, I guess\n"
 # 329 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "With Team Magma around, I guess\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "strolls on the beach aren't safe.$"
 # 330 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 331 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
+<<<<<<< HEAD
 # 332 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "Some people claim that POKéMON came\n"
 # 333 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "Some people claim that Pokémon came\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "from space. Could it be true?$"
 # 334 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
 # 335 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
+<<<<<<< HEAD
 # 336 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "TEAM AQUA should take care of\n"
 # 337 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
@@ -675,6 +697,11 @@ MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
 # 338 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "But if they did that, TEAM AQUA will\n"
 # 339 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "Team Aqua should take care of\n"
+	.string "Team Magma!\p"
+	.string "But if they did that, Team Aqua will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "become bold and brazen, won't they?$"
 # 340 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 
@@ -694,9 +721,13 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "A giant chunk of metal bursts through\n"
 # 348 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "the skies and flies into space…\p"
+<<<<<<< HEAD
 # 349 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "But TEAM MAGMA wants to spoil\n"
 # 350 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "But Team Magma wants to spoil\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that dream of mine!\p"
 # 351 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "I'm not having any of that!$"
@@ -704,6 +735,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 
 # 353 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
+<<<<<<< HEAD
 # 354 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
 # 355 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
@@ -711,6 +743,11 @@ MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
 # 356 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "TEAM MAGMA is coming after the rocket\n"
 # 357 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "Steven: {PLAYER}{KUN}, have you read that\n"
+	.string "proclamation already?\p"
+	.string "Team Magma is coming after the rocket\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "fuel on this island.\p"
 # 358 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "I don't know what they'd need it for,\n"
@@ -774,9 +811,13 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
 
 # 388 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
+<<<<<<< HEAD
 # 389 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "The rocket fuel the SPACE CENTER has\n"
 # 390 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "The rocket fuel the Space Center has\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in storage--that's what we're after.\p"
 # 391 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "We mean to take every last bit of it!$"
@@ -832,9 +873,13 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "This is…\n"
 # 417 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "An intent-to-steal notice?\p"
+<<<<<<< HEAD
 # 418 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "“To the staff of the SPACE CENTER:\n"
 # 419 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
+=======
+	.string "“To the staff of the Space Center:\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How are you? We are doing fine.\p"
 # 420 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "“We will soon visit you to take your\n"
@@ -846,5 +891,9 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "We will take the fuel no matter what.\p"
 # 424 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "“Let there be more land!\n"
+<<<<<<< HEAD
 # 425 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	.string "                                          TEAM MAGMA”$"
+=======
+	.string "                                          Team Magma”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

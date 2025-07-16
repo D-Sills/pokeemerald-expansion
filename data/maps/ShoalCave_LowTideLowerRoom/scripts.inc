@@ -104,9 +104,13 @@ ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus:
 	.string "parts is an impediment to training.\p"
 # 53 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	.string "But with focus, one can overcome!\p"
+<<<<<<< HEAD
 # 54 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	.string "With this FOCUS BAND, buckle down and\n"
 # 55 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
+=======
+	.string "With this Focus Band, buckle down and\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "withstand the cold!$"
 # 56 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 

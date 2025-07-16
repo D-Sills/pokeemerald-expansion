@@ -52,23 +52,39 @@ EverGrandeCity_EventScript_SetVisitedEverGrande::
 
 # 27 "data/maps/EverGrandeCity/scripts.pory"
 EverGrandeCity_Text_EnteringVictoryRoad:
+<<<<<<< HEAD
 # 28 "data/maps/EverGrandeCity/scripts.pory"
 	.string "ENTERING VICTORY ROAD$"
 # 29 "data/maps/EverGrandeCity/scripts.pory"
+=======
+	.string "Entering Victory Road$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 30 "data/maps/EverGrandeCity/scripts.pory"
 EverGrandeCity_Text_EnteringPokemonLeague:
+<<<<<<< HEAD
 # 31 "data/maps/EverGrandeCity/scripts.pory"
 	.string "ENTERING POKéMON LEAGUE\n"
 # 32 "data/maps/EverGrandeCity/scripts.pory"
 	.string "CENTER GATE$"
 # 33 "data/maps/EverGrandeCity/scripts.pory"
+=======
+	.string "Entering Pokémon League\n"
+	.string "Center Gate$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 34 "data/maps/EverGrandeCity/scripts.pory"
 EverGrandeCity_Text_CitySign:
+<<<<<<< HEAD
 # 35 "data/maps/EverGrandeCity/scripts.pory"
 	.string "EVER GRANDE CITY\p"
 # 36 "data/maps/EverGrandeCity/scripts.pory"
 	.string "“The paradise of flowers, the sea,\n"
 # 37 "data/maps/EverGrandeCity/scripts.pory"
 	.string "and POKéMON.”$"
+=======
+	.string "Ever Grande City\p"
+	.string "“The paradise of flowers, the sea,\n"
+	.string "and Pokémon.”$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

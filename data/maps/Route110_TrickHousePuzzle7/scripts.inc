@@ -638,9 +638,13 @@ Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 # 320 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 321 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "“TRICK MASTER is huggable.”\n"
 # 322 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+=======
+	.string "“Trick Master is huggable.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 323 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "The lock clicked open!$"
@@ -648,9 +652,13 @@ Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
 
 # 325 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
+<<<<<<< HEAD
 # 326 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "The TRICK MASTER always vanishes\n"
 # 327 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+=======
+	.string "The Trick Master always vanishes\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "like smoke. How does he do it?$"
 # 328 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 
@@ -714,9 +722,13 @@ Route110_TrickHousePuzzle7_Text_AlexisDefeat:
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
 # 358 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "You're solving all the puzzles in the\n"
+<<<<<<< HEAD
 # 359 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	.string "TRICK HOUSE. That's the feeling I get.$"
 # 360 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
+=======
+	.string "Trick House. That's the feeling I get.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 361 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_Text_MarielaIntro:

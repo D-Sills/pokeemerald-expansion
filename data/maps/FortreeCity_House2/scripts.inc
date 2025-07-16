@@ -88,9 +88,13 @@ FortreeCity_House2_EventScript_WrongGuess::
 
 # 45 "data/maps/FortreeCity_House2/scripts.pory"
 FortreeCity_House2_Text_HiddenPowersArousedByNature:
+<<<<<<< HEAD
 # 46 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "People… POKéMON…\p"
 # 47 "data/maps/FortreeCity_House2/scripts.pory"
+=======
+	.string "People… Pokémon…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Their hidden powers are aroused by\n"
 # 48 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "living in natural environments…$"
@@ -142,17 +146,26 @@ FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
 	.string "Your hidden power has awoken!\p"
 # 72 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "Here, take this and awaken the hidden\n"
+<<<<<<< HEAD
 # 73 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "power of your POKéMON.$"
 # 74 "data/maps/FortreeCity_House2/scripts.pory"
+=======
+	.string "power of your Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 75 "data/maps/FortreeCity_House2/scripts.pory"
 FortreeCity_House2_Text_ExplainHiddenPower:
+<<<<<<< HEAD
 # 76 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "HIDDEN POWER is a move that changes\n"
 # 77 "data/maps/FortreeCity_House2/scripts.pory"
 	.string "with the POKéMON.$"
 # 78 "data/maps/FortreeCity_House2/scripts.pory"
+=======
+	.string "Hidden Power is a move that changes\n"
+	.string "with the Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 79 "data/maps/FortreeCity_House2/scripts.pory"
 FortreeCity_House2_Text_YouGuessedWrong:

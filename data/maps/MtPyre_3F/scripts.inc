@@ -134,12 +134,17 @@ MtPyre_3F_Text_GabrielleIntro:
 MtPyre_3F_Text_GabrielleDefeat:
 # 68 "data/maps/MtPyre_3F/scripts.pory"
 	.string "That was amazing!\n"
+<<<<<<< HEAD
 # 69 "data/maps/MtPyre_3F/scripts.pory"
 	.string "You're a very special TRAINER.$"
 # 70 "data/maps/MtPyre_3F/scripts.pory"
+=======
+	.string "You're a very special Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 71 "data/maps/MtPyre_3F/scripts.pory"
 MtPyre_3F_Text_GabriellePostBattle:
+<<<<<<< HEAD
 # 72 "data/maps/MtPyre_3F/scripts.pory"
 	.string "POKéMON no longer of this world.\n"
 # 73 "data/maps/MtPyre_3F/scripts.pory"
@@ -147,6 +152,11 @@ MtPyre_3F_Text_GabriellePostBattle:
 # 74 "data/maps/MtPyre_3F/scripts.pory"
 	.string "And the POKéMON that you will meet\n"
 # 75 "data/maps/MtPyre_3F/scripts.pory"
+=======
+	.string "Pokémon no longer of this world.\n"
+	.string "Pokémon that are with you now.\p"
+	.string "And the Pokémon that you will meet\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in the future…\p"
 # 76 "data/maps/MtPyre_3F/scripts.pory"
 	.string "They are all to be equally cherished.\n"
@@ -156,6 +166,7 @@ MtPyre_3F_Text_GabriellePostBattle:
 
 # 79 "data/maps/MtPyre_3F/scripts.pory"
 MtPyre_3F_Text_GabrielleRegister:
+<<<<<<< HEAD
 # 80 "data/maps/MtPyre_3F/scripts.pory"
 	.string "I would like to see your POKéMON\n"
 # 81 "data/maps/MtPyre_3F/scripts.pory"
@@ -163,6 +174,11 @@ MtPyre_3F_Text_GabrielleRegister:
 # 82 "data/maps/MtPyre_3F/scripts.pory"
 	.string "Please, I need to see your POKéNAV.$"
 # 83 "data/maps/MtPyre_3F/scripts.pory"
+=======
+	.string "I would like to see your Pokémon\n"
+	.string "when they grow up some more…\p"
+	.string "Please, I need to see your PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 84 "data/maps/MtPyre_3F/scripts.pory"
 MtPyre_3F_Text_GabrielleRematchIntro:
@@ -170,9 +186,13 @@ MtPyre_3F_Text_GabrielleRematchIntro:
 	.string "Oh, it's you…\p"
 # 86 "data/maps/MtPyre_3F/scripts.pory"
 	.string "Have you come to show me your grown\n"
+<<<<<<< HEAD
 # 87 "data/maps/MtPyre_3F/scripts.pory"
 	.string "POKéMON?$"
 # 88 "data/maps/MtPyre_3F/scripts.pory"
+=======
+	.string "Pokémon?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 89 "data/maps/MtPyre_3F/scripts.pory"
 MtPyre_3F_Text_GabrielleRematchDefeat:
@@ -184,6 +204,7 @@ MtPyre_3F_Text_GabrielleRematchDefeat:
 
 # 93 "data/maps/MtPyre_3F/scripts.pory"
 MtPyre_3F_Text_GabriellePostRematch:
+<<<<<<< HEAD
 # 94 "data/maps/MtPyre_3F/scripts.pory"
 	.string "POKéMON no longer of this world.\n"
 # 95 "data/maps/MtPyre_3F/scripts.pory"
@@ -191,6 +212,11 @@ MtPyre_3F_Text_GabriellePostRematch:
 # 96 "data/maps/MtPyre_3F/scripts.pory"
 	.string "And the POKéMON that you will meet\n"
 # 97 "data/maps/MtPyre_3F/scripts.pory"
+=======
+	.string "Pokémon no longer of this world.\n"
+	.string "Pokémon that are with you now.\p"
+	.string "And the Pokémon that you will meet\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "in the future…\p"
 # 98 "data/maps/MtPyre_3F/scripts.pory"
 	.string "They are all to be equally cherished.\n"

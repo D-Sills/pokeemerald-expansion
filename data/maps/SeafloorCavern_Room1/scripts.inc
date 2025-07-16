@@ -44,9 +44,13 @@ SeafloorCavern_Room1_Text_Grunt1Defeat:
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
 # 23 "data/maps/SeafloorCavern_Room1/scripts.pory"
 	.string "I want to get a promotion so I can\n"
+<<<<<<< HEAD
 # 24 "data/maps/SeafloorCavern_Room1/scripts.pory"
 	.string "boss around the GRUNTS…$"
 # 25 "data/maps/SeafloorCavern_Room1/scripts.pory"
+=======
+	.string "boss around the Grunts…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 26 "data/maps/SeafloorCavern_Room1/scripts.pory"
 SeafloorCavern_Room1_Text_Grunt2Intro:

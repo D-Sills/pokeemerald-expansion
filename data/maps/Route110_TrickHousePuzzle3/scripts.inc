@@ -612,9 +612,13 @@ Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
 # 307 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	.string "on the door.\p"
+<<<<<<< HEAD
 # 308 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	.string "“TRICK MASTER is coveted.”\n"
 # 309 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
+=======
+	.string "“Trick Master is coveted.”\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 310 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	.string "The lock clicked open!$"

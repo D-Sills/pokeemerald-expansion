@@ -82,9 +82,13 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 # 42 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "That PC in the corner there is\n"
+<<<<<<< HEAD
 # 43 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "for any POKéMON TRAINER to use.\p"
 # 44 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "for any Pokémon Trainer to use.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Naturally, that means you're welcome\n"
 # 45 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "to use it, too.$"
@@ -92,9 +96,13 @@ OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
 
 # 47 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
+<<<<<<< HEAD
 # 48 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON CENTERS are great!\p"
 # 49 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pokémon Centers are great!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You can use their services as much\n"
 # 50 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "as you like, and it's all for free.\l"
@@ -104,9 +112,13 @@ OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat:
 
 # 53 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
+<<<<<<< HEAD
 # 54 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "The POKéMON WIRELESS CLUB on\n"
 # 55 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+=======
+	.string "The Pokémon Wireless Club on\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the second floor was built recently.\p"
 # 56 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "But they say they're still making\n"
@@ -116,9 +128,16 @@ OldaleTown_PokemonCenter_1F_Text_WirelessClubNotAvailable:
 
 # 59 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
+<<<<<<< HEAD
 # 60 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "The POKéMON WIRELESS CLUB on\n"
 # 61 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "the second floor was built recently.\p"
 # 62 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "I traded POKéMON right away.$"
+=======
+	.string "The Pokémon Wireless Club on\n"
+	.string "the second floor was built recently.\p"
+	.string "I traded Pokémon right away.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

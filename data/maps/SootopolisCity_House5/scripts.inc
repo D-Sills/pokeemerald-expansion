@@ -26,9 +26,13 @@ SootopolisCity_House5_EventScript_Girl::
 SootopolisCity_House5_Text_SootopolisMtPyreConnection:
 # 14 "data/maps/SootopolisCity_House5/scripts.pory"
 	.string "There appears to be some connection\n"
+<<<<<<< HEAD
 # 15 "data/maps/SootopolisCity_House5/scripts.pory"
 	.string "between SOOTOPOLIS and MT. PYRE.\p"
 # 16 "data/maps/SootopolisCity_House5/scripts.pory"
+=======
+	.string "between Sootopolis and Mt. Pyre.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My friends and I did some research on\n"
 # 17 "data/maps/SootopolisCity_House5/scripts.pory"
 	.string "it at the lab where I used to work.$"

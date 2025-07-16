@@ -704,17 +704,26 @@ Route116_EventScript_Johnson::
 Route116_Text_ScoundrelMadeOffWithPeeko:
 # 353 "data/maps/Route116/scripts.pory"
 	.string "Ohhh, what am I to do?\p"
+<<<<<<< HEAD
 # 354 "data/maps/Route116/scripts.pory"
 	.string "We were on our walk, PEEKO and I, when\n"
 # 355 "data/maps/Route116/scripts.pory"
+=======
+	.string "We were on our walk, Peeko and I, when\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we were jumped by an odd thug…\p"
 # 356 "data/maps/Route116/scripts.pory"
 	.string "The scoundrel made off with my\n"
+<<<<<<< HEAD
 # 357 "data/maps/Route116/scripts.pory"
 	.string "darling PEEKO!\p"
 # 358 "data/maps/Route116/scripts.pory"
 	.string "Wrrrooooooaaaar! PEEKO!$"
 # 359 "data/maps/Route116/scripts.pory"
+=======
+	.string "darling Peeko!\p"
+	.string "Wrrrooooooaaaar! Peeko!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 360 "data/maps/Route116/scripts.pory"
 Route116_Text_WantToDigTunnel:
@@ -734,9 +743,13 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "I was digging the tunnel without any\n"
 # 368 "data/maps/Route116/scripts.pory"
 	.string "tools when some goon ordered me out!\p"
+<<<<<<< HEAD
 # 369 "data/maps/Route116/scripts.pory"
 	.string "That tunnel's filled with POKéMON\n"
 # 370 "data/maps/Route116/scripts.pory"
+=======
+	.string "That tunnel's filled with Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that react badly to loud noises.\l"
 # 371 "data/maps/Route116/scripts.pory"
 	.string "They could cause an uproar.\p"
@@ -748,9 +761,13 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "I'm worried that the goon will do\n"
 # 375 "data/maps/Route116/scripts.pory"
 	.string "something stupid and startle the\l"
+<<<<<<< HEAD
 # 376 "data/maps/Route116/scripts.pory"
 	.string "POKéMON into an uproar.$"
 # 377 "data/maps/Route116/scripts.pory"
+=======
+	.string "Pokémon into an uproar.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 378 "data/maps/Route116/scripts.pory"
 Route116_Text_GoonHightailedItOutOfTunnel:
@@ -768,6 +785,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Oh! It's you!\p"
 # 385 "data/maps/Route116/scripts.pory"
 	.string "You're that person who not only helped\n"
+<<<<<<< HEAD
 # 386 "data/maps/Route116/scripts.pory"
 	.string "me in PETALBURG WOODS, but also got\l"
 # 387 "data/maps/Route116/scripts.pory"
@@ -777,6 +795,12 @@ Route116_Text_ThankYouTokenOfAppreciation:
 # 389 "data/maps/Route116/scripts.pory"
 	.string "CAPT. STERN informed us that the\n"
 # 390 "data/maps/Route116/scripts.pory"
+=======
+	.string "me in Petalburg Woods, but also got\l"
+	.string "back my stolen package and then even\l"
+	.string "graciously delivered it to Slateport!\p"
+	.string "Capt. Stern informed us that the\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "package arrived, too!\p"
 # 391 "data/maps/Route116/scripts.pory"
 	.string "I thank you very, very much!\p"
@@ -786,12 +810,17 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "shower you with gratitude and hail\l"
 # 394 "data/maps/Route116/scripts.pory"
 	.string "you as a hero!\p"
+<<<<<<< HEAD
 # 395 "data/maps/Route116/scripts.pory"
 	.string "For you, the most wonderful TRAINER,\n"
 # 396 "data/maps/Route116/scripts.pory"
+=======
+	.string "For you, the most wonderful Trainer,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I bear good news!\p"
 # 397 "data/maps/Route116/scripts.pory"
 	.string "Recently, our company developed\n"
+<<<<<<< HEAD
 # 398 "data/maps/Route116/scripts.pory"
 	.string "a new kind of POKé BALL.\p"
 # 399 "data/maps/Route116/scripts.pory"
@@ -799,14 +828,24 @@ Route116_Text_ThankYouTokenOfAppreciation:
 # 400 "data/maps/Route116/scripts.pory"
 	.string "is our gift to our wonderful TRAINER!$"
 # 401 "data/maps/Route116/scripts.pory"
+=======
+	.string "a new kind of Poké Ball.\p"
+	.string "As a token of our appreciation, this\n"
+	.string "is our gift to our wonderful Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 402 "data/maps/Route116/scripts.pory"
 Route116_Text_NewBallAvailableAtMart:
+<<<<<<< HEAD
 # 403 "data/maps/Route116/scripts.pory"
 	.string "Our new POKé BALL will be available\n"
 # 404 "data/maps/Route116/scripts.pory"
 	.string "at the POKéMON MART in RUSTBORO.\p"
 # 405 "data/maps/Route116/scripts.pory"
+=======
+	.string "Our new Poké Ball will be available\n"
+	.string "at the Poké Mart in Rustboro.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please do try it out!\n"
 # 406 "data/maps/Route116/scripts.pory"
 	.string "Thank you and bye-bye!$"
@@ -814,11 +853,16 @@ Route116_Text_NewBallAvailableAtMart:
 
 # 408 "data/maps/Route116/scripts.pory"
 Route116_Text_BagIsJamPacked:
+<<<<<<< HEAD
 # 409 "data/maps/Route116/scripts.pory"
 	.string "Your BAG is jam-packed.\n"
 # 410 "data/maps/Route116/scripts.pory"
 	.string "I can't give you this REPEAT BALL.$"
 # 411 "data/maps/Route116/scripts.pory"
+=======
+	.string "Your Bag is jam-packed.\n"
+	.string "I can't give you this Repeat Ball.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 412 "data/maps/Route116/scripts.pory"
 Route116_Text_TokenOfAppreciation:
@@ -826,11 +870,16 @@ Route116_Text_TokenOfAppreciation:
 	.string "As a token of our appreciation for\n"
 # 414 "data/maps/Route116/scripts.pory"
 	.string "your delivering our package, I have\l"
+<<<<<<< HEAD
 # 415 "data/maps/Route116/scripts.pory"
 	.string "a gift of a new kind of POKé BALL\l"
 # 416 "data/maps/Route116/scripts.pory"
 	.string "for our most wonderful TRAINER!$"
 # 417 "data/maps/Route116/scripts.pory"
+=======
+	.string "a gift of a new kind of Poké Ball\l"
+	.string "for our most wonderful Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 418 "data/maps/Route116/scripts.pory"
 Route116_Text_CanYouHelpMeFindGlasses:
@@ -852,9 +901,13 @@ Route116_Text_MayISeeThoseGlasses:
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 # 427 "data/maps/Route116/scripts.pory"
 	.string "Hmm…\n"
+<<<<<<< HEAD
 # 428 "data/maps/Route116/scripts.pory"
 	.string "These are BLACKGLASSES.\l"
 # 429 "data/maps/Route116/scripts.pory"
+=======
+	.string "These are Black Glasses.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They're not what I'm looking for…\p"
 # 430 "data/maps/Route116/scripts.pory"
 	.string "Maybe my glasses aren't around\n"
@@ -876,27 +929,41 @@ Route116_Text_CantFindGlassesNotHere:
 Route116_Text_NotWhatImLookingFor:
 # 439 "data/maps/Route116/scripts.pory"
 	.string "Hmm…\n"
+<<<<<<< HEAD
 # 440 "data/maps/Route116/scripts.pory"
 	.string "These are BLACKGLASSES.\l"
 # 441 "data/maps/Route116/scripts.pory"
+=======
+	.string "These are Black Glasses.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They're not what I'm looking for…$"
 # 442 "data/maps/Route116/scripts.pory"
 
 # 443 "data/maps/Route116/scripts.pory"
 Route116_Text_RouteSignRustboro:
+<<<<<<< HEAD
 # 444 "data/maps/Route116/scripts.pory"
 	.string "ROUTE 116\n"
 # 445 "data/maps/Route116/scripts.pory"
 	.string "{LEFT_ARROW} RUSTBORO CITY$"
 # 446 "data/maps/Route116/scripts.pory"
+=======
+	.string "Route 116\n"
+	.string "{LEFT_ARROW} Rustboro City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 447 "data/maps/Route116/scripts.pory"
 Route116_Text_RusturfTunnelSign:
+<<<<<<< HEAD
 # 448 "data/maps/Route116/scripts.pory"
 	.string "RUSTURF TUNNEL\n"
 # 449 "data/maps/Route116/scripts.pory"
 	.string "“Linking RUSTBORO and VERDANTURF\p"
 # 450 "data/maps/Route116/scripts.pory"
+=======
+	.string "Rusturf Tunnel\n"
+	.string "“Linking Rustboro and Verdanturf\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“The tunnel project has been\n"
 # 451 "data/maps/Route116/scripts.pory"
 	.string "canceled.”$"
@@ -904,28 +971,42 @@ Route116_Text_RusturfTunnelSign:
 
 # 453 "data/maps/Route116/scripts.pory"
 Route116_Text_TunnelersRestHouse:
+<<<<<<< HEAD
 # 454 "data/maps/Route116/scripts.pory"
 	.string "TUNNELER'S REST HOUSE$"
 # 455 "data/maps/Route116/scripts.pory"
+=======
+	.string "Tunneler's Rest House$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 456 "data/maps/Route116/scripts.pory"
 Route116_Text_TrainerTipsBToStopEvolution:
+<<<<<<< HEAD
 # 457 "data/maps/Route116/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 458 "data/maps/Route116/scripts.pory"
 	.string "If you want to stop a POKéMON from\n"
 # 459 "data/maps/Route116/scripts.pory"
+=======
+	.string "Trainer Tips\p"
+	.string "If you want to stop a Pokémon from\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "evolving, press the B Button while it\l"
 # 460 "data/maps/Route116/scripts.pory"
 	.string "is trying to evolve.\l"
+<<<<<<< HEAD
 # 461 "data/maps/Route116/scripts.pory"
 	.string "The startled POKéMON will stop.\p"
 # 462 "data/maps/Route116/scripts.pory"
+=======
+	.string "The startled Pokémon will stop.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "This is called an evolution cancel.$"
 # 463 "data/maps/Route116/scripts.pory"
 
 # 464 "data/maps/Route116/scripts.pory"
 Route116_Text_TrainerTipsBagHasPockets:
+<<<<<<< HEAD
 # 465 "data/maps/Route116/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 466 "data/maps/Route116/scripts.pory"
@@ -938,3 +1019,12 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "No TRAINER can afford to be without\n"
 # 470 "data/maps/Route116/scripts.pory"
 	.string "a BAG of their own.$"
+=======
+	.string "Trainer Tips\p"
+	.string "Your Bag has several Pockets.\p"
+	.string "Items you obtain are automatically\n"
+	.string "placed in the appropriate Pockets.\p"
+	.string "No Trainer can afford to be without\n"
+	.string "a Bag of their own.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -74,9 +74,13 @@ SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
 	.string "a good while.\p"
 # 38 "data/maps/SootopolisCity_House6/scripts.pory"
 	.string "You've brightened up my day, so I'll\n"
+<<<<<<< HEAD
 # 39 "data/maps/SootopolisCity_House6/scripts.pory"
 	.string "give you a big WAILMER DOLL.$"
 # 40 "data/maps/SootopolisCity_House6/scripts.pory"
+=======
+	.string "give you a big Wailmer Doll.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 41 "data/maps/SootopolisCity_House6/scripts.pory"
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
@@ -96,11 +100,20 @@ SootopolisCity_House6_Text_IllHoldItForYou:
 SootopolisCity_House6_Text_DontWantThisDoll:
 # 49 "data/maps/SootopolisCity_House6/scripts.pory"
 	.string "Are you sure?\n"
+<<<<<<< HEAD
 # 50 "data/maps/SootopolisCity_House6/scripts.pory"
 	.string "You don't want this DOLL?$"
 # 51 "data/maps/SootopolisCity_House6/scripts.pory"
+=======
+	.string "You don't want this Doll?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 52 "data/maps/SootopolisCity_House6/scripts.pory"
 SootopolisCity_House6_Text_LovePlushDolls:
+<<<<<<< HEAD
 # 53 "data/maps/SootopolisCity_House6/scripts.pory"
 	.string "I love plush DOLLS!$"
+=======
+	.string "I love plush Dolls!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

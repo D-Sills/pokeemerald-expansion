@@ -204,5 +204,10 @@ Route124_EventScript_Isabella::
 
 # 103 "data/maps/Route124/scripts.pory"
 Route124_Text_HuntersHouse:
+<<<<<<< HEAD
 # 104 "data/maps/Route124/scripts.pory"
 	.string "HUNTER'S HOUSE$"
+=======
+	.string "Hunter's House$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

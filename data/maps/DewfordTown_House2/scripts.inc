@@ -60,9 +60,13 @@ DewfordTown_House2_EventScript_Boy::
 DewfordTown_House2_Text_WantYouToHaveSilkScarf:
 # 31 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Gorge your eyes on this!\p"
+<<<<<<< HEAD
 # 32 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "It's a SILK SCARF. It's right at the\n"
 # 33 "data/maps/DewfordTown_House2/scripts.pory"
+=======
+	.string "It's a Silk Scarf. It's right at the\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "cutting edge of fashion, yeah!\p"
 # 34 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Oh, I can see your eyes twinkling!\n"
@@ -78,9 +82,13 @@ DewfordTown_House2_Text_WantYouToHaveSilkScarf:
 DewfordTown_House2_Text_NoRoom:
 # 40 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Oh, you don't have room?\p"
+<<<<<<< HEAD
 # 41 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Now, listen tight, this SCARF is a must-\n"
 # 42 "data/maps/DewfordTown_House2/scripts.pory"
+=======
+	.string "Now, listen tight, this Scarf is a must-\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "have! Why, I would sell all my items\l"
 # 43 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "in order to get it!$"
@@ -88,6 +96,7 @@ DewfordTown_House2_Text_NoRoom:
 
 # 45 "data/maps/DewfordTown_House2/scripts.pory"
 DewfordTown_House2_Text_ExplainSilkScarf:
+<<<<<<< HEAD
 # 46 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "The SILK SCARF raises the power of\n"
 # 47 "data/maps/DewfordTown_House2/scripts.pory"
@@ -97,11 +106,18 @@ DewfordTown_House2_Text_ExplainSilkScarf:
 # 49 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "with almost all POKéMON!$"
 # 50 "data/maps/DewfordTown_House2/scripts.pory"
+=======
+	.string "The Silk Scarf raises the power of\n"
+	.string "Normal-type moves.\p"
+	.string "It's a marvelous Scarf that will go\n"
+	.string "with almost all Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 51 "data/maps/DewfordTown_House2/scripts.pory"
 DewfordTown_House2_Text_BrawlySoCool:
 # 52 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Wow, you bothered to cross the sea\n"
+<<<<<<< HEAD
 # 53 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "to visit DEWFORD?\p"
 # 54 "data/maps/DewfordTown_House2/scripts.pory"
@@ -109,6 +125,11 @@ DewfordTown_House2_Text_BrawlySoCool:
 # 55 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "heard about BRAWLY?\p"
 # 56 "data/maps/DewfordTown_House2/scripts.pory"
+=======
+	.string "to visit Dewford?\p"
+	.string "Did you maybe come here because you\n"
+	.string "heard about Brawly?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He's so cool…\n"
 # 57 "data/maps/DewfordTown_House2/scripts.pory"
 	.string "Everyone idolizes him.$"

@@ -64,9 +64,13 @@ Route111_OldLadysRestStop_EventScript_DeclineRest::
 Route111_OldLadysRestStop_Text_RestUpHere:
 # 33 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "Oh, dear, dear.\n"
+<<<<<<< HEAD
 # 34 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "Aren't your POKéMON exhausted?\p"
 # 35 "data/maps/Route111_OldLadysRestStop/scripts.pory"
+=======
+	.string "Aren't your Pokémon exhausted?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If you'd like, rest up here.\n"
 # 36 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "That's a fine idea! You should do that.$"
@@ -84,9 +88,13 @@ Route111_OldLadysRestStop_Text_TakeYourTimeRestUp:
 Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 # 43 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "Oh, dear, dear.\n"
+<<<<<<< HEAD
 # 44 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "Are your POKéMON still tired?\p"
 # 45 "data/maps/Route111_OldLadysRestStop/scripts.pory"
+=======
+	.string "Are your Pokémon still tired?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You should take another rest here.\n"
 # 46 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "That's a fine idea. You should do that.$"
@@ -96,5 +104,11 @@ Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
 # 49 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "Is that so?\n"
+<<<<<<< HEAD
 # 50 "data/maps/Route111_OldLadysRestStop/scripts.pory"
 	.string "You don't need to be shy about it.$"
+=======
+	.string "You don't need to be shy about it.\l"
+	.string "I could make some tea…$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

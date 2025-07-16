@@ -976,45 +976,69 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 
 # 489 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
+<<<<<<< HEAD
 # 490 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: TRAINER {PLAYER}!\n"
 # 491 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: Trainer {PLAYER}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Step forward, please!$"
 # 492 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 493 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
+<<<<<<< HEAD
 # 494 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: TRAINER {STR_VAR_1}!\n"
 # 495 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: Trainer {STR_VAR_1}!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Step forward, please!$"
 # 496 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 497 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
+<<<<<<< HEAD
 # 498 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: Set KO Tourney!\n"
 # 499 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: Set KO Tourney!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Begin!$"
 # 500 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 501 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
+<<<<<<< HEAD
 # 502 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: The winner is {PLAYER}!$"
 # 503 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: The winner is {PLAYER}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 504 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
+<<<<<<< HEAD
 # 505 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: The winner is {STR_VAR_1}!$"
 # 506 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: The winner is {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 507 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
+<<<<<<< HEAD
 # 508 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Your POKéMON will be restored to\n"
 # 509 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Your Pokémon will be restored to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "full health.$"
 # 510 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
@@ -1094,9 +1118,13 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
 # 548 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Would you like to record your last\n"
+<<<<<<< HEAD
 # 549 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "battle on your FRONTIER PASS?$"
 # 550 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "battle on your Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 551 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
@@ -1106,31 +1134,48 @@ BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
 	.string "Your skill level is truly astounding!\p"
 # 554 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "We now would like you to face our\n"
+<<<<<<< HEAD
 # 555 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "leader, the ARENA TYCOON!$"
 # 556 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "leader, the Arena Tycoon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 557 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
+<<<<<<< HEAD
 # 558 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "A battle with the ARENA TYCOON!\n"
 # 559 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "A battle with the Arena Tycoon!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Are you prepared?$"
 # 560 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 561 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
+<<<<<<< HEAD
 # 562 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "REFEREE: The ARENA TYCOON!\n"
 # 563 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Make way for GRETA!$"
 # 564 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Referee: The Arena Tycoon!\n"
+	.string "Make way for Greta!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 565 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
+<<<<<<< HEAD
 # 566 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "GRETA: Hey!\n"
 # 567 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Greta: Hey!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Howdy!\p"
 # 568 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "…Wait, are you the challenger?$"
@@ -1170,23 +1215,35 @@ BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
 
 # 586 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
+<<<<<<< HEAD
 # 587 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "GRETA: Ow, wait a second!\n"
 # 588 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Greta: Ow, wait a second!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You are tough after all!\p"
 # 589 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "I like you!\n"
+<<<<<<< HEAD
 # 590 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Let's see your FRONTIER PASS.$"
 # 591 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Let's see your Frontier Pass.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 592 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
 # 593 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "The Guts Symbol was embossed on\n"
+<<<<<<< HEAD
 # 594 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "the FRONTIER PASS!$"
 # 595 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "the Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 596 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
@@ -1200,9 +1257,13 @@ BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
 
 # 601 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
+<<<<<<< HEAD
 # 602 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "GRETA: Hey! Howdy!\n"
 # 603 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Greta: Hey! Howdy!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You finally won your way up to me!\p"
 # 604 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "I was getting worried waiting for you!\n"
@@ -1230,19 +1291,28 @@ BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
 
 # 616 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
+<<<<<<< HEAD
 # 617 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Come on, REFEREE!\n"
 # 618 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Come on, Ref!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Let's get this started!$"
 # 619 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 620 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
+<<<<<<< HEAD
 # 621 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "GRETA: Gaaah! Blown away!\n"
 # 622 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	.string "Let's see your FRONTIER PASS!$"
 # 623 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	.string "Greta: Gaaah! Blown away!\n"
+	.string "Let's see your Frontier Pass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 624 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:

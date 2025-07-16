@@ -404,9 +404,13 @@ LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
 
 # 203 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
+<<<<<<< HEAD
 # 204 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 	.string "It's a VENDING MACHINE.\n"
 # 205 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
+=======
+	.string "It's a vending machine.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Which drink would you like?$"
 # 206 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 

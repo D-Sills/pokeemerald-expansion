@@ -44,9 +44,13 @@ SSTidalLowerDeck_Text_PhillipDefeat:
 
 # 23 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_PhillipPostBattle:
+<<<<<<< HEAD
 # 24 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "We're the CLEANUP BROTHERS!\p"
 # 25 "data/maps/SSTidalLowerDeck/scripts.pory"
+=======
+	.string "We're the Cleanup Brothers!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The old one dumps the detergent,\n"
 # 26 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "and the young one does the scrubbing!$"
@@ -58,9 +62,13 @@ SSTidalLowerDeck_Text_LeonardIntro:
 	.string "This is the bottom of the ship's hull.\n"
 # 30 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "There's plenty of room.\l"
+<<<<<<< HEAD
 # 31 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "It'll be alright for a POKéMON battle.$"
 # 32 "data/maps/SSTidalLowerDeck/scripts.pory"
+=======
+	.string "It'll be alright for a Pokémon battle.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 33 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_LeonardDefeat:
@@ -70,9 +78,13 @@ SSTidalLowerDeck_Text_LeonardDefeat:
 
 # 36 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_Text_LeonardPostBattle:
+<<<<<<< HEAD
 # 37 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "We're the CLEANUP BROTHERS!\p"
 # 38 "data/maps/SSTidalLowerDeck/scripts.pory"
+=======
+	.string "We're the Cleanup Brothers!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The old one dumps the detergent,\n"
 # 39 "data/maps/SSTidalLowerDeck/scripts.pory"
 	.string "and the young one does the scrubbing!$"

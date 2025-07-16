@@ -552,6 +552,7 @@ LavaridgeTown_EventScript_HerbShopSign::
 
 # 277 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
+<<<<<<< HEAD
 # 278 "data/maps/LavaridgeTown/scripts.pory"
 	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
 # 279 "data/maps/LavaridgeTown/scripts.pory"
@@ -563,6 +564,13 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 # 282 "data/maps/LavaridgeTown/scripts.pory"
 	.string "good POKéMON…\l"
 # 283 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "May: {PLAYER}{KUN}! Long time no see!\p"
+	.string "Oh? While I visited the hot springs,\n"
+	.string "you got the Lavaridge Gym Badge.\p"
+	.string "You must have collected\n"
+	.string "good Pokémon…\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No, I believe you raised some.\p"
 # 284 "data/maps/LavaridgeTown/scripts.pory"
 	.string "I guess it would be okay for you to\n"
@@ -572,6 +580,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 
 # 287 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
+<<<<<<< HEAD
 # 288 "data/maps/LavaridgeTown/scripts.pory"
 	.string "MAY: With those GO-GOGGLES, you'll\n"
 # 289 "data/maps/LavaridgeTown/scripts.pory"
@@ -583,28 +592,47 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 # 292 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Challenging GYMS…\p"
 # 293 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "May: With those Go-Goggles, you'll\n"
+	.string "have no trouble getting through the\l"
+	.string "desert near Route 111.\p"
+	.string "But, wow, {PLAYER}{KUN}…\n"
+	.string "Challenging Gyms…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You're trying hard because you don't\n"
 # 294 "data/maps/LavaridgeTown/scripts.pory"
 	.string "want to lose to me, I bet!\p"
 # 295 "data/maps/LavaridgeTown/scripts.pory"
 	.string "{PLAYER}{KUN}, I think I should challenge\n"
+<<<<<<< HEAD
 # 296 "data/maps/LavaridgeTown/scripts.pory"
 	.string "your dad in PETALBURG GYM.\p"
 # 297 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "your dad in Petalburg Gym.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "See you again!$"
 # 298 "data/maps/LavaridgeTown/scripts.pory"
 
 # 299 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
+<<<<<<< HEAD
 # 300 "data/maps/LavaridgeTown/scripts.pory"
 	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
 # 301 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Brendan: {PLAYER}, hey, it's been a while.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How's it going?\p"
 # 302 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Hmm…\n"
+<<<<<<< HEAD
 # 303 "data/maps/LavaridgeTown/scripts.pory"
 	.string "That's a decent collection of BADGES.\p"
 # 304 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "That's a decent collection of Badges.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "All right, then.\n"
 # 305 "data/maps/LavaridgeTown/scripts.pory"
 	.string "You may as well have this.$"
@@ -612,6 +640,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 
 # 307 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
+<<<<<<< HEAD
 # 308 "data/maps/LavaridgeTown/scripts.pory"
 	.string "BRENDAN: Keep those with you if you're\n"
 # 309 "data/maps/LavaridgeTown/scripts.pory"
@@ -621,16 +650,27 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 # 311 "data/maps/LavaridgeTown/scripts.pory"
 	.string "There should be some POKéMON that\n"
 # 312 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Brendan: Keep those with you if you're\n"
+	.string "planning on going into that desert near\l"
+	.string "Route 111.\p"
+	.string "There should be some Pokémon that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are exclusively desert-dwellers.\l"
 # 313 "data/maps/LavaridgeTown/scripts.pory"
 	.string "You might look around for those.\p"
 # 314 "data/maps/LavaridgeTown/scripts.pory"
 	.string "As for me…\n"
+<<<<<<< HEAD
 # 315 "data/maps/LavaridgeTown/scripts.pory"
 	.string "I'm considering challenging NORMAN,\l"
 # 316 "data/maps/LavaridgeTown/scripts.pory"
 	.string "the GYM LEADER of PETALBURG.\p"
 # 317 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "I'm considering challenging Norman,\l"
+	.string "the Gym Leader of Petalburg.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Unlike you, {PLAYER}, your dad looks like\n"
 # 318 "data/maps/LavaridgeTown/scripts.pory"
 	.string "he really is tough.\p"
@@ -640,9 +680,13 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 
 # 321 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_HaveEggWillYouTakeIt:
+<<<<<<< HEAD
 # 322 "data/maps/LavaridgeTown/scripts.pory"
 	.string "I have here an EGG.\p"
 # 323 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "I have here an egg.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd hoped to hatch it by covering it in\n"
 # 324 "data/maps/LavaridgeTown/scripts.pory"
 	.string "hot sand by the hot springs.\l"
@@ -650,6 +694,7 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt:
 	.string "But that doesn't seem to be enough…\p"
 # 326 "data/maps/LavaridgeTown/scripts.pory"
 	.string "I've heard it would be best if it were\n"
+<<<<<<< HEAD
 # 327 "data/maps/LavaridgeTown/scripts.pory"
 	.string "kept together with POKéMON and\l"
 # 328 "data/maps/LavaridgeTown/scripts.pory"
@@ -663,28 +708,49 @@ LavaridgeTown_Text_HaveEggWillYouTakeIt:
 # 332 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Will you take this EGG to hatch?$"
 # 333 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "kept together with Pokémon and\l"
+	.string "carried about.\p"
+	.string "You are a Trainer, yes?\n"
+	.string "And your Pokémon radiate vitality.\p"
+	.string "So, what say you?\n"
+	.string "Will you take this egg to hatch?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 334 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg:
 # 335 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Good! I hope you'll walk plenty with\n"
+<<<<<<< HEAD
 # 336 "data/maps/LavaridgeTown/scripts.pory"
 	.string "this here EGG!$"
 # 337 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "this here egg!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 338 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_ReceivedTheEgg:
+<<<<<<< HEAD
 # 339 "data/maps/LavaridgeTown/scripts.pory"
 	.string "{PLAYER} received the EGG.$"
 # 340 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "{PLAYER} received the egg.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 341 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_NoRoomForThisEgg:
+<<<<<<< HEAD
 # 342 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Oh? You've too many POKéMON.\n"
 # 343 "data/maps/LavaridgeTown/scripts.pory"
 	.string "There's no room for this EGG…$"
 # 344 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Oh? You've too many Pokémon.\n"
+	.string "There's no room for this egg…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 345 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_AsYouWishThen:
@@ -692,17 +758,26 @@ LavaridgeTown_Text_AsYouWishThen:
 	.string "As you wish, then…\p"
 # 347 "data/maps/LavaridgeTown/scripts.pory"
 	.string "If you have a change of heart about\n"
+<<<<<<< HEAD
 # 348 "data/maps/LavaridgeTown/scripts.pory"
 	.string "hatching this EGG, I will be here.$"
 # 349 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "hatching this egg, I will be here.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 350 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
+<<<<<<< HEAD
 # 351 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Every so often, an EGG will be found at\n"
 # 352 "data/maps/LavaridgeTown/scripts.pory"
 	.string "the POKéMON DAY CARE.\p"
 # 353 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Every so often, an egg will be found at\n"
+	.string "the Pokémon Day Care.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Or at least that's how the rumor goes.$"
 # 354 "data/maps/LavaridgeTown/scripts.pory"
 
@@ -734,9 +809,13 @@ LavaridgeTown_Text_PokemonNippedBackside:
 	.string "So warm and heavenly…\p"
 # 368 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Eh? Gyaah! Ouch!\p"
+<<<<<<< HEAD
 # 369 "data/maps/LavaridgeTown/scripts.pory"
 	.string "A POKéMON nipped my backside!$"
 # 370 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "A Pokémon nipped my backside!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 371 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_OhYouLikeHotSprings:
@@ -754,15 +833,23 @@ LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 	.string "I bathe in the hot springs every day.\p"
 # 378 "data/maps/LavaridgeTown/scripts.pory"
 	.string "I want to become a beautiful and strong\n"
+<<<<<<< HEAD
 # 379 "data/maps/LavaridgeTown/scripts.pory"
 	.string "GYM LEADER like FLANNERY.$"
 # 380 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Gym Leader like Flannery.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 381 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_IfPokemonInHotSprings:
+<<<<<<< HEAD
 # 382 "data/maps/LavaridgeTown/scripts.pory"
 	.string "If people put POKéMON in hot springs,\n"
 # 383 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "If people put Pokémon in hot springs,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it might be seriously strange.\p"
 # 384 "data/maps/LavaridgeTown/scripts.pory"
 	.string "Why, it might be an electric bath, or\n"
@@ -786,27 +873,41 @@ LavaridgeTown_Text_HotSpringsClaims:
 
 # 394 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_TownSign:
+<<<<<<< HEAD
 # 395 "data/maps/LavaridgeTown/scripts.pory"
 	.string "LAVARIDGE TOWN\p"
 # 396 "data/maps/LavaridgeTown/scripts.pory"
 	.string "“POKéMON CENTER HOT SPRINGS\n"
 # 397 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Lavaridge Town\p"
+	.string "“Pokémon Center Hot Springs\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "An excellent place for relaxing!”$"
 # 398 "data/maps/LavaridgeTown/scripts.pory"
 
 # 399 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_GymSign:
+<<<<<<< HEAD
 # 400 "data/maps/LavaridgeTown/scripts.pory"
 	.string "LAVARIDGE TOWN POKéMON GYM\n"
 # 401 "data/maps/LavaridgeTown/scripts.pory"
 	.string "LEADER: FLANNERY\l"
 # 402 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Lavaridge Town Pokémon Gym\n"
+	.string "Leader: Flannery\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“One with a fiery passion that burns!”$"
 # 403 "data/maps/LavaridgeTown/scripts.pory"
 
 # 404 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_Text_HerbShopSign:
+<<<<<<< HEAD
 # 405 "data/maps/LavaridgeTown/scripts.pory"
 	.string "POKéMON HERB SHOP\n"
 # 406 "data/maps/LavaridgeTown/scripts.pory"
+=======
+	.string "Pokémon Herb Shop\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Bitter taste--better cure!”$"

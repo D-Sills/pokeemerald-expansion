@@ -506,36 +506,54 @@ SSTidalCorridor_Movement_SailorReturn:
 
 # 254 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_Text_ScottBattleFrontierInvite:
+<<<<<<< HEAD
 # 255 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "SCOTT: Well, hi, hi!\n"
 # 256 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "Scott: Well, hi, hi!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}{KUN}, {PLAYER}{KUN}!\p"
 # 257 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "Something's come up, so I have to\n"
 # 258 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "disembark, but am I glad to see you!\p"
+<<<<<<< HEAD
 # 259 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "Congratulations, LEAGUE CHAMPION!\p"
 # 260 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "Congratulations, League Champion!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There's a place I'd like to invite\n"
 # 261 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "someone like you.\p"
+<<<<<<< HEAD
 # 262 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "It's the…\n"
 # 263 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "BATTLE FRONTIER!\p"
 # 264 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "It's called…\n"
+	.string "The Battle Frontier!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What's the place like?\n"
 # 265 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "You'll understand when you see it!\p"
+<<<<<<< HEAD
 # 266 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "I've spoken with the ship's CAPTAIN\n"
 # 267 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "I've spoken with the ship's Captain\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "about this.\p"
 # 268 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "The next time you take a ferry,\n"
 # 269 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "you should be able to sail to\l"
+<<<<<<< HEAD
 # 270 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "the BATTLE FRONTIER.\p"
 # 271 "data/maps/SSTidalCorridor/scripts.pory"
@@ -543,6 +561,11 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 # 272 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "at the BATTLE FRONTIER!$"
 # 273 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "the Battle Frontier.\p"
+	.string "Okay, {PLAYER}{KUN}, I'll be waiting for you\n"
+	.string "at the Battle Frontier!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 274 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
@@ -566,17 +589,25 @@ SSTidal_Text_HopeYouEnjoyVoyage:
 
 # 284 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidal_Text_MadeLandInSlateport:
+<<<<<<< HEAD
 # 285 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "We have made land in SLATEPORT CITY.\n"
 # 286 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "We have made land in Slateport City.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Thank you for sailing with us.$"
 # 287 "data/maps/SSTidalCorridor/scripts.pory"
 
 # 288 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidal_Text_MadeLandInLilycove:
+<<<<<<< HEAD
 # 289 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "We have made land in LILYCOVE CITY.\n"
 # 290 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "We have made land in Lilycove City.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Thank you for sailing with us.$"
 # 291 "data/maps/SSTidalCorridor/scripts.pory"
 
@@ -606,9 +637,13 @@ SSTidalCorridor_Text_WeveArrived:
 SSTidalCorridor_Text_VisitOtherCabins:
 # 304 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "Go visit other cabins.\n"
+<<<<<<< HEAD
 # 305 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "TRAINERS bored of the boat trip will\l"
 # 306 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "Trainers bored of the boat trip will\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "be itching to battle.$"
 # 307 "data/maps/SSTidalCorridor/scripts.pory"
 
@@ -628,6 +663,7 @@ SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
 
 # 315 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_Text_BrineyWelcomeAboard:
+<<<<<<< HEAD
 # 316 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p"
 # 317 "data/maps/SSTidalCorridor/scripts.pory"
@@ -637,20 +673,34 @@ SSTidalCorridor_Text_BrineyWelcomeAboard:
 # 319 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "You can call me CAPTAIN BRINEY now!\p"
 # 320 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "Mr. Briney: Welcome aboard, {PLAYER}{KUN}!\p"
+	.string "They made me honorary captain of\n"
+	.string "the S.S. Tidal!\p"
+	.string "You can call me Captain Briney now!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You know, I retired once before,\n"
 # 321 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "but when I saw this majestic ship…\p"
 # 322 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "Let me just say, it stirred my sleeping\n"
+<<<<<<< HEAD
 # 323 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "soul as a sailor!$"
 # 324 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "soul as a Sailor!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 325 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_Text_Peeko:
+<<<<<<< HEAD
 # 326 "data/maps/SSTidalCorridor/scripts.pory"
 	.string "PEEKO: Pihyo pihyohyo…$"
 # 327 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	.string "Peeko: Pihyo pihyohyo…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 328 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_Text_Cabin1:

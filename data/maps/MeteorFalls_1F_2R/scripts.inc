@@ -126,6 +126,7 @@ MeteorFalls_1F_2R_EventScript_RematchJay::
 
 # 64 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_NicolasIntro:
+<<<<<<< HEAD
 # 65 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "This is where we DRAGON users do our\n"
 # 66 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -133,6 +134,11 @@ MeteorFalls_1F_2R_Text_NicolasIntro:
 # 67 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "The CHAMPION even visits.\n"
 # 68 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "This is where we Dragon users do our\n"
+	.string "training.\p"
+	.string "The Champion even visits.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now do you see how special it is here?$"
 # 69 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
@@ -148,9 +154,13 @@ MeteorFalls_1F_2R_Text_NicolasDefeat:
 MeteorFalls_1F_2R_Text_NicolasPostBattle:
 # 75 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "The road ahead remains long and harsh.\p"
+<<<<<<< HEAD
 # 76 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "When will my POKéMON and I become\n"
 # 77 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "When will my Pokémon and I become\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the best?$"
 # 78 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
@@ -158,9 +168,13 @@ MeteorFalls_1F_2R_Text_NicolasPostBattle:
 MeteorFalls_1F_2R_Text_NicolasRegister:
 # 80 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "I want to know more about your power.\n"
+<<<<<<< HEAD
 # 81 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "Let me register you in my POKéNAV.$"
 # 82 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Let me register you in my PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 83 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_NicolasRematchIntro:
@@ -186,9 +200,13 @@ MeteorFalls_1F_2R_Text_NicolasRematchDefeat:
 MeteorFalls_1F_2R_Text_NicolasPostRematch:
 # 94 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "You've obviously kept up your\n"
+<<<<<<< HEAD
 # 95 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "POKéMON training.\p"
 # 96 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Pokémon training.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So long as you remain strong, I, too,\n"
 # 97 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "can become stronger!$"
@@ -196,9 +214,13 @@ MeteorFalls_1F_2R_Text_NicolasPostRematch:
 
 # 99 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnIntro:
+<<<<<<< HEAD
 # 100 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: We've always battled POKéMON\n"
 # 101 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: We've always battled Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "together as a twosome.\l"
 # 102 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "We've confidence in ourselves.$"
@@ -206,17 +228,25 @@ MeteorFalls_1F_2R_Text_JohnIntro:
 
 # 104 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnDefeat:
+<<<<<<< HEAD
 # 105 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Oh, my.\n"
 # 106 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Oh, my.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We've lost, dear wife.$"
 # 107 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 108 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnPostBattle:
+<<<<<<< HEAD
 # 109 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: We've been married for\n"
 # 110 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: We've been married for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "fifty years.\p"
 # 111 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "Come to think of it, I've yet to beat\n"
@@ -226,6 +256,7 @@ MeteorFalls_1F_2R_Text_JohnPostBattle:
 
 # 114 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
+<<<<<<< HEAD
 # 115 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Well, well, what a young TRAINER!\p"
 # 116 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -233,20 +264,33 @@ MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
 # 117 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "have to return with more POKéMON.$"
 # 118 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Well, well, what a young Trainer!\p"
+	.string "Will you battle with us? If so, you'll\n"
+	.string "have to return with more Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 119 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnRegister:
+<<<<<<< HEAD
 # 120 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Young TRAINER, if the chance\n"
 # 121 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Young Trainer, if the chance\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "arises, will you battle with us again?$"
 # 122 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 123 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayIntro:
+<<<<<<< HEAD
 # 124 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: We've been married for\n"
 # 125 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: We've been married for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "fifty years.\p"
 # 126 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "The bond we share as a couple could\n"
@@ -256,14 +300,19 @@ MeteorFalls_1F_2R_Text_JayIntro:
 
 # 129 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayDefeat:
+<<<<<<< HEAD
 # 130 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Oh, dear.\n"
 # 131 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: Oh, dear.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We've lost, my dear husband.$"
 # 132 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 133 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayPostBattle:
+<<<<<<< HEAD
 # 134 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Fifty years of marriage…\p"
 # 135 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -271,9 +320,15 @@ MeteorFalls_1F_2R_Text_JayPostBattle:
 # 136 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "it with a POKéMON battle…$"
 # 137 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: Fifty years of marriage…\p"
+	.string "If we ever argued, we always settled\n"
+	.string "it with a Pokémon battle…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 138 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayNotEnoughMons:
+<<<<<<< HEAD
 # 139 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Well, well, aren't you a young\n"
 # 140 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -283,12 +338,22 @@ MeteorFalls_1F_2R_Text_JayNotEnoughMons:
 # 142 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "have to come back with more POKéMON.$"
 # 143 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: Well, well, aren't you a young\n"
+	.string "Trainer?\p"
+	.string "If you'd care to battle with us, you'll\n"
+	.string "have to come back with more Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 144 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnRematchIntro:
+<<<<<<< HEAD
 # 145 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: We've always battled POKéMON\n"
 # 146 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: We've always battled Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "together as a twosome.\l"
 # 147 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "We've confidence in ourselves.$"
@@ -296,17 +361,25 @@ MeteorFalls_1F_2R_Text_JohnRematchIntro:
 
 # 149 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnRematchDefeat:
+<<<<<<< HEAD
 # 150 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Oh, my.\n"
 # 151 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Oh, my.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We've lost, dear wife.$"
 # 152 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 153 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnPostRematch:
+<<<<<<< HEAD
 # 154 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Married for fifty years…\p"
 # 155 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Married for fifty years…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "On reflection, the dear wife and I,\n"
 # 156 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "we battled day in and day out…$"
@@ -314,6 +387,7 @@ MeteorFalls_1F_2R_Text_JohnPostRematch:
 
 # 158 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
+<<<<<<< HEAD
 # 159 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JOHN: Well, well, what a young TRAINER!\p"
 # 160 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -321,12 +395,21 @@ MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
 # 161 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "have to return with more POKéMON.$"
 # 162 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "John: Well, well, what a young Trainer!\p"
+	.string "Will you battle with us? If so, you'll\n"
+	.string "have to return with more Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 163 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayRematchIntro:
+<<<<<<< HEAD
 # 164 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: We've been married for\n"
 # 165 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: We've been married for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "fifty years.\p"
 # 166 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "We've supported each other all that\n"
@@ -336,17 +419,25 @@ MeteorFalls_1F_2R_Text_JayRematchIntro:
 
 # 169 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayRematchDefeat:
+<<<<<<< HEAD
 # 170 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Oh, dear.\n"
 # 171 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: Oh, dear.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "We've lost, my dear husband.$"
 # 172 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 
 # 173 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayPostRematch:
+<<<<<<< HEAD
 # 174 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Fifty years of marriage…\n"
 # 175 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+=======
+	.string "Jay: Fifty years of marriage…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Many things have happened.\p"
 # 176 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "I hope that we will continue to make\n"
@@ -356,6 +447,7 @@ MeteorFalls_1F_2R_Text_JayPostRematch:
 
 # 179 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
+<<<<<<< HEAD
 # 180 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "JAY: Well, well, aren't you a young\n"
 # 181 "data/maps/MeteorFalls_1F_2R/scripts.pory"
@@ -364,3 +456,10 @@ MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
 	.string "If you'd care to battle with us, you'll\n"
 # 183 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "have to come back with more POKéMON.$"
+=======
+	.string "Jay: Well, well, aren't you a young\n"
+	.string "Trainer?\p"
+	.string "If you'd care to battle with us, you'll\n"
+	.string "have to come back with more Pokémon.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

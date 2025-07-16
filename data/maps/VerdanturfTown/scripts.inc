@@ -132,9 +132,13 @@ VerdanturfTown_Text_ManTryingToDigTunnel:
 	.string "My papa told me.\p"
 # 67 "data/maps/VerdanturfTown/scripts.pory"
 	.string "He says this tunnel is full of\n"
+<<<<<<< HEAD
 # 68 "data/maps/VerdanturfTown/scripts.pory"
 	.string "timid POKéMON.\p"
 # 69 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "timid Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They get all scared of loud noise and\n"
 # 70 "data/maps/VerdanturfTown/scripts.pory"
 	.string "make a big uproar.\p"
@@ -174,6 +178,7 @@ VerdanturfTown_Text_AirCleanHere:
 
 # 88 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_MakeBattleTentDebut:
+<<<<<<< HEAD
 # 89 "data/maps/VerdanturfTown/scripts.pory"
 	.string "My POKéMON and I, we've been riding\n"
 # 90 "data/maps/VerdanturfTown/scripts.pory"
@@ -181,6 +186,11 @@ VerdanturfTown_Text_MakeBattleTentDebut:
 # 91 "data/maps/VerdanturfTown/scripts.pory"
 	.string "So I decided to make my BATTLE TENT\n"
 # 92 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "My Pokémon and I, we've been riding\n"
+	.string "a hot winning streak.\p"
+	.string "So I decided to make my Battle Tent\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "debut in this town.$"
 # 93 "data/maps/VerdanturfTown/scripts.pory"
 
@@ -188,9 +198,13 @@ VerdanturfTown_Text_MakeBattleTentDebut:
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
 # 95 "data/maps/VerdanturfTown/scripts.pory"
 	.string "Did you see the cave next to the\n"
+<<<<<<< HEAD
 # 96 "data/maps/VerdanturfTown/scripts.pory"
 	.string "POKéMON MART?\p"
 # 97 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "Poké Mart?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There's a guy in there who's trying to\n"
 # 98 "data/maps/VerdanturfTown/scripts.pory"
 	.string "bust up boulders so he can bust out\l"
@@ -198,27 +212,43 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "through to the other side.\p"
 # 100 "data/maps/VerdanturfTown/scripts.pory"
 	.string "It'd be great if we could go through…\n"
+<<<<<<< HEAD
 # 101 "data/maps/VerdanturfTown/scripts.pory"
 	.string "It'll make it easy to visit RUSTBORO.$"
 # 102 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "It'll make it easy to visit Rustboro.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 103 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_EasyToGetToRustboroNow:
+<<<<<<< HEAD
 # 104 "data/maps/VerdanturfTown/scripts.pory"
 	.string "That cave next to the POKéMON MART\n"
 # 105 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "That cave next to the Poké Mart\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is now a tunnel to the other side.\p"
 # 106 "data/maps/VerdanturfTown/scripts.pory"
 	.string "It's great--it's easy to go shop for\n"
+<<<<<<< HEAD
 # 107 "data/maps/VerdanturfTown/scripts.pory"
 	.string "new DEVON products in RUSTBORO now.$"
 # 108 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "new Devon products in Rustboro now.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 109 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_TownSign:
+<<<<<<< HEAD
 # 110 "data/maps/VerdanturfTown/scripts.pory"
 	.string "VERDANTURF TOWN\p"
 # 111 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "Verdanturf Town\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“The windswept highlands with the\n"
 # 112 "data/maps/VerdanturfTown/scripts.pory"
 	.string "sweet fragrance of grass.”$"
@@ -226,25 +256,38 @@ VerdanturfTown_Text_TownSign:
 
 # 114 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_WandasHouse:
+<<<<<<< HEAD
 # 115 "data/maps/VerdanturfTown/scripts.pory"
 	.string "WANDA'S HOUSE$"
 # 116 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "Wanda's House$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 117 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_BattleTentSign:
+<<<<<<< HEAD
 # 118 "data/maps/VerdanturfTown/scripts.pory"
 	.string "BATTLE TENT VERDANTURF SITE\n"
 # 119 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "Battle Tent Verdanturf Site\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Feast Your Eyes on Battles!”$"
 # 120 "data/maps/VerdanturfTown/scripts.pory"
 
 # 121 "data/maps/VerdanturfTown/scripts.pory"
 VerdanturfTown_Text_RusturfTunnelSign:
+<<<<<<< HEAD
 # 122 "data/maps/VerdanturfTown/scripts.pory"
 	.string "RUSTURF TUNNEL\n"
 # 123 "data/maps/VerdanturfTown/scripts.pory"
 	.string "“Linking RUSTBORO and VERDANTURF\p"
 # 124 "data/maps/VerdanturfTown/scripts.pory"
+=======
+	.string "Rusturf Tunnel\n"
+	.string "“Linking Rustboro and Verdanturf\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“The tunnel project has been\n"
 # 125 "data/maps/VerdanturfTown/scripts.pory"
 	.string "canceled.”$"

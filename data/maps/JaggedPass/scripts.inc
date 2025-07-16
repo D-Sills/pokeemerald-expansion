@@ -300,9 +300,13 @@ JaggedPass_EventScript_Autumn::
 
 # 151 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EricIntro:
+<<<<<<< HEAD
 # 152 "data/maps/JaggedPass/scripts.pory"
 	.string "MT. CHIMNEY's JAGGED PASS…\p"
 # 153 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "Mt. Chimney's Jagged Pass…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now this is what I've always wanted\n"
 # 154 "data/maps/JaggedPass/scripts.pory"
 	.string "in a mountain.\p"
@@ -320,9 +324,13 @@ JaggedPass_Text_EricDefeat:
 
 # 161 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EricPostBattle:
+<<<<<<< HEAD
 # 162 "data/maps/JaggedPass/scripts.pory"
 	.string "Yes, I did lose at POKéMON…\p"
 # 163 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "Yes, I did lose at Pokémon…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, when it comes to the love of\n"
 # 164 "data/maps/JaggedPass/scripts.pory"
 	.string "the mountains, I have you beat!$"
@@ -366,9 +374,13 @@ JaggedPass_Text_DianaRegister:
 JaggedPass_Text_DianaRematchIntro:
 # 184 "data/maps/JaggedPass/scripts.pory"
 	.string "Picnics are fun wherever you go.\n"
+<<<<<<< HEAD
 # 185 "data/maps/JaggedPass/scripts.pory"
 	.string "Just like POKéMON!$"
 # 186 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "Just like Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 187 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_DianaRematchDefeat:
@@ -388,9 +400,13 @@ JaggedPass_Text_DianaPostRematch:
 
 # 195 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EthanIntro:
+<<<<<<< HEAD
 # 196 "data/maps/JaggedPass/scripts.pory"
 	.string "JAGGED PASS is hard to walk on.\n"
 # 197 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "Jagged Pass is hard to walk on.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's a good place for training.$"
 # 198 "data/maps/JaggedPass/scripts.pory"
 
@@ -404,9 +420,13 @@ JaggedPass_Text_EthanDefeat:
 
 # 203 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EthanPostBattle:
+<<<<<<< HEAD
 # 204 "data/maps/JaggedPass/scripts.pory"
 	.string "If I had an ACRO BIKE, I'd be able to\n"
 # 205 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "If I had an Acro Bike, I'd be able to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "jump ledges.$"
 # 206 "data/maps/JaggedPass/scripts.pory"
 
@@ -416,9 +436,13 @@ JaggedPass_Text_EthanRegister:
 	.string "When I get more used to this bumpiness,\n"
 # 209 "data/maps/JaggedPass/scripts.pory"
 	.string "I'll be sure to win!\p"
+<<<<<<< HEAD
 # 210 "data/maps/JaggedPass/scripts.pory"
 	.string "Can you register me in your POKéNAV?$"
 # 211 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "Can you register me in your PokéNav?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 212 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EthanRematchIntro:
@@ -438,11 +462,16 @@ JaggedPass_Text_EthanRematchDefeat:
 
 # 220 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_EthanPostRematch:
+<<<<<<< HEAD
 # 221 "data/maps/JaggedPass/scripts.pory"
 	.string "I should get an ACRO BIKE from RYDEL\n"
 # 222 "data/maps/JaggedPass/scripts.pory"
 	.string "in MAUVILLE CITY…$"
 # 223 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "I should get an Acro Bike from Rydel\n"
+	.string "in Mauville City…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 224 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_GruntIntro:
@@ -460,9 +489,13 @@ JaggedPass_Text_GruntIntro:
 JaggedPass_Text_GruntDefeat:
 # 231 "data/maps/JaggedPass/scripts.pory"
 	.string "Urrrgh…\p"
+<<<<<<< HEAD
 # 232 "data/maps/JaggedPass/scripts.pory"
 	.string "I should've ducked into our HIDEOUT\n"
 # 233 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "I should've ducked into our Hideout\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "right away…$"
 # 234 "data/maps/JaggedPass/scripts.pory"
 
@@ -482,9 +515,13 @@ JaggedPass_Text_GoWhereverYouWant:
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 # 242 "data/maps/JaggedPass/scripts.pory"
 	.string "Oh! This boulder is shaking in response\n"
+<<<<<<< HEAD
 # 243 "data/maps/JaggedPass/scripts.pory"
 	.string "to the MAGMA EMBLEM!$"
 # 244 "data/maps/JaggedPass/scripts.pory"
+=======
+	.string "to the Magma Emblem!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 245 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_Text_JulioIntro:

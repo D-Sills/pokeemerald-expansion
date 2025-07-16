@@ -170,12 +170,17 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 
 # 86 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
+<<<<<<< HEAD
 # 87 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
 # 88 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wally: I lost to you, {PLAYER}, but I'm\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "not feeling down anymore.\p"
 # 89 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "Because I have a new purpose in life.\n"
+<<<<<<< HEAD
 # 90 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "Together with my RALTS, I'm going\l"
 # 91 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
@@ -183,6 +188,11 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 # 92 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "a great TRAINER.\p"
 # 93 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Together with my Ralts, I'm going\l"
+	.string "to challenge Pokémon Gyms and become\l"
+	.string "a great Trainer.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Please watch me, {PLAYER}.\n"
 # 94 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "I'm going to be stronger than you.\p"
@@ -194,9 +204,13 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 
 # 98 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
+<<<<<<< HEAD
 # 99 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY: Please watch me, {PLAYER}.\n"
 # 100 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wally: Please watch me, {PLAYER}.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm going to get stronger than you.\p"
 # 101 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "When I do, I'm going to challenge you\n"
@@ -206,16 +220,22 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
 
 # 104 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
+<<<<<<< HEAD
 # 105 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
 # 106 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY's next door.\p"
 # 107 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Uncle: Oh! {PLAYER}{KUN}!\n"
+	.string "Wally's next door.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But, boy, there's something I have to\n"
 # 108 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "tell you.\p"
 # 109 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "This natural environment is doing\n"
+<<<<<<< HEAD
 # 110 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "wonders for WALLY's health.\p"
 # 111 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
@@ -225,22 +245,37 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 # 113 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "the boy hope.$"
 # 114 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "wonders for Wally's health.\p"
+	.string "Maybe it's not just the environment.\n"
+	.string "It could be his Pokémon that are\l"
+	.string "giving the boy hope.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 115 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
+<<<<<<< HEAD
 # 116 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY's gone away…\n"
 # 117 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wally's gone away…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He slipped off on his own…$"
 # 118 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 
 # 119 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
+<<<<<<< HEAD
 # 120 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "UNCLE: Is that right?\n"
 # 121 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY's gone away that far all by\l"
 # 122 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Uncle: Is that right?\n"
+	.string "Wally's gone away that far all by\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "himself…\p"
 # 123 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "Well, I have to give him credit--he is\n"
@@ -250,6 +285,7 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 
 # 126 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_MeetWanda:
+<<<<<<< HEAD
 # 127 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WANDA: You are?\n"
 # 128 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
@@ -265,20 +301,37 @@ VerdanturfTown_WandasHouse_Text_MeetWanda:
 # 133 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "I think WALLY's become a lot more lively\n"
 # 134 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wanda: You are?\n"
+	.string "Oh, right, I get it!\p"
+	.string "You're the {PLAYER} who Wally was\n"
+	.string "telling me about.\p"
+	.string "I'm Wally's cousin.\n"
+	.string "Glad to meet you!\p"
+	.string "I think Wally's become a lot more lively\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and healthy since he came here.$"
 # 135 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 
 # 136 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
+<<<<<<< HEAD
 # 137 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WANDA: Don't worry about WALLY.\n"
 # 138 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wanda: Don't worry about Wally.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He'll be just fine.\p"
 # 139 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "I know my little cousin, and he has\n"
+<<<<<<< HEAD
 # 140 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "POKéMON with him, too.$"
 # 141 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "his Pokémon with him, too.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 142 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
@@ -318,6 +371,7 @@ VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging:
 
 # 160 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
+<<<<<<< HEAD
 # 161 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "If anything were to happen to WALLY,\n"
 # 162 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
@@ -325,12 +379,22 @@ VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 # 163 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "parents in PETALBURG in the eye…$"
 # 164 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "If anything were to happen to Wally,\n"
+	.string "I would never be able to look his\l"
+	.string "parents in Petalburg in the eye…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 165 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
+<<<<<<< HEAD
 # 166 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "WALLY was in EVER GRANDE?\p"
 # 167 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
 	.string "His parents in PETALBURG would be\n"
 # 168 "data/maps/VerdanturfTown_WandasHouse/scripts.pory"
+=======
+	.string "Wally was in Ever Grande?\p"
+	.string "His parents in Petalburg would be\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "astonished to hear that!$"

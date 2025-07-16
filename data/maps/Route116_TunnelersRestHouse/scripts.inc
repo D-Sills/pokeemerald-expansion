@@ -60,9 +60,13 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 
 # 31 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
+<<<<<<< HEAD
 # 32 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "That RUSTURF TUNNEL there…\p"
 # 33 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "That Rusturf Tunnel there…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "At first, we had a huge work crew boring\n"
 # 34 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "through rock with the latest machinery.\l"
@@ -70,9 +74,13 @@ Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
 	.string "But, we had to stop.\p"
 # 36 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "It turns out that we would have had\n"
+<<<<<<< HEAD
 # 37 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "a negative effect on wild POKéMON in\l"
 # 38 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "a negative effect on wild Pokémon in\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the area.\p"
 # 39 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "So, we've got nothing to do but loll\n"
@@ -84,17 +92,25 @@ Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
 # 43 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "There's a man digging his way to\n"
+<<<<<<< HEAD
 # 44 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "VERDANTURF all by his lonesome.\l"
 # 45 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "Verdanturf all by his lonesome.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He's desperate to get through.\p"
 # 46 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "He says that if he digs little by little\n"
 # 47 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "without using machines, he won't\l"
+<<<<<<< HEAD
 # 48 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "disturb POKéMON, and he'll avoid\l"
 # 49 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "disturb Pokémon, and he'll avoid\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "harming the natural environment.\p"
 # 50 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "I wonder if he made it through yet.$"
@@ -102,6 +118,7 @@ Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
 
 # 52 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
+<<<<<<< HEAD
 # 53 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "To get to VERDANTURF without using\n"
 # 54 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
@@ -111,12 +128,22 @@ Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
 # 56 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "then travel through MAUVILLE.$"
 # 57 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "To get to Verdanturf without using\n"
+	.string "this Tunnel, you'd have to cross the\l"
+	.string "sea to Dewford, sail on to Slateport,\l"
+	.string "then travel through Mauville.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 58 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
+<<<<<<< HEAD
 # 59 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "Did you hear? The TUNNEL to VERDANTURF\n"
 # 60 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
+=======
+	.string "Did you hear? The Tunnel to Verdanturf\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "has gone through!\p"
 # 61 "data/maps/Route116_TunnelersRestHouse/scripts.pory"
 	.string "Sometimes, if you hope strongly enough,\n"

@@ -186,9 +186,13 @@ AquaHideout_B2F_Text_MattIntro:
 	.string "We underestimated you!\p"
 # 94 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "But this is it!\p"
+<<<<<<< HEAD
 # 95 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "I'm a cut above the GRUNTS you've seen\n"
 # 96 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "I'm a cut above the Grunts you've seen\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so far.\p"
 # 97 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "I'm not stalling for time.\n"
@@ -208,9 +212,13 @@ AquaHideout_B2F_Text_MattDefeat:
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
 # 105 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "Hehehe!\p"
+<<<<<<< HEAD
 # 106 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "While I was toying with you, our BOSS\n"
 # 107 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "While I was toying with you, our boss\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "got through his preparations!$"
 # 108 "data/maps/AquaHideout_B2F/scripts.pory"
 
@@ -218,17 +226,25 @@ AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
 AquaHideout_B2F_Text_MattPostBattle:
 # 110 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "Hehehe!\p"
+<<<<<<< HEAD
 # 111 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "Our BOSS has already gone on his way to\n"
 # 112 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "Our boss has already gone on his way to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "some cave under the sea!\p"
 # 113 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "If you're going to give chase, you'd\n"
 # 114 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "better search the big, wide sea beyond\l"
+<<<<<<< HEAD
 # 115 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "LILYCOVE.\p"
 # 116 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "Lilycove.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But will you find it then?\n"
 # 117 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "Hehehe!$"
@@ -252,17 +268,25 @@ AquaHideout_B2F_Text_Grunt4Defeat:
 
 # 127 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_Text_Grunt4PostBattle:
+<<<<<<< HEAD
 # 128 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "BOSS…\n"
 # 129 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "Boss…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Is this good enough?$"
 # 130 "data/maps/AquaHideout_B2F/scripts.pory"
 
 # 131 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_Text_Grunt6Intro:
+<<<<<<< HEAD
 # 132 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "Warp panels, the HIDEOUT's pride\n"
 # 133 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "Warp panels, the Hideout's pride\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and joy!\p"
 # 134 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "You're clueless about where you are,\n"
@@ -286,19 +310,28 @@ AquaHideout_B2F_Text_Grunt6Defeat:
 AquaHideout_B2F_Text_Grunt6PostBattle:
 # 144 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "That reminds me… I can't remember\n"
+<<<<<<< HEAD
 # 145 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "where I put the MASTER BALL.\p"
 # 146 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "If I fail to guard it, our BOSS will\n"
 # 147 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "where I put the Master Ball.\p"
+	.string "If I fail to guard it, our boss will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "chew me out…$"
 # 148 "data/maps/AquaHideout_B2F/scripts.pory"
 
 # 149 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_Text_Grunt8Intro:
+<<<<<<< HEAD
 # 150 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "When I joined TEAM AQUA, the first\n"
 # 151 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	.string "When I joined Team Aqua, the first\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "thing I had to learn was how these\l"
 # 152 "data/maps/AquaHideout_B2F/scripts.pory"
 	.string "warp panels connected.$"

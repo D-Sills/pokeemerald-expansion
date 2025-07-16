@@ -66,9 +66,16 @@ DewfordTown_PokemonCenter_1F_Text_StoneCavern:
 
 # 34 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
+<<<<<<< HEAD
 # 35 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	.string "Even if a POKéMON faints and can't\n"
 # 36 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	.string "battle, it can still use a move learned\l"
 # 37 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	.string "from a HIDDEN MACHINE (HM).$"
+=======
+	.string "Even if a Pokémon faints and can't\n"
+	.string "battle, it can still use a move learned\l"
+	.string "from a Hidden Machine, or HM.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

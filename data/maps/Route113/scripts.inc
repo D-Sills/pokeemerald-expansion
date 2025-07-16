@@ -296,22 +296,33 @@ Route113_Text_FunWalkingThroughAsh:
 
 # 149 "data/maps/Route113/scripts.pory"
 Route113_Text_RouteSign111:
+<<<<<<< HEAD
 # 150 "data/maps/Route113/scripts.pory"
 	.string "ROUTE 113\n"
 # 151 "data/maps/Route113/scripts.pory"
 	.string "{RIGHT_ARROW} ROUTE 111$"
 # 152 "data/maps/Route113/scripts.pory"
+=======
+	.string "Route 113\n"
+	.string "{RIGHT_ARROW} Route 111$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 153 "data/maps/Route113/scripts.pory"
 Route113_Text_RouteSignFallarbor:
+<<<<<<< HEAD
 # 154 "data/maps/Route113/scripts.pory"
 	.string "ROUTE 113\n"
 # 155 "data/maps/Route113/scripts.pory"
 	.string "{LEFT_ARROW} FALLARBOR TOWN$"
 # 156 "data/maps/Route113/scripts.pory"
+=======
+	.string "Route 113\n"
+	.string "{LEFT_ARROW} Fallarbor Town$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 157 "data/maps/Route113/scripts.pory"
 Route113_Text_TrainerTipsRegisterKeyItems:
+<<<<<<< HEAD
 # 158 "data/maps/Route113/scripts.pory"
 	.string "TRAINER TIPS\p"
 # 159 "data/maps/Route113/scripts.pory"
@@ -321,12 +332,22 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 # 161 "data/maps/Route113/scripts.pory"
 	.string "Simply press SELECT to use\n"
 # 162 "data/maps/Route113/scripts.pory"
+=======
+	.string "Trainer Tips\p"
+	.string "You may register one of the Key Items\n"
+	.string "in your Bag as Select.\p"
+	.string "Simply press Select to use\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the registered item conveniently.$"
 # 163 "data/maps/Route113/scripts.pory"
 
 # 164 "data/maps/Route113/scripts.pory"
 Route113_Text_GlassWorkshopSign:
+<<<<<<< HEAD
 # 165 "data/maps/Route113/scripts.pory"
 	.string "GLASS WORKSHOP\n"
 # 166 "data/maps/Route113/scripts.pory"
+=======
+	.string "Glass Workshop\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Turning Volcanic Ash into Glass Items”$"

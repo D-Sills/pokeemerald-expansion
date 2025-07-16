@@ -560,9 +560,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_Partner8::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner:
 # 281 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Please find a partner from out of\n"
+<<<<<<< HEAD
 # 282 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the TRAINERS gathered here.$"
 # 283 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "the Trainers gathered here.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 284 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner:
@@ -580,9 +584,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_QuitLookingForPartner:
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PleaseFindPartner2:
 # 291 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Then, please find a partner from\n"
+<<<<<<< HEAD
 # 292 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the TRAINERS gathered here.$"
 # 293 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "the Trainers gathered here.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 294 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
@@ -590,9 +598,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
 	.string "Thank you for choosing a partner.\p"
 # 296 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I will now show you to your\n"
+<<<<<<< HEAD
 # 297 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "MULTI BATTLE ROOM.$"
 # 298 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Multi Battle Room.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 299 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
@@ -926,9 +938,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject::
 
 # 464 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro::
+<<<<<<< HEAD
 # 465 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_3} and I'm a TRIATHLETE.\n"
 # 466 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_3} and I'm a Triathlete.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm busy every day what with jogging,\l"
 # 467 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "training, and rapping.\p"
@@ -994,9 +1010,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1::
 # 498 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Listen, listen! You have to hear about\n"
+<<<<<<< HEAD
 # 499 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the POKéMON {STR_VAR_3} recommended.\l"
 # 500 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "the Pokémon {STR_VAR_3} recommended.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 # 501 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -1178,9 +1198,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
 # 590 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hey! There's big trouble! This is\n"
+<<<<<<< HEAD
 # 591 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the BATTLE TOWER's last day!\p"
 # 592 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "the Battle Tower's last day!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … …\n"
 # 593 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm only joking!\p"
@@ -1218,9 +1242,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept::
 # 610 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Yippee!\n"
+<<<<<<< HEAD
 # 611 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'll give you a POKéMON as my thanks!\p"
 # 612 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'll give you a Pokémon as my thanks!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Just joking! But I will really go do\n"
 # 613 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the registration, okay?$"
@@ -1230,9 +1258,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Accept::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
 # 616 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Oh, that's so cold! I'll have to wreck\n"
+<<<<<<< HEAD
 # 617 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "the BATTLE TOWER for that!\p"
 # 618 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "the Battle Tower for that!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Of course I won't!$"
 # 619 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -1240,11 +1272,16 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro::
 # 621 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hey, there, I'm rockin' and a-rollin'!\n"
+<<<<<<< HEAD
 # 622 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "POKéMON, I be controllin'!\p"
 # 623 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_3} the rappin' SAILOR.\n"
 # 624 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Pokémon, I be controllin'!\p"
+	.string "I'm {STR_VAR_3} the rappin' Sailor.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Don't be mistakin' me for no wailer!\p"
 # 625 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}'s no. {STR_VAR_2} apprentice.\n"
@@ -1352,9 +1389,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro::
 	.string "Cough!\p"
 # 677 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Oh, sorry, I have a cold.\n"
+<<<<<<< HEAD
 # 678 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON are fine, though.\p"
 # 679 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon are fine, though.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "My name's {STR_VAR_3}, {STR_VAR_1}'s\n"
 # 680 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "no. {STR_VAR_2} apprentice. Cough!$"
@@ -1506,9 +1547,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject::
 
 # 754 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro::
+<<<<<<< HEAD
 # 755 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a LASS!$"
 # 756 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Lass!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 757 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1::
@@ -1548,9 +1593,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro::
 # 775 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello!\p"
+<<<<<<< HEAD
 # 776 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm YOUNGSTER {STR_VAR_1}!$"
 # 777 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Youngster {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 778 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1::
@@ -1582,17 +1631,25 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
 # 792 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Aww! If you'd form a tag team with\n"
+<<<<<<< HEAD
 # 793 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "my POKéMON, we'd be unstoppable!$"
 # 794 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "my Pokémon, we'd be unstoppable!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 795 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro::
 # 796 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Yahoo!\n"
+<<<<<<< HEAD
 # 797 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm HIKER {STR_VAR_1}!$"
 # 798 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Hiker {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 799 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1::
@@ -1632,9 +1689,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro::
 # 817 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello!\n"
+<<<<<<< HEAD
 # 818 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a BEAUTY!$"
 # 819 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Beauty!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 820 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1::
@@ -1678,9 +1739,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro::
 	.string "Yo!\p"
 # 840 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "You know who I am?\n"
+<<<<<<< HEAD
 # 841 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1} the FISHERMAN!$"
 # 842 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1} the Fisherman!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 843 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1::
@@ -1720,9 +1785,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro::
 # 861 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Glad to make your acquaintance.\n"
+<<<<<<< HEAD
 # 862 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I am {STR_VAR_1}, a LADY.$"
 # 863 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I am {STR_VAR_1}, a Lady.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 864 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1::
@@ -1760,9 +1829,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject::
 
 # 881 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro::
+<<<<<<< HEAD
 # 882 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm TRIATHLETE {STR_VAR_1}!$"
 # 883 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Triathlete {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 884 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1::
@@ -1804,9 +1877,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro::
 # 903 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hiya!\n"
+<<<<<<< HEAD
 # 904 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm BUG CATCHER {STR_VAR_1}!$"
 # 905 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Bug Catcher {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 906 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1::
@@ -1838,9 +1915,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherAccept::
 
 # 920 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject::
+<<<<<<< HEAD
 # 921 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Aww, my POKéMON are awesome.\n"
 # 922 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Aww, my Pokémon are awesome.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I hope you won't regret this!$"
 # 923 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -1848,9 +1929,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro::
 # 925 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Good day!\n"
+<<<<<<< HEAD
 # 926 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm SCHOOL KID {STR_VAR_1}!$"
 # 927 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm School Kid {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 928 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1::
@@ -1894,9 +1979,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro::
 # 948 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Yo! Let me tell you who I am!\n"
+<<<<<<< HEAD
 # 949 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm RICH BOY {STR_VAR_1}!$"
 # 950 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Rich Boy {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 951 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1::
@@ -1938,9 +2027,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro::
 # 970 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hiyah!\n"
+<<<<<<< HEAD
 # 971 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I am BLACK BELT {STR_VAR_1}.$"
 # 972 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I am Black Belt {STR_VAR_1}.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 973 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1::
@@ -1982,9 +2075,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro::
 # 992 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hi, there!\n"
+<<<<<<< HEAD
 # 993 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a TUBER!$"
 # 994 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Tuber!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 995 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1::
@@ -2022,9 +2119,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro::
 # 1012 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Greetings…\n"
+<<<<<<< HEAD
 # 1013 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I am HEX MANIAC {STR_VAR_1}…$"
 # 1014 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I am Hex Maniac {STR_VAR_1}…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1015 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1::
@@ -2062,9 +2163,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro::
 # 1032 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "How do you do? I'm {STR_VAR_1},\n"
+<<<<<<< HEAD
 # 1033 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "and I'm a POKéMON BREEDER!$"
 # 1034 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "and I'm a Pokémon Breeder!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1035 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1::
@@ -2106,9 +2211,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro::
 # 1054 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Well, hello!\n"
+<<<<<<< HEAD
 # 1055 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm TRIATHLETE {STR_VAR_1}!$"
 # 1056 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Triathlete {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1057 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1::
@@ -2150,9 +2259,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro::
 # 1076 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hey, there! My name's {STR_VAR_1}!\n"
+<<<<<<< HEAD
 # 1077 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a TRIATHLETE!$"
 # 1078 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Triathlete!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1079 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1::
@@ -2190,9 +2303,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject::
 
 # 1096 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro::
+<<<<<<< HEAD
 # 1097 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm BATTLE GIRL {STR_VAR_1}!$"
 # 1098 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Battle Girl {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1099 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1::
@@ -2232,9 +2349,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject::
 
 # 1117 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro::
+<<<<<<< HEAD
 # 1118 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm TRIATHLETE {STR_VAR_1}!$"
 # 1119 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Triathlete {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1120 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1::
@@ -2276,9 +2397,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro::
 # 1139 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Me?\n"
+<<<<<<< HEAD
 # 1140 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm TUBER {STR_VAR_1}!$"
 # 1141 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Tuber {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1142 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1::
@@ -2310,9 +2435,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMAccept::
 
 # 1156 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
+<<<<<<< HEAD
 # 1157 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON are tough for sure…\n"
 # 1158 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon are tough for sure…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's too bad you don't want to team up.$"
 # 1159 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2320,9 +2449,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro::
 # 1161 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Yay-hey!\n"
+<<<<<<< HEAD
 # 1162 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Call me GUITARIST {STR_VAR_1}!$"
 # 1163 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Call me Guitarist {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1164 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1::
@@ -2352,9 +2485,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristAccept::
 
 # 1177 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
+<<<<<<< HEAD
 # 1178 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON rock hard!\n"
 # 1179 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon rock hard!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You'll be sorry, I tell you!$"
 # 1180 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2362,9 +2499,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro::
 # 1182 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Pleased to meet you.\n"
+<<<<<<< HEAD
 # 1183 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I am {STR_VAR_1}, a GENTLEMAN.$"
 # 1184 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I am {STR_VAR_1}, a Gentleman.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1185 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1::
@@ -2406,9 +2547,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro::
 # 1204 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello, I'm {STR_VAR_1},\n"
+<<<<<<< HEAD
 # 1205 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "and I'm a POKéFAN.$"
 # 1206 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "and I'm a Pokéfan.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1207 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1::
@@ -2438,9 +2583,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMAccept::
 
 # 1220 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
+<<<<<<< HEAD
 # 1221 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON are top grade…\n"
 # 1222 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon are top grade…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's too bad you can't appreciate that.$"
 # 1223 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2448,15 +2597,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro::
 # 1225 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hm!\n"
+<<<<<<< HEAD
 # 1226 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I am {STR_VAR_1}, and an EXPERT am I!$"
 # 1227 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I am {STR_VAR_1}, and an Expert am I!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1228 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1::
+<<<<<<< HEAD
 # 1229 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The POKéMON that I've toughened up are\n"
 # 1230 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The Pokémon that I've toughened up are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 # 1231 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2490,15 +2647,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro::
 # 1246 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello, hello.\n"
+<<<<<<< HEAD
 # 1247 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm an EXPERT.$"
 # 1248 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm an Expert.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1249 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
+<<<<<<< HEAD
 # 1250 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I've raised my POKéMON thoroughly.\n"
 # 1251 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I've raised my Pokémon thoroughly.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 # 1252 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2530,9 +2695,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject::
 
 # 1266 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro::
+<<<<<<< HEAD
 # 1267 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm DRAGON TAMER {STR_VAR_1}!$"
 # 1268 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Dragon Tamer {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1269 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1::
@@ -2570,15 +2739,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
 
 # 1286 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro::
+<<<<<<< HEAD
 # 1287 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm BIRD KEEPER {STR_VAR_1}!$"
 # 1288 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Bird Keeper {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1289 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1::
+<<<<<<< HEAD
 # 1290 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "What POKéMON do I have?\n"
 # 1291 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "What Pokémon do I have?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 # 1292 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2602,23 +2779,35 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperAccept::
 
 # 1302 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject::
+<<<<<<< HEAD
 # 1303 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON and I are strong.\n"
 # 1304 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon and I are strong.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What a letdown.$"
 # 1305 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 1306 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro::
+<<<<<<< HEAD
 # 1307 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm NINJA BOY {STR_VAR_1}!$"
 # 1308 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Ninja Boy {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1309 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1::
+<<<<<<< HEAD
 # 1310 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON team consists of one\n"
 # 1311 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon team consists of one\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 # 1312 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2642,17 +2831,25 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyAccept::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
 # 1322 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "You'll regret not having my tough\n"
+<<<<<<< HEAD
 # 1323 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "POKéMON on your side!$"
 # 1324 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Pokémon on your side!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1325 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro::
 # 1326 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello!\n"
+<<<<<<< HEAD
 # 1327 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm PARASOL LADY {STR_VAR_1}!$"
 # 1328 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Parasol Lady {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1329 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1::
@@ -2686,9 +2883,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept::
 
 # 1344 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
+<<<<<<< HEAD
 # 1345 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON are tremendously strong.\n"
 # 1346 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon are tremendously strong.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How disappointing…$"
 # 1347 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2696,15 +2897,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro::
 # 1349 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello.\n"
+<<<<<<< HEAD
 # 1350 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a BUG MANIAC!$"
 # 1351 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Bug Maniac!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1352 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1::
+<<<<<<< HEAD
 # 1353 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I have found my POKéMON, yes.\n"
 # 1354 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I have found my Pokémon, yes.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 # 1355 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2732,9 +2941,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacAccept::
 
 # 1367 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
+<<<<<<< HEAD
 # 1368 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "With the POKéMON I found, we wouldn't\n"
 # 1369 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "With the Pokémon I found, we wouldn't\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "have lost…$"
 # 1370 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2742,9 +2955,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro::
 # 1372 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Ahoy, there!\n"
+<<<<<<< HEAD
 # 1373 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm SAILOR {STR_VAR_1}!$"
 # 1374 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Sailor {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1375 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1::
@@ -2784,9 +3001,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro::
 # 1393 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hi, I'm {STR_VAR_1}.\n"
+<<<<<<< HEAD
 # 1394 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a COLLECTOR.$"
 # 1395 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Collector.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1396 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1::
@@ -2820,17 +3041,25 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
 # 1411 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Well, that's upsetting.\n"
+<<<<<<< HEAD
 # 1412 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "You don't appreciate my POKéMON.$"
 # 1413 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "You don't appreciate my Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1414 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro::
 # 1415 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Howdy, I'm {STR_VAR_1}.\n"
+<<<<<<< HEAD
 # 1416 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a POKéMON RANGER.$"
 # 1417 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Pokémon Ranger.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1418 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1::
@@ -2860,9 +3089,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept::
 
 # 1431 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
+<<<<<<< HEAD
 # 1432 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Next time, choose my POKéMON,\n"
 # 1433 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Next time, choose my Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "will you?$"
 # 1434 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2870,9 +3103,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
 # 1436 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My name's {STR_VAR_1}.\n"
+<<<<<<< HEAD
 # 1437 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a POKéMON RANGER!$"
 # 1438 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Pokémon Ranger!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1439 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
@@ -2902,9 +3139,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFAccept::
 
 # 1452 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject::
+<<<<<<< HEAD
 # 1453 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I hope you'll choose my POKéMON\n"
 # 1454 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I hope you'll choose my Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "next time.$"
 # 1455 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2912,9 +3153,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro::
 # 1457 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Pleased to meet you. I'm {STR_VAR_1}.\n"
+<<<<<<< HEAD
 # 1458 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I consider myself an AROMA LADY.$"
 # 1459 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I consider myself an Aroma Lady.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1460 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1::
@@ -2956,15 +3201,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro::
 # 1479 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Want to know who I am?\n"
+<<<<<<< HEAD
 # 1480 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, the RUIN MANIAC!$"
 # 1481 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, the Ruin Maniac!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1482 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1::
+<<<<<<< HEAD
 # 1483 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The POKéMON that I have with me are\n"
 # 1484 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The Pokémon that I have with me are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 # 1485 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -2990,21 +3243,33 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacAccept::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
 # 1496 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hmm…\n"
+<<<<<<< HEAD
 # 1497 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I think my POKéMON are tough…$"
 # 1498 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I think my Pokémon are tough…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1499 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
+<<<<<<< HEAD
 # 1500 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm COOLTRAINER {STR_VAR_1}!$"
 # 1501 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Cooltrainer {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1502 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
+<<<<<<< HEAD
 # 1503 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The POKéMON I have right now are one\n"
 # 1504 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The Pokémon I have right now are one\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_2} with {STR_VAR_1} and$"
 # 1505 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3038,9 +3303,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
 
 # 1520 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
+<<<<<<< HEAD
 # 1521 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm COOLTRAINER {STR_VAR_1}!$"
 # 1522 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Cooltrainer {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1523 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1::
@@ -3080,9 +3349,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro::
 # 1541 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Heyo!\n"
+<<<<<<< HEAD
 # 1542 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, the POKéMANIAC!$"
 # 1543 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, the Pokémaniac!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1544 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1::
@@ -3114,9 +3387,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept::
 
 # 1558 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
+<<<<<<< HEAD
 # 1559 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My POKéMON are brutal!\n"
 # 1560 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My Pokémon are brutal!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's not my fault if you regret this!$"
 # 1561 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3124,9 +3401,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro::
 # 1563 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Yo, there!\n"
+<<<<<<< HEAD
 # 1564 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm KINDLER {STR_VAR_1}!$"
 # 1565 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Kindler {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1566 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1::
@@ -3164,9 +3445,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject::
 
 # 1583 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro::
+<<<<<<< HEAD
 # 1584 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a CAMPER!$"
 # 1585 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Camper!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1586 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1::
@@ -3206,15 +3491,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro::
 # 1604 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hello!\n"
+<<<<<<< HEAD
 # 1605 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a PICNICKER!$"
 # 1606 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Picnicker!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1607 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
+<<<<<<< HEAD
 # 1608 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The POKéMON I've been taking are\n"
 # 1609 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The Pokémon I've been taking are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 # 1610 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3246,9 +3539,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject::
 
 # 1624 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro::
+<<<<<<< HEAD
 # 1625 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm PSYCHIC {STR_VAR_1}!$"
 # 1626 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm Psychic {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1627 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1::
@@ -3288,9 +3585,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro::
 # 1645 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}.\n"
+<<<<<<< HEAD
 # 1646 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a PSYCHIC.$"
 # 1647 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Psychic.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1648 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1::
@@ -3328,9 +3629,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject::
 
 # 1665 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro::
+<<<<<<< HEAD
 # 1666 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm SCHOOL KID {STR_VAR_1}!$"
 # 1667 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm School Kid {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1668 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1::
@@ -3342,9 +3647,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon2Ask::
 # 1672 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "and one {STR_VAR_1}-using\n"
+<<<<<<< HEAD
 # 1673 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "{STR_VAR_2} are my POKéMON pair.\p"
 # 1674 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "{STR_VAR_2} are my Pokémon pair.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "May I please be your partner on\n"
 # 1675 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "a tag team?$"
@@ -3370,15 +3679,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro::
 # 1686 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hiya! The name's {STR_VAR_1}!\n"
+<<<<<<< HEAD
 # 1687 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm a POKéMON BREEDER!$"
 # 1688 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm a Pokémon Breeder!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1689 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1::
+<<<<<<< HEAD
 # 1690 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The POKéMON I've raised are one\n"
 # 1691 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The Pokémon I've raised are one\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{STR_VAR_1}-using {STR_VAR_2} and$"
 # 1692 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3412,15 +3729,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro::
 # 1707 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm proud to say\n"
+<<<<<<< HEAD
 # 1708 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "that I am a POKéFAN.$"
 # 1709 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "that I am a Pokéfan.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1710 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1::
+<<<<<<< HEAD
 # 1711 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "The darling POKéMON I've raised are\n"
 # 1712 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "The darling Pokémon I've raised are\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "one {STR_VAR_2} with {STR_VAR_1} and$"
 # 1713 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3444,17 +3769,25 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFAccept::
 
 # 1723 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject::
+<<<<<<< HEAD
 # 1724 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "My darling POKéMON are the best,\n"
 # 1725 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "My darling Pokémon are the best,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll have you know. How annoying!$"
 # 1726 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
 # 1727 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro::
+<<<<<<< HEAD
 # 1728 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hi, I'm SWIMMER {STR_VAR_1}.$"
 # 1729 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "Hi, I'm Swimmer {STR_VAR_1}.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1730 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1::
@@ -3492,15 +3825,23 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro::
 # 1747 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "What's happening?\n"
+<<<<<<< HEAD
 # 1748 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a TRIATHLETE.$"
 # 1749 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Triathlete.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1750 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
+<<<<<<< HEAD
 # 1751 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I got a couple decent POKéMON.\n"
 # 1752 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I got a couple decent Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "One {STR_VAR_2} with {STR_VAR_1} and$"
 # 1753 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 
@@ -3532,9 +3873,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
 
 # 1767 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro::
+<<<<<<< HEAD
 # 1768 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm the TRIATHLETE {STR_VAR_1}!$"
 # 1769 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm the Triathlete {STR_VAR_1}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1770 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1::
@@ -3574,9 +3919,13 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro::
 # 1788 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "Hi, there! Hello!\n"
+<<<<<<< HEAD
 # 1789 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 	.string "I'm {STR_VAR_1}, and I'm a SWIMMER!$"
 # 1790 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
+=======
+	.string "I'm {STR_VAR_1}, and I'm a Swimmer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 1791 "data/maps/BattleFrontier_BattleTowerMultiPartnerRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1::

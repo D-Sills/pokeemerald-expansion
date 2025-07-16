@@ -114,9 +114,13 @@ VictoryRoad_B2F_Text_OwenDefeat:
 VictoryRoad_B2F_Text_OwenPostBattle:
 # 58 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "The rumors I heard, that tough little\n"
+<<<<<<< HEAD
 # 59 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "kid is from PETALBURG CITY.$"
 # 60 "data/maps/VictoryRoad_B2F/scripts.pory"
+=======
+	.string "kid is from Petalburg City.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 61 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_CarolineIntro:
@@ -132,9 +136,13 @@ VictoryRoad_B2F_Text_CarolineDefeat:
 
 # 67 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_CarolinePostBattle:
+<<<<<<< HEAD
 # 68 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "VICTORY ROAD and the POKéMON LEAGUE\n"
 # 69 "data/maps/VictoryRoad_B2F/scripts.pory"
+=======
+	.string "Victory Road and the Pokémon League\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are long and grueling challenges.\l"
 # 70 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "Beware of fatigue!$"
@@ -144,9 +152,13 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 VictoryRoad_B2F_Text_JulieIntro:
 # 73 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "You shouldn't get complacent just\n"
+<<<<<<< HEAD
 # 74 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "because you have a lot of GYM BADGES.\p"
 # 75 "data/maps/VictoryRoad_B2F/scripts.pory"
+=======
+	.string "because you have a lot of Gym Badges.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There's always going to be someone\n"
 # 76 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "who's better than you!$"
@@ -160,11 +172,16 @@ VictoryRoad_B2F_Text_JulieDefeat:
 
 # 81 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_JuliePostBattle:
+<<<<<<< HEAD
 # 82 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "Gaze on your collected BADGES and\n"
 # 83 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "remember the TRAINERS you've faced.$"
 # 84 "data/maps/VictoryRoad_B2F/scripts.pory"
+=======
+	.string "Gaze on your collected Badges and\n"
+	.string "remember the Trainers you've faced.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 85 "data/maps/VictoryRoad_B2F/scripts.pory"
 VictoryRoad_B2F_Text_FelixIntro:
@@ -186,9 +203,13 @@ VictoryRoad_B2F_Text_FelixDefeat:
 VictoryRoad_B2F_Text_FelixPostBattle:
 # 94 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "I can't help getting all tense knowing\n"
+<<<<<<< HEAD
 # 95 "data/maps/VictoryRoad_B2F/scripts.pory"
 	.string "that I'm nearing the POKéMON LEAGUE.\p"
 # 96 "data/maps/VictoryRoad_B2F/scripts.pory"
+=======
+	.string "that I'm nearing the Pokémon League.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's all I can do to feign calm.$"
 # 97 "data/maps/VictoryRoad_B2F/scripts.pory"
 

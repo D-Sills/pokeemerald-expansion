@@ -444,11 +444,16 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 
 # 223 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
+<<<<<<< HEAD
 # 224 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "WALLACE: Welcome, {PLAYER}{KUN}.\p"
 # 225 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "That incident in SOOTOPOLIS CITY…\n"
 # 226 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Wallace: Welcome, {PLAYER}{KUN}.\p"
+	.string "That incident in Sootopolis City…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That was superb work, putting an end\l"
 # 227 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "to that crisis all by yourself.\p"
@@ -460,19 +465,28 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "alone ended the crisis.\p"
 # 231 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "You overcame that difficult situation\n"
+<<<<<<< HEAD
 # 232 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "by working as one with your POKéMON.\p"
 # 233 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "We TRAINERS raise POKéMON by giving\n"
 # 234 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "by working as one with your Pokémon.\p"
+	.string "We Trainers raise Pokémon by giving\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "them items and by teaching them new\l"
 # 235 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "techniques for battle.\p"
 # 236 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "But we ourselves also learn many\n"
+<<<<<<< HEAD
 # 237 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "things from POKéMON.\p"
 # 238 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "things from Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And this is where your achievements\n"
 # 239 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "are put to the test against what\l"
@@ -482,17 +496,25 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Now!\p"
 # 242 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "Who can most elegantly dance with\n"
+<<<<<<< HEAD
 # 243 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "their POKéMON in HOENN?\p"
 # 244 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "their Pokémon in Hoenn?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Show me right here and now!$"
 # 245 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 
 # 246 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_Defeat:
+<<<<<<< HEAD
 # 247 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "I, the CHAMPION, fall in defeat…\p"
 # 248 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "I, the Champion, fall in defeat…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That was wonderful work.\n"
 # 249 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "You were elegant, infuriatingly so.\l"
@@ -500,17 +522,26 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "And yet it was utterly glorious!\p"
 # 251 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "Kudos to you, {PLAYER}{KUN}!\p"
+<<<<<<< HEAD
 # 252 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "You are a truly noble POKéMON\n"
 # 253 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "TRAINER!$"
 # 254 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "You are a truly noble Pokémon\n"
+	.string "Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 255 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
+<<<<<<< HEAD
 # 256 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "WALLACE: The POKéMON you sent into\n"
 # 257 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Wallace: The Pokémon you sent into\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "battle…\p"
 # 258 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "At times they danced like a spring\n"
@@ -520,14 +551,19 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "like lightning.\p"
 # 261 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "It was with light, yet surefooted,\n"
+<<<<<<< HEAD
 # 262 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "elegance that you led your POKéMON.\p"
 # 263 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "elegance that you led your Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Even I felt bedazzled by your\n"
 # 264 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "masterful performance!\p"
 # 265 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "You now stand at the glorious peak\n"
+<<<<<<< HEAD
 # 266 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "of the POKéMON LEAGUE.\p"
 # 267 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -535,9 +571,15 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 # 268 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "HOENN region…$"
 # 269 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "of the Pokémon League.\p"
+	.string "I now proclaim you to be the new\n"
+	.string "Hoenn region…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 270 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
+<<<<<<< HEAD
 # 271 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "MAY: {PLAYER}{KUN}!\p"
 # 272 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -545,12 +587,21 @@ EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 # 273 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "the CHAMPION…$"
 # 274 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "May: {PLAYER}{KUN}!\p"
+	.string "Here's some advice before you challenge\n"
+	.string "the Champion…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 275 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
+<<<<<<< HEAD
 # 276 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "MAY: Huh?\n"
 # 277 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "May: Huh?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What, what, what?\p"
 # 278 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "{PLAYER}{KUN}…\n"
@@ -562,6 +613,7 @@ EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver:
 
 # 282 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
+<<<<<<< HEAD
 # 283 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "BRENDAN: {PLAYER}!\p"
 # 284 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -569,9 +621,15 @@ EverGrandeCity_ChampionsRoom_Text_BrendanAdvice:
 # 285 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "you challenge the CHAMPION?…$"
 # 286 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Brendan: {PLAYER}!\p"
+	.string "How would you like some advice before\n"
+	.string "you challenge the Champion?…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 287 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
+<<<<<<< HEAD
 # 288 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "BRENDAN: {PLAYER}…\p"
 # 289 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -579,12 +637,21 @@ EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon:
 # 290 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "You've beaten the CHAMPION?$"
 # 291 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Brendan: {PLAYER}…\p"
+	.string "Are you trying to tell me…\n"
+	.string "You've beaten the Champion?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 292 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
+<<<<<<< HEAD
 # 293 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "PROF. BIRCH: See?\n"
 # 294 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Prof. Birch: See?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What did I tell you, {RIVAL}?\p"
 # 295 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "Didn't I tell you that you don't need\n"
@@ -596,12 +663,17 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 	.string "{PLAYER}{KUN}, you've finally done it.\p"
 # 299 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "When I heard that you defeated your\n"
+<<<<<<< HEAD
 # 300 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "own father at the PETALBURG GYM,\l"
 # 301 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "own father at the Petalburg Gym,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I thought perhaps you had a chance…\p"
 # 302 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "But to think you've actually become\n"
+<<<<<<< HEAD
 # 303 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "the CHAMPION!\p"
 # 304 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -609,14 +681,23 @@ EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex:
 # 305 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "What became of your POKéDEX?\n"
 # 306 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "the Champion!\p"
+	.string "Ah, yes!\p"
+	.string "What became of your Pokédex?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Here, let me see.$"
 # 307 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 
 # 308 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
+<<<<<<< HEAD
 # 309 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "PROF. BIRCH: Anyways,\n"
 # 310 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Prof. Birch: Anyways,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "congratulations!\p"
 # 311 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "Now, go proudly into the final room!$"
@@ -624,6 +705,7 @@ EverGrandeCity_ChampionsRoom_Text_BirchCongratulations:
 
 # 313 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
+<<<<<<< HEAD
 # 314 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "WALLACE: {PLAYER}{KUN}…\p"
 # 315 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -631,11 +713,17 @@ EverGrandeCity_ChampionsRoom_Text_WallaceComeWithMe:
 # 316 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "The new CHAMPION!\p"
 # 317 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Wallace: {PLAYER}{KUN}…\p"
+	.string "No, let me rephrase that properly.\p"
+	.string "The new Champion!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Come with me.$"
 # 318 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 
 # 319 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
+<<<<<<< HEAD
 # 320 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "WALLACE: I'm sorry, but…\p"
 # 321 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
@@ -647,12 +735,23 @@ EverGrandeCity_ChampionsRoom_Text_WallaceWaitOutside:
 # 324 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "PROF. BIRCH.$"
 # 325 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Wallace: I'm sorry, but…\p"
+	.string "From here on, only those Trainers who\n"
+	.string "have become ChampionS may enter.\p"
+	.string "You'll have to wait outside with\n"
+	.string "Prof. Birch.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 326 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
+<<<<<<< HEAD
 # 327 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "MAY: Groan…\p"
 # 328 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "May: Groan…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\n"
 # 329 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "… … … … … … … …\p"
@@ -668,9 +767,13 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
 
 # 335 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
+<<<<<<< HEAD
 # 336 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "BRENDAN: Whaaaat?! … … … … …\n"
 # 337 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
+=======
+	.string "Brendan: Whaaaat?! … … … … …\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… … … … … … … …\p"
 # 338 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	.string "It can't be helped if that's the rule.\p"

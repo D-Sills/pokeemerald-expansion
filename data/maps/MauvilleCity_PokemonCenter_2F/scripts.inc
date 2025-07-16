@@ -52,9 +52,13 @@ MauvilleCity_PokemonCenter_2F_EventScript_Youngster::
 MauvilleCity_PokemonCenter_2F_Text_Youngster:
 # 27 "data/maps/MauvilleCity_PokemonCenter_2F/scripts.pory"
 	.string "Did you know that you can link battle\n"
+<<<<<<< HEAD
 # 28 "data/maps/MauvilleCity_PokemonCenter_2F/scripts.pory"
 	.string "at the COLOSSEUM here?\p"
 # 29 "data/maps/MauvilleCity_PokemonCenter_2F/scripts.pory"
+=======
+	.string "at the Colosseum here?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "They put up your record on the wall\n"
 # 30 "data/maps/MauvilleCity_PokemonCenter_2F/scripts.pory"
 	.string "for everyone to see.\p"

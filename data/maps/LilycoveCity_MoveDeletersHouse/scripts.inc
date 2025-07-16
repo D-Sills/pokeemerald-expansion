@@ -140,19 +140,28 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
 # 71 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "Uh…\n"
+<<<<<<< HEAD
 # 72 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "Oh, yes, I'm the MOVE DELETER.\p"
 # 73 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "I can make POKéMON forget their moves.\p"
 # 74 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
+=======
+	.string "Oh, yes, I'm the Move Deleter.\p"
+	.string "I can make Pokémon forget their moves.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Would you like me to do that?$"
 # 75 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 
 # 76 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
+<<<<<<< HEAD
 # 77 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "Which POKéMON should forget a move?$"
 # 78 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
+=======
+	.string "Which Pokémon should forget a move?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 79 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
@@ -198,9 +207,13 @@ LilycoveCity_MoveDeletersHouse_Text_ComeAgain:
 LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
 # 100 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "What?\n"
+<<<<<<< HEAD
 # 101 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "No EGG should know any moves.$"
 # 102 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
+=======
+	.string "No egg should know any moves.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 103 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
@@ -208,5 +221,10 @@ LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
 	.string "Hm!\p"
 # 105 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "Your {STR_VAR_1} doesn't seem willing\n"
+<<<<<<< HEAD
 # 106 "data/maps/LilycoveCity_MoveDeletersHouse/scripts.pory"
 	.string "to forget SURF.$"
+=======
+	.string "to forget Surf.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

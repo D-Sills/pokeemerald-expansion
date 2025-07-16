@@ -244,6 +244,7 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 
 # 123 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
+<<<<<<< HEAD
 # 124 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "Beyond this point, only those TRAINERS\n"
 # 125 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
@@ -255,9 +256,17 @@ EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
 # 128 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "all the GYM BADGES.$"
 # 129 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	.string "Beyond this point, only those Trainers\n"
+	.string "who have collected all the Gym Badges\l"
+	.string "are permitted to enter.\p"
+	.string "Trainer, let us confirm that you have\n"
+	.string "all the Gym Badges.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 130 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
+<<<<<<< HEAD
 # 131 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "You haven't obtained all the BADGES.\p"
 # 132 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
@@ -265,10 +274,21 @@ EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
 # 133 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "LEAGUE, you must return with them.$"
 # 134 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	.string "You haven't obtained all the Badges.\p"
+	.string "If you're bound for the Pokémon\n"
+	.string "League, you must return with them.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 135 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
+<<<<<<< HEAD
 # 136 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "TRAINER! Believe in yourself and your\n"
 # 137 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	.string "POKéMON, and go forth!$"
+=======
+	.string "Trainer! Believe in yourself and your\n"
+	.string "Pokémon, and go forth!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -1402,11 +1402,16 @@ PetalburgCity_EventScript_GymBoy::
 
 # 702 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_WhereIsWally:
+<<<<<<< HEAD
 # 703 "data/maps/PetalburgCity/scripts.pory"
 	.string "Where has our WALLY gone?\p"
 # 704 "data/maps/PetalburgCity/scripts.pory"
 	.string "We have to leave for VERDANTURF TOWN\n"
 # 705 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "Where has our Wally gone?\p"
+	.string "We have to leave for Verdanturf Town\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "very soon…$"
 # 706 "data/maps/PetalburgCity/scripts.pory"
 
@@ -1414,6 +1419,7 @@ PetalburgCity_Text_WhereIsWally:
 PetalburgCity_Text_AreYouRookieTrainer:
 # 708 "data/maps/PetalburgCity/scripts.pory"
 	.string "Hiya! Are you maybe…\n"
+<<<<<<< HEAD
 # 709 "data/maps/PetalburgCity/scripts.pory"
 	.string "A rookie TRAINER?\p"
 # 710 "data/maps/PetalburgCity/scripts.pory"
@@ -1423,22 +1429,37 @@ PetalburgCity_Text_AreYouRookieTrainer:
 # 712 "data/maps/PetalburgCity/scripts.pory"
 	.string "They first check what kind of GYM\n"
 # 713 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "A rookie Trainer?\p"
+	.string "Do you know what Pokémon Trainers\n"
+	.string "do when they reach a new town?\p"
+	.string "They first check what kind of Gym\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "is in the town.$"
 # 714 "data/maps/PetalburgCity/scripts.pory"
 
 # 715 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_ThisIsPetalburgGym:
+<<<<<<< HEAD
 # 716 "data/maps/PetalburgCity/scripts.pory"
 	.string "See? This is PETALBURG CITY's GYM.$"
 # 717 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "See? This is Petalburg City's Gym.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 718 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_ThisIsGymSign:
+<<<<<<< HEAD
 # 719 "data/maps/PetalburgCity/scripts.pory"
 	.string "This is the GYM's sign. Look for it\n"
 # 720 "data/maps/PetalburgCity/scripts.pory"
 	.string "whenever you're looking for a GYM.$"
 # 721 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "This is the Gym's sign. Look for it\n"
+	.string "whenever you're looking for a Gym.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 722 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_WaterReflection:
@@ -1456,6 +1477,7 @@ PetalburgCity_Text_WaterReflection:
 
 # 729 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_FullPartyExplanation:
+<<<<<<< HEAD
 # 730 "data/maps/PetalburgCity/scripts.pory"
 	.string "Let's say you have six POKéMON.\n"
 # 731 "data/maps/PetalburgCity/scripts.pory"
@@ -1465,30 +1487,49 @@ PetalburgCity_Text_FullPartyExplanation:
 # 733 "data/maps/PetalburgCity/scripts.pory"
 	.string "BOX over a PC connection.$"
 # 734 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "Let's say you have six Pokémon.\n"
+	.string "If you catch another one…\p"
+	.string "It is automatically sent to a Storage\n"
+	.string "Box over a PC connection.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 735 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_GymSign:
+<<<<<<< HEAD
 # 736 "data/maps/PetalburgCity/scripts.pory"
 	.string "PETALBURG CITY POKéMON GYM\n"
 # 737 "data/maps/PetalburgCity/scripts.pory"
 	.string "LEADER: NORMAN\l"
 # 738 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "Petalburg City Pokémon Gym\n"
+	.string "Leader: Norman\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“A man in pursuit of power!”$"
 # 739 "data/maps/PetalburgCity/scripts.pory"
 
 # 740 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_CitySign:
+<<<<<<< HEAD
 # 741 "data/maps/PetalburgCity/scripts.pory"
 	.string "PETALBURG CITY\n"
 # 742 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "Petalburg City\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Where people mingle with nature.”$"
 # 743 "data/maps/PetalburgCity/scripts.pory"
 
 # 744 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_WallyHouseSign:
+<<<<<<< HEAD
 # 745 "data/maps/PetalburgCity/scripts.pory"
 	.string "WALLY'S HOUSE$"
 # 746 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "Wally's House$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 747 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_AreYouATrainer:
@@ -1496,9 +1537,13 @@ PetalburgCity_Text_AreYouATrainer:
 	.string "Excuse me!\p"
 # 749 "data/maps/PetalburgCity/scripts.pory"
 	.string "Let me guess, from the way you're\n"
+<<<<<<< HEAD
 # 750 "data/maps/PetalburgCity/scripts.pory"
 	.string "dressed, are you a POKéMON TRAINER?$"
 # 751 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "dressed, are you a Pokémon Trainer?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 752 "data/maps/PetalburgCity/scripts.pory"
 PetalburgCity_Text_WellMaybeNot:
@@ -1508,9 +1553,13 @@ PetalburgCity_Text_WellMaybeNot:
 	.string "Well, maybe not.\n"
 # 755 "data/maps/PetalburgCity/scripts.pory"
 	.string "Your clothes aren't all that dirty.\p"
+<<<<<<< HEAD
 # 756 "data/maps/PetalburgCity/scripts.pory"
 	.string "You're either a rookie TRAINER,\n"
 # 757 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "You're either a rookie Trainer,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "or maybe you're just an ordinary kid.$"
 # 758 "data/maps/PetalburgCity/scripts.pory"
 
@@ -1518,7 +1567,11 @@ PetalburgCity_Text_WellMaybeNot:
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 # 760 "data/maps/PetalburgCity/scripts.pory"
 	.string "I'm roaming the land in search of\n"
+<<<<<<< HEAD
 # 761 "data/maps/PetalburgCity/scripts.pory"
 	.string "talented TRAINERS.\p"
 # 762 "data/maps/PetalburgCity/scripts.pory"
+=======
+	.string "talented Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm sorry to have taken your time.$"

@@ -130,15 +130,23 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 
 # 66 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou:
+<<<<<<< HEAD
 # 67 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "Let me see your POKéMON.\n"
 # 68 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
+=======
+	.string "Let me see your Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll check to see how much it likes you.\p"
 # 69 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "Oh.\n"
+<<<<<<< HEAD
 # 70 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "Your POKéMON…$"
 # 71 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
+=======
+	.string "Your Pokémon…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 72 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou:
@@ -196,13 +204,22 @@ VerdanturfTown_FriendshipRatersHouse_Text_VeryWary:
 VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 # 99 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "This is a little hard for me to say…\p"
+<<<<<<< HEAD
 # 100 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "Your POKéMON simply detests you.\n"
 # 101 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
+=======
+	.string "Your Pokémon simply detests you.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Doesn't that make you uncomfortable?$"
 # 102 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 
 # 103 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
+<<<<<<< HEAD
 # 104 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	.string "PIKACHU: Pika pika!$"
+=======
+	.string "Pikachu: Pika pika!$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

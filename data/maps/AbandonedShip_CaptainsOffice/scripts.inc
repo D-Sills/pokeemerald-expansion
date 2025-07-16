@@ -54,16 +54,22 @@ AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus::
 AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner:
 # 28 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "I'm investigating this ship on behalf\n"
+<<<<<<< HEAD
 # 29 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "of CAPT. STERN.\p"
 # 30 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "He also asked me to find a SCANNER,\n"
 # 31 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+=======
+	.string "of Capt. Stern.\p"
+	.string "He also asked me to find a Scanner,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but I haven't had any success…$"
 # 32 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 
 # 33 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
+<<<<<<< HEAD
 # 34 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "Oh! That's a SCANNER!\p"
 # 35 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
@@ -71,6 +77,11 @@ AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
 # 36 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "to CAPT. STERN?\p"
 # 37 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+=======
+	.string "Oh! That's a Scanner!\p"
+	.string "Listen, can I get you to deliver that\n"
+	.string "to Capt. Stern?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I want to investigate this ship a\n"
 # 38 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "little more.$"
@@ -78,7 +89,11 @@ AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner:
 
 # 40 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus:
+<<<<<<< HEAD
 # 41 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	.string "This ship is called S.S. CACTUS.\n"
 # 42 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
+=======
+	.string "This ship is called S.S. Cactus.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It seems to be from an earlier era.$"

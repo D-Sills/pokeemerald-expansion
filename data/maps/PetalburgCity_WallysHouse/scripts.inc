@@ -140,9 +140,13 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 	.string "You're…\n"
 # 71 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "Ah, you must be {PLAYER}{KUN}, right?\p"
+<<<<<<< HEAD
 # 72 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "Thank you for playing with WALLY a\n"
 # 73 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "Thank you for playing with Wally a\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "little while ago.\p"
 # 74 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "He's been frail and sickly ever\n"
@@ -150,17 +154,26 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 	.string "since he was a baby.\p"
 # 76 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "We've sent him to stay with my relatives\n"
+<<<<<<< HEAD
 # 77 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "in VERDANTURF TOWN for a while.\p"
 # 78 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "in Verdanturf Town for a while.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "The air is a lot cleaner there\n"
 # 79 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "than it is here.\p"
+<<<<<<< HEAD
 # 80 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "What's that? Where's WALLY?\n"
 # 81 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "He's already left, our WALLY.\p"
 # 82 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "What's that? Where's Wally?\n"
+	.string "He's already left, our Wally.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I wonder where he could have\n"
 # 83 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "gotten by now?$"
@@ -168,9 +181,13 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 
 # 85 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
+<<<<<<< HEAD
 # 86 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "I wonder how our WALLY is doing?$"
 # 87 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "I wonder how our Wally is doing?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 88 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
@@ -178,6 +195,7 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "{PLAYER}{KUN}! Please excuse us for\n"
 # 90 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "dragging you here this way.\p"
+<<<<<<< HEAD
 # 91 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "But our WALLY's become very healthy\n"
 # 92 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
@@ -195,6 +213,16 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 # 98 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "Actually, not just WALLY.\n"
 # 99 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "But our Wally's become very healthy\n"
+	.string "since he went to Verdanturf Town.\p"
+	.string "We owe it all to you!\p"
+	.string "When Wally left town, you helped\n"
+	.string "him catch a Pokémon, right?\p"
+	.string "I think that made Wally really\n"
+	.string "happy.\p"
+	.string "Actually, not just Wally.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It made me, his father, happy too.\p"
 # 100 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "Happy that he's gained such a great\n"
@@ -208,27 +236,40 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 
 # 105 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
+<<<<<<< HEAD
 # 106 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "If your POKéMON can SURF, you'll be\n"
 # 107 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "If your Pokémon can Surf, you'll be\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "able to go to all sorts of places.$"
 # 108 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 
 # 109 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
+<<<<<<< HEAD
 # 110 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "WALLY's coming home soon.\n"
 # 111 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "Wally's coming home soon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm looking forward to that.$"
 # 112 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 
 # 113 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
+<<<<<<< HEAD
 # 114 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "Oh? You met WALLY in\n"
 # 115 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "EVER GRANDE CITY?\p"
 # 116 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "Oh? You met Wally in\n"
+	.string "Ever Grande City?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Oh, {PLAYER}{KUN}, don't be silly.\p"
 # 117 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "He may have gotten healthy, but he\n"
@@ -240,11 +281,16 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 
 # 121 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
+<<<<<<< HEAD
 # 122 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "WALLY was really happy when he told\n"
 # 123 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "us that he caught a POKéMON.\p"
 # 124 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "Wally was really happy when he told\n"
+	.string "us that he caught a Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's been ages since I've seen him\n"
 # 125 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "smile like that.$"
@@ -256,6 +302,7 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "I want you to keep this a secret\n"
 # 129 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "from my husband…\p"
+<<<<<<< HEAD
 # 130 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "But our WALLY left VERDANTURF TOWN\n"
 # 131 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
@@ -263,6 +310,11 @@ PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 # 132 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "You know, WALLY is frail, but\n"
 # 133 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
+=======
+	.string "But our Wally left Verdanturf Town\n"
+	.string "without telling anyone.\p"
+	.string "You know, Wally is frail, but\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "he's surprisingly strong-willed.\p"
 # 134 "data/maps/PetalburgCity_WallysHouse/scripts.pory"
 	.string "I'm sure that he'll come back safe\n"

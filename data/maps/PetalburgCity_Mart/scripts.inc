@@ -130,35 +130,58 @@ PetalburgCity_Mart_EventScript_Man::
 
 # 66 "data/maps/PetalburgCity_Mart/scripts.pory"
 PetalburgCity_Mart_Text_WeakWillGrowStronger:
+<<<<<<< HEAD
 # 67 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Even if a POKéMON is weak now,\n"
 # 68 "data/maps/PetalburgCity_Mart/scripts.pory"
+=======
+	.string "Even if a Pokémon is weak now,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it will grow stronger.\p"
 # 69 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "The most important thing is love!\n"
+<<<<<<< HEAD
 # 70 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Love for your POKéMON!$"
 # 71 "data/maps/PetalburgCity_Mart/scripts.pory"
+=======
+	.string "Love for your Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 72 "data/maps/PetalburgCity_Mart/scripts.pory"
 PetalburgCity_Mart_Text_RepelIsUseful:
+<<<<<<< HEAD
 # 73 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Do you use REPEL?\n"
 # 74 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "It keeps POKéMON away, so it's\l"
 # 75 "data/maps/PetalburgCity_Mart/scripts.pory"
+=======
+	.string "Do you use Repel?\n"
+	.string "It keeps Pokémon away, so it's\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "useful when you're in a hurry.$"
 # 76 "data/maps/PetalburgCity_Mart/scripts.pory"
 
 # 77 "data/maps/PetalburgCity_Mart/scripts.pory"
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
+<<<<<<< HEAD
 # 78 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Do you have any ANTIDOTES with\n"
 # 79 "data/maps/PetalburgCity_Mart/scripts.pory"
+=======
+	.string "Do you have any Antidotes with\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "you?\p"
 # 80 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "If you walk around with a poisoned\n"
+<<<<<<< HEAD
 # 81 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "POKéMON, it will lose HP until it faints.\l"
 # 82 "data/maps/PetalburgCity_Mart/scripts.pory"
 	.string "Take some ANTIDOTES with you.$"
+=======
+	.string "Pokémon, it will lose HP until it faints.\l"
+	.string "Take some Antidotes with you.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

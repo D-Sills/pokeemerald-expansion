@@ -530,11 +530,16 @@ Route101_Text_PleaseHelp:
 	.string "Hello! You over there!\n"
 # 266 "data/maps/Route101/scripts.pory"
 	.string "Please! Help!\p"
+<<<<<<< HEAD
 # 267 "data/maps/Route101/scripts.pory"
 	.string "In my BAG!\n"
 # 268 "data/maps/Route101/scripts.pory"
 	.string "There's a POKé BALL!$"
 # 269 "data/maps/Route101/scripts.pory"
+=======
+	.string "In my Bag!\n"
+	.string "There's a Poké Ball!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 270 "data/maps/Route101/scripts.pory"
 Route101_Text_DontLeaveMe:
@@ -546,6 +551,7 @@ Route101_Text_DontLeaveMe:
 
 # 274 "data/maps/Route101/scripts.pory"
 Route101_Text_YouSavedMe:
+<<<<<<< HEAD
 # 275 "data/maps/Route101/scripts.pory"
 	.string "PROF. BIRCH: Whew…\p"
 # 276 "data/maps/Route101/scripts.pory"
@@ -553,6 +559,11 @@ Route101_Text_YouSavedMe:
 # 277 "data/maps/Route101/scripts.pory"
 	.string "POKéMON when I was jumped.\p"
 # 278 "data/maps/Route101/scripts.pory"
+=======
+	.string "Prof. Birch: Whew…\p"
+	.string "I was in the tall grass studying wild\n"
+	.string "Pokémon when I was jumped.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You saved me.\n"
 # 279 "data/maps/Route101/scripts.pory"
 	.string "Thanks a lot!\p"
@@ -562,12 +573,17 @@ Route101_Text_YouSavedMe:
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 # 282 "data/maps/Route101/scripts.pory"
 	.string "This is not the place to chat, so come\n"
+<<<<<<< HEAD
 # 283 "data/maps/Route101/scripts.pory"
 	.string "by my POKéMON LAB later, okay?$"
 # 284 "data/maps/Route101/scripts.pory"
+=======
+	.string "by my Pokémon Lab later, okay?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 285 "data/maps/Route101/scripts.pory"
 Route101_Text_TakeTiredPokemonToPokeCenter:
+<<<<<<< HEAD
 # 286 "data/maps/Route101/scripts.pory"
 	.string "If POKéMON get tired, take them to\n"
 # 287 "data/maps/Route101/scripts.pory"
@@ -577,9 +593,16 @@ Route101_Text_TakeTiredPokemonToPokeCenter:
 # 289 "data/maps/Route101/scripts.pory"
 	.string "TOWN right close by.$"
 # 290 "data/maps/Route101/scripts.pory"
+=======
+	.string "If Pokémon get tired, take them to\n"
+	.string "a Pokémon Center.\p"
+	.string "There's a Pokémon Center in Oldale\n"
+	.string "Town right close by.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 291 "data/maps/Route101/scripts.pory"
 Route101_Text_WildPokemonInTallGrass:
+<<<<<<< HEAD
 # 292 "data/maps/Route101/scripts.pory"
 	.string "Wild POKéMON will jump out at you in\n"
 # 293 "data/maps/Route101/scripts.pory"
@@ -587,12 +610,23 @@ Route101_Text_WildPokemonInTallGrass:
 # 294 "data/maps/Route101/scripts.pory"
 	.string "If you want to catch POKéMON, you have\n"
 # 295 "data/maps/Route101/scripts.pory"
+=======
+	.string "Wild Pokémon will jump out at you in\n"
+	.string "tall grass.\p"
+	.string "If you want to catch Pokémon, you have\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to go into the tall grass and search.$"
 # 296 "data/maps/Route101/scripts.pory"
 
 # 297 "data/maps/Route101/scripts.pory"
 Route101_Text_RouteSign:
+<<<<<<< HEAD
 # 298 "data/maps/Route101/scripts.pory"
 	.string "ROUTE 101\n"
 # 299 "data/maps/Route101/scripts.pory"
 	.string "{UP_ARROW} OLDALE TOWN$"
+=======
+	.string "Route 101\n"
+	.string "{UP_ARROW} Oldale Town$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

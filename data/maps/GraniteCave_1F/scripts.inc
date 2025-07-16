@@ -48,6 +48,7 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 	.string "It'll be tough trying to explore.\p"
 # 25 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "That guy who came by earlier…\n"
+<<<<<<< HEAD
 # 26 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "STEVEN, I think it was.\p"
 # 27 "data/maps/GraniteCave_1F/scripts.pory"
@@ -57,6 +58,12 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 # 29 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "Well, for us HIKERS, helping out those\n"
 # 30 "data/maps/GraniteCave_1F/scripts.pory"
+=======
+	.string "Steven, I think it was.\p"
+	.string "He knew how to use Flash, so he ought\n"
+	.string "to be all right, but…\p"
+	.string "Well, for us Hikers, helping out those\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that we meet is our motto.\p"
 # 31 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "Here you go, I'll pass this on to you.$"
@@ -64,15 +71,26 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 
 # 33 "data/maps/GraniteCave_1F/scripts.pory"
 GraniteCave_1F_Text_ExplainFlash:
+<<<<<<< HEAD
 # 34 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "Teach that hidden move FLASH to\n"
 # 35 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "a POKéMON and use it.\p"
 # 36 "data/maps/GraniteCave_1F/scripts.pory"
+=======
+	.string "Teach that hidden move Flash to\n"
+	.string "a Pokémon and use it.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It lights up even the inky darkness\n"
 # 37 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "of caves.\p"
+<<<<<<< HEAD
 # 38 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "But, to use it, you need the GYM BADGE\n"
 # 39 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "from DEWFORD's POKéMON GYM.$"
+=======
+	.string "But, to use it, you need the Gym Badge\n"
+	.string "from Dewford's Pokémon Gym.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -208,6 +208,7 @@ LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
 	.string "I'm sure my kids could learn a thing\n"
 # 105 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "or two from you!\p"
+<<<<<<< HEAD
 # 106 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "Me? I'm a master of {POKEBLOCK}S.\p"
 # 107 "data/maps/LilycoveCity_House3/scripts.pory"
@@ -219,6 +220,13 @@ LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
 # 110 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "a master of {POKEBLOCK}S?$"
 # 111 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "Me? I'm a master of {POKEBLOCK}s.\p"
+	.string "If I get serious just a little, why,\n"
+	.string "I can concoct great {POKEBLOCK}s.\p"
+	.string "Would you like to learn from me,\n"
+	.string "a master of {POKEBLOCK}s?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 112 "data/maps/LilycoveCity_House3/scripts.pory"
 LilycoveCity_House3_Text_OhAreYouSure:
@@ -238,9 +246,13 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "This is a bit long, so listen up!\p"
 # 120 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "Are you ready?\p"
+<<<<<<< HEAD
 # 121 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "If you look at {POKEBLOCK}S, you should see\n"
 # 122 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "If you look at {POKEBLOCK}s, you should see\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that they are rated on how they feel.\p"
 # 123 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "The lower the feel rating,\n"
@@ -250,6 +262,7 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "A good {POKEBLOCK} has a low feel\n"
 # 126 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "rating and a high level.\p"
+<<<<<<< HEAD
 # 127 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "A POKéMON can eat more good\n"
 # 128 "data/maps/LilycoveCity_House3/scripts.pory"
@@ -283,6 +296,24 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 # 142 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "smooth {POKEBLOCK}S, and a loving family,\l"
 # 143 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "A Pokémon can eat more good\n"
+	.string "{POKEBLOCK}s than ordinary ones, too.\p"
+	.string "And this is important.\p"
+	.string "If you want to make smooth {POKEBLOCK}s,\n"
+	.string "use different kinds of Berries.\p"
+	.string "Don't be stingy--the kinds of Berries\n"
+	.string "affect the smoothness of {POKEBLOCK}s.\p"
+	.string "And another thing.\p"
+	.string "The more people blending Berries,\n"
+	.string "the smoother the {POKEBLOCK}s.\p"
+	.string "That's why you should talk to other\n"
+	.string "people and make {POKEBLOCK}s together.\p"
+	.string "That's about all you need to know to\n"
+	.string "make good {POKEBLOCK}s.\p"
+	.string "If everyone had Pokémon they love,\n"
+	.string "smooth {POKEBLOCK}s, and a loving family,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the world would be a happier place.\p"
 # 144 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "Don't give up, dear!$"
@@ -302,9 +333,13 @@ LilycoveCity_House3_Text_HappyToHaveQuadruplets:
 
 # 152 "data/maps/LilycoveCity_House3/scripts.pory"
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
+<<<<<<< HEAD
 # 153 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "We're having MULTI BATTLES, but I know\n"
 # 154 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "We're having Multi Battles, but I know\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm going to win.$"
 # 155 "data/maps/LilycoveCity_House3/scripts.pory"
 
@@ -312,25 +347,40 @@ LilycoveCity_House3_Text_GoingToWinMultiBattles:
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
 # 157 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "We like mixing stuff at\n"
+<<<<<<< HEAD
 # 158 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "the RECORD CORNER.\p"
 # 159 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "the Record Corner.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But what gets mixed up?$"
 # 160 "data/maps/LilycoveCity_House3/scripts.pory"
 
 # 161 "data/maps/LilycoveCity_House3/scripts.pory"
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
+<<<<<<< HEAD
 # 162 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "We're going to make super {POKEBLOCK}S\n"
 # 163 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "with a BERRY BLENDER!$"
 # 164 "data/maps/LilycoveCity_House3/scripts.pory"
+=======
+	.string "We're going to make super {POKEBLOCK}s\n"
+	.string "with a Berry Blender!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 165 "data/maps/LilycoveCity_House3/scripts.pory"
 LilycoveCity_House3_Text_GoingToEnterContest:
 # 166 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "I want to brag about how tough my\n"
+<<<<<<< HEAD
 # 167 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "POKéMON is, so we're going to enter\l"
 # 168 "data/maps/LilycoveCity_House3/scripts.pory"
 	.string "a CONTEST together.$"
+=======
+	.string "Pokémon is, so we're going to enter\l"
+	.string "a Contest together.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

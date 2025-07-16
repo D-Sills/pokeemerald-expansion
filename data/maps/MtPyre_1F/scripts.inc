@@ -58,9 +58,13 @@ MtPyre_1F_EventScript_Man::
 MtPyre_1F_Text_TakeThisForYourOwnGood:
 # 30 "data/maps/MtPyre_1F/scripts.pory"
 	.string "All sorts of beings wander the slopes\n"
+<<<<<<< HEAD
 # 31 "data/maps/MtPyre_1F/scripts.pory"
 	.string "of MT. PYRE…\p"
 # 32 "data/maps/MtPyre_1F/scripts.pory"
+=======
+	.string "of Mt. Pyre…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "There is no telling what may happen.\n"
 # 33 "data/maps/MtPyre_1F/scripts.pory"
 	.string "Take this. It's for your own good.$"
@@ -68,6 +72,7 @@ MtPyre_1F_Text_TakeThisForYourOwnGood:
 
 # 35 "data/maps/MtPyre_1F/scripts.pory"
 MtPyre_1F_Text_ExplainCleanseTag:
+<<<<<<< HEAD
 # 36 "data/maps/MtPyre_1F/scripts.pory"
 	.string "Have a POKéMON hold that\n"
 # 37 "data/maps/MtPyre_1F/scripts.pory"
@@ -75,20 +80,35 @@ MtPyre_1F_Text_ExplainCleanseTag:
 # 38 "data/maps/MtPyre_1F/scripts.pory"
 	.string "It will help ward off wild POKéMON.$"
 # 39 "data/maps/MtPyre_1F/scripts.pory"
+=======
+	.string "Have a Pokémon hold that\n"
+	.string "Cleanse Tag.\p"
+	.string "It will help ward off wild Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 40 "data/maps/MtPyre_1F/scripts.pory"
 MtPyre_1F_Text_ComeToPayRespects:
 # 41 "data/maps/MtPyre_1F/scripts.pory"
 	.string "Did you come to pay your respect\n"
+<<<<<<< HEAD
 # 42 "data/maps/MtPyre_1F/scripts.pory"
 	.string "to the spirits of departed POKéMON?\p"
 # 43 "data/maps/MtPyre_1F/scripts.pory"
 	.string "You must care for your POKéMON a lot.$"
 # 44 "data/maps/MtPyre_1F/scripts.pory"
+=======
+	.string "to the spirits of departed Pokémon?\p"
+	.string "You must care for your Pokémon a lot.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 45 "data/maps/MtPyre_1F/scripts.pory"
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
 # 46 "data/maps/MtPyre_1F/scripts.pory"
 	.string "This is the final resting place of my\n"
+<<<<<<< HEAD
 # 47 "data/maps/MtPyre_1F/scripts.pory"
 	.string "ZIGZAGOON. I cherished it…$"
+=======
+	.string "Zigzagoon. I cherished it…$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

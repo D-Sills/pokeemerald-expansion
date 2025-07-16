@@ -724,9 +724,13 @@ Route120_EventScript_Callie::
 
 # 363 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenGreeting:
+<<<<<<< HEAD
 # 364 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
 # 365 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: Hm? {PLAYER}{KUN}, hi.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's been a while.\p"
 # 366 "data/maps/Route120/scripts.pory"
 	.string "There's something here that you can't\n"
@@ -742,38 +746,56 @@ Route120_Text_StevenGreeting:
 	.string "I should just show you.\l"
 # 372 "data/maps/Route120/scripts.pory"
 	.string "That would be more fun.\p"
+<<<<<<< HEAD
 # 373 "data/maps/Route120/scripts.pory"
 	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
 # 374 "data/maps/Route120/scripts.pory"
+=======
+	.string "{PLAYER}{KUN}, are your Pokémon ready for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "battle?$"
 # 375 "data/maps/Route120/scripts.pory"
 
 # 376 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenIllWaitHere:
+<<<<<<< HEAD
 # 377 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: No?\p"
 # 378 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: No?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll wait here, so you can get ready.$"
 # 379 "data/maps/Route120/scripts.pory"
 
 # 380 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenReadyForBattle:
+<<<<<<< HEAD
 # 381 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
 # 382 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: {PLAYER}{KUN}, are your Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "ready for battle?$"
 # 383 "data/maps/Route120/scripts.pory"
 
 # 384 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenShowMeYourPower:
+<<<<<<< HEAD
 # 385 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
 # 386 "data/maps/Route120/scripts.pory"
 	.string "power as a TRAINER!$"
 # 387 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: {PLAYER}{KUN}, show me your true\n"
+	.string "power as a Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 388 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenUsedDevonScope:
+<<<<<<< HEAD
 # 389 "data/maps/Route120/scripts.pory"
 	.string "STEVEN used the DEVON SCOPE.\p"
 # 390 "data/maps/Route120/scripts.pory"
@@ -783,9 +805,16 @@ Route120_Text_StevenUsedDevonScope:
 # 392 "data/maps/Route120/scripts.pory"
 	.string "The startled POKéMON attacked!$"
 # 393 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven used the Devon Scope.\p"
+	.string "An invisible Pokémon became completely\n"
+	.string "visible!\p"
+	.string "The startled Pokémon attacked!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 394 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenGiveDevonScope:
+<<<<<<< HEAD
 # 395 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: I see…\n"
 # 396 "data/maps/Route120/scripts.pory"
@@ -803,14 +832,29 @@ Route120_Text_StevenGiveDevonScope:
 # 402 "data/maps/Route120/scripts.pory"
 	.string "concealed POKéMON.$"
 # 403 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: I see…\n"
+	.string "Your battle style is intriguing.\p"
+	.string "Your Pokémon have obviously grown\n"
+	.string "since I first met you in Dewford.\p"
+	.string "I'd like you to have this\n"
+	.string "Devon Scope.\p"
+	.string "Who knows, there may be other\n"
+	.string "concealed Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 404 "data/maps/Route120/scripts.pory"
 Route120_Text_StevenGoodbye:
+<<<<<<< HEAD
 # 405 "data/maps/Route120/scripts.pory"
 	.string "STEVEN: {PLAYER}{KUN}.\p"
 # 406 "data/maps/Route120/scripts.pory"
 	.string "I enjoy seeing POKéMON and TRAINERS\n"
 # 407 "data/maps/Route120/scripts.pory"
+=======
+	.string "Steven: {PLAYER}{KUN}.\p"
+	.string "I enjoy seeing Pokémon and Trainers\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "who strive together.\p"
 # 408 "data/maps/Route120/scripts.pory"
 	.string "I think you're doing great.\p"
@@ -828,12 +872,17 @@ Kecleon_Text_SomethingUnseeable:
 Kecleon_Text_WantToUseDevonScope:
 # 415 "data/maps/Route120/scripts.pory"
 	.string "Something unseeable is in the way.\p"
+<<<<<<< HEAD
 # 416 "data/maps/Route120/scripts.pory"
 	.string "Want to use the DEVON SCOPE?$"
 # 417 "data/maps/Route120/scripts.pory"
+=======
+	.string "Want to use the Devon Scope?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 418 "data/maps/Route120/scripts.pory"
 Kecleon_Text_UseDevonScopeMonAttacked:
+<<<<<<< HEAD
 # 419 "data/maps/Route120/scripts.pory"
 	.string "{PLAYER} used the DEVON SCOPE.\p"
 # 420 "data/maps/Route120/scripts.pory"
@@ -843,18 +892,34 @@ Kecleon_Text_UseDevonScopeMonAttacked:
 # 422 "data/maps/Route120/scripts.pory"
 	.string "The startled POKéMON attacked!$"
 # 423 "data/maps/Route120/scripts.pory"
+=======
+	.string "{PLAYER} used the Devon Scope.\p"
+	.string "An invisible Pokémon became completely\n"
+	.string "visible!\p"
+	.string "The startled Pokémon attacked!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 424 "data/maps/Route120/scripts.pory"
 Route120_Text_RouteSignFortree:
+<<<<<<< HEAD
 # 425 "data/maps/Route120/scripts.pory"
 	.string "ROUTE 120\n"
 # 426 "data/maps/Route120/scripts.pory"
 	.string "{LEFT_ARROW} FORTREE CITY$"
 # 427 "data/maps/Route120/scripts.pory"
+=======
+	.string "Route 120\n"
+	.string "{LEFT_ARROW} Fortree City$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 428 "data/maps/Route120/scripts.pory"
 Route120_Text_RouteSign121:
+<<<<<<< HEAD
 # 429 "data/maps/Route120/scripts.pory"
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 # 430 "data/maps/Route120/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 120$"
+=======
+	.string "{RIGHT_ARROW} Route 121\n"
+	.string "{LEFT_ARROW} Route 120$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

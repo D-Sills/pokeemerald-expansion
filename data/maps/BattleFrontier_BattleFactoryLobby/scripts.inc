@@ -650,6 +650,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 
 # 326 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
+<<<<<<< HEAD
 # 327 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Where the intelligence of TRAINERS\n"
 # 328 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -657,6 +658,11 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 # 329 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Welcome to the BATTLE FACTORY!\p"
 # 330 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Where the intelligence of Trainers\n"
+	.string "is put to the test!\p"
+	.string "Welcome to the Battle Factory!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I am your guide to the Battle Swap\n"
 # 331 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Single Tournament.$"
@@ -674,6 +680,7 @@ BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 # 338 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "The Battle Swap Single Tournament\n"
+<<<<<<< HEAD
 # 339 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "is a SINGLE BATTLE competition using\l"
 # 340 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -691,6 +698,16 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
 # 346 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "one of your rental POKéMON.\p"
 # 347 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "is a Single Battle competition using\l"
+	.string "only rental Pokémon.\p"
+	.string "First, you will be loaned three\n"
+	.string "Pokémon specifically for this event.\p"
+	.string "Using the supplied rental Pokémon,\n"
+	.string "you must conduct a Single Battle.\p"
+	.string "If you win, you are permitted to trade\n"
+	.string "one of your rental Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Repeat this cycle of battling and\n"
 # 348 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "trading--if you win seven times in\l"
@@ -732,9 +749,13 @@ BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
 @ Unused
 # 367 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
+<<<<<<< HEAD
 # 368 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Okay, I will hold your POKéMON for\n"
 # 369 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Okay, I will hold your Pokémon for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "safekeeping while you compete.$"
 # 370 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
@@ -748,11 +769,16 @@ BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
 # 375 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Thank you for participating!\p"
+<<<<<<< HEAD
 # 376 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "I will return your POKéMON in exchange\n"
 # 377 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "for our rental POKéMON.\p"
 # 378 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "I will return your Pokémon in exchange\n"
+	.string "for our rental Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I must also save the event results.\n"
 # 379 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Please wait.$"
@@ -762,11 +788,16 @@ BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
 @ Unused
 # 382 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
+<<<<<<< HEAD
 # 383 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "I will return your POKéMON in exchange\n"
 # 384 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "for our rental POKéMON.$"
 # 385 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "I will return your Pokémon in exchange\n"
+	.string "for our rental Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 386 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
@@ -826,9 +857,13 @@ BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 @ Unused
 # 414 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
+<<<<<<< HEAD
 # 415 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "We'll return your personal POKéMON.$"
 # 416 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "We'll return your personal Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 417 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 @ Unused
@@ -842,6 +877,7 @@ BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
 
 # 422 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
+<<<<<<< HEAD
 # 423 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Where the intelligence of TRAINERS\n"
 # 424 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -849,6 +885,11 @@ BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 # 425 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Welcome to the BATTLE FACTORY!\p"
 # 426 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Where the intelligence of Trainers\n"
+	.string "is put to the test!\p"
+	.string "Welcome to the Battle Factory!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I am your guide to the Battle Swap\n"
 # 427 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Double Tournament.$"
@@ -866,6 +907,7 @@ BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 # 434 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "The Battle Swap Double Tournament\n"
+<<<<<<< HEAD
 # 435 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "is a DOUBLE BATTLE competition using\l"
 # 436 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -883,6 +925,16 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 # 442 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "one of your rental POKéMON.\p"
 # 443 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "is a Double Battle competition using\l"
+	.string "only rental Pokémon.\p"
+	.string "First, you will be loaned three\n"
+	.string "Pokémon specifically for this event.\p"
+	.string "Using the supplied rental Pokémon,\n"
+	.string "you must conduct a Double Battle.\p"
+	.string "If you win, you are permitted to trade\n"
+	.string "one of your rental Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Repeat this cycle of battling and\n"
 # 444 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "trading--if you win seven times in\l"
@@ -902,9 +954,13 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
 # 452 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Congratulations for defeating\n"
+<<<<<<< HEAD
 # 453 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "the FACTORY HEAD and winning\l"
 # 454 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "the Factory Head and winning\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "seven matches in a row!$"
 # 455 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
@@ -920,11 +976,16 @@ BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
 
 # 461 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
+<<<<<<< HEAD
 # 462 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Let me exchange your POKéMON\n"
 # 463 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "for our rental POKéMON.\p"
 # 464 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Let me exchange your Pokémon\n"
+	.string "for our rental Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I need to save the battle data,\n"
 # 465 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "so please wait.$"
@@ -934,11 +995,16 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
 # 468 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Would you like to record your last\n"
+<<<<<<< HEAD
 # 469 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "BATTLE FACTORY match on your\l"
 # 470 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "FRONTIER PASS?$"
 # 471 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Battle Factory match on your\l"
+	.string "Frontier Pass?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 472 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
@@ -950,25 +1016,37 @@ BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
 	.string "Are you thinking that the events here\n"
 # 476 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "are easy since you don't need to have\l"
+<<<<<<< HEAD
 # 477 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "a raised team of POKéMON?\p"
 # 478 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "a raised team of Pokémon?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I wouldn't be too sure about winning\n"
 # 479 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "that easily.\p"
 # 480 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "If you don't have thorough knowledge\n"
+<<<<<<< HEAD
 # 481 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "about POKéMON and their moves,\l"
 # 482 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "about Pokémon and their moves,\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it will be tough to keep winning.$"
 # 483 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 484 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
+<<<<<<< HEAD
 # 485 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "I swapped for a weak POKéMON…\n"
 # 486 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "I swapped for a weak Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I thought it was a good kind to have…\p"
 # 487 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "They wiped the floor with us…$"
@@ -982,9 +1060,13 @@ BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
 	.string "at all.\p"
 # 492 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "You need to check your opponent's\n"
+<<<<<<< HEAD
 # 493 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "POKéMON during battle to see if\l"
 # 494 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "Pokémon during battle to see if\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "they're any good.$"
 # 495 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
@@ -1014,9 +1096,13 @@ BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
 	.string "So anyway, when I kept entering\n"
 # 508 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Battle Swap events, I noticed they\l"
+<<<<<<< HEAD
 # 509 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "varied the rental POKéMON.$"
 # 510 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "varied the rental Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 511 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
@@ -1034,18 +1120,27 @@ BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
 # 518 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "In a Battle Swap event, you may use\n"
+<<<<<<< HEAD
 # 519 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "only three POKéMON.\p"
 # 520 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "only three Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Whether you are renting or swapping,\n"
 # 521 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "your team may not have two or more\l"
+<<<<<<< HEAD
 # 522 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "of the same POKéMON.$"
 # 523 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "of the same Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 524 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
+<<<<<<< HEAD
 # 525 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "You may swap POKéMON only with\n"
 # 526 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1055,6 +1150,12 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
 # 528 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "used by the beaten TRAINER.$"
 # 529 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "You may swap Pokémon only with\n"
+	.string "the Trainer you have just defeated.\p"
+	.string "You may swap for only those Pokémon\n"
+	.string "used by the beaten Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 530 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
@@ -1062,6 +1163,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 	.string "After every battle you win, you may\n"
 # 532 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "swap for one of your defeated\l"
+<<<<<<< HEAD
 # 533 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "opponent's POKéMON.\p"
 # 534 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1069,11 +1171,17 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 # 535 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "with the seventh TRAINER in the event.$"
 # 536 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "opponent's Pokémon.\p"
+	.string "You will not be able to swap Pokémon\n"
+	.string "with the seventh Trainer in the event.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 537 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 # 538 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "There are two key points to be aware\n"
+<<<<<<< HEAD
 # 539 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "of when swapping POKéMON.\p"
 # 540 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -1085,6 +1193,13 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 # 543 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "Second, the POKéMON on your team\n"
 # 544 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "of when swapping Pokémon.\p"
+	.string "First, when swapping, you can't check\n"
+	.string "the stats of the Pokémon you are\l"
+	.string "about to receive.\p"
+	.string "Second, the Pokémon on your team\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are lined up in sequence, depending on\l"
 # 545 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "the order in which you rented them.\p"
@@ -1096,9 +1211,14 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 
 # 549 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
+<<<<<<< HEAD
 # 550 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "In the Open Level, the rental POKéMON\n"
 # 551 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	.string "and the opposing TRAINERS' POKéMON\l"
 # 552 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	.string "In the Open Level, the rental Pokémon\n"
+	.string "and the opposing Trainers' Pokémon\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "are all Level 100.$"

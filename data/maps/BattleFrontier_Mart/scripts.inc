@@ -110,17 +110,25 @@ BattleFrontier_Mart_Text_ProteinMakeNiceGift:
 	.string "Dear, what do you think of this?\n"
 # 56 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "Wouldn't this make a nice gift?\p"
+<<<<<<< HEAD
 # 57 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "It's…PRO…TE…IN?\n"
 # 58 "data/maps/BattleFrontier_Mart/scripts.pory"
+=======
+	.string "It'S…Pro…te…in?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It sounds delicious, doesn't it?$"
 # 59 "data/maps/BattleFrontier_Mart/scripts.pory"
 
 # 60 "data/maps/BattleFrontier_Mart/scripts.pory"
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
+<<<<<<< HEAD
 # 61 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "A lot of the BATTLE FRONTIER's\n"
 # 62 "data/maps/BattleFrontier_Mart/scripts.pory"
+=======
+	.string "A lot of the Battle Frontier's\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "facilities don't allow the use of items\l"
 # 63 "data/maps/BattleFrontier_Mart/scripts.pory"
 	.string "during battles.\p"

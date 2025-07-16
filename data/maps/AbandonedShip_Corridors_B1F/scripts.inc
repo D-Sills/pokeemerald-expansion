@@ -112,11 +112,16 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 
 # 57 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
+<<<<<<< HEAD
 # 58 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "When we go out to sea, we SAILORS\n"
 # 59 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "always bring our POKéMON.\l"
 # 60 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
+=======
+	.string "When we go out to sea, we Sailors\n"
+	.string "always bring our Pokémon.\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How about a quick battle?$"
 # 61 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 
@@ -132,9 +137,13 @@ AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
 	.string "The ship's bottom has sunk into the\n"
 # 67 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "depths.\p"
+<<<<<<< HEAD
 # 68 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "If a POKéMON knew how to go underwater,\n"
 # 69 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
+=======
+	.string "If a Pokémon knew how to go underwater,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "we might make some progress…$"
 # 70 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 
@@ -158,11 +167,16 @@ AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 # 80 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "{PLAYER} inserted and turned the\n"
+<<<<<<< HEAD
 # 81 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "STORAGE KEY.\p"
 # 82 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 	.string "The inserted KEY stuck fast,\n"
 # 83 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
+=======
+	.string "Storage Key.\p"
+	.string "The inserted key stuck fast,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but the door opened.$"
 # 84 "data/maps/AbandonedShip_Corridors_B1F/scripts.pory"
 

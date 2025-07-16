@@ -1260,9 +1260,13 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 
 # 631 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_TinyIslandCommunity:
+<<<<<<< HEAD
 # 632 "data/maps/DewfordTown/scripts.pory"
 	.string "DEWFORD is a tiny island community.\n"
 # 633 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Dewford is a tiny island community.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If something gets trendy here,\l"
 # 634 "data/maps/DewfordTown/scripts.pory"
 	.string "everyone picks up on it right away.$"
@@ -1270,32 +1274,46 @@ DewfordTown_Text_TinyIslandCommunity:
 
 # 636 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_TownSign:
+<<<<<<< HEAD
 # 637 "data/maps/DewfordTown/scripts.pory"
 	.string "DEWFORD TOWN\n"
 # 638 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Dewford Town\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“A tiny island in the blue sea.”$"
 # 639 "data/maps/DewfordTown/scripts.pory"
 
 # 640 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_GymSign:
+<<<<<<< HEAD
 # 641 "data/maps/DewfordTown/scripts.pory"
 	.string "DEWFORD TOWN POKéMON GYM\n"
 # 642 "data/maps/DewfordTown/scripts.pory"
 	.string "LEADER: BRAWLY\l"
 # 643 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Dewford Town Pokémon Gym\n"
+	.string "Leader: Brawly\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“A big wave in fighting!”$"
 # 644 "data/maps/DewfordTown/scripts.pory"
 
 # 645 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_HallSign:
+<<<<<<< HEAD
 # 646 "data/maps/DewfordTown/scripts.pory"
 	.string "DEWFORD HALL\n"
 # 647 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Dewford Hall\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Everyone's information exchange!”$"
 # 648 "data/maps/DewfordTown/scripts.pory"
 
 # 649 "data/maps/DewfordTown/scripts.pory"
 Route104_Text_LandedInDewfordDeliverLetter:
+<<<<<<< HEAD
 # 650 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 651 "data/maps/DewfordTown/scripts.pory"
@@ -1305,9 +1323,16 @@ Route104_Text_LandedInDewfordDeliverLetter:
 # 653 "data/maps/DewfordTown/scripts.pory"
 	.string "LETTER to, who was it now, STEVEN!$"
 # 654 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+	.string "We've hit land in Dewford.\p"
+	.string "I suppose you're off to deliver that\n"
+	.string "Letter to, who was it now, Steven!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 655 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_SetSailBackToPetalburg:
+<<<<<<< HEAD
 # 656 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: Have you delivered your\n"
 # 657 "data/maps/DewfordTown/scripts.pory"
@@ -1317,9 +1342,16 @@ DewfordTown_Text_SetSailBackToPetalburg:
 # 659 "data/maps/DewfordTown/scripts.pory"
 	.string "PETALBURG?$"
 # 660 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Have you delivered your\n"
+	.string "Letter?\p"
+	.string "Or were you meaning to sail back to\n"
+	.string "Petalburg?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 661 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_PetalburgWereSettingSail2:
+<<<<<<< HEAD
 # 662 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: PETALBURG it is, then!\p"
 # 663 "data/maps/DewfordTown/scripts.pory"
@@ -1327,22 +1359,37 @@ DewfordTown_Text_PetalburgWereSettingSail2:
 # 664 "data/maps/DewfordTown/scripts.pory"
 	.string "PEEKO, we're setting sail, my darling!$"
 # 665 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Petalburg it is, then!\p"
+	.string "Anchors aweigh!\n"
+	.string "Peeko, we're setting sail, my darling!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 666 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_GoDeliverIllBeWaiting:
+<<<<<<< HEAD
 # 667 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: Then you go on and deliver\n"
 # 668 "data/maps/DewfordTown/scripts.pory"
 	.string "the LETTER. I'll be waiting.$"
 # 669 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Then you go on and deliver\n"
+	.string "the Letter. I'll be waiting.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 670 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_BrineyLandedInDewford:
+<<<<<<< HEAD
 # 671 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 672 "data/maps/DewfordTown/scripts.pory"
 	.string "We've hit land in DEWFORD!\p"
 # 673 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+	.string "We've hit land in Dewford!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "You just go on and tell me whenever\n"
 # 674 "data/maps/DewfordTown/scripts.pory"
 	.string "you want to set sail again!$"
@@ -1350,9 +1397,13 @@ DewfordTown_Text_BrineyLandedInDewford:
 
 # 676 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_WhereAreWeBound:
+<<<<<<< HEAD
 # 677 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: Ahoy!\n"
 # 678 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Ahoy!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "For you, I'll go out to sea anytime!\p"
 # 679 "data/maps/DewfordTown/scripts.pory"
 	.string "Now, my friend, where are we bound?$"
@@ -1360,6 +1411,7 @@ DewfordTown_Text_WhereAreWeBound:
 
 # 681 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_PetalburgWereSettingSail:
+<<<<<<< HEAD
 # 682 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: PETALBURG, is it?\p"
 # 683 "data/maps/DewfordTown/scripts.pory"
@@ -1367,9 +1419,15 @@ DewfordTown_Text_PetalburgWereSettingSail:
 # 684 "data/maps/DewfordTown/scripts.pory"
 	.string "PEEKO, we're setting sail, my darling!$"
 # 685 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Petalburg, is it?\p"
+	.string "Anchors aweigh!\n"
+	.string "Peeko, we're setting sail, my darling!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 686 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_SlateportWereSettingSail:
+<<<<<<< HEAD
 # 687 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: SLATEPORT, is it?\p"
 # 688 "data/maps/DewfordTown/scripts.pory"
@@ -1377,12 +1435,21 @@ DewfordTown_Text_SlateportWereSettingSail:
 # 689 "data/maps/DewfordTown/scripts.pory"
 	.string "PEEKO, we're setting sail, my darling!$"
 # 690 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: Slateport, is it?\p"
+	.string "Anchors aweigh!\n"
+	.string "Peeko, we're setting sail, my darling!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 691 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
+<<<<<<< HEAD
 # 692 "data/maps/DewfordTown/scripts.pory"
 	.string "MR. BRINEY: You just tell me whenever\n"
 # 693 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "Mr. Briney: You just tell me whenever\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "you need to set sail again!$"
 # 694 "data/maps/DewfordTown/scripts.pory"
 
@@ -1400,9 +1467,13 @@ DewfordTown_Text_GiveYouOneOfMyRods:
 	.string "I hear you, and I like what\n"
 # 701 "data/maps/DewfordTown/scripts.pory"
 	.string "you're saying!\p"
+<<<<<<< HEAD
 # 702 "data/maps/DewfordTown/scripts.pory"
 	.string "I'll give you one of my fishing RODS.$"
 # 703 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "I'll give you one of my Rods.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 704 "data/maps/DewfordTown/scripts.pory"
 DewfordTown_Text_ThrowInFishingAdvice:
@@ -1412,6 +1483,7 @@ DewfordTown_Text_ThrowInFishingAdvice:
 	.string "in a little fishing advice!\p"
 # 707 "data/maps/DewfordTown/scripts.pory"
 	.string "First, you want to face the water,\n"
+<<<<<<< HEAD
 # 708 "data/maps/DewfordTown/scripts.pory"
 	.string "then use the ROD.\p"
 # 709 "data/maps/DewfordTown/scripts.pory"
@@ -1419,12 +1491,21 @@ DewfordTown_Text_ThrowInFishingAdvice:
 # 710 "data/maps/DewfordTown/scripts.pory"
 	.string "If you get a bite, pull on the ROD.\p"
 # 711 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "then use the Rod.\p"
+	.string "Focus your mind…\n"
+	.string "If you get a bite, pull on the Rod.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Sometimes you can snag something\n"
 # 712 "data/maps/DewfordTown/scripts.pory"
 	.string "immediately, but with bigger catches,\l"
+<<<<<<< HEAD
 # 713 "data/maps/DewfordTown/scripts.pory"
 	.string "you need to time the pulls on your ROD\l"
 # 714 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "you need to time the pulls on your Rod\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to haul them in.$"
 # 715 "data/maps/DewfordTown/scripts.pory"
 
@@ -1460,6 +1541,7 @@ DewfordTown_Text_FishingAdvice:
 	.string "I'll give you a little fishing advice.\p"
 # 731 "data/maps/DewfordTown/scripts.pory"
 	.string "First, you want to face the water,\n"
+<<<<<<< HEAD
 # 732 "data/maps/DewfordTown/scripts.pory"
 	.string "then use the ROD.\p"
 # 733 "data/maps/DewfordTown/scripts.pory"
@@ -1467,12 +1549,21 @@ DewfordTown_Text_FishingAdvice:
 # 734 "data/maps/DewfordTown/scripts.pory"
 	.string "If you get a bite, pull the ROD.\p"
 # 735 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "then use the Rod.\p"
+	.string "Focus your mind…\n"
+	.string "If you get a bite, pull the Rod.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Sometimes you can snag something\n"
 # 736 "data/maps/DewfordTown/scripts.pory"
 	.string "immediately, but with bigger catches,\l"
+<<<<<<< HEAD
 # 737 "data/maps/DewfordTown/scripts.pory"
 	.string "you need to time the pulls on your ROD\l"
 # 738 "data/maps/DewfordTown/scripts.pory"
+=======
+	.string "you need to time the pulls on your Rod\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to haul them in.$"
 # 739 "data/maps/DewfordTown/scripts.pory"
 

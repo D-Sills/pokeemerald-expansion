@@ -824,6 +824,7 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 
 # 413 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayShoppingLetsBattle:
+<<<<<<< HEAD
 # 414 "data/maps/LilycoveCity/scripts.pory"
 	.string "MAY: Oh, hey?\n"
 # 415 "data/maps/LilycoveCity/scripts.pory"
@@ -837,9 +838,18 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 # 419 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéMON, and I'm raising them\l"
 # 420 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "May: Oh, hey?\n"
+	.string "{PLAYER}{KUN}, are you shopping, too?\p"
+	.string "I bought a whole bunch of Dolls and\n"
+	.string "Posters.\p"
+	.string "Of course, I've also caught a lot of\n"
+	.string "Pokémon, and I'm raising them\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "properly, too.\p"
 # 421 "data/maps/LilycoveCity/scripts.pory"
 	.string "Actually, I'm more worried if you're\n"
+<<<<<<< HEAD
 # 422 "data/maps/LilycoveCity/scripts.pory"
 	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
 # 423 "data/maps/LilycoveCity/scripts.pory"
@@ -847,9 +857,15 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 # 424 "data/maps/LilycoveCity/scripts.pory"
 	.string "me your POKéMON, {PLAYER}{KUN}.$"
 # 425 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "raising Pokémon properly, {PLAYER}{KUN}.\p"
+	.string "I'll battle with you, so you can show\n"
+	.string "me your Pokémon, {PLAYER}{KUN}.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 426 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayNotRaisingPokemon:
+<<<<<<< HEAD
 # 427 "data/maps/LilycoveCity/scripts.pory"
 	.string "MAY: Oh, why? {PLAYER}{KUN}, haven't you\n"
 # 428 "data/maps/LilycoveCity/scripts.pory"
@@ -859,22 +875,38 @@ LilycoveCity_Text_MayNotRaisingPokemon:
 # 430 "data/maps/LilycoveCity/scripts.pory"
 	.string "TRAINER…$"
 # 431 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "May: Oh, why? {PLAYER}{KUN}, haven't you\n"
+	.string "been raising your Pokémon?\p"
+	.string "That's not a very good showing as a\n"
+	.string "Trainer…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 432 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayBattleMe:
+<<<<<<< HEAD
 # 433 "data/maps/LilycoveCity/scripts.pory"
 	.string "MAY: Come on, battle with me, so I can\n"
 # 434 "data/maps/LilycoveCity/scripts.pory"
 	.string "check out your POKéMON!$"
 # 435 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "May: Come on, battle with me, so I can\n"
+	.string "check out your Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 436 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayWontBeBeaten:
+<<<<<<< HEAD
 # 437 "data/maps/LilycoveCity/scripts.pory"
 	.string "MAY: The POKéMON I raised won't be\n"
 # 438 "data/maps/LilycoveCity/scripts.pory"
 	.string "beaten by your POKéMON, {PLAYER}{KUN}!$"
 # 439 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "May: The Pokémon I raised won't be\n"
+	.string "beaten by your Pokémon, {PLAYER}{KUN}!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 440 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayDefeat:
@@ -882,9 +914,13 @@ LilycoveCity_Text_MayDefeat:
 	.string "… … … … … … … …\p"
 # 442 "data/maps/LilycoveCity/scripts.pory"
 	.string "I remember the battle I had with you,\n"
+<<<<<<< HEAD
 # 443 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
 # 444 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "{PLAYER}{KUN}, on Route 103.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "That battle helped you become this\n"
 # 445 "data/maps/LilycoveCity/scripts.pory"
 	.string "strong, {PLAYER}{KUN}, didn't it?$"
@@ -892,6 +928,7 @@ LilycoveCity_Text_MayDefeat:
 
 # 447 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MayGoingBackToLittleroot:
+<<<<<<< HEAD
 # 448 "data/maps/LilycoveCity/scripts.pory"
 	.string "MAY: I'm thinking of going back to\n"
 # 449 "data/maps/LilycoveCity/scripts.pory"
@@ -901,6 +938,12 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 # 451 "data/maps/LilycoveCity/scripts.pory"
 	.string "and my POKéDEX is coming along, so\l"
 # 452 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "May: I'm thinking of going back to\n"
+	.string "Littleroot soon.\p"
+	.string "I've caught a decent group of Pokémon,\n"
+	.string "and my Pokédex is coming along, so\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'm going home to show my dad.$"
 # 453 "data/maps/LilycoveCity/scripts.pory"
 
@@ -908,6 +951,7 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 LilycoveCity_Text_MayYouGoingToCollectBadges:
 # 455 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
+<<<<<<< HEAD
 # 456 "data/maps/LilycoveCity/scripts.pory"
 	.string "Collect all the GYM BADGES and take\n"
 # 457 "data/maps/LilycoveCity/scripts.pory"
@@ -919,6 +963,13 @@ LilycoveCity_Text_MayYouGoingToCollectBadges:
 # 460 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéDEX. I'll complete it before you!\p"
 # 461 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Collect all the Gym Badges and take\n"
+	.string "the Pokémon League challenge?\p"
+	.string "Well, while you're collecting Badges,\n"
+	.string "{PLAYER}{KUN}, I'm going to work on my\l"
+	.string "Pokédex. I'll complete it before you!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "See you!$"
 # 462 "data/maps/LilycoveCity/scripts.pory"
 
@@ -926,12 +977,17 @@ LilycoveCity_Text_MayYouGoingToCollectBadges:
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
 # 464 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
+<<<<<<< HEAD
 # 465 "data/maps/LilycoveCity/scripts.pory"
 	.string "Are you taking the POKéMON LEAGUE\n"
 # 466 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Are you taking the Pokémon League\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenge?\p"
 # 467 "data/maps/LilycoveCity/scripts.pory"
 	.string "Or, are you going to complete your\n"
+<<<<<<< HEAD
 # 468 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéDEX?\p"
 # 469 "data/maps/LilycoveCity/scripts.pory"
@@ -939,6 +995,11 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague:
 # 470 "data/maps/LilycoveCity/scripts.pory"
 	.string "but I'll finish my POKéDEX before you!\p"
 # 471 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Pokédex?\p"
+	.string "I might've lost to you in battling,\n"
+	.string "but I'll finish my Pokédex before you!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "See you!$"
 # 472 "data/maps/LilycoveCity/scripts.pory"
 
@@ -946,12 +1007,17 @@ LilycoveCity_Text_MayYouGoingToPokemonLeague:
 LilycoveCity_Text_MayYouGoingToBattleFrontier:
 # 474 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
+<<<<<<< HEAD
 # 475 "data/maps/LilycoveCity/scripts.pory"
 	.string "Are you taking the BATTLE FRONTIER\n"
 # 476 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Are you taking the Battle Frontier\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenge?\p"
 # 477 "data/maps/LilycoveCity/scripts.pory"
 	.string "Or, are you going to complete your\n"
+<<<<<<< HEAD
 # 478 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéDEX?\p"
 # 479 "data/maps/LilycoveCity/scripts.pory"
@@ -959,11 +1025,17 @@ LilycoveCity_Text_MayYouGoingToBattleFrontier:
 # 480 "data/maps/LilycoveCity/scripts.pory"
 	.string "but I'll finish my POKéDEX before you!\p"
 # 481 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Pokédex?\p"
+	.string "I might've lost to you in battling,\n"
+	.string "but I'll finish my Pokédex before you!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "See you!$"
 # 482 "data/maps/LilycoveCity/scripts.pory"
 
 # 483 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_BrendanShoppingLetsBattle:
+<<<<<<< HEAD
 # 484 "data/maps/LilycoveCity/scripts.pory"
 	.string "BRENDAN: Oh, hey, it's {PLAYER}.\p"
 # 485 "data/maps/LilycoveCity/scripts.pory"
@@ -971,34 +1043,56 @@ LilycoveCity_Text_BrendanShoppingLetsBattle:
 # 486 "data/maps/LilycoveCity/scripts.pory"
 	.string "No, I'm not buying any DOLLS.\p"
 # 487 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Brendan: Oh, hey, it's {PLAYER}.\p"
+	.string "I'm running an errand for my dad.\n"
+	.string "No, I'm not buying any Dolls.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Anyways, it's been a while.\p"
 # 488 "data/maps/LilycoveCity/scripts.pory"
 	.string "Want to have a battle to see who's been\n"
+<<<<<<< HEAD
 # 489 "data/maps/LilycoveCity/scripts.pory"
 	.string "raising POKéMON better?$"
 # 490 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "raising Pokémon better?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 491 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_BrendanNoConfidence:
+<<<<<<< HEAD
 # 492 "data/maps/LilycoveCity/scripts.pory"
 	.string "BRENDAN: Oh, what's the matter?\n"
 # 493 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Brendan: Oh, what's the matter?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Don't have the confidence?$"
 # 494 "data/maps/LilycoveCity/scripts.pory"
 
 # 495 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_BrendanBattleMe:
+<<<<<<< HEAD
 # 496 "data/maps/LilycoveCity/scripts.pory"
 	.string "BRENDAN: Want to battle to see who's\n"
 # 497 "data/maps/LilycoveCity/scripts.pory"
 	.string "been raising POKéMON better?$"
 # 498 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Brendan: Want to battle to see who's\n"
+	.string "been raising Pokémon better?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 499 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_BrendanWontBeBeaten:
+<<<<<<< HEAD
 # 500 "data/maps/LilycoveCity/scripts.pory"
 	.string "BRENDAN: Aww, but you know I'm not\n"
 # 501 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Brendan: Aww, but you know I'm not\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "going to lose to no {PLAYER}.$"
 # 502 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1010,12 +1104,17 @@ LilycoveCity_Text_BrendanDefeat:
 	.string "You've done a lot of raising.\p"
 # 506 "data/maps/LilycoveCity/scripts.pory"
 	.string "That stings a bit--I had a head start\n"
+<<<<<<< HEAD
 # 507 "data/maps/LilycoveCity/scripts.pory"
 	.string "on you as a TRAINER…$"
 # 508 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "on you as a Trainer…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 509 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_BrendanGoingBackToLittleroot:
+<<<<<<< HEAD
 # 510 "data/maps/LilycoveCity/scripts.pory"
 	.string "BRENDAN: I…\n"
 # 511 "data/maps/LilycoveCity/scripts.pory"
@@ -1025,6 +1124,12 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 # 513 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéDEX. It's coming together pretty\l"
 # 514 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Brendan: I…\n"
+	.string "I plan on going home to Littleroot.\p"
+	.string "You know I'm helping out my dad on his\n"
+	.string "Pokédex. It's coming together pretty\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "decently, so I should go show him.$"
 # 515 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1032,11 +1137,16 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
 # 517 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}, what are you going to do?\p"
+<<<<<<< HEAD
 # 518 "data/maps/LilycoveCity/scripts.pory"
 	.string "Collect all the GYM BADGES and take\n"
 # 519 "data/maps/LilycoveCity/scripts.pory"
 	.string "the POKéMON LEAGUE challenge?\p"
 # 520 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Collect all the Gym Badges and take\n"
+	.string "the Pokémon League challenge?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Maybe I'll do that, too…\p"
 # 521 "data/maps/LilycoveCity/scripts.pory"
 	.string "Well, anyway, hang in there!$"
@@ -1048,11 +1158,16 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
 	.string "{PLAYER}, what are you going to do?\p"
 # 525 "data/maps/LilycoveCity/scripts.pory"
 	.string "Since you're that strong, are you\n"
+<<<<<<< HEAD
 # 526 "data/maps/LilycoveCity/scripts.pory"
 	.string "taking the POKéMON LEAGUE challenge?\p"
 # 527 "data/maps/LilycoveCity/scripts.pory"
 	.string "Heh, even me--if I trained my POKéMON\n"
 # 528 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "taking the Pokémon League challenge?\p"
+	.string "Heh, even me--if I trained my Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a bit more, I should be stronger than\l"
 # 529 "data/maps/LilycoveCity/scripts.pory"
 	.string "you, {PLAYER}.\p"
@@ -1064,12 +1179,17 @@ LilycoveCity_Text_BrendanYouGoingToPokemonLeague:
 LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 # 533 "data/maps/LilycoveCity/scripts.pory"
 	.string "{PLAYER}, what are you going to do?\p"
+<<<<<<< HEAD
 # 534 "data/maps/LilycoveCity/scripts.pory"
 	.string "Are you taking the BATTLE FRONTIER\n"
 # 535 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Are you taking the Battle Frontier\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "challenge?\p"
 # 536 "data/maps/LilycoveCity/scripts.pory"
 	.string "Or, are you going to complete your\n"
+<<<<<<< HEAD
 # 537 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéDEX?\p"
 # 538 "data/maps/LilycoveCity/scripts.pory"
@@ -1085,6 +1205,15 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 # 543 "data/maps/LilycoveCity/scripts.pory"
 	.string "FRONTIER.\p"
 # 544 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Pokédex?\p"
+	.string "Since you're that strong, you should\n"
+	.string "consider the Battle Frontier.\p"
+	.string "Heh, if I train my Pokémon a bit more,\n"
+	.string "I'll get stronger than you, {PLAYER}.\p"
+	.string "Maybe I should go to the Battle\n"
+	.string "Frontier.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Well, anyway, hang in there!$"
 # 545 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1094,9 +1223,13 @@ LilycoveCity_Text_MovedLootIntoHideoutToday:
 	.string "Fufufu…\p"
 # 548 "data/maps/LilycoveCity/scripts.pory"
 	.string "We moved more loot into our secret\n"
+<<<<<<< HEAD
 # 549 "data/maps/LilycoveCity/scripts.pory"
 	.string "HIDEOUT today…\p"
 # 550 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Hideout today…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wh-who are you?!\n"
 # 551 "data/maps/LilycoveCity/scripts.pory"
 	.string "I was just talking to myself!$"
@@ -1104,6 +1237,7 @@ LilycoveCity_Text_MovedLootIntoHideoutToday:
 
 # 553 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ChanceToDoBigThings:
+<<<<<<< HEAD
 # 554 "data/maps/LilycoveCity/scripts.pory"
 	.string "I'm just a GRUNT, so I don't know what\n"
 # 555 "data/maps/LilycoveCity/scripts.pory"
@@ -1111,6 +1245,11 @@ LilycoveCity_Text_ChanceToDoBigThings:
 # 556 "data/maps/LilycoveCity/scripts.pory"
 	.string "But being on TEAM AQUA, I know I'll get\n"
 # 557 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "I'm just a Grunt, so I don't know what\n"
+	.string "the boss is thinking…\p"
+	.string "But being on Team Aqua, I know I'll get\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the chance to do big things!\p"
 # 558 "data/maps/LilycoveCity/scripts.pory"
 	.string "Wh-who are you?!\n"
@@ -1134,17 +1273,26 @@ LilycoveCity_Text_DontGoNearCaveInCove:
 LilycoveCity_Text_IfWorldBecomesOurs:
 # 568 "data/maps/LilycoveCity/scripts.pory"
 	.string "If this whole wide world becomes ours,\n"
+<<<<<<< HEAD
 # 569 "data/maps/LilycoveCity/scripts.pory"
 	.string "TEAM AQUA's, it will be a happier\l"
 # 570 "data/maps/LilycoveCity/scripts.pory"
 	.string "place for POKéMON, too.$"
 # 571 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Team Aqua's, it will be a happier\l"
+	.string "place for Pokémon, too.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 572 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_WailmerLeapOutOfWater:
+<<<<<<< HEAD
 # 573 "data/maps/LilycoveCity/scripts.pory"
 	.string "There! WAILMER!\n"
 # 574 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "There! Wailmer!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Leap out of the water now!$"
 # 575 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1160,6 +1308,7 @@ LilycoveCity_Text_GetLostMessingUpTraining:
 
 # 581 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ContestHallInTown:
+<<<<<<< HEAD
 # 582 "data/maps/LilycoveCity/scripts.pory"
 	.string "There's a POKéMON CONTEST HALL\n"
 # 583 "data/maps/LilycoveCity/scripts.pory"
@@ -1167,6 +1316,11 @@ LilycoveCity_Text_ContestHallInTown:
 # 584 "data/maps/LilycoveCity/scripts.pory"
 	.string "That means well-raised POKéMON will\n"
 # 585 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "There's a Pokémon Contest Hall\n"
+	.string "right in this here town. \p"
+	.string "That means well-raised Pokémon will\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "come from all over the country.\p"
 # 586 "data/maps/LilycoveCity/scripts.pory"
 	.string "My heart swells with excitement!$"
@@ -1182,6 +1336,7 @@ LilycoveCity_Text_StrangeCaveInCove:
 
 # 592 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
+<<<<<<< HEAD
 # 593 "data/maps/LilycoveCity/scripts.pory"
 	.string "I'm going to teach my POKéMON some new\n"
 # 594 "data/maps/LilycoveCity/scripts.pory"
@@ -1189,27 +1344,42 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 # 595 "data/maps/LilycoveCity/scripts.pory"
 	.string "So, I'm going to see the MOVE DELETER\n"
 # 596 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "I'm going to teach my Pokémon some new\n"
+	.string "moves for entering a Contest.\p"
+	.string "So, I'm going to see the Move Deleter\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and make it forget HM moves.$"
 # 597 "data/maps/LilycoveCity/scripts.pory"
 
 # 598 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ImFromKanto:
+<<<<<<< HEAD
 # 599 "data/maps/LilycoveCity/scripts.pory"
 	.string "I came from KANTO.\p"
 # 600 "data/maps/LilycoveCity/scripts.pory"
 	.string "The HOENN region is beautiful with\n"
 # 601 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "I came from Kanto.\p"
+	.string "The Hoenn region is beautiful with\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "all its water and verdant nature.\p"
 # 602 "data/maps/LilycoveCity/scripts.pory"
 	.string "Hunh? Wait a second…\p"
+<<<<<<< HEAD
 # 603 "data/maps/LilycoveCity/scripts.pory"
 	.string "Could there be rare POKéMON that live\n"
 # 604 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Could there be rare Pokémon that live\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "only in this area?$"
 # 605 "data/maps/LilycoveCity/scripts.pory"
 
 # 606 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
+<<<<<<< HEAD
 # 607 "data/maps/LilycoveCity/scripts.pory"
 	.string "TEAM AQUA's been training their\n"
 # 608 "data/maps/LilycoveCity/scripts.pory"
@@ -1217,6 +1387,11 @@ LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 # 609 "data/maps/LilycoveCity/scripts.pory"
 	.string "We SAILORS can't get our boats out\n"
 # 610 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Team Aqua's been training their\n"
+	.string "Wailmer in the cove.\p"
+	.string "We Sailors can't get our boats out\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "to sea with them in the way!$"
 # 611 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1224,6 +1399,7 @@ LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 # 613 "data/maps/LilycoveCity/scripts.pory"
 	.string "Ahoy, did you know?\p"
+<<<<<<< HEAD
 # 614 "data/maps/LilycoveCity/scripts.pory"
 	.string "Someone punted TEAM AQUA out of\n"
 # 615 "data/maps/LilycoveCity/scripts.pory"
@@ -1231,6 +1407,11 @@ LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 # 616 "data/maps/LilycoveCity/scripts.pory"
 	.string "That got the WAILMER out of the cove,\n"
 # 617 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Someone punted Team Aqua out of\n"
+	.string "the way for us!\p"
+	.string "That got the Wailmer out of the cove,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "so we can get our boats out again.$"
 # 618 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1240,6 +1421,7 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "I was taking a relaxing snooze at the\n"
 # 621 "data/maps/LilycoveCity/scripts.pory"
 	.string "seaside inn to the sound of waves…\p"
+<<<<<<< HEAD
 # 622 "data/maps/LilycoveCity/scripts.pory"
 	.string "When someone stole my POKéMON!\p"
 # 623 "data/maps/LilycoveCity/scripts.pory"
@@ -1247,17 +1429,27 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 # 624 "data/maps/LilycoveCity/scripts.pory"
 	.string "TEAM AQUA? Is it TEAM AQUA?$"
 # 625 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "When someone stole my Pokémon!\p"
+	.string "Who's the abductor?\n"
+	.string "Team Aqua? Is it Team Aqua?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 626 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MissingPokemonCameBack:
+<<<<<<< HEAD
 # 627 "data/maps/LilycoveCity/scripts.pory"
 	.string "My missing POKéMON…\n"
 # 628 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "My missing Pokémon…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It came back without me noticing!$"
 # 629 "data/maps/LilycoveCity/scripts.pory"
 
 # 630 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ImArtDealer:
+<<<<<<< HEAD
 # 631 "data/maps/LilycoveCity/scripts.pory"
 	.string "I'm an ART DEALER.\p"
 # 632 "data/maps/LilycoveCity/scripts.pory"
@@ -1267,6 +1459,12 @@ LilycoveCity_Text_ImArtDealer:
 # 634 "data/maps/LilycoveCity/scripts.pory"
 	.string "I've heard that the MUSEUM here has\n"
 # 635 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "I'm an art dealer.\p"
+	.string "I buy and sell fine art,\n"
+	.string "especially paintings.\p"
+	.string "I've heard that the Museum here has\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "magnificent works on exhibit…$"
 # 636 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1302,15 +1500,23 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "in this cove?\p"
 # 652 "data/maps/LilycoveCity/scripts.pory"
 	.string "That had been a natural formation,\n"
+<<<<<<< HEAD
 # 653 "data/maps/LilycoveCity/scripts.pory"
 	.string "but then that TEAM AQUA lot came\l"
 # 654 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "but then that Team Aqua lot came\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "along and made their renovations.\p"
 # 655 "data/maps/LilycoveCity/scripts.pory"
 	.string "They call themselves\n"
+<<<<<<< HEAD
 # 656 "data/maps/LilycoveCity/scripts.pory"
 	.string "the “nature-loving TEAM AQUA”!\p"
 # 657 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "the “nature-loving Team Aqua”!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "But what they do and what they say\n"
 # 658 "data/maps/LilycoveCity/scripts.pory"
 	.string "don't match at all!$"
@@ -1324,17 +1530,25 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "I didn't notice it right away,\n"
 # 663 "data/maps/LilycoveCity/scripts.pory"
 	.string "but it's completely empty now.\p"
+<<<<<<< HEAD
 # 664 "data/maps/LilycoveCity/scripts.pory"
 	.string "That TEAM AQUA lot, they must\n"
 # 665 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "That Team Aqua lot, they must\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "have gone away for good.$"
 # 666 "data/maps/LilycoveCity/scripts.pory"
 
 # 667 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_CitySign:
+<<<<<<< HEAD
 # 668 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE CITY\p"
 # 669 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove City\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Where the land ends and the\n"
 # 670 "data/maps/LilycoveCity/scripts.pory"
 	.string "sea begins.”$"
@@ -1342,14 +1556,20 @@ LilycoveCity_Text_CitySign:
 
 # 672 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ContestHallSign:
+<<<<<<< HEAD
 # 673 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéMON CONTEST HALL\n"
 # 674 "data/maps/LilycoveCity/scripts.pory"
 	.string "“The gathering place for TRAINERS!”$"
 # 675 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Pokémon Contest Hall\n"
+	.string "“The gathering place for Trainers!”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 676 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MotelSign:
+<<<<<<< HEAD
 # 677 "data/maps/LilycoveCity/scripts.pory"
 	.string "COVE LILY MOTEL\p"
 # 678 "data/maps/LilycoveCity/scripts.pory"
@@ -1357,29 +1577,45 @@ LilycoveCity_Text_MotelSign:
 # 679 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE.”$"
 # 680 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Cove Lily Motel\p"
+	.string "“Remember us as Cove Lily of\n"
+	.string "Lilycove.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 681 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MuseumSign:
+<<<<<<< HEAD
 # 682 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE MUSEUM\p"
 # 683 "data/maps/LilycoveCity/scripts.pory"
 	.string "“POKéMON Masterpiece Collection\n"
 # 684 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove Museum\p"
+	.string "“Pokémon Masterpiece Collection\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on exhibit!”$"
 # 685 "data/maps/LilycoveCity/scripts.pory"
 
 # 686 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MuseumSignPlayersExhibit:
+<<<<<<< HEAD
 # 687 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE MUSEUM\p"
 # 688 "data/maps/LilycoveCity/scripts.pory"
 	.string "“{PLAYER}'s POKéMON Collection\n"
 # 689 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove Museum\p"
+	.string "“{PLAYER}'s Pokémon Collection\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "on exhibit!”$"
 # 690 "data/maps/LilycoveCity/scripts.pory"
 
 # 691 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_HarborSignUnderConstruction:
+<<<<<<< HEAD
 # 692 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE CITY HARBOR\p"
 # 693 "data/maps/LilycoveCity/scripts.pory"
@@ -1387,6 +1623,11 @@ LilycoveCity_Text_HarborSignUnderConstruction:
 # 694 "data/maps/LilycoveCity/scripts.pory"
 	.string "construction in SLATEPORT CITY.\p"
 # 695 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove City Harbor\p"
+	.string "“The ferry S.S. Tidal is under\n"
+	.string "construction in Slateport City.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Service is scheduled to begin\n"
 # 696 "data/maps/LilycoveCity/scripts.pory"
 	.string "shortly.”$"
@@ -1394,6 +1635,7 @@ LilycoveCity_Text_HarborSignUnderConstruction:
 
 # 698 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_HarborSign:
+<<<<<<< HEAD
 # 699 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE CITY HARBOR\p"
 # 700 "data/maps/LilycoveCity/scripts.pory"
@@ -1401,22 +1643,36 @@ LilycoveCity_Text_HarborSign:
 # 701 "data/maps/LilycoveCity/scripts.pory"
 	.string "the ferry S.S. TIDAL.”$"
 # 702 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove City Harbor\p"
+	.string "“Enjoy a delightful cruise on\n"
+	.string "the ferry S.S. Tidal.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 703 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_TrainerFanClubSign:
+<<<<<<< HEAD
 # 704 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéMON TRAINER FAN CLUB\p"
 # 705 "data/maps/LilycoveCity/scripts.pory"
 	.string "The names of TRAINERS are scribbled\n"
 # 706 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Pokémon Trainer Fan Club\p"
+	.string "The names of Trainers are scribbled\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "all over the sign…$"
 # 707 "data/maps/LilycoveCity/scripts.pory"
 
 # 708 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_DepartmentStoreSign:
+<<<<<<< HEAD
 # 709 "data/maps/LilycoveCity/scripts.pory"
 	.string "LILYCOVE DEPARTMENT STORE\p"
 # 710 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Lilycove Department Store\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "“Overflowing with great merchandise\n"
 # 711 "data/maps/LilycoveCity/scripts.pory"
 	.string "and excitement!\p"
@@ -1428,19 +1684,28 @@ LilycoveCity_Text_DepartmentStoreSign:
 
 # 715 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_MoveDeletersHouseSign:
+<<<<<<< HEAD
 # 716 "data/maps/LilycoveCity/scripts.pory"
 	.string "MOVE DELETER'S HOUSE\p"
 # 717 "data/maps/LilycoveCity/scripts.pory"
 	.string "“Unwanted POKéMON moves deleted.”$"
 # 718 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Move Deleter's House\p"
+	.string "“Unwanted Pokémon moves deleted.”$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 719 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
 # 720 "data/maps/LilycoveCity/scripts.pory"
 	.string "Do you know about the machine\n"
+<<<<<<< HEAD
 # 721 "data/maps/LilycoveCity/scripts.pory"
 	.string "BERRY BLENDER?$"
 # 722 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "Berry Blender?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 723 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
@@ -1450,9 +1715,13 @@ LilycoveCity_Text_FasterSpinBetterPokeblocks:
 	.string "to spin faster.\p"
 # 726 "data/maps/LilycoveCity/scripts.pory"
 	.string "The faster you can make it spin, the\n"
+<<<<<<< HEAD
 # 727 "data/maps/LilycoveCity/scripts.pory"
 	.string "better {POKEBLOCK}S you can get, I've heard.$"
 # 728 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "better {POKEBLOCK}s you can get, I've heard.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 729 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_ExplainBerryBlender:
@@ -1460,9 +1729,13 @@ LilycoveCity_Text_ExplainBerryBlender:
 	.string "It's used for making a kind of candy\n"
 # 731 "data/maps/LilycoveCity/scripts.pory"
 	.string "called a {POKEBLOCK}.\p"
+<<<<<<< HEAD
 # 732 "data/maps/LilycoveCity/scripts.pory"
 	.string "If you give a good {POKEBLOCK} to a POKéMON,\n"
 # 733 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "If you give a good {POKEBLOCK} to a Pokémon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "its condition will improve by a lot.$"
 # 734 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1472,17 +1745,25 @@ LilycoveCity_Text_HeardTowerCalledSkyPillar:
 	.string "I heard there's a tower somewhere out\n"
 # 737 "data/maps/LilycoveCity/scripts.pory"
 	.string "on the sea routes.\p"
+<<<<<<< HEAD
 # 738 "data/maps/LilycoveCity/scripts.pory"
 	.string "It's called the SKY PILLAR, I hear.$"
 # 739 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "It's called the Sky Pillar, I hear.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 740 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_SawTallTowerOnRoute131:
 # 741 "data/maps/LilycoveCity/scripts.pory"
 	.string "I saw this tall tower somewhere\n"
+<<<<<<< HEAD
 # 742 "data/maps/LilycoveCity/scripts.pory"
 	.string "around ROUTE 131.\p"
 # 743 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "around Route 131.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Could that possibly be…?$"
 # 744 "data/maps/LilycoveCity/scripts.pory"
 
@@ -1492,6 +1773,7 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "We just arrived here on our\n"
 # 747 "data/maps/LilycoveCity/scripts.pory"
 	.string "honeymoon vacation.\p"
+<<<<<<< HEAD
 # 748 "data/maps/LilycoveCity/scripts.pory"
 	.string "We happened to see a DRAGON-type\n"
 # 749 "data/maps/LilycoveCity/scripts.pory"
@@ -1501,11 +1783,18 @@ LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 # 751 "data/maps/LilycoveCity/scripts.pory"
 	.string "the HOENN region?$"
 # 752 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "We happened to see a Dragon-type\n"
+	.string "Pokémon flying way up in the sky.\p"
+	.string "Do cool Pokémon like that live in\n"
+	.string "the Hoenn region?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 753 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 # 754 "data/maps/LilycoveCity/scripts.pory"
 	.string "On our honeymoon, we vowed to see as\n"
+<<<<<<< HEAD
 # 755 "data/maps/LilycoveCity/scripts.pory"
 	.string "many rare POKéMON as we can.\p"
 # 756 "data/maps/LilycoveCity/scripts.pory"
@@ -1513,4 +1802,9 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 # 757 "data/maps/LilycoveCity/scripts.pory"
 	.string "POKéMON as soon as we arrived.\p"
 # 758 "data/maps/LilycoveCity/scripts.pory"
+=======
+	.string "many rare Pokémon as we can.\p"
+	.string "So we were delighted to see a rare\n"
+	.string "Pokémon as soon as we arrived.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I mean, we are totally happy!$"

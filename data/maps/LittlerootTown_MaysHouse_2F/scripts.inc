@@ -634,14 +634,19 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "Oh, you're {PLAYER}{KUN}.\n"
 # 318 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "So your move was today.\p"
+<<<<<<< HEAD
 # 319 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "Um… I'm MAY.\n"
 # 320 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Um… I'm May.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Glad to meet you!\p"
 # 321 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I…\n"
 # 322 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I have this dream of becoming friends\l"
+<<<<<<< HEAD
 # 323 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "with POKéMON all over the world.\p"
 # 324 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -649,6 +654,11 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 # 325 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "my dad, PROF. BIRCH.\p"
 # 326 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "with Pokémon all over the world.\p"
+	.string "I… I heard about you, {PLAYER}{KUN}, from\n"
+	.string "my dad, Prof. Birch.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I was hoping that you would be nice,\n"
 # 327 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "{PLAYER}{KUN}, and that we could be friends.\p"
@@ -662,17 +672,25 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "Oh, no! I forgot!\p"
 # 332 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I was supposed to go help Dad catch\n"
+<<<<<<< HEAD
 # 333 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "some wild POKéMON!\p"
 # 334 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "some wild Pokémon!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}{KUN}, I'll catch you later!$"
 # 335 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
 # 336 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_MayGettingReady:
+<<<<<<< HEAD
 # 337 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "POKéMON fully restored!\n"
 # 338 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Pokémon fully restored!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Items ready, and…$"
 # 339 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
@@ -690,6 +708,7 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Moved in next door, right?\p"
 # 346 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I didn't know that you're a girl.\p"
+<<<<<<< HEAD
 # 347 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "Dad, PROF. BIRCH, said that our new\n"
 # 348 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -699,41 +718,64 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 # 350 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "My name's BRENDAN.\n"
 # 351 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Dad, Prof. Birch, said that our new\n"
+	.string "next-door neighbor is a Gym Leader's\l"
+	.string "kid, so I assumed you'd be a guy.\p"
+	.string "My name's Brendan.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So, hi, neighbor!\p"
 # 352 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "Huh? Hey, {PLAYER}, don't you have\n"
+<<<<<<< HEAD
 # 353 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "a POKéMON?\p"
 # 354 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "a Pokémon?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Do you want me to go catch you one?\p"
 # 355 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "Aw, darn, I forgot…\p"
 # 356 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I'm supposed to go help my dad catch\n"
+<<<<<<< HEAD
 # 357 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "some wild POKéMON.\p"
 # 358 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "some wild Pokémon.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Some other time, okay?$"
 # 359 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
 # 360 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_BrendanGettingReady:
+<<<<<<< HEAD
 # 361 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "POKéMON fully restored…\n"
 # 362 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Pokémon fully restored…\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Items all packed, and…$"
 # 363 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
 # 364 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_ItsRivalsPokeBall:
+<<<<<<< HEAD
 # 365 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "It's {RIVAL}'s POKé BALL!\p"
 # 366 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "It's {RIVAL}'s Poké Ball!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Better leave it right where it is.$"
 # 367 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
 # 368 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
+<<<<<<< HEAD
 # 369 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "MAY: {PLAYER}{KUN}!\p"
 # 370 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -741,6 +783,11 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 # 371 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "There's still a lot of POKéMON that\n"
 # 372 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "May: {PLAYER}{KUN}!\p"
+	.string "I was just checking my Pokédex.\p"
+	.string "There's still a lot of Pokémon that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've seen but haven't caught.\p"
 # 373 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "And there are many others that\n"
@@ -748,17 +795,26 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 	.string "I think will evolve.\p"
 # 375 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "I wonder where I should go catch\n"
+<<<<<<< HEAD
 # 376 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "some POKéMON next?$"
 # 377 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "some Pokémon next?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 378 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
+<<<<<<< HEAD
 # 379 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "MAY: I wonder where I should go catch\n"
 # 380 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "some POKéMON next?\p"
 # 381 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "May: I wonder where I should go catch\n"
+	.string "some Pokémon next?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wouldn't it be funny if we ran into each\n"
 # 382 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "other, {PLAYER}{KUN}?$"
@@ -766,6 +822,7 @@ RivalsHouse_2F_Text_MayWhereShouldIGoNext:
 
 # 384 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
+<<<<<<< HEAD
 # 385 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "BRENDAN: Hey, it's {PLAYER}.\p"
 # 386 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -773,17 +830,27 @@ RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 # 387 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "There are still many POKéMON that\n"
 # 388 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Brendan: Hey, it's {PLAYER}.\p"
+	.string "I was just checking out my Pokédex.\p"
+	.string "There are still many Pokémon that\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I need to catch, I know, but this\l"
 # 389 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "is looking pretty good.\p"
+<<<<<<< HEAD
 # 390 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "Checking this POKéDEX out gives me\n"
 # 391 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Checking this Pokédex out gives me\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the urge to hit the road again.$"
 # 392 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 
 # 393 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
+<<<<<<< HEAD
 # 394 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "BRENDAN: I'm having a hard time deciding\n"
 # 395 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
@@ -793,4 +860,10 @@ RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
 # 397 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	.string "catching POKéMON, I can pitch you a\l"
 # 398 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
+=======
+	.string "Brendan: I'm having a hard time deciding\n"
+	.string "where I should catch Pokémon next.\p"
+	.string "Hey, {PLAYER}, if I see you while I'm out\n"
+	.string "catching Pokémon, I can pitch you a\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "battle if you'd like.$"

@@ -58,6 +58,7 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 	.string "Want a tip for battling?\p"
 # 30 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "I'd say it's raising different kinds\n"
+<<<<<<< HEAD
 # 31 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "of POKéMON in a balanced manner.\p"
 # 32 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
@@ -65,6 +66,11 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 # 33 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON strong.\p"
 # 34 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "of Pokémon in a balanced manner.\p"
+	.string "It's no good to make just one\n"
+	.string "Pokémon strong.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "If it has a type disadvantage,\n"
 # 35 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "it might not stand a chance.$"
@@ -72,9 +78,14 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 
 # 37 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend:
+<<<<<<< HEAD
 # 38 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "I trade POKéMON with my friends.\p"
 # 39 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
 	.string "If a traded POKéMON is holding an\n"
 # 40 "data/maps/SlateportCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "I trade Pokémon with my friends.\p"
+	.string "If a traded Pokémon is holding an\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "item, it makes me twice as happy!$"

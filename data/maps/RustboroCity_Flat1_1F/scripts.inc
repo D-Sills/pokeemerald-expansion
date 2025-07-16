@@ -24,13 +24,22 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 
 # 13 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
+<<<<<<< HEAD
 # 14 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 	.string "Every POKéMON has a special ability\n"
 # 15 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
+=======
+	.string "Every Pokémon has a special ability\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "that it can use.$"
 # 16 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 
 # 17 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 RustboroCity_Flat1_1F_Text_PokemonStrange:
+<<<<<<< HEAD
 # 18 "data/maps/RustboroCity_Flat1_1F/scripts.pory"
 	.string "POKéMON are such strange creatures.$"
+=======
+	.string "Pokémon are such strange creatures.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

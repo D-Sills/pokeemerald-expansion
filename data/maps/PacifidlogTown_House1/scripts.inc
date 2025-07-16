@@ -24,11 +24,16 @@ PacifidlogTown_House1_EventScript_Woman::
 
 # 13 "data/maps/PacifidlogTown_House1/scripts.pory"
 PacifidlogTown_House1_Text_RegiStory:
+<<<<<<< HEAD
 # 14 "data/maps/PacifidlogTown_House1/scripts.pory"
 	.string "In the HOENN region, there are three\n"
 # 15 "data/maps/PacifidlogTown_House1/scripts.pory"
 	.string "POKéMON that represent the power of\l"
 # 16 "data/maps/PacifidlogTown_House1/scripts.pory"
+=======
+	.string "In the Hoenn region, there are three\n"
+	.string "Pokémon that represent the power of\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "rock, ice, and steel.\p"
 # 17 "data/maps/PacifidlogTown_House1/scripts.pory"
 	.string "Each of them is said to hide away deep\n"

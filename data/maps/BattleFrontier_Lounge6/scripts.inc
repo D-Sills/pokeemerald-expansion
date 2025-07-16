@@ -96,9 +96,13 @@ BattleFrontier_Lounge6_EventScript_TradeCompleted::
 
 # 49 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
+<<<<<<< HEAD
 # 50 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	.string "My POKéMON is a {STR_VAR_2}.\n"
 # 51 "data/maps/BattleFrontier_Lounge6/scripts.pory"
+=======
+	.string "My Pokémon is a {STR_VAR_2}.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Do you know it?\l"
 # 52 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	.string "It's quite cute and rather nice.\p"
@@ -150,7 +154,11 @@ BattleFrontier_Lounge6_Text_WellThatsFineToo:
 BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
 # 76 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	.string "Giggle!\n"
+<<<<<<< HEAD
 # 77 "data/maps/BattleFrontier_Lounge6/scripts.pory"
 	.string "A SKITTY is so much cuter than I had\l"
 # 78 "data/maps/BattleFrontier_Lounge6/scripts.pory"
+=======
+	.string "A Skitty is so much cuter than I had\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "imagined. I'm delighted!$"

@@ -60,11 +60,16 @@ PacifidlogTown_House4_EventScript_No::
 
 # 31 "data/maps/PacifidlogTown_House4/scripts.pory"
 PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon:
+<<<<<<< HEAD
 # 32 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "People were saying they saw a POKéMON\n"
 # 33 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "flying high above HOENN.\p"
 # 34 "data/maps/PacifidlogTown_House4/scripts.pory"
+=======
+	.string "People were saying they saw a Pokémon\n"
+	.string "flying high above Hoenn.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Is it flying around all the time?\n"
 # 35 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "Doesn't it need to rest somewhere?$"
@@ -72,11 +77,16 @@ PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon:
 
 # 37 "data/maps/PacifidlogTown_House4/scripts.pory"
 PacifidlogTown_House4_Text_SkyPokemon:
+<<<<<<< HEAD
 # 38 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "A sky POKéMON!\n"
 # 39 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "A sky POKéMON!$"
 # 40 "data/maps/PacifidlogTown_House4/scripts.pory"
+=======
+	.string "A sky Pokémon!\n"
+	.string "A sky Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 41 "data/maps/PacifidlogTown_House4/scripts.pory"
 PacifidlogTown_House4_Text_WhereDidYouComeFrom:
@@ -88,9 +98,13 @@ PacifidlogTown_House4_Text_WhereDidYouComeFrom:
 PacifidlogTown_House4_Text_YesTown:
 # 45 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "Yes?\n"
+<<<<<<< HEAD
 # 46 "data/maps/PacifidlogTown_House4/scripts.pory"
 	.string "YES TOWN?\p"
 # 47 "data/maps/PacifidlogTown_House4/scripts.pory"
+=======
+	.string "Yes Town?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've never heard of a place like that.$"
 # 48 "data/maps/PacifidlogTown_House4/scripts.pory"
 

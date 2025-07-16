@@ -70,13 +70,22 @@ MossdeepCity_House1_Text_ItLikesXPokeblocks:
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
 # 36 "data/maps/MossdeepCity_House1/scripts.pory"
 	.string "It doesn't appear to like or dislike\n"
+<<<<<<< HEAD
 # 37 "data/maps/MossdeepCity_House1/scripts.pory"
 	.string "any {POKEBLOCK}S.$"
 # 38 "data/maps/MossdeepCity_House1/scripts.pory"
+=======
+	.string "any {POKEBLOCK}s.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 39 "data/maps/MossdeepCity_House1/scripts.pory"
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes:
 # 40 "data/maps/MossdeepCity_House1/scripts.pory"
 	.string "My husband can tell what kind of\n"
+<<<<<<< HEAD
 # 41 "data/maps/MossdeepCity_House1/scripts.pory"
 	.string "{POKEBLOCK}S a POKéMON likes at a glance.$"
+=======
+	.string "{POKEBLOCK}s a Pokémon likes at a glance.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

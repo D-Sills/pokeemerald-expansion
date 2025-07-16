@@ -64,9 +64,13 @@ MagmaHideout_2F_2R_Text_Grunt15Defeat:
 MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 # 33 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "We dug up something beyond belief!\n"
+<<<<<<< HEAD
 # 34 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "And, we got the BLUE ORB!\p"
 # 35 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "And, we got the Blue Orb!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "All that's left is for our leader to…\n"
 # 36 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "Fufufu… Fwahahaha!$"
@@ -76,17 +80,25 @@ MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 MagmaHideout_2F_2R_Text_Grunt6Intro:
 # 39 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "I can't stand heat. Maybe I should've\n"
+<<<<<<< HEAD
 # 40 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "joined TEAM AQUA instead…$"
 # 41 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "joined Team Aqua instead…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 42 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 MagmaHideout_2F_2R_Text_Grunt6Defeat:
 # 43 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "Yeah, I really may not be right for\n"
+<<<<<<< HEAD
 # 44 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "TEAM MAGMA…$"
 # 45 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "Team Magma…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 46 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 MagmaHideout_2F_2R_Text_Grunt6PostBattle:
@@ -102,9 +114,13 @@ MagmaHideout_2F_2R_Text_Grunt7Intro:
 	.string "You can hear tremors here sometimes.\p"
 # 52 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "Could it be the volcano rattling?\n"
+<<<<<<< HEAD
 # 53 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "Or is it GROU…\p"
 # 54 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "Or is it Grou…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Whoops!\n"
 # 55 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "No, no, never mind!$"
@@ -124,9 +140,13 @@ MagmaHideout_2F_2R_Text_Grunt7PostBattle:
 	.string "You just happened to win this time,\n"
 # 63 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "but that doesn't matter.\p"
+<<<<<<< HEAD
 # 64 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "TEAM MAGMA's goal is about to be\n"
 # 65 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "Team Magma's goal is about to be\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "reached!$"
 # 66 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 
@@ -134,9 +154,13 @@ MagmaHideout_2F_2R_Text_Grunt7PostBattle:
 MagmaHideout_2F_2R_Text_Grunt8Intro:
 # 68 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "One of our guys was freaking out that\n"
+<<<<<<< HEAD
 # 69 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "he lost his MAGMA EMBLEM…\p"
 # 70 "data/maps/MagmaHideout_2F_2R/scripts.pory"
+=======
+	.string "he lost his Magma Emblem…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Wait a minute!\n"
 # 71 "data/maps/MagmaHideout_2F_2R/scripts.pory"
 	.string "Was it you who found it?$"

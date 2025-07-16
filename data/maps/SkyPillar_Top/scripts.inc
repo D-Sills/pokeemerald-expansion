@@ -362,5 +362,10 @@ SkyPillar_Top_Movement_CameraPanDown:
 
 # 182 "data/maps/SkyPillar_Top/scripts.pory"
 SkyPillar_Top_Text_RayquazaFlewOff:
+<<<<<<< HEAD
 # 183 "data/maps/SkyPillar_Top/scripts.pory"
 	.string "The awakened RAYQUAZA flew off…$"
+=======
+	.string "The awakened Rayquaza flew off…$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

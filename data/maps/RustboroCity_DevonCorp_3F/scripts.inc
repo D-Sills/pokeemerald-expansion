@@ -396,11 +396,16 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 
 # 199 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
+<<<<<<< HEAD
 # 200 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "I'm MR. STONE, the PRESIDENT of\n"
 # 201 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "the DEVON CORPORATION.\p"
 # 202 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "I'm Mr. Stone, the President of\n"
+	.string "the Devon Corporation.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd just got word about you!\p"
 # 203 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "You saved our staff not just once,\n"
@@ -412,6 +417,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "person like you.\p"
 # 207 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "I understand that you're delivering\n"
+<<<<<<< HEAD
 # 208 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "a package to SLATEPORT's SHIPYARD.\p"
 # 209 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -423,14 +429,26 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 # 212 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "LETTER to STEVEN in DEWFORD.$"
 # 213 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "a package to Slateport's Shipyard.\p"
+	.string "Well, on the way, could you stop off in\n"
+	.string "Dewford Town?\p"
+	.string "I was hoping that you'd deliver a\n"
+	.string "Letter to Steven in Dewford.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 214 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
+<<<<<<< HEAD
 # 215 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: Now, you should know that\n"
 # 216 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "I am a great PRESIDENT.\p"
 # 217 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: Now, you should know that\n"
+	.string "I am a great President.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "So, I'd never be so cheap as to ask\n"
 # 218 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "a favor for nothing in return.\p"
@@ -440,20 +458,30 @@ RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 
 # 221 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
+<<<<<<< HEAD
 # 222 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "{PLAYER} received a POKéNAV.$"
 # 223 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "{PLAYER} received a PokéNav.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 224 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
+<<<<<<< HEAD
 # 225 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: That device…\p"
 # 226 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "It's a POKéMON NAVIGATOR, or POKéNAV\n"
 # 227 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: That device…\p"
+	.string "It's a Pokémon Navigator, or PokéNav\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "for short.\p"
 # 228 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "It's an indispensable tool for any\n"
+<<<<<<< HEAD
 # 229 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "TRAINER on an adventure.\p"
 # 230 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -467,6 +495,14 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 # 234 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "criminals--MAGMA and AQUA, I believe--\l"
 # 235 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Trainer on an adventure.\p"
+	.string "It has a map of the Hoenn region.\p"
+	.string "You can check the locations of\n"
+	.string "Dewford and Slateport easily!\p"
+	.string "By the way, I've heard that sinister\n"
+	.string "criminals--Magma and Aqua, I believe--\l"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "have been making trouble far and wide.\p"
 # 236 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "I think it would be best if you rested\n"
@@ -476,32 +512,49 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 
 # 239 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
+<<<<<<< HEAD
 # 240 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
 # 241 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: Well, then, {PLAYER}{KUN},\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "go with caution and care!$"
 # 242 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 
 # 243 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
+<<<<<<< HEAD
 # 244 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: I'm counting on you!$"
 # 245 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: I'm counting on you!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 246 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
+<<<<<<< HEAD
 # 247 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: You delivered my LETTER?\n"
 # 248 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: You delivered my Letter?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Thank you kindly!\p"
 # 249 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "This is my way of thanking you.\n"
+<<<<<<< HEAD
 # 250 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "It should help you, a TRAINER.$"
 # 251 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "It should help you, a Trainer.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 252 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
+<<<<<<< HEAD
 # 253 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: A POKéMON holding that\n"
 # 254 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -517,12 +570,25 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 # 259 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "for raising weak POKéMON.$"
 # 260 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: A Pokémon holding that\n"
+	.string "Exp. Share will be given some of the\l"
+	.string "Exp. Points from battle.\p"
+	.string "It will get Exp. Points even if it didn't\n"
+	.string "actually battle.\p"
+	.string "I would say Exp. Share is quite useful\n"
+	.string "for raising weak Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 261 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
+<<<<<<< HEAD
 # 262 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "MR. STONE: Since my youth, I've immersed\n"
 # 263 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Mr. Stone: Since my youth, I've immersed\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "myself in work.\p"
 # 264 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Consequently, I'm not familiar with\n"
@@ -530,12 +596,17 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "trends and that sort of thing.\p"
 # 266 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "But do young people all want to be\n"
+<<<<<<< HEAD
 # 267 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "TRAINERS in the POKéMON LEAGUE?$"
 # 268 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Trainers in the Pokémon League?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 269 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
+<<<<<<< HEAD
 # 270 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "This is the DEVON CORPORATION's\n"
 # 271 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -543,6 +614,11 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 # 272 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Our PRESIDENT's OFFICE is on\n"
 # 273 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "This is the Devon Corporation's\n"
+	.string "third floor.\p"
+	.string "Our President's Office is on\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "this floor.\p"
 # 274 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Anyway, I can't tell you how much I'm\n"
@@ -554,9 +630,13 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "you got back for us…\p"
 # 278 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Could I get you to deliver that to\n"
+<<<<<<< HEAD
 # 279 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "the SHIPYARD in SLATEPORT?\p"
 # 280 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "the Shipyard in Slateport?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It would be awful if those robbers\n"
 # 281 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "tried to take it again.\p"
@@ -572,9 +652,13 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 
 # 287 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
+<<<<<<< HEAD
 # 288 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Our PRESIDENT would like to have\n"
 # 289 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Our President would like to have\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "a word with you.\p"
 # 290 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "Please come with me.$"
@@ -588,14 +672,20 @@ RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
 
 # 295 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
+<<<<<<< HEAD
 # 296 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "If you visit the SHIPYARD in SLATEPORT,\n"
 # 297 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "you should go see CAPT. STERN.$"
 # 298 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "If you visit the Shipyard in Slateport,\n"
+	.string "you should go see Capt. Stern.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 299 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
+<<<<<<< HEAD
 # 300 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "DEVON's new products, the REPEAT BALL\n"
 # 301 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -603,10 +693,20 @@ RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
 # 302 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "popular among TRAINERS.$"
 # 303 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
+=======
+	.string "Devon's new products, the Repeat Ball\n"
+	.string "and Timer Ball, have become hugely\l"
+	.string "popular among Trainers.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 304 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 # 305 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "It's a collection of rare rocks and\n"
+<<<<<<< HEAD
 # 306 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	.string "stones assembled by the PRESIDENT.$"
+=======
+	.string "stones assembled by the President.$"
+
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491

@@ -52,19 +52,28 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "That determined expression…\n"
 # 27 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "That limber way you move…\l"
+<<<<<<< HEAD
 # 28 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "And your well-trained POKéMON…\p"
 # 29 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "You're obviously a skilled TRAINER!\p"
 # 30 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
+=======
+	.string "And your well-trained Pokémon…\p"
+	.string "You're obviously a skilled Trainer!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No, wait, don't say a word.\n"
 # 31 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "I can tell just by looking at you.\p"
 # 32 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "I'm sure that you can put this\n"
+<<<<<<< HEAD
 # 33 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "HIDDEN MACHINE to good use.\p"
 # 34 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
+=======
+	.string "Hidden Machine to good use.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "No need to be modest or shy.\n"
 # 35 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "Go on, take it!$"
@@ -72,6 +81,7 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 
 # 37 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 RustboroCity_CuttersHouse_Text_ExplainCut:
+<<<<<<< HEAD
 # 38 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "That HIDDEN MACHINE, or HM for\n"
 # 39 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
@@ -87,6 +97,15 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 # 44 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "has earned the STONE BADGE.\p"
 # 45 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
+=======
+	.string "That Hidden Machine, or HM for\n"
+	.string "short, is Cut.\p"
+	.string "An HM move is one that can be used\n"
+	.string "by Pokémon outside of battle.\p"
+	.string "Any Pokémon that's learned Cut can\n"
+	.string "chop down thin trees if the Trainer\l"
+	.string "has earned the Stone Badge.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "And, unlike a TM, an HM can be used\n"
 # 46 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "more than once.$"
@@ -96,9 +115,14 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
 # 49 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "When they were expanding the city of\n"
+<<<<<<< HEAD
 # 50 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "RUSTBORO, my dad helped out.\p"
 # 51 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
 	.string "He made his POKéMON use CUT to clear\n"
 # 52 "data/maps/RustboroCity_CuttersHouse/scripts.pory"
+=======
+	.string "Rustboro, my dad helped out.\p"
+	.string "He made his Pokémon use Cut to clear\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the land of trees.$"

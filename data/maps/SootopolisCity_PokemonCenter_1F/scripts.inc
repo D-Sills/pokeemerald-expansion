@@ -92,6 +92,7 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 
 # 47 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
+<<<<<<< HEAD
 # 48 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "WALLACE is rumored to be the toughest\n"
 # 49 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
@@ -105,6 +106,14 @@ SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
 # 53 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "even stronger than WALLACE's mentor.\p"
 # 54 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Wallace is rumored to be the toughest\n"
+	.string "Trainer in the whole Hoenn region.\p"
+	.string "This town's Gym is led by the Trainer\n"
+	.string "who taught Wallace.\p"
+	.string "But the Elite Four… They're said to be\n"
+	.string "even stronger than Wallace's mentor.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "How strong could they be?$"
 # 55 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 
@@ -126,15 +135,24 @@ SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
 	.string "Whenever, wherever, and whatever\n"
 # 64 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "happens, I will always be friends with\l"
+<<<<<<< HEAD
 # 65 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "POKéMON.\p"
 # 66 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "Because it's fun to be with POKéMON!$"
 # 67 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Pokémon.\p"
+	.string "Because it's fun to be with Pokémon!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 68 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
+<<<<<<< HEAD
 # 69 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "Aren't POKéMON our friends?\p"
 # 70 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+=======
+	.string "Aren't Pokémon our friends?\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Why are they going wild this way?$"

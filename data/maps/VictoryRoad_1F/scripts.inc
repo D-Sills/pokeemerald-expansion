@@ -242,9 +242,13 @@ VictoryRoad_1F_EventScript_Katelynn::
 
 # 122 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
+<<<<<<< HEAD
 # 123 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "WALLY: Hi! {PLAYER}!\p"
 # 124 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "Wally: Hi! {PLAYER}!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I bet you're surprised to see me here!\p"
 # 125 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "I made it all the way here, and it's\n"
@@ -256,9 +260,13 @@ VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "made me stronger!\p"
 # 129 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "But I'm not going to lose anymore!\p"
+<<<<<<< HEAD
 # 130 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "I'm going to win! For the POKéMON who\n"
 # 131 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "I'm going to win! For the Pokémon who\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "gave me courage and strength!\p"
 # 132 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "Okay… Here I come!$"
@@ -274,9 +282,13 @@ VictoryRoad_1F_Text_WallyEntranceDefeat:
 
 # 138 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_WallyPostEntranceBattle:
+<<<<<<< HEAD
 # 139 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "WALLY: I couldn't beat you today,\n"
 # 140 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "Wally: I couldn't beat you today,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "{PLAYER}, but one of these days, I'll\l"
 # 141 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "catch up to you!$"
@@ -284,9 +296,13 @@ VictoryRoad_1F_Text_WallyPostEntranceBattle:
 
 # 143 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_WallyIntro:
+<<<<<<< HEAD
 # 144 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "WALLY: Hi! {PLAYER}!\p"
 # 145 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "Wally: Hi! {PLAYER}!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've gotten stronger since that last\n"
 # 146 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "time! I wanted to show you, {PLAYER}!\p"
@@ -304,15 +320,23 @@ VictoryRoad_1F_Text_WallyDefeat:
 
 # 153 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_WallyPostBattle:
+<<<<<<< HEAD
 # 154 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "WALLY: I couldn't beat you this time,\n"
 # 155 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "Wally: I couldn't beat you this time,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "too… But one of these days, {PLAYER},\l"
 # 156 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "I'm going to catch up to you…\p"
+<<<<<<< HEAD
 # 157 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "And challenge the POKéMON LEAGUE!$"
 # 158 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "And challenge the Pokémon League!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 159 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_EdgarIntro:
@@ -334,9 +358,13 @@ VictoryRoad_1F_Text_EdgarPostBattle:
 	.string "You've made it this far. Keep the\n"
 # 168 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "momentum going and become the\l"
+<<<<<<< HEAD
 # 169 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "CHAMPION! If anyone can, it's you!$"
 # 170 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "Champion! If anyone can, it's you!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 171 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_AlbertIntro:
@@ -360,17 +388,25 @@ VictoryRoad_1F_Text_AlbertPostBattle:
 	.string "I lost here…\p"
 # 181 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "That means I lack the qualifications\n"
+<<<<<<< HEAD
 # 182 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "to become the CHAMPION…$"
 # 183 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "to become the Champion…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 184 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_HopeIntro:
 # 185 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "This seemingly infinite and harsh road\n"
+<<<<<<< HEAD
 # 186 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "lives up to its name of VICTORY.$"
 # 187 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "lives up to its name of Victory.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 188 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_HopeDefeat:
@@ -382,15 +418,23 @@ VictoryRoad_1F_Text_HopeDefeat:
 VictoryRoad_1F_Text_HopePostBattle:
 # 192 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "You seem to have the potential for\n"
+<<<<<<< HEAD
 # 193 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "becoming the CHAMPION.$"
 # 194 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "becoming the Champion.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 195 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_QuincyIntro:
+<<<<<<< HEAD
 # 196 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "What is the VICTORY ROAD?\n"
 # 197 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "What is the Victory Road?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'll tell you if you win!$"
 # 198 "data/maps/VictoryRoad_1F/scripts.pory"
 
@@ -406,6 +450,7 @@ VictoryRoad_1F_Text_QuincyDefeat:
 VictoryRoad_1F_Text_QuincyPostBattle:
 # 204 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "Getting through here safely--that's\n"
+<<<<<<< HEAD
 # 205 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "the final test for any TRAINER aiming\l"
 # 206 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -415,6 +460,12 @@ VictoryRoad_1F_Text_QuincyPostBattle:
 # 208 "data/maps/VictoryRoad_1F/scripts.pory"
 	.string "ROAD.$"
 # 209 "data/maps/VictoryRoad_1F/scripts.pory"
+=======
+	.string "the final test for any Trainer aiming\l"
+	.string "to become the Pokémon Champion.\p"
+	.string "That's why it's called the Victory\n"
+	.string "Road.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 210 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_Text_KatelynnIntro:

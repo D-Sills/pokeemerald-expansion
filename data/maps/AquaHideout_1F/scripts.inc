@@ -108,11 +108,16 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 # 55 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What? What do you want with \n"
+<<<<<<< HEAD
 # 56 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "TEAM AQUA?\p"
 # 57 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Our BOSS isn't here! He's gone off to\n"
 # 58 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Team Aqua?\p"
+	.string "Our boss isn't here! He's gone off to\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "snatch something important!\p"
 # 59 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "… …\n"
@@ -128,6 +133,7 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 # 65 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What?\n"
+<<<<<<< HEAD
 # 66 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Are you a TEAM MAGMA grunt?\p"
 # 67 "data/maps/AquaHideout_1F/scripts.pory"
@@ -139,16 +145,28 @@ AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 # 70 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "But where might their HIDEOUT be?$"
 # 71 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Are you a Team Magma grunt?\p"
+	.string "I hear that Team Magma is trying to\n"
+	.string "awaken an awesome Pokémon at their\l"
+	.string "Hideout.\p"
+	.string "But where might their Hideout be?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 72 "data/maps/AquaHideout_1F/scripts.pory"
 AquaHideout_1F_Text_BossWentToJackASubmarine:
 # 73 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What? What do you want with \n"
+<<<<<<< HEAD
 # 74 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "TEAM AQUA?\p"
 # 75 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Our BOSS isn't here!\n"
 # 76 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Team Aqua?\p"
+	.string "Our boss isn't here!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He's gone off to jack a submarine!\p"
 # 77 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "… …\n"
@@ -164,6 +182,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 AquaHideout_1F_Text_BossIsOnRoute122:
 # 83 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What? What do you want with \n"
+<<<<<<< HEAD
 # 84 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "TEAM AQUA?\p"
 # 85 "data/maps/AquaHideout_1F/scripts.pory"
@@ -171,6 +190,11 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 # 86 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "MT. PYRE on ROUTE 122!\p"
 # 87 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Team Aqua?\p"
+	.string "Our boss isn't here! He's on his way to\n"
+	.string "Mt. Pyre on Route 122!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… …\n"
 # 88 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Why did he go?\p"
@@ -184,6 +208,7 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 # 93 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What?\n"
+<<<<<<< HEAD
 # 94 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Are you a TEAM MAGMA grunt?\p"
 # 95 "data/maps/AquaHideout_1F/scripts.pory"
@@ -193,11 +218,18 @@ AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 # 97 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "But what is that POKéMON like?$"
 # 98 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Are you a Team Magma grunt?\p"
+	.string "I hear that Team Magma is after\n"
+	.string "an awesome Pokémon at Mt. Chimney.\p"
+	.string "But what is that Pokémon like?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 99 "data/maps/AquaHideout_1F/scripts.pory"
 AquaHideout_1F_Text_BossIsInSlateportCity:
 # 100 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "What? What? What do you want with\n"
+<<<<<<< HEAD
 # 101 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "TEAM AQUA?\p"
 # 102 "data/maps/AquaHideout_1F/scripts.pory"
@@ -205,6 +237,11 @@ AquaHideout_1F_Text_BossIsInSlateportCity:
 # 103 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "He's on his way to SLATEPORT CITY!\p"
 # 104 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "Team Aqua?\p"
+	.string "Our boss isn't here!\n"
+	.string "He's on his way to Slateport City!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "… …\n"
 # 105 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "Why did he go?\p"
@@ -232,7 +269,11 @@ AquaHideout_1F_Text_Grunt1Defeat:
 
 # 117 "data/maps/AquaHideout_1F/scripts.pory"
 AquaHideout_1F_Text_Grunt1PostBattle:
+<<<<<<< HEAD
 # 118 "data/maps/AquaHideout_1F/scripts.pory"
 	.string "I took the loss for the TEAM,\n"
 # 119 "data/maps/AquaHideout_1F/scripts.pory"
+=======
+	.string "I took the loss for the team,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "but I did my job…$"

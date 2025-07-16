@@ -468,6 +468,7 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 
 # 235 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
+<<<<<<< HEAD
 # 236 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "This is the BATTLE TOWER!\n"
 # 237 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
@@ -475,44 +476,70 @@ BattleFrontier_OutsideEast_Text_BattleTowerSign:
 # 238 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "TRAINER!$"
 # 239 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "This is the Battle Tower!\n"
+	.string "Keep the win streak as the toughest\l"
+	.string "Trainer!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 240 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
+<<<<<<< HEAD
 # 241 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "This is the BATTLE PALACE!\n"
 # 242 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Keep your eyes on POKéMON battles!$"
 # 243 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "This is the Battle Palace!\n"
+	.string "Keep your eyes on Pokémon battles!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 244 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
+<<<<<<< HEAD
 # 245 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "This is the BATTLE ARENA!\n"
 # 246 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "This is the Battle Arena!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Let the toughest teams gather!$"
 # 247 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
 # 248 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
+<<<<<<< HEAD
 # 249 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "This is the BATTLE PYRAMID!\n"
 # 250 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "This is the Battle Pyramid!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Advance through the Battle Quest!$"
 # 251 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
 # 252 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_RankingHallSign:
+<<<<<<< HEAD
 # 253 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "BATTLE FRONTIER RANKING HALL\n"
 # 254 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Battle Frontier Ranking Hall\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Set your sights on new records!$"
 # 255 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
 # 256 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
+<<<<<<< HEAD
 # 257 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "BATTLE POINT EXCHANGE SERVICE CORNER\n"
 # 258 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Battle Point Exchange Service Corner\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Exchange your Battle Points!$"
 # 259 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
@@ -522,9 +549,13 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
 	.string "Wow!\n"
 # 262 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "It's huge!\p"
+<<<<<<< HEAD
 # 263 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "The BATTLE TOWER feels special.\n"
 # 264 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "The Battle Tower feels special.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "It's different from the others.$"
 # 265 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
@@ -532,6 +563,7 @@ BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
 BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
 # 267 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "My grand ambition is to conquer both\n"
+<<<<<<< HEAD
 # 268 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "the BATTLE FRONTIER and the POKéMON\l"
 # 269 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
@@ -541,14 +573,24 @@ BattleFrontier_OutsideEast_Text_ConquerLeagueAndFrontier:
 # 271 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I… I'm going to ask MIMI next door\n"
 # 272 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "the Battle Frontier and the Pokémon\l"
+	.string "League.\p"
+	.string "And if my dream comes true…\p"
+	.string "I… I'm going to ask Mimi next door\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "if she will be friends with me!$"
 # 273 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
 # 274 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
+<<<<<<< HEAD
 # 275 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "The BATTLE PYRAMID's too harsh!\n"
 # 276 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "The Battle Pyramid's too harsh!\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I just can't make it to the top!\p"
 # 277 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Since I'm out of options, maybe I can\n"
@@ -562,9 +604,13 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness:
 	.string "I thrive in darkness…\n"
 # 282 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Yes… What is worthy of me?\l"
+<<<<<<< HEAD
 # 283 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "None other than the BATTLE PYRAMID…\p"
 # 284 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "None other than the Battle Pyramid…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What say you to wandering in darkness\n"
 # 285 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "and in utter and total desperation?$"
@@ -578,21 +624,33 @@ BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
 	.string "I put together the ultimate team!\p"
 # 290 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I can't see myself losing, no joke.\n"
+<<<<<<< HEAD
 # 291 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "We're storming the BATTLE ARENA!$"
 # 292 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "We're storming the Battle Arena!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 293 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
+<<<<<<< HEAD
 # 294 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Did SCOTT bring you here, too?\n"
 # 295 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Did Scott bring you here, too?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "What is it with that guy?\p"
 # 296 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "It sounds like he really does know\n"
+<<<<<<< HEAD
 # 297 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "how to spot talented TRAINERS, but…\p"
 # 298 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "how to spot talented Trainers, but…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I've never seen him battling in person\n"
 # 299 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "ever.$"
@@ -600,6 +658,7 @@ BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
 
 # 301 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
+<<<<<<< HEAD
 # 302 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "ZIGG!\n"
 # 303 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
@@ -607,14 +666,23 @@ BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
 # 304 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I'll make my little ZIGG any favorite\n"
 # 305 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Zigg!\n"
+	.string "I believe in you, little buddy!\p"
+	.string "I'll make my little Zigg any favorite\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "tasty treats you like if you win!$"
 # 306 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
 # 307 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_ZigzagoonLooksVacant:
+<<<<<<< HEAD
 # 308 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "ZIGZAGOON looks vacant…$"
 # 309 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Zigzagoon looks vacant…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 310 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
@@ -630,17 +698,25 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "Oops, it's almost dinnertime!\p"
 # 316 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I don't know if I can stand to just\n"
+<<<<<<< HEAD
 # 317 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "watch at the BATTLE PALACE…$"
 # 318 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "watch at the Battle Palace…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 319 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 # 320 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I may not look that impressive now,\n"
+<<<<<<< HEAD
 # 321 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "but I once beat a GYM LEADER.\p"
 # 322 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "but I once beat a Gym Leader.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Who knows, maybe I should give it\n"
 # 323 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "another shot at glory.$"
@@ -648,9 +724,13 @@ BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 
 # 325 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
+<<<<<<< HEAD
 # 326 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I'm fast on my BIKE, and that goes for\n"
 # 327 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "I'm fast on my bike, and that goes for\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the way I battle, too.\p"
 # 328 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I win matches in the blink of\n"
@@ -662,9 +742,13 @@ BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
 # 332 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I'm better than my daddy\n"
+<<<<<<< HEAD
 # 333 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "at POKéMON.$"
 # 334 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "at Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 335 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
@@ -684,9 +768,13 @@ BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
 	.string "It wasn't easy getting here,\n"
 # 343 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "but I'd heard about this knockout\l"
+<<<<<<< HEAD
 # 344 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "pretty girl at the BATTLE ARENA.\p"
 # 345 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "pretty girl at the Battle Arena.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Instead of her, do you know what\n"
 # 346 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I found?\p"
@@ -702,9 +790,13 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
 	.string "I sometimes see this really important-\n"
 # 352 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "looking old man going in there.\p"
+<<<<<<< HEAD
 # 353 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "He has these really awesome POKéMON.\n"
 # 354 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "He has these really awesome Pokémon.\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He seems really nice, though.$"
 # 355 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 
@@ -712,11 +804,16 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
 # 357 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Do you know it?\n"
+<<<<<<< HEAD
 # 358 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "The legend of the BATTLE PYRAMID?\p"
 # 359 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "When there comes a confident TRAINER\n"
 # 360 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "The legend of the Battle Pyramid?\p"
+	.string "When there comes a confident Trainer\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "reaching for the golden pinnacle,\l"
 # 361 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "there shall appear a man among men.\p"
@@ -752,17 +849,26 @@ BattleFrontier_OutsideEast_Text_GotWipedOut:
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
 # 377 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "This guy ran into a horribly tough\n"
+<<<<<<< HEAD
 # 378 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "TRAINER while he was on the BATTLE\l"
 # 379 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "TOWER challenge.\p"
 # 380 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Trainer while he was on the Battle\l"
+	.string "Tower challenge.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Now look at him…\p"
 # 381 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "You need to be cautious if you ever\n"
+<<<<<<< HEAD
 # 382 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "decide to go to the BATTLE TOWER.$"
 # 383 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "decide to go to the Battle Tower.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 384 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
@@ -772,17 +878,25 @@ BattleFrontier_OutsideEast_Text_EnoughBattlePointsForDoll:
 	.string "I've finally got enough Battle Points!\p"
 # 387 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I guess I'll trade for another giant\n"
+<<<<<<< HEAD
 # 388 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "plush DOLL!$"
 # 389 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "plush Doll!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 390 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_LikeToHaveNameRecordedHere:
 # 391 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Oh, yeah, okay!\n"
+<<<<<<< HEAD
 # 392 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "So this is the RANKING HALL!\p"
 # 393 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "So this is the Ranking Hall!\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I'd like to go down in history as\n"
 # 394 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "a super champ and have my name\l"
@@ -802,6 +916,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 	.string "Ooh, darling, you are so wonderful!\p"
 # 402 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Ooh, I just can't wait anymore!\p"
+<<<<<<< HEAD
 # 403 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "Let's go to a MULTI BATTLE ROOM\n"
 # 404 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
@@ -809,6 +924,11 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 # 405 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "If we get together in the BATTLE SALON,\n"
 # 406 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "Let's go to a Multi Battle Room\n"
+	.string "right this instant!\p"
+	.string "If we get together in the Battle Salon,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the power of our love will overcome\l"
 # 407 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "everyone we meet.\p"
@@ -820,17 +940,26 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 
 # 411 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
+<<<<<<< HEAD
 # 412 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "The BATTLE FRONTIER isn't exclusively\n"
 # 413 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "for tough TRAINERS.\p"
 # 414 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "The Battle Frontier isn't exclusively\n"
+	.string "for tough Trainers.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Many people with special abilities\n"
 # 415 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "have been invited, it seems.\p"
+<<<<<<< HEAD
 # 416 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "That man SCOTT…\p"
 # 417 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "That man Scott…\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "He may have built this place to serve\n"
 # 418 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "a bigger objective…$"
@@ -866,9 +995,13 @@ BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "I…\n"
 # 434 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "I saw it!\p"
+<<<<<<< HEAD
 # 435 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "There was a sticky sort of a POKéMON\n"
 # 436 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
+=======
+	.string "There was a sticky sort of a Pokémon\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "with a long tail up ahead!\p"
 # 437 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	.string "It was hiding under a boulder, and\n"

@@ -80,15 +80,23 @@ FortreeCity_Mart_EventScript_Boy::
 
 # 41 "data/maps/FortreeCity_Mart/scripts.pory"
 FortreeCity_Mart_Text_SuperRepelBetter:
+<<<<<<< HEAD
 # 42 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "SUPER REPEL lasts a long time,\n"
 # 43 "data/maps/FortreeCity_Mart/scripts.pory"
+=======
+	.string "Super Repel lasts a long time,\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "and it gets the job done.\p"
 # 44 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "It's much better than an ordinary\n"
+<<<<<<< HEAD
 # 45 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "REPEL.$"
 # 46 "data/maps/FortreeCity_Mart/scripts.pory"
+=======
+	.string "Repel.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 47 "data/maps/FortreeCity_Mart/scripts.pory"
 FortreeCity_Mart_Text_StockUpOnItems:
@@ -104,7 +112,11 @@ FortreeCity_Mart_Text_StockUpOnItems:
 
 # 53 "data/maps/FortreeCity_Mart/scripts.pory"
 FortreeCity_Mart_Text_RareCandyMakesMonGrow:
+<<<<<<< HEAD
 # 54 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "A RARE CANDY makes a POKéMON grow\n"
 # 55 "data/maps/FortreeCity_Mart/scripts.pory"
+=======
+	.string "A Rare Candy makes a Pokémon grow\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "immediately by one level.$"

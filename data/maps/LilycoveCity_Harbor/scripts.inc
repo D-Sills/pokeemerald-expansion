@@ -1092,12 +1092,17 @@ LilycoveCity_Harbor_Text_FerryUnavailable:
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
 # 547 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "Hello, are you here for the ferry?\n"
+<<<<<<< HEAD
 # 548 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "May I see your TICKET?$"
 # 549 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "May I see your Ticket?$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 550 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_NoTicket:
+<<<<<<< HEAD
 # 551 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "{PLAYER} doesn't have the TICKET…\p"
 # 552 "data/maps/LilycoveCity_Harbor/scripts.pory"
@@ -1105,14 +1110,23 @@ LilycoveCity_Harbor_Text_NoTicket:
 # 553 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "You must have a TICKET to board\n"
 # 554 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "{PLAYER} doesn't have the Ticket…\p"
+	.string "I'm terribly sorry.\p"
+	.string "You must have a Ticket to board\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "the ferry.$"
 # 555 "data/maps/LilycoveCity_Harbor/scripts.pory"
 
 # 556 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
+<<<<<<< HEAD
 # 557 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "{PLAYER} flashed the TICKET.\p"
 # 558 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "{PLAYER} flashed the Ticket.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Perfect! That's all you need!\p"
 # 559 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "And where would you like to go?$"
@@ -1126,15 +1140,23 @@ LilycoveCity_Harbor_Text_SailAnotherTime:
 
 # 564 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SlateportItIs:
+<<<<<<< HEAD
 # 565 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "SLATEPORT CITY it is, then!$"
 # 566 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "Slateport City it is, then!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 567 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
+<<<<<<< HEAD
 # 568 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "BATTLE FRONTIER it is, then!$"
 # 569 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "Battle Frontier it is, then!$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 570 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_PleaseBoard:
@@ -1154,6 +1176,7 @@ LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
 LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 # 578 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "Until they finish making the ferry,\n"
+<<<<<<< HEAD
 # 579 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "we sailors have nothing to do…\p"
 # 580 "data/maps/LilycoveCity_Harbor/scripts.pory"
@@ -1161,9 +1184,15 @@ LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 # 581 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "at the SHIPYARD in SLATEPORT.$"
 # 582 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "we Sailors have nothing to do…\p"
+	.string "I wish they'd get a move on, the folks\n"
+	.string "at the Shipyard in Slateport.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 583 "data/maps/LilycoveCity_Harbor/scripts.pory"
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
+<<<<<<< HEAD
 # 584 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "The ferry S.S. TIDAL is finally in\n"
 # 585 "data/maps/LilycoveCity_Harbor/scripts.pory"
@@ -1171,6 +1200,11 @@ LilycoveCity_Harbor_Text_SailorFerryAvailable:
 # 586 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "The folks at the SHIPYARD in SLATEPORT\n"
 # 587 "data/maps/LilycoveCity_Harbor/scripts.pory"
+=======
+	.string "The ferry S.S. Tidal is finally in\n"
+	.string "operation.\p"
+	.string "The folks at the Shipyard in Slateport\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "must've worked extra hard.\p"
 # 588 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	.string "Well, it's my turn to get busy now!$"

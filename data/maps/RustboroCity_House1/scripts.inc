@@ -104,9 +104,13 @@ RustboroCity_House1_EventScript_Hiker::
 
 # 53 "data/maps/RustboroCity_House1/scripts.pory"
 RustboroCity_House1_Text_IllTradeIfYouWant:
+<<<<<<< HEAD
 # 54 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "Huh? My POKéMON is cute?\n"
 # 55 "data/maps/RustboroCity_House1/scripts.pory"
+=======
+	.string "Huh? My Pokémon is cute?\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "Sure, I knew that.\p"
 # 56 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "But if you really want, I'm willing\n"
@@ -122,9 +126,13 @@ RustboroCity_House1_Text_IllTradeIfYouWant:
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 # 62 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "Eheheh…\n"
+<<<<<<< HEAD
 # 63 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "Please be good to my POKéMON.$"
 # 64 "data/maps/RustboroCity_House1/scripts.pory"
+=======
+	.string "Please be good to my Pokémon.$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 65 "data/maps/RustboroCity_House1/scripts.pory"
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
@@ -138,15 +146,23 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 # 70 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "Oh, if you don't want to, that's okay.\n"
+<<<<<<< HEAD
 # 71 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "But my POKéMON is cute, you know…$"
 # 72 "data/maps/RustboroCity_House1/scripts.pory"
+=======
+	.string "But my Pokémon is cute, you know…$"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 
 # 73 "data/maps/RustboroCity_House1/scripts.pory"
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
+<<<<<<< HEAD
 # 74 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "Any POKéMON can be cute if you raise\n"
 # 75 "data/maps/RustboroCity_House1/scripts.pory"
+=======
+	.string "Any Pokémon can be cute if you raise\n"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "it with care and kindness.$"
 # 76 "data/maps/RustboroCity_House1/scripts.pory"
 
@@ -154,9 +170,13 @@ RustboroCity_House1_Text_AnyPokemonCanBeCute:
 RustboroCity_House1_Text_AllSortsOfPlaces:
 # 78 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "In all sorts of places, there are all\n"
+<<<<<<< HEAD
 # 79 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "sorts of POKéMON and people.\p"
 # 80 "data/maps/RustboroCity_House1/scripts.pory"
+=======
+	.string "sorts of Pokémon and people.\p"
+>>>>>>> 5c8ec82c58e5be7e31c253a5303c674bc0aa0491
 	.string "I find that fascinating, so I go to all\n"
 # 81 "data/maps/RustboroCity_House1/scripts.pory"
 	.string "sorts of places.$"
