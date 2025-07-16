@@ -81,12 +81,17 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_TracksSpot                @ FLDEFF_TRACKS_SPOT
 	.4byte gFieldEffectScript_CaveDust                  @ FLDEFF_CAVE_DUST
 	.4byte gFieldEffectScript_Defog                     @ FLDEFF_DEFOG
+	.4byte gFieldEffectScript_QuestIcon					@ FLDEFF_QUEST_ICON
 @ Start qol_field_moves
     .4byte gFieldEffectScript_UseSurfTool               @ FLDEFF_USE_SURF_TOOL
     .4byte gFieldEffectScript_UseWaterfallTool          @ FLDEFF_USE_WATERFALL_TOOL 
     .4byte gFieldEffectScript_UseDiveTool               @ FLDEFF_USE_DIVE_TOOL
     .4byte gFieldEffectScript_UseTeleportTool           @ FLDEFF_USE_TELEPORT_TOOL
 @ End qol_field_moves
+
+gFieldEffectScript_QuestIcon::
+	field_eff_callnative FldEff_QuestIcon
+	field_eff_end
 
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon

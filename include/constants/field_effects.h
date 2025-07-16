@@ -82,6 +82,7 @@
 #define FLDEFF_USE_WATERFALL_TOOL        76
 #define FLDEFF_USE_DIVE_TOOL             77
 #define FLDEFF_USE_TELEPORT_TOOL         78
+#define FLDEFF_QUEST_ICON                79
 // End qol_field_moves
 
 #define FLDEFFOBJ_SHADOW_S              0
