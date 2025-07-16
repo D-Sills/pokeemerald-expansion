@@ -657,7 +657,7 @@ static void BattleSpeed_DrawChoices(u8 selection)
         gText_BattleSpeed4x
     };
 
-    DrawOptionMenuChoice(gText_BattleSpeed, 108=4, YPOS_BATTLESPEED, 0);
+    DrawOptionMenuChoice(gText_BattleSpeed, 104, YPOS_BATTLESPEED, 0);
     DrawOptionMenuChoice(battleSpeedTexts[selection], 128, YPOS_BATTLESPEED, 1);
 }
 

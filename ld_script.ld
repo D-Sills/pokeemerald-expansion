@@ -342,6 +342,9 @@ SECTIONS {
         src/ui_main_menu.o(.text);
         src/ui_startmenu_full.o(.text);
         src/quests.o(.text);
+        src/pokemon_sprite_visualizer.o(.text);
+        src/expansion_intro.o(.text);
+        src/map_preview_screen.o(.text);
     } > ROM =0
 
     script_data :
@@ -707,6 +710,9 @@ SECTIONS {
         src/ui_main_menu.o(.rodata);
         src/ui_startmenu_full.o(.rodata);
         src/quests.o(.rodata);
+        src/pokemon_sprite_visualizer.o(.rodata);
+        src/expansion_intro.o(.rodata);
+        src/map_preview_screen.o(.rodata);
     } > ROM =0
 
     song_data :
