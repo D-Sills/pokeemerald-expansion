@@ -153,3 +153,4 @@
 	.include "src/ui_main_menu.o"
 	.include "src/field_mugshot.o"
 
+	.include "src/quests.o"
