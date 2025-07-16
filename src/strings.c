@@ -1000,11 +1000,16 @@ const u8 gText_ButtonMode[] = _("BUTTON MODE");
 // new options
 const u8 gText_Follower[] = _("FOLLOWERS");
 const u8 gText_Difficulty[] = _("DIFFICULTY");
+const u8 gText_BattleSpeed[] = _("BATTLE SPEED");
 const u8 gText_FollowerOff[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}HIDE");
 const u8 gText_FollowerOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SHOW");
 const u8 gText_DifficultyEasy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}EASY");
 const u8 gText_DifficultyNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL");
 const u8 gText_DifficultyHard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}HARD");
+const u8 gText_BattleSpeed1x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1x");
+const u8 gText_BattleSpeed2x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}2x");
+const u8 gText_BattleSpeed3x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}3x");
+const u8 gText_BattleSpeed4x[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}4x");
 // end new options
 const u8 gText_TextSpeedSlow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SLOW");
 const u8 gText_TextSpeedMid[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}MID");

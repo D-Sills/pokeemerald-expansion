@@ -38,6 +38,7 @@ enum
      TD_FRAMETYPE,
     TD_FOLLOWER,
     TD_DIFFICULTY,
+    TD_BATTLESPEED,
  };
 
  // Menu items Pg1
@@ -58,6 +59,7 @@ enum
 {
     MENUITEM_FOLLOWER,
     MENUITEM_DIFFICULTY,
+    MENUITEM_BATTLESPEED,
     MENUITEM_CANCEL_PG2,
     MENUITEM_COUNT_PG2,
 };
@@ -80,6 +82,7 @@ enum
 //Pg 2
 #define YPOS_FOLLOWER     (MENUITEM_FOLLOWER * 16)
 #define YPOS_DIFFICULTY   (MENUITEM_DIFFICULTY * 16)
+#define YPOS_BATTLESPEED  (MENUITEM_BATTLESPEED * 16)
 
 #define PAGE_COUNT  2
 
@@ -100,6 +103,8 @@ static u8   Follower_ProcessInput(u8 selection);
 static void Follower_DrawChoices(u8 selection);
 static u8   Difficulty_ProcessInput(u8 selection);
 static void Difficulty_DrawChoices(u8 selection);
+static u8 BattleSpeed_ProcessInput(u8 selection);
+static void BattleSpeed_DrawChoices(u8 selection);
 static u8 Sound_ProcessInput(u8 selection);
 static void Sound_DrawChoices(u8 selection);
 static u8 FrameType_ProcessInput(u8 selection);
@@ -132,6 +137,7 @@ static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
 {
     [MENUITEM_FOLLOWER]        = gText_Follower,
     [MENUITEM_DIFFICULTY]      = gText_Difficulty,
+    [MENUITEM_BATTLESPEED]     = gText_BattleSpeed,
     [MENUITEM_CANCEL_PG2]      = gText_OptionMenuCancel,
 };
 
@@ -209,6 +215,7 @@ static void ReadAllCurrentSettings(u8 taskId)
     gTasks[taskId].data[TD_FRAMETYPE] = gSaveBlock2Ptr->optionsWindowFrameType;
     gTasks[taskId].data[TD_FOLLOWER] = FlagGet(FLAG_POKEMON_FOLLOWERS);
     gTasks[taskId].data[TD_DIFFICULTY] = VarGet(VAR_DIFFICULTY);
+    gTasks[taskId].data[TD_BATTLESPEED] = VarGet(VAR_BATTLESPEED);
 }
 
 static void DrawOptionsPg1(u8 taskId)
@@ -229,6 +236,7 @@ static void DrawOptionsPg2(u8 taskId)
    ReadAllCurrentSettings(taskId);
     Follower_DrawChoices(gTasks[taskId].data[TD_FOLLOWER]);
     Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
+    BattleSpeed_DrawChoices(gTasks[taskId].data[TD_BATTLESPEED]);
     HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
@@ -528,6 +536,12 @@ static void Task_OptionMenuProcessInput_Pg2(u8 taskId)
             if (previousOption != gTasks[taskId].data[TD_DIFFICULTY])
                 Difficulty_DrawChoices(gTasks[taskId].data[TD_DIFFICULTY]);
             break;
+        case MENUITEM_BATTLESPEED:
+            previousOption = gTasks[taskId].data[TD_BATTLESPEED];
+            gTasks[taskId].data[TD_BATTLESPEED] = BattleSpeed_ProcessInput(gTasks[taskId].data[TD_BATTLESPEED]);
+            if (previousOption != gTasks[taskId].data[TD_BATTLESPEED])
+                BattleSpeed_DrawChoices(gTasks[taskId].data[TD_BATTLESPEED]);
+            break;
        default:
             return;
        }
@@ -550,6 +564,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].tWindowFrameType;
     gTasks[taskId].data[TD_FOLLOWER] == 0 ? FlagClear(FLAG_POKEMON_FOLLOWERS) : FlagSet(FLAG_POKEMON_FOLLOWERS);
     VarSet(VAR_DIFFICULTY, gTasks[taskId].data[TD_DIFFICULTY]);
+    VarSet(VAR_BATTLESPEED, gTasks[taskId].data[TD_BATTLESPEED]);
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
@@ -608,6 +623,42 @@ static void Follower_DrawChoices(u8 selection)
     styles[selection] = 1;
     DrawOptionMenuChoice(gText_FollowerOff, 104, YPOS_FOLLOWER, styles[0]);
     DrawOptionMenuChoice(gText_FollowerOn, GetStringRightAlignXOffset(FONT_NORMAL, gText_FollowerOn, 198), YPOS_FOLLOWER, styles[1]);
+}
+
+static u8 BattleSpeed_ProcessInput(u8 selection)
+{
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (selection < 3)
+            selection++;
+        else
+            selection = 0;
+
+        sArrowPressed = TRUE;
+    }
+    if (JOY_NEW(DPAD_LEFT))
+    {
+        if (selection != 0)
+            selection--;
+        else
+            selection = 3;
+
+        sArrowPressed = TRUE;
+    }
+    return selection;
+}
+
+static void BattleSpeed_DrawChoices(u8 selection)
+{
+    static const u8 *const battleSpeedTexts[] = {
+        gText_BattleSpeed1x,
+        gText_BattleSpeed2x,
+        gText_BattleSpeed3x,
+        gText_BattleSpeed4x
+    };
+
+    DrawOptionMenuChoice(gText_BattleSpeed, 108=4, YPOS_BATTLESPEED, 0);
+    DrawOptionMenuChoice(battleSpeedTexts[selection], 128, YPOS_BATTLESPEED, 1);
 }
 
 static u8 Difficulty_ProcessInput(u8 selection)
