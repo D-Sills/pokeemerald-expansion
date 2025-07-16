@@ -47,6 +47,7 @@
 #include "link.h"
 #include "frontier_pass.h"
 #include "start_menu.h"
+#include "quests.h"
 
 /*
     Full Screen Start Menu
@@ -73,7 +74,7 @@ struct StartMenuResources
     u16 selector_x;
     u16 selector_y;
     u16 selectedMenu;
-    u16 greyMenuBoxIds[3];
+    u16 greyMenuBoxIds[2];
 };
 
 enum WindowIds
@@ -89,7 +90,7 @@ enum StartMenuBoxes
     START_MENU_PARTY,
     START_MENU_BAG,
     START_MENU_CARD,
-    START_MENU_MAP,
+    START_MENU_QUESTS,
     START_MENU_OPTIONS,
 };
 
@@ -166,7 +167,7 @@ static const struct WindowTemplate sStartMenuWindowTemplates[] =
         .tilemapLeft = 0,   // position from left (per 8 pixels)
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 30,        // width (per 8 pixels)
-        .height = 4,        // height (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
         .paletteNum = 0,   // palette index to use for text
         .baseBlock = 1 + (9 * 15) + (30 * 2),     // tile start in VRAM
     },
@@ -794,14 +795,6 @@ static void CreateGreyedMenuBoxes()
         gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]].invisible = FALSE;
         StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]], 0);
     }
-
-    if(!FlagGet(FLAG_SYS_POKENAV_GET))
-    {
-        if (sStartMenuDataPtr->greyMenuBoxIds[2] == SPRITE_NONE)
-            sStartMenuDataPtr->greyMenuBoxIds[2] = CreateSprite(&sSpriteTemplate_GreyMenuButtonMap, CURSOR_LEFT_COL_X, CURSOR_BTM_ROW_Y, 1);
-        gSprites[sStartMenuDataPtr->greyMenuBoxIds[2]].invisible = FALSE;
-        StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[2]], 0);
-    }
     
     return;
 }
@@ -809,7 +802,7 @@ static void CreateGreyedMenuBoxes()
 static void DestroyGreyMenuBoxes()
 {
     u8 i = 0;
-    for(i = 0; i < 3; i++)
+    for(i = 0; i < 2; i++)
     {
         DestroySprite(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[i]]);
         sStartMenuDataPtr->greyMenuBoxIds[i] = SPRITE_NONE;
@@ -931,7 +924,7 @@ void StartMenuFull_Init(MainCallback callback)
         sStartMenuDataPtr->iconBoxSpriteIds[i] = SPRITE_NONE;
         sStartMenuDataPtr->iconMonSpriteIds[i] = SPRITE_NONE;
     }
-    for(i= 0; i < 3; i++)
+    for(i= 0; i < 2; i++)
     {
         sStartMenuDataPtr->greyMenuBoxIds[i] = SPRITE_NONE;
     }
@@ -1424,6 +1417,7 @@ void Task_OpenQuestsFromStartMenu(u8 taskId)
         StartMenuFull_FreeResources();
         PlayRainStoppingSoundEffect();
         CleanupOverworldWindowsAndTilemaps();
+        QuestMenu_Init(0, CB2_ReturnToFullScreenStartMenu);
         //SetMainCallback2(CB2_InitQuestLog);
     }
 }
@@ -1586,16 +1580,10 @@ static void Task_StartMenuFullMain(u8 taskId)
                     PlaySE(SE_BOO);
                 }
                 break;
-            case START_MENU_MAP:
-                if(FlagGet(FLAG_SYS_POKENAV_GET))
-                {
-                    PlaySE(SE_SELECT);
-                    BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-                    gTasks[taskId].func = Task_OpenPokenavStartMenu;
-                }
-                else{
-                    PlaySE(SE_BOO);
-                }
+            case START_MENU_QUESTS:
+                PlaySE(SE_SELECT);
+                BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+                gTasks[taskId].func = Task_OpenQuestsFromStartMenu;
                 break;
             case START_MENU_CARD:
                 PlaySE(SE_SELECT);
