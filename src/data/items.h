@@ -616,7 +616,7 @@ const struct Item gItemsInfo[] =
             "Restores the HP of\n"
             "a Pokémon by\n"
             "20 points."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_MEDICINE,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .battleUsage = EFFECT_ITEM_RESTORE_HP,
