@@ -956,6 +956,7 @@ static bool8 SaveCallback(void)
     return FALSE;
 }
 
+
 static bool8 BattlePyramidRetireStartCallback(void)
 {
     InitBattlePyramidRetire();
@@ -1226,6 +1227,17 @@ static u8 SaveDoSaveCallback(void)
 
     SaveStartTimer();
     return SAVE_IN_PROGRESS;
+}
+
+void AutoSaveDoSaveCallback(void)
+{
+    u8 saveStatus;
+    SaveMapView();
+    sSavingComplete = FALSE;
+    IncrementGameStat(GAME_STAT_SAVED_GAME);
+    saveStatus = TrySavingData(SAVE_NORMAL);
+    gDifferentSaveFile = FALSE;
+    return;
 }
 
 static u8 SaveSuccessCallback(void)

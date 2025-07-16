@@ -166,7 +166,7 @@ static const struct WindowTemplate sStartMenuWindowTemplates[] =
         .tilemapLeft = 0,   // position from left (per 8 pixels)
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 30,        // width (per 8 pixels)
-        .height = 2,        // height (per 8 pixels)
+        .height = 4,        // height (per 8 pixels)
         .paletteNum = 0,   // palette index to use for text
         .baseBlock = 1 + (9 * 15) + (30 * 2),     // tile start in VRAM
     },
@@ -1201,22 +1201,48 @@ static void StartMenuFull_InitWindows(void)
 //
 //  Confirm Save Dialogue Printer
 //
-static const u8 sText_ConfirmSave[] = _("Confirm Save and Return to Overworld?");
+static const u8 sText_ConfirmSave[] = _("Confirm Save?");
 static const u8 sA_ButtonGfx[]         = INCBIN_U8("graphics/ui_startmenu_full/a_button.4bpp");
 static void PrintSaveConfirmToWindow()
 {
     const u8 *str = sText_ConfirmSave;
     u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
-    u8 x = 24;
+    u8 x = 92;
     u8 y = 0;
     
     FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
-    BlitBitmapToWindow(WINDOW_BOTTOM_BAR, sA_ButtonGfx, 12, 5, 8, 8);
+    BlitBitmapToWindow(WINDOW_BOTTOM_BAR, sA_ButtonGfx, 80, 5, 8, 8);
     AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, str);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
 }
 
+//
+//  Confirm Save Dialogue Printer
+//
+static const u8 sText_SavingNow[] = _("Saving...");
+static void PrintSaveHappening(void){
+    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 x = 100;
+    u8 y = 0;
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
+    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SavingNow);
+    PutWindowTilemap(WINDOW_BOTTOM_BAR);
+    CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
+}
+
+// print save complete text
+static const u8 sText_SaveComplete[] = _("Save complete.");
+static void PrintSaveComplete(void) {
+    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 x = 86;
+    u8 y = 0;
+
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
+    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SaveComplete);
+    PutWindowTilemap(WINDOW_BOTTOM_BAR);
+    CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
+}
 
 //
 //  Print Time, Location, Day of Week and Time Indicator
@@ -1391,6 +1417,17 @@ void Task_OpenTrainerCardFromStartMenu(u8 taskId)
     }
 }
 
+void Task_OpenQuestsFromStartMenu(u8 taskId)
+{
+    if (!gPaletteFade.active)
+    {
+        StartMenuFull_FreeResources();
+        PlayRainStoppingSoundEffect();
+        CleanupOverworldWindowsAndTilemaps();
+        //SetMainCallback2(CB2_InitQuestLog);
+    }
+}
+
 void Task_OpenPokenavStartMenu(u8 taskId)
 {
     if (!gPaletteFade.active)
@@ -1426,7 +1463,7 @@ void Task_ReturnToFieldOnSave(u8 taskId)
 }
 
 
-//
+
 //  Handle save Confirmation and then Leave to Overworld for Saving 
 //
 # define sFrameToSecondTimer data[6]
@@ -1435,9 +1472,34 @@ void Task_HandleSaveConfirmation(u8 taskId)
     if(JOY_NEW(A_BUTTON)) //confirm and leave
     {
         PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        gTasks[taskId].func = Task_ReturnToFieldOnSave;
-        gFieldCallback = SaveStartCallback_FullStartMenu;
+               //BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+
+
+        PrintSaveHappening();
+
+
+        AutoSaveDoSaveCallback();
+
+
+        gTasks[taskId].func = Task_StartMenuFullMain;
+
+
+        FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+
+
+        PutWindowTilemap(WINDOW_BOTTOM_BAR);
+
+
+        CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
+
+
+        PlaySE(SE_SELECT);
+
+        PrintSaveComplete();
+
+
+        //gFieldCallback = SaveStartCallback_FullStartMenu;
+
         return;
     }
     if(JOY_NEW(B_BUTTON)) // back to normal Menu Control
@@ -1550,6 +1612,7 @@ static void Task_StartMenuFullMain(u8 taskId)
 
     if(JOY_NEW(START_BUTTON)) // If start button pressed go to Save Confirmation Control Task
     {
+        PlaySE(SE_SELECT);
         PrintSaveConfirmToWindow();
         gTasks[taskId].func = Task_HandleSaveConfirmation;
     }
