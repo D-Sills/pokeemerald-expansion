@@ -1,5 +1,6 @@
 #include "global.h"
 #include "option_menu.h"
+#include "option_plus_menu.h"
 #include "bg.h"
 #include "gpu_regs.h"
 #include "international_string_util.h"
@@ -17,6 +18,9 @@
 #include "constants/rgb.h"
 #include "string_util.h"
 #include "event_data.h"
+#include "option_plus_menu.h"
+
+#define useOptionPlusMenu TRUE
 
 #define tMenuSelection data[0]
 #define tTextSpeed data[1]
@@ -213,9 +217,9 @@ static void ReadAllCurrentSettings(u8 taskId)
     gTasks[taskId].data[TD_SOUND] = gSaveBlock2Ptr->optionsSound;
     gTasks[taskId].data[TD_BUTTONMODE] = gSaveBlock2Ptr->optionsButtonMode;
     gTasks[taskId].data[TD_FRAMETYPE] = gSaveBlock2Ptr->optionsWindowFrameType;
-    gTasks[taskId].data[TD_FOLLOWER] = FlagGet(FLAG_POKEMON_FOLLOWERS);
-    gTasks[taskId].data[TD_DIFFICULTY] = VarGet(VAR_DIFFICULTY);
-    gTasks[taskId].data[TD_BATTLESPEED] = VarGet(VAR_BATTLESPEED);
+    //gTasks[taskId].data[TD_FOLLOWER] = FlagGet(FLAG_POKEMON_FOLLOWERS);
+    //gTasks[taskId].data[TD_DIFFICULTY] = VarGet(VAR_DIFFICULTY);
+   // gTasks[taskId].data[TD_BATTLESPEED] = VarGet(VAR_BATTLESPEED);
 }
 
 static void DrawOptionsPg1(u8 taskId)
@@ -243,6 +247,12 @@ static void DrawOptionsPg2(u8 taskId)
 
 void CB2_InitOptionMenu(void)
 {
+    if (useOptionPlusMenu)
+    {
+        CB2_InitOptionPlusMenu();
+        return;
+    }
+
     u8 taskId;  
     switch (gMain.state)
     {
@@ -562,7 +572,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsSound = gTasks[taskId].tSound;
     gSaveBlock2Ptr->optionsButtonMode = gTasks[taskId].tButtonMode;
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].tWindowFrameType;
-    gTasks[taskId].data[TD_FOLLOWER] == 0 ? FlagClear(FLAG_POKEMON_FOLLOWERS) : FlagSet(FLAG_POKEMON_FOLLOWERS);
+    //gTasks[taskId].data[TD_FOLLOWER] == 0 ? FlagClear(FLAG_POKEMON_FOLLOWERS) : FlagSet(FLAG_POKEMON_FOLLOWERS);
     VarSet(VAR_DIFFICULTY, gTasks[taskId].data[TD_DIFFICULTY]);
     VarSet(VAR_BATTLESPEED, gTasks[taskId].data[TD_BATTLESPEED]);
 
