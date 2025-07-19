@@ -1217,7 +1217,7 @@ void DisplayItemMessage(u8 taskId, u8 fontId, const u8 *str, void (*callback)(u8
     s16 *data = gTasks[taskId].data;
 
     tMsgWindowId = AddItemMessageWindow(ITEMWIN_MESSAGE);
-    FillWindowPixelBuffer(tMsgWindowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(tMsgWindowId, PIXEL_FILL(2));
     DisplayMessageAndContinueTask(taskId, tMsgWindowId, 10, 13, fontId, GetPlayerTextSpeedDelay(), str, callback);
     ScheduleBgCopyTilemapToVram(1);
 }
@@ -1737,13 +1737,15 @@ static void OpenContextMenu(u8 taskId)
 
 static void PrintContextMenuItems(u8 windowId)
 {
-    PrintMenuActionTexts(windowId, FONT_NARROW, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
+    PrintMenuActionTextsOverride(windowId, FONT_NARROW, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuInUpperLeftCornerNormal(windowId, gBagMenu->contextMenuNumItems, 0);
 }
 
 static void PrintContextMenuItemGrid(u8 windowId, u8 columns, u8 rows)
 {
-    PrintMenuActionGrid(windowId, FONT_NARROW, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
+    PrintMenuActionGridOverride(windowId, FONT_NARROW, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuActionGrid(windowId, 56, columns, rows, 0);
 }
 
@@ -2285,7 +2287,7 @@ static void SellItem(u8 taskId)
     LoadBagItemListBuffers(gBagPosition.pocket);
     tListTaskId = ListMenuInit(&gMultiuseListMenuTemplate, *scrollPos, *cursorPos);
     BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
-    PrintMoneyAmountInMoneyBox(gBagMenu->windowIds[ITEMWIN_MONEY], GetMoney(&gSaveBlock1Ptr->money), 0);
+    PrintMoneyAmountInMoneyBoxOverride(gBagMenu->windowIds[ITEMWIN_MONEY], GetMoney(&gSaveBlock1Ptr->money), 0);
     gTasks[taskId].func = WaitAfterItemSell;
 }
 
@@ -2560,7 +2562,7 @@ static void LoadBagMenuTextWindows(void)
 
     InitWindows(sDefaultBagWindows);
     DeactivateAllTextPrinters();
-    LoadUserWindowBorderGfx(0, 1, BG_PLTT_ID(14));
+    LoadUserWindowBorderGfxOverride(0, 1, BG_PLTT_ID(14));
     LoadMessageBoxGfx(0, 10, BG_PLTT_ID(13));
     ListMenuLoadStdPalAt(BG_PLTT_ID(12), 1);
     LoadPalette(&gStandardMenuPalette, BG_PLTT_ID(15), PLTT_SIZE_4BPP);
@@ -2632,13 +2634,13 @@ static void RemoveItemMessageWindow(u8 windowType)
 
 void BagMenu_YesNo(u8 taskId, u8 windowType, const struct YesNoFuncTable *funcTable)
 {
-    CreateYesNoMenuWithCallbacks(taskId, &sContextMenuWindowTemplates[windowType], 1, 0, 2, 1, 14, funcTable);
+    CreateYesNoMenuWithCallbacksOverride(taskId, &sContextMenuWindowTemplates[windowType], 1, 0, 2, 1, 14, funcTable);
 }
 
 static void DisplayCurrentMoneyWindow(void)
 {
     u8 windowId = BagMenu_AddWindow(ITEMWIN_MONEY);
-    PrintMoneyAmountInMoneyBoxWithBorder(windowId, 1, 14, GetMoney(&gSaveBlock1Ptr->money));
+    PrintMoneyAmountInMoneyBoxWithBorderOverride(windowId, 1, 14, GetMoney(&gSaveBlock1Ptr->money));
     AddMoneyLabelObject(19, 11);
 }
 

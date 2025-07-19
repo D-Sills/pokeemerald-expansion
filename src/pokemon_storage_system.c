@@ -1522,7 +1522,7 @@ static void Task_PCMainMenu(u8 taskId)
         CreateMainMenu(task->tSelectedOption, &task->tWindowId);
         LoadMessageBoxAndBorderGfx();
         DrawDialogueFrame(0, FALSE);
-        FillWindowPixelBuffer(0, PIXEL_FILL(1));
+        FillWindowPixelBuffer(0, PIXEL_FILL(2));
         AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, TEXT_SKIP_DRAW, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
         CopyWindowToVram(0, COPYWIN_FULL);
         CopyWindowToVram(task->tWindowId, COPYWIN_FULL);
@@ -1546,7 +1546,7 @@ static void Task_PCMainMenu(u8 taskId)
             if (task->tSelectedOption != task->tNextOption)
             {
                 task->tSelectedOption = task->tNextOption;
-                FillWindowPixelBuffer(0, PIXEL_FILL(1));
+                FillWindowPixelBuffer(0, PIXEL_FILL(2));
                 AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             }
             break;
@@ -1562,14 +1562,14 @@ static void Task_PCMainMenu(u8 taskId)
             if (task->tInput == OPTION_WITHDRAW && CountPartyMons() == PARTY_SIZE)
             {
                 // Can't withdraw
-                FillWindowPixelBuffer(0, PIXEL_FILL(1));
+                FillWindowPixelBuffer(0, PIXEL_FILL(2));
                 AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PartyFull, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
                 task->tState = STATE_ERROR_MSG;
             }
             else if (task->tInput == OPTION_DEPOSIT && CountPartyMons() == 1)
             {
                 // Can't deposit
-                FillWindowPixelBuffer(0, PIXEL_FILL(1));
+                FillWindowPixelBuffer(0, PIXEL_FILL(2));
                 AddTextPrinterParameterized2(0, FONT_NORMAL, gText_JustOnePkmn, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
                 task->tState = STATE_ERROR_MSG;
             }
@@ -1587,7 +1587,7 @@ static void Task_PCMainMenu(u8 taskId)
         // Wait for new input after message
         if (JOY_NEW(A_BUTTON | B_BUTTON))
         {
-            FillWindowPixelBuffer(0, PIXEL_FILL(1));
+            FillWindowPixelBuffer(0, PIXEL_FILL(2));
             AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
@@ -1597,7 +1597,7 @@ static void Task_PCMainMenu(u8 taskId)
                 task->tSelectedOption = OPTIONS_COUNT - 1;
             Menu_MoveCursor(-1);
             task->tSelectedOption = Menu_GetCursorPos();
-            FillWindowPixelBuffer(0, PIXEL_FILL(1));
+            FillWindowPixelBuffer(0, PIXEL_FILL(2));
             AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
@@ -1607,7 +1607,7 @@ static void Task_PCMainMenu(u8 taskId)
                 task->tSelectedOption = 0;
             Menu_MoveCursor(1);
             task->tSelectedOption = Menu_GetCursorPos();
-            FillWindowPixelBuffer(0, PIXEL_FILL(1));
+            FillWindowPixelBuffer(0, PIXEL_FILL(2));
             AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
@@ -3986,7 +3986,7 @@ static void LoadDisplayMonGfx(u16 species, u32 pid)
 
 static void PrintDisplayMonInfo(void)
 {
-    FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(1));
+    FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(2));
     if (sStorage->boxOption != OPTION_MOVE_ITEMS)
     {
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, 6, 0, TEXT_SKIP_DRAW, NULL);
@@ -4301,7 +4301,7 @@ static void PrintMessage(u8 id)
     }
 
     DynamicPlaceholderTextUtil_ExpandPlaceholders(sStorage->messageText, sMessages[id].text);
-    FillWindowPixelBuffer(WIN_MESSAGE, PIXEL_FILL(1));
+    FillWindowPixelBuffer(WIN_MESSAGE, PIXEL_FILL(2));
     AddTextPrinterParameterized(WIN_MESSAGE, FONT_NORMAL, sStorage->messageText, 0, 1, TEXT_SKIP_DRAW, NULL);
     DrawTextBorderOuter(WIN_MESSAGE, 2, 14);
     PutWindowTilemap(WIN_MESSAGE);
@@ -9261,7 +9261,7 @@ static void PrintItemDescription(void)
     else
         description = GetItemDescription(sStorage->displayMonItemId);
 
-    FillWindowPixelBuffer(WIN_ITEM_DESC, PIXEL_FILL(1));
+    FillWindowPixelBuffer(WIN_ITEM_DESC, PIXEL_FILL(2));
     AddTextPrinterParameterized5(WIN_ITEM_DESC, FONT_NORMAL, description, 4, 0, 0, NULL, 0, 1);
 }
 

@@ -353,7 +353,6 @@ static const struct BgTemplate sMoveRelearnerMenuBackgroundTemplates[] =
 static void DoMoveRelearnerMain(void);
 static void CreateLearnableMovesList(void);
 static void CreateUISprites(void);
-static void CB2_MoveRelearnerMain(void);
 static void Task_WaitForFadeOut(u8 taskId);
 static void CB2_InitLearnMoveReturnFromSelectMove(void);
 static void InitMoveRelearnerBackgroundLayers(void);
@@ -458,7 +457,7 @@ static void InitMoveRelearnerBackgroundLayers(void)
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
 }
 
-static void CB2_MoveRelearnerMain(void)
+ void CB2_MoveRelearnerMain(void)
 {
     DoMoveRelearnerMain();
     RunTasks();
@@ -645,7 +644,7 @@ static void DoMoveRelearnerMain(void)
     case MENU_STATE_CHOOSE_SETUP_STATE:
         if (!MoveRelearnerRunTextPrinters())
         {
-            FillWindowPixelBuffer(RELEARNERWIN_MSG, 0x11);
+            FillWindowPixelBuffer(RELEARNERWIN_MSG, 2);
             if (sMoveRelearnerMenuState.showContestInfo == FALSE)
             {
                 sMoveRelearnerStruct->state = MENU_STATE_SETUP_BATTLE_MODE;
@@ -795,6 +794,7 @@ static void FreeMoveRelearnerResources(void)
 static void HideHeartSpritesAndShowTeachMoveText(bool8 onlyHideSprites)
 {
     s32 i;
+ const u8 colors[3] = {2,  1,  10};
 
     for (i = 0; i < 16; i++)
         gSprites[sMoveRelearnerStruct->heartSpriteIds[i]].invisible = TRUE;
@@ -802,8 +802,8 @@ static void HideHeartSpritesAndShowTeachMoveText(bool8 onlyHideSprites)
     if (!onlyHideSprites)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
-        FillWindowPixelBuffer(RELEARNERWIN_MSG, 0x11);
-        AddTextPrinterParameterized(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
+        FillWindowPixelBuffer(RELEARNERWIN_MSG, 2);
+        AddTextPrinterParameterized4(RELEARNERWIN_MSG, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
     }
 }
 
@@ -833,8 +833,6 @@ static void HandleInput(bool8 showContest)
             sMoveRelearnerMenuState.showContestInfo = FALSE;
         }
 
-        ScheduleBgCopyTilemapToVram(1);
-        MoveRelearnerShowHideHearts(GetCurrentSelectedMove());
         if (B_SHOW_CATEGORY_ICON == TRUE)
             MoveRelearnerShowHideCategoryIcon(GetCurrentSelectedMove());
 
@@ -870,11 +868,12 @@ static s32 GetCurrentSelectedMove(void)
 // selected and whenever the display mode changes.
 static void ShowTeachMoveText(bool8 shouldDoNothingInstead)
 {
+    const u8 colors[3] = {2,  1,  10};
     if (shouldDoNothingInstead == FALSE)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
-        FillWindowPixelBuffer(RELEARNERWIN_MSG, 0x11);
-        AddTextPrinterParameterized(RELEARNERWIN_MSG, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
+        FillWindowPixelBuffer(RELEARNERWIN_MSG, 2);
+        AddTextPrinterParameterized4(RELEARNERWIN_MSG, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
     }
 }
 

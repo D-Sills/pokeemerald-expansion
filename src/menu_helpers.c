@@ -194,8 +194,29 @@ void CreateYesNoMenuWithCallbacks(u8 taskId, const struct WindowTemplate *templa
     gTasks[taskId].func = Task_CallYesOrNoCallback;
 }
 
+void CreateYesNoMenuWithCallbacksOverride(u8 taskId, const struct WindowTemplate *template, u8 unused1, u8 unused2, u8 unused3, u16 tileStart, u8 palette, const struct YesNoFuncTable *yesNo){
+    gTasks[taskId].func = Task_CallYesOrNoCallbackOverride;
+    CreateYesNoMenuOverride(template, tileStart, palette, 0);
+    sYesNo = *yesNo;
+}
+
 static void Task_CallYesOrNoCallback(u8 taskId)
 {
+    switch (Menu_ProcessInputNoWrapClearOnChoose())
+    {
+    case 0:
+        PlaySE(SE_SELECT);
+        sYesNo.yesFunc(taskId);
+        break;
+    case 1:
+    case MENU_B_PRESSED:
+        PlaySE(SE_SELECT);
+        sYesNo.noFunc(taskId);
+        break;
+    }
+}
+
+void Task_CallYesOrNoCallbackOverride(u8 taskId){
     switch (Menu_ProcessInputNoWrapClearOnChoose())
     {
     case 0:

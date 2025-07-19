@@ -2119,7 +2119,7 @@ static bool32 LoadMapInStepsLink(u8 *state)
     case 4:
         InitCurrentFlashLevelScanlineEffect();
         InitOverworldGraphicsRegisters();
-        InitTextBoxGfxAndPrinters();
+        InitTextBoxGfxAndPrintersOverride();
         (*state)++;
         break;
     case 5:
@@ -2194,7 +2194,7 @@ static bool32 LoadMapInStepsLocal(u8 *state, bool32 a2)
     case 4:
         InitCurrentFlashLevelScanlineEffect();
         InitOverworldGraphicsRegisters();
-        InitTextBoxGfxAndPrinters();
+        InitTextBoxGfxAndPrintersOverride();
         (*state)++;
         break;
     case 5:
@@ -2308,7 +2308,7 @@ static bool32 ReturnToFieldLink(u8 *state)
     case 3:
         InitCurrentFlashLevelScanlineEffect();
         InitOverworldGraphicsRegisters();
-        InitTextBoxGfxAndPrinters();
+        InitTextBoxGfxAndPrintersOverride();
         (*state)++;
         break;
     case 4:
@@ -2388,7 +2388,7 @@ static void InitViewGraphics(void)
 {
     InitCurrentFlashLevelScanlineEffect();
     InitOverworldGraphicsRegisters();
-    InitTextBoxGfxAndPrinters();
+    InitTextBoxGfxAndPrintersOverride();
     InitMapView();
 }
 

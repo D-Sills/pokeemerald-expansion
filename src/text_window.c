@@ -111,6 +111,11 @@ void LoadUserWindowBorderGfx_(u8 windowId, u16 destOffset, u8 palOffset)
     LoadUserWindowBorderGfx(windowId, destOffset, palOffset);
 }
 
+void LoadUserWindowBorderGfxOverride(u8 windowId, u16 destOffset, u8 palOffset)
+{
+    LoadWindowGfx(windowId, 2, destOffset, palOffset);
+}
+
 void LoadWindowGfx(u8 windowId, u8 frameId, u16 destOffset, u8 palOffset)
 {
     LoadBgTiles(GetWindowAttribute(windowId, WINDOW_BG), sWindowFrames[frameId].tiles, 0x120, destOffset);

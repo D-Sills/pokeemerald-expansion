@@ -87,7 +87,7 @@ static const struct WindowTemplate sOptionsMenuWinTemplates[] =
         .tilemapTop = 15,
         .width = 26,
         .height = 4,
-        .paletteNum = 1,
+        .paletteNum = 15,
         .baseBlock = 500
     },
     DUMMY_WIN_TEMPLATE
@@ -498,13 +498,14 @@ static void DrawOptionsMenuTexts(void) //left side text
 
 static void DrawDescriptionText(void)
 {
-    u8 color_gray[3];
-    color_gray[0] = TEXT_COLOR_TRANSPARENT;
-    color_gray[1] = TEXT_COLOR_OPTIONS_GRAY_FG;
-    color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_SHADOW;
+    u8 colors[3];
+
+    colors[0] = 2;
+    colors[1] = 1;
+    colors[2] = 10;
         
-    FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(1));
-    AddTextPrinterParameterized4(WIN_DESCRIPTION, FONT_NORMAL, 8, 1, 0, 0, color_gray, TEXT_SKIP_DRAW, OptionTextDescription());
+    FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(2));
+    AddTextPrinterParameterized4(WIN_DESCRIPTION, FONT_NORMAL, 0, 1, 0, 0, colors, TEXT_SKIP_DRAW, OptionTextDescription());
     CopyWindowToVram(WIN_DESCRIPTION, COPYWIN_FULL);
 }
 

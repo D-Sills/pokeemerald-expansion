@@ -1066,7 +1066,7 @@ static void ItemStorage_PrintDescription(s32 id)
     else
         description = ItemStorage_GetMessage(MSG_GO_BACK_TO_PREV);
 
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
     AddTextPrinterParameterized(windowId, FONT_NORMAL, description, 0, 1, 0, NULL);
 }
 
@@ -1098,9 +1098,10 @@ static void ItemStorage_DrawSwapArrow(u8 y, u8 b, u8 speed)
 {
     u8 windowId = sItemStorageMenu->windowIds[ITEMPC_WIN_LIST];
     if (b == 0xFF)
-        FillWindowPixelRect(windowId, PIXEL_FILL(1), 0, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
-    else
+        FillWindowPixelRect(windowId, PIXEL_FILL(2), 0, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
+    else {
         AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, y, 0, 0, sSwapArrowTextColors, speed, gText_SelectorArrow2);
+    }
 }
 
 static void ItemStorage_DrawItemIcon(u16 itemId)
@@ -1215,7 +1216,7 @@ static const u8 *ItemStorage_GetMessage(u16 itemId)
 static void ItemStorage_PrintMessage(const u8 *string)
 {
     u8 windowId = sItemStorageMenu->windowIds[ITEMPC_WIN_MESSAGE];
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
     StringExpandPlaceholders(gStringVar4, string);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
 }

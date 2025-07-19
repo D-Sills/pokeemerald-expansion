@@ -134,6 +134,10 @@ void PrintMoneyAmountInMoneyBox(u8 windowId, int amount, u8 speed)
     PrintMoneyAmount(windowId, CalculateMoneyTextHorizontalPosition(amount), 1, amount, speed);
 }
 
+void PrintMoneyAmountInMoneyBoxOverride(u8 windowId, int amount, u8 speed){
+    PrintMoneyAmountOverride(windowId, 38, 1, amount, speed);
+}
+
 u32 CalculateLeadingSpacesForMoney(u32 numDigits)
 {
     u32 leadingSpaces = CountDigits(INT_MAX) - StringLength(gStringVar1);
@@ -161,10 +165,31 @@ void PrintMoneyAmount(u8 windowId, u8 x, u8 y, int amount, u8 speed)
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, x, y, speed, NULL);
 }
 
+void PrintMoneyAmountOverride(u8 windowId, u8 x, u8 y, int amount, u8 speed){
+    u8 *txtPtr;
+    s32 strLength;
+    ConvertIntToDecimalStringN(gStringVar1, amount, STR_CONV_MODE_LEFT_ALIGN, 6);
+    strLength = 6 - StringLength(gStringVar1);
+    txtPtr = gStringVar4;
+
+    while (strLength-- > 0)
+        *(txtPtr++) = CHAR_SPACER;
+
+    StringExpandPlaceholders(txtPtr, gText_PokedollarVar1);
+    const u8 colors[3] = {2,1,10};
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(11));
+    AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, 0, colors, speed, gStringVar4);
+}
+
 void PrintMoneyAmountInMoneyBoxWithBorder(u8 windowId, u16 tileStart, u8 pallete, int amount)
 {
     DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, tileStart, pallete);
     PrintMoneyAmountInMoneyBox(windowId, amount, 0);
+}
+
+void PrintMoneyAmountInMoneyBoxWithBorderOverride(u8 windowId, u16 tileStart, u8 pallete, int amount){
+    DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, tileStart, pallete);
+    PrintMoneyAmountInMoneyBoxOverride(windowId, amount, 0);
 }
 
 void ChangeAmountInMoneyBox(int amount)
