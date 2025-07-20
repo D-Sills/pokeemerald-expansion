@@ -85,8 +85,6 @@
 #define PYRAMID_BAG_ITEMS_COUNT 10
 #define ROAMER_COUNT 1 // Number of maximum concurrent active roamers
 
-//tx_registered_items_menu
-#define REGISTERED_ITEMS_MAX 10
 
 // Number of facilities for Ranking Hall.
 // 7 facilities for single mode + tower double mode + tower multi mode.
