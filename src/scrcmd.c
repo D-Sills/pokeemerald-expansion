@@ -2541,10 +2541,10 @@ bool8 ScrCmd_dowildbattle(struct ScriptContext *ctx)
 bool8 ScrCmd_pokemart(struct ScriptContext *ctx)
 {
     const void *ptr = (void *)ScriptReadWord(ctx);
-    u16 shopType = ScriptReadHalfword(ctx);
-
     Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
 
+    #ifdef MUDSKIP_SHOP_UI
+    u16 shopType = ScriptReadHalfword(ctx);
     switch (shopType)
     {
     case NEW_SHOP_PRICE_TYPE_VARIABLE:
@@ -2560,7 +2560,11 @@ bool8 ScrCmd_pokemart(struct ScriptContext *ctx)
         NewShop_CreatePokemartMenu(ptr);
         break;
     }
+    #else
+    // Old shop UI
+    CreatePokemartMenu(ptr);
     ScriptContext_Stop();
+    #endif
     return TRUE;
 }
 
@@ -2570,7 +2574,12 @@ bool8 ScrCmd_pokemartdecoration(struct ScriptContext *ctx)
 
     Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
 
+    #ifdef MUDSKIP_SHOP_UI
     NewShop_CreateDecorationShop1Menu(ptr);
+    #else
+    CreateDecorationShop1Menu(ptr);
+    #endif
+    
     ScriptContext_Stop();
     return TRUE;
 }
@@ -2582,7 +2591,11 @@ bool8 ScrCmd_pokemartdecoration2(struct ScriptContext *ctx)
 
     Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
 
+    #ifdef MUDSKIP_SHOP_UI
     NewShop_CreateDecorationShop2Menu(ptr);
+    #else
+    CreateDecorationShop2Menu(ptr);
+    #endif
     ScriptContext_Stop();
     return TRUE;
 }
