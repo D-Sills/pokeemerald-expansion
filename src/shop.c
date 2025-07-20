@@ -214,9 +214,9 @@ static const struct ListMenuTemplate sShopBuyMenuListTemplate =
     .item_X = 8,
     .cursor_X = 0,
     .upText_Y = 1,
-    .cursorPal = 2,
+    .cursorPal = TEXT_COLOR_WHITE,
     .fillValue = 0,
-    .cursorShadowPal = 3,
+    .cursorShadowPal = TEXT_COLOR_LIGHT_GRAY,
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = LIST_NO_MULTIPLE_SCROLL,
@@ -337,9 +337,9 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
 
 static const u8 sShopBuyMenuTextColors[][3] =
 {
-    [COLORID_NORMAL]      = {1, 2, 3},
-    [COLORID_ITEM_LIST]   = {0, 2, 3},
-    [COLORID_GRAY_CURSOR] = {0, 3, 2},
+    [COLORID_NORMAL]      = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY},
+    [COLORID_ITEM_LIST]   = {0, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY},
+    [COLORID_GRAY_CURSOR] = {0, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY},
 };
 
 static u8 CreateShopMenu(u8 martType)
@@ -774,7 +774,7 @@ static void BuyMenuInitWindows(void)
 {
     InitWindows(sShopBuyMenuWindowTemplates);
     DeactivateAllTextPrinters();
-    LoadUserWindowBorderGfx(WIN_MONEY, 1, BG_PLTT_ID(13));
+    LoadUserWindowBorderGfxOverride(WIN_MONEY, 1, BG_PLTT_ID(13));
     LoadMessageBoxGfx(WIN_MONEY, 0xA, BG_PLTT_ID(14));
     PutWindowTilemap(WIN_MONEY);
     PutWindowTilemap(WIN_ITEM_LIST);
@@ -797,7 +797,7 @@ static void BuyMenuDrawGraphics(void)
     BuyMenuDrawMapGraphics();
     BuyMenuCopyMenuBgToBg1TilemapBuffer();
     AddMoneyLabelObject(19, 11);
-    PrintMoneyAmountInMoneyBoxWithBorder(WIN_MONEY, 1, 13, GetMoney(&gSaveBlock1Ptr->money));
+    PrintMoneyAmountInMoneyBoxWithBorderOverride(WIN_MONEY, 1, 13, GetMoney(&gSaveBlock1Ptr->money));
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
@@ -1167,7 +1167,7 @@ static void Task_BuyHowManyDialogueHandleInput(u8 taskId)
 
 static void BuyMenuConfirmPurchase(u8 taskId)
 {
-    CreateYesNoMenuWithCallbacks(taskId, &sShopBuyMenuYesNoWindowTemplates, 1, 0, 0, 1, 13, &sShopPurchaseYesNoFuncs);
+    CreateYesNoMenuWithCallbacksOverride(taskId, &sShopBuyMenuYesNoWindowTemplates, 1, 0, 0, 1, 13, &sShopPurchaseYesNoFuncs);
 }
 
 static void BuyMenuTryMakePurchase(u8 taskId)
@@ -1215,7 +1215,7 @@ static void BuyMenuSubtractMoney(u8 taskId)
     IncrementGameStat(GAME_STAT_SHOPPED);
     RemoveMoney(&gSaveBlock1Ptr->money, sShopData->totalCost);
     PlaySE(SE_SHOP);
-    PrintMoneyAmountInMoneyBox(WIN_MONEY, GetMoney(&gSaveBlock1Ptr->money), 0);
+    PrintMoneyAmountInMoneyBoxOverride(WIN_MONEY, GetMoney(&gSaveBlock1Ptr->money), 0);
 
     if (sMartInfo.martType == MART_TYPE_NORMAL)
         gTasks[taskId].func = Task_ReturnToItemListAfterItemPurchase;
@@ -1295,8 +1295,8 @@ static void BuyMenuPrintItemQuantityAndPrice(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
-    FillWindowPixelBuffer(WIN_QUANTITY_PRICE, PIXEL_FILL(1));
-    PrintMoneyAmount(WIN_QUANTITY_PRICE, CalculateMoneyTextHorizontalPosition(sShopData->totalCost), 1, sShopData->totalCost, TEXT_SKIP_DRAW);
+    FillWindowPixelBuffer(WIN_QUANTITY_PRICE, PIXEL_FILL(FILL_WINDOW_PIXEL));
+    PrintMoneyAmountOverride(WIN_QUANTITY_PRICE, CalculateMoneyTextHorizontalPosition(sShopData->totalCost), 1, sShopData->totalCost, TEXT_SKIP_DRAW);
     ConvertIntToDecimalStringN(gStringVar1, tItemCount, STR_CONV_MODE_LEADING_ZEROS, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     BuyMenuPrint(WIN_QUANTITY_PRICE, gStringVar4, 0, 1, 0, COLORID_NORMAL);

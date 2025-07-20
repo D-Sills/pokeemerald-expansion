@@ -1415,7 +1415,7 @@ static void PrintItemSoldAmount(int windowId, int numSold, int moneyEarned)
     ConvertIntToDecimalStringN(gStringVar1, numSold, STR_CONV_MODE_LEADING_ZEROS, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, 0);
-    PrintMoneyAmount(windowId, CalculateMoneyTextHorizontalPosition(moneyEarned), 1, moneyEarned, 0);
+    PrintMoneyAmountOverride(windowId, CalculateMoneyTextHorizontalPosition(moneyEarned), 1, moneyEarned, 0);
 }
 
 static void Task_BagMenu_HandleInput(u8 taskId)

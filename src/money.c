@@ -177,7 +177,7 @@ void PrintMoneyAmountOverride(u8 windowId, u8 x, u8 y, int amount, u8 speed){
 
     StringExpandPlaceholders(txtPtr, gText_PokedollarVar1);
     const u8 colors[3] =  {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(11));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, 0, colors, speed, gStringVar4);
 }
 

@@ -625,7 +625,7 @@ static void InitResetRtcScreenBgAndWindows(void)
     ShowBg(0);
     InitWindows(sWindowTemplates);
     DeactivateAllTextPrinters();
-    LoadMessageBoxAndBorderGfx();
+    LoadMessageBoxAndBorderGfxOverride();
 }
 
 static void CB2_ResetRtcScreen(void)

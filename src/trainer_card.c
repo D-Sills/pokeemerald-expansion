@@ -904,7 +904,7 @@ static void InitBgsAndWindows(void)
     ChangeBgY(3, 0, BG_COORD_SET);
     InitWindows(sTrainerCardWindowTemplates);
     DeactivateAllTextPrinters();
-    LoadMessageBoxAndBorderGfx();
+    LoadMessageBoxAndBorderGfxOverride();
 }
 
 static void SetTrainerCardCb2(void)

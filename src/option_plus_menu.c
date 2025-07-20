@@ -430,7 +430,6 @@ static u8 MenuItemCancel(void)
 // Main code
 static void MainCB2(void)
 {
-    LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
     RunTasks();
     AnimateSprites();
     BuildOamBuffer();
@@ -580,6 +579,7 @@ static void HighlightOptionsMenuItem(void)
 
 static bool8 OptionsMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spritesheets, and palettes
 {
+    LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
     switch (sOptions->gfxLoadState)
     {
     case 0:

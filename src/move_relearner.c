@@ -645,7 +645,7 @@ static void DoMoveRelearnerMain(void)
     case MENU_STATE_CHOOSE_SETUP_STATE:
         if (!MoveRelearnerRunTextPrinters())
         {
-            FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
+            //FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
             if (sMoveRelearnerMenuState.showContestInfo == FALSE)
             {
                 sMoveRelearnerStruct->state = MENU_STATE_SETUP_BATTLE_MODE;
@@ -816,7 +816,7 @@ static void HideHeartSpritesAndShowTeachMoveText(bool8 onlyHideSprites)
     if (!onlyHideSprites)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
-        FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
+        //FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
         AddTextPrinterParameterized4(RELEARNERWIN_MSG, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
     }
 }
@@ -832,19 +832,19 @@ static void HandleInput(bool8 showContest)
         if (!(JOY_NEW(DPAD_LEFT | DPAD_RIGHT)) && !GetLRKeysPressed())
             break;
 
-        PlaySE(SE_SELECT);
+        //PlaySE(SE_SELECT);
 
         if (showContest == FALSE)
         {
-            PutWindowTilemap(RELEARNERWIN_DESC_CONTEST);
-            sMoveRelearnerStruct->state = MENU_STATE_SETUP_CONTEST_MODE;
-            sMoveRelearnerMenuState.showContestInfo = TRUE;
+            //PutWindowTilemap(RELEARNERWIN_DESC_CONTEST);
+            //sMoveRelearnerStruct->state = MENU_STATE_SETUP_CONTEST_MODE;
+            //sMoveRelearnerMenuState.showContestInfo = TRUE;
         }
         else
         {
-            PutWindowTilemap(RELEARNERWIN_DESC_BATTLE);
-            sMoveRelearnerStruct->state = MENU_STATE_SETUP_BATTLE_MODE;
-            sMoveRelearnerMenuState.showContestInfo = FALSE;
+            //PutWindowTilemap(RELEARNERWIN_DESC_BATTLE);
+            //sMoveRelearnerStruct->state = MENU_STATE_SETUP_BATTLE_MODE;
+            //sMoveRelearnerMenuState.showContestInfo = FALSE;
         }
 
         if (B_SHOW_CATEGORY_ICON == TRUE)
@@ -886,7 +886,7 @@ static void ShowTeachMoveText(bool8 shouldDoNothingInstead)
     if (shouldDoNothingInstead == FALSE)
     {
         StringExpandPlaceholders(gStringVar4, gText_TeachWhichMoveToPkmn);
-        FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
+        //FillWindowPixelBuffer(RELEARNERWIN_MSG, FILL_WINDOW_PIXEL);
         AddTextPrinterParameterized4(RELEARNERWIN_MSG, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
     }
 }
@@ -921,8 +921,8 @@ static void CreateUISprites(void)
 
 static void AddScrollArrows(void)
 {
-    if (sMoveRelearnerStruct->moveDisplayArrowTask == TASK_NONE)
-        sMoveRelearnerStruct->moveDisplayArrowTask = AddScrollIndicatorArrowPair(&sDisplayModeArrowsTemplate, &sMoveRelearnerStruct->scrollOffset);
+    //if (sMoveRelearnerStruct->moveDisplayArrowTask == TASK_NONE)
+       // sMoveRelearnerStruct->moveDisplayArrowTask = AddScrollIndicatorArrowPair(&sDisplayModeArrowsTemplate, &sMoveRelearnerStruct->scrollOffset);
 
     if (sMoveRelearnerStruct->moveListScrollArrowTask == TASK_NONE)
     {

@@ -1943,7 +1943,7 @@ static void MoveSelectionDisplayMoveDescription(u32 battler)
     StringAppend(gDisplayedStringBattle, GetMoveDescription(move));
 
     // Draw the main description box with a border
-    LoadMessageBoxAndBorderGfx();
+    LoadMessageBoxAndBorderGfxOverride();
     DrawStdWindowFrame(B_WIN_MOVE_DESCRIPTION, FALSE);
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_DESCRIPTION);
     CopyWindowToVram(B_WIN_MOVE_DESCRIPTION, COPYWIN_FULL);

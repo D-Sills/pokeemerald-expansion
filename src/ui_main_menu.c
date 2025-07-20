@@ -521,7 +521,7 @@ static bool8 MainMenu_DoGfxSetup(void)
             gMain.state++;
         break;
     case 4:
-        LoadMessageBoxAndBorderGfx();
+        LoadMessageBoxAndBorderGfxOverride();
         MainMenu_InitWindows();
         gMain.state++;
         break;

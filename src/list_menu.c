@@ -591,9 +591,9 @@ static void ListMenuPrint(struct ListMenu *list, const u8 *str, u8 x, u8 y)
         u32 fontId = gListMenuOverride.fontId;
         if (list->template.textNarrowWidth)
             fontId = GetFontIdToFit(str, fontId, gListMenuOverride.lettersSpacing, list->template.textNarrowWidth);
-        colors[0] = gListMenuOverride.fillValue;
-        colors[1] = gListMenuOverride.cursorPal;
-        colors[2] = gListMenuOverride.cursorShadowPal;
+        colors[0] = list->template.fillValue;
+        colors[1] = list->template.cursorPal;
+        colors[2] = list->template.cursorShadowPal;
         AddTextPrinterParameterized4(list->template.windowId,
                                      fontId,
                                      x, y,

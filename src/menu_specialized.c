@@ -180,9 +180,9 @@ static const struct ListMenuTemplate sMoveRelearnerMovesListTemplate =
     .item_X = 8,
     .cursor_X = 0,
     .upText_Y = 1,
-    .cursorPal = 2,
-    .fillValue = 1,
-    .cursorShadowPal = 3,
+    .cursorPal = TEXT_COLOR_WHITE,
+    .fillValue = FILL_WINDOW_PIXEL,
+    .cursorShadowPal = TEXT_COLOR_LIGHT_GRAY,
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = LIST_NO_MULTIPLE_SCROLL,
@@ -714,8 +714,8 @@ void InitMoveRelearnerWindows(bool8 useContestWindow)
     for (i = 0; i < ARRAY_COUNT(sMoveRelearnerWindowTemplates) - 1; i++)
         FillWindowPixelBuffer(i, PIXEL_FILL(FILL_WINDOW_PIXEL));
 
-    FillWindowPixelBuffer(RELEARNERWIN_DESC_BATTLE, PIXEL_FILL(FILL_WINDOW_PIXEL));
-    FillWindowPixelBuffer(RELEARNERWIN_MSG, PIXEL_FILL(FILL_WINDOW_PIXEL));
+    //FillWindowPixelBuffer(RELEARNERWIN_DESC_BATTLE, PIXEL_FILL(FILL_WINDOW_PIXEL));
+    
 
     if (!useContestWindow)
     {
@@ -727,10 +727,15 @@ void InitMoveRelearnerWindows(bool8 useContestWindow)
         PutWindowTilemap(RELEARNERWIN_DESC_CONTEST);
         DrawStdFrameWithCustomTileAndPalette(RELEARNERWIN_DESC_CONTEST, FALSE, 1, 0xE);
     }
+   //FillWindowPixelBuffer(RELEARNERWIN_MSG, PIXEL_FILL(FILL_WINDOW_PIXEL));
+    
     PutWindowTilemap(RELEARNERWIN_MOVE_LIST);
-    PutWindowTilemap(RELEARNERWIN_MSG);
+     //FillWindowPixelBuffer(RELEARNERWIN_MOVE_LIST, PIXEL_FILL(FILL_WINDOW_PIXEL));
     DrawStdFrameWithCustomTileAndPalette(RELEARNERWIN_MOVE_LIST, FALSE, 1, 0xE);
+
+    PutWindowTilemap(RELEARNERWIN_MSG);
     DrawStdFrameWithCustomTileAndPalette(RELEARNERWIN_MSG, FALSE, 1, 0xE);
+    
     MoveRelearnerDummy();
     ScheduleBgCopyTilemapToVram(1);
 }
@@ -861,7 +866,7 @@ static void MoveRelearnerCursorCallback(s32 itemIndex, bool8 onInit, struct List
     if (onInit != TRUE)
         PlaySE(SE_SELECT);
     MoveRelearnerLoadBattleMoveDescription(itemIndex);
-    MoveRelearnerMenuLoadContestMoveDescription(itemIndex);
+    //MoveRelearnerMenuLoadContestMoveDescription(itemIndex);
 }
 
 void MoveRelearnerPrintMessage(u8 *str)
@@ -871,7 +876,7 @@ void MoveRelearnerPrintMessage(u8 *str)
     FillWindowPixelBuffer(RELEARNERWIN_MSG, PIXEL_FILL(FILL_WINDOW_PIXEL));
     gTextFlags.canABSpeedUpPrint = TRUE;
     speed = GetPlayerTextSpeedDelay();
-    AddTextPrinterParameterized2(RELEARNERWIN_MSG, FONT_NORMAL, str, speed, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    AddTextPrinterParameterized2(RELEARNERWIN_MSG, FONT_NORMAL, str, speed, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
 }
 
 bool16 MoveRelearnerRunTextPrinters(void)
@@ -882,7 +887,7 @@ bool16 MoveRelearnerRunTextPrinters(void)
 
 void MoveRelearnerCreateYesNoMenu(void)
 {
-    CreateYesNoMenu(&sMoveRelearnerYesNoMenuTemplate, 1, 0xE, 0);
+    CreateYesNoMenuOverride(&sMoveRelearnerYesNoMenuTemplate, 1, 14, 0);
 }
 
 //----------------
