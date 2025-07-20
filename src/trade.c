@@ -2212,7 +2212,7 @@ static void DoQueuedActions(void)
 
 static void PrintTradeMessage(u8 messageId)
 {
-    FillWindowPixelBuffer(0, PIXEL_FILL(2));
+    FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
     AddTextPrinterParameterized(0, FONT_NORMAL, sMessages[messageId], 0, 1, TEXT_SKIP_DRAW, NULL);
     DrawTextBorderOuter(0, 20, 12);
     PutWindowTilemap(0);

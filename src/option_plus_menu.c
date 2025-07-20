@@ -430,6 +430,7 @@ static u8 MenuItemCancel(void)
 // Main code
 static void MainCB2(void)
 {
+    LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
     RunTasks();
     AnimateSprites();
     BuildOamBuffer();
@@ -498,13 +499,9 @@ static void DrawOptionsMenuTexts(void) //left side text
 
 static void DrawDescriptionText(void)
 {
-    u8 colors[3];
-
-    colors[0] = 2;
-    colors[1] = 1;
-    colors[2] = 10;
+    u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
         
-    FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(2));
+    FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(FILL_WINDOW_PIXEL));
     AddTextPrinterParameterized4(WIN_DESCRIPTION, FONT_NORMAL, 0, 1, 0, 0, colors, TEXT_SKIP_DRAW, OptionTextDescription());
     CopyWindowToVram(WIN_DESCRIPTION, COPYWIN_FULL);
 }

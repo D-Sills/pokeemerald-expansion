@@ -234,7 +234,7 @@ static const struct MenuAction sItemStorage_MenuActions[] =
 
 static const u16 sNewGamePCItems[][2] =
 {
-    { ITEM_POTION, 1 },
+    { ITEM_NONE, 0 },
     { ITEM_NONE, 0 }
 };
 
@@ -371,14 +371,28 @@ void NewGameInitPCItems(void)
     u8 i = 0;
     ClearItemSlots(gSaveBlock1Ptr->pcItems, PC_ITEMS_COUNT);
 
-    while (TRUE)
-    {
-        if (sNewGamePCItems[i][0] == ITEM_NONE || sNewGamePCItems[i][1] == 0)
-            break;
-        if (AddPCItem(sNewGamePCItems[i][0], sNewGamePCItems[i][1]) != TRUE)
-            break;
-        i++;
-    }
+     //while (TRUE)
+
+
+    //{
+
+
+    //    if (sNewGamePCItems[i][0] == ITEM_NONE || sNewGamePCItems[i][1] == 0)
+
+
+    //        break;
+
+
+    //    if (AddPCItem(sNewGamePCItems[i][0], sNewGamePCItems[i][1]) != TRUE)
+
+
+    //        break;
+
+
+    //    i++;
+
+
+    //}
 }
 
 void BedroomPC(void)
@@ -1066,7 +1080,7 @@ static void ItemStorage_PrintDescription(s32 id)
     else
         description = ItemStorage_GetMessage(MSG_GO_BACK_TO_PREV);
 
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     AddTextPrinterParameterized(windowId, FONT_NORMAL, description, 0, 1, 0, NULL);
 }
 
@@ -1098,7 +1112,7 @@ static void ItemStorage_DrawSwapArrow(u8 y, u8 b, u8 speed)
 {
     u8 windowId = sItemStorageMenu->windowIds[ITEMPC_WIN_LIST];
     if (b == 0xFF)
-        FillWindowPixelRect(windowId, PIXEL_FILL(2), 0, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
+        FillWindowPixelRect(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), 0, y, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), GetMenuCursorDimensionByFont(FONT_NORMAL, 1));
     else {
         AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, y, 0, 0, sSwapArrowTextColors, speed, gText_SelectorArrow2);
     }
@@ -1216,7 +1230,7 @@ static const u8 *ItemStorage_GetMessage(u16 itemId)
 static void ItemStorage_PrintMessage(const u8 *string)
 {
     u8 windowId = sItemStorageMenu->windowIds[ITEMPC_WIN_MESSAGE];
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     StringExpandPlaceholders(gStringVar4, string);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, 0, NULL);
 }

@@ -429,7 +429,7 @@ static void Task_TryBecomeLinkLeader(u8 taskId)
         }
         data->nPlayerModeWindowId = AddWindow(&sWindowTemplate_NumPlayerMode);
 
-        FillWindowPixelBuffer(data->bButtonCancelWindowId, PIXEL_FILL(2));
+        FillWindowPixelBuffer(data->bButtonCancelWindowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
         PrintUnionRoomText(data->bButtonCancelWindowId, FONT_SMALL, sText_BButtonCancel, 8, 1, UR_COLOR_CANCEL);
         PutWindowTilemap(data->bButtonCancelWindowId);
         CopyWindowToVram(data->bButtonCancelWindowId, COPYWIN_GFX);
@@ -1011,7 +1011,7 @@ static void Task_TryJoinLinkGroup(u8 taskId)
         data->listWindowId = AddWindow(&sWindowTemplate_GroupList);
         data->playerNameAndIdWindowId = AddWindow(&sWindowTemplate_PlayerNameAndId);
 
-        FillWindowPixelBuffer(data->bButtonCancelWindowId, PIXEL_FILL(2));
+        FillWindowPixelBuffer(data->bButtonCancelWindowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
         PrintUnionRoomText(data->bButtonCancelWindowId, FONT_SMALL, sText_ChooseJoinCancel, 8, 1, UR_COLOR_CANCEL);
         PutWindowTilemap(data->bButtonCancelWindowId);
         CopyWindowToVram(data->bButtonCancelWindowId, COPYWIN_GFX);

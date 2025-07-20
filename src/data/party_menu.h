@@ -136,8 +136,8 @@ static const u8 sFontColorTable[][3] =
     {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY, TEXT_COLOR_DARK_GRAY},  // Default
     {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_GREEN},      // Unused
     {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_2,  TEXT_DYNAMIC_COLOR_3},  // Gender symbol
-    {TEXT_COLOR_WHITE,       TEXT_COLOR_DARK_GRAY,  TEXT_COLOR_LIGHT_GRAY}, // Selection actions
-    {TEXT_COLOR_WHITE,       TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_BLUE}, // Field moves
+    {TEXT_COLOR_DARK_GRAY,       TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY}, // Selection actions
+    {TEXT_COLOR_DARK_GRAY,       TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_BLUE}, // Field moves
     {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_DARK_GRAY},  // Unused
 };
 
@@ -542,7 +542,7 @@ static const struct WindowTemplate sDefaultPartyMsgWindowTemplate =
     .tilemapTop = 17,
     .width = 21,
     .height = 2,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x24F,
 };
 
@@ -553,7 +553,7 @@ static const struct WindowTemplate sDoWhatWithMonMsgWindowTemplate =
     .tilemapTop = 17,
     .width = 16,
     .height = 2,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x279,
 };
 
@@ -564,7 +564,7 @@ static const struct WindowTemplate sDoWhatWithItemMsgWindowTemplate =
     .tilemapTop = 17,
     .width = 20,
     .height = 2,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x299,
 };
 
@@ -575,7 +575,7 @@ static const struct WindowTemplate sDoWhatWithMailMsgWindowTemplate =
     .tilemapTop = 17,
     .width = 18,
     .height = 2,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x299,
 };
 
@@ -586,7 +586,7 @@ static const struct WindowTemplate sWhichMoveMsgWindowTemplate =
     .tilemapTop = 17,
     .width = 16,
     .height = 2,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x299,
 };
 
@@ -597,7 +597,7 @@ static const struct WindowTemplate sAlreadyHoldingOneMsgWindowTemplate =
     .tilemapTop = 15,
     .width = 20,
     .height = 4,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x299,
 };
 
@@ -608,7 +608,7 @@ static const struct WindowTemplate sOrderWhichApplianceMsgWindowTemplate =
     .tilemapTop = 15,
     .width = 14,
     .height = 4,
-    .paletteNum = 15,
+    .paletteNum = 14,
     .baseBlock = 0x299,
 };
 

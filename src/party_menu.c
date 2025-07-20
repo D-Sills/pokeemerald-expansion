@@ -2417,7 +2417,7 @@ static void CreateCancelConfirmWindows(bool8 chooseHalf)
             cancelWindowId = AddWindow(&sCancelButtonWindowTemplate);
             offset = 3;
         }
-        FillWindowPixelBuffer(cancelWindowId, PIXEL_FILL(2));
+        FillWindowPixelBuffer(cancelWindowId, PIXEL_FILL(0));
 
         // Branches are functionally identical. Second branch is never reached, Spin Trade wasnt fully implemented
         if (gPartyMenu.menuType != PARTY_MENU_TYPE_SPIN_TRADE)
@@ -2850,10 +2850,10 @@ void DisplayPartyMenuStdMessage(u32 stringId)
                 stringId = PARTY_MSG_NO_POKEMON;
         }
 
-        const u8 colors[3] = {2,  1,  10};
+        const u8 colors[3] =  {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
 
         DrawStdFrameWithCustomTileAndPalette(*windowPtr, FALSE, 0x4F, 13);
-        FillWindowPixelBuffer(*windowPtr, PIXEL_FILL(2));
+        FillWindowPixelBuffer(*windowPtr, PIXEL_FILL(FILL_WINDOW_PIXEL));
         StringExpandPlaceholders(gStringVar4, sActionStringTable[stringId]);
         AddTextPrinterParameterized4(*windowPtr, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
         ScheduleBgCopyTilemapToVram(2);
@@ -2910,11 +2910,12 @@ static u8 DisplaySelectionWindow(u8 windowType)
 
     sPartyMenuInternal->windowId[0] = AddWindow(&window);
     DrawStdFrameWithCustomTileAndPalette(sPartyMenuInternal->windowId[0], FALSE, 0x4F, 13);
+    
     if (windowType == SELECTWINDOW_MOVES)
         return sPartyMenuInternal->windowId[0];
     cursorDimension = GetMenuCursorDimensionByFont(FONT_NORMAL, 0);
     letterSpacing = GetFontAttribute(FONT_NORMAL, FONTATTR_LETTER_SPACING);
-
+    
     for (i = 0; i < sPartyMenuInternal->numActions; i++)
     {
         const u8 *text;
@@ -2924,11 +2925,14 @@ static u8 DisplaySelectionWindow(u8 windowType)
         else
             text = sCursorOptions[sPartyMenuInternal->actions[i]].text;
 
+        //FillWindowPixelBuffer(sPartyMenuInternal->windowId[0], PIXEL_FILL(FILL_WINDOW_PIXEL));
         AddTextPrinterParameterized4(sPartyMenuInternal->windowId[0], FONT_NORMAL, cursorDimension, (i * 16) + 1, letterSpacing, 0, sFontColorTable[fontColorsId], 0, text);
     }
 
     InitMenuInUpperLeftCorner(sPartyMenuInternal->windowId[0], sPartyMenuInternal->numActions, 0, TRUE);
     ScheduleBgCopyTilemapToVram(2);
+
+   
 
     return sPartyMenuInternal->windowId[0];
 }
@@ -2936,13 +2940,14 @@ static u8 DisplaySelectionWindow(u8 windowType)
 static void PrintMessage(const u8 *text)
 {
     DrawStdFrameWithCustomTileAndPalette(WIN_MSG, FALSE, 0x4F, 13);
+    FillWindowPixelBuffer(WIN_MSG, PIXEL_FILL(FILL_WINDOW_PIXEL));
     gTextFlags.canABSpeedUpPrint = TRUE;
-    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, text, GetPlayerTextSpeedDelay(), 0, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+    AddTextPrinterParameterized2(WIN_MSG, FONT_NORMAL, text, GetPlayerTextSpeedDelay(), 0, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
 }
 
 static void PartyMenuDisplayYesNoMenu(void)
 {
-    CreateYesNoMenu(&sPartyMenuYesNoWindowTemplate, 0x4F, 13, 0);
+    CreateYesNoMenuOverride(&sPartyMenuYesNoWindowTemplate, 0x4F, 13, 0);
 }
 
 static u8 CreateLevelUpStatsWindow(void)

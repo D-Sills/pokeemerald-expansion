@@ -252,6 +252,8 @@
 #define TEXT_DYNAMIC_COLOR_5    0xE // Usually blue-green
 #define TEXT_DYNAMIC_COLOR_6    0xF // Usually cerulean
 
+#define FILL_WINDOW_PIXEL 0x2 // Fills the window with the pixel value 0xFF
+
 #define PLACEHOLDER_ID_UNKNOWN       0x0
 #define PLACEHOLDER_ID_PLAYER        0x1
 #define PLACEHOLDER_ID_STRING_VAR_1  0x2

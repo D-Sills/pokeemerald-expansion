@@ -3121,7 +3121,7 @@ static void ShowBattleFrontierTutorMoveDescription(u8 menu, u16 selection)
 
     if (menu == SCROLL_MULTI_BF_MOVE_TUTOR_1 || menu == SCROLL_MULTI_BF_MOVE_TUTOR_2)
     {
-        FillWindowPixelRect(sTutorMoveAndElevatorWindowId, PIXEL_FILL(2), 0, 0, 96, 48);
+        FillWindowPixelRect(sTutorMoveAndElevatorWindowId, PIXEL_FILL(FILL_WINDOW_PIXEL), 0, 0, 96, 48);
         if (menu == SCROLL_MULTI_BF_MOVE_TUTOR_2)
             AddTextPrinterParameterized(sTutorMoveAndElevatorWindowId, FONT_NORMAL, sBattleFrontier_TutorMoveDescriptions2[selection], 0, 1, 0, NULL);
         else

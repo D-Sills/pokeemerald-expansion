@@ -510,10 +510,10 @@ static void TxRegItemsMenu_PrintSwappingCursor(u8 y, u8 b, u8 speed)
     u8 x = 40;
     u8 windowId = gTxRegItemsMenu->windowIds[0];
     if (b == 0xFF) {
-        FillWindowPixelRect(windowId, PIXEL_FILL(2), x, y, GetMenuCursorDimensionByFont(1, 0), GetMenuCursorDimensionByFont(1, 1));
+        FillWindowPixelRect(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), x, y, GetMenuCursorDimensionByFont(1, 0), GetMenuCursorDimensionByFont(1, 1));
     }
     else {
-        u8 colors[3] = {2, 1, 10};
+        u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
         AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, gColor_gray, speed, gText_SelectorArrow2);
     }
 }

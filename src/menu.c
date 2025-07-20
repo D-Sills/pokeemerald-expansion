@@ -368,7 +368,7 @@ static inline void *GetWindowFunc_DialogueFrame(void)
 void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, GetWindowFunc_DialogueFrame());
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -377,7 +377,7 @@ void DrawDialogueFrame(u8 windowId, bool8 copyToVram)
 void DrawDialogueFrameWithNameplate(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, WindowFunc_DrawDialogueFrameWithPlate);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE) {
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -388,7 +388,7 @@ void DrawDialogueFrameWithNameplate(u8 windowId, bool8 copyToVram)
 void DrawStdWindowFrame(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, WindowFunc_DrawStandardFrame);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -397,7 +397,7 @@ void DrawStdWindowFrame(u8 windowId, bool8 copyToVram)
 void ClearDialogWindowAndFrame(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, WindowFunc_ClearDialogWindowAndFrame);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     ClearWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -406,7 +406,7 @@ void ClearDialogWindowAndFrame(u8 windowId, bool8 copyToVram)
 void ClearStdWindowAndFrame(u8 windowId, bool8 copyToVram)
 {
     CallWindowFunction(windowId, WindowFunc_ClearStdWindowAndFrame);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(2));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     ClearWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -691,7 +691,7 @@ void DrawDialogFrameWithCustomTileAndPalette(u8 windowId, bool8 copyToVram, u16 
     sTileNum = tileNum;
     sPaletteNum = paletteNum;
     CallWindowFunction(windowId, WindowFunc_DrawDialogFrameWithCustomTileAndPalette);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -702,7 +702,7 @@ static void UNUSED DrawDialogFrameWithCustomTile(u8 windowId, bool8 copyToVram, 
     sTileNum = tileNum;
     sPaletteNum = GetWindowAttribute(windowId, WINDOW_PALETTE_NUM);
     CallWindowFunction(windowId, WindowFunc_DrawDialogFrameWithCustomTileAndPalette);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -747,7 +747,7 @@ void DrawStdFrameWithCustomTileAndPalette(u8 windowId, bool8 copyToVram, u16 bas
     sTileNum = baseTileNum;
     sPaletteNum = paletteNum;
     CallWindowFunction(windowId, WindowFunc_DrawStdFrameWithCustomTileAndPalette);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -759,7 +759,7 @@ void DrawStdFrameWithCustomTile(u8 windowId, bool8 copyToVram, u16 baseTileNum)
     sTileNum = baseTileNum;
     sPaletteNum = GetWindowAttribute(windowId, WINDOW_PALETTE_NUM);
     CallWindowFunction(windowId, WindowFunc_DrawStdFrameWithCustomTileAndPalette);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(FILL_WINDOW_PIXEL));
     PutWindowTilemap(windowId);
     if (copyToVram == TRUE)
         CopyWindowToVram(windowId, COPYWIN_FULL);
@@ -1000,12 +1000,12 @@ void RedrawMenuCursor(u8 oldPos, u8 newPos)
     height = GetMenuCursorDimensionByFont(sMenu.fontId, 1);
 
     if(gMain.callback2 == CB2_UpdatePartyMenu || gMain.callback2 == CB2_MoveRelearnerMain || (FindTaskIdByFunc(Task_CallYesOrNoCallbackOverride) != TASK_NONE)) {
-        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(2), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
-        const u8 colors[3] = {2, 1, 10};
+        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
+        const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
         AddTextPrinterParameterized4(sMenu.windowId, sMenu.fontId, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0, colors, 0, gText_SelectorArrow3);
     } else {
-        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(2), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
-        const u8 colors[3] = {2, 1, 10};
+        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), sMenu.left, sMenu.optionHeight * oldPos + sMenu.top, width, height);
+        const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
         AddTextPrinterParameterized4(sMenu.windowId, sMenu.fontId, sMenu.left, sMenu.optionHeight * newPos + sMenu.top, 0, 0, colors, 0, gText_SelectorArrow3);
     }
 }
@@ -1216,9 +1216,9 @@ void PrintMenuActionTextsOverride(u8 windowId, u8 fontId, u8 left, u8 top, u8 le
     struct TextPrinterTemplate printer;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.fgColor = 1;
-    printer.bgColor = 2;
-    printer.shadowColor = 10;
+    printer.fgColor = TEXT_COLOR_WHITE;
+    printer.bgColor = TEXT_COLOR_DARK_GRAY;
+    printer.shadowColor = TEXT_COLOR_LIGHT_GRAY;
 
     printer.unk = GetFontAttribute(fontId, FONTATTR_UNKNOWN);
     printer.letterSpacing = letterSpacing;
@@ -1365,9 +1365,9 @@ void PrintMenuActionGridOverride(u8 windowId, u8 fontId, u8 left, u8 top, u8 opt
     struct TextPrinterTemplate printer;
     printer.windowId = windowId;
     printer.fontId = fontId;
-    printer.fgColor = 1;
-    printer.bgColor = 2;
-    printer.shadowColor = 10;
+    printer.fgColor = TEXT_COLOR_WHITE;
+    printer.bgColor = TEXT_COLOR_DARK_GRAY;
+    printer.shadowColor = TEXT_COLOR_LIGHT_GRAY;
     printer.unk = GetFontAttribute(fontId, FONTATTR_UNKNOWN);
     printer.letterSpacing = GetFontAttribute(fontId, FONTATTR_LETTER_SPACING);
     printer.lineSpacing = GetFontAttribute(fontId, FONTATTR_LINE_SPACING);
@@ -1438,22 +1438,23 @@ static void MoveMenuGridCursor(u8 oldCursorPos, u8 newCursorPos)
     u8 xPos = (oldCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     u8 yPos = (oldCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
      if(gMain.callback2 == CB2_MoveRelearnerMain || (FindTaskIdByFunc(Task_CallYesOrNoCallbackOverride) != TASK_NONE)){
-        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(2), xPos, yPos, cursorWidth, cursorHeight);
+        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), xPos, yPos, cursorWidth, cursorHeight);
     }
     else
     {
-        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(2), xPos, yPos, cursorWidth, cursorHeight);
+        FillWindowPixelRect(sMenu.windowId, PIXEL_FILL(FILL_WINDOW_PIXEL), xPos, yPos, cursorWidth, cursorHeight);
     }
 
     xPos = (newCursorPos % sMenu.columns) * sMenu.optionWidth + sMenu.left;
     yPos = (newCursorPos / sMenu.columns) * sMenu.optionHeight + sMenu.top;
      if(gMain.callback2 == CB2_MoveRelearnerMain || (FindTaskIdByFunc(Task_CallYesOrNoCallbackOverride) != TASK_NONE))
     {
-        AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0);
+        const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
+        AddTextPrinterParameterized4(sMenu.windowId, sMenu.fontId, xPos, yPos, 0, 0, colors, 0, gText_SelectorArrow3);
     }
     else
     {
-        const u8 colors[3] = {2, 1, 10};
+        const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
         AddTextPrinterParameterized4(sMenu.windowId, sMenu.fontId, xPos, yPos, 0, 0, colors, 0, gText_SelectorArrow3);
     }
 }
@@ -1720,9 +1721,9 @@ u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u8 itemCount, u8 initialCursorPo
 void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActions)
 {
     u32 i;
-
+    const u8 color[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
     for (i = 0; i < itemCount; i++)
-        AddTextPrinterParameterized(windowId, FONT_NORMAL, menuActions[i].text, 8, (i * 16) + 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized4(windowId, FONT_NORMAL, 8, (i * 16) + 1, 0, 0, color, TEXT_SKIP_DRAW, menuActions[i].text);
 
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
@@ -1794,9 +1795,9 @@ void CreateYesNoMenuOverride(const struct WindowTemplate *window, u16 baseTileNu
     printer.y = 1;
     printer.currentX = printer.x;
     printer.currentY = printer.y;
-    printer.fgColor = 1;
-    printer.bgColor = 2;
-    printer.shadowColor = 10;
+    printer.fgColor = TEXT_COLOR_WHITE;
+    printer.bgColor = TEXT_COLOR_DARK_GRAY;
+    printer.shadowColor = TEXT_COLOR_LIGHT_GRAY;
     printer.unk = GetFontAttribute(FONT_NORMAL, FONTATTR_UNKNOWN);
     printer.letterSpacing = 0;
     printer.lineSpacing = 0;
