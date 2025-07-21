@@ -204,7 +204,7 @@ static const struct MenuAction sPlayerPCMenuActions[] =
     [MENU_ITEMSTORAGE] = { COMPOUND_STRING("ITEM STORAGE"), {PlayerPC_ItemStorage} },
     [MENU_MAILBOX]     = { sText_Mailbox,                   {PlayerPC_Mailbox} },
     [MENU_DECORATION]  = { COMPOUND_STRING("DECORATION"),   {PlayerPC_Decoration} },
-    [MENU_TURNOFF]     = { COMPOUND_STRING("TURN OFF"),     {PlayerPC_TurnOff} }
+    [MENU_TURNOFF]     = { COMPOUND_STRING("EXIT"),     {PlayerPC_TurnOff} }
 };
 
 static const u8 sBedroomPC_OptionOrder[] =
@@ -549,7 +549,8 @@ static void InitItemStorageMenu(u8 taskId, u8 var)
 static void ItemStorageMenuPrint(const u8 *textPtr)
 {
     DrawDialogueFrame(0, FALSE);
-    AddTextPrinterParameterized(0, FONT_NORMAL, textPtr, 0, 1, 0, 0);
+    const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
+    AddTextPrinterParameterized4(0, FONT_NORMAL, 0, 1, 0, 0, colors, TEXT_SKIP_DRAW, textPtr);
 }
 
 static void ItemStorageMenuProcessInput(u8 taskId)
@@ -1030,6 +1031,9 @@ void ItemStorage_RefreshListMenu(void)
     gMultiuseListMenuTemplate.totalItems = gPlayerPCItemPageInfo.count;
     gMultiuseListMenuTemplate.items = sItemStorageMenu->listItems;
     gMultiuseListMenuTemplate.maxShowed = gPlayerPCItemPageInfo.pageItems;
+    gMultiuseListMenuTemplate.fillValue = FILL_WINDOW_PIXEL;
+    gMultiuseListMenuTemplate.cursorPal = TEXT_COLOR_WHITE;
+    gMultiuseListMenuTemplate.cursorShadowPal = TEXT_COLOR_LIGHT_GRAY;
 }
 
 void CopyItemName_PlayerPC(u8 *string, u16 itemId)
@@ -1065,6 +1069,8 @@ static void ItemStorage_PrintMenuItem(u8 windowId, u32 id, u8 yOffset)
         }
         ConvertIntToDecimalStringN(gStringVar1, gSaveBlock1Ptr->pcItems[id].quantity, STR_CONV_MODE_RIGHT_ALIGN, 3);
         StringExpandPlaceholders(gStringVar4, gText_xVar1);
+        //const u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
+        //AddTextPrinterParameterized4(windowId, FONT_NORMAL,  GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 104), yOffset, 0, 0, colors, TEXT_SKIP_DRAW, gStringVar4);
         AddTextPrinterParameterized(windowId, FONT_NARROW, gStringVar4, GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 104), yOffset, TEXT_SKIP_DRAW, NULL);
     }
 }

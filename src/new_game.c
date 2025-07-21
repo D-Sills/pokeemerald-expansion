@@ -173,6 +173,11 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->encryptionKey = 0;
     ZeroPlayerPartyMons();
     ZeroEnemyPartyMons();
+    if (GetNationalPokedexCount(FLAG_GET_CAUGHT) < 1) {   
+        ResetPokemonStorageSystem();
+        SetBoxWallpapersToSimple();
+    }
+
     ResetPokedex();
     ClearFrontierRecord();
     ClearSav1();

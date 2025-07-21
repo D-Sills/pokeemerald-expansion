@@ -245,6 +245,7 @@ enum {
     PALTAG_ITEM_ICON_1, // Used implicitly in CreateItemIconSprites
     PALTAG_ITEM_ICON_2, // Used implicitly in CreateItemIconSprites
     PALTAG_MARKING_MENU,
+    PALTAG_BOX_SELECTOR,
 };
 
 enum {
@@ -861,7 +862,7 @@ struct {
     [OPTION_DEPOSIT]    = {COMPOUND_STRING("DEPOSIT POKéMON"),  COMPOUND_STRING("Store POKéMON in your party in BOXES.")},
     [OPTION_MOVE_MONS]  = {COMPOUND_STRING("MOVE POKéMON"),     COMPOUND_STRING("Organize the POKéMON in BOXES and\nin your party.")},
     [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("MOVE ITEMS"),       COMPOUND_STRING("Move items held by any POKéMON\nin a BOX or your party.")},
-    [OPTION_EXIT]       = {COMPOUND_STRING("SEE YA!"),          COMPOUND_STRING("Return to the previous menu.")}
+    [OPTION_EXIT]       = {COMPOUND_STRING("EXIT"),          COMPOUND_STRING("Return to the previous menu.")}
 };
 
 static const struct WindowTemplate sWindowTemplate_MainMenu =
@@ -871,7 +872,7 @@ static const struct WindowTemplate sWindowTemplate_MainMenu =
     .tilemapTop = 1,
     .width = 17,
     .height = 10,
-    .paletteNum = 15,
+    .paletteNum = 10,
     .baseBlock = 0x1,
 };
 
@@ -919,7 +920,7 @@ static const union AffineAnimCmd *const sAffineAnims_ChooseBoxMenu[] =
     sAffineAnim_ChooseBoxMenu
 };
 
-static const u8 sChooseBoxMenu_TextColors[] = {TEXT_COLOR_RED, TEXT_DYNAMIC_COLOR_6, TEXT_DYNAMIC_COLOR_5};
+static const u8 sChooseBoxMenu_TextColors[] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
 static const u8 sText_OutOf30[] = _("/30");
 
 static const u16 sChooseBoxMenu_Pal[]        = INCBIN_U16("graphics/pokemon_storage/box_selection_popup.gbapal");
@@ -952,7 +953,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapTop = 11,
         .width = 9,
         .height = 7,
-        .paletteNum = 3,
+        .paletteNum = 10,
         .baseBlock = 0xC0,
     },
     [WIN_MESSAGE] = {
@@ -961,7 +962,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapTop = 17,
         .width = 18,
         .height = 2,
-        .paletteNum = 15,
+        .paletteNum = 10,
         .baseBlock = 0x14,
     },
     [WIN_ITEM_DESC] = {
@@ -970,7 +971,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapTop = 13,
         .width = 21,
         .height = 7,
-        .paletteNum = 15,
+        .paletteNum = 10,
         .baseBlock = 0x14,
     },
     DUMMY_WIN_TEMPLATE
@@ -1082,7 +1083,7 @@ static const struct WindowTemplate sYesNoWindowTemplate =
     .tilemapTop = 11,
     .width = 5,
     .height = 4,
-    .paletteNum = 15,
+    .paletteNum = 10,
     .baseBlock = 0x5C,
 };
 
@@ -1520,8 +1521,9 @@ static void Task_PCMainMenu(u8 taskId)
     switch (task->tState)
     {
     case STATE_LOAD:
+        LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(10), PLTT_SIZE_4BPP);
         CreateMainMenu(task->tSelectedOption, &task->tWindowId);
-        LoadMessageBoxAndBorderGfx();
+        LoadMessageBoxAndBorderGfxOverride();
         DrawDialogueFrame(0, FALSE);
         FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
         AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, TEXT_SKIP_DRAW, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
@@ -1627,6 +1629,7 @@ static void Task_PCMainMenu(u8 taskId)
 
 void ShowPokemonStorageSystemPC(void)
 {
+    //LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(10), PLTT_SIZE_4BPP);
     u8 taskId = CreateTask(Task_PCMainMenu, 80);
     gTasks[taskId].tState = 0;
     gTasks[taskId].tSelectedOption = 0;
@@ -1742,7 +1745,7 @@ static void LoadChooseBoxMenuGfx(struct ChooseBoxMenu *menu, u16 tileTag, u16 pa
     // The Choose Box menu instead uses the palette indicated by palTag, which is always PALTAG_MISC_1 (sHandCursor_Pal)
     struct SpritePalette palette =
     {
-        sChooseBoxMenu_Pal, palTag
+        sChooseBoxMenu_Pal, PALTAG_BOX_SELECTOR
     };
     struct SpriteSheet sheets[] =
     {
@@ -1751,13 +1754,13 @@ static void LoadChooseBoxMenuGfx(struct ChooseBoxMenu *menu, u16 tileTag, u16 pa
         {}
     };
 
-    if (loadPal) // Always false
-        LoadSpritePalette(&palette);
+    
+    LoadSpritePalette(&palette);
 
     LoadSpriteSheets(sheets);
     sChooseBoxMenu = menu;
     menu->tileTag = tileTag;
-    menu->paletteTag = palTag;
+    menu->paletteTag = PALTAG_BOX_SELECTOR;
     menu->subpriority = subpriority;
     menu->loadedPalette = loadPal;
 }
@@ -2079,6 +2082,7 @@ static void Task_InitPokeStorage(u8 taskId)
             {
             case SCREEN_CHANGE_NAME_BOX - 1:
                 // Return from naming box
+                LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(10), PLTT_SIZE_4BPP);
                 LoadSavedMovingMon();
                 break;
             case SCREEN_CHANGE_SUMMARY_SCREEN - 1:
@@ -2661,8 +2665,8 @@ static void Task_OnSelectedMon(u8 taskId)
             SetPokeStorageTask(Task_ShowMonSummary);
             break;
         case MENU_MARK:
-            PlaySE(SE_SELECT);
-            SetPokeStorageTask(Task_ShowMarkMenu);
+            //PlaySE(SE_SELECT);
+            //SetPokeStorageTask(Task_ShowMarkMenu);
             break;
         case MENU_TAKE:
             PlaySE(SE_SELECT);
@@ -3997,7 +4001,7 @@ static void LoadDisplayMonGfx(u16 species, u32 pid)
 
 static void PrintDisplayMonInfo(void)
 {
-    //FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(FILL_WINDOW_PIXEL));
     if (sStorage->boxOption != OPTION_MOVE_ITEMS)
     {
         AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, 6, 0, TEXT_SKIP_DRAW, NULL);
@@ -4016,8 +4020,8 @@ static void PrintDisplayMonInfo(void)
     CopyWindowToVram(WIN_DISPLAY_INFO, COPYWIN_GFX);
     if (sStorage->displayMonSpecies != SPECIES_NONE)
     {
-        UpdateMonMarkingTiles(sStorage->displayMonMarkings, sStorage->markingComboTilesPtr);
-        sStorage->markingComboSprite->invisible = FALSE;
+        //UpdateMonMarkingTiles(sStorage->displayMonMarkings, sStorage->markingComboTilesPtr);
+        sStorage->markingComboSprite->invisible = TRUE;
     }
     else
     {
@@ -4321,7 +4325,7 @@ static void PrintMessage(u8 id)
 
 static void ShowYesNoWindow(s8 cursorPos)
 {
-    CreateYesNoMenu(&sYesNoWindowTemplate, 11, 14, 0);
+    CreateYesNoMenuOverride(&sYesNoWindowTemplate, 11, 14, 0);
     Menu_MoveCursorNoWrapAround(cursorPos);
 }
 
@@ -7024,20 +7028,20 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         switch (gender)
         {
         case MON_MALE:
-            *(txtPtr)++ = TEXT_COLOR_RED;
-            *(txtPtr)++ = TEXT_COLOR_WHITE;
-            *(txtPtr)++ = TEXT_COLOR_LIGHT_RED;
+            *(txtPtr)++ = TEXT_COLOR_LIGHT_BLUE;
+            *(txtPtr)++ = TEXT_COLOR_DARK_GRAY;
+            *(txtPtr)++ = TEXT_COLOR_BLUE;
             *(txtPtr)++ = CHAR_MALE;
             break;
         case MON_FEMALE:
-            *(txtPtr)++ = TEXT_COLOR_GREEN;
-            *(txtPtr)++ = TEXT_COLOR_WHITE;
-            *(txtPtr)++ = TEXT_COLOR_LIGHT_GREEN;
+            *(txtPtr)++ = TEXT_COLOR_LIGHT_RED;
+            *(txtPtr)++ = TEXT_COLOR_DARK_GRAY;
+            *(txtPtr)++ = TEXT_COLOR_RED;
             *(txtPtr)++ = CHAR_FEMALE;
             break;
         default:
             *(txtPtr)++ = TEXT_COLOR_DARK_GRAY;
-            *(txtPtr)++ = TEXT_COLOR_WHITE;
+            *(txtPtr)++ = TEXT_COLOR_DARK_GRAY;
             *(txtPtr)++ = TEXT_COLOR_LIGHT_GRAY;
             *(txtPtr)++ = CHAR_SPACER; // Genderless
             break;
@@ -7045,8 +7049,8 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
 
         *(txtPtr++) = EXT_CTRL_CODE_BEGIN;
         *(txtPtr++) = EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW;
-        *(txtPtr++) = TEXT_COLOR_DARK_GRAY;
         *(txtPtr++) = TEXT_COLOR_WHITE;
+        *(txtPtr++) = TEXT_COLOR_DARK_GRAY;
         *(txtPtr++) = TEXT_COLOR_LIGHT_GRAY;
         *(txtPtr++) = CHAR_SPACE;
         *(txtPtr++) = CHAR_EXTRA_SYMBOL;
@@ -7740,7 +7744,7 @@ static bool8 SetMenuTexts_Mon(void)
             SetMenuText(MENU_STORE);
     }
 
-    SetMenuText(MENU_MARK);
+    //SetMenuText(MENU_MARK);
     SetMenuText(MENU_RELEASE);
     SetMenuText(MENU_CANCEL);
     return TRUE;
@@ -8000,7 +8004,7 @@ static void InitMenu(void)
     sStorage->menuItemsCount = 0;
     sStorage->menuWidth = 0;
     sStorage->menuWindow.bg = 0;
-    sStorage->menuWindow.paletteNum = 15;
+    sStorage->menuWindow.paletteNum = 10;
     sStorage->menuWindow.baseBlock = 92;
 }
 
@@ -9736,6 +9740,29 @@ bool32 AnyStorageMonWithMove(u16 move)
     }
 
     return FALSE;
+}
+
+void SetBoxWallpapersToSimple(void)
+
+
+{
+
+
+    u8 boxId = 0;
+
+
+    for(boxId = 0; boxId < TOTAL_BOXES_COUNT; boxId++)
+
+
+    {
+
+
+        gPokemonStoragePtr->boxWallpapers[boxId] = WALLPAPER_PLAIN;
+
+
+    }
+
+
 }
 
 

@@ -1550,9 +1550,9 @@ static void Debug_RefreshListMenu(u8 taskId)
     gMultiuseListMenuTemplate.item_X = 8;
     gMultiuseListMenuTemplate.cursor_X = 0;
     gMultiuseListMenuTemplate.upText_Y = 1;
-    gMultiuseListMenuTemplate.cursorPal = 2;
-    gMultiuseListMenuTemplate.fillValue = 1;
-    gMultiuseListMenuTemplate.cursorShadowPal = 3;
+    gMultiuseListMenuTemplate.cursorPal = TEXT_COLOR_WHITE;
+    gMultiuseListMenuTemplate.fillValue = FILL_WINDOW_PIXEL;
+    gMultiuseListMenuTemplate.cursorShadowPal = TEXT_COLOR_LIGHT_GRAY;
     gMultiuseListMenuTemplate.lettersSpacing = 1;
     gMultiuseListMenuTemplate.itemVerticalPadding = 0;
     gMultiuseListMenuTemplate.scrollMultiple = LIST_NO_MULTIPLE_SCROLL;
