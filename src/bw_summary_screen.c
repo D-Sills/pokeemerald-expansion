@@ -52,6 +52,7 @@
 #include "constants/region_map_sections.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "item_icon.h"
 
 #if BW_SUMMARY_SCREEN == TRUE
 enum BWPSSEffect
@@ -128,7 +129,9 @@ enum BWSummarySprites
     SPRITE_ARR_ID_STATUS,
     SPRITE_ARR_ID_SHINY,
     // all sprites below are considered "page-specific" and will be hidden when switching pages
+
     SPRITE_ARR_ID_POKERUS_CURED,
+        SPRITE_ARR_ID_ITEM_ICON, // item icon sprite
     SPRITE_ARR_ID_FRIENDSHIP,
     SPRITE_ARR_ID_CATEGORY,
     SPRITE_ARR_ID_HP_GRADE,
@@ -142,7 +145,8 @@ enum BWSummarySprites
     SPRITE_ARR_ID_TYPE, // 2 for mon types, 5 for move types(4 moves and 1 to learn), used interchangeably, because mon types and move types aren't shown on the same screen
     SPRITE_ARR_ID_MOVE_SELECTOR1 = SPRITE_ARR_ID_TYPE + TYPE_ICON_SPRITE_COUNT, // 10 sprites that make up the selector
     SPRITE_ARR_ID_MOVE_SELECTOR2 = SPRITE_ARR_ID_MOVE_SELECTOR1 + MOVE_SELECTOR_SPRITES_COUNT,
-    SPRITE_ARR_ID_COUNT = SPRITE_ARR_ID_MOVE_SELECTOR2 + MOVE_SELECTOR_SPRITES_COUNT
+    SPRITE_ARR_ID_COUNT = SPRITE_ARR_ID_MOVE_SELECTOR2 + MOVE_SELECTOR_SPRITES_COUNT,
+    
 };
 
 static EWRAM_DATA struct PokemonSummaryScreenData
@@ -330,6 +334,7 @@ static void SetMonTypeIcons(void);
 static void SetMoveTypeIcons(void);
 static void SetContestMoveTypeIcons(void);
 static void SetNewMoveTypeIcon(void);
+static void CreateItemIconSprite(struct Pokemon *mon, u8 x, u8 y);
 static void SwapMovesTypeSprites(u8, u8);
 static u8 LoadMonGfxAndSprite(struct Pokemon *, s16 *, bool32);
 static u8 CreateMonSprite(struct Pokemon *, bool32);
@@ -780,6 +785,7 @@ static void (*const sTextPrinterTasks[])(u8 taskId) =
 #define TAG_TERA_TYPE 30009
 #define TAG_MON_SHADOW 30010
 #define TAG_RELEARN_PROMPT 30011
+#define TAG_ITEM_ICON 30012
 
 enum BWCategoryIcon
 {
@@ -1098,6 +1104,8 @@ static const struct SpriteTemplate sSpriteTemplate_FriendshipIcon =
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy
 };
+
+
 
 static const struct OamData sOamData_MoveTypes =
 {
@@ -1936,7 +1944,7 @@ static bool8 LoadGraphics(void)
         }
         break;
     case 17:
-        CreateMonMarkingsSprite(&sMonSummaryScreen->currentMon);
+        //CreateMonMarkingsSprite(&sMonSummaryScreen->currentMon);
         gMain.state++;
         break;
     case 18:
@@ -2598,7 +2606,7 @@ static void Task_ChangeSummaryMon(u8 taskId)
         }
         break;
     case 5:
-        RemoveAndCreateMonMarkingsSprite(&sMonSummaryScreen->currentMon);
+        //RemoveAndCreateMonMarkingsSprite(&sMonSummaryScreen->currentMon);
         CreateMonShinySprite(&sMonSummaryScreen->currentMon);
         break;
     case 6:
@@ -4254,6 +4262,31 @@ static void PrintHeldItemName(void)
 
     fontId = GetFontIdToFit(text, FONT_SHORT, 0, WindowTemplateWidthPx(&sPageSkillsTemplate[PSS_DATA_WINDOW_INFO_OT_OTID_ITEM]) - 8);
     PrintTextOnWindowWithFont(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_INFO_OT_OTID_ITEM), text, 12, 28, 0, 0, fontId);
+
+    u8 textWidth = GetStringWidth(fontId, text, 0);
+    u8 iconX = 75 + textWidth + 15;
+    
+
+    CreateItemIconSprite(&sMonSummaryScreen->currentMon, iconX, 94);
+}
+
+static void CreateItemIconSprite(struct Pokemon *mon, u8 x, u8 y)
+{
+
+    u16 item = GetMonData(mon, MON_DATA_HELD_ITEM);
+
+    if (item != ITEM_NONE)
+    {
+        sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON] = AddItemIconSprite(TAG_ITEM_ICON, TAG_ITEM_ICON, item);
+        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].callback = SpriteCallbackDummy;
+        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].oam.priority = 1;
+        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].x = x;
+        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].y = y;
+        
+    } else {
+        sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON] = SPRITE_NONE;
+        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].invisible = TRUE;
+    }
 }
 
 static void UNUSED PrintRibbonCount(void)
@@ -4889,6 +4922,7 @@ static void HidePageSpecificSprites(void)
             SetSpriteInvisibility(i, TRUE);
     }
     sMonSummaryScreen->markingsSprite->invisible = TRUE;
+    
 }
 
 static void SetTypeIcons(void)

@@ -4,7 +4,7 @@
 #include "main.h"
 
 // turn on and off the bw summary screen
-#define BW_SUMMARY_SCREEN                           FALSE
+#define BW_SUMMARY_SCREEN                           TRUE
 
 // constants
 #define BW_MAX_MOVE_DESCRIPTION_LENGTH              60      // this only needs to be updated if you use auto-formatting
@@ -26,10 +26,10 @@
 #define BW_SUMMARY_BW_TYPE_ICONS                    TRUE                // use Gen 5 style type icons instead of the default ones.
                                                                         // out of the box the vanilla icons don't fit well, this is mostly a compatibility
                                                                         // option for people who already use custom icons everywhere else
-#define BW_SUMMARY_SCROLLING_BG                     TRUE                // enables scrolling animated background
+#define BW_SUMMARY_SCROLLING_BG                     FALSE                // enables scrolling animated background
 #define BW_SUMMARY_BG_BLEND                         FALSE                // enables alpha blending for the main UI (semi-transparency)
 #define BW_SUMMARY_MON_IDLE_ANIMS                   TRUE                // loops the mon animations regularly as an "idle" anim
-#define BW_SUMMARY_MON_SHADOWS                      TRUE                // displays a shadow for the mon sprite
+#define BW_SUMMARY_MON_SHADOWS                      FALSE                // displays a shadow for the mon sprite
 #define BW_SUMMARY_SHOW_TERA_TYPE                   FALSE               // show tera type icons
 #define BW_SUMMARY_SHOW_CONTEST_MOVES               FALSE                // show the contest moves page
 
