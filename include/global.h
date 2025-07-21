@@ -239,6 +239,7 @@ struct SaveBlock3
 #if OW_USE_FAKE_RTC
     struct SiiRtcInfo fakeRTC;
 #endif
+    u8 followerIndex;
 #if FNPC_ENABLE_NPC_FOLLOWERS
     struct NPCFollower NPCfollower;
 #endif
