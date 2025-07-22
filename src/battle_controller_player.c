@@ -1858,11 +1858,9 @@ static void MoveSelectionDisplayMoveType(u32 battler)
     BattlePutTextOnWindow(gDisplayedStringBattle, typeColor);
 }
 
-static const u8 sMoveDescNeutralColors[3] = {14, TEXT_DYNAMIC_COLOR_4, TEXT_DYNAMIC_COLOR_6};
-static const u8 sMoveDescPositiveColors[3] = {14, TEXT_COLOR_GREEN, TEXT_COLOR_LIGHT_RED};
-static const u8 sMoveDescNegativeColors[3] = {14, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
-
-
+static const u8 sMoveDescNeutralColors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY};
+static const u8 sMoveDescPositiveColors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GREEN, TEXT_COLOR_DARK_GRAY};
+static const u8 sMoveDescNegativeColors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_RED, TEXT_COLOR_DARK_GRAY};
 
 static void TryMoveSelectionDisplayMoveDescription(u32 battler)
 {

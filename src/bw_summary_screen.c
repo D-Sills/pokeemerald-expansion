@@ -4285,7 +4285,7 @@ static void CreateItemIconSprite(struct Pokemon *mon, u8 x, u8 y)
         
     } else {
         sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON] = SPRITE_NONE;
-        gSprites[sMonSummaryScreen->spriteIds[SPRITE_ARR_ID_ITEM_ICON]].invisible = TRUE;
+        
     }
 }
 

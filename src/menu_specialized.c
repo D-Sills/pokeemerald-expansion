@@ -1540,9 +1540,9 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *statsBefore, u16 *statsAfter, u8 bg
     statsDiff[4] = statsAfter[STAT_SPDEF] - statsBefore[STAT_SPDEF];
     statsDiff[5] = statsAfter[STAT_SPEED] - statsBefore[STAT_SPEED];
 
-    color[0] = bgClr;
-    color[1] = fgClr;
-    color[2] = shadowClr;
+    color[0] = TEXT_COLOR_DARK_GRAY;
+    color[1] = TEXT_COLOR_WHITE;
+    color[2] = TEXT_COLOR_LIGHT_GRAY;
 
     for (i = 0; i < NUM_STATS; i++)
     {
@@ -1585,6 +1585,10 @@ void DrawLevelUpWindowPg2(u16 windowId, u16 *currStats, u8 bgClr, u8 fgClr, u8 s
     s16 stats[NUM_STATS];
     u8 text[12];
     u8 color[3];
+
+    color[0] = TEXT_COLOR_DARK_GRAY;
+    color[1] = TEXT_COLOR_WHITE;
+    color[2] = TEXT_COLOR_LIGHT_GRAY;
 
     FillWindowPixelBuffer(windowId, PIXEL_FILL(bgClr));
 
