@@ -39,16 +39,17 @@ const struct Coords16 sTypeIconPositions[][2] =
 {
     [B_POSITION_PLAYER_LEFT] =
     {
-        [FALSE] = {221, 86},
-        [TRUE] = {144, 71},
+        [FALSE] = {80, 86},  // single‐battle placement
+        [TRUE] = {100, 71}, // double‐battle placement
     },
     [B_POSITION_OPPONENT_LEFT] =
     {
-        [FALSE] = {20, 26},
+        [FALSE] = {100, 26},
         [TRUE] = {97, 14},
     },
     [B_POSITION_PLAYER_RIGHT] =
     {
+         /* no single‐battle “right” in a 1‑vs‑1, so only [TRUE] is defined: */
         [TRUE] = {156, 96},
     },
     [B_POSITION_OPPONENT_RIGHT] =
@@ -417,8 +418,8 @@ static bool32 ShouldFlipTypeIcon(bool32 useDoubleBattleCoords, u32 position, u32
 {
     bool32 side = (useDoubleBattleCoords) ? B_SIDE_OPPONENT : B_SIDE_PLAYER;
 
-    if (GetBattlerSide(GetBattlerAtPosition(position)) != side)
-        return FALSE;
+    if (GetBattlerSide(GetBattlerAtPosition(position)) != B_SIDE_OPPONENT)
+        return TRUE;
 
     return !gTypesInfo[typeId].isSpecialCaseType;
 }

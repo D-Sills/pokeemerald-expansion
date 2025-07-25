@@ -148,7 +148,7 @@ static const struct FontInfo sFontInfos[] =
         .shadowColor = TEXT_COLOR_LIGHT_GRAY,
     },
     [FONT_NORMAL] = {
-        .fontFunction = FontFunc_Normal,
+        .fontFunction = FontFunc_Short,
         .maxLetterWidth = 6,
         .maxLetterHeight = 16,
         .letterSpacing = 0,

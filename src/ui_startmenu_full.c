@@ -958,7 +958,8 @@ static void StartMenuFull_VBlankCB(void)
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
-    ChangeBgY(2, 128, BG_COORD_SUB); // controls the background scrolling
+    ChangeBgX(2, 64, BG_COORD_ADD);
+    ChangeBgY(2, 64, BG_COORD_ADD); // controls the background scrolling
 }
 
 static bool8 StartMenuFull_DoGfxSetup(void) // base UI loader from Ghouls UI Shell branch, does the important hardware stuff to setup a UI
@@ -1113,14 +1114,14 @@ static bool8 StartMenuFull_LoadGraphics(void) // Load the Tilesets, Tilemaps, Sp
     {
     case 0:
         ResetTempTileDataBuffers();
-        if (gSaveBlock2Ptr->playerGender == FEMALE)
-        {
-            DecompressAndCopyTileDataToVram(1, sStartMenuTilesAlt, 0, 0, 0);
-        }
-        else
-        {
+        //if (gSaveBlock2Ptr->playerGender == FEMALE)
+        //{
+        //    DecompressAndCopyTileDataToVram(1, sStartMenuTilesAlt, 0, 0, 0);
+       // }
+        //else
+        //{
             DecompressAndCopyTileDataToVram(1, sStartMenuTiles, 0, 0, 0);
-        }
+        //}
         DecompressAndCopyTileDataToVram(2, sScrollBgTiles, 0, 0, 0);
         sStartMenuDataPtr->gfxLoadState++;
         break;
@@ -1135,18 +1136,19 @@ static bool8 StartMenuFull_LoadGraphics(void) // Load the Tilesets, Tilemaps, Sp
     case 2:
     {
         struct SpritePalette cursorPal = {sSpritePal_Cursor.data, sSpritePal_Cursor.tag};
-        if (gSaveBlock2Ptr->playerGender == FEMALE)
-        {
-            LoadPalette(sStartMenuPaletteAlt, 0, 16);
-            LoadPalette(sHP_PalAlt, 32, 16);
-            cursorPal.data = sCursor_PalAlt;
-        }
-        else
-        {
-            LoadPalette(sStartMenuPalette, 0, 16);
-            LoadPalette(sHP_Pal, 32, 16);
-        }
+        //if (gSaveBlock2Ptr->playerGender == FEMALE)
+        //{
+        //    LoadPalette(sStartMenuPaletteAlt, 0, 16);
+        //    LoadPalette(sHP_PalAlt, 32, 16);
+        //    cursorPal.data = sCursor_PalAlt;
+        //}
+        //else
+        //{
+            LoadPalette(sStartMenuPalette, 0, PLTT_SIZE_4BPP);
         LoadPalette(sScrollBgPalette, 16, 16);
+
+            LoadPalette(sHP_Pal, 32, 16);
+        //}
 
         LoadCompressedSpriteSheet(&sSpriteSheet_IconBox);
         LoadSpritePalette(&sSpritePal_IconBox);
@@ -1199,11 +1201,11 @@ static const u8 sA_ButtonGfx[]         = INCBIN_U8("graphics/ui_startmenu_full/a
 static void PrintSaveConfirmToWindow()
 {
     const u8 *str = sText_ConfirmSave;
-    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 92;
     u8 y = 0;
     
-    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
     BlitBitmapToWindow(WINDOW_BOTTOM_BAR, sA_ButtonGfx, 80, 5, 8, 8);
     AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, str);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
@@ -1215,10 +1217,10 @@ static void PrintSaveConfirmToWindow()
 //
 static const u8 sText_SavingNow[] = _("Saving...");
 static void PrintSaveHappening(void){
-    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 100;
     u8 y = 0;
-    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
     AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SavingNow);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
@@ -1227,11 +1229,11 @@ static void PrintSaveHappening(void){
 // print save complete text
 static const u8 sText_SaveComplete[] = _("Save complete.");
 static void PrintSaveComplete(void) {
-    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 86;
     u8 y = 0;
 
-    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(5));
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
     AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SaveComplete);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
@@ -1267,7 +1269,7 @@ static void PrintMapNameAndTime(void) //this code is ripped froom different part
     u8 *withoutPrefixPtr;
     u8 x;
     const u8 *str;
-    u8 sTimeTextColors[] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+    u8 sTimeTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
 
     u16 hours;
     u16 minutes;
@@ -1283,7 +1285,8 @@ static void PrintMapNameAndTime(void) //this code is ripped froom different part
     mapDisplayHeader[0] = EXT_CTRL_CODE_BEGIN;
     mapDisplayHeader[1] = EXT_CTRL_CODE_HIGHLIGHT;
     mapDisplayHeader[2] = TEXT_COLOR_TRANSPARENT;
-    AddTextPrinterParameterized(WINDOW_TOP_BAR, FONT_NARROW, mapDisplayHeader, x + 152, 1, TEXT_SKIP_DRAW, NULL); // Print Map Name
+    //AddTextPrinterParameterized(WINDOW_TOP_BAR, FONT_NARROW, mapDisplayHeader, x + 152, 1, TEXT_SKIP_DRAW, NULL); // Print Map Name
+    AddTextPrinterParameterized4(WINDOW_TOP_BAR, FONT_SHORT, x + 152, 1, 0, 0, sTimeTextColors, TEXT_SKIP_DRAW, mapDisplayHeader); // Print colon
 
     RtcCalcLocalTime();
 
