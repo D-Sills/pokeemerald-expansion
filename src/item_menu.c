@@ -258,6 +258,15 @@ static const struct BgTemplate sBgTemplates_ItemMenu[] =
         .priority = 2,
         .baseTile = 0,
     },
+    {
+        .bg = 3,
+        .charBaseIndex = 2,
+        .mapBaseIndex = 21,
+        .screenSize = 0,
+        .paletteMode = 0,
+        .priority = 2,
+        .baseTile = 0,
+    },
 };
 
 static const struct ListMenuTemplate sItemListMenu =
@@ -401,6 +410,11 @@ static const u8* const sRegisteredSelect_Gfx[] = {sRegisterUp_Gfx, sRegisterRigh
 
 static const u32 sKeyItemBoxGfx[] = INCBIN_U32("graphics/bag/key_item_box.4bpp");
 static const u16 sKeyItemBoxPal[] = INCBIN_U16("graphics/bag/key_item_box.gbapal");
+
+// Scrolling Background
+static const u32 sScrollBgTiles[] = INCBIN_U32("graphics/bag/scroll_tiles.4bpp.lz");
+static const u32 sScrollBgTilemap[] = INCBIN_U32("graphics/bag/scroll_tilemap.bin.lz");
+static const u16 sScrollBgPalette[] = INCBIN_U16("graphics/bag/scroll_tiles.gbapal");
 
 static const struct SpritePalette sSpritePalette_KeyItemBox = {
     .data = sKeyItemBoxPal,
@@ -592,9 +606,9 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     },
     [WIN_POCKET_NAME] = {
         .bg = 0,
-        .tilemapLeft = 4,
-        .tilemapTop = 1,
-        .width = 8,
+        .tilemapLeft = 1,
+        .tilemapTop = 0,
+        .width = 10,
         .height = 2,
         .paletteNum = 1,
         .baseBlock = 0x1A1,
@@ -843,13 +857,15 @@ void CB2_BagMenuRun(void)
     BuildOamBuffer();
     DoScheduledBgTilemapCopiesToVram();
     UpdatePaletteFade();
-}
+}   
 
 void VBlankCB_BagMenuRun(void)
 {
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
+    ChangeBgX(3, 64, BG_COORD_SUB);
+    ChangeBgY(3, 64, BG_COORD_SUB); 
 }
 
 #define tListTaskId        data[0]
@@ -987,15 +1003,18 @@ static void BagMenu_InitBGs(void)
 {
     ResetVramOamAndBgCntRegs();
     memset(gBagMenu->tilemapBuffer, 0, sizeof(gBagMenu->tilemapBuffer));
+    memset(gBagMenu->tilemapBuffer2, 0, sizeof(gBagMenu->tilemapBuffer2));
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sBgTemplates_ItemMenu, ARRAY_COUNT(sBgTemplates_ItemMenu));
     SetBgTilemapBuffer(2, gBagMenu->tilemapBuffer);
+    SetBgTilemapBuffer(3, gBagMenu->tilemapBuffer2);
     ResetAllBgsCoordinates();
     ScheduleBgCopyTilemapToVram(2);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
     ShowBg(0);
     ShowBg(1);
     ShowBg(2);
+    ShowBg(3);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
 }
 
@@ -1016,10 +1035,12 @@ static bool8 LoadBagMenu_Graphics(void)
         }
         break;
     case 2:
-        if (!IsWallysBag() && gSaveBlock2Ptr->playerGender != MALE)
-            LoadPalette(gBagScreenFemale_Pal, BG_PLTT_ID(0), 2 * PLTT_SIZE_4BPP);
-        else
-            LoadPalette(gBagScreenMale_Pal, BG_PLTT_ID(0), 2 * PLTT_SIZE_4BPP);
+        //if (!IsWallysBag() && gSaveBlock2Ptr->playerGender != MALE)
+           // LoadPalette(gBagScreenFemale_Pal, BG_PLTT_ID(0), 2 * PLTT_SIZE_4BPP);
+        //else
+            LoadPalette(gBagScreenMale_Pal, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
+
+        
         gBagMenu->graphicsLoadState++;
         break;
     case 3:
@@ -1027,12 +1048,25 @@ static bool8 LoadBagMenu_Graphics(void)
             LoadCompressedSpriteSheet(&gBagMaleSpriteSheet);
         else
             LoadCompressedSpriteSheet(&gBagFemaleSpriteSheet);
+
+        LoadPalette(sScrollBgPalette, 16, 16);    
         gBagMenu->graphicsLoadState++;
         break;
     case 4:
         LoadSpritePalette(&gBagPaletteTable);
         gBagMenu->graphicsLoadState++;
         break;
+    case 5:
+        ResetTempTileDataBuffers();
+        DecompressAndCopyTileDataToVram(3, sScrollBgTiles, 0, 0, 0);
+        gBagMenu->graphicsLoadState++;
+        break;
+    case 6:
+        if (FreeTempTileDataBuffersIfPossible() != TRUE)
+        {
+            LZDecompressWram(sScrollBgTilemap, gBagMenu->tilemapBuffer2);
+            gBagMenu->graphicsLoadState++;
+        }   
     default:
         LoadListMenuSwapLineGfx();
         gBagMenu->graphicsLoadState = 0;
@@ -1552,11 +1586,11 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
     }
     DrawPocketIndicatorSquare(gBagPosition.pocket, FALSE);
     DrawPocketIndicatorSquare(newPocket, TRUE);
-    FillBgTilemapBufferRect_Palette0(2, 11, 14, 2, 15, 16);
+    FillBgTilemapBufferRect_Palette0(2, 27, 14, 2, 15, 16);
     ScheduleBgCopyTilemapToVram(2);
     SetBagVisualPocketId(newPocket, TRUE);
     RemoveBagSprite(ITEMMENUSPRITE_BALL);
-    AddSwitchPocketRotatingBallSprite(deltaBagPocketId);
+    //AddSwitchPocketRotatingBallSprite(deltaBagPocketId);
     SetTaskFuncWithFollowupFunc(taskId, Task_SwitchBagPocket, gTasks[taskId].func);
 }
 
@@ -1611,12 +1645,33 @@ static void Task_SwitchBagPocket(u8 taskId)
 // When the pocket is switched this lighter background is redrawn row by row
 static void DrawItemListBgRow(u8 y)
 {
-    FillBgTilemapBufferRect_Palette0(2, 17, 14, y + 2, 15, 1);
+     u8 tile = (((y / 2) & 1) == 0) ? 3 : 4;
+    FillBgTilemapBufferRect_Palette0(
+        /*bg=*/2,
+        /*tileNum=*/tile,
+        /*x=*/14,
+        /*y=*/y + 2,
+        /*width=*/15,
+        /*height=*/1
+    );
     ScheduleBgCopyTilemapToVram(2);
+   
 }
 
 static void DrawPocketIndicatorSquare(u8 x, bool8 isCurrentPocket)
 {
+    /* // pick the right tile index for pocket 0..6
+    static const u16 sPocketIconTiles[POCKETS_COUNT] =
+    {
+        0x1050, // ITEM
+        0x1051, // KEYITEM
+        0x1052, // BALLS
+        0x1053, // TMHM
+        0x1054, // BERRIES
+        0x1055, // MEDICINE
+        0x1056, // TREASURES
+    };
+    u16 tile = sPocketIconTiles[pocket]; */
     if (!isCurrentPocket)
         FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 4, 3, 1, 1);
     else

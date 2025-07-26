@@ -2790,13 +2790,13 @@ static void PssScroll(u8 taskId)
     // build up mosaic effect
     if (tScrollState <= 3)
     {
-        tMosaicStrength += 1;
+        //tMosaicStrength += 1;
         SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
     }
     // build down mosaic effect
     if (tScrollState > 3)
     {
-        tMosaicStrength -= 1;
+        //tMosaicStrength -= 1;
         SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
     }
 
