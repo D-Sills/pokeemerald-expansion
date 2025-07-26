@@ -578,7 +578,7 @@ enum {
 static const u8 sFontColorTable[][3] = {
                             // bgColor, textColor, shadowColor
     [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
-    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_RED},
+    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_GREEN},
     [COLORID_UNUSED]      = {TEXT_COLOR_DARK_GRAY,   TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
@@ -592,7 +592,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapTop = 2,
         .width = 15,
         .height = 16,
-        .paletteNum = 1,
+        .paletteNum = 13,
         .baseBlock = 0x27,
     },
     [WIN_DESCRIPTION] = {
@@ -601,16 +601,16 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapTop = 13,
         .width = 14,
         .height = 6,
-        .paletteNum = 1,
+        .paletteNum = 13,
         .baseBlock = 0x117,
     },
     [WIN_POCKET_NAME] = {
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 0,
-        .width = 10,
+        .width = 8,
         .height = 2,
-        .paletteNum = 1,
+        .paletteNum = 13,
         .baseBlock = 0x1A1,
     },
     [WIN_TMHM_INFO_ICONS] = {
@@ -864,8 +864,8 @@ void VBlankCB_BagMenuRun(void)
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
-    ChangeBgX(3, 64, BG_COORD_SUB);
-    ChangeBgY(3, 64, BG_COORD_SUB); 
+    ChangeBgX(3, 64, BG_COORD_ADD);
+    ChangeBgY(3, 64, BG_COORD_ADD); 
 }
 
 #define tListTaskId        data[0]
@@ -952,9 +952,12 @@ static bool8 SetupBagMenu(void)
         PrintPocketNames(gPocketNamesStringsTable[gBagPosition.pocket], 0);
         CopyPocketNameToWindow(0);
         DrawPocketIndicatorSquare(0, FALSE);
+        DrawPocketIndicatorSquare(1, FALSE);
+        DrawPocketIndicatorSquare(2, FALSE);
+        DrawPocketIndicatorSquare(3, FALSE);
+        DrawPocketIndicatorSquare(4, FALSE);
         DrawPocketIndicatorSquare(5, FALSE);
         DrawPocketIndicatorSquare(6, FALSE);
-        DrawPocketIndicatorSquare(7, FALSE);
         DrawPocketIndicatorSquare(gBagPosition.pocket, TRUE);
         gMain.state++;
         break;
@@ -1010,6 +1013,7 @@ static void BagMenu_InitBGs(void)
     SetBgTilemapBuffer(3, gBagMenu->tilemapBuffer2);
     ResetAllBgsCoordinates();
     ScheduleBgCopyTilemapToVram(2);
+    ScheduleBgCopyTilemapToVram(3);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
     ShowBg(0);
     ShowBg(1);
@@ -1044,10 +1048,10 @@ static bool8 LoadBagMenu_Graphics(void)
         gBagMenu->graphicsLoadState++;
         break;
     case 3:
-        if (IsWallysBag() == TRUE || gSaveBlock2Ptr->playerGender == MALE)
+        //if (IsWallysBag() == TRUE || gSaveBlock2Ptr->playerGender == MALE)
             LoadCompressedSpriteSheet(&gBagMaleSpriteSheet);
-        else
-            LoadCompressedSpriteSheet(&gBagFemaleSpriteSheet);
+        //else
+        //LoadCompressedSpriteSheet(&gBagFemaleSpriteSheet);
 
         LoadPalette(sScrollBgPalette, 16, 16);    
         gBagMenu->graphicsLoadState++;
@@ -1066,7 +1070,8 @@ static bool8 LoadBagMenu_Graphics(void)
         {
             LZDecompressWram(sScrollBgTilemap, gBagMenu->tilemapBuffer2);
             gBagMenu->graphicsLoadState++;
-        }   
+        }
+        break;
     default:
         LoadListMenuSwapLineGfx();
         gBagMenu->graphicsLoadState = 0;
@@ -1279,8 +1284,8 @@ void BagDestroyPocketScrollArrowPair(void)
 
 static void CreatePocketSwitchArrowPair(void)
 {
-    if (gBagMenu->pocketSwitchDisabled != TRUE && gBagMenu->pocketSwitchArrowsTask == TASK_NONE)
-        gBagMenu->pocketSwitchArrowsTask = AddScrollIndicatorArrowPair(&sBagScrollArrowsTemplate, &gBagPosition.pocketSwitchArrowPos);
+    /* f (gBagMenu->pocketSwitchDisabled != TRUE && gBagMenu->pocketSwitchArrowsTask == TASK_NONE)
+        gBagMenu->pocketSwitchArrowsTask = AddScrollIndicatorArrowPair(&sBagScrollArrowsTemplate, &gBagPosition.pocketSwitchArrowPos); */
 }
 
 static void DestroyPocketSwitchArrowPair(void)
@@ -1658,24 +1663,38 @@ static void DrawItemListBgRow(u8 y)
    
 }
 
-static void DrawPocketIndicatorSquare(u8 x, bool8 isCurrentPocket)
-{
-    /* // pick the right tile index for pocket 0..6
+static void DrawPocketIndicatorSquare(u8 pocket, bool8 isCurrentPocket){
     static const u16 sPocketIconTiles[POCKETS_COUNT] =
     {
-        0x1050, // ITEM
-        0x1051, // KEYITEM
-        0x1052, // BALLS
-        0x1053, // TMHM
-        0x1054, // BERRIES
-        0x1055, // MEDICINE
-        0x1056, // TREASURES
+        34, // Medicine
+        35, // Treasures
+        36, // Battle items
+        37, // Pokeballs
+        38, // TMs/HMs
+        39, // Berries
+        40, // Key items
     };
-    u16 tile = sPocketIconTiles[pocket]; */
-    if (!isCurrentPocket)
-        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 4, 3, 1, 1);
-    else
-        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 4, 3, 1, 1);
+    u16 tile = sPocketIconTiles[pocket]; 
+    
+    if (isCurrentPocket)
+        tile += 7;
+    
+    FillBgTilemapBufferRect_Palette0(
+        2,
+        tile,
+        /*x=*/pocket + 10,
+        /*y=*/0,
+        /*w=*/1,
+        /*h=*/1
+    );
+    FillBgTilemapBufferRect_Palette0(
+        2,
+        tile + 16,
+        /*x=*/pocket + 10,
+        /*y=*/1,
+        /*w=*/1,
+        /*h=*/1
+    );
     ScheduleBgCopyTilemapToVram(2);
 }
 
@@ -2938,23 +2957,47 @@ static void CB2_QuizLadyExitBagMenu(void)
 
 static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
 {
-    struct WindowTemplate window = {0};
-    u16 windowId;
-    int offset;
+    // 1) Build a proper window template that lives where your pocket
+    //    name is supposed to be on BG2. This avoids the “add window at
+    //    0,0 then slide it over” behavior.
+    struct WindowTemplate pocketWinTemplate = {
+        .bg         = 2,
+        .tilemapLeft= 1,      // tile X position (in tiles, not pixels)
+        .tilemapTop = 0,      // tile Y position
+        .width      = 8,      // 8 tiles wide = 8*8px = 64px
+        .height     = 2,      // 2 tiles tall = 16px
+        .paletteNum = 1,      // whatever palette your bag uses
+        .baseBlock  = 0x1A1,  // same as your WIN_POCKET_NAME.baseBlock
+    };
 
-    window.width = 16;
-    window.height = 2;
-    windowId = AddWindow(&window);
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
-    offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
-    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
-    if (pocketName2)
-    {
-        offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
-        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
-    }
-    CpuCopy32((u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), gBagMenu->pocketNameBuffer, sizeof(gBagMenu->pocketNameBuffer));
-    RemoveWindow(windowId);
+    // 2) Create it, clear it
+    u8 winId = AddWindow(&pocketWinTemplate);
+    FillWindowPixelBuffer(winId, PIXEL_FILL(0));
+
+    // 3) Draw the first pocket name at a fixed X offset (here 3px in)
+    //    TEXT_SKIP_DRAW means “don’t do any typewriter animation”,
+    //    so it appears instantly.
+    const u8 fixedX = 3;
+    BagMenu_Print(
+        winId,
+        FONT_NORMAL,
+        pocketName1,
+        fixedX,      // left
+        1,           // top row
+        0, 0,
+        TEXT_SKIP_DRAW,
+        COLORID_POCKET_NAME
+    );
+
+    // 5) Copy the raw tile data out to your BG2 tilemap buffer
+    CpuCopy32(
+        (u8 *)GetWindowAttribute(winId, WINDOW_TILE_DATA),
+        gBagMenu->pocketNameBuffer,
+        sizeof(gBagMenu->pocketNameBuffer)
+    );
+
+    // 6) Tear the window back down
+    RemoveWindow(winId);
 }
 
 static void CopyPocketNameToWindow(u32 a)
