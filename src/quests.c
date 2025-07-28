@@ -72,6 +72,7 @@ struct QuestMenuStaticResources
 // RAM
 EWRAM_DATA static struct QuestMenuResources *sStateDataPtr = NULL;
 EWRAM_DATA static u8 *sBg1TilemapBuffer = NULL;
+EWRAM_DATA static u8 *sBg2TilemapBuffer = NULL;
 EWRAM_DATA static struct ListMenuItem *sListMenuItems = NULL;
 EWRAM_DATA static struct QuestMenuStaticResources sListMenuState = {0};
 EWRAM_DATA static u8 sItemMenuIconSpriteIds[12] = {0};        // from pokefirered src/item_menu_icons.c
@@ -1008,7 +1009,7 @@ static const struct SideQuest sSideQuests[QUEST_COUNT] =
 ///////////////////////////////////////////////////////////////////////////////
 
 //BG layer defintions
-static const struct BgTemplate sQuestMenuBgTemplates[2] =
+static const struct BgTemplate sQuestMenuBgTemplates[3] =
 {
 	{
 		//All text and content is loaded to this window
@@ -1023,7 +1024,13 @@ static const struct BgTemplate sQuestMenuBgTemplates[2] =
 		.charBaseIndex = 3,
 		.mapBaseIndex = 30,
 		.priority = 2
-	}
+	},
+    {
+        .bg = 2,    // this bg loads the scrolling bg
+        .charBaseIndex = 2,
+        .mapBaseIndex = 28,
+        .priority = 2
+    }
 };
 
 //Window definitions
@@ -1033,7 +1040,7 @@ static const struct WindowTemplate sQuestMenuHeaderWindowTemplates[] =
 		//0: Content window
 		.bg = 0,
 		.tilemapLeft = 0,
-		.tilemapTop = 2,
+		.tilemapTop = 3,
 		.width = 30,
 		.height = 8,
 		.paletteNum = 15,
@@ -1068,34 +1075,39 @@ static const u8 sQuestMenuWindowFontColors[][4] =
 	{
 		//Header of Quest Menu
 		TEXT_COLOR_TRANSPARENT,
-		TEXT_COLOR_DARK_GRAY,
-		TEXT_COLOR_TRANSPARENT
+		TEXT_COLOR_WHITE,
+		TEXT_COLOR_LIGHT_GRAY
 	},
 	{
 		//Reward state progress indicator
 		TEXT_COLOR_TRANSPARENT,
 		TEXT_COLOR_RED,
-		TEXT_COLOR_TRANSPARENT
+		TEXT_COLOR_LIGHT_GRAY
 	},
 	{
 		//Done state progress indicator
 		TEXT_COLOR_TRANSPARENT,
 		TEXT_COLOR_GREEN,
-		TEXT_COLOR_TRANSPARENT
+		TEXT_COLOR_LIGHT_GRAY
 	},
 	{
 		//Active state progress indicator
 		TEXT_COLOR_TRANSPARENT,
 		TEXT_COLOR_BLUE,
-		TEXT_COLOR_TRANSPARENT
+		TEXT_COLOR_LIGHT_GRAY
 	},
 	{
 		//Footer flavor text
 		TEXT_COLOR_TRANSPARENT,
 		TEXT_COLOR_WHITE,
-		TEXT_COLOR_TRANSPARENT
+		TEXT_COLOR_LIGHT_GRAY
 	},
 };
+
+// Scrolling Background
+static const u32 sScrollBgTiles[] = INCBIN_U32("graphics/quest_menu/scroll_tiles.4bpp.lz");
+static const u32 sScrollBgTilemap[] = INCBIN_U32("graphics/quest_menu/scroll_tilemap.bin.lz");
+static const u16 sScrollBgPalette[] = INCBIN_U16("graphics/quest_menu/scroll_tiles.gbapal");
 
 //Functions begin here
 
@@ -1148,6 +1160,8 @@ static void VBlankCB(void)
 	LoadOam();
 	ProcessSpriteCopyRequests();
 	TransferPlttBuffer();
+	ChangeBgX(2, 64, BG_COORD_ADD);
+    ChangeBgY(2, 64, BG_COORD_ADD);
 }
 
 static void RunSetup(void)
@@ -1288,12 +1302,14 @@ static bool8 LoadGraphics(void)
 		case 0:
 			ResetTempTileDataBuffers();
 			DecompressAndCopyTileDataToVram(1, sQuestMenuTiles, 0, 0, 0);
+			DecompressAndCopyTileDataToVram(2, sScrollBgTiles, 0, 0, 0);
 			sStateDataPtr->data[0]++;
 			break;
 		case 1:
 			if (FreeTempTileDataBuffersIfPossible() != TRUE)
 			{
 				LZDecompressWram(sQuestMenuTilemap, sBg1TilemapBuffer);
+				LZDecompressWram(sScrollBgTilemap, sBg2TilemapBuffer);
 				sStateDataPtr->data[0]++;
 			}
 			break;
@@ -1302,6 +1318,7 @@ static bool8 LoadGraphics(void)
 			sStateDataPtr->data[0]++;
 			break;
 		case 3:
+			LoadPalette(sScrollBgPalette, 16, 16);
 			sStateDataPtr->data[0]++;
 			break;
 		default:
@@ -1337,15 +1354,24 @@ static bool8 InitBackgrounds(void)
 	}
 
 	memset(sBg1TilemapBuffer, 0, 0x800);
+
+	sBg2TilemapBuffer = Alloc(0x800);
+    if (sBg2TilemapBuffer == NULL)
+        return FALSE;
+    memset(sBg2TilemapBuffer, 0, 0x800);
+
 	ResetBgsAndClearDma3BusyFlags(0);
 	InitBgsFromTemplates(0, sQuestMenuBgTemplates,
 	                     NELEMS(sQuestMenuBgTemplates));
 	SetBgTilemapBuffer(1, sBg1TilemapBuffer);
+	SetBgTilemapBuffer(2, sBg2TilemapBuffer);
 	ScheduleBgCopyTilemapToVram(1);
+	ScheduleBgCopyTilemapToVram(2);
 	SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
 	SetGpuReg(REG_OFFSET_BLDCNT, 0);
 	ShowBg(0);
 	ShowBg(1);
+	ShowBg(2);
 	return TRUE;
 }
 
@@ -1398,7 +1424,7 @@ static void PlaceTopMenuScrollIndicatorArrows(void)
 	}
 
 	sStateDataPtr->scrollIndicatorArrowPairId =
-	      AddScrollIndicatorArrowPairParameterized(2, 94, 8, 90,
+	      AddScrollIndicatorArrowPairParameterized(2, 94, 20, 92,
 	                  (listSize - sStateDataPtr->maxShowed), 110, 110, &sListMenuState.scroll);
 }
 
@@ -2914,6 +2940,7 @@ static void FreeResources(void)
 
 	try_free(sStateDataPtr);
 	try_free(sBg1TilemapBuffer);
+	try_free(sBg2TilemapBuffer);
 	try_free(sListMenuItems);
 
 	for (i = QUEST_ARRAY_COUNT; i > -1; i--)

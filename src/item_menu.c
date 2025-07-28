@@ -589,7 +589,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     [WIN_ITEM_LIST] = {
         .bg = 0,
         .tilemapLeft = 14,
-        .tilemapTop = 2,
+        .tilemapTop = 3,
         .width = 15,
         .height = 16,
         .paletteNum = 13,
@@ -1264,8 +1264,8 @@ static void CreatePocketScrollArrowPair(void)
         gBagMenu->pocketScrollArrowsTask = AddScrollIndicatorArrowPairParameterized(
             SCROLL_ARROW_UP,
             172,
-            12,
-            148,
+            20,
+            155,
             gBagMenu->numItemStacks[gBagPosition.pocket] - gBagMenu->numShownItems[gBagPosition.pocket],
             TAG_POCKET_SCROLL_ARROW,
             TAG_POCKET_SCROLL_ARROW,
@@ -1591,7 +1591,7 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
     }
     DrawPocketIndicatorSquare(gBagPosition.pocket, FALSE);
     DrawPocketIndicatorSquare(newPocket, TRUE);
-    FillBgTilemapBufferRect_Palette0(2, 27, 14, 2, 15, 16);
+    FillBgTilemapBufferRect_Palette0(2, 27, 14, 3, 15, 16);
     ScheduleBgCopyTilemapToVram(2);
     SetBagVisualPocketId(newPocket, TRUE);
     RemoveBagSprite(ITEMMENUSPRITE_BALL);
@@ -1650,12 +1650,12 @@ static void Task_SwitchBagPocket(u8 taskId)
 // When the pocket is switched this lighter background is redrawn row by row
 static void DrawItemListBgRow(u8 y)
 {
-     u8 tile = (((y / 2) & 1) == 0) ? 3 : 4;
+     u8 tile = (((y / 2) & 1) == 0) ? 5 : 6;
     FillBgTilemapBufferRect_Palette0(
         /*bg=*/2,
         /*tileNum=*/tile,
         /*x=*/14,
-        /*y=*/y + 2,
+        /*y=*/y + 3,
         /*width=*/15,
         /*height=*/1
     );

@@ -442,7 +442,8 @@ static void VBlankCB(void)
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
-    ChangeBgY(3, 128, BG_COORD_SUB);
+    ChangeBgX(3, 64, BG_COORD_ADD);
+    ChangeBgY(3, 64, BG_COORD_ADD);
 }
 
 static const u8 sText_TopBar_Custom[]         = _("CUSTOM OPTIONS");
@@ -607,8 +608,8 @@ static bool8 OptionsMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, 
         }
         break;
     case 4:
-        LoadPalette(sOptionsMenuPalette, 64, 32);
-        LoadPalette(sScrollBgPalette, 32, 32);
+        LoadPalette(sOptionsMenuPalette, 0, 16);
+        LoadPalette(sScrollBgPalette, 16, 16);
         sOptions->gfxLoadState++;
         break;
     default:
