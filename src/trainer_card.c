@@ -245,8 +245,8 @@ static const struct WindowTemplate sTrainerCardWindowTemplates[] =
     },
     [WIN_CARD_TEXT] = {
         .bg = 1,
-        .tilemapLeft = 1,
-        .tilemapTop = 1,
+        .tilemapLeft = 7,
+        .tilemapTop = 2,
         .width = 28,
         .height = 18,
         .paletteNum = 15,
@@ -337,6 +337,9 @@ static void VblankCb_TrainerCard(void)
     BlinkTimeColon();
     if (sData->allowDMACopy)
         DmaCopy16(3, &gScanlineEffectRegBuffers[0], &gScanlineEffectRegBuffers[1], 0x140);
+
+    ChangeBgX(2, 64, BG_COORD_ADD);
+    ChangeBgY(2, 64, BG_COORD_ADD);
 }
 
 static void HblankCb_TrainerCard(void)
@@ -898,8 +901,8 @@ static void InitBgsAndWindows(void)
     ChangeBgY(0, 0, BG_COORD_SET);
     ChangeBgX(1, 0, BG_COORD_SET);
     ChangeBgY(1, 0, BG_COORD_SET);
-    ChangeBgX(2, 0, BG_COORD_SET);
-    ChangeBgY(2, 0, BG_COORD_SET);
+    //ChangeBgX(2, 0, BG_COORD_SET);
+    //ChangeBgY(2, 0, BG_COORD_SET);
     ChangeBgX(3, 0, BG_COORD_SET);
     ChangeBgY(3, 0, BG_COORD_SET);
     InitWindows(sTrainerCardWindowTemplates);
