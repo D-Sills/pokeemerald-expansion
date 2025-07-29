@@ -310,7 +310,7 @@ static const u16* const sDexPalettes[HGSS_COLOR_COUNT][HGSS_PAL_TYPE_COUNT] =
                          sSizeScreenSilhouette_inverted_Pal},
 };
 
-#define HGSS_COLOR_MODE HGSS_DARKEST
+#define HGSS_COLOR_MODE HGSS_CLASSIC
 #define SCROLLING_MON_X 146
 #define HGSS_DECAPPED FALSE
 #define HGSS_HIDE_UNSEEN_EVOLUTION_NAMES FALSE
@@ -319,7 +319,7 @@ static const u16* const sDexPalettes[HGSS_COLOR_COUNT][HGSS_PAL_TYPE_COUNT] =
 #define MAX_SEARCH_PARAM_ON_SCREEN   6
 #define MAX_SEARCH_PARAM_CURSOR_POS  (MAX_SEARCH_PARAM_ON_SCREEN - 1)
 
-#define MAX_MONS_ON_SCREEN 4
+#define MAX_MONS_ON_SCREEN 6
 #define MAX_EVOLUTION_ICONS 8
 
 #define LIST_SCROLL_STEP         16
