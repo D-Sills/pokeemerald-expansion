@@ -33,6 +33,7 @@
 #include "constants/battle_frontier.h"
 #include "constants/rgb.h"
 #include "constants/trainers.h"
+#include "decompress.h"
 #include "constants/union_room.h"
 
 enum {
@@ -83,12 +84,12 @@ struct TrainerCardData
     struct TrainerCard trainerCard;
     u16 frontTilemap[600];
     u16 backTilemap[600];
-    u16 bgTilemap[600];
+    u16 bgTilemap[32 * 32];
     u8 badgeTiles[0x80 * NUM_BADGES];
     u8 stickerTiles[0x200];
     u8 cardTiles[0x2300];
     u16 cardTilemapBuffer[0x1000];
-    u16 bgTilemapBuffer[0x1000];
+    u16 bgTilemapBuffer[0x800];
     u16 cardTop;
     u8 language;
 };
@@ -158,6 +159,7 @@ static void BufferLinkContestNum(void);
 static void BufferBattleFacilityStats(void);
 static void PrintStatOnBackOfCard(u8 top, const u8 *str1, u8 *str2, const u8 *color);
 static void LoadStickerGfx(void);
+static void LoadMugshotGfx(void);
 static u8 SetCardBgsAndPals(void);
 static void DrawCardBackStats(void);
 static void Task_DoCardFlipTask(u8);
@@ -191,6 +193,8 @@ static const u16 sTrainerCardSticker3_Pal[]      = INCBIN_U16("graphics/trainer_
 static const u16 sTrainerCardSticker4_Pal[]      = INCBIN_U16("graphics/trainer_card/frlg/stickers4.gbapal");
 static const u32 sHoennTrainerCardBadges_Gfx[]   = INCBIN_U32("graphics/trainer_card/badges.4bpp.lz");
 static const u32 sKantoTrainerCardBadges_Gfx[]   = INCBIN_U32("graphics/trainer_card/frlg/badges.4bpp.lz");
+static const u8 sGirlNeutralMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sGirlNeutralMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
 
 static const struct BgTemplate sTrainerCardBgTemplates[4] =
 {
@@ -245,8 +249,8 @@ static const struct WindowTemplate sTrainerCardWindowTemplates[] =
     },
     [WIN_CARD_TEXT] = {
         .bg = 1,
-        .tilemapLeft = 7,
-        .tilemapTop = 2,
+        .tilemapLeft = 11,
+        .tilemapTop = 1,
         .width = 28,
         .height = 18,
         .paletteNum = 15,
@@ -254,10 +258,10 @@ static const struct WindowTemplate sTrainerCardWindowTemplates[] =
     },
     [WIN_TRAINER_PIC] = {
         .bg = 3,
-        .tilemapLeft = 19,
+        .tilemapLeft = 2,
         .tilemapTop = 5,
         .width = 9,
-        .height = 10,
+        .height = 9,
         .paletteNum = 8,
         .baseBlock = 0x150,
     },
@@ -335,11 +339,12 @@ static void VblankCb_TrainerCard(void)
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
     BlinkTimeColon();
-    if (sData->allowDMACopy)
-        DmaCopy16(3, &gScanlineEffectRegBuffers[0], &gScanlineEffectRegBuffers[1], 0x140);
 
     ChangeBgX(2, 64, BG_COORD_ADD);
     ChangeBgY(2, 64, BG_COORD_ADD);
+    if (sData->allowDMACopy)
+        DmaCopy16(3, &gScanlineEffectRegBuffers[0], &gScanlineEffectRegBuffers[1], 0x140);
+
 }
 
 static void HblankCb_TrainerCard(void)
@@ -903,6 +908,7 @@ static void InitBgsAndWindows(void)
     ChangeBgY(1, 0, BG_COORD_SET);
     //ChangeBgX(2, 0, BG_COORD_SET);
     //ChangeBgY(2, 0, BG_COORD_SET);
+    ScheduleBgCopyTilemapToVram(2);
     ChangeBgX(3, 0, BG_COORD_SET);
     ChangeBgY(3, 0, BG_COORD_SET);
     InitWindows(sTrainerCardWindowTemplates);
@@ -1034,7 +1040,7 @@ static void PrintIdOnCard(void)
     }
     else
     {
-        xPos = GetStringCenterAlignXOffset(FONT_NORMAL, buffer, 96) + 120;
+        xPos = GetStringCenterAlignXOffset(FONT_NORMAL, buffer, 96) + 60;
         top = 9;
     }
 
@@ -1418,6 +1424,33 @@ static void LoadStickerGfx(void)
     LoadBgTiles(3, sData->stickerTiles, 1024, 128);
 }
 
+static void LoadMugshotGfx(void)
+{
+    u8 mugshotTiles[9 * 9 * 32];
+    const u8  *gfx;
+    const u16 *pal;
+
+    /* // pick based on gender/emotion flag:
+    if (gSaveBlock2Ptr->playerGender == FEMALE)
+    {
+        if (gSaveBlock1Ptr->mugshotEmotion == EMOTION_NEUTRAL)
+            gfx = sMugshot_GirlNeutral_Gfx, pal = sMugshot_GirlNeutral_Pal;
+        else /* …other emotions… ;
+    }
+    else // male
+    {
+        // pick sMugshot_Boy… arrays
+    }*/
+
+    gfx = sGirlNeutralMugShot_GFX; // Placeholder, replace with actual logic
+    pal = sGirlNeutralMugShot_Pal; // Placeholder, replace with actual logic
+
+    CopyToWindowPixelBuffer(WIN_TRAINER_PIC, gfx, sizeof(mugshotTiles), 0);
+    LoadPalette(pal, BG_PLTT_ID(2), PLTT_SIZE_4BPP);
+    PutWindowTilemap(WIN_TRAINER_PIC);
+    CopyWindowToVram(WIN_TRAINER_PIC, COPYWIN_FULL);
+}
+
 static void DrawTrainerCardWindow(u8 windowId)
 {
     PutWindowTilemap(windowId);
@@ -1457,7 +1490,7 @@ static u8 SetCardBgsAndPals(void)
         break;
     case 4:
         FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
-        FillBgTilemapBufferRect_Palette0(2, 0, 0, 0, 32, 32);
+        //FillBgTilemapBufferRect_Palette0(2, 0, 0, 0, 32, 32);
         FillBgTilemapBufferRect_Palette0(3, 0, 0, 0, 32, 32);
     default:
         return 1;
@@ -1468,20 +1501,29 @@ static u8 SetCardBgsAndPals(void)
 
 static void DrawCardScreenBackground(u16 *ptr)
 {
-    s16 i, j;
+     /* s16 i, j;
     u16 *dst = sData->bgTilemapBuffer;
 
     for (i = 0; i < 20; i++)
-    {
-        for (j = 0; j < 32; j++)
         {
-            if (j < 30)
-                dst[32 * i + j] = ptr[30 * i + j];
-            else
-                dst[32 * i + j] = ptr[0];
-        }
-    }
-    CopyBgTilemapBufferToVram(2);
+            for (j = 0; j < 32; j++)
+            {
+                if (j < 30)
+                    dst[32 * i + j] = ptr[30 * i + j];
+                else
+                    dst[32 * i + j] = ptr[0];
+            }
+        } */
+
+        // Assuming bgTilemapBuffer is a u16[32*32] you set up earlier…
+    u16 *dst = sData->bgTilemapBuffer;
+
+    // Copy all 32×32 tiles in one go
+    CpuCopy32(ptr, dst, 32 * 32 * sizeof(u16));
+    
+   //SetBgTilemapBuffer(2, sData->cardTilemapBuffer);
+    CopyBgTilemapBufferToVram(2); 
+    //ScheduleBgCopyTilemapToVram(2);
 }
 
 static void DrawCardFrontOrBack(u16 *ptr)
@@ -1513,15 +1555,15 @@ static void DrawStarsAndBadgesOnCard(void)
     FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
     if (!sData->isLink)
     {
-        x = 4;
+        x = 2;
         for (i = 0; i < NUM_BADGES; i++, tileNum += 2, x += 3)
         {
             if (sData->badgeCount[i])
             {
-                FillBgTilemapBufferRect(3, tileNum, x, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 16, x, 16, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 16, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum, x, 16,1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 16, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 16, x, 17, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 17, 1, 1, palNum);
             }
         }
     }
@@ -1887,7 +1929,7 @@ static u8 VersionToCardType(u8 version)
 
 static void CreateTrainerCardTrainerPic(void)
 {
-    if (InUnionRoom() == TRUE && gReceivedRemoteLinkPlayers == 1)
+    /*  if (InUnionRoom() == TRUE && gReceivedRemoteLinkPlayers == 1)
     {
         CreateTrainerCardTrainerPicSprite(FacilityClassToPicIndex(sData->trainerCard.unionRoomClass),
                     TRUE,
@@ -1906,5 +1948,7 @@ static void CreateTrainerCardTrainerPic(void)
                     sTrainerPicOffset[sData->isHoenn][sData->trainerCard.gender][1],
                     8,
                     WIN_TRAINER_PIC);
-    }
+    } */
+
+    LoadMugshotGfx();
 }
