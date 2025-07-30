@@ -1198,7 +1198,7 @@ static void BagMenu_MoveCursorCallback(s32 itemIndex, bool8 onInit, struct ListM
 {
     if (onInit != TRUE)
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_CURSOR);
         ShakeBagSprite();
     }
     if (gBagMenu->toSwapPos == NOT_SWAPPING)

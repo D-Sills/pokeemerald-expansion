@@ -928,8 +928,9 @@ static const u8 sText_OutOf30[] = _("/30");
 static const u16 sChooseBoxMenu_Pal[]        = INCBIN_U16("graphics/pokemon_storage/box_selection_popup.gbapal");
 static const u8 sChooseBoxMenuCenter_Gfx[]   = INCBIN_U8("graphics/pokemon_storage/box_selection_popup_center.4bpp");
 static const u8 sChooseBoxMenuSides_Gfx[]    = INCBIN_U8("graphics/pokemon_storage/box_selection_popup_sides.4bpp");
-static const u32 sScrollingBg_Gfx[]          = INCBIN_U32("graphics/pokemon_storage/scrolling_bg.4bpp.lz");
-static const u32 sScrollingBg_Tilemap[]      = INCBIN_U32("graphics/pokemon_storage/scrolling_bg.bin.lz");
+static const u32 sScrollingBg_Gfx[]          = INCBIN_U32("graphics/pokemon_storage/scroll_tiles.4bpp.lz");
+static const u32 sScrollingBg_Tilemap[]      = INCBIN_U32("graphics/pokemon_storage/scroll_tiles.bin.lz");
+static const u16 sScrollBgPalette2[]        = INCBIN_U16("graphics/pokemon_storage/scroll_tiles.gbapal");
 static const u16 sDisplayMenu_Pal[]          = INCBIN_U16("graphics/pokemon_storage/display_menu.gbapal"); // Unused
 static const u32 sDisplayMenu_Tilemap[]      = INCBIN_U32("graphics/pokemon_storage/display_menu.bin.lz");
 static const u16 sPkmnData_Tilemap[]         = INCBIN_U16("graphics/pokemon_storage/pkmn_data.bin");
@@ -1552,7 +1553,7 @@ static void Task_PCMainMenu(u8 taskId)
             {
                 task->tSelectedOption = task->tNextOption;
                 FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-                AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+                AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
             }
             break;
         case MENU_B_PRESSED:
@@ -1568,14 +1569,14 @@ static void Task_PCMainMenu(u8 taskId)
             {
                 // Can't withdraw
                 FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PartyFull, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PartyFull, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
                 task->tState = STATE_ERROR_MSG;
             }
             else if (task->tInput == OPTION_DEPOSIT && CountPartyMons() == 1)
             {
                 // Can't deposit
                 FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_JustOnePkmn, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_JustOnePkmn, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
                 task->tState = STATE_ERROR_MSG;
             }
             else
@@ -1593,7 +1594,7 @@ static void Task_PCMainMenu(u8 taskId)
         if (JOY_NEW(A_BUTTON | B_BUTTON))
         {
             FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         else if (JOY_NEW(DPAD_UP))
@@ -1603,7 +1604,7 @@ static void Task_PCMainMenu(u8 taskId)
             Menu_MoveCursor(-1);
             task->tSelectedOption = Menu_GetCursorPos();
             FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         else if (JOY_NEW(DPAD_DOWN))
@@ -1613,7 +1614,7 @@ static void Task_PCMainMenu(u8 taskId)
             Menu_MoveCursor(1);
             task->tSelectedOption = Menu_GetCursorPos();
             FillWindowPixelBuffer(0, PIXEL_FILL(FILL_WINDOW_PIXEL));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         break;
@@ -2042,7 +2043,7 @@ static void ResetForPokeStorage(void)
     gKeyRepeatStartDelay = 20;
     ClearScheduledBgCopiesToVram();
     TilemapUtil_Init(TILEMAPID_COUNT);
-    TilemapUtil_SetMap(TILEMAPID_PKMN_DATA, 1, sPkmnData_Tilemap, 8, 4);
+   TilemapUtil_SetMap(TILEMAPID_PKMN_DATA, 1, sPkmnData_Tilemap, 8, 4);
     TilemapUtil_SetPos(TILEMAPID_PKMN_DATA, 1, 0);
     sStorage->closeBoxFlashing = FALSE;
 }
@@ -2600,7 +2601,7 @@ static void Task_OnSelectedMon(u8 taskId)
             }
             else
             {
-                PlaySE(SE_SELECT);
+                PlaySE(SE_RG_BAG_CURSOR);
                 ClearBottomWindow();
                 SetPokeStorageTask(Task_MoveMon);
             }
@@ -3843,8 +3844,8 @@ static void SetScrollingBackground(void)
 
 static void ScrollBackground(void)
 {
-    ChangeBgX(3, 128, BG_COORD_ADD);
-    ChangeBgY(3, 128, BG_COORD_SUB);
+    ChangeBgX(3, 64, BG_COORD_ADD);
+    ChangeBgY(3, 64, BG_COORD_ADD);
 }
 
 static void LoadPokeStorageMenuGfx(void)
@@ -3880,6 +3881,7 @@ static void InitPalettesAndSprites(void)
     LoadPalette(sInterface_Pal, BG_PLTT_ID(0), sizeof(sInterface_Pal));
     LoadPalette(sPkmnDataGray_Pal, BG_PLTT_ID(2), sizeof(sPkmnDataGray_Pal));
     LoadPalette(sTextWindows_Pal, BG_PLTT_ID(15), sizeof(sTextWindows_Pal));
+    LoadPalette(sScrollBgPalette2, BG_PLTT_ID(13), sizeof(sScrollBgPalette2));
     if (sStorage->boxOption != OPTION_MOVE_ITEMS)
         LoadPalette(sScrollingBg_Pal, BG_PLTT_ID(3), sizeof(sScrollingBg_Pal));
     else
@@ -4048,7 +4050,12 @@ static void UpdateWaveformAnimation(void)
 {
     u16 i;
 
-    if (sStorage->displayMonSpecies != SPECIES_NONE)
+// Start waveform animation and color "Pkmn Data"
+        TilemapUtil_SetRect(TILEMAPID_PKMN_DATA, 0, 0, 8, 2);
+        for (i = 0; i < ARRAY_COUNT(sStorage->waveformSprites); i++)
+            StartSpriteAnimIfDifferent(sStorage->waveformSprites[i], i * 2 + 1);
+
+    /* if (sStorage->displayMonSpecies != SPECIES_NONE)
     {
         // Start waveform animation and color "Pkmn Data"
         TilemapUtil_SetRect(TILEMAPID_PKMN_DATA, 0, 0, 8, 2);
@@ -4061,7 +4068,7 @@ static void UpdateWaveformAnimation(void)
         TilemapUtil_SetRect(TILEMAPID_PKMN_DATA, 0, 2, 8, 2);
         for (i = 0; i < ARRAY_COUNT(sStorage->waveformSprites); i++)
             StartSpriteAnim(sStorage->waveformSprites[i], i * 2);
-    }
+    } */
 
     TilemapUtil_Update(TILEMAPID_PKMN_DATA);
     ScheduleBgCopyTilemapToVram(1);

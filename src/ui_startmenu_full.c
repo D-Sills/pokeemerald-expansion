@@ -1237,6 +1237,9 @@ static void PrintSaveComplete(void) {
     AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SaveComplete);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
+
+    PlaySE(SE_SAVE);
+
 }
 
 //
@@ -1478,22 +1481,19 @@ void Task_HandleSaveConfirmation(u8 taskId)
         AutoSaveDoSaveCallback();
 
 
-        gTasks[taskId].func = Task_StartMenuFullMain;
 
-
-        FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-
-
-        PutWindowTilemap(WINDOW_BOTTOM_BAR);
-
-
-        CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
-
-
-        PlaySE(SE_SELECT);
+        //PlaySE(SE_SELECT);
 
         PrintSaveComplete();
 
+        // wait a couple of frames to show the save complete text
+        gTasks[taskId].sFrameToSecondTimer = 0;
+
+
+    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        PutWindowTilemap(WINDOW_BOTTOM_BAR);
+        CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
+        gTasks[taskId].func = Task_StartMenuFullMain;
 
         //gFieldCallback = SaveStartCallback_FullStartMenu;
 
@@ -1531,6 +1531,7 @@ static void Task_StartMenuFullMain(u8 taskId)
     }
     if (JOY_NEW(DPAD_LEFT) || JOY_NEW(DPAD_RIGHT)) // these change the position of the selector, the actual x/y of the sprite is handled in its callback CursorCallback
     {
+        PlaySE(SE_RG_BAG_CURSOR);
         if(sStartMenuDataPtr->selector_x == 0)
             sStartMenuDataPtr->selector_x = 1;
         else
@@ -1538,6 +1539,7 @@ static void Task_StartMenuFullMain(u8 taskId)
     }
     if (JOY_NEW(DPAD_UP))
     {
+        PlaySE(SE_RG_BAG_CURSOR);
         if (sStartMenuDataPtr->selector_y == 0)
             sStartMenuDataPtr->selector_y = 2;
         else
@@ -1545,6 +1547,7 @@ static void Task_StartMenuFullMain(u8 taskId)
     }
     if (JOY_NEW(DPAD_DOWN))
     {
+        PlaySE(SE_RG_BAG_CURSOR);
         if (sStartMenuDataPtr->selector_y == 2)
             sStartMenuDataPtr->selector_y = 0;
         else
