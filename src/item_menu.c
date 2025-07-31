@@ -301,9 +301,9 @@ static const struct ListMenuTemplate sItemListMenu =
     .item_X = 8,
     .cursor_X = 0,
     .upText_Y = 1,
-    .cursorPal = 1,
+    .cursorPal = TEXT_DYNAMIC_COLOR_3,
     .fillValue = 0,
-    .cursorShadowPal = 3,
+    .cursorShadowPal = TEXT_DYNAMIC_COLOR_2,
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = LIST_NO_MULTIPLE_SCROLL,
@@ -607,9 +607,9 @@ static const u8 sFontColorTable[][3] = {
                             // bgColor, textColor, shadowColor
     [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
-    [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_GREEN},
+    [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_3, TEXT_DYNAMIC_COLOR_2},
     [COLORID_UNUSED]      = {TEXT_COLOR_DARK_GRAY,   TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
-    [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
+    [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY}
 };
 
 static const struct WindowTemplate sDefaultBagWindows[] =
@@ -656,7 +656,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapTop = 13,
         .width = 4,
         .height = 6,
-        .paletteNum = 12,
+        .paletteNum = 13,
         .baseBlock = 0x189,
     },
     [WIN_MESSAGE] = {
@@ -1244,7 +1244,7 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, MAX_ITEM_DIGITS);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
             offset = GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 119);
-            BagMenu_Print(windowId, FONT_NARROW, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL);
+            BagMenu_Print(windowId, FONT_NARROW, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_GRAY_CURSOR);
         }
         else if (itemId && (offset = RegisteredItemIndex(itemId)) >= 0)
         {
@@ -1479,9 +1479,11 @@ static void PrintItemQuantity(u8 windowId, s16 quantity)
 // Prints the quantity of items to be sold and the amount that would be earned
 static void PrintItemSoldAmount(int windowId, int numSold, int moneyEarned)
 {
+    u8 colors[3] = {TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY};
     ConvertIntToDecimalStringN(gStringVar1, numSold, STR_CONV_MODE_LEADING_ZEROS, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
-    AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, 0);
+    //AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, 0);
+    AddTextPrinterParameterized4(windowId, FONT_NORMAL, 0, 1, 0, 0, colors, 0, gStringVar4);
     PrintMoneyAmountOverride(windowId, CalculateMoneyTextHorizontalPosition(moneyEarned), 1, moneyEarned, 0);
 }
 
@@ -1591,12 +1593,12 @@ static u8 GetSwitchBagPocketDirection(void)
     LRKeys = GetLRKeysPressed();
     if (JOY_NEW(DPAD_LEFT) || LRKeys == MENU_L_PRESSED)
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_POCKET);
         return SWITCH_POCKET_LEFT;
     }
     if (JOY_NEW(DPAD_RIGHT) || LRKeys == MENU_R_PRESSED)
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_POCKET);
         return SWITCH_POCKET_RIGHT;
     }
     return SWITCH_POCKET_NONE;
@@ -2196,7 +2198,7 @@ static void CancelToss(u8 taskId)
     s16 *data = gTasks[taskId].data;
 
     PrintItemDescription(tListPosition);
-    BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+    BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
     ReturnToItemList(taskId);
 }
 
@@ -2431,7 +2433,7 @@ static void ItemMenu_Cancel(u8 taskId)
     PrintItemDescription(tListPosition);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
-    BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+    BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
     ReturnToItemList(taskId);
 }
 
@@ -2710,7 +2712,7 @@ static void CancelSell(u8 taskId)
 
     RemoveMoneyWindow();
     RemoveItemMessageWindow(ITEMWIN_MESSAGE);
-    BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+    BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
     ReturnToItemList(taskId);
 }
 
@@ -2741,7 +2743,7 @@ static void Task_ChooseHowManyToSell(u8 taskId)
     else if (JOY_NEW(B_BUTTON))
     {
         PlaySE(SE_SELECT);
-        BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+        BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
         RemoveMoneyWindow();
         BagMenu_RemoveWindow(ITEMWIN_QUANTITY_WIDE);
         RemoveItemMessageWindow(ITEMWIN_MESSAGE);
@@ -2827,7 +2829,7 @@ static void Task_ChooseHowManyToDeposit(u8 taskId)
     {
         PlaySE(SE_SELECT);
         PrintItemDescription(tListPosition);
-        BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+        BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
         BagMenu_RemoveWindow(ITEMWIN_QUANTITY);
         ReturnToItemList(taskId);
     }
@@ -2870,7 +2872,7 @@ static void WaitDepositErrorMessage(u8 taskId)
     {
         PlaySE(SE_SELECT);
         PrintItemDescription(tListPosition);
-        BagMenu_PrintCursor(tListTaskId, COLORID_NORMAL);
+        BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
         ReturnToItemList(taskId);
     }
 }

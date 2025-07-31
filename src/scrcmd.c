@@ -2561,10 +2561,11 @@ bool8 ScrCmd_pokemart(struct ScriptContext *ctx)
         break;
     }
     #else
-    // Old shop UI
+     //Old shop UI
     CreatePokemartMenu(ptr);
     ScriptContext_Stop();
     #endif
+    ScriptContext_Stop();
     return TRUE;
 }
 
@@ -2574,7 +2575,7 @@ bool8 ScrCmd_pokemartdecoration(struct ScriptContext *ctx)
 
     Script_RequestEffects(SCREFF_V1 | SCREFF_HARDWARE);
 
-    #ifdef MUDSKIP_SHOP_UI
+   #ifdef MUDSKIP_SHOP_UI
     NewShop_CreateDecorationShop1Menu(ptr);
     #else
     CreateDecorationShop1Menu(ptr);

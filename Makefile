@@ -320,7 +320,7 @@ clean-assets:
 	find sound -iname '*.bin' -exec rm {} +
 	find . \( -iname '*.1bpp' -o -iname '*.4bpp' -o -iname '*.8bpp' -o -iname '*.gbapal' -o -iname '*.lz' -o -iname '*.rl' -o -iname '*.latfont' -o -iname '*.hwjpnfont' -o -iname '*.fwjpnfont' \) -exec rm {} +
 	find $(DATA_ASM_SUBDIR)/maps \( -iname 'connections.inc' -o -iname 'events.inc' -o -iname 'header.inc' \) -exec rm {} +
-
+	find . -type f \( -iname '*:Zone.Identifier' -o -iname '*.Zone.Identifier' \) -exec rm -f {} +
 tidy: tidymodern tidycheck tidydebug
 
 tidymodern:

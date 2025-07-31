@@ -61,14 +61,14 @@
 #define PALTAG_ITEM 0x2000
 
 #define CURSOR_START_X 100 + 32
-#define CURSOR_START_Y 4 + 32
+#define CURSOR_START_Y 4 + 32 + 8
 
 #define RIGHT_ALIGNED_X -1
 
 // the x is either 0 or RIGHT_ALIGNED_X
 #define ITEM_NAME_Y   (0 * 16)
-#define ITEM_PRICE_Y  (1 * 16)
-#define ITEM_IN_BAG_Y (2 * 16)
+#define ITEM_PRICE_Y  (0 * 16)
+#define ITEM_IN_BAG_Y (0 * 16)
 
 #define MAX_ITEMS_SHOWN sShopData->gridItems->numItems
 
@@ -162,6 +162,8 @@ struct ShopData
     u8 cursorSpriteId;
     u16 currentItemId;
     struct GridMenu *gridItems;
+    u8 arrowTaskId;
+    u16 scrollOffset;
 };
 
 struct Seller
@@ -196,25 +198,25 @@ static EWRAM_DATA u8 sPurchaseHistoryId = 0;
 
 static const u8 sText_SoldOut[] = _("Sold Out");
 
-static const u8 sText_ThatItemIsSoldOut[] = _("I'm sorry, but\nthat item is\nsold out.");
-static const u8 sText_Var1CertainlyHowMany[] = _("{STR_VAR_1}?\nCertainly. How\nmany?");
-static const u8 sText_Var1AndYouWantedVar2[] = _("So you wanted\n{STR_VAR_2} {STR_VAR_1}?\nThat'll be ¥{STR_VAR_3}.");
-static const u8 sText_Var1AndYouWantedVar2Coins[] = _("So you wanted\n{STR_VAR_2} {STR_VAR_1}?\nThat'll be {STR_VAR_3} Coins.");
-static const u8 sText_Var1AndYouWantedVar2BP[] = _("So you wanted\n{STR_VAR_2} {STR_VAR_1}?\nThat'll be {STR_VAR_3} BP.");
-static const u8 sText_YouWantedVar1ThatllBeVar2[] = _("You wanted the\n{STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}.");
-static const u8 sText_YouWantedVar1ThatllBeVar2Coins[] = _("You wanted the\n{STR_VAR_1}?\nThat'll be {STR_VAR_2} Coins.");
-static const u8 sText_YouWantedVar1ThatllBeVar2BP[] = _("You wanted the\n{STR_VAR_1}?\nThat'll be {STR_VAR_2} BP.");
+static const u8 sText_ThatItemIsSoldOut[] = _("I'm sorry, but that item is sold out.");
+static const u8 sText_Var1CertainlyHowMany[] = _("{STR_VAR_1}? Certainly.\nHowmany?");
+static const u8 sText_Var1AndYouWantedVar2[] = _("So you wanted {STR_VAR_2} {STR_VAR_1}?\nThat'll be ¥{STR_VAR_3}.");
+static const u8 sText_Var1AndYouWantedVar2Coins[] = _("So you wanted {STR_VAR_2} {STR_VAR_1}?\nThat'll be {STR_VAR_3} Coins.");
+static const u8 sText_Var1AndYouWantedVar2BP[] = _("So you wanted {STR_VAR_2} {STR_VAR_1}?\nThat'll be {STR_VAR_3} BP.");
+static const u8 sText_YouWantedVar1ThatllBeVar2[] = _("You wanted the {STR_VAR_1}?\nThat'll be ¥{STR_VAR_2}.");
+static const u8 sText_YouWantedVar1ThatllBeVar2Coins[] = _("You wanted the {STR_VAR_1}?\nThat'll be {STR_VAR_2} Coins.");
+static const u8 sText_YouWantedVar1ThatllBeVar2BP[] = _("You wanted the {STR_VAR_1}?\nThat'll be {STR_VAR_2} BP.");
 static const u8 sText_YouWantedVar1OutfitThatllBeVar2[] = _("You wanted that {STR_VAR_1} Outfit?\nThat'll be ¥{STR_VAR_2}. Will that be okay?");
 static const u8 sText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
 static const u8 sText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to\nyour home PC.");
 static const u8 sText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your\nPC at home.");
-static const u8 sText_YouDontHaveMoney[] = _("You don't have\nenough money.");
+static const u8 sText_YouDontHaveMoney[] = _("You don't have enough money.");
 static const u8 sText_YouDontHaveCoins[] = _("You don't have\nenough Coins.{PAUSE_UNTIL_PRESS}");
 static const u8 sText_YouDontHaveBP[] = _("You don't have\nenough Battle Points.{PAUSE_UNTIL_PRESS}");
-static const u8 sText_NoMoreRoomForThis[] = _("You have no more\nroom for this\nitem.");
-static const u8 sText_SpaceForVar1Full[] = _("The space for\n{STR_VAR_1}\nis full.");
-static const u8 sText_ThrowInPremierBall[] = _("I'll throw in\na PREMIER BALL,\ntoo.");
-static const u8 sText_ThrowInPremierBalls[] = _("I'll throw in\n{STR_VAR_1} PREMIER BALLS,\ntoo.");
+static const u8 sText_NoMoreRoomForThis[] = _("You have no more room for this item.");
+static const u8 sText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.");
+static const u8 sText_ThrowInPremierBall[] = _("I'll throw in PREMIER BALL,too.");
+static const u8 sText_ThrowInPremierBalls[] = _("I'll throw in {STR_VAR_1} PREMIER BALLS,too.");
 
 // default state if all seller-based graphics fails
 static const u32 sNewShopMenu_DefaultMenuGfx[] = INCBIN_U32("graphics/new_shop/menu.4bpp.lz");
@@ -284,7 +286,7 @@ static void UpdateItemData(void);
 static void Task_ReturnToItemListWaitMsg(u8 taskId);
 
 static const u8 sGridPosX[] = { (120 + 16), (160 + 16), (200 + 16) };
-static const u8 sGridPosY[] = { (24 + 16), (64 + 16) };
+static const u8 sGridPosY[] = { (24 + 16 + 8), (64 + 16 + 8) };
 
 static const struct YesNoFuncTable sShopPurchaseYesNoFuncs =
 {
@@ -309,7 +311,7 @@ static const struct WindowTemplate sShopMenuWindowTemplates[] =
 {
     [WIN_BUY_SELL_QUIT] = {
         .bg = 0,
-        .tilemapLeft = 2,
+        .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 9,
         .height = 6,
@@ -319,7 +321,7 @@ static const struct WindowTemplate sShopMenuWindowTemplates[] =
     // Separate shop menu window for decorations, which can't be sold
     [WIN_BUY_QUIT] = {
         .bg = 0,
-        .tilemapLeft = 2,
+        .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 9,
         .height = 4,
@@ -372,7 +374,7 @@ static const struct WindowTemplate sBuyMenuWindowTemplates[] =
 {
     [WIN_MONEY] = {
         .bg = 0,
-        .tilemapLeft = 19,
+        .tilemapLeft = 18,
         .tilemapTop = 0,
         .width = 10,
         .height = 2,
@@ -382,25 +384,25 @@ static const struct WindowTemplate sBuyMenuWindowTemplates[] =
     [WIN_MULTI] = {
         .bg = 0,
         .tilemapLeft = 1,
-        .tilemapTop = 13,
-        .width = 10,
-        .height = 6,
+        .tilemapTop = 14,
+        .width = 26,
+        .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x0032,
     },
     [WIN_ITEM_DESCRIPTION] = {
         .bg = 0,
-        .tilemapLeft = 11,
-        .tilemapTop = 13,
-        .width = 14,
-        .height = 6,
+        .tilemapLeft = 1,
+        .tilemapTop = 16,
+        .width = 24,
+        .height = 4,
         .paletteNum = 15,
         .baseBlock = 0x0122,
     },
     [WIN_QUANTITY_PRICE] = {
         .bg = 0,
         .tilemapLeft = 22,
-        .tilemapTop = 14,
+        .tilemapTop = 16,
         .width = 7,
         .height = 4,
         .paletteNum = 15,
@@ -409,7 +411,7 @@ static const struct WindowTemplate sBuyMenuWindowTemplates[] =
     [WIN_MUGSHOT] = {
         .bg = 1,
         .tilemapLeft = 0,
-        .tilemapTop = 0,
+        .tilemapTop = 2,
         .width = 13,
         .height = 12,
         .paletteNum = 2,
@@ -422,7 +424,7 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
 {
     .bg = 0,
     .tilemapLeft = 25,
-    .tilemapTop = 14,
+    .tilemapTop = 15,
     .width = 4,
     .height = 4,
     .paletteNum = 15,
@@ -431,8 +433,8 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
 
 static const u8 sShopBuyMenuTextColors[][3] =
 {
-    [COLORID_NORMAL]      = {0, 1, 2},
-    [COLORID_BLACK]       = {0, 2, 3},
+    [COLORID_NORMAL]      = {0, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY},
+    [COLORID_BLACK]       = {0, TEXT_DYNAMIC_COLOR_3, TEXT_DYNAMIC_COLOR_2},
 };
 
 static const struct SpriteSheet sDefaultCursor_SpriteSheet = {
@@ -483,7 +485,7 @@ static const struct Seller sSellers[] = {
         { .gfxId = OBJ_EVENT_GFX_MART_EMPLOYEE },
         .mugshotGfx = sNewShopMenu_SellerMugshotGfx_Jerry,
         .mugshotPal = sNewShopMenu_SellerMugshotPal_Jerry,
-        .menuTileOffset = 9,
+        .menuTileOffset = 0,
         .menuGfx = sNewShopMenu_SellerMenuGfx_Jerry,
         .menuCoinGfx = sNewShopMenu_SellerMenuCoinGfx_Jerry,
         .menuPointGfx = sNewShopMenu_SellerMenuPointsGfx_Jerry,
@@ -521,7 +523,7 @@ static const struct Seller sSellers[] = {
         { .gfxId = OBJ_EVENT_GFX_WOMAN_3 },
         .mugshotGfx = sNewShopMenu_SellerMugshotGfx_Jennie,
         .mugshotPal = sNewShopMenu_SellerMugshotPal_Jennie,
-        .menuTileOffset = 9,
+        .menuTileOffset = 0,
         .menuGfx = sNewShopMenu_SellerMenuGfx_Jennie,
         .menuCoinGfx = sNewShopMenu_SellerMenuCoinGfx_Jennie,
         .menuPointGfx = sNewShopMenu_SellerMenuBpGfx_Jennie,
@@ -878,7 +880,8 @@ static void VBlankCB_BuyMenu(void)
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
-    ChangeBgX(3, 96, BG_COORD_SUB);
+    ChangeBgX(3, 64, BG_COORD_ADD);
+    ChangeBgY(3, 64, BG_COORD_ADD);
 }
 
 static void Task_BuyMenuWaitFadeIn(u8 taskId)
@@ -934,6 +937,11 @@ static void CB2_InitBuyMenu(void)
 static void BuyMenuFreeMemory(void)
 {
     GridMenu_Destroy(sShopData->gridItems);
+    if (sShopData->arrowTaskId != TASK_NONE) {
+        RemoveScrollIndicatorArrowPair(sShopData->arrowTaskId);
+        sShopData->arrowTaskId = TASK_NONE;
+    } 
+
     Free(sShopData);
     // they're better freed here since
     // this is only used in the buy menu
@@ -1033,6 +1041,10 @@ static void InputCB_UpDownScroll(void)
     GridMenu_ForAll(sShopData->gridItems, ForAllCB_FreeItemIcons);
     GridMenu_ForEach(sShopData->gridItems, ForEachCB_PopulateItemIcons);
     UpdateItemData();
+
+    // ← this is the important bit:
+    sShopData->scrollOffset = sShopData->gridItems->topLeftItemIndex;
+
     if (!IsSEPlaying())
         PlaySE(SE_RG_BAG_CURSOR);
 }
@@ -1040,6 +1052,10 @@ static void InputCB_UpDownScroll(void)
 static void InputCB_Move(void)
 {
     UpdateItemData();
+
+    // ← this is the important bit:
+    sShopData->scrollOffset = sShopData->gridItems->topLeftItemIndex;
+
     if (!IsSEPlaying())
         PlaySE(SE_RG_BAG_CURSOR);
 }
@@ -1068,6 +1084,43 @@ static void BuyMenuInitGrid(void)
     GridMenu_SetInputCallback(sShopData->gridItems, InputCB_Fail, DIRECTION_RIGHT, TYPE_FAIL);
     GridMenu_SetInputCallback(sShopData->gridItems, InputCB_UpDownScroll, DIRECTION_UP, TYPE_SCROLL);
     GridMenu_SetInputCallback(sShopData->gridItems, InputCB_UpDownScroll, DIRECTION_DOWN, TYPE_SCROLL);
+
+
+
+    // —— NEW: scroll-arrow setup —— 
+    u16 fullyDownThreshold = 0;
+    u16 itemsVisible    = sShopData->gridItems->maxCols * sShopData->gridItems->maxRows;
+    if (sShopData->gridItems->numItems > itemsVisible)
+        fullyDownThreshold = sShopData->gridItems->numItems - itemsVisible;
+
+    sShopData->scrollOffset = sShopData->gridItems->topLeftItemIndex;
+
+    // only if there are more items than 3×2 slots
+    if (sMartInfo.itemCount > sShopData->gridItems->maxCols * sShopData->gridItems->maxRows)
+    {
+        // Center X on the middle column:
+        const u8 arrowX = sGridPosX[1] - 5;      
+        // Place the up arrow just above the top row:
+        const u8 arrowUpY   = sGridPosY[0] - 25;  
+        // Place the down arrow just below the bottom row:
+        const u8 arrowDownY = sGridPosY[1] + 19;  
+
+
+        sShopData->arrowTaskId = AddScrollIndicatorArrowPairParameterized(
+            SCROLL_ARROW_UP,                 // arrow style
+            arrowX,                          // common X
+            arrowUpY,                        // Y for the up arrow
+            arrowDownY,                      // Y for the down arrow
+            fullyDownThreshold,                       // fullyDownThreshold
+            110,  // whatever tile‐tag you used when you loaded scrollGfx
+            110,   // ditto for palette
+            &sShopData->scrollOffset
+        );
+    }
+    else
+    {
+        sShopData->arrowTaskId = TASK_NONE;
+    }
 }
 
 static void BuyMenuInitBgs(void)
@@ -1090,9 +1143,11 @@ static void BuyMenuInitBgs(void)
     ShowBg(1);
     ShowBg(2);
     ShowBg(3);
+
+
 }
 
-#define DEFAULT_MENU_TILE_OFFSET 9
+#define DEFAULT_MENU_TILE_OFFSET 0
 static void BuyMenuDecompressBgGraphics(void)
 {
     u32 i = sMartInfo.sellerId;
@@ -1245,10 +1300,10 @@ static void BuyMenuInitWindows(void)
     SpawnWindow(WIN_MUGSHOT);
     SpawnWindow(WIN_ITEM_DESCRIPTION);
 
-    BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("PRICE"), 0, ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+    BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("PRICE"), 50, ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
     if (IsMartTypeItem(sMartInfo.martType))
     {
-        BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("IN BAG"), 0, ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+        BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("IN BAG"), 90, ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
     }
 
     UpdateItemData();
@@ -1373,17 +1428,17 @@ static void UpdateItemData(void)
     if (GridMenu_SelectedIndex(sShopData->gridItems) >= sMartInfo.itemCount)
         return;
 
-    FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 0,  ITEM_NAME_Y, 84, 16);
-    FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 24, ITEM_PRICE_Y, 84, 16);
-    FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 32, ITEM_IN_BAG_Y, 84, 16);
+    FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 0,  ITEM_NAME_Y, 192, 16);
+    //FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 24, ITEM_PRICE_Y, 192, 16);
+    //FillWindowPixelRect(WIN_MULTI, PIXEL_FILL(0), 32, ITEM_IN_BAG_Y, 192, 16);
     if (sMartInfo.itemList[GridMenu_SelectedIndex(sShopData->gridItems)] == ITEM_NONE)
     {
-        BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("Return to Field"), 0, 0, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
-        BuyMenuPrint(WIN_MULTI, strip, GetStringRightAlignXOffset(FONT_SMALL, strip, 80), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+        BuyMenuPrint(WIN_MULTI, COMPOUND_STRING("Return to Field"), 8, 0, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+        BuyMenuPrint(WIN_MULTI, strip, GetStringRightAlignXOffset(FONT_SMALL, strip, 50), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
 
         if (IsMartTypeItem(sMartInfo.martType))
         {
-            BuyMenuPrint(WIN_MULTI, strip, GetStringRightAlignXOffset(FONT_SMALL, strip, 80), ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+            BuyMenuPrint(WIN_MULTI, strip, GetStringRightAlignXOffset(FONT_SMALL, strip, 50), ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
         }
 
         FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
@@ -1406,18 +1461,18 @@ static void UpdateItemData(void)
                 if (GetItemPocket(item) == POCKET_TM_HM && item != ITEM_NONE)
                 {
                     const u8 *move = GetMoveName(ItemIdToBattleMoveId(item));
-                    FormatTextByWidth(gStringVar2, 80, FONT_SMALL, GetItemDescription(sMartInfo.itemList[i]), 0);
+                    FormatTextByWidth(gStringVar2, 192, FONT_SMALL, GetItemDescription(sMartInfo.itemList[i]), 0);
                     desc = gStringVar2;
-                    BuyMenuPrint(WIN_MULTI, move, GetStringRightAlignXOffset(FONT_SMALL, move, 80), 0, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+                    BuyMenuPrint(WIN_MULTI, move, GetStringRightAlignXOffset(FONT_SMALL, move, 192), 0, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
                 }
 
                 if (GetItemImportance(item) && (CheckBagHasItem(item, 1) || CheckPCHasItem(item, 1)))
-                    BuyMenuPrint(WIN_MULTI, sText_SoldOut, GetStringRightAlignXOffset(FONT_SMALL, sText_SoldOut, 80), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+                    BuyMenuPrint(WIN_MULTI, sText_SoldOut, GetStringRightAlignXOffset(FONT_SMALL, sText_SoldOut, 192), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
                 else
                     PrintMoneyLocal(WIN_MULTI, RIGHT_ALIGNED_X, ITEM_PRICE_Y, price, COLORID_BLACK, STR_CONV_MODE_LEFT_ALIGN, FALSE);
 
                 ConvertIntToDecimalStringN(gStringVar3, quantity, STR_CONV_MODE_RIGHT_ALIGN, 10);
-                BuyMenuPrint(WIN_MULTI, gStringVar3, GetStringRightAlignXOffset(FONT_SMALL, gStringVar3, 80), ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+                BuyMenuPrint(WIN_MULTI, gStringVar3, GetStringRightAlignXOffset(FONT_SMALL, gStringVar3, 192), ITEM_IN_BAG_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
                 break;
             }
         #ifdef MUDSKIP_OUTFIT_SYSTEM
@@ -1425,7 +1480,7 @@ static void UpdateItemData(void)
             {
                 u32 outfit = item;
                 if (GetOutfitStatus(outfit))
-                    BuyMenuPrint(WIN_MULTI, sText_SoldOut, GetStringRightAlignXOffset(FONT_SMALL, sText_SoldOut, 80), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
+                    BuyMenuPrint(WIN_MULTI, sText_SoldOut, GetStringRightAlignXOffset(FONT_SMALL, sText_SoldOut, 192), ITEM_PRICE_Y, TEXT_SKIP_DRAW, COLORID_BLACK, FALSE);
                 else
                     PrintMoneyLocal(WIN_MULTI, RIGHT_ALIGNED_X, ITEM_PRICE_Y, price, COLORID_BLACK, STR_CONV_MODE_LEFT_ALIGN, FALSE);
                 break;
@@ -1439,7 +1494,7 @@ static void UpdateItemData(void)
         }
 
         FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-        FormatTextByWidth(gStringVar2, 104, FONT_SMALL, desc, 0);
+        FormatTextByWidth(gStringVar2, 192, FONT_SMALL, desc, 0);
         BuyMenuPrint(WIN_ITEM_DESCRIPTION, gStringVar2, 8, 0, TEXT_SKIP_DRAW, COLORID_BLACK, TRUE);
     }
     CopyWindowToVram(WIN_MULTI, COPYWIN_FULL);
@@ -1680,7 +1735,7 @@ static void Task_BuyHowManyDialogueHandleInput(u8 taskId)
 
 static void BuyMenuConfirmPurchase(u8 taskId)
 {
-    CreateYesNoMenuWithCallbacks(taskId, &sShopBuyMenuYesNoWindowTemplates, 1, 0, 0, 1, 13, &sShopPurchaseYesNoFuncs);
+    CreateYesNoMenuWithCallbacks(taskId, &sShopBuyMenuYesNoWindowTemplates, 1, 0, 0, 1, 15, &sShopPurchaseYesNoFuncs);
 }
 
 static void BuyMenuTryMakePurchase(u8 taskId)

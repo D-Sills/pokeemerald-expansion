@@ -895,27 +895,31 @@ static void Task_MainMenuMain(u8 taskId)
 {
     if (JOY_NEW(A_BUTTON)) // If Pressed A go to thing you pressed A on
     {
-        PlaySE(SE_SELECT);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
         switch(sSelectedOption)
         {
             case HW_WIN_CONTINUE:
+                PlaySE(SE_RG_HELP_OPEN);
                 sMainMenuDataPtr->savedCallback = CB2_ContinueSavedGame;
                 sSelectedOption = HW_WIN_CONTINUE;
                 break;
             case HW_WIN_NEW_GAME:
+                PlaySE(SE_RG_HELP_OPEN);
                 sMainMenuDataPtr->savedCallback = CB2_NewGameBirchSpeech_FromNewMainMenu;
                 sSelectedOption = HW_WIN_CONTINUE;
                 break;
             case HW_WIN_OPTIONS:
+                PlaySE(SE_SELECT);
                 gMain.savedCallback = CB2_ReinitMainMenu;
                 sMainMenuDataPtr->savedCallback = CB2_InitOptionMenu;
                 break;
             case HW_WIN_MYSTERY_EVENT:
+                PlaySE(SE_SELECT);
                 sMainMenuDataPtr->savedCallback = CB2_InitMysteryEventMenu;
                 sSelectedOption = HW_WIN_CONTINUE;
                 break;
             case HW_WIN_MYSTERY_GIFT:
+                PlaySE(SE_SELECT);
                 if((menuType == HAS_MYSTERY_EVENTS) && !(IsWirelessAdapterConnected()))
                     //sMainMenuDataPtr->savedCallback = CB2_InitEReader;
                     sMainMenuDataPtr->savedCallback = CB2_InitMysteryGift; // E-Reader Crashes IDK Why Exactly But You Can Uncomment It
@@ -924,6 +928,7 @@ static void Task_MainMenuMain(u8 taskId)
                 sSelectedOption = HW_WIN_CONTINUE;
                 break;
         }
+        
         gTasks[taskId].func = Task_MainMenuTurnOff;
     }
 
@@ -938,6 +943,7 @@ static void Task_MainMenuMain(u8 taskId)
 
     if(JOY_NEW(DPAD_DOWN)) // Handle DPad directions, kinda bad way to do it with each case handled individually but its whatever
     {
+        
         switch (menuType)
         {
             case HAS_SAVED_GAME:
@@ -965,11 +971,13 @@ static void Task_MainMenuMain(u8 taskId)
                     sSelectedOption = HW_WIN_CONTINUE;
                 break;
         }
+        PlaySE(SE_RG_BAG_CURSOR);
         MoveHWindowsWithInput();
     }
 
     if(JOY_NEW(DPAD_UP))
     {
+        
         switch (menuType)
         {
             case HAS_SAVED_GAME:
@@ -999,6 +1007,7 @@ static void Task_MainMenuMain(u8 taskId)
                     sSelectedOption = HW_WIN_OPTIONS;
                 break;
         }
+        PlaySE(SE_RG_BAG_CURSOR);
         MoveHWindowsWithInput();
     }
 
@@ -1030,6 +1039,7 @@ static void Task_MainMenuMain(u8 taskId)
                     sSelectedOption = HW_WIN_MYSTERY_GIFT;
                 break;
         }
+        PlaySE(SE_RG_BAG_CURSOR);
         MoveHWindowsWithInput();
     }
 }

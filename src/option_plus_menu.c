@@ -69,7 +69,7 @@ static const struct WindowTemplate sOptionsMenuWinTemplates[] =
         .tilemapTop = 0,
         .width = 30,
         .height = 2,
-        .paletteNum = 1,
+        .paletteNum = 15,
         .baseBlock = 2
     },
     {//WIN_OPTIONS
@@ -78,7 +78,7 @@ static const struct WindowTemplate sOptionsMenuWinTemplates[] =
         .tilemapTop = 3,
         .width = 26,
         .height = 10,
-        .paletteNum = 1,
+        .paletteNum = 15,
         .baseBlock = 62
     },
     {//WIN_DESCRIPTION
@@ -453,7 +453,7 @@ static const u8 sText_TopBar_Right[]       = _("PAGE");
 static void DrawTopBarText(void)
 {
     int i;
-    const u8 color[3] = { 0, TEXT_COLOR_WHITE, TEXT_COLOR_OPTIONS_GRAY_FG };
+    const u8 color[3] = { 0, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY };
     u8 pageDots[2*MENU_COUNT] = _("");
 
     //create navigation dots
@@ -512,11 +512,11 @@ static void DrawLeftSideOptionText(int selection, int y)
     u8 color_gray[3];
 
     color_yellow[0] = TEXT_COLOR_TRANSPARENT;
-    color_yellow[1] = TEXT_COLOR_WHITE;
-    color_yellow[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
+    color_yellow[1] = TEXT_DYNAMIC_COLOR_3;
+    color_yellow[2] = TEXT_DYNAMIC_COLOR_2;
     color_gray[0] = TEXT_COLOR_TRANSPARENT;
-    color_gray[1] = TEXT_COLOR_WHITE;
-    color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_SHADOW;
+    color_gray[1] = TEXT_DYNAMIC_COLOR_3;
+    color_gray[2] = TEXT_DYNAMIC_COLOR_2;
 
     if (CheckConditions(selection))
         AddTextPrinterParameterized4(WIN_OPTIONS, FONT_NORMAL, 8, y, 0, 0, color_yellow, TEXT_SKIP_DRAW, OptionTextRight(selection));
@@ -535,17 +535,17 @@ static void DrawRightSideChoiceText(const u8 *text, int x, int y, bool8 chosen, 
         color_red[1] = TEXT_COLOR_OPTIONS_ORANGE_FG;
         color_red[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
         color_gray[0] = TEXT_COLOR_TRANSPARENT;
-        color_gray[1] = TEXT_COLOR_OPTIONS_WHITE;
-        color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_gray[1] = TEXT_DYNAMIC_COLOR_3;
+        color_gray[2] = TEXT_DYNAMIC_COLOR_2;
     }
     else
     {
         color_red[0] = TEXT_COLOR_TRANSPARENT;
-        color_red[1] = TEXT_COLOR_OPTIONS_WHITE;
-        color_red[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_red[1] = TEXT_DYNAMIC_COLOR_3;
+        color_red[2] = TEXT_DYNAMIC_COLOR_2;
         color_gray[0] = TEXT_COLOR_TRANSPARENT;
-        color_gray[1] = TEXT_COLOR_OPTIONS_WHITE;
-        color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_gray[1] = TEXT_DYNAMIC_COLOR_3;
+        color_gray[2] = TEXT_DYNAMIC_COLOR_2;
     }
 
 
@@ -609,7 +609,7 @@ static bool8 OptionsMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, 
         break;
     case 4:
         LoadPalette(sOptionsMenuPalette, 0, 16);
-        LoadPalette(sScrollBgPalette, 16, 16);
+        LoadPalette(sScrollBgPalette, 128, 16);
         sOptions->gfxLoadState++;
         break;
     default:

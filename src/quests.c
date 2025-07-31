@@ -1116,6 +1116,8 @@ void QuestMenu_Init(u8 a0, MainCallback callback)
 {
 	u8 i;
 
+	LoadPalette(GetOverworldTextboxPalettePtr(), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
+
 	if (a0 >= 2)
 	{
 		SetMainCallback2(callback);
