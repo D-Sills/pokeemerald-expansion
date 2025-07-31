@@ -630,7 +630,7 @@ void ShowStartMenu(void)
         LockPlayerFieldControls();
         return;
     }
-    if (GetSafariZoneFlag() || InBattlePyramid() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
+    if (GetSafariZoneFlag() || InBattlePyramid_() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
     {
         CreateStartMenuTask(Task_ShowStartMenu);
         LockPlayerFieldControls();

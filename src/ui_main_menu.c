@@ -156,7 +156,7 @@ static const struct WindowTemplate sMainMenuWindowTemplates[] =
         .tilemapTop = 1,    // position from top (per 8 pixels)
         .width = 18,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 0,    // palette index to use for text
+        .paletteNum = 15,    // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
 
@@ -167,7 +167,7 @@ static const struct WindowTemplate sMainMenuWindowTemplates[] =
         .tilemapTop = 4,           // position from top (per 8 pixels)
         .width = 18,               // width (per 8 pixels)
         .height = 7,               // height (per 8 pixels)
-        .paletteNum = 0,           // palette index to use for text
+        .paletteNum = 15,           // palette index to use for text
         .baseBlock = 1 + (18 * 2), // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE
@@ -608,27 +608,27 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
     {
     case 0:
         ResetTempTileDataBuffers();
-        if (gSaveBlock2Ptr->playerGender == MALE)
-        {
+        //if (gSaveBlock2Ptr->playerGender == MALE)
+        //{
             DecompressAndCopyTileDataToVram(1, sMainBgTiles, 0, 0, 0);
-        }
-        else
-        {
-            DecompressAndCopyTileDataToVram(1, sMainBgTilesFem, 0, 0, 0);
-        }
+        //}
+        //else
+        //{
+          //  DecompressAndCopyTileDataToVram(1, sMainBgTilesFem, 0, 0, 0);
+        //}
         sMainMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            if (gSaveBlock2Ptr->playerGender == MALE)
-            {
+            //if (gSaveBlock2Ptr->playerGender == MALE)
+            //{
                 LZDecompressWram(sMainBgTilemap, sBg1TilemapBuffer);
-            }
-            else
-            {
-                LZDecompressWram(sMainBgTilemapFem, sBg1TilemapBuffer);
-            }
+           // }
+           // else
+           // {
+            //    LZDecompressWram(sMainBgTilemapFem, sBg1TilemapBuffer);
+           // }
             sMainMenuDataPtr->gfxLoadState++;
         }
         break;
@@ -646,24 +646,24 @@ static bool8 MainMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, spr
         break;
     case 4:
     {
+
+        LoadCompressedSpriteSheet(&sSpriteSheet_IconBox);
+        LoadSpritePalette(&sSpritePal_IconBox);
         if(gSaveBlock2Ptr->playerGender == MALE)
         {
-            LoadCompressedSpriteSheet(&sSpriteSheet_IconBox);
-            LoadSpritePalette(&sSpritePal_IconBox);
+            
             LoadCompressedSpriteSheet(&sSpriteSheet_BrendanMugshot);
             LoadSpritePalette(&sSpritePal_BrendanMugshot);
-            LoadPalette(sMainBgPalette, 0, 32);
+           
         }
         else
         {
-            LoadCompressedSpriteSheet(&sSpriteSheet_IconBoxFem);
-            LoadSpritePalette(&sSpritePal_IconBoxFem);
             LoadCompressedSpriteSheet(&sSpriteSheet_MayMugshot);
             LoadSpritePalette(&sSpritePal_MayMugshot);
-            LoadPalette(sMainBgPaletteFem, 0, 32);
         }
+         LoadPalette(sMainBgPalette, 0, 32);
         LoadPalette(sScrollBgPalette, 16, 32);
-    }
+        }
         sMainMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -833,7 +833,7 @@ static const u8 sText_DexNum[] = _("Dex {STR_VAR_1}");
 static const u8 sText_Badges[] = _("Badges {STR_VAR_1}");
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
-    const u8 colors[3] = {0,  2,  3}; 
+    const u8 colors[3] = {TEXT_COLOR_DARK_GRAY,  TEXT_COLOR_WHITE,  TEXT_COLOR_LIGHT_GRAY}; 
     u8 mapDisplayHeader[24];
     u8 *withoutPrefixPtr, *playTimePtr;
     u16 dexCount = 0; u8 badgeCount = 0;

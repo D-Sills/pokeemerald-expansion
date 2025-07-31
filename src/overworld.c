@@ -3534,7 +3534,7 @@ void CB2_ReturnToFullScreenStartMenu(void)
 {
     FieldClearVBlankHBlankCallbacks();
 
-    if (GetSafariZoneFlag() || InBattlePyramid() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
+    if (GetSafariZoneFlag() || InBattlePyramid_() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
     {
         SetMainCallback2(CB2_ReturnToFieldWithOpenMenu);
         return;
