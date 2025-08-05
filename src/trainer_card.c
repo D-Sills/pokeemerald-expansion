@@ -135,6 +135,10 @@ static void PrintIdOnCard(void);
 static void PrintMoneyOnCard(void);
 static void PrintPokedexOnCard(void);
 static void PrintProfilePhraseOnCard(void);
+static void PrintHeightOnCard(void);
+static void PrintDOBOnCard(void);
+static void PrintGenderOnCard(void);
+static void SetTrainerHeightDOBSexStrings(void);
 static bool8 PrintAllOnCardBack(void);
 static void PrintNameOnCardBack(void);
 static void PrintHofDebutTimeOnCard(void);
@@ -286,7 +290,8 @@ static const u16 *const sKantoTrainerCardPals[] =
     sKantoTrainerCardGold_Pal,   // 4 stars
 };
 
-static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
+static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_3, TEXT_DYNAMIC_COLOR_2};
+static const u8 sTrainerCardTextColorsDark[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY};
 static const u8 sTrainerCardStatColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
 static const u8 sTimeColonInvisibleTextColors[6] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT};
 
@@ -449,7 +454,7 @@ static void Task_TrainerCard(u8 taskId)
         // Blink the : in play time
         if (!gReceivedRemoteLinkPlayers && sData->timeColonNeedDraw)
         {
-            PrintTimeOnCard();
+           // PrintTimeOnCard();
             DrawTrainerCardWindow(WIN_CARD_TEXT);
             sData->timeColonNeedDraw = FALSE;
         }
@@ -941,13 +946,13 @@ static bool8 PrintAllOnCardFront(void)
         PrintIdOnCard();
         break;
     case 2:
-        PrintMoneyOnCard();
+        PrintHeightOnCard();
         break;
     case 3:
-        PrintPokedexOnCard();
+        PrintDOBOnCard();
         break;
     case 4:
-        PrintTimeOnCard();
+        PrintGenderOnCard();
         break;
     case 5:
         PrintProfilePhraseOnCard();
@@ -1020,7 +1025,7 @@ static void PrintNameOnCardFront(void)
     StringCopy(txtPtr, sData->trainerCard.playerName);
     ConvertInternationalString(txtPtr, sData->language);
     if (sData->cardType == CARD_TYPE_FRLG)
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 20, 28, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 28, 28, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
     else
         AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 16, 33, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
 }
@@ -1044,8 +1049,103 @@ static void PrintIdOnCard(void)
         top = 9;
     }
 
-    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xPos, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xPos, top, sTrainerCardTextColorsDark, TEXT_SKIP_DRAW, buffer);
 }
+
+static void PrintHeightOnCard(void)
+{
+    s32 xOffset;
+    u8 top;
+
+    if (!sData->isHoenn)
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 20, 56, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardHeight);
+    else
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 16, 57, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardHeight);
+
+    SetTrainerHeightDOBSexStrings();
+    if (!sData->isHoenn)
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar1, 144);
+        top = 56;
+    }
+    else
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar1, 128);
+        top = 57;
+    }
+
+    xOffset = xOffset + 8;
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xOffset, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar1);
+}
+
+static void PrintDOBOnCard(void)
+{
+    s32 xOffset;
+    u8 top;
+
+    if (!sData->isHoenn)
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 20, 56, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardDOB);
+    else
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 16, 73, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardDOB);
+
+    SetTrainerHeightDOBSexStrings();
+    if (!sData->isHoenn)
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar2, 144);
+            top = 72;
+    }
+    else
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar2, 128);
+            top = 73;
+    }
+
+    xOffset = xOffset + 8;
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xOffset, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar2);
+}
+
+static void PrintGenderOnCard(void) 
+{
+    s32 xOffset;
+    u8 top;
+
+    if (!sData->isHoenn)
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 20, 56, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardSex);
+    else
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 16, 89, sTrainerCardTextColors, TEXT_SKIP_DRAW, gText_TrainerCardSex);
+
+    SetTrainerHeightDOBSexStrings();
+    if (!sData->isHoenn)
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 144);
+        top = 88;
+    }
+    else
+    {
+        xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar3, 128);
+        top = 89;
+    }
+
+    xOffset = xOffset + 8;
+    AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xOffset, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar3);
+}
+
+static void SetTrainerHeightDOBSexStrings(void)
+{
+    if (gSaveBlock2Ptr->playerGender == MALE)
+    {
+        StringCopy(gStringVar1, gText_TrainerHeightMale);
+        StringCopy(gStringVar2, gText_TrainerDOBMale);
+        StringCopy(gStringVar3, gText_MaleSymbol);
+    }
+    else
+    {
+        StringCopy(gStringVar1, gText_TrainerHeightFemale);
+        StringCopy(gStringVar2, gText_TrainerDOBFemale);
+        StringCopy(gStringVar3, gText_FemaleSymbol);
+    }
+}
+
 
 static void PrintMoneyOnCard(void)
 {
@@ -1069,6 +1169,8 @@ static void PrintMoneyOnCard(void)
         xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 128);
         top = 57;
     }
+
+    xOffset = xOffset + 8;
     AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xOffset, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar4);
 }
 
@@ -1101,6 +1203,7 @@ static void PrintPokedexOnCard(void)
             xOffset = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar4, 128);
             top = 73;
         }
+        xOffset = xOffset + 8;
         AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, xOffset, top, sTrainerCardTextColors, TEXT_SKIP_DRAW, gStringVar4);
     }
 }
@@ -1187,9 +1290,9 @@ static void BufferNameForCardBack(void)
 static void PrintNameOnCardBack(void)
 {
     if (!sData->isHoenn)
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 136, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, 136, 9, sTrainerCardTextColorsDark, TEXT_SKIP_DRAW, gText_TrainerStatsHeader);
     else
-        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, sData->textPlayersCard, 216), 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard);
+        AddTextPrinterParameterized3(WIN_CARD_TEXT, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, gText_TrainerStatsHeader, 128) + 8, 9, sTrainerCardTextColorsDark, TEXT_SKIP_DRAW, gText_TrainerStatsHeader);
 }
 
 static const u8 sText_HofTime[] = _("{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}");
@@ -1472,15 +1575,15 @@ static u8 SetCardBgsAndPals(void)
         {
             LoadPalette(sHoennTrainerCardPals[sData->trainerCard.stars], BG_PLTT_ID(0), 3 * PLTT_SIZE_4BPP);
             LoadPalette(sHoennTrainerCardBadges_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
-            if (sData->trainerCard.gender != MALE)
-                LoadPalette(sHoennTrainerCardFemaleBg_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
+            //if (sData->trainerCard.gender != MALE)
+            LoadPalette(sHoennTrainerCardFemaleBg_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
         }
         else
         {
             LoadPalette(sKantoTrainerCardPals[sData->trainerCard.stars], BG_PLTT_ID(0), 3 * PLTT_SIZE_4BPP);
             LoadPalette(sKantoTrainerCardBadges_Pal, BG_PLTT_ID(3), PLTT_SIZE_4BPP);
-            if (sData->trainerCard.gender != MALE)
-                LoadPalette(sKantoTrainerCardFemaleBg_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
+            //if (sData->trainerCard.gender != MALE)
+            LoadPalette(sKantoTrainerCardFemaleBg_Pal, BG_PLTT_ID(1), PLTT_SIZE_4BPP);
         }
         LoadPalette(sTrainerCardStar_Pal, BG_PLTT_ID(4), PLTT_SIZE_4BPP);
         break;
@@ -1560,10 +1663,10 @@ static void DrawStarsAndBadgesOnCard(void)
         {
             if (sData->badgeCount[i])
             {
-                FillBgTilemapBufferRect(3, tileNum, x, 16,1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 16, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 16, x, 17, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 17, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum, x +1, 16,1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 1, x + 2, 16, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 16, x + 1, 17, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 2, 17, 1, 1, palNum);
             }
         }
     }

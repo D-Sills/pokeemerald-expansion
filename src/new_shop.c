@@ -374,7 +374,7 @@ static const struct WindowTemplate sBuyMenuWindowTemplates[] =
 {
     [WIN_MONEY] = {
         .bg = 0,
-        .tilemapLeft = 18,
+        .tilemapLeft = 19,
         .tilemapTop = 0,
         .width = 10,
         .height = 2,

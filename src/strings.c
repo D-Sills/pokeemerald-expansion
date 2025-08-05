@@ -753,6 +753,17 @@ const u8 gText_Marco[] = _("MARCO");
 const u8 gText_TrainerCardName[] = _("NAME: ");
 const u8 gText_TrainerCardIDNo[] = _("IDNo.");
 const u8 gText_TrainerCardMoney[] = _("MONEY");
+ const u8 gText_TrainerCardHeight[] = _("HEIGHT");
+ const u8 gText_TrainerCardSex[] = _("SEX");
+ const u8 gText_TrainerCardDOB[] = _("DOB");
+ const u8 gText_TrainerHeightMale[] = _("174 cm");
+const u8 gText_TrainerDOBMale[] = _("03/02/1998");
+const u8 gText_TrainerSexMale[] = _("M");
+const u8 gText_TrainerHeightFemale[] = _("158 cm");
+const u8 gText_TrainerDOBFemale[] = _("07/21/1999");
+const u8 gText_TrainerSexFemale[] = _("F");
+const u8 gText_TrainerStatsHeader[] = _("{DPAD_DOWN} STATISICS");
+
 const u8 gText_PokeDollar[] = _("¥"); // Unused
 const u8 gText_TrainerCardPokedex[] = _("POKéDEX");
 const u8 gText_EmptyString6[] = _("");

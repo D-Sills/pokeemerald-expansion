@@ -132,6 +132,11 @@ ALIGNED(4) static const u8 sExpandedPlaceholder_PokedexDescription[] = _("");
 static const u16 sSizeScreenSilhouette_Pal[] = INCBIN_U16("graphics/pokedex/size_silhouette.gbapal");
 static const u16 sSizeScreenSilhouette_inverted_Pal[] = INCBIN_U16("graphics/pokedex/size_silhouette_inverted.gbapal");
 
+// Scrolling Background
+static const u32 sScrollBgTiles[] = INCBIN_U32("graphics/pokedex/scroll_tiles.4bpp.lz");
+static const u32 sScrollBgTilemap[] = INCBIN_U32("graphics/pokedex/scroll_tiles.bin.lz");
+static const u16 sScrollBgPalette[] = INCBIN_U16("graphics/pokedex/scroll_tiles.gbapal");
+
 static const u8 sText_Stats_Buttons[] = _("{A_BUTTON}TOGGLE   {DPAD_UPDOWN}MOVES");
 static const u8 sText_Stats_Buttons_Decapped[] = _("{A_BUTTON}Toggle   {DPAD_UPDOWN}Moves");
 static const u8 sText_Stats_HP[] = _("HP");
@@ -319,7 +324,7 @@ static const u16* const sDexPalettes[HGSS_COLOR_COUNT][HGSS_PAL_TYPE_COUNT] =
 #define MAX_SEARCH_PARAM_ON_SCREEN   6
 #define MAX_SEARCH_PARAM_CURSOR_POS  (MAX_SEARCH_PARAM_ON_SCREEN - 1)
 
-#define MAX_MONS_ON_SCREEN 6
+#define MAX_MONS_ON_SCREEN 8
 #define MAX_EVOLUTION_ICONS 8
 
 #define LIST_SCROLL_STEP         16
@@ -1261,12 +1266,9 @@ static const struct BgTemplate sPokedex_BgTemplate[] =
 {
     {
         .bg = 0,
-        .charBaseIndex = 0,
-        .mapBaseIndex = 12,
-        .screenSize = 0,
-        .paletteMode = 0,
-        .priority = 0,
-        .baseTile = 0
+        .charBaseIndex = 2,
+        .mapBaseIndex = 28,
+        .priority = 2
     },
     {
         .bg = 1,
@@ -1381,7 +1383,7 @@ static const struct WindowTemplate sInfoScreen_WindowTemplates[] =
     },
     [WIN_CRY_WAVE] =
     {
-        .bg = 0,
+        .bg = 2,
         .tilemapLeft = 0,
         .tilemapTop = 12,
         .width = 32,
@@ -2086,6 +2088,8 @@ static const struct WindowTemplate sSearchMenu_WindowTemplate[] =
 };
 
 
+
+
 //************************************
 //*                                  *
 //*        MAIN                      *
@@ -2207,6 +2211,9 @@ static void VBlankCB_Pokedex(void)
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
+
+    ChangeBgX(0, 64, BG_COORD_ADD);
+    ChangeBgY(0, 64, BG_COORD_ADD);
 }
 
 static void CB2_Pokedex(void)
@@ -2455,9 +2462,9 @@ static bool8 LoadPokedexListPage(u8 page)
         CopyToBgTilemapBuffer(1, sPokedexPlusHGSS_ScreenList_Tilemap, 0, 0);
         CopyToBgTilemapBuffer(3, sPokedexPlusHGSS_ScreenListUnderlay_Tilemap, 0, 0);
         if (page == PAGE_MAIN)
-            CopyToBgTilemapBuffer(0, sPokedexPlusHGSS_StartMenuMain_Tilemap, 0, 0x280);
+            CopyToBgTilemapBuffer(2, sPokedexPlusHGSS_StartMenuMain_Tilemap, 0, 0x280);
         else
-            CopyToBgTilemapBuffer(0, sPokedexPlusHGSS_StartMenuSearchResults_Tilemap, 0, 0x280);
+            CopyToBgTilemapBuffer(2, sPokedexPlusHGSS_StartMenuSearchResults_Tilemap, 0, 0x280);
         ResetPaletteFade();
         if (page == PAGE_MAIN)
             sPokedexView->isSearchResults = FALSE;

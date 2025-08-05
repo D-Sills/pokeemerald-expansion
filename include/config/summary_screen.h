@@ -42,8 +42,8 @@ Info taken from https://bulbapedia.bulbagarden.net/wiki/Stats_judge.
 #define MON_SHADOWS_Y 2 //The Y position of the shadow sprite.
 
 //Ability Settings Settings
-#define P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION FALSE //If TRUE, the ability description will be expanded to show the full description of the ability instead of just one line.
-#define P_SUMMARY_SCREEN_EXPAND_MOVE_DESCRIPTION FALSE //If TRUE, the ability description will be expanded to show the full description of the move instead of just one line.
+#define P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION TRUE //If TRUE, the ability description will be expanded to show the full description of the ability instead of just one line.
+#define P_SUMMARY_SCREEN_EXPAND_MOVE_DESCRIPTION TRUE //If TRUE, the ability description will be expanded to show the full description of the move instead of just one line.
 #define P_SUMMARY_SCREEN_ABILITY_DESCRIPTION_FONT_CHANGE FALSE //If TRUE && P_SUMMARY_SCREEN_EXPAND_ABILITY_DESCRIPTION = FALSE, the ability desc font will change to make one line desc somewhat longer.
 #define DESCRIPTION_FONT_CHANGE_VALUE 7 //7 By Default.
 
@@ -56,7 +56,7 @@ Info taken from https://bulbapedia.bulbagarden.net/wiki/Stats_judge.
 //if you want to use more, change the tilemap to be to ur liking.
 //if you want to use less, it will leave blank spaces at the end of the string.
 #define MAX_ABILITY_DESCRIPTION_LENGTH 96 //The maximum length of the ability description string.
-#define MAX_ABILITY_DESCRIPTION_WIDTH  149 //The maximum width of the ability description string.
+#define MAX_ABILITY_DESCRIPTION_WIDTH  180 //The maximum width of the ability description string.
 #define MAX_MOVE_DESCRIPTION_LENGTH    96 //The maximum length of the move description string.
 #define MAX_MOVE_DESCRIPTION_WIDTH     159 //The maximum length of the move description string.
 

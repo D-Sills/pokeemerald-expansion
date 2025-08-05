@@ -713,7 +713,7 @@ static const struct WindowTemplate sPageSkillsTemplate[] =
         .bg = 0,
         .tilemapLeft = 3,
         .tilemapTop = 15,
-        .width = 24,
+        .width = 30,
         .height = 5,
         .paletteNum = 6,
         .baseBlock = 491,
@@ -4005,7 +4005,10 @@ static void PrintMonAbilityName(void)
 static void PrintMonAbilityDescription(void)
 {
     u16 ability = GetAbilityBySpecies(sMonSummaryScreen->summary.species, sMonSummaryScreen->summary.abilityNum);
-    PrintTextOnWindow_BW_Font(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_ABILITY), gAbilitiesInfo[ability].description, 4, 15, 0, 0);
+    u8 desc[MAX_ABILITY_DESCRIPTION_LENGTH];
+
+    FormatTextByWidth(desc, MAX_ABILITY_DESCRIPTION_WIDTH, FONT_SHORT_NARROW, gAbilitiesInfo[ability].description, 0);
+    PrintTextOnWindow_BW_Font(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_ABILITY), desc, 4, 15, 0, 0);
 }
 
 static void BufferMonTrainerMemo(void)

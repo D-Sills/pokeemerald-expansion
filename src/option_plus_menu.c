@@ -78,7 +78,7 @@ static const struct WindowTemplate sOptionsMenuWinTemplates[] =
         .tilemapTop = 3,
         .width = 26,
         .height = 10,
-        .paletteNum = 15,
+        .paletteNum = 2,
         .baseBlock = 62
     },
     {//WIN_DESCRIPTION
@@ -194,7 +194,7 @@ static EWRAM_DATA u8 *sBg3TilemapBuffer = NULL;
 
 // const data
 static const u8 sEqualSignGfx[] = INCBIN_U8("graphics/interface/option_menu_equals_sign.4bpp"); // note: this is only used in the Japanese release
-static const u16 sOptionsMenuBg_Pal[] = {RGB(17, 18, 31)};
+//static const u16 sOptionsMenuBg_Pal[] = {RGB(17, 18, 31)};
 static const u16 sOptionsMenuText_Pal[] = INCBIN_U16("graphics/interface/option_menu_text_custom.gbapal");
 static const u8 sLR_ButtonGfx[]      = INCBIN_U8("graphics/ui_menu/r_button.4bpp");
 
@@ -512,11 +512,11 @@ static void DrawLeftSideOptionText(int selection, int y)
     u8 color_gray[3];
 
     color_yellow[0] = TEXT_COLOR_TRANSPARENT;
-    color_yellow[1] = TEXT_DYNAMIC_COLOR_3;
-    color_yellow[2] = TEXT_DYNAMIC_COLOR_2;
+    color_yellow[1] = TEXT_COLOR_OPTIONS_ORANGE_FG;
+    color_yellow[2] = TEXT_COLOR_OPTIONS_ORANGE_SHADOW;
     color_gray[0] = TEXT_COLOR_TRANSPARENT;
-    color_gray[1] = TEXT_DYNAMIC_COLOR_3;
-    color_gray[2] = TEXT_DYNAMIC_COLOR_2;
+    color_gray[1] = TEXT_COLOR_OPTIONS_GRAY_FG;
+    color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_SHADOW;
 
     if (CheckConditions(selection))
         AddTextPrinterParameterized4(WIN_OPTIONS, FONT_NORMAL, 8, y, 0, 0, color_yellow, TEXT_SKIP_DRAW, OptionTextRight(selection));
@@ -532,20 +532,20 @@ static void DrawRightSideChoiceText(const u8 *text, int x, int y, bool8 chosen, 
     if (active)
     {
         color_red[0] = TEXT_COLOR_TRANSPARENT;
-        color_red[1] = TEXT_COLOR_OPTIONS_ORANGE_FG;
-        color_red[2] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_red[1] = TEXT_COLOR_OPTIONS_RED_DARK_FG;
+        color_red[2] = TEXT_COLOR_OPTIONS_RED_DARK_SHADOW;
         color_gray[0] = TEXT_COLOR_TRANSPARENT;
-        color_gray[1] = TEXT_DYNAMIC_COLOR_3;
-        color_gray[2] = TEXT_DYNAMIC_COLOR_2;
+        color_gray[1] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_SHADOW;
     }
     else
     {
         color_red[0] = TEXT_COLOR_TRANSPARENT;
-        color_red[1] = TEXT_DYNAMIC_COLOR_3;
-        color_red[2] = TEXT_DYNAMIC_COLOR_2;
+        color_red[1] = TEXT_COLOR_OPTIONS_RED_DARK_FG;
+        color_red[2] = TEXT_COLOR_OPTIONS_RED_DARK_SHADOW;
         color_gray[0] = TEXT_COLOR_TRANSPARENT;
-        color_gray[1] = TEXT_DYNAMIC_COLOR_3;
-        color_gray[2] = TEXT_DYNAMIC_COLOR_2;
+        color_gray[1] = TEXT_COLOR_OPTIONS_GRAY_FG;
+        color_gray[2] = TEXT_COLOR_OPTIONS_GRAY_SHADOW;
     }
 
 
@@ -604,12 +604,13 @@ static bool8 OptionsMenu_LoadGraphics(void) // Load all the tilesets, tilemaps, 
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
             LZDecompressWram(sScrollBgTilemap, sBg3TilemapBuffer);
+            
             sOptions->gfxLoadState++;
         }
         break;
     case 4:
         LoadPalette(sOptionsMenuPalette, 0, 16);
-        LoadPalette(sScrollBgPalette, 128, 16);
+        LoadPalette(sScrollBgPalette, BG_PLTT_ID(2), 16);
         sOptions->gfxLoadState++;
         break;
     default:
@@ -685,12 +686,12 @@ void CB2_InitOptionPlusMenu(void)
         }
         break;
     case 4:
-        LoadPalette(sOptionsMenuBg_Pal, 0, sizeof(sOptionsMenuBg_Pal));
+        //LoadPalette(sOptionsMenuBg_Pal, 0, sizeof(sOptionsMenuBg_Pal));
         LoadPalette(GetWindowFrameTilesPal(gSaveBlock2Ptr->optionsWindowFrameType)->pal, 0x70, 0x20);
         gMain.state++;
         break;
     case 5:
-        LoadPalette(sOptionsMenuText_Pal, 16, sizeof(sOptionsMenuText_Pal));
+        LoadPalette(sOptionsMenuText_Pal, 32, sizeof(sOptionsMenuText_Pal));
         gMain.state++;
         break;
     case 6:

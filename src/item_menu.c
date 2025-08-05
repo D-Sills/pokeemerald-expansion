@@ -55,6 +55,7 @@
 #include "constants/items.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "tv.h"
 
 #define TAG_POCKET_SCROLL_ARROW 110
 #define TAG_BAG_SCROLL_ARROW    111
@@ -109,7 +110,8 @@ enum {
     WIN_POCKET_NAME,
     WIN_TMHM_INFO_ICONS,
     WIN_TMHM_INFO,
-    WIN_MESSAGE, // Identical to ITEMWIN_MESSAGE. Unused?
+    WIN_MESSAGE, 
+    WIN_MONEY,
 };
 
 // Item list ID for toSwapPos to indicate an item is not currently being swapped
@@ -225,6 +227,7 @@ static void CancelToss(u8);
 static void ConfirmSell(u8);
 static void CancelSell(u8);
 static void Task_FadeAndCloseBagMenuIfMulch(u8 taskId);
+static void PrintMoneyLocal(u8 windowId, u32 x, u32 y, u32 amount, u8 colorIdx, u32 align, bool32 copy);
 
 static const u8 sText_Var1CantBeHeldHere[] = _("The {STR_VAR_1} can't be held\nhere.");
 static const u8 sText_DepositHowManyVar1[] = _("Deposit how many\n{STR_VAR_1}?");
@@ -634,7 +637,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     },
     [WIN_POCKET_NAME] = {
         .bg = 0,
-        .tilemapLeft = 1,
+        .tilemapLeft = 0,
         .tilemapTop = 0,
         .width = 8,
         .height = 2,
@@ -667,6 +670,15 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .height = 4,
         .paletteNum = 13,
         .baseBlock = 0x1B1,
+    },
+    [WIN_MONEY] = {
+        .bg = 0,
+        .tilemapLeft = 19,
+        .tilemapTop = 0,
+        .width = 10,
+        .height = 2,
+        .paletteNum = 13,
+        .baseBlock = 0x26A,
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -753,15 +765,6 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .height = 2,
         .paletteNum = 13,
         .baseBlock = 0x245,
-    },
-    [ITEMWIN_MONEY] = {
-        .bg = 1,
-        .tilemapLeft = 1,
-        .tilemapTop = 1,
-        .width = 10,
-        .height = 2,
-        .paletteNum = 13,
-        .baseBlock = 0x231,
     },
 };
 
@@ -987,6 +990,8 @@ static bool8 SetupBagMenu(void)
         DrawPocketIndicatorSquare(5, FALSE);
         DrawPocketIndicatorSquare(6, FALSE);
         DrawPocketIndicatorSquare(gBagPosition.pocket, TRUE);
+
+        PrintMoneyLocal(WIN_MONEY, -1, 0, GetMoney(&gSaveBlock1Ptr->money), COLORID_POCKET_NAME, STR_CONV_MODE_RIGHT_ALIGN, TRUE);
         gMain.state++;
         break;
     case 14:
@@ -2776,7 +2781,9 @@ static void SellItem(u8 taskId)
     LoadBagItemListBuffers(gBagPosition.pocket);
     tListTaskId = ListMenuInit(&gMultiuseListMenuTemplate, *scrollPos, *cursorPos);
     BagMenu_PrintCursor(tListTaskId, COLORID_GRAY_CURSOR);
-    PrintMoneyAmountInMoneyBoxOverride(gBagMenu->windowIds[ITEMWIN_MONEY], GetMoney(&gSaveBlock1Ptr->money), 0);
+    FillWindowPixelBuffer(WIN_MONEY, PIXEL_FILL(0));
+    //PrintMoneyAmountInMoneyBoxOverride(gBagMenu->windowIds[ITEMWIN_MONEY], GetMoney(&gSaveBlock1Ptr->money), 0);
+    PrintMoneyLocal(WIN_MONEY, -1, 0, GetMoney(&gSaveBlock1Ptr->money), COLORID_POCKET_NAME, STR_CONV_MODE_RIGHT_ALIGN, TRUE);
     gTasks[taskId].func = WaitAfterItemSell;
 }
 
@@ -3011,47 +3018,23 @@ static void CB2_QuizLadyExitBagMenu(void)
 
 static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
 {
-    // 1) Build a proper window template that lives where your pocket
-    //    name is supposed to be on BG2. This avoids the “add window at
-    //    0,0 then slide it over” behavior.
-    struct WindowTemplate pocketWinTemplate = {
-        .bg         = 2,
-        .tilemapLeft= 1,      // tile X position (in tiles, not pixels)
-        .tilemapTop = 0,      // tile Y position
-        .width      = 8,      // 8 tiles wide = 8*8px = 64px
-        .height     = 2,      // 2 tiles tall = 16px
-        .paletteNum = 1,      // whatever palette your bag uses
-        .baseBlock  = 0x1A1,  // same as your WIN_POCKET_NAME.baseBlock
-    };
+     struct WindowTemplate window = {0};
+    u16 windowId;
+    int offset;
 
-    // 2) Create it, clear it
-    u8 winId = AddWindow(&pocketWinTemplate);
-    FillWindowPixelBuffer(winId, PIXEL_FILL(0));
-
-    // 3) Draw the first pocket name at a fixed X offset (here 3px in)
-    //    TEXT_SKIP_DRAW means “don’t do any typewriter animation”,
-    //    so it appears instantly.
-    const u8 fixedX = 3;
-    BagMenu_Print(
-        winId,
-        FONT_NORMAL,
-        pocketName1,
-        fixedX,      // left
-        1,           // top row
-        0, 0,
-        TEXT_SKIP_DRAW,
-        COLORID_POCKET_NAME
-    );
-
-    // 5) Copy the raw tile data out to your BG2 tilemap buffer
-    CpuCopy32(
-        (u8 *)GetWindowAttribute(winId, WINDOW_TILE_DATA),
-        gBagMenu->pocketNameBuffer,
-        sizeof(gBagMenu->pocketNameBuffer)
-    );
-
-    // 6) Tear the window back down
-    RemoveWindow(winId);
+    window.width = 16;
+    window.height = 2;
+    windowId = AddWindow(&window);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
+    offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
+    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+    if (pocketName2)
+    {
+        offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
+        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+    }
+    CpuCopy32((u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), gBagMenu->pocketNameBuffer, sizeof(gBagMenu->pocketNameBuffer));
+    RemoveWindow(windowId);
 }
 
 static void CopyPocketNameToWindow(u32 a)
@@ -3150,17 +3133,57 @@ void BagMenu_YesNo(u8 taskId, u8 windowType, const struct YesNoFuncTable *funcTa
     CreateYesNoMenuWithCallbacksOverride(taskId, &sContextMenuWindowTemplates[windowType], 1, 0, 2, 1, 14, funcTable);
 }
 
+static const u8 sText_PokedollarVar1[] = _("¥{STR_VAR_1}");
+static void PrintMoneyLocal(u8 windowId, u32 x, u32 y, u32 amount, u8 colorIdx, u32 align, bool32 copy)
+{
+    u8 *txtPtr = gStringVar1;
+    u32 numDigits = CountDigits(amount);
+    u32 width = sDefaultBagWindows[windowId].width * 8;
+
+    /* if (IsMartTypePoints(sMartInfo.martType))
+    {
+        numDigits = 5;
+    } */
+
+    // CountDigits uses (value > 0) to count, so we'll need to set this explicitly
+    // otherwise, it'll just show as a blank/space in the string
+    if (amount == 0)
+    {
+        numDigits = 1;
+    }
+
+    ConvertIntToDecimalStringN(txtPtr, amount, align, numDigits);
+
+    /* if (IsMartTypeCoin(sMartInfo.martType))
+        StringExpandPlaceholders(gStringVar4, sText_CoinsVar1);
+    else if (IsMartTypePoints(sMartInfo.martType))
+        StringExpandPlaceholders(gStringVar4, sText_BattlePointsVar1);
+    else */
+        StringExpandPlaceholders(gStringVar4, sText_PokedollarVar1);
+
+    if (numDigits > 7)
+        PrependFontIdToFit(gStringVar4, gStringVar4 + 1 + numDigits, FONT_SMALL, width);
+
+    if (x == -1)
+        x = GetStringRightAlignXOffset(GetFontIdToFit(gStringVar4, FONT_SMALL, 0, width), gStringVar4, width);
+
+    AddTextPrinterParameterized4(windowId, FONT_SMALL, x, y, 0, 0, sFontColorTable[colorIdx], TEXT_SKIP_DRAW, gStringVar4);
+    PutWindowTilemap(windowId);
+    if (copy)
+        CopyWindowToVram(windowId, COPYWIN_FULL);
+}
+
 static void DisplayCurrentMoneyWindow(void)
 {
-    u8 windowId = BagMenu_AddWindow(ITEMWIN_MONEY);
-    PrintMoneyAmountInMoneyBoxWithBorderOverride(windowId, 1, 14, GetMoney(&gSaveBlock1Ptr->money));
-    AddMoneyLabelObject(19, 11);
+    //u8 windowId = BagMenu_AddWindow(ITEMWIN_MONEY);
+    //PrintMoneyAmountInMoneyBoxWithBorderOverride(windowId, 1, 14, GetMoney(&gSaveBlock1Ptr->money));
+    //AddMoneyLabelObject(19, 11);
 }
 
 static void RemoveMoneyWindow(void)
 {
-    BagMenu_RemoveWindow(ITEMWIN_MONEY);
-    RemoveMoneyLabelObject();
+    //BagMenu_RemoveWindow(ITEMWIN_MONEY);
+    //RemoveMoneyLabelObject();
 }
 
 static void PrepareTMHMMoveWindow(void)
