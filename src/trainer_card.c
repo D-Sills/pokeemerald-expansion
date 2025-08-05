@@ -389,6 +389,8 @@ static void CloseTrainerCard(u8 taskId)
 #define STATE_WAIT_LINK_PARTNER   15
 #define STATE_CLOSE_CARD_LINK     16
 
+#define MAX_STAT_PAGES 3
+
 static void Task_TrainerCard(u8 taskId)
 {
     switch (sData->mainState)
@@ -455,7 +457,7 @@ static void Task_TrainerCard(u8 taskId)
         if (!gReceivedRemoteLinkPlayers && sData->timeColonNeedDraw)
         {
            // PrintTimeOnCard();
-            DrawTrainerCardWindow(WIN_CARD_TEXT);
+            //DrawTrainerCardWindow(WIN_CARD_TEXT);
             sData->timeColonNeedDraw = FALSE;
         }
         if (JOY_NEW(A_BUTTON))
@@ -514,6 +516,13 @@ static void Task_TrainerCard(u8 taskId)
                BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, sData->blendColor);
                sData->mainState = STATE_CLOSE_CARD;
            }
+        }
+        else if (JOY_NEW(R_BUTTON)
+        {
+            // If the player presses a direction, flip the card back to the front
+            FlipTrainerCard();
+            PlaySE(SE_RG_CARD_FLIP);
+            sData->mainState = STATE_WAIT_FLIP_TO_FRONT;
         }
         break;
     case STATE_WAIT_LINK_PARTNER:

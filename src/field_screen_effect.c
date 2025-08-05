@@ -468,8 +468,9 @@ static void Task_WaitForFadeShowStartMenu(u8 taskId)
         DestroyTask(taskId);
         if (GetSafariZoneFlag() || InBattlePyramid_() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
             CreateTask(Task_ShowStartMenu, 80);
-        else        
+        else {   
             CreateTask(Task_OpenStartMenuFullScreen, 80);
+        }
     }
 }
 

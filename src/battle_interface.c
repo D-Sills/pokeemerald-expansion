@@ -2739,7 +2739,7 @@ static u8* AddTextPrinterAndCreateWindowOnAbilityPopUp(const u8 *str, u32 x, u32
     winTemplate.height = 2;
 
     *windowId = AddWindow(&winTemplate);
-    FillWindowPixelBuffer(*windowId, PIXEL_FILL(color1));
+    FillWindowPixelBuffer(*windowId, PIXEL_FILL(TEXT_COLOR_DARK_GRAY));
 
     fontId = GetFontIdToFit(str, FONT_SMALL, 0, 76);
     AddTextPrinterParameterized4(*windowId, fontId, x, y, 0, 0, color, TEXT_SKIP_DRAW, str);

@@ -3540,7 +3540,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     if (windowId == ARENA_WIN_JUDGMENT_TEXT)
         gTextFlags.useAlternateDownArrow = FALSE;
     else
-        gTextFlags.useAlternateDownArrow = TRUE;
+        gTextFlags.useAlternateDownArrow = FALSE;
 
     if ((gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED)) || gTestRunnerEnabled)
         gTextFlags.autoScroll = TRUE;
