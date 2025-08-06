@@ -780,7 +780,7 @@ static void StartMenu_DisplayHP(void)
 //
 static void CreateGreyedMenuBoxes()
 {
-    if(!FlagGet(FLAG_SYS_POKEDEX_GET))
+    /* if(!FlagGet(FLAG_SYS_POKEDEX_GET))
     {
         if (sStartMenuDataPtr->greyMenuBoxIds[0] == SPRITE_NONE)
             sStartMenuDataPtr->greyMenuBoxIds[0] = CreateSprite(&sSpriteTemplate_GreyMenuButtonDex, CURSOR_LEFT_COL_X, CURSOR_TOP_ROW_Y, 1);
@@ -794,7 +794,7 @@ static void CreateGreyedMenuBoxes()
             sStartMenuDataPtr->greyMenuBoxIds[1] = CreateSprite(&sSpriteTemplate_GreyMenuButtonParty, CURSOR_RIGHT_COL_X, CURSOR_TOP_ROW_Y, 1);
         gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]].invisible = FALSE;
         StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]], 0);
-    }
+    } */
     
     return;
 }
@@ -1409,9 +1409,9 @@ void Task_OpenTrainerCardFromStartMenu(u8 taskId)
         PlayRainStoppingSoundEffect();
         CleanupOverworldWindowsAndTilemaps();
 
-        if (FlagGet(FLAG_SYS_FRONTIER_PASS))
-            ShowFrontierPass(CB2_ReturnToFullScreenStartMenu);
-        else
+        //if (FlagGet(FLAG_SYS_FRONTIER_PASS))
+        //    ShowFrontierPass(CB2_ReturnToFullScreenStartMenu);
+        //else
             ShowPlayerTrainerCard(CB2_ReturnToFullScreenStartMenu);
     }
 }
@@ -1563,28 +1563,28 @@ static void Task_StartMenuFullMain(u8 taskId)
                 gTasks[taskId].func = Task_OpenBagFromStartMenu;
                 break;
             case START_MENU_POKEDEX:
-                if(FlagGet(FLAG_SYS_POKEDEX_GET))
-                {
+                //if(FlagGet(FLAG_SYS_POKEDEX_GET))
+                //{
                     PlaySE(SE_SELECT);
                     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
                     gTasks[taskId].func = Task_OpenPokedexFromStartMenu;
-                }
-                else
-                {
-                    PlaySE(SE_BOO);
-                }
+                //}
+                //else
+                //{
+                //    PlaySE(SE_BOO);
+               // }
                 break;
             case START_MENU_PARTY:
-                if(FlagGet(FLAG_SYS_POKEMON_GET))
-                {
+                //if(FlagGet(FLAG_SYS_POKEMON_GET))
+                //{
                     PlaySE(SE_SELECT);
                     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
                     gTasks[taskId].func = Task_OpenPokemonPartyFromStartMenu;
-                }
-                else
-                {
-                    PlaySE(SE_BOO);
-                }
+                //}
+                //else
+                //{
+                //    PlaySE(SE_BOO);
+                //}
                 break;
             case START_MENU_QUESTS:
                 PlaySE(SE_SELECT);

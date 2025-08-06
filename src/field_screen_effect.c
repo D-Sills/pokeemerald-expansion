@@ -469,7 +469,10 @@ static void Task_WaitForFadeShowStartMenu(u8 taskId)
         if (GetSafariZoneFlag() || InBattlePyramid_() || InBattlePike() || InUnionRoom() || InMultiPartnerRoom())
             CreateTask(Task_ShowStartMenu, 80);
         else {   
-            CreateTask(Task_OpenStartMenuFullScreen, 80);
+            if (FlagGet(FLAG_POKETECH_OBTAINED) == TRUE)
+                CreateTask(Task_OpenStartMenuFullScreen, 80);
+            else
+                CreateTask(Task_ShowStartMenu, 80);
         }
     }
 }

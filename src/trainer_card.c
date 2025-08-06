@@ -197,8 +197,28 @@ static const u16 sTrainerCardSticker3_Pal[]      = INCBIN_U16("graphics/trainer_
 static const u16 sTrainerCardSticker4_Pal[]      = INCBIN_U16("graphics/trainer_card/frlg/stickers4.gbapal");
 static const u32 sHoennTrainerCardBadges_Gfx[]   = INCBIN_U32("graphics/trainer_card/badges.4bpp.lz");
 static const u32 sKantoTrainerCardBadges_Gfx[]   = INCBIN_U32("graphics/trainer_card/frlg/badges.4bpp.lz");
+
 static const u8 sGirlNeutralMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
 static const u16 sGirlNeutralMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sGirlHappyMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sGirlHappyMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sGirlSadMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sGirlSadMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sGirlAngryMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sGirlAngryMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sGirlSillyMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sGirlSillyMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+
+static const u8 sBoyNeutralMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sBoyNeutralMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sBoyHappyMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sBoyHappyMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sBoySadMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sBoySadMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sBoyAngryMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sBoyAngryMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
+static const u8 sBoySillyMugShot_GFX[] = INCBIN_U8("graphics/trainer_card/photos/girl_neutral.4bpp");
+static const u16 sBoySillyMugShot_Pal[] = INCBIN_U16("graphics/trainer_card/photos/girl_neutral.gbapal");
 
 static const struct BgTemplate sTrainerCardBgTemplates[4] =
 {
@@ -487,7 +507,7 @@ static void Task_TrainerCard(u8 taskId)
         }
         break;
     case STATE_HANDLE_INPUT_BACK:
-        if (JOY_NEW(B_BUTTON))
+        if (JOY_NEW(A_BUTTON))
         {
             if (gReceivedRemoteLinkPlayers && sData->isLink && InUnionRoom() == TRUE)
             {
@@ -505,7 +525,7 @@ static void Task_TrainerCard(u8 taskId)
                 PlaySE(SE_RG_CARD_FLIP);
             }
         }
-        else if (JOY_NEW(A_BUTTON))
+        else if (JOY_NEW(B_BUTTON))
         {
            if (gReceivedRemoteLinkPlayers && sData->isLink && InUnionRoom() == TRUE)
            {
@@ -517,7 +537,7 @@ static void Task_TrainerCard(u8 taskId)
                sData->mainState = STATE_CLOSE_CARD;
            }
         }
-        else if (JOY_NEW(R_BUTTON)
+        else if (JOY_NEW(R_BUTTON))
         {
             // If the player presses a direction, flip the card back to the front
             FlipTrainerCard();
@@ -1542,20 +1562,76 @@ static void LoadMugshotGfx(void)
     const u8  *gfx;
     const u16 *pal;
 
-    /* // pick based on gender/emotion flag:
+    // 0=Neutral, 1=Happy, 2=Sad, 3=Angry, 4=Silly
+    u16 emotion = VarGet(VAR_MUGSHOT_EMOTION);
+
+    // pick based on gender/emotion flag:
     if (gSaveBlock2Ptr->playerGender == FEMALE)
     {
-        if (gSaveBlock1Ptr->mugshotEmotion == EMOTION_NEUTRAL)
-            gfx = sMugshot_GirlNeutral_Gfx, pal = sMugshot_GirlNeutral_Pal;
-        else /* …other emotions… ;
+        if (emotion == 0) // Neutral
+        {
+            gfx = sGirlNeutralMugShot_GFX;
+            pal = sGirlNeutralMugShot_Pal;
+        }
+        else if (emotion == 1) // Happy
+        {
+            gfx = sGirlHappyMugShot_GFX;
+            pal = sGirlHappyMugShot_Pal;
+        }
+        else if (emotion == 2) // Sad
+        {
+            gfx = sGirlSadMugShot_GFX;
+            pal = sGirlSadMugShot_Pal;
+        }
+        else if (emotion == 3) // Angry
+        {
+            gfx = sGirlAngryMugShot_GFX;
+            pal = sGirlAngryMugShot_Pal;
+        }
+        else if (emotion == 4) // Silly
+        {
+            gfx = sGirlSillyMugShot_GFX;
+            pal = sGirlSillyMugShot_Pal;
+        } 
+        else // Default to Neutral if emotion is out of range
+        {
+            gfx = sGirlNeutralMugShot_GFX;
+            pal = sGirlNeutralMugShot_Pal;
+        }
     }
     else // male
     {
-        // pick sMugshot_Boy… arrays
-    }*/
-
-    gfx = sGirlNeutralMugShot_GFX; // Placeholder, replace with actual logic
-    pal = sGirlNeutralMugShot_Pal; // Placeholder, replace with actual logic
+        if (emotion == 0) // Neutral
+        {
+            gfx = sBoyNeutralMugShot_GFX;
+            pal = sBoyNeutralMugShot_Pal;
+        }
+        else if (emotion == 1) // Happy
+        {
+            gfx = sBoyHappyMugShot_GFX;
+            pal = sBoyHappyMugShot_Pal;
+        }
+        else if (emotion == 2) // Sad
+        {
+            gfx = sBoySadMugShot_GFX;
+            pal = sBoySadMugShot_Pal;
+        }
+        else if (emotion == 3) // Angry
+        {
+            gfx = sBoyAngryMugShot_GFX;
+            pal = sBoyAngryMugShot_Pal;
+        }
+        else if (emotion == 4) // Silly
+        {
+            gfx = sBoySillyMugShot_GFX;
+            pal = sBoySillyMugShot_Pal;
+        }
+        else // Default to Neutral if emotion is out of range
+        {
+            gfx = sBoyNeutralMugShot_GFX;
+            pal = sBoyNeutralMugShot_Pal;
+        }
+    }
 
     CopyToWindowPixelBuffer(WIN_TRAINER_PIC, gfx, sizeof(mugshotTiles), 0);
     LoadPalette(pal, BG_PLTT_ID(2), PLTT_SIZE_4BPP);

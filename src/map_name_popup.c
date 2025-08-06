@@ -513,7 +513,10 @@ static void UpdateSecondaryPopUpWindow(u8 secondaryPopUpWindowId)
     {
         RtcCalcLocalTime();
         FormatDecimalTimeWithoutSeconds(withoutPrefixPtr, gLocalTime.hours, gLocalTime.minutes, OW_POPUP_BW_TIME_MODE == OW_POPUP_BW_TIME_24_HR);
-        AddTextPrinterParameterized(secondaryPopUpWindowId, FONT_SMALL, mapDisplayHeader, GetStringRightAlignXOffset(FONT_SMALL, mapDisplayHeader, DISPLAY_WIDTH) - 5, 8, TEXT_SKIP_DRAW, NULL);
+
+        u8 color[3] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+        //AddTextPrinterParameterized(secondaryPopUpWindowId, FONT_SMALL, mapDisplayHeader, GetStringRightAlignXOffset(FONT_SMALL, mapDisplayHeader, DISPLAY_WIDTH) - 5, 8, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized4(secondaryPopUpWindowId, FONT_SMALL, GetStringRightAlignXOffset(FONT_SMALL, mapDisplayHeader, DISPLAY_WIDTH) - 5, 8, 0, 0, color, TEXT_SKIP_DRAW, mapDisplayHeader);
     }
     CopyWindowToVram(secondaryPopUpWindowId, COPYWIN_FULL);
 }
@@ -553,6 +556,9 @@ static void ShowMapNamePopUpWindow(void)
 
         mapNamePopUpWindowId = AddMapNamePopUpWindow();
         secondaryPopUpWindowId = AddSecondaryPopUpWindow();
+
+        //mapNamePopUpWindowId.paletteNum = 15;
+
     }
     else
     {
@@ -567,7 +573,9 @@ static void ShowMapNamePopUpWindow(void)
 
     if (OW_POPUP_GENERATION == GEN_5)
     {
-        AddTextPrinterParameterized(mapNamePopUpWindowId, FONT_SHORT, mapDisplayHeader, 8, 2, TEXT_SKIP_DRAW, NULL);
+        u8 color[3] = {TEXT_COLOR_TRANSPARENT, 2, 3};
+        //AddTextPrinterParameterized(mapNamePopUpWindowId, FONT_SHORT, mapDisplayHeader, 8, 2, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized4(mapNamePopUpWindowId, FONT_SHORT, 8, 1, 0, 0, color, TEXT_SKIP_DRAW, mapDisplayHeader);
         CopyWindowToVram(mapNamePopUpWindowId, COPYWIN_FULL);
         UpdateSecondaryPopUpWindow(secondaryPopUpWindowId);
     }
