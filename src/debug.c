@@ -70,6 +70,7 @@
 #include "siirtc.h"
 #include "rtc.h"
 #include "fake_rtc.h"
+#include "ui_fast_travel.h"
 #include "save.h"
 
 // *******************************
@@ -723,7 +724,7 @@ static const struct ListMenuItem sDebugMenu_Items_Party[] =
 
 static const struct ListMenuItem sDebugMenu_Items_Scripts[] =
 {
-    [DEBUG_UTIL_MENU_ITEM_SCRIPT_1] = {COMPOUND_STRING("Script 1"), DEBUG_UTIL_MENU_ITEM_SCRIPT_1},
+    [DEBUG_UTIL_MENU_ITEM_SCRIPT_1] = {COMPOUND_STRING("Open Fast Travel"), DEBUG_UTIL_MENU_ITEM_SCRIPT_1},
     [DEBUG_UTIL_MENU_ITEM_SCRIPT_2] = {COMPOUND_STRING("Script 2"), DEBUG_UTIL_MENU_ITEM_SCRIPT_2},
     [DEBUG_UTIL_MENU_ITEM_SCRIPT_3] = {COMPOUND_STRING("Script 3"), DEBUG_UTIL_MENU_ITEM_SCRIPT_3},
     [DEBUG_UTIL_MENU_ITEM_SCRIPT_4] = {COMPOUND_STRING("Script 4"), DEBUG_UTIL_MENU_ITEM_SCRIPT_4},
@@ -2452,7 +2453,7 @@ void DebugMenu_CalculateTimeOfDay(struct ScriptContext *ctx)
 // Actions Scripts
 static void DebugAction_Util_Script_1(u8 taskId)
 {
-    Debug_DestroyMenu_Full_Script(taskId, Debug_EventScript_Script_1);
+    CreateTask(Task_OpenFastTravelMenu, 0);
 }
 
 static void DebugAction_Util_Script_2(u8 taskId)

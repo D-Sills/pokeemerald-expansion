@@ -483,9 +483,13 @@ struct PokemonStorageSystemData
     u8 displayMonLevel;
     bool8 displayMonIsEgg;
     u8 displayMonName[POKEMON_NAME_LENGTH + 1];
+    u8 displayMonNature;
+    u8 displayMonAbility;
     u8 displayMonNameText[36];
     u8 displayMonSpeciesName[36];
     u8 displayMonGenderLvlText[36];
+    u8 displayMonAbilityText[36];
+    u8 displayMonNatureText[36];
     u8 displayMonItemName[36];
     bool8 (*monPlaceChangeFunc)(void);
     u8 monPlaceChangeState;
@@ -955,9 +959,9 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapLeft = 0,
         .tilemapTop = 11,
         .width = 9,
-        .height = 7,
+        .height = 9,
         .paletteNum = 10,
-        .baseBlock = 0xC0,
+        .baseBlock = 0x280,
     },
     [WIN_MESSAGE] = {
         .bg = 0,
@@ -4015,25 +4019,78 @@ static void LoadDisplayMonGfx(u16 species, u32 pid)
     }
 }
 
+#define INFO_X              8   // pixels from left of the window
+#define NAME_Y              0
+#define GENDER_LVL_Y        16
+#define ABILITY_Y           32
+#define NATURE_Y            48
+#define ITEM_Y              64
+
 static void PrintDisplayMonInfo(void)
 {
     FillWindowPixelBuffer(WIN_DISPLAY_INFO, PIXEL_FILL(FILL_WINDOW_PIXEL));
     if (sStorage->boxOption != OPTION_MOVE_ITEMS)
     {
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, 6, 0, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 12), sStorage->displayMonSpeciesName, 6, 15, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonGenderLvlText, 10, 29, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonItemName, FONT_SMALL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonItemName, 6, 43, TEXT_SKIP_DRAW, NULL);
+        
+        // Name
+ AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, INFO_X, NAME_Y, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonSpeciesName, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 12), sStorage->displayMonSpeciesName, INFO_X, GENDER_LVL_Y, TEXT_SKIP_DRAW, NULL);
+
+  /*   AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonNameText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonNameText, INFO_X, NAME_Y, TEXT_SKIP_DRAW, NULL); */
+
+    // Gender/Level
+    AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT,
+        sStorage->displayMonGenderLvlText, INFO_X, ABILITY_Y, TEXT_SKIP_DRAW, NULL);
+
+
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonItemName, FONT_SMALL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonItemName, INFO_X, NATURE_Y, TEXT_SKIP_DRAW, NULL);
+    /* // Ability
+    AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonAbilityText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonAbilityText, INFO_X, ABILITY_Y, TEXT_SKIP_DRAW, NULL);
+
+    // Nature
+    AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonNatureText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonNatureText, INFO_X, NATURE_Y, TEXT_SKIP_DRAW, NULL); */
+
     }
     else
     {
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonItemName, FONT_SMALL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonItemName, 6, 0, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, 6, 13, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonSpeciesName, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 12), sStorage->displayMonSpeciesName, 6, 28, TEXT_SKIP_DRAW, NULL);
-        AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT, sStorage->displayMonGenderLvlText, 10, 42, TEXT_SKIP_DRAW, NULL);
+                // Name
+ AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonNameText, FONT_NORMAL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonNameText, INFO_X, NAME_Y, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonSpeciesName, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 12), sStorage->displayMonSpeciesName, INFO_X, GENDER_LVL_Y, TEXT_SKIP_DRAW, NULL);
+
+  /*   AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonNameText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonNameText, INFO_X, NAME_Y, TEXT_SKIP_DRAW, NULL); */
+
+    // Gender/Level
+    AddTextPrinterParameterized(WIN_DISPLAY_INFO, FONT_SHORT,
+        sStorage->displayMonGenderLvlText, INFO_X, ABILITY_Y, TEXT_SKIP_DRAW, NULL);
+
+
+        AddTextPrinterParameterized(WIN_DISPLAY_INFO, GetFontIdToFit(sStorage->displayMonItemName, FONT_SMALL, 0, WindowWidthPx(WIN_DISPLAY_INFO) - 6), sStorage->displayMonItemName, INFO_X, NATURE_Y, TEXT_SKIP_DRAW, NULL);
+    /* // Ability
+    AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonAbilityText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonAbilityText, INFO_X, ABILITY_Y, TEXT_SKIP_DRAW, NULL);
+
+    // Nature
+    AddTextPrinterParameterized(
+        WIN_DISPLAY_INFO,
+        GetFontIdToFit(sStorage->displayMonNatureText, FONT_SHORT, 0, WindowWidthPx(WIN_DISPLAY_INFO) - INFO_X - 2),
+        sStorage->displayMonNatureText, INFO_X, NATURE_Y, TEXT_SKIP_DRAW, NULL); */
     }
 
-    CopyWindowToVram(WIN_DISPLAY_INFO, COPYWIN_GFX);
+    CopyWindowToVram(WIN_DISPLAY_INFO, COPYWIN_FULL);
     if (sStorage->displayMonSpecies != SPECIES_NONE)
     {
         //UpdateMonMarkingTiles(sStorage->displayMonMarkings, sStorage->markingComboTilesPtr);
@@ -7046,6 +7103,8 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         StringFill(sStorage->displayMonName, CHAR_SPACE, 5);
         StringFill(sStorage->displayMonNameText, CHAR_SPACE, 8);
         StringFill(sStorage->displayMonSpeciesName, CHAR_SPACE, 8);
+        StringFill(sStorage->displayMonNatureText, CHAR_SPACE, 8);
+        StringFill(sStorage->displayMonAbilityText, CHAR_SPACE, 8);
         StringFill(sStorage->displayMonGenderLvlText, CHAR_SPACE, 8);
         StringFill(sStorage->displayMonItemName, CHAR_SPACE, 8);
     }
@@ -7070,6 +7129,12 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         txtPtr = sStorage->displayMonSpeciesName;
         *(txtPtr)++ = CHAR_SLASH;
         StringCopyPadded(txtPtr, GetSpeciesName(sStorage->displayMonSpecies), CHAR_SPACE, 5);
+
+        u16 ability = GetAbilityBySpecies(sStorage->displayMonSpecies, GetMonData(pokemon, MON_DATA_ABILITY_NUM));
+        StringCopyPadded(sStorage->displayMonAbilityText, gAbilitiesInfo[ability].name, CHAR_SPACE, 5);
+
+        u8 nature = GetNature(pokemon);
+        StringCopyPadded(sStorage->displayMonNatureText, gNaturesInfo[nature].name, CHAR_SPACE, 5);
 
         txtPtr = sStorage->displayMonGenderLvlText;
         *(txtPtr)++ = EXT_CTRL_CODE_BEGIN;
@@ -7108,7 +7173,7 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
         txtPtr = ConvertIntToDecimalStringN(txtPtr, sStorage->displayMonLevel, STR_CONV_MODE_LEFT_ALIGN, 3);
         txtPtr[0] = CHAR_SPACE;
         txtPtr[1] = EOS;
-
+        
         if (sStorage->displayMonItemId != ITEM_NONE)
             StringCopyPadded(sStorage->displayMonItemName, GetItemName(sStorage->displayMonItemId), CHAR_SPACE, 8);
         else

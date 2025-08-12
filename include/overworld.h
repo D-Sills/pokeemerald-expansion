@@ -179,6 +179,8 @@ u8 GetDestinationWarpMapSectionId(void);
 void CB2_ReturnToFullScreenStartMenu(void);
 bool16 SetTimeOfDay(u16 hours);
 
+
+
 // Item Description Headers
 enum ItemObtainFlags
 {

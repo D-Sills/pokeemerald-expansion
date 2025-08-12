@@ -74,7 +74,7 @@ struct StartMenuResources
     u16 selector_x;
     u16 selector_y;
     u16 selectedMenu;
-    u16 greyMenuBoxIds[2];
+    u16 greyMenuBoxIds[6];
 };
 
 enum WindowIds
@@ -113,6 +113,7 @@ static void Task_StartMenuFullMain(u8 taskId);
 static u32 GetHPEggCyclePercent(u32 partyIndex);
 static void PrintMapNameAndTime(void);
 static void CursorCallback(struct Sprite *sprite);
+static void StartMenu_UpdateHighlightWindow(void);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sStartMenuBgTemplates[] =
@@ -222,9 +223,12 @@ static const u16 sHP_Pal[] = INCBIN_U16("graphics/ui_startmenu_full/hpbar_pal.gb
 static const u16 sHP_PalAlt[] = INCBIN_U16("graphics/ui_startmenu_full/hpbar_pal_alt.gbapal");
 
 // greyed buttons
-static const u32 sGreyMenuButtonMap_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/map_dark_sprite.4bpp.lz");
+static const u32 sGreyMenuButtonQuest_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/quests_dark_sprite.4bpp.lz");
 static const u32 sGreyMenuButtonDex_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/dex_dark_sprite.4bpp.lz");
 static const u32 sGreyMenuButtonParty_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/party_dark_sprite.4bpp.lz");
+static const u32 sGreyMenuButtonBag_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/bag_dark_sprite.4bpp.lz");
+static const u32 sGreyMenuButtonCard_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/card_dark_sprite.4bpp.lz");
+static const u32 sGreyMenuButtonOptions_Gfx[] = INCBIN_U32("graphics/ui_startmenu_full/options_dark_sprite.4bpp.lz");
 static const u16 sGreyMenuButton_Pal[] = INCBIN_U16("graphics/ui_startmenu_full/menu_dark.gbapal");
 
 
@@ -420,9 +424,12 @@ static const struct SpriteTemplate sSpriteTemplate_StatusIcons =
 };
 
 #define TAG_GREY_ICON 20001
-#define TAG_GREY_ICON_MAP 20003
+#define TAG_GREY_ICON_QUEST 20003
 #define TAG_GREY_ICON_DEX 20005
 #define TAG_GREY_ICON_PARTY 20007
+#define TAG_GREY_ICON_BAG 20009
+#define TAG_GREY_ICON_CARD 20011
+#define TAG_GREY_ICON_OPTIONS 20013
 
 static const struct OamData sOamData_GreyMenuButton =
 {
@@ -431,11 +438,11 @@ static const struct OamData sOamData_GreyMenuButton =
     .priority = 1,
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonMap =
+static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonQuest =
 {
-    .data = sGreyMenuButtonMap_Gfx,
+    .data = sGreyMenuButtonQuest_Gfx,
     .size = 64*32*4/2,
-    .tag = TAG_GREY_ICON_MAP,
+    .tag = TAG_GREY_ICON_QUEST,
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonParty =
@@ -450,6 +457,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonDex =
     .data = sGreyMenuButtonDex_Gfx,
     .size = 64*32*4/2,
     .tag = TAG_GREY_ICON_DEX,
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonBag =
+{
+    .data = sGreyMenuButtonBag_Gfx,
+    .size = 64*32*4/2,
+    .tag = TAG_GREY_ICON_BAG,
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonCard =
+{
+    .data = sGreyMenuButtonCard_Gfx,
+    .size = 64*32*4/2,
+    .tag = TAG_GREY_ICON_CARD,
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_GreyMenuButtonOptions =
+{
+    .data = sGreyMenuButtonOptions_Gfx,
+    .size = 64*32*4/2,
+    .tag = TAG_GREY_ICON_OPTIONS,
 };
 
 static const struct SpritePalette sSpritePal_GreyMenuButton =
@@ -469,9 +497,9 @@ static const union AnimCmd *const sSpriteAnimTable_GreyMenuButton[] =
     sSpriteAnim_GreyMenuButton0,
 };
 
-static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonMap =
+static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonQuest =
 {
-    .tileTag = TAG_GREY_ICON_MAP,
+    .tileTag = TAG_GREY_ICON_QUEST,
     .paletteTag = TAG_GREY_ICON,
     .oam = &sOamData_GreyMenuButton,
     .anims = sSpriteAnimTable_GreyMenuButton,
@@ -488,7 +516,7 @@ static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonDex =
     .anims = sSpriteAnimTable_GreyMenuButton,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy
+    .callback = CursorCallback
 };
 
 static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonParty =
@@ -502,6 +530,52 @@ static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonParty =
     .callback = SpriteCallbackDummy
 };
 
+static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonBag =
+{
+    .tileTag = TAG_GREY_ICON_BAG,
+    .paletteTag = TAG_GREY_ICON,
+    .oam = &sOamData_GreyMenuButton,
+    .anims = sSpriteAnimTable_GreyMenuButton,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy
+};
+
+static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonCard =
+{
+    .tileTag = TAG_GREY_ICON_CARD,
+    .paletteTag = TAG_GREY_ICON,
+    .oam = &sOamData_GreyMenuButton,
+    .anims = sSpriteAnimTable_GreyMenuButton,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy
+};
+
+static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonOptions =
+{
+    .tileTag = TAG_GREY_ICON_OPTIONS,
+    .paletteTag = TAG_GREY_ICON,
+    .oam = &sOamData_GreyMenuButton,
+    .anims = sSpriteAnimTable_GreyMenuButton,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy
+};
+
+
+#define WIN_OPTION_WIDTH  64
+#define WIN_OPTION_HEIGHT 32
+
+// The upper-left corner of each button (match to your icon box sprites)
+static const struct {
+    u8 left, top;
+} sMenuOptionCoords[3][2] = {
+    //   x,   y
+    { {96,  24}, {168,  24} },           // row 0 (Pokedex, Party)
+    { {96,  64}, {168,  64} },           // row 1 (Bag, Card)
+    { {96, 104}, {168, 104} },           // row 2 (Quests, Options)
+};
 
 //
 //  Begin Sprite Loading Functions
@@ -518,13 +592,13 @@ static const struct SpriteTemplate sSpriteTemplate_GreyMenuButtonParty =
 
 static void CreateCursor()
 {
-    if (sStartMenuDataPtr->cursorSpriteId == SPRITE_NONE)
+    /* if (sStartMenuDataPtr->cursorSpriteId == SPRITE_NONE)
         sStartMenuDataPtr->cursorSpriteId = CreateSprite(&sSpriteTemplate_Cursor, CURSOR_LEFT_COL_X, CURSOR_TOP_ROW_Y, 0);
 
     CursorCallback(&gSprites[sStartMenuDataPtr->cursorSpriteId]);
     
     gSprites[sStartMenuDataPtr->cursorSpriteId].invisible = FALSE;
-    StartSpriteAnim(&gSprites[sStartMenuDataPtr->cursorSpriteId], 0);
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->cursorSpriteId], 0); */
     return;
 }
 
@@ -542,7 +616,7 @@ struct SpriteCordsStruct {
 
 static void CursorCallback(struct Sprite *sprite) // Sprite callback for the cursor that updates the position every frame when the input control code updates
 {
-    struct SpriteCordsStruct spriteCords[3][2] = {
+    /* struct SpriteCordsStruct spriteCords[3][2] = {
         {{CURSOR_LEFT_COL_X, CURSOR_TOP_ROW_Y}, {CURSOR_RIGHT_COL_X, CURSOR_TOP_ROW_Y}},
         {{CURSOR_LEFT_COL_X, CURSOR_MID_ROW_Y}, {CURSOR_RIGHT_COL_X, CURSOR_MID_ROW_Y}},
         {{CURSOR_LEFT_COL_X, CURSOR_BTM_ROW_Y}, {CURSOR_RIGHT_COL_X, CURSOR_BTM_ROW_Y}},
@@ -551,8 +625,9 @@ static void CursorCallback(struct Sprite *sprite) // Sprite callback for the cur
     gSelectedMenu = sStartMenuDataPtr->selector_x + (sStartMenuDataPtr->selector_y * 2);
 
     sprite->x = spriteCords[sStartMenuDataPtr->selector_y][sStartMenuDataPtr->selector_x].x;
-    sprite->y = spriteCords[sStartMenuDataPtr->selector_y][sStartMenuDataPtr->selector_x].y;
+    sprite->y = spriteCords[sStartMenuDataPtr->selector_y][sStartMenuDataPtr->selector_x].y; */
 
+    StartMenu_UpdateHighlightWindow();
 
 }
 
@@ -569,6 +644,7 @@ static void InitCursorInPlace()
         sStartMenuDataPtr->selector_y = 1;
     else
         sStartMenuDataPtr->selector_y = 2;
+
 }
 
 
@@ -780,21 +856,38 @@ static void StartMenu_DisplayHP(void)
 //
 static void CreateGreyedMenuBoxes()
 {
-    /* if(!FlagGet(FLAG_SYS_POKEDEX_GET))
-    {
-        if (sStartMenuDataPtr->greyMenuBoxIds[0] == SPRITE_NONE)
-            sStartMenuDataPtr->greyMenuBoxIds[0] = CreateSprite(&sSpriteTemplate_GreyMenuButtonDex, CURSOR_LEFT_COL_X, CURSOR_TOP_ROW_Y, 1);
-        gSprites[sStartMenuDataPtr->greyMenuBoxIds[0]].invisible = FALSE;
-        StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[0]], 0);
-    }
-    
-    if(!FlagGet(FLAG_SYS_POKEMON_GET))
-    {
-        if (sStartMenuDataPtr->greyMenuBoxIds[1] == SPRITE_NONE)
-            sStartMenuDataPtr->greyMenuBoxIds[1] = CreateSprite(&sSpriteTemplate_GreyMenuButtonParty, CURSOR_RIGHT_COL_X, CURSOR_TOP_ROW_Y, 1);
-        gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]].invisible = FALSE;
-        StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]], 0);
-    } */
+    if (sStartMenuDataPtr->greyMenuBoxIds[0] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[0] = CreateSprite(&sSpriteTemplate_GreyMenuButtonDex, CURSOR_LEFT_COL_X, CURSOR_TOP_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[0]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[0]], 0);
+
+
+    if (sStartMenuDataPtr->greyMenuBoxIds[1] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[1] = CreateSprite(&sSpriteTemplate_GreyMenuButtonParty, CURSOR_RIGHT_COL_X, CURSOR_TOP_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[1]], 0);
+
+    if (sStartMenuDataPtr->greyMenuBoxIds[2] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[2] = CreateSprite(&sSpriteTemplate_GreyMenuButtonBag, CURSOR_LEFT_COL_X, CURSOR_MID_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[2]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[2]], 0);
+
+    if (sStartMenuDataPtr->greyMenuBoxIds[3] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[3] = CreateSprite(&sSpriteTemplate_GreyMenuButtonCard, CURSOR_RIGHT_COL_X, CURSOR_MID_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[3]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[3]], 0);
+
+    if (sStartMenuDataPtr->greyMenuBoxIds[4] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[4] = CreateSprite(&sSpriteTemplate_GreyMenuButtonQuest, CURSOR_LEFT_COL_X, CURSOR_BTM_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[4]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[4]], 0);
+
+    if (sStartMenuDataPtr->greyMenuBoxIds[5] == SPRITE_NONE)
+        sStartMenuDataPtr->greyMenuBoxIds[5] = CreateSprite(&sSpriteTemplate_GreyMenuButtonOptions, CURSOR_RIGHT_COL_X, CURSOR_BTM_ROW_Y, 1);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[5]].invisible = FALSE;
+    StartSpriteAnim(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[5]], 0);
+
+    CursorCallback(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[0]]); // Update the cursor position to match the greyed out boxes
     
     return;
 }
@@ -802,7 +895,7 @@ static void CreateGreyedMenuBoxes()
 static void DestroyGreyMenuBoxes()
 {
     u8 i = 0;
-    for(i = 0; i < 2; i++)
+    for(i = 0; i < 6; i++)
     {
         DestroySprite(&gSprites[sStartMenuDataPtr->greyMenuBoxIds[i]]);
         sStartMenuDataPtr->greyMenuBoxIds[i] = SPRITE_NONE;
@@ -924,11 +1017,12 @@ void StartMenuFull_Init(MainCallback callback)
         sStartMenuDataPtr->iconBoxSpriteIds[i] = SPRITE_NONE;
         sStartMenuDataPtr->iconMonSpriteIds[i] = SPRITE_NONE;
     }
-    for(i= 0; i < 2; i++)
+    for(i= 0; i < 6; i++)
     {
         sStartMenuDataPtr->greyMenuBoxIds[i] = SPRITE_NONE;
     }
     InitCursorInPlace();
+
 
     gFieldCallback = NULL;
     
@@ -1044,7 +1138,7 @@ static void StartMenuFull_FreeResources(void) // Clear Everything if Leaving
     DestroyMonIcons();
     DestroyStatusSprites();
     DestroyGreyMenuBoxes();
-    FreeAllWindowBuffers();    
+    FreeAllWindowBuffers();   
 }
 
 static void Task_StartMenuFullWaitFadeAndBail(u8 taskId)
@@ -1101,7 +1195,9 @@ static bool8 StartMenuFull_InitBgs(void) // This function sets the bg tilemap bu
     SetBgTilemapBuffer(2, sBg2TilemapBuffer);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
+    
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
+
     ShowBg(0);
     ShowBg(1);
     ShowBg(2);
@@ -1152,14 +1248,18 @@ static bool8 StartMenuFull_LoadGraphics(void) // Load the Tilesets, Tilemaps, Sp
 
         LoadCompressedSpriteSheet(&sSpriteSheet_IconBox);
         LoadSpritePalette(&sSpritePal_IconBox);
-        LoadCompressedSpriteSheet(&sSpriteSheet_Cursor);
-        LoadSpritePalette(&cursorPal);
+        //LoadCompressedSpriteSheet(&sSpriteSheet_Cursor);
+        //LoadSpritePalette(&cursorPal);
         LoadCompressedSpriteSheet(&sSpriteSheet_StatusIcons);
         LoadSpritePalette(&sSpritePalette_StatusIcons);
 
-        LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonMap);
+        
         LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonDex);
         LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonParty);
+        LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonBag);
+        LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonCard);
+        LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonQuest);
+        LoadCompressedSpriteSheet(&sSpriteSheet_GreyMenuButtonOptions);
         LoadSpritePalette(&sSpritePal_GreyMenuButton);
         sStartMenuDataPtr->gfxLoadState++;
         break;
@@ -1203,11 +1303,11 @@ static void PrintSaveConfirmToWindow()
     const u8 *str = sText_ConfirmSave;
     u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 92;
-    u8 y = 0;
+    u8 y = 1;
     
     FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
     BlitBitmapToWindow(WINDOW_BOTTOM_BAR, sA_ButtonGfx, 80, 5, 8, 8);
-    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, str);
+    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, FONT_SHORT, x, y, 0, 0, sConfirmTextColors, 0xFF, str);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
 }
@@ -1219,9 +1319,9 @@ static const u8 sText_SavingNow[] = _("Saving...");
 static void PrintSaveHappening(void){
     u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 100;
-    u8 y = 0;
+    u8 y = 1;
     FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
-    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SavingNow);
+    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, FONT_SHORT, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SavingNow);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
 }
@@ -1231,10 +1331,10 @@ static const u8 sText_SaveComplete[] = _("Save complete.");
 static void PrintSaveComplete(void) {
     u8 sConfirmTextColors[] = {TEXT_COLOR_TRANSPARENT, 1, 14};
     u8 x = 86;
-    u8 y = 0;
+    u8 y = 1;
 
     FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(15));
-    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, 1, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SaveComplete);
+    AddTextPrinterParameterized4(WINDOW_BOTTOM_BAR, FONT_SHORT, x, y, 0, 0, sConfirmTextColors, 0xFF, sText_SaveComplete);
     PutWindowTilemap(WINDOW_BOTTOM_BAR);
     CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
 
@@ -1289,7 +1389,7 @@ static void PrintMapNameAndTime(void) //this code is ripped froom different part
     mapDisplayHeader[1] = EXT_CTRL_CODE_HIGHLIGHT;
     mapDisplayHeader[2] = TEXT_COLOR_TRANSPARENT;
     //AddTextPrinterParameterized(WINDOW_TOP_BAR, FONT_NARROW, mapDisplayHeader, x + 152, 1, TEXT_SKIP_DRAW, NULL); // Print Map Name
-    AddTextPrinterParameterized4(WINDOW_TOP_BAR, FONT_SHORT, x + 152, 1, 0, 0, sTimeTextColors, TEXT_SKIP_DRAW, mapDisplayHeader); // Print colon
+    AddTextPrinterParameterized4(WINDOW_TOP_BAR, FONT_NARROW, x + 152, 1, 0, 0, sTimeTextColors, TEXT_SKIP_DRAW, mapDisplayHeader); // Print colon
 
     RtcCalcLocalTime();
 
@@ -1490,7 +1590,7 @@ void Task_HandleSaveConfirmation(u8 taskId)
         gTasks[taskId].sFrameToSecondTimer = 0;
 
 
-    FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        FillWindowPixelBuffer(WINDOW_BOTTOM_BAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         PutWindowTilemap(WINDOW_BOTTOM_BAR);
         CopyWindowToVram(WINDOW_BOTTOM_BAR, COPYWIN_FULL);
         gTasks[taskId].func = Task_StartMenuFullMain;
@@ -1536,6 +1636,8 @@ static void Task_StartMenuFullMain(u8 taskId)
             sStartMenuDataPtr->selector_x = 1;
         else
             sStartMenuDataPtr->selector_x = 0; 
+
+        StartMenu_UpdateHighlightWindow();
     }
     if (JOY_NEW(DPAD_UP))
     {
@@ -1544,6 +1646,8 @@ static void Task_StartMenuFullMain(u8 taskId)
             sStartMenuDataPtr->selector_y = 2;
         else
             sStartMenuDataPtr->selector_y--;
+
+        StartMenu_UpdateHighlightWindow();
     }
     if (JOY_NEW(DPAD_DOWN))
     {
@@ -1552,6 +1656,8 @@ static void Task_StartMenuFullMain(u8 taskId)
             sStartMenuDataPtr->selector_y = 0;
         else
             sStartMenuDataPtr->selector_y++;
+
+        StartMenu_UpdateHighlightWindow();
     }
     if (JOY_NEW(A_BUTTON)) //when A is pressed, load the Task for the Menu the cursor is on, for some they require a flag to be set
     {
@@ -1631,4 +1737,33 @@ static void Task_StartMenuFullMain(u8 taskId)
     }
     gTasks[taskId].sFrameToSecondTimer++;
 
+}
+
+static void StartMenu_UpdateHighlightWindow(void)
+{
+    /* // Get selected menu coords
+    u8 x = sStartMenuDataPtr->selector_x;
+    u8 y = sStartMenuDataPtr->selector_y;
+
+    u8 left   = sMenuOptionCoords[y][x].left;
+    u8 right  = left + WIN_OPTION_WIDTH;
+    u8 top    = sMenuOptionCoords[y][x].top;
+    u8 bottom = top + WIN_OPTION_HEIGHT;
+
+    // Set WIN0 (highlight window) to the selected button
+    SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(left, right));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(top, bottom));
+
+    SetGpuReg(REG_OFFSET_WININ, (WININ_WIN1_BG0 | WININ_WIN1_BG2) | (WININ_WIN0_BG_ALL | WININ_WIN0_OBJ)); // Set Win 0 Active everywhere, Win 1 active on everything except bg 1 
+    SetGpuReg(REG_OFFSET_WINOUT, WINOUT_WIN01_ALL); // where the main tiles are so the window hides whats behind it
+
+    // Enable darken effect outside WIN0 (i.e., non-selected buttons)
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_DARKEN | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG1 | BLDCNT_TGT1_OBJ);
+    SetGpuReg(REG_OFFSET_BLDY, 7); // 7 is a good darken value, tweak as desired */
+
+    for (int i = 0; i < 6; i++)
+        gSprites[sStartMenuDataPtr->greyMenuBoxIds[i]].invisible = FALSE;
+
+    gSelectedMenu = sStartMenuDataPtr->selector_x + (sStartMenuDataPtr->selector_y * 2);
+    gSprites[sStartMenuDataPtr->greyMenuBoxIds[gSelectedMenu]].invisible = TRUE; // Show the selected menu box
 }

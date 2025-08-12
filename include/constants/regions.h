@@ -6,6 +6,7 @@ enum Region
 {
     REGION_NONE,
     REGION_KANTO,
+    REGION_SEVII,
     REGION_JOHTO,
     REGION_HOENN,
     REGION_SINNOH,

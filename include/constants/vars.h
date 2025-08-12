@@ -266,7 +266,7 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
 #define VAR_DIFFICULTY                                   0x40F7 // Unused Var
 #define VAR_BATTLESPEED                                  0x40F8 // Unused Var
-#define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
+#define VAR_REGIONS_UNLOCKED                             0x40F9 // 0 = Hoenn, 1 = Kanto, 2 = Orre, 3 = Sevii Islands, 4 = Johto, 5 = Sinnoh, 6 = Unova, 7 = Kalos, 8 = Alola, 9 = Galar
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                                0x40FC // Unused Var

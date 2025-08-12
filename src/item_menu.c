@@ -639,10 +639,10 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .bg = 0,
         .tilemapLeft = 0,
         .tilemapTop = 0,
-        .width = 8,
+        .width = 10,
         .height = 2,
         .paletteNum = 13,
-        .baseBlock = 0x1A1,
+        .baseBlock = 0x280,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -1317,7 +1317,7 @@ void BagDestroyPocketScrollArrowPair(void)
 
 static void CreatePocketSwitchArrowPair(void)
 {
-    /* f (gBagMenu->pocketSwitchDisabled != TRUE && gBagMenu->pocketSwitchArrowsTask == TASK_NONE)
+    /*if (gBagMenu->pocketSwitchDisabled != TRUE && gBagMenu->pocketSwitchArrowsTask == TASK_NONE)
         gBagMenu->pocketSwitchArrowsTask = AddScrollIndicatorArrowPair(&sBagScrollArrowsTemplate, &gBagPosition.pocketSwitchArrowPos); */
 }
 
@@ -3026,12 +3026,12 @@ static void PrintPocketNames(const u8 *pocketName1, const u8 *pocketName2)
     window.height = 2;
     windowId = AddWindow(&window);
     FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
-    offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
-    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, offset, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+    //offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName1, 0x40);
+    BagMenu_Print(windowId, FONT_NORMAL, pocketName1, 8, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     if (pocketName2)
     {
-        offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
-        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, offset + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
+        //offset = GetStringCenterAlignXOffset(FONT_NORMAL, pocketName2, 0x40);
+        BagMenu_Print(windowId, FONT_NORMAL, pocketName2, 8 + 0x40, 1, 0, 0, TEXT_SKIP_DRAW, COLORID_POCKET_NAME);
     }
     CpuCopy32((u8 *)GetWindowAttribute(windowId, WINDOW_TILE_DATA), gBagMenu->pocketNameBuffer, sizeof(gBagMenu->pocketNameBuffer));
     RemoveWindow(windowId);
