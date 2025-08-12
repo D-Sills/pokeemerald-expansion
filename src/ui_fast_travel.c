@@ -71,6 +71,7 @@ enum FastTravelOptions
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sBg1TilemapBuffer = NULL;
 static EWRAM_DATA u8 *sBg2TilemapBuffer = NULL;
+static EWRAM_DATA u8 *sBg3TilemapBuffer = NULL; 
 
 // holds the position of the menu so that it persists in memory,
 static EWRAM_DATA u8 gSelectedOption = 0;
@@ -93,6 +94,7 @@ static void PrintRegionNameAndDescription(u8 regionId);
 static void UpdateMenuSelection(u8 taskId);
 static void Task_MosaicSwap(u8 taskId);
 static s8 FindNextUnlocked(s32 start, s32 dir, u32 mask, s32 count, bool8 wrap);
+static void SetArrowMosaic(bool8 on);
 static void SnapToValidSelection(void);
 
 //==========CONST=DATA==========//
@@ -104,18 +106,25 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .mapBaseIndex = 31,
         .priority = 0
     }, 
+
     {
         .bg = 1,    // this bg loads the UI tilemap
         .charBaseIndex = 3,
         .mapBaseIndex = 30,
-        .priority = 1
+        .priority = 2
     },
     {
         .bg = 2,   // this bg loads the region tilemap
         .charBaseIndex = 2,
         .mapBaseIndex = 28,
-        .priority = 2
-    }
+        .priority = 3
+    },
+    {
+        .bg = 3,   // desc and name
+        .charBaseIndex = 0,
+        .mapBaseIndex = 29,
+        .priority = 1
+    },
 };
 
 static const struct WindowTemplate sMenuWindowTemplates[] = 
@@ -132,7 +141,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     },
     [WIN_NAME] = // Window ID for the options menu
     {
-        .bg = 0,
+        .bg = 3,
         .tilemapLeft = 7,
         .tilemapTop = 3,
         .width = 16,
@@ -142,7 +151,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     },
     [WIN_DESCRIPTION] = // Window ID for the description text
     {
-        .bg = 0,            // which bg to print text on
+        .bg = 3,            // which bg to print text on
         .tilemapLeft = 2,   // position from left (per 8 pixels)
         .tilemapTop = 15,   // position from top (per 8 pixels)
         .width = 26,        // width (per 8 pixels)
@@ -419,6 +428,7 @@ static void Menu_FreeResources(void)
     try_free(sMenuDataPtr);
     try_free(sBg1TilemapBuffer);
     try_free(sBg2TilemapBuffer);
+    try_free(sBg3TilemapBuffer);
     DestroySwitchArrowPair();
     FreeAllWindowBuffers();
 }
@@ -445,29 +455,37 @@ static void Menu_FadeAndBail(void)
 static bool8 Menu_InitBgs(void)
 {
     ResetAllBgsCoordinatesAndBgCntRegs();
+
     sBg1TilemapBuffer = Alloc(0x800);
-    if (sBg1TilemapBuffer == NULL)
-        return FALSE;
+    if (!sBg1TilemapBuffer) return FALSE;
     memset(sBg1TilemapBuffer, 0, 0x800);
 
     sBg2TilemapBuffer = Alloc(0x800);
-    if (sBg2TilemapBuffer == NULL)
-        return FALSE;
+    if (!sBg2TilemapBuffer) return FALSE;
     memset(sBg2TilemapBuffer, 0, 0x800);
-    
+
+    sBg3TilemapBuffer = Alloc(0x800);                 // NEW
+    if (!sBg3TilemapBuffer) return FALSE;             // NEW
+    memset(sBg3TilemapBuffer, 0, 0x800);              // NEW
+
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
+
     SetBgTilemapBuffer(1, sBg1TilemapBuffer);
     SetBgTilemapBuffer(2, sBg2TilemapBuffer);
+    SetBgTilemapBuffer(3, sBg3TilemapBuffer);         // NEW
 
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
-    
+    ScheduleBgCopyTilemapToVram(3);                   // NEW
+
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
+
     ShowBg(0);
     ShowBg(1);
     ShowBg(2);
+    ShowBg(3);                                        // NEW
     return TRUE;
 }
 
@@ -666,6 +684,18 @@ static void Task_MenuMain(u8 taskId)
     }
 }
 
+static void SetArrowMosaic(bool8 on)
+{
+    if (sMenuDataPtr->switchArrowsTask == TASK_NONE)
+        return;
+
+    u8 t = sMenuDataPtr->switchArrowsTask;
+    s16 *d = gTasks[t].data;
+
+    if (d[0] >= 0 && d[0] < MAX_SPRITES) gSprites[d[0]].oam.mosaic = on;
+    if (d[1] >= 0 && d[1] < MAX_SPRITES) gSprites[d[1]].oam.mosaic = on;
+}
+
 #define tScrollState     data[0]
 #define tMosaicStrength  data[1]
 #define tNextRegion      data[2]
@@ -678,7 +708,6 @@ static void UpdateMenuSelection(u8 taskId) {
     tScrollState    = 0;
     tMosaicStrength = 0;
     tNextRegion     = gSelectedOption;
-
     
     SetTaskFuncWithFollowupFunc(taskId, Task_MosaicSwap, gTasks[taskId].func);
 }
@@ -689,12 +718,12 @@ static void Task_MosaicSwap(u8 taskId)
 
     if (tScrollState == 0)
     {
-        tMosaicStrength = 5;
+        tMosaicStrength = 0;
         SetGpuReg(REG_OFFSET_MOSAIC, 0);
-        SetBgTilemapBuffer(2, sBg2TilemapBuffer);
-        ShowBg(2);
         SetGpuRegBits(REG_OFFSET_BG1CNT, BGCNT_MOSAIC);
         SetGpuRegBits(REG_OFFSET_BG2CNT, BGCNT_MOSAIC);
+        SetGpuRegBits(REG_OFFSET_BG3CNT, BGCNT_MOSAIC);
+        SetArrowMosaic(TRUE);
     }
     
     // build up mosaic effect (0 -> 7)
@@ -703,30 +732,32 @@ static void Task_MosaicSwap(u8 taskId)
         tMosaicStrength += 1; // (uncommented vs the reference)
         SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
     }
-    // swap while chunky, then build down (7 -> 0)
-    if (tScrollState > 3)
+    else
     {
-        tMosaicStrength -= 1;
+        if (tScrollState == 4)
+        {
+            LoadRegionArt(tNextRegion);
+            PrintRegionNameAndDescription(tNextRegion);
+        }
+        if (tMosaicStrength > 0)
+            tMosaicStrength -= 1;
         SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
+        
     }
-
     tScrollState++;
 
     if (tScrollState >= 8)
     {
-       
-        // Swap the BG2 art to the new region while the image is chunky.
-        LoadRegionArt(tNextRegion);
-
-        // Update text while we’re swapped.
-        PrintRegionNameAndDescription(tNextRegion);
-
-        ScheduleBgCopyTilemapToVram(2);
-
          // Tear down and finish
         ClearGpuRegBits(REG_OFFSET_BG2CNT, BGCNT_MOSAIC);
         ClearGpuRegBits(REG_OFFSET_BG1CNT, BGCNT_MOSAIC);
+        ClearGpuRegBits(REG_OFFSET_BG3CNT, BGCNT_MOSAIC);
+        SetArrowMosaic(FALSE);
         SetGpuReg(REG_OFFSET_MOSAIC, 0);
+
+        ScheduleBgCopyTilemapToVram(2);
+        ScheduleBgCopyTilemapToVram(1);
+        ScheduleBgCopyTilemapToVram(3);
 
         SwitchTaskToFollowupFunc(taskId);
     }
