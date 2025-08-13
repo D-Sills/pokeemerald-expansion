@@ -34,6 +34,8 @@
 #include "constants/field_weather.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "field_screen_effect.h"
+#include "m4a.h"
 
 /*
  * 
@@ -71,7 +73,6 @@ enum FastTravelOptions
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sBg1TilemapBuffer = NULL;
 static EWRAM_DATA u8 *sBg2TilemapBuffer = NULL;
-static EWRAM_DATA u8 *sBg3TilemapBuffer = NULL; 
 
 // holds the position of the menu so that it persists in memory,
 static EWRAM_DATA u8 gSelectedOption = 0;
@@ -96,6 +97,11 @@ static void Task_MosaicSwap(u8 taskId);
 static s8 FindNextUnlocked(s32 start, s32 dir, u32 mask, s32 count, bool8 wrap);
 static void SetArrowMosaic(bool8 on);
 static void SnapToValidSelection(void);
+static void Task_WarpAnimation(u8 taskId);
+static void Task_DoRegionWarpNow(u8 taskId);
+static void StartWarpToSelectedRegion(u8 taskId);
+static void DrawRegionIndicatorSquare(u8 region, bool8 isCurrentRegion);
+static void DrawRegionIndicatorSquares(void);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -295,6 +301,23 @@ static const u16 *const gRegionPal[FAST_TRAVEL_COUNT] = {
     [FAST_TRAVEL_END_OF_ALL_THINGS]  = gRegionPal_End,
 };
 
+struct RegionWarp {
+    u8  mapGroup, mapNum;
+    s16 x, y;
+    u8  warpId;
+};
+
+static const struct RegionWarp sRegionWarps[FAST_TRAVEL_COUNT] =
+{
+    [FAST_TRAVEL_PREHISTORIC]       = { /*group*/ 0, /*num*/  7, /*x*/ 10, /*y*/  8, /*warp*/ 3 },
+    [FAST_TRAVEL_WILD_WEST]         = { 0,  6,  8,  8, 0 },
+    [FAST_TRAVEL_STEAMPUNK]         = { 0,  7, 12,  7, 0 },
+    [FAST_TRAVEL_MEDIEVAL]          = { 0,  8,  5,  5, 0 },
+    [FAST_TRAVEL_CYBERPUNK]         = { 0,  9,  6, 10, 0 },
+    [FAST_TRAVEL_EDO]               = { 0, 10,  9,  9, 0 },
+    [FAST_TRAVEL_END_OF_ALL_THINGS] = { 0, 11,  4,  4, 0 },
+};
+
 //==========FUNCTIONS==========//
 // UI loader template
 void Task_OpenFastTravelMenu(u8 taskId)
@@ -321,7 +344,16 @@ void FastTravelMenu_Init(MainCallback callback)
     sMenuDataPtr->gfxLoadState = 0;
     sMenuDataPtr->savedCallback = callback;
     sMenuDataPtr->switchArrowsTask = TASK_NONE;
-    sMenuDataPtr->unlockedRegions = VarGet(VAR_REGIONS_UNLOCKED); // Get the unlocked regions from a variable
+    u16 v = VarGet(VAR_REGIONS_UNLOCKED); // 0..(FAST_TRAVEL_COUNT-1), inclusive
+    u32 mask;
+    if (v + 1 >= FAST_TRAVEL_COUNT)
+        mask = (1u << FAST_TRAVEL_COUNT) - 1u; // all available regions
+    else
+        mask = (1u << (v + 1)) - 1u;           // bits [0..v] set
+
+    sMenuDataPtr->unlockedRegions = mask;
+
+    sMenuDataPtr->unlockedRegions = mask;
 
     SnapToValidSelection(); // Ensure the selected option is valid
     
@@ -401,6 +433,8 @@ static bool8 Menu_DoGfxSetup(void)
     case 6:
         PrintToWindow(WIN_TOPBAR, FONT_WHITE, 5,1, sText_FastTravelMenu);
         PrintRegionNameAndDescription(gSelectedOption);
+        DrawRegionIndicatorSquares();
+
         taskId = CreateTask(Task_MenuWaitFadeIn, 0);
         BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
         gMain.state++;
@@ -428,7 +462,6 @@ static void Menu_FreeResources(void)
     try_free(sMenuDataPtr);
     try_free(sBg1TilemapBuffer);
     try_free(sBg2TilemapBuffer);
-    try_free(sBg3TilemapBuffer);
     DestroySwitchArrowPair();
     FreeAllWindowBuffers();
 }
@@ -464,20 +497,14 @@ static bool8 Menu_InitBgs(void)
     if (!sBg2TilemapBuffer) return FALSE;
     memset(sBg2TilemapBuffer, 0, 0x800);
 
-    sBg3TilemapBuffer = Alloc(0x800);                 // NEW
-    if (!sBg3TilemapBuffer) return FALSE;             // NEW
-    memset(sBg3TilemapBuffer, 0, 0x800);              // NEW
-
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
 
     SetBgTilemapBuffer(1, sBg1TilemapBuffer);
     SetBgTilemapBuffer(2, sBg2TilemapBuffer);
-    SetBgTilemapBuffer(3, sBg3TilemapBuffer);         // NEW
 
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
-    ScheduleBgCopyTilemapToVram(3);                   // NEW
 
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
@@ -519,6 +546,9 @@ static bool8 Menu_LoadGraphics(void)
 static void Menu_InitWindows(void)
 {
     InitWindows(sMenuWindowTemplates);
+    m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 0x80);
+    PlaySE(SE_PC_ON);
+    CreateSwitchArrowPair();
     DeactivateAllTextPrinters();
 }
 
@@ -531,10 +561,58 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u8 x, u8 y, const u8 *str)
     CopyWindowToVram(windowId, COPYWIN_FULL);
 }
 
+static void DrawRegionIndicatorSquare(u8 region, bool8 isCurrentRegion){
+    static const u16 sPocketIconTiles[POCKETS_COUNT] =
+    {
+        34, // Medicine
+        35, // Treasures
+        36, // Battle items
+        37, // Pokeballs
+        38, // TMs/HMs
+        39, // Berries
+        40, // Key items
+    }; //having unique icons for each region would be nice, but this is a placeholder
+    //u16 tile = sPocketIconTiles[region]; 
+
+    u16 tile = 18;
+    
+    if (isCurrentRegion)
+        tile += 7;
+    
+    FillBgTilemapBufferRect(
+        1,
+        tile,
+        /*x=*/7 + region,
+        /*y=*/5,
+        /*w=*/1,
+        /*h=*/1,
+        /*palette=*/2
+    );
+    FillBgTilemapBufferRect(
+        1,
+        tile + 16,
+        /*x=*/7 + region,
+        /*y=*/6,
+        /*w=*/1,
+        /*h=*/1,
+        /*palette=*/2
+    );
+    ScheduleBgCopyTilemapToVram(1);
+}
+
+static void DrawRegionIndicatorSquares(void)
+{
+    for (u8 i = 0; i < FAST_TRAVEL_COUNT; i++)
+    {
+        if ((sMenuDataPtr->unlockedRegions & (1u << i)) == 0)
+            continue; // skip locked regions
+
+        DrawRegionIndicatorSquare(i, (i == gSelectedOption));
+    }
+}
+
 static void Task_MenuWaitFadeIn(u8 taskId)
 {
-    CreateSwitchArrowPair();
-
     if (!gPaletteFade.active)
         gTasks[taskId].func = Task_MenuMain;
 }
@@ -547,18 +625,9 @@ static void Task_MenuTurnOff(u8 taskId)
     {
         SetMainCallback2(sMenuDataPtr->savedCallback);
         Menu_FreeResources();
+        PlaySE(SE_PC_OFF);
+        m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 0x100);
         DestroyTask(taskId);
-    }
-}
-
-void Task_FastTravelPrehistoric(u8 taskId)
-{
-    if (!gPaletteFade.active)
-    {
-        Menu_FreeResources();
-        PlayRainStoppingSoundEffect();
-        CleanupOverworldWindowsAndTilemaps();
-        SetMainCallback2(CB2_ReturnToFieldFadeFromBlack);
     }
 }
 
@@ -579,7 +648,7 @@ static void DestroySwitchArrowPair(void)
 
 static void ClearRegionArt(void)
 {
-    //FillBgTilemapBufferRect(2, 0, 0, 0, 32, 20, 0);
+    FillBgTilemapBufferRect(2, 0, 0, 0, 32, 20, 0);
 }
 
 static void LoadRegionArt(u8 regionId) // make part of a task
@@ -592,6 +661,8 @@ static void LoadRegionArt(u8 regionId) // make part of a task
     LoadPalette(gRegionPal[regionId], BG_PLTT_ID(0), PLTT_SIZE_4BPP);
 
     ScheduleBgCopyTilemapToVram(2);
+
+    DrawRegionIndicatorSquares();
 }
 
 static void PrintRegionNameAndDescription(u8 regionId)
@@ -649,12 +720,14 @@ static void Task_MenuMain(u8 taskId)
 {
     if (JOY_NEW(B_BUTTON))
     {
-        PlaySE(SE_PC_OFF);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
         gTasks[taskId].func = Task_MenuTurnOff;
     }
     if (JOY_NEW(DPAD_LEFT) || JOY_NEW(DPAD_RIGHT))
     {
+        if (sMenuDataPtr->unlockedRegions <= 1)
+            return; // no regions to switch between
+
         u32 mask = sMenuDataPtr->unlockedRegions;
         s8 next = -1;
 
@@ -664,7 +737,7 @@ static void Task_MenuMain(u8 taskId)
             next = FindNextUnlocked(gSelectedOption, +1, mask, FAST_TRAVEL_COUNT, TRUE);
 
         if (next >= 0 && (u8)next != gSelectedOption)
-        {
+        {  
             PlaySE(SE_RG_BAG_CURSOR);
             gSelectedOption = (u8)next;
             UpdateMenuSelection(taskId);
@@ -673,15 +746,23 @@ static void Task_MenuMain(u8 taskId)
     }
     if (JOY_NEW(A_BUTTON)) //when A is pressed, load the Task for the Menu the cursor is on, for some they require a flag to be set
     {
-        switch(gSelectedOption)
-        {
-            case FAST_TRAVEL_PREHISTORIC:
-                PlaySE(SE_SELECT);
-                BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-                gTasks[taskId].func = Task_FastTravelPrehistoric;
-                break;
-        }
+        if (sMenuDataPtr->unlockedRegions & (1u << gSelectedOption))
+            StartWarpToSelectedRegion(taskId);
+        else
+            PlaySE(SE_BOO);
     }
+}
+
+#define MOSAIC_MAX      10   // up to 15, strength
+#define MOSAIC_FRAMESUP 8    // frames ramp up
+#define MOSAIC_FRAMESDN 8    // frames ramp down
+
+static inline void SetMosaicAll(u8 s)
+{
+    s &= 15;
+    u16 bg  = s * 0x11;      // BG H/V
+    u16 obj = bg << 8;       // OBJ H/V
+    SetGpuReg(REG_OFFSET_MOSAIC, bg | obj);
 }
 
 static void SetArrowMosaic(bool8 on)
@@ -690,10 +771,10 @@ static void SetArrowMosaic(bool8 on)
         return;
 
     u8 t = sMenuDataPtr->switchArrowsTask;
-    s16 *d = gTasks[t].data;
+    s16 *data = gTasks[t].data;
 
-    if (d[0] >= 0 && d[0] < MAX_SPRITES) gSprites[d[0]].oam.mosaic = on;
-    if (d[1] >= 0 && d[1] < MAX_SPRITES) gSprites[d[1]].oam.mosaic = on;
+    if (0 >= 0 && 0 < MAX_SPRITES) gSprites[0].invisible = on;
+    if (1>= 0 && 1 < MAX_SPRITES) gSprites[1].invisible = on;
 }
 
 #define tScrollState     data[0]
@@ -701,7 +782,6 @@ static void SetArrowMosaic(bool8 on)
 #define tNextRegion      data[2]
 
 static void UpdateMenuSelection(u8 taskId) {
-    // Clear the previous region art
     ClearRegionArt();
     
     s16 *data = gTasks[taskId].data;
@@ -719,46 +799,33 @@ static void Task_MosaicSwap(u8 taskId)
     if (tScrollState == 0)
     {
         tMosaicStrength = 0;
-        SetGpuReg(REG_OFFSET_MOSAIC, 0);
+        SetMosaicAll(0);
         SetGpuRegBits(REG_OFFSET_BG1CNT, BGCNT_MOSAIC);
         SetGpuRegBits(REG_OFFSET_BG2CNT, BGCNT_MOSAIC);
         SetGpuRegBits(REG_OFFSET_BG3CNT, BGCNT_MOSAIC);
         SetArrowMosaic(TRUE);
     }
     
-    // build up mosaic effect (0 -> 7)
-    if (tScrollState <= 3)
-    {
-        tMosaicStrength += 1; // (uncommented vs the reference)
-        SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
-    }
-    else
-    {
-        if (tScrollState == 4)
-        {
-            LoadRegionArt(tNextRegion);
-            PrintRegionNameAndDescription(tNextRegion);
-        }
-        if (tMosaicStrength > 0)
-            tMosaicStrength -= 1;
-        SetGpuReg(REG_OFFSET_MOSAIC, (tMosaicStrength & 15) * 17);
-        
+    // ramp up
+    if (tScrollState < MOSAIC_FRAMESUP) {
+        if (tMosaicStrength < MOSAIC_MAX) tMosaicStrength++;
+        SetMosaicAll(tMosaicStrength);
+    } else if (tScrollState == MOSAIC_FRAMESUP) {
+        PlaySE(SE_RG_DEOXYS_MOVE);
+        LoadRegionArt(tNextRegion);
+        PrintRegionNameAndDescription(tNextRegion);
+    } else if (tScrollState < MOSAIC_FRAMESUP + MOSAIC_FRAMESDN) {
+        if (tMosaicStrength) tMosaicStrength--;
+        SetMosaicAll(tMosaicStrength);
     }
     tScrollState++;
 
-    if (tScrollState >= 8)
-    {
-         // Tear down and finish
-        ClearGpuRegBits(REG_OFFSET_BG2CNT, BGCNT_MOSAIC);
+    if (tScrollState >= MOSAIC_FRAMESUP + MOSAIC_FRAMESDN) {
         ClearGpuRegBits(REG_OFFSET_BG1CNT, BGCNT_MOSAIC);
+        ClearGpuRegBits(REG_OFFSET_BG2CNT, BGCNT_MOSAIC);
         ClearGpuRegBits(REG_OFFSET_BG3CNT, BGCNT_MOSAIC);
         SetArrowMosaic(FALSE);
-        SetGpuReg(REG_OFFSET_MOSAIC, 0);
-
-        ScheduleBgCopyTilemapToVram(2);
-        ScheduleBgCopyTilemapToVram(1);
-        ScheduleBgCopyTilemapToVram(3);
-
+        SetMosaicAll(0);
         SwitchTaskToFollowupFunc(taskId);
     }
 }
@@ -766,3 +833,153 @@ static void Task_MosaicSwap(u8 taskId)
 #undef tScrollState
 #undef tMosaicStrength
 #undef tNextRegion
+
+// --- warp flash tuning ---
+#define WARP_PULSES        3     // number of quick flashes before the final one
+#define WARP_FLASH_MAX     16    // 0..16 (white strength)
+#define WARP_FLASH_UP      3    // frames to ramp up to white
+#define WARP_FLASH_DN      10    // frames to ramp back down
+#define WARP_FLASH_GAP     0    // dark frames between pulses
+
+static inline void FT_SetFlash(u8 y) { if (y > 16) y = 16; SetGpuReg(REG_OFFSET_BLDY, y); }
+
+#define tScrollState     data[0]
+#define tFlashStrength   data[1]   // flash amount 0..16
+#define tNextRegion      data[2]
+#define tFrameCounter    data[3]   // frame counter for current phase
+#define tPulseTotal      data[4]   // RUNTIME copy of WARP_PULSES
+#define tPulseIndex      data[5]   // which flash we’re on (0-based)
+#define tPhase           data[6]   // 0=up, 1=down, 2=gap, 3=finalHold
+
+static void StartWarpToSelectedRegion(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    PlaySE(SE_SELECT);
+
+    tScrollState    = 0;
+    tFlashStrength  = 0;
+    tNextRegion     = gSelectedOption;
+    tFrameCounter   = 0;                 // tFrameCounter
+    tPulseTotal     = WARP_PULSES;
+    tPulseIndex     = 0;                 // which pulse we’re on
+    tPhase          = 0;                 // 0=up, 1=down
+
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_LIGHTEN
+                                   | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG1
+                                   | BLDCNT_TGT1_BG2 | BLDCNT_TGT1_BG3
+                                   | BLDCNT_TGT1_OBJ);
+
+    SetTaskFuncWithFollowupFunc(taskId, Task_WarpAnimation, gTasks[taskId].func);
+}
+
+static void Task_WarpAnimation(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+
+     // phase 0: ramp up to white
+    if (tPhase == 0) {
+        // guard against 0-length; prevents divide-by-zero + instant skip
+        u8 up = (WARP_FLASH_UP == 0) ? 1 : WARP_FLASH_UP;
+
+        // progress: 0..up
+        u8 t = tFrameCounter;
+        if (t >= up) t = up;
+
+        tFlashStrength = (t * WARP_FLASH_MAX) / up;
+        FT_SetFlash(tFlashStrength);
+
+        tFrameCounter++;
+        if (tFrameCounter > up) {                  // strictly '>' to ensure we had at least one frame at peak via clamp above
+            tFrameCounter = 0;
+            tPhase     = 1;
+            PlaySE(SE_M_MOONLIGHT);
+            FT_SetFlash(WARP_FLASH_MAX);           // ensure exact peak on transition
+        }
+        return;
+    }
+
+    // phase 1: ramp down to black
+    if (tPhase == 1) {
+        u8 dn = (WARP_FLASH_DN == 0) ? 1 : WARP_FLASH_DN;
+
+        u8 t = tFrameCounter;
+        if (t >= dn) t = dn;
+
+        tFlashStrength = WARP_FLASH_MAX - (t * WARP_FLASH_MAX) / dn;
+        FT_SetFlash(tFlashStrength);
+
+        tFrameCounter++;
+        if (tFrameCounter > dn) {
+            tFrameCounter = 0;
+            FT_SetFlash(0);
+
+            tPulseIndex++;
+
+            // if we still owe more pulses, insert a gap and go again
+            if (tPulseIndex < tPulseTotal) {
+               tPhase = 2;            // gap
+            } else {
+                // done with pulses; final hold at full white
+                tPhase        = 3;
+                tFrameCounter      = 0;
+                tFlashStrength = WARP_FLASH_MAX;
+                FT_SetFlash(WARP_FLASH_MAX);
+            }
+        }
+        return;
+    }
+
+    // phase 2: black gap between pulses, then back to ramp-up
+    if (tPhase == 2) {
+        u8 gap = WARP_FLASH_GAP;
+        tFrameCounter++;
+        if (tFrameCounter >= gap) {
+            tFrameCounter = 0;
+            tPhase     = 0;
+        }
+        return;
+    }
+
+    if (tPhase == 3) {
+        SetGpuReg(REG_OFFSET_BLDCNT, 0);
+        FT_SetFlash(0);
+        SetArrowMosaic(FALSE);
+
+        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        PlaySE(SE_M_TELEPORT);
+        gTasks[taskId].func = Task_DoRegionWarpNow;
+        return;
+    }
+}
+
+static void Task_DoRegionWarpNow(u8 taskId) // actually leave the menu and warp
+{
+    s16 *data = gTasks[taskId].data;
+    const struct RegionWarp *w = &sRegionWarps[tNextRegion];
+
+    if (tScrollState < 90)
+    {
+        tScrollState++;
+        return;
+    }
+
+    if (!gPaletteFade.active)
+    {
+        Menu_FreeResources();
+        PlayRainStoppingSoundEffect();
+        CleanupOverworldWindowsAndTilemaps();
+
+        SetWarpDestination(w->mapGroup, w->mapNum, w->warpId, w->x, w->y);
+        DoWarp();
+
+        SetMainCallback2(CB2_ReturnToFieldFadeFromBlack);
+    }
+}
+
+#undef tScrollState
+#undef tFlashStrength
+#undef tNextRegion
+#undef tFrameCounter
+#undef tPulseTotal
+#undef tPulseIndex
+#undef tPhase

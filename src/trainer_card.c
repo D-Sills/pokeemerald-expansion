@@ -1564,6 +1564,7 @@ static void LoadMugshotGfx(void)
 
     // 0=Neutral, 1=Happy, 2=Sad, 3=Angry, 4=Silly
     u16 emotion = VarGet(VAR_MUGSHOT_EMOTION);
+    
 
     // pick based on gender/emotion flag:
     if (gSaveBlock2Ptr->playerGender == FEMALE)
