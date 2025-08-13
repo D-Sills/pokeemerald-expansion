@@ -1880,3 +1880,10 @@ void ItemUseOnFieldCB_SweetScentTool(u8 taskId)
 }
 // End qol_field_moves
 #undef tUsingRegisteredKeyItem
+
+void ItemUseOutOfBattle_PokeBall(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_PokeBall;
+    gBagMenu->newScreenCallback = CB2_ShowPartyMenuForItemUse;
+    Task_FadeAndCloseBagMenu(taskId);
+}
