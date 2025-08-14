@@ -121,16 +121,21 @@ void FadeInFromBlack(void)
 void WarpFadeOutScreen(void)
 {
     u8 currentMapType = GetCurrentMapType();
-    switch (GetMapPairFadeToType(currentMapType, GetDestinationWarpMapHeader()->mapType))
-    {
-    case 0:
-        FadeScreen(FADE_TO_BLACK, 0);
-        break;
-    case 1:
-        if (MapHasPreviewScreen_HandleQLState2(GetDestinationWarpMapSectionId(), MPS_TYPE_CAVE))
+    if (!FlagGet(FLAG_REMOVE_WARP_FADE)) // fadescreen if flag not set
+        switch (GetMapPairFadeToType(currentMapType, GetDestinationWarpMapHeader()->mapType))
+        {
+        case 0:
             FadeScreen(FADE_TO_BLACK, 0);
-        else
-            FadeScreen(FADE_TO_WHITE, 0);
+            break;
+        case 1:
+            if (MapHasPreviewScreen_HandleQLState2(GetDestinationWarpMapSectionId(), MPS_TYPE_CAVE))
+                FadeScreen(FADE_TO_BLACK, 0);
+            else
+                FadeScreen(FADE_TO_WHITE, 0);
+        }
+    else
+    {
+        FlagClear(FLAG_REMOVE_WARP_FADE);  // reset flag internally
     }
 }
 
