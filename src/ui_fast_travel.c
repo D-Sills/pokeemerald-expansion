@@ -965,14 +965,12 @@ static void Task_DoRegionWarpNow(u8 taskId) // actually leave the menu and warp
 
     if (!gPaletteFade.active)
     {
-        Menu_FreeResources();
-        PlayRainStoppingSoundEffect();
-        CleanupOverworldWindowsAndTilemaps();
 
         SetWarpDestination(w->mapGroup, w->mapNum, w->warpId, w->x, w->y);
+        Menu_FreeResources();
+        m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 0x100);
         DoWarp();
-
-        SetMainCallback2(CB2_ReturnToFieldFadeFromBlack);
+        DestroyTask(taskId);
     }
 }
 

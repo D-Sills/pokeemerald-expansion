@@ -782,6 +782,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
     if (JOY_NEW(A_BUTTON) || JOY_NEW(START_BUTTON))
     {
         //FadeOutBGM(4);
+        PlayCryInternal(SPECIES_CELEBI, 0, 250, 10, 0);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
         SetMainCallback2(CB2_GoToMainMenu);
     }
@@ -793,14 +794,14 @@ static void Task_TitleScreenPhase3(u8 taskId)
       && CanResetRTC() == TRUE)
     {
         //FadeOutBGM(4);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        SetMainCallback2(CB2_GoToResetRtcScreen);
+        //BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        //SetMainCallback2(CB2_GoToResetRtcScreen);
     }
     else if (JOY_HELD(BERRY_UPDATE_BUTTON_COMBO) == BERRY_UPDATE_BUTTON_COMBO)
     {
         //FadeOutBGM(4);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        SetMainCallback2(CB2_GoToBerryFixScreen);
+        //BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+        //SetMainCallback2(CB2_GoToBerryFixScreen);
     }
     else
     {
@@ -823,8 +824,9 @@ static void Task_TitleScreenPhase3(u8 taskId)
 
 static void CB2_GoToMainMenu(void)
 {
-    if (!UpdatePaletteFade())
+    if (!UpdatePaletteFade()) {
         SetMainCallback2(CB2_InitMainMenu);
+    }
 }
 
 static void CB2_GoToCopyrightScreen(void)

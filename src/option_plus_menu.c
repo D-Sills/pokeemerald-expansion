@@ -792,7 +792,7 @@ static void Task_OptionsMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(DPAD_UP))
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_CURSOR);
         if (sOptions->visibleCursor[sOptions->submenu] == NUM_OPTIONS_FROM_BORDER) // don't advance visible cursor until scrolled to the bottom
         {
             if (--sOptions->menuCursor[sOptions->submenu] == 0)
@@ -819,7 +819,7 @@ static void Task_OptionsMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_CURSOR);
         if (sOptions->visibleCursor[sOptions->submenu] == optionsToDraw-2) // don't advance visible cursor until scrolled to the bottom
         {
             if (++sOptions->menuCursor[sOptions->submenu] == MenuItemCount() - 1)
@@ -846,7 +846,7 @@ static void Task_OptionsMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_RG_BAG_CURSOR);
         if (sOptions->submenu == MENU_CUSTOM)
         {
             int cursor = sOptions->menuCursor[sOptions->submenu];
@@ -884,7 +884,7 @@ static void Task_OptionsMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(R_BUTTON))
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_POKENAV_ON);
         if (sOptions->submenu == MENU_VANILLA)
             sOptions->submenu = MENU_CUSTOM;
         else
@@ -897,7 +897,7 @@ static void Task_OptionsMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(L_BUTTON))
     {
-        PlaySE(SE_SELECT);
+        PlaySE(SE_POKENAV_ON);
         if (sOptions->submenu == MENU_CUSTOM)
             sOptions->submenu = MENU_VANILLA;
         else

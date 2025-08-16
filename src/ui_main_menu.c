@@ -123,7 +123,6 @@ static u32 GetHPEggCyclePercent(u32 partyIndex);
 static void CreatePartyMonIcons();
 static void DestroyMonIcons();
 
-
 //==========Background and Window Data==========//
 static const struct BgTemplate sMainMenuBgTemplates[] =
 {
@@ -348,7 +347,7 @@ void Task_OpenMainMenu(u8 taskId)
         {                //  where the UI is initialized by swapping a task func with this one 
             case HAS_NO_SAVED_GAME:
             default:
-                SetMainCallback2(CB2_NewGameBirchSpeech_FromNewMainMenu);
+                SetMainCallback2(CB2_NewGameSequence_FromNewMainMenu);
                 DestroyTask(taskId);
                 return;
             case HAS_SAVED_GAME:       
@@ -905,7 +904,7 @@ static void Task_MainMenuMain(u8 taskId)
                 break;
             case HW_WIN_NEW_GAME:
                 PlaySE(SE_RG_HELP_OPEN);
-                sMainMenuDataPtr->savedCallback = CB2_NewGameBirchSpeech_FromNewMainMenu;
+                sMainMenuDataPtr->savedCallback = CB2_NewGameSequence_FromNewMainMenu;
                 sSelectedOption = HW_WIN_CONTINUE;
                 break;
             case HW_WIN_OPTIONS:
