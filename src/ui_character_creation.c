@@ -53,6 +53,7 @@ enum WindowIds
 {
     WIN_TOPBAR,
     WIN_OPTIONS,
+    WIN_YESNO,
 };
 
 // Menu items
@@ -127,6 +128,9 @@ static void CC_CreateOverworldRow(void);
 static void CC_CreateTrainerPics(void);
 static void CC_CreatePreviewSprites(void);
 static void CC_RefreshPreviewSprites(void);
+static void ShowContextMenu(u8 taskId);
+static void ConfirmFinish(u8 taskId);
+static void CancelFinish(u8 taskId);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -154,7 +158,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .bg = 3,   // sprites
         .charBaseIndex = 1,
         .mapBaseIndex = 29,
-        .priority = 1
+        .priority = 0
     },
 };
 
@@ -162,7 +166,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
 {
     [WIN_TOPBAR] = 
     {
-         .bg = 0,
+         .bg = 3,
         .tilemapLeft = 0,
         .tilemapTop = 0,
         .width = 30,
@@ -183,6 +187,21 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     
     DUMMY_WIN_TEMPLATE,
 };
+
+static const struct WindowTemplate sContextMenuWindowTemplates[] =
+{
+        [WIN_YESNO] = { // Yes/No higher up, positioned above a lower message box
+        .bg = 3,
+        .tilemapLeft = 21,
+        .tilemapTop = 9,
+        .width = 5,
+        .height = 4,
+        .paletteNum = 15,
+        .baseBlock = 0x21D,
+    },
+};
+
+static const struct YesNoFuncTable sYesNoFunctions = {ConfirmFinish, CancelFinish};
 
 static const u8 *const sMalePresetNames[] = {
     COMPOUND_STRING("STU"),
@@ -259,10 +278,10 @@ struct Menu_Custom// MENU_CUSTOM
     int (*processInput)(int selection);
 } static const sItemFunctionsCustom[MENUITEM_COUNT] =
 {
-    [MENUITEM_GENDER]    = {DrawChoices_Gender,  NULL},
-    [MENUITEM_NAME]     = {DrawChoices_Name,   ProcessInput_Options_Three},
-    [MENUITEM_PALLETTE]     = {DrawChoices_Palette,   ProcessInput_Options_Two},
-    [MENUITEM_PRONOUNS]        = {DrawChoices_Pronouns,      ProcessInput_Options_Two},
+    [MENUITEM_GENDER]    = {DrawChoices_Gender,  ProcessInput_Options_Two},
+    [MENUITEM_NAME]     = {DrawChoices_Name,   NULL},
+    [MENUITEM_PALLETTE]     = {DrawChoices_Palette,   ProcessInput_Options_Four},
+    [MENUITEM_PRONOUNS]        = {DrawChoices_Pronouns,      ProcessInput_Options_Three},
     [MENUITEM_FINISH]         = {NULL, NULL},
 };
 
@@ -336,6 +355,8 @@ void CharacterCreation_Init(MainCallback callback)
     sMenuDataPtr->selection[MENUITEM_PALLETTE] = 0;  // 0..3 for palette
     sMenuDataPtr->selection[MENUITEM_PRONOUNS] = VarGet(VAR_PRONOUNS);
     sMenuDataPtr->selection[MENUITEM_NAME]     = 0;  // unused, but harmless
+
+    memset(sMenuDataPtr->sprIds, SPRITE_NONE, sizeof(sMenuDataPtr->sprIds));
 
     if (gSaveBlock2Ptr->playerName[0] == EOS)
         SetDefaultPlayerName(Random() % NUM_PRESET_NAMES);
@@ -455,6 +476,8 @@ static void Menu_FreeResources(void)
     SetGpuReg(REG_OFFSET_BLDALPHA, 0);
     SetGpuReg(REG_OFFSET_BLDY, 4);
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    HideBg(2);
+    HideBg(3);
 }
 
 
@@ -477,13 +500,11 @@ static void Menu_FadeAndBail(void)
 
 static bool8 Menu_InitBgs(void)
 {
-    ResetAllBgsCoordinates();
-
     SetGpuReg(REG_OFFSET_WIN0H, 0);
     SetGpuReg(REG_OFFSET_WIN0V, 0);
     SetGpuReg(REG_OFFSET_WININ, WININ_WIN0_BG_ALL | WININ_WIN0_OBJ);
     SetGpuReg(REG_OFFSET_WINOUT, WINOUT_WIN01_BG_ALL | WINOUT_WIN01_OBJ | WINOUT_WIN01_CLR);
-    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_DARKEN | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG2);
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_DARKEN | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG1);
     SetGpuReg(REG_OFFSET_BLDALPHA, 0);
     SetGpuReg(REG_OFFSET_BLDY, 4);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_WIN0_ON | DISPCNT_WIN1_ON);
@@ -496,6 +517,7 @@ static bool8 Menu_InitBgs(void)
     if (!sBg2TilemapBuffer) return FALSE;
     memset(sBg2TilemapBuffer, 0, 0x800);
 
+    ResetAllBgsCoordinates();
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
 
@@ -562,7 +584,7 @@ static void Task_MenuWaitFadeIn(u8 taskId)
         SetGpuReg(REG_OFFSET_WIN0V, 0);
         SetGpuReg(REG_OFFSET_WININ, WININ_WIN0_BG_ALL | WININ_WIN0_OBJ);
         SetGpuReg(REG_OFFSET_WINOUT, WINOUT_WIN01_BG_ALL | WINOUT_WIN01_OBJ | WINOUT_WIN01_CLR);
-        SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_DARKEN | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG2);
+        SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_EFFECT_DARKEN | BLDCNT_TGT1_BG0 | BLDCNT_TGT1_BG1);
         SetGpuReg(REG_OFFSET_BLDALPHA, 0);
         SetGpuReg(REG_OFFSET_BLDY, 4);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_WIN0_ON | DISPCNT_WIN1_ON | DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
@@ -571,6 +593,7 @@ static void Task_MenuWaitFadeIn(u8 taskId)
         ShowBg(2);
         ShowBg(3);
         HighlightOptionsMenuItem();
+        return;
     }
 }
 
@@ -597,9 +620,9 @@ static void DrawTopBarText(void)
 static void DrawLeftSideOptionText(int selection, int y)
 {
     if (CheckConditions(selection))
-        PrintToWindow(WIN_OPTIONS, FONT_BLACK, 8, y, sMenuItemsNames[selection]);
+        PrintToWindow(WIN_OPTIONS, FONT_BLACK, 2, y, sMenuItemsNames[selection]);
     else
-        PrintToWindow(WIN_OPTIONS, FONT_RED, 8, y, sMenuItemsNames[selection]);
+        PrintToWindow(WIN_OPTIONS, FONT_RED, 2, y, sMenuItemsNames[selection]);
 }
 
 static void DrawOptionsMenuTexts(void) //left side text
@@ -637,7 +660,7 @@ static void HighlightOptionsMenuItem(void)
 {
     int cursor = sMenuDataPtr->curItem;
 
-    SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(8, 232));
+    SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(8, 160));
     SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(cursor * Y_DIFF + 24, cursor * Y_DIFF + 40));
 }
 
@@ -714,43 +737,45 @@ static void Task_MenuMain(u8 taskId)
     {
         u8 row = sMenuDataPtr->curItem;
 
-        if (row == MENUITEM_NAME && !gPaletteFade.active) {
-            PlaySE(SE_SELECT);
+        if (row == MENUITEM_NAME) {
+            if (!gPaletteFade.active) {
+                PlaySE(SE_SELECT);
 
-            // Hard stop any per-frame work from this screen
-            SetVBlankCallback(NULL);
-            ScanlineEffect_Stop();
+                // Hard stop any per-frame work from this screen
+                SetVBlankCallback(NULL);
+                ScanlineEffect_Stop();
 
-            // Turn off windows/blend entirely (don’t leave darken targets on)
-            SetGpuReg(REG_OFFSET_WIN0H, 0);
-            SetGpuReg(REG_OFFSET_WIN0V, 0);
-            SetGpuReg(REG_OFFSET_WININ, 0);
-            SetGpuReg(REG_OFFSET_WINOUT, 0);
-            SetGpuReg(REG_OFFSET_BLDCNT, 0);
-            SetGpuReg(REG_OFFSET_BLDALPHA, 0);
-            SetGpuReg(REG_OFFSET_BLDY, 0);
+                // Turn off windows/blend entirely (don’t leave darken targets on)
+                SetGpuReg(REG_OFFSET_WIN0H, 0);
+                SetGpuReg(REG_OFFSET_WIN0V, 0);
+                SetGpuReg(REG_OFFSET_WININ, 0);
+                SetGpuReg(REG_OFFSET_WINOUT, 0);
+                SetGpuReg(REG_OFFSET_BLDCNT, 0);
+                SetGpuReg(REG_OFFSET_BLDALPHA, 0);
+                SetGpuReg(REG_OFFSET_BLDY, 0);
 
-            // Optional but safest: stop our sprites to avoid OAM churn between engines
-            CC_DestroyPreviewSprites();
+                // Optional but safest: stop our sprites to avoid OAM churn between engines
+                CC_DestroyPreviewSprites();
 
-            // Free window tiles so the naming screen isn’t fighting for VRAM
-            FreeAllWindowBuffers();
+                // Free window tiles so the naming screen isn’t fighting for VRAM
+                FreeAllWindowBuffers();
 
-            DoNamingScreen(
-                NAMING_SCREEN_PLAYER,
-                gSaveBlock2Ptr->playerName,
-                gSaveBlock2Ptr->playerGender,
-                0,
-                gSaveBlock2Ptr->currOutfitId,
-                CB2_ReturnFromNamingScreen
-            );
+                DoNamingScreen(
+                    NAMING_SCREEN_PLAYER,
+                    gSaveBlock2Ptr->playerName,
+                    gSaveBlock2Ptr->playerGender,
+                    0,
+                    gSaveBlock2Ptr->currOutfitId,
+                    CB2_ReturnFromNamingScreen
+                );
+            }
         }
 
         else if (row == MENUITEM_FINISH) {
             PlaySE(SE_SELECT);
-            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-            gTasks[taskId].func = Task_MenuTurnOff;
-            return;
+            
+            // Confirm finish
+            ShowContextMenu(taskId);
         }
     }
 }
@@ -834,9 +859,6 @@ static const u8 sTextPalette1[] = _("1");
 static const u8 sTextPalette2[] = _("2");
 static const u8 sTextPalette3[] = _("3");
 static const u8 sTextPalette4[] = _("4");
-static const u8 sTextPronounsHe[] = _("HE/HIM");
-static const u8 sTextPronounsShe[] = _("SHE/HER");
-static const u8 sTextPronounsThey[] = _("THEY/THEM");
 
 // --- On-change hooks (put these near the bottom) ---
 static void OnChange_Gender(u8 value)      { gSaveBlock2Ptr->playerGender = (value == 1) ? FEMALE : MALE; /* keep NB purely cosmetic or store elsewhere */ }
@@ -853,6 +875,8 @@ static void ApplyOnChange(u8 item, u8 value)
     }
 }
 
+#define choiceX 64 // X position for choices
+
 static void DrawChoices_Gender(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_GENDER);
@@ -860,11 +884,11 @@ static void DrawChoices_Gender(int selection, int y)
     int xSpacerMale, xSpacerFemale;
 
     styles[selection] = 1;
-    xSpacerMale = (GetStringRightAlignXOffset(1, sTextGenderMale, 198) - 104) / 3;
-    xSpacerFemale = (GetStringRightAlignXOffset(1, sTextGenderFemale, 198) - 104) / 3;
+    xSpacerMale = (GetStringRightAlignXOffset(1, sTextGenderMale, 198) - choiceX) / 2;
+    xSpacerFemale = (GetStringRightAlignXOffset(1, sTextGenderFemale, 198) - choiceX) / 2;
 
-    DrawOptionsMenuChoice(sTextGenderMale, 104, y, styles[0], active);
-    DrawOptionsMenuChoice(sTextGenderFemale, 104 + xSpacerMale, y, styles[1], active);
+    DrawOptionsMenuChoice(sTextGenderMale, choiceX, y, styles[0], active);
+    DrawOptionsMenuChoice(sTextGenderFemale, choiceX + xSpacerMale, y, styles[1], active);
 }
 
 static void DrawChoices_Name(int selection, int y)
@@ -872,7 +896,7 @@ static void DrawChoices_Name(int selection, int y)
     u8 styles[1] = {0};
 
     const u8 *name = gSaveBlock2Ptr->playerName;
-    PrintToWindow(WIN_OPTIONS, FONT_BLACK, 104, y, name);
+    PrintToWindow(WIN_OPTIONS, FONT_BLACK, choiceX, y, name);
 }
 
 static void DrawChoices_Palette(int selection, int y)
@@ -882,10 +906,10 @@ static void DrawChoices_Palette(int selection, int y)
 
     styles[selection] = 1;
 
-    DrawOptionsMenuChoice(sTextPalette1, 104, y, styles[0], active);
-    DrawOptionsMenuChoice(sTextPalette2, 104 + 32, y, styles[1], active);
-    DrawOptionsMenuChoice(sTextPalette3, 104 + 64, y, styles[2], active);
-    DrawOptionsMenuChoice(sTextPalette4, 104 + 96, y, styles[3], active);
+    DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
+    DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
+    DrawOptionsMenuChoice(sTextPalette3, choiceX + 43, y, styles[2], active);
+    DrawOptionsMenuChoice(sTextPalette4, choiceX + 64, y, styles[3], active);
 }
 
 static void DrawChoices_Pronouns(int selection, int y)
@@ -895,9 +919,9 @@ static void DrawChoices_Pronouns(int selection, int y)
 
     styles[selection] = 1;
 
-    DrawOptionsMenuChoice(gText_MaleSymbol, 104, y, styles[0], active);
-    DrawOptionsMenuChoice(gText_FemaleSymbol, 104 + 64, y, styles[1], active);
-    DrawOptionsMenuChoice(gText_LevelSymbol, 104 + 128, y, styles[2], active);
+    DrawOptionsMenuChoice(gText_MaleSymbol, choiceX, y, styles[0], active);
+    DrawOptionsMenuChoice(gText_FemaleSymbol, choiceX + 32, y, styles[1], active);
+    DrawOptionsMenuChoice(gText_LevelSymbol, choiceX + 64, y, styles[2], active);
 }
 
 
@@ -905,9 +929,9 @@ static void DrawChoices_Pronouns(int selection, int y)
 #define CC_OW_Y      (136)    // bottom window center-ish
 static const s16 sOwX[4] = { 32,  48, 64, 80 }; // S,N,W,E order
 
-#define CC_FRONT_X   (240-72)
-#define CC_FRONT_Y   (64)
-#define CC_BACK_X    (240-72)
+#define CC_FRONT_X   (176 + 32 -8)
+#define CC_FRONT_Y   (48)
+#define CC_BACK_X    (176 + 32 - 8)
 #define CC_BACK_Y    (64+96)
 
 static void CC_DestroyPreviewSprites(void)
@@ -996,4 +1020,31 @@ static void CC_RefreshPreviewSprites(void)
 {
     CC_DestroyPreviewSprites();
     CC_CreatePreviewSprites();
+}
+
+// Callback for the Yes/No menu, and window additions
+void YesNo(u8 taskId, u8 windowType, const struct YesNoFuncTable *funcTable)
+{
+    CreateYesNoMenuWithCallbacksOverride(taskId, &sContextMenuWindowTemplates[windowType], 1, 0, 2, 1, 15, funcTable);
+}
+
+static void ShowContextMenu(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+
+    YesNo(taskId, WIN_YESNO, &sYesNoFunctions);
+}
+
+static void ConfirmFinish(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+    //SetMainCallback2(Task_OpenCharacterCreation);
+}
+
+static void CancelFinish(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
+    //SetMainCallback2(Task_OpenCharacterCreation);
 }
