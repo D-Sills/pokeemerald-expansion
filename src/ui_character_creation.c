@@ -43,6 +43,7 @@
 #include "m4a.h"
 #include "naming_screen.h"
 #include "random.h"
+#include "dynamic_palettes.h"
 
 /*
  * 
@@ -777,8 +778,10 @@ static void Task_MenuMain(u8 taskId)
             PlaySE(SE_RG_BAG_CURSOR);
             sMenuDataPtr->selection[row] = next;
             ApplyOnChange(row, next);
-            if (row == MENUITEM_GENDER || row == MENUITEM_HAIR_COLOR || row == MENUITEM_SKIN_TONE || row == MENUITEM_EYE_COLOR)
+            if (row == MENUITEM_GENDER || row == MENUITEM_HAIR_COLOR || row == MENUITEM_SKIN_TONE || row == MENUITEM_EYE_COLOR) {
                 RefreshPreviewSprites(); // refresh preview
+                //DynPal_ReloadToneForMenuByType(row, next);
+            }
 
             // redraw only this row
             DrawLeftSideOptionText(row, row * Y_DIFF + 1);
@@ -947,21 +950,24 @@ static const u8 sTextPalette4[] = _("4");
 // --- On-change hooks (put these near the bottom) ---
 static void OnChange_Gender(u8 value)      { gSaveBlock2Ptr->playerGender = (value == 1) ? FEMALE : MALE; /* keep NB purely cosmetic or store elsewhere */ }
 static void OnChange_Palette(u8 value)     { gSaveBlock2Ptr->currOutfitId = value; /* keep NB purely cosmetic or store elsewhere */ }
+static void OnChange_SkinTone(u8 value) { gSaveBlock2Ptr->dynpalSkin = value; /* keep NB purely cosmetic or store elsewhere */ }
+static void OnChange_EyeColor(u8 value) { gSaveBlock2Ptr->dynpalHair = value; /* keep NB purely cosmetic or store elsewhere */ }
+static void OnChange_HairColor(u8 value) { gSaveBlock2Ptr->dynpalEye = value; /* keep NB purely cosmetic or store elsewhere */ }
 static void OnChange_Pronouns(u8 value)    { VarSet(VAR_PRONOUNS, value); }
 
 static void ApplyOnChange(u8 item, u8 value)
 {
     switch (item) {
     case MENUITEM_GENDER:    OnChange_Gender(value);    break;
-    case MENUITEM_HAIR_COLOR: OnChange_Palette(value); break;
-    case MENUITEM_SKIN_TONE: OnChange_Palette(value); break;
-    case MENUITEM_EYE_COLOR: OnChange_Palette(value); break;
+    case MENUITEM_HAIR_COLOR: OnChange_HairColor(value); break;
+    case MENUITEM_SKIN_TONE: OnChange_SkinTone(value); break;
+    case MENUITEM_EYE_COLOR: OnChange_EyeColor(value); break;
     case MENUITEM_PRONOUNS:  OnChange_Pronouns(value);  break;
     default: break;
     }
 }
 
-#define choiceX 74 // X position for choices
+#define choiceX 78 // X position for choices
 
 static void DrawChoices_Gender(int selection, int y)
 {

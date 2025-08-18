@@ -563,7 +563,8 @@ gSpecials::
 	def_special UseBlankMessageToCancelPokemonPic
 	def_special EnterCode
 	def_special GetCodeFeedback
-	def_special ChooseItemFromBag	def_special DynPal_ShowFullToneMenu
+	def_special ChooseItemFromBag	
+	def_special DynPal_ShowFullToneMenu
 	def_special DynPal_ShowToneMenuA
 	def_special DynPal_ShowToneMenuB
 	def_special DynPal_ShowToneMenuC

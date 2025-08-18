@@ -29,6 +29,7 @@
 #include "constants/battle_palace.h"
 #include "constants/battle_move_effects.h"
 #include "constants/event_objects.h" // only for SHADOW_SIZE constants
+#include "dynamic_palettes.h"
 
 // this file's functions
 static u8 GetBattlePalaceMoveGroup(u8 battler, u16 move);
@@ -699,8 +700,15 @@ void DecompressTrainerBackPic(u16 backPicId, u8 battler)
 {
     u8 position = GetBattlerPosition(battler);
     CopyTrainerBackspriteFramesToDest(backPicId, gMonSpritesGfxPtr->spritesGfx[position]);
-    LoadPalette(gTrainerBacksprites[backPicId].palette.data,
+
+    // DYNPAL: Override pallete load for player back sprite (UPDATE IF USING RHH EXPANSION)
+    if (backPicId == TRAINER_BACK_PIC_BRENDAN || backPicId == TRAINER_BACK_PIC_MAY) {
+        DynPal_LoadPaletteByOffset(sDynPalPlayerBattleBack, OBJ_PLTT_ID(battler));
+    }
+    else {
+        LoadPalette(gTrainerBacksprites[backPicId].palette.data,
                           OBJ_PLTT_ID(battler), PLTT_SIZE_4BPP);
+    }
 }
 
 void FreeTrainerFrontPicPalette(u16 frontPicId)

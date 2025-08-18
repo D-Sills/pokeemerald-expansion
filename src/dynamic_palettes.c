@@ -54,14 +54,14 @@ const u8 sText_DynPal_Clothes4[] = _("WHITE");
 
 // *MODIFY*
 // Preset lists (indices in these lists are what is saved to game save)
-static const struct SpritePalette sDynPalPartAPresets[] = {
+static const struct SpritePalette sdynpalSkins[] = {
     {sDynPal_Part_Skin1, 0x1301},
     {sDynPal_Part_Skin2, 0x1302},
     {sDynPal_Part_Skin3, 0x1303}
 };
 
 // *MODIFY*
-static const struct SpritePalette sDynPalPartBPresets[] = {
+static const struct SpritePalette sdynpalHairs[] = {
     {sDynPal_Part_Misc1, 0x1304},
     {sDynPal_Part_Misc2, 0x1305},
     {sDynPal_Part_Misc3, 0x1306},
@@ -69,7 +69,7 @@ static const struct SpritePalette sDynPalPartBPresets[] = {
 };
 
 // *MODIFY*
-static const struct SpritePalette sDynPalPartCPresets[] = {
+static const struct SpritePalette sdynpalEyes[] = {
     {sDynPal_Part_Clothes1, 0x1308},
     {sDynPal_Part_Clothes2, 0x1309},
     {sDynPal_Part_Clothes3, 0x130A},
@@ -131,9 +131,9 @@ static void DynPal_ReloadPlayerPaletteForMenu(u16 paletteTag, u8 partATone, u8 p
 // Fill all dynamic palettes with data according to indices in Save Block
 void DynPal_InitAllDynamicPalettes()
 {
-    const u16* partAPalData = sDynPalPartAPresets[min(gSaveBlock2Ptr->dynPalPartAPreset, COUNT_PART_A_TONES)].data;
-    const u16* partBPalData = sDynPalPartBPresets[min(gSaveBlock2Ptr->dynPalPartBPreset, COUNT_PART_B_TONES)].data;
-    const u16* partCPalData = sDynPalPartCPresets[min(gSaveBlock2Ptr->dynPalPartCPreset, COUNT_PART_C_TONES)].data;
+    const u16* partAPalData = sdynpalSkins[min(gSaveBlock2Ptr->dynpalSkin, COUNT_PART_A_TONES)].data;
+    const u16* partBPalData = sdynpalHairs[min(gSaveBlock2Ptr->dynpalHair, COUNT_PART_B_TONES)].data;
+    const u16* partCPalData = sdynpalEyes[min(gSaveBlock2Ptr->dynpalEye, COUNT_PART_C_TONES)].data;
 
     // Player Normal
     DynPal_InitOverworld(sDynPalPlayerOverworld, partAPalData, partBPalData, partCPalData, DYNPAL_COLOR_GROUP_NORMAL);
@@ -227,15 +227,15 @@ static void DynPal_SetToneIndices(u8 partATone, u8 partBTone, u8 partCTone)
 {
     if (partATone != 0xFF)
     {
-        gSaveBlock2Ptr->dynPalPartAPreset = partATone % COUNT_PART_A_TONES;
+        gSaveBlock2Ptr->dynpalSkin = partATone % COUNT_PART_A_TONES;
     }
     if (partBTone != 0xFF)
     {
-        gSaveBlock2Ptr->dynPalPartBPreset = partBTone % COUNT_PART_B_TONES;
+        gSaveBlock2Ptr->dynpalHair = partBTone % COUNT_PART_B_TONES;
     }
     if (partCTone != 0xFF)
     {
-        gSaveBlock2Ptr->dynPalPartCPreset = partCTone % COUNT_PART_C_TONES;
+        gSaveBlock2Ptr->dynpalEye = partCTone % COUNT_PART_C_TONES;
     }
 }
 
@@ -570,17 +570,17 @@ static void DynPal_ReloadPlayerPaletteForMenu(u16 paletteTag, u8 partATone, u8 p
 
     if (partATone != 0xFF)
     {
-        const u16* partAPalData = sDynPalPartAPresets[min(partATone, COUNT_PART_A_TONES)].data;
+        const u16* partAPalData = sdynpalSkins[min(partATone, COUNT_PART_A_TONES)].data;
         DynPal_CopySection(partAPalData, &gPlttBufferUnfaded[offset], 1, 1, DYNPAL_COLOR_GROUP_NORMAL, 4);
     }
     if (partBTone != 0xFF)
     {
-        const u16* partBPalData = sDynPalPartBPresets[min(partBTone, COUNT_PART_B_TONES)].data;
+        const u16* partBPalData = sdynpalHairs[min(partBTone, COUNT_PART_B_TONES)].data;
         DynPal_CopySection(partBPalData, &gPlttBufferUnfaded[offset], 1, 5, DYNPAL_COLOR_GROUP_NORMAL, 4);
     }
     if (partCTone != 0xFF)
     {
-        const u16* partCPalData = sDynPalPartCPresets[min(partCTone, COUNT_PART_C_TONES)].data;
+        const u16* partCPalData = sdynpalEyes[min(partCTone, COUNT_PART_C_TONES)].data;
         DynPal_CopySection(partCPalData, &gPlttBufferUnfaded[offset], 1, 10, DYNPAL_COLOR_GROUP_NORMAL, 4);
     }
     DynPal_CopySection(sDynPal_Base, &gPlttBufferUnfaded[offset], 1, 9, DYNPAL_COLOR_GROUP_NORMAL, 1);
