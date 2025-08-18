@@ -181,7 +181,7 @@ void InitTextBoxGfxAndPrinters(void)
     ChangeBgX(0, 0, BG_COORD_SET);
     ChangeBgY(0, 0, BG_COORD_SET);
     DeactivateAllTextPrinters();
-    LoadMessageBoxAndBorderGfx();
+    LoadMessageBoxAndBorderGfxOverride();
 }
 
 void InitTextBoxGfxAndPrintersOverride(void) {
