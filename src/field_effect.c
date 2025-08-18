@@ -2,6 +2,7 @@
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
+#include "dynamic_palettes.h"
 #include "event_object_movement.h"
 #include "field_camera.h"
 #include "field_control_avatar.h"
@@ -40,6 +41,7 @@
 #include "constants/songs.h"
 #include "constants/map_types.h"
 #include "qol_field_moves.h" // qol_field_moves
+#include "constants/trainers.h"
 
 #define subsprite_table(ptr) {.subsprites = ptr, .subspriteCount = (sizeof ptr) / (sizeof(struct Subsprite))}
 
@@ -921,8 +923,17 @@ u8 CreateTrainerSprite(u8 trainerSpriteID, s16 x, s16 y, u8 subpriority, u8 *buf
         buffer = Alloc(TRAINER_PIC_SIZE);
         alloced = TRUE;
     }
+    // DYNPAL: override palette
+    // NEEDS CHANGES IF USING RHH EXPANSION
+    if (trainerSpriteID == TRAINER_PIC_BRENDAN || trainerSpriteID == TRAINER_PIC_MAY)
+    {
+        DynPal_LoadPaletteByTag(sDynPalPlayerBattleFront, gTrainerSprites[trainerSpriteID].palette.tag);
+    }
+    else
+    {
+        LoadSpritePalette(&gTrainerSprites[trainerSpriteID].palette);
+    }
 
-    LoadSpritePalette(&gTrainerSprites[trainerSpriteID].palette);
     LoadCompressedSpriteSheetOverrideBuffer(&gTrainerSprites[trainerSpriteID].frontPic, buffer);
     if (alloced)
         Free(buffer);
