@@ -228,7 +228,7 @@ static const u8 sMenuWindowFontColors[][3] =
     [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
 };
 
-static const u8 sText_FastTravelMenu[] = _("Choose a Region for Fast Travel!");
+static const u8 sText_FastTravelMenu[] = _("Time Travel");
 
 // Region Names
 static const u8 sText_RegionPrehistoric[] = _("Pangea (1000000 BC)");

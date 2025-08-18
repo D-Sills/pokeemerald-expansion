@@ -61,17 +61,16 @@ enum MenuItems
 {
     MENUITEM_GENDER,
     MENUITEM_NAME,
-    MENUITEM_PALLETTE,
+    MENUITEM_SKIN_TONE,
+    MENUITEM_EYE_COLOR,
+    MENUITEM_HAIR_COLOR,
     MENUITEM_PRONOUNS,
     MENUITEM_FINISH,
     MENUITEM_COUNT,
 };
 
 enum {
-    SPR_OW_S,
-    SPR_OW_N,
-    SPR_OW_W,
-    SPR_OW_E,
+    SPR_OW,
     SPR_FRONT,
     SPR_BACK,
     SPR_COUNT
@@ -80,12 +79,14 @@ enum {
 struct MenuResources
 {
     u8 gfxLoadState;
-    u16 curItem; // currently selected option
+    u16 curItem;
     u8 selection[MENUITEM_COUNT];
-    u8  sprIds[SPR_COUNT];   // NEW: preview sprite ids
+    u8  sprIds[SPR_COUNT]; 
     u8 slotId:1;
     MainCallback savedCallback;
     u8 messageWindowId;
+    u8 owState;
+    u8 bigPicIdx;
 };
 
 
@@ -123,18 +124,21 @@ static int ProcessInput_Options_Three(int selection);
 static int ProcessInput_Options_Four(int selection);
 static void DrawChoices_Gender(int selection, int y);
 static void DrawChoices_Name(int selection, int y);
-static void DrawChoices_Palette(int selection, int y);
+static void DrawChoices_SkinTone(int selection, int y);
+static void DrawChoices_EyeColor(int selection, int y);
+static void DrawChoices_HairColor(int selection, int y);
 static void DrawChoices_Pronouns(int selection, int y);
 static void DestroyPreviewSprites(void);
-static u8 CreateOverworldPreview(u8 dir, s16 x, s16 y);
-static void CreateOverworldRow(void);
-static void CreateTrainerPics(void);
+static void CreateOverworldPreview(u8 player_avatar_state);
+static void CreateTrainerPic(void);
 static void CreatePreviewSprites(void);
 static void RefreshPreviewSprites(void);
 static void ShowContextMenu(u8 taskId);
 static void ConfirmFinish(u8 taskId);
 static void CancelFinish(u8 taskId);
 static void Task_CreateYesNoMenu(u8 taskId);
+static void ToggleTrainerPic(void);
+static void CycleOverworldState(void);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -183,9 +187,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     {
         .bg = 0,
         .tilemapLeft = 1,
-        .tilemapTop = 3,
+        .tilemapTop = 4,
         .width = 19,
-        .height = 10,
+        .height = 14,
         .paletteNum = 13,
         .baseBlock = 0x27,
     },
@@ -204,7 +208,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [WIN_YESNO] = { 
         .bg = 1,
-        .tilemapLeft = 24,
+        .tilemapLeft = 23,
         .tilemapTop = 9,
         .width = 5,
         .height = 4,
@@ -270,7 +274,9 @@ static const u8 *const sFemalePresetNames[] = {
 // Menu left side option names text
 static const u8 sText_Gender[] = _("BODY TYPE");
 static const u8 sText_Name[] = _("NAME");
-static const u8 sText_Palette[] = _("PALETTE");
+static const u8 sText_SkinTone[] = _("SKIN TONE");
+static const u8 sText_EyeColor[] = _("EYE COLOR");
+static const u8 sText_HairColor[] = _("HAIR COLOR");
 static const u8 sText_Pronouns[] = _("PRONOUNS");
 static const u8 sText_Finish[] = _("FINISH");
 
@@ -278,7 +284,9 @@ static const u8 *const sMenuItemsNames[MENUITEM_COUNT] =
 {
     [MENUITEM_GENDER]   = sText_Gender,
     [MENUITEM_NAME]     = sText_Name,
-    [MENUITEM_PALLETTE] = sText_Palette,
+    [MENUITEM_SKIN_TONE] = sText_SkinTone,
+    [MENUITEM_EYE_COLOR] = sText_EyeColor,
+    [MENUITEM_HAIR_COLOR] = sText_HairColor,
     [MENUITEM_PRONOUNS] = sText_Pronouns,
     [MENUITEM_FINISH]   = sText_Finish,
 };
@@ -292,7 +300,9 @@ struct Menu_Custom// MENU_CUSTOM
 {
     [MENUITEM_GENDER]    = {DrawChoices_Gender,  ProcessInput_Options_Two},
     [MENUITEM_NAME]     = {DrawChoices_Name,   NULL},
-    [MENUITEM_PALLETTE]     = {DrawChoices_Palette,   ProcessInput_Options_Four},
+    [MENUITEM_SKIN_TONE]     = {DrawChoices_SkinTone,   ProcessInput_Options_Four},
+    [MENUITEM_EYE_COLOR]     = {DrawChoices_EyeColor,   ProcessInput_Options_Four},
+    [MENUITEM_HAIR_COLOR]     = {DrawChoices_HairColor,   ProcessInput_Options_Four},
     [MENUITEM_PRONOUNS]        = {DrawChoices_Pronouns,      ProcessInput_Options_Three},
     [MENUITEM_FINISH]         = {NULL, NULL},
 };
@@ -304,7 +314,9 @@ static bool8 CheckConditions(int selection)
     {
         case MENUITEM_GENDER:     return TRUE;
         case MENUITEM_NAME:      return TRUE;
-        case MENUITEM_PALLETTE:    return TRUE;
+        case MENUITEM_SKIN_TONE: return TRUE;
+        case MENUITEM_EYE_COLOR: return TRUE;
+        case MENUITEM_HAIR_COLOR: return TRUE;
         case MENUITEM_PRONOUNS:    return TRUE;
         case MENUITEM_FINISH:      return TRUE;
         case MENUITEM_COUNT:      return TRUE;
@@ -366,11 +378,16 @@ void CharacterCreation_Init(MainCallback callback)
 
     // seed initial selections
     sMenuDataPtr->selection[MENUITEM_GENDER] = (gSaveBlock2Ptr->playerGender == FEMALE) ? 1 : 0;
-    sMenuDataPtr->selection[MENUITEM_PALLETTE] = 0;  // 0..3 for palette
+    sMenuDataPtr->selection[MENUITEM_SKIN_TONE] = 0;
+    sMenuDataPtr->selection[MENUITEM_EYE_COLOR] = 0;
+    sMenuDataPtr->selection[MENUITEM_HAIR_COLOR] = 0;
     sMenuDataPtr->selection[MENUITEM_PRONOUNS] = VarGet(VAR_PRONOUNS);
     sMenuDataPtr->selection[MENUITEM_NAME]     = 0;  // unused, but harmless
 
     memset(sMenuDataPtr->sprIds, SPRITE_NONE, sizeof(sMenuDataPtr->sprIds));
+
+    sMenuDataPtr->owState = 0;
+    sMenuDataPtr->bigPicIdx = 0;
 
     if (gSaveBlock2Ptr->playerName[0] == EOS)
         SetDefaultPlayerName(Random() % NUM_PRESET_NAMES);
@@ -693,7 +710,7 @@ static void HighlightOptionsMenuItem(void)
     int cursor = sMenuDataPtr->curItem;
 
     SetGpuReg(REG_OFFSET_WIN0H, WIN_RANGE(8, 160));
-    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(cursor * Y_DIFF + 24, cursor * Y_DIFF + 40));
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(cursor * Y_DIFF + 32, cursor * Y_DIFF + 48));
 }
 
 static void PrintAllToWindow(void)
@@ -749,7 +766,9 @@ static void Task_MenuMain(u8 taskId)
 
         switch (row) {
         case MENUITEM_GENDER:    next = ProcessInput_Options_Two(old); break;
-        case MENUITEM_PALLETTE:  next = ProcessInput_Options_Four(old); break;
+        case MENUITEM_EYE_COLOR: next = ProcessInput_Options_Four(old); break;
+        case MENUITEM_HAIR_COLOR: next = ProcessInput_Options_Four(old); break;
+        case MENUITEM_SKIN_TONE: next = ProcessInput_Options_Four(old); break;
         case MENUITEM_PRONOUNS:  next = ProcessInput_Options_Three(old); break;
         default: break;
         }
@@ -758,7 +777,7 @@ static void Task_MenuMain(u8 taskId)
             PlaySE(SE_RG_BAG_CURSOR);
             sMenuDataPtr->selection[row] = next;
             ApplyOnChange(row, next);
-            if (row == MENUITEM_GENDER || row == MENUITEM_PALLETTE)
+            if (row == MENUITEM_GENDER || row == MENUITEM_HAIR_COLOR || row == MENUITEM_SKIN_TONE || row == MENUITEM_EYE_COLOR)
                 RefreshPreviewSprites(); // refresh preview
 
             // redraw only this row
@@ -799,6 +818,15 @@ static void Task_MenuMain(u8 taskId)
             // Confirm finish
             gTasks[taskId].func = ShowContextMenu;
         }
+    }
+
+    else if (JOY_NEW(L_BUTTON)) {
+        ToggleTrainerPic();
+        PlaySE(SE_RG_BAG_POCKET);
+    }
+    else if (JOY_NEW(R_BUTTON)) {
+        CycleOverworldState();
+        PlaySE(SE_RG_BAG_POCKET);
     }
 }
 
@@ -925,7 +953,9 @@ static void ApplyOnChange(u8 item, u8 value)
 {
     switch (item) {
     case MENUITEM_GENDER:    OnChange_Gender(value);    break;
-    case MENUITEM_PALLETTE:  OnChange_Palette(value);   break;
+    case MENUITEM_HAIR_COLOR: OnChange_Palette(value); break;
+    case MENUITEM_SKIN_TONE: OnChange_Palette(value); break;
+    case MENUITEM_EYE_COLOR: OnChange_Palette(value); break;
     case MENUITEM_PRONOUNS:  OnChange_Pronouns(value);  break;
     default: break;
     }
@@ -953,9 +983,35 @@ static void DrawChoices_Name(int selection, int y)
     AddTextPrinterParameterized4(WIN_OPTIONS, 1, choiceX, y + 1, 0, 0, sMenuWindowFontColors[FONT_RED], 0xFF, name);
 }
 
-static void DrawChoices_Palette(int selection, int y)
+static void DrawChoices_SkinTone(int selection, int y)
 {
-    bool8 active = CheckConditions(MENUITEM_PALLETTE);
+    bool8 active = CheckConditions(MENUITEM_SKIN_TONE);
+    u8 styles[4] = {0};
+
+    styles[selection] = 1;
+
+    DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
+    DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
+    DrawOptionsMenuChoice(sTextPalette3, choiceX + 43, y, styles[2], active);
+    DrawOptionsMenuChoice(sTextPalette4, choiceX + 64, y, styles[3], active);
+}
+
+static void DrawChoices_EyeColor(int selection, int y)
+{
+    bool8 active = CheckConditions(MENUITEM_EYE_COLOR);
+    u8 styles[4] = {0};
+
+    styles[selection] = 1;
+
+    DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
+    DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
+    DrawOptionsMenuChoice(sTextPalette3, choiceX + 43, y, styles[2], active);
+    DrawOptionsMenuChoice(sTextPalette4, choiceX + 64, y, styles[3], active);
+}
+
+static void DrawChoices_HairColor(int selection, int y)
+{
+    bool8 active = CheckConditions(MENUITEM_HAIR_COLOR);
     u8 styles[4] = {0};
 
     styles[selection] = 1;
@@ -975,18 +1031,16 @@ static void DrawChoices_Pronouns(int selection, int y)
 
     DrawOptionsMenuChoice(gText_MaleSymbol, choiceX, y, styles[0], active);
     DrawOptionsMenuChoice(gText_FemaleSymbol, choiceX + 32, y, styles[1], active);
-    DrawOptionsMenuChoice(gText_LevelSymbol, choiceX + 64, y, styles[2], active);
+    DrawOptionsMenuChoice(gText_FemaleSymbol, choiceX + 64, y, styles[2], active);
 }
 
 
 // sprites
-#define OW_Y      (136)    // bottom window center-ish
-static const s16 sOwX[4] = { 32,  48, 64, 80 }; // S,N,W,E order
+#define FRONT_X   (202)
+#define FRONT_Y   (64)
 
-#define FRONT_X   (176 + 32 -8)
-#define FRONT_Y   (48)
-#define BACK_X    (176 + 32 - 8)
-#define BACK_Y    (64+96)
+#define OW_Y      (124)    // bottom window center-ish
+#define OW_X      (202) // center of the screen, minus the width of the sprite
 
 static void DestroyPreviewSprites(void)
 {
@@ -996,15 +1050,14 @@ static void DestroyPreviewSprites(void)
         FreeAndDestroyTrainerPicSprite(sMenuDataPtr->sprIds[SPR_BACK]),  sMenuDataPtr->sprIds[SPR_BACK]  = SPRITE_NONE;
 
     
-    if (sMenuDataPtr->sprIds[SPR_OW_S] != SPRITE_NONE)
+    if (sMenuDataPtr->sprIds[SPR_OW] != SPRITE_NONE)
     {
-
-        DestroySprite(&gSprites[sMenuDataPtr->sprIds[SPR_OW_S]]);
-        sMenuDataPtr->  sprIds[SPR_OW_S] = SPRITE_NONE; 
+        DestroySprite(&gSprites[sMenuDataPtr->sprIds[SPR_OW]]);
+        sMenuDataPtr->  sprIds[SPR_OW] = SPRITE_NONE; 
     }
 }
 
-static void CreateTrainerPics(void)
+static void CreateTrainerPic(void)
 {
     u32 outfit = gSaveBlock2Ptr->currOutfitId;
     u32 gender = gSaveBlock2Ptr->playerGender;
@@ -1015,67 +1068,63 @@ static void CreateTrainerPics(void)
     u32 frontPalSlot = sMenuDataPtr->slotId ? 9 : 10;
     u32 backPalSlot = sMenuDataPtr->slotId ? 11 : 12;
 
-    // Front trainer pic
-    sMenuDataPtr->sprIds[SPR_FRONT] =
-        CreateTrainerPicSprite(frontId, TRUE, FRONT_X, FRONT_Y,
-                               frontPalSlot, TAG_NONE);
-
-    // Back trainer pic
-    sMenuDataPtr->sprIds[SPR_BACK] =
-        CreateTrainerPicSprite(backId, FALSE, BACK_X, BACK_Y,
-                               backPalSlot, TAG_NONE);
-
-    // Ensure the back sprite’s palette is loaded (mirrors your outfit menu)
-    LoadPalette(gTrainerBacksprites[backId].palette.data,
-                OBJ_PLTT_ID(backPalSlot), PLTT_SIZE_4BPP);
-
-    // set priorit of both so they appear below the text window
-    gSprites[sMenuDataPtr->sprIds[SPR_FRONT]].oam.priority = 1;
-    gSprites[sMenuDataPtr->sprIds[SPR_BACK]].oam.priority = 1;
-
-    gSprites[sMenuDataPtr->sprIds[SPR_BACK]].anims = gTrainerBacksprites[backId].animation;
-    StartSpriteAnim(&gSprites[sMenuDataPtr->sprIds[SPR_BACK]], 0);
+    if (sMenuDataPtr->bigPicIdx == 0) {
+        sMenuDataPtr->sprIds[SPR_FRONT] =
+            CreateTrainerPicSprite(frontId, TRUE, FRONT_X, FRONT_Y, frontPalSlot, TAG_NONE);
+        gSprites[sMenuDataPtr->sprIds[SPR_FRONT]].oam.priority = 1;
+    } else {
+        sMenuDataPtr->sprIds[SPR_BACK] =
+            CreateTrainerPicSprite(backId, FALSE, FRONT_X, FRONT_Y, backPalSlot, TAG_NONE);
+        LoadPalette(gTrainerBacksprites[backId].palette.data,
+                    OBJ_PLTT_ID(backPalSlot), PLTT_SIZE_4BPP);
+        gSprites[sMenuDataPtr->sprIds[SPR_BACK]].oam.priority = 1;
+        gSprites[sMenuDataPtr->sprIds[SPR_BACK]].anims = gTrainerBacksprites[backId].animation;
+        StartSpriteAnim(&gSprites[sMenuDataPtr->sprIds[SPR_BACK]], 0);
+    }
 
     sMenuDataPtr->slotId ^= 1;
 }
 
-static u8 CreateOverworldPreview(u8 dir, s16 x, s16 y)
+static void CreateOverworldPreview(u8 player_avatar_state)
 {
     // Get the standard OW graphics (state NORMAL) for current gender/outfit
     u32 outfit  = gSaveBlock2Ptr->currOutfitId;
     u32 gender  = gSaveBlock2Ptr->playerGender;
     u32 gfxId   = GetPlayerAvatarGraphicsIdByOutfitStateIdAndGender(
-                      outfit, PLAYER_AVATAR_STATE_NORMAL, gender);
+                      outfit, player_avatar_state, gender);
 
-    u8 spr = CreateObjectGraphicsSprite(gfxId, SpriteCallbackDummy, x, y, 0);
+    u8 spr = CreateObjectGraphicsSprite(gfxId, SpriteCallbackDummy, OW_X, OW_Y, 0);
 
-    // Pick a walk anim for this compass dir
-    switch (dir) {
-    case SPR_OW_S: StartSpriteAnim(&gSprites[spr], ANIM_STD_GO_SOUTH); break;
-    case SPR_OW_N: StartSpriteAnim(&gSprites[spr], ANIM_STD_GO_NORTH); break;
-    case SPR_OW_W: StartSpriteAnim(&gSprites[spr], ANIM_STD_GO_WEST ); break;
-    case SPR_OW_E: StartSpriteAnim(&gSprites[spr], ANIM_STD_GO_EAST ); break;
-    }
+    StartSpriteAnim(&gSprites[spr], ANIM_STD_GO_SOUTH); // start with the default anim
 
-    return spr;
-}
-
-static void CreateOverworldRow(void)
-{
-    sMenuDataPtr->sprIds[SPR_OW_S] = CreateOverworldPreview(SPR_OW_S, sOwX[0], OW_Y);
-    //sMenuDataPtr->sprIds[SPR_OW_N] = CreateOverworldPreview(SPR_OW_N, sOwX[1], OW_Y);
-   // sMenuDataPtr->sprIds[SPR_OW_W] = CreateOverworldPreview(SPR_OW_W, sOwX[2], OW_Y);
-    //sMenuDataPtr->sprIds[SPR_OW_E] = CreateOverworldPreview(SPR_OW_E, sOwX[3], OW_Y);
+    sMenuDataPtr->sprIds[SPR_OW] = spr;
 }
 
 static void CreatePreviewSprites(void)
 {
-    CreateOverworldRow();
-    CreateTrainerPics();
+    CreateOverworldPreview(sMenuDataPtr->owState);
+    CreateTrainerPic();
 }
 
 static void RefreshPreviewSprites(void)
 {
+    DestroyPreviewSprites();
+    CreatePreviewSprites();
+}
+
+static void ToggleTrainerPic(void)
+{
+    sMenuDataPtr->bigPicIdx ^= 1; // toggle between front and back pic
+    DestroyPreviewSprites();
+    CreatePreviewSprites();
+}
+
+static void CycleOverworldState(void)
+{
+    sMenuDataPtr->owState++;
+    if (sMenuDataPtr->owState == PLAYER_AVATAR_STATE_COUNT)
+        sMenuDataPtr->owState = PLAYER_AVATAR_STATE_NORMAL;
+
     DestroyPreviewSprites();
     CreatePreviewSprites();
 }
