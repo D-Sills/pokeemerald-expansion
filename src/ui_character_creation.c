@@ -51,9 +51,8 @@
 //==========DEFINES==========//
 enum WindowIds
 {
-    WIN_TOPBAR,
     WIN_OPTIONS,
-    WIN_TEXTBOX,
+    WIN_MESSAGE,
     WIN_YESNO,
 };
 
@@ -141,44 +140,45 @@ static void Task_CreateYesNoMenu(u8 taskId);
 static const struct BgTemplate sMenuBgTemplates[] =
 {
     {
-        .bg = 0,    // options
+        .bg = 0,
         .charBaseIndex = 0,
         .mapBaseIndex = 31,
-        .priority = 0,
-    }, 
-
-    {
-        .bg = 1,    // context menu
-        .charBaseIndex = 1,
-        .mapBaseIndex = 29,
+        .screenSize = 0,
+        .paletteMode = 0,
         .priority = 1,
+        .baseTile = 0,
     },
     {
-        .bg = 2,  // ui tilemap
-        .charBaseIndex = 3,
+        .bg = 1,
+        .charBaseIndex = 0,
         .mapBaseIndex = 30,
-        .priority = 2,
+        .screenSize = 0,
+        .paletteMode = 0,
+        .priority = 0,
+        .baseTile = 0,
     },
     {
-        .bg = 3,   // croll bg
+        .bg = 2,
+        .charBaseIndex = 3,
+        .mapBaseIndex = 29,
+        .screenSize = 0,
+        .paletteMode = 0,
+        .priority = 2,
+        .baseTile = 0,
+    },
+    {
+        .bg = 3,
         .charBaseIndex = 2,
-        .mapBaseIndex = 28,
+        .mapBaseIndex = 21,
+        .screenSize = 0,
+        .paletteMode = 0,
         .priority = 3,
+        .baseTile = 0,
     },
 };
 
 static const struct WindowTemplate sMenuWindowTemplates[] = 
 {
-    [WIN_TOPBAR] = 
-    {
-        .bg = 1,
-        .tilemapLeft = 0,
-        .tilemapTop = 0,
-        .width = 30,
-        .height = 2,
-        .paletteNum = 13,
-        .baseBlock= 02,
-    },
     [WIN_OPTIONS] = // Window ID for the options menu
     {
         .bg = 0,
@@ -187,20 +187,20 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 19,
         .height = 10,
         .paletteNum = 13,
-        .baseBlock = 500,
+        .baseBlock = 0x27,
     },
 };
 
 static const struct WindowTemplate sContextMenuWindowTemplates[] =
 {
-    [WIN_TEXTBOX] = { 
+    [WIN_MESSAGE] = {
         .bg = 1,
         .tilemapLeft = 2,
         .tilemapTop = 15,
         .width = 27,
         .height = 4,
         .paletteNum = 13,
-        .baseBlock = 32,
+        .baseBlock = 0x1B1,
     },
     [WIN_YESNO] = { 
         .bg = 1,
@@ -370,10 +370,6 @@ void CharacterCreation_Init(MainCallback callback)
     sMenuDataPtr->selection[MENUITEM_PRONOUNS] = VarGet(VAR_PRONOUNS);
     sMenuDataPtr->selection[MENUITEM_NAME]     = 0;  // unused, but harmless
 
-    sMenuDataPtr->slotId = 0; // default to slot 0
-    sMenuDataPtr->gfxLoadState = 0;
-    sMenuDataPtr->messageWindowId = 0;
-
     memset(sMenuDataPtr->sprIds, SPRITE_NONE, sizeof(sMenuDataPtr->sprIds));
 
     if (gSaveBlock2Ptr->playerName[0] == EOS)
@@ -448,24 +444,22 @@ static bool8 Menu_DoGfxSetup(void)
             gMain.state++;
         break;
     case 4:
+        
         Menu_InitWindows();
         gMain.state++;
         break;
     case 5:
         PrintAllToWindow();
         CreatePreviewSprites();
-
         HighlightOptionsMenuItem();
 
         ShowBg(0);
         ShowBg(1);
         ShowBg(2);
         ShowBg(3);
-
         taskId = CreateTask(Task_MenuWaitFadeIn, 0);
 
-        
-        //BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
+        BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
         gMain.state++;
         break;
     case 6:
@@ -599,7 +593,9 @@ static void Menu_InitWindows(void)
     DeactivateAllTextPrinters();
     LoadUserWindowBorderGfxOverride(0, 1, BG_PLTT_ID(14));
     LoadMessageBoxGfx(0, 10, BG_PLTT_ID(13));
-    LoadPalette(&gStandardMenuPalette, BG_PLTT_ID(15), PLTT_SIZE_4BPP);   
+    ListMenuLoadStdPalAt(BG_PLTT_ID(12), 1);
+    LoadPalette(&gStandardMenuPalette, BG_PLTT_ID(15), PLTT_SIZE_4BPP);
+
 }
 
 static void PrintToWindow(u8 windowId, u8 colorIdx, u8 x, u8 y, const u8 *str)
@@ -647,7 +643,7 @@ static const u8 sText_CharacterCreationTopBar[] = _("Character Creation");
 
 static void DrawTopBarText(void)
 {
-    PrintToWindow(WIN_TOPBAR, FONT_WHITE, 5, 1, sText_CharacterCreationTopBar);
+    //PrintToWindow(WIN_TOPBAR, FONT_WHITE, 5, 1, sText_CharacterCreationTopBar);
 }
 
 static void DrawLeftSideOptionText(int selection, int y)
@@ -707,7 +703,7 @@ static void PrintAllToWindow(void)
     // Clear the options window
     FillWindowPixelBuffer(WIN_OPTIONS, PIXEL_FILL(0));
     // Clear the top bar window
-    FillWindowPixelBuffer(WIN_TOPBAR, PIXEL_FILL(0));
+    //FillWindowPixelBuffer(WIN_TOPBAR, PIXEL_FILL(0));
 
     // Draw the top bar text
     DrawTopBarText();
@@ -722,9 +718,9 @@ static void PrintAllToWindow(void)
     // Highlight the currently selected item
     HighlightOptionsMenuItem();
 
-    PutWindowTilemap(WIN_TOPBAR);
+    //PutWindowTilemap(WIN_TOPBAR);
     PutWindowTilemap(WIN_OPTIONS);
-    CopyWindowToVram(WIN_TOPBAR, COPYWIN_FULL);
+    //CopyWindowToVram(WIN_TOPBAR, COPYWIN_FULL);
     CopyWindowToVram(WIN_OPTIONS, COPYWIN_FULL);
 }
 
@@ -801,7 +797,7 @@ static void Task_MenuMain(u8 taskId)
             PlaySE(SE_SELECT);
             
             // Confirm finish
-            ShowContextMenu(taskId);
+            gTasks[taskId].func = ShowContextMenu;
         }
     }
 }
@@ -999,11 +995,12 @@ static void DestroyPreviewSprites(void)
     if (sMenuDataPtr->sprIds[SPR_BACK]  != SPRITE_NONE)
         FreeAndDestroyTrainerPicSprite(sMenuDataPtr->sprIds[SPR_BACK]),  sMenuDataPtr->sprIds[SPR_BACK]  = SPRITE_NONE;
 
-    for (int i = SPR_OW_S; i <= SPR_OW_E; i++) {
-        u8 id = sMenuDataPtr->sprIds[i];
-        if (id != SPRITE_NONE && gSprites[id].inUse)
-            DestroySprite(&gSprites[id]);
-        sMenuDataPtr->sprIds[i] = SPRITE_NONE;
+    
+    if (sMenuDataPtr->sprIds[SPR_OW_S] != SPRITE_NONE)
+    {
+
+        DestroySprite(&gSprites[sMenuDataPtr->sprIds[SPR_OW_S]]);
+        sMenuDataPtr->  sprIds[SPR_OW_S] = SPRITE_NONE; 
     }
 }
 
@@ -1016,7 +1013,7 @@ static void CreateTrainerPics(void)
     u32 backId  = GetPlayerTrainerPicIdByOutfitGenderType(outfit, gender, 1);
 
     u32 frontPalSlot = sMenuDataPtr->slotId ? 9 : 10;
-    u32 backPalSlot = sMenuDataPtr->slotId ? 12 : 13;
+    u32 backPalSlot = sMenuDataPtr->slotId ? 11 : 12;
 
     // Front trainer pic
     sMenuDataPtr->sprIds[SPR_FRONT] =
@@ -1066,9 +1063,9 @@ static u8 CreateOverworldPreview(u8 dir, s16 x, s16 y)
 static void CreateOverworldRow(void)
 {
     sMenuDataPtr->sprIds[SPR_OW_S] = CreateOverworldPreview(SPR_OW_S, sOwX[0], OW_Y);
-    sMenuDataPtr->sprIds[SPR_OW_N] = CreateOverworldPreview(SPR_OW_N, sOwX[1], OW_Y);
-    sMenuDataPtr->sprIds[SPR_OW_W] = CreateOverworldPreview(SPR_OW_W, sOwX[2], OW_Y);
-    sMenuDataPtr->sprIds[SPR_OW_E] = CreateOverworldPreview(SPR_OW_E, sOwX[3], OW_Y);
+    //sMenuDataPtr->sprIds[SPR_OW_N] = CreateOverworldPreview(SPR_OW_N, sOwX[1], OW_Y);
+   // sMenuDataPtr->sprIds[SPR_OW_W] = CreateOverworldPreview(SPR_OW_W, sOwX[2], OW_Y);
+    //sMenuDataPtr->sprIds[SPR_OW_E] = CreateOverworldPreview(SPR_OW_E, sOwX[3], OW_Y);
 }
 
 static void CreatePreviewSprites(void)
@@ -1093,11 +1090,11 @@ void RemoveMessageWindow(u8 windowId)
     sMenuDataPtr->messageWindowId = 0; // reset message window ID
 }
 
-void DisplayMessageWindow(u8 taskId, u8 fontId, const u8 *str, void (*callback)(u8 taskId))
+void DisplayMessageWindow(u8 taskId, u8 fontId, const u8 *str, void (*callback))
 {
     s16 *data = gTasks[taskId].data;
 
-    sMenuDataPtr->messageWindowId = AddWindow(&sContextMenuWindowTemplates[WIN_TEXTBOX]);
+    sMenuDataPtr->messageWindowId = AddWindow(&sContextMenuWindowTemplates[WIN_MESSAGE]);
     DisplayMessageAndContinueTask(taskId, sMenuDataPtr->messageWindowId, 10, 13, fontId, GetPlayerTextSpeedDelay(), str, callback);
     ScheduleBgCopyTilemapToVram(1);
 }
