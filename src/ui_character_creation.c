@@ -379,11 +379,10 @@ void CharacterCreation_Init(MainCallback callback)
 
     // seed initial selections
     sMenuDataPtr->selection[MENUITEM_GENDER] = (gSaveBlock2Ptr->playerGender == FEMALE) ? 1 : 0;
-    sMenuDataPtr->selection[MENUITEM_SKIN_TONE] = 0;
-    sMenuDataPtr->selection[MENUITEM_EYE_COLOR] = 0;
-    sMenuDataPtr->selection[MENUITEM_HAIR_COLOR] = 0;
+    sMenuDataPtr->selection[MENUITEM_SKIN_TONE] = gSaveBlock2Ptr->dynpalSkin;
+    sMenuDataPtr->selection[MENUITEM_EYE_COLOR] = gSaveBlock2Ptr->dynpalEye;
+    sMenuDataPtr->selection[MENUITEM_HAIR_COLOR] = gSaveBlock2Ptr->dynpalHair;
     sMenuDataPtr->selection[MENUITEM_PRONOUNS] = VarGet(VAR_PRONOUNS);
-    sMenuDataPtr->selection[MENUITEM_NAME]     = 0;  // unused, but harmless
 
     memset(sMenuDataPtr->sprIds, SPRITE_NONE, sizeof(sMenuDataPtr->sprIds));
 
@@ -949,7 +948,6 @@ static const u8 sTextPalette4[] = _("4");
 
 // --- On-change hooks (put these near the bottom) ---
 static void OnChange_Gender(u8 value)      { gSaveBlock2Ptr->playerGender = (value == 1) ? FEMALE : MALE; /* keep NB purely cosmetic or store elsewhere */ }
-static void OnChange_Palette(u8 value)     { gSaveBlock2Ptr->currOutfitId = value; /* keep NB purely cosmetic or store elsewhere */ }
 static void OnChange_SkinTone(u8 value) { gSaveBlock2Ptr->dynpalSkin = value; /* keep NB purely cosmetic or store elsewhere */ }
 static void OnChange_EyeColor(u8 value) { gSaveBlock2Ptr->dynpalHair = value; /* keep NB purely cosmetic or store elsewhere */ }
 static void OnChange_HairColor(u8 value) { gSaveBlock2Ptr->dynpalEye = value; /* keep NB purely cosmetic or store elsewhere */ }
@@ -994,7 +992,7 @@ static void DrawChoices_SkinTone(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_SKIN_TONE);
     u8 styles[4] = {0};
 
-    styles[selection] = 1;
+    styles[selection] = 3;
 
     DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
     DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
@@ -1007,7 +1005,7 @@ static void DrawChoices_EyeColor(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_EYE_COLOR);
     u8 styles[4] = {0};
 
-    styles[selection] = 1;
+    styles[selection] = 3;
 
     DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
     DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
@@ -1020,7 +1018,7 @@ static void DrawChoices_HairColor(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_HAIR_COLOR);
     u8 styles[4] = {0};
 
-    styles[selection] = 1;
+    styles[selection] = 3;
 
     DrawOptionsMenuChoice(sTextPalette1, choiceX, y, styles[0], active);
     DrawOptionsMenuChoice(sTextPalette2, choiceX + 21, y, styles[1], active);
@@ -1033,7 +1031,7 @@ static void DrawChoices_Pronouns(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_PRONOUNS);
     u8 styles[3] = {0};
 
-    styles[selection] = 1;
+    styles[selection] = 2;
 
     DrawOptionsMenuChoice(gText_MaleSymbol, choiceX, y, styles[0], active);
     DrawOptionsMenuChoice(gText_FemaleSymbol, choiceX + 32, y, styles[1], active);
